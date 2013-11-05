@@ -82,13 +82,52 @@ def construct_classifier(html_file_path):
         if not range_tuple==None:
             range_list.append(range_tuple);
     return range_list;
+
+def sort_classifier(range_list):
+    #まずはすべてのキーに対して，マップを用意
+    range_map_in_map={};
+    for item in range_list:
+        range_map_in_map.setdefault(item, {});
+
+    deletion_key_stack=[];
+    for compare_item_1 in range_map_in_map:
+        for compare_item_2 in range_map_in_map:
+            if not compare_item_1==compare_item_2:
+                #２つの辞書を比較してTrue(compare_item_2がitem1の範囲内だったら，item2をitem1の下に入れる)
+                if compare_range(compare_item_1, compare_item_2)==True:
+                    range_map_in_map[compare_item_1].setdefault(compare_item_2, {});
+                    deletion_key_stack.append(compare_item_2);
+                    #new_range_map_in_map.setdefault()
+    try:
+        for item in deletion_key_stack:
+            del range_map_in_map[item];
+    except:
+        pass;
+
+    return range_map_in_map;
+
+def compare_range(compare_item_1, compare_item_2):
+    item1_start_range=int(compare_item_1[1]);
+    item1_end_range=int(compare_item_1[2]);
+
+    item2_start_range=int(compare_item_2[1]);
+    item2_end_range=int(compare_item_2[2]);
+
+    if item2_start_range >= item1_start_range and item2_end_range <= item1_end_range:
+        #print item1_start_range, item1_end_range
+        #print item2_start_range, item2_end_range
+        #print 'item2 is in the range of item_1';
+        #print '===================='
+        return True;
+    else:
+        return False;
 #ルールが有効でないことがわかったので，コメントアウト
-"""
 def parse(html_file_path):
     middle_node_attribute={'align': 'center', 'style': 'text-align:center;'};
     html=open(html_file_path, 'rb').read();
     root=lxml.html.fromstring(html);
 
+    """
     motif_map_stack=[];
     first_layer_map={};
     second_layer_map={};
@@ -96,8 +135,11 @@ def parse(html_file_path):
     fourth_layer_map={};
     second_layer_name=u'';
     third_layer_name=u'';
+    """
+    leaf_tuple_stack=[];
     p_node_list=root.findall('p') 
     for p_node in p_node_list:
+        """
         if p_node.attrib==middle_node_attribute:
             child_node_list=list(p_node);
             if child_node_list==[]:
@@ -135,7 +177,7 @@ def parse(html_file_path):
                     #TODO ファイル構造的にかなりまずいキー名なのでなんとかすること
                     #４層目のマップを初期化
                     third_layer_map={};
-
+                    """
         #======================================== 
         #葉にあたる部分の要素獲得
         if not p_node.text==None:
@@ -156,19 +198,73 @@ def parse(html_file_path):
                     example_material=None;
 
             #４層目マップへの要素の追加
-            leaf_layer_map[label_ID]={'label_name':fourth_layer_label_name,\
-                                      'label_outline':fourth_layer_outline,\
-                                      'example_material':example_material}; 
-            #fourth_layer_map[label_ID]=leaf_layer_map;
+            leaf_tuple_stack.append( (fourth_layer_label_name,\
+                                    fourth_layer_outline,\
+                                    example_material) ); 
         #TODO A0のようなタイプのノードへの対応
         #葉の要素獲得ここまで
         #======================================== 
-    #print second_layer_map
-"""
+    return leaf_tuple_stack;
 
+def insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack):
+    leaf_parent_map={};
+    #葉の階層の情報から辞書を作成する
+    for leaf_tuple in leaf_tuple_stack:
+        numeric_expression=leaf_tuple[0];
+        if re.search(ur'^[A-Z][0-9]+', leaf_tuple[0].strip()) and re.search(ur'--', leaf_tuple[0].strip())==None:
+            class_number=leaf_tuple[0].strip().split()[0];
+            class_number=re.sub(ur'^[A-Z]', u'', class_number);
+            #==============================
+            #class_numberがleaf階層で親（まだ下に子どもを持っていれば）だったら辞書に登録
+            if len(class_number.split(u'.'))==2:
+                leaf_parent_map[class_number.split(u'.')[0]]={'content':leaf_tuple,\
+                                                              'child':[]};
+
+            #==============================
+            #class_numberがすでに辞書に登録ずみの子どもだったら，childのリストにタプルを追加
+            else:
+                parent_number=class_number.split(u'.')[0]
+                if not parent_number in leaf_parent_map:
+                    class_number=parent_number.rstrip(u'.');
+                    leaf_parent_map[class_number]={'content':leaf_tuple,\
+                                                    'child':[]};
+                else:
+                    (leaf_parent_map[parent_number]['child']).append(leaf_tuple);
+
+    #葉の階層情報を分類して登録する
+    copied_range_map_in_map=range_map_in_map.copy();
+    for item in leaf_parent_map:
+        leaf_parent_number=int(item);
+        #tree_node_numberはタプルで構成される cf.(u'B', u'200', u'299', None)
+        for tree_node_number in range_map_in_map:
+            range_start=int(tree_node_number[1]);
+            range_end=int(tree_node_number[2]);
+            #モチーフ番号が当てはまる階層を探して，当てはまる範囲に登録する
+            if leaf_parent_number >= range_start and leaf_parent_number <=range_end:
+                if range_map_in_map[tree_node_number]=={}:
+                    copied_range_map_in_map[tree_node_number]=leaf_parent_map[str(leaf_parent_number)];
+                else:
+                    for tree_child_node_tuple in range_map_in_map[tree_node_number]:
+                        range_child_start=int(tree_child_node_tuple[1]);
+                        range_child_end=int(tree_child_node_tuple[2]);
+                        if leaf_parent_number >= range_child_start and leaf_parent_number <= range_child_end:
+                            copied_range_map_in_map[tree_node_number][tree_child_node_tuple][leaf_parent_number]=leaf_parent_map[str(leaf_parent_number)];
+    return copied_range_map_in_map;
+
+def draw_tree(range_map_in_map):
+    first_layer_stack=[];
+    print u'=============================='
+    print u'ROOT';
+    for top_item in range_map_in_map:
+        #first_layer_stack.append(u'{}_{}_{}'.format(top_item[1]. top_item[2], top_item[3]));
+        print '|-- {}_{}_{}'.format(top_item[1], top_item[2], top_item[3])
 if __name__=='__main__':
-    path='./htmls/c.htm'
+    path='./htmls/a.htm'
     range_list=construct_classifier(path);
-    #TODO 集めた分類番号範囲から，番号を整理して木構造を作れるようなコードを書く
-    
-    #parse(path);
+    range_map_in_map=sort_classifier(range_list); 
+    leaf_tuple_stack=parse(path);
+    range_map_in_map=insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack);
+    draw_tree(range_map_in_map);
+
+    #with codecs.open(path+'.json', 'w', 'utf-8') as f:
+        #json.dump(range_map_in_map, f, indent=4, ensure_ascii=False);
