@@ -35,7 +35,9 @@ def numeric_process(middle_label):
         range_start=re.sub(ur'^[A-Z]', u'',range_start);
         range_end=re.sub(ur'^[A-Z]', u'',range_end);
         range_start=range_start.strip();
-        range_end=range_end.strip().strip(u'.');
+        #問題がおきたからテスト的に書き換え
+        #range_end=range_end.strip().strip(u'.');
+        range_end=range_end.strip().split(u'.')[0];
         range_tuple=(prefix, range_start, range_end, None);       
     return range_tuple;
 
@@ -211,7 +213,7 @@ def insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack):
     #葉の階層の情報から辞書を作成する
     for leaf_tuple in leaf_tuple_stack:
         numeric_expression=leaf_tuple[0];
-        if re.search(ur'^[A-Z][0-9]+', leaf_tuple[0].strip()) and re.search(ur'--', leaf_tuple[0].strip())==None:
+        if re.search(ur'^[A-Z][0-9]+', leaf_tuple[0].strip()) and re.search(ur'-+', leaf_tuple[0].strip())==None:
             class_number=leaf_tuple[0].strip().split()[0];
             class_number=re.sub(ur'^[A-Z]', u'', class_number);
             #==============================
@@ -257,9 +259,11 @@ def draw_tree(range_map_in_map):
     print u'ROOT';
     for top_item in range_map_in_map:
         #first_layer_stack.append(u'{}_{}_{}'.format(top_item[1]. top_item[2], top_item[3]));
-        print '|-- {}_{}_{}'.format(top_item[1], top_item[2], top_item[3])
+        print u'|-- {}_{}_{}'.format(top_item[1], top_item[2], top_item[3])
+
 if __name__=='__main__':
-    path='./htmls/a.htm'
+    index_char=sys.argv[1];
+    path='./htmls/{}.htm'.format(index_char)
     range_list=construct_classifier(path);
     range_map_in_map=sort_classifier(range_list); 
     leaf_tuple_stack=parse(path);
