@@ -1,10 +1,10 @@
 #! /usr/bin/pytho
 # -*- coding:utf-8 -*-
+__date__='2013/11/14';
 
 import sys, codecs, re, lxml.html, os, json;
 
 def numeric_process(middle_label):
-    print [middle_label]
     if re.search(ur'.+\d+--.+\d+\. .+\r\n.+$', middle_label):
         numeric, char=re.split(ur'\. ', middle_label);
         numeric=numeric.replace(u'\u2020', u'');
@@ -57,7 +57,6 @@ def numeric_process(middle_label):
         #(頭文字, 開始番号，終了番号)
         range_tuple=(prefix, range_start, range_end, char);
 
-
     elif re.search(ur'.+\d+--.+\d+\..*', middle_label):
         numeric=middle_label.replace(u'\u2020', u'');
         range_start, range_end=numeric.split(u'--');
@@ -84,7 +83,6 @@ def construct_classifier(html_file_path):
     for p_node in p_node_list:
         range_tuple=None;
         if p_node.attrib==middle_node_attribute:
-            #U.htmlに対しては，まったく獲得できていないので，ここ以下の問題かと思う
             if not p_node.text==None:
                 middle_label=p_node.text;
                 if re.search(ur'.+\d+--.+\d+\. .+\r\n.+$', middle_label):
@@ -346,7 +344,7 @@ def re_construct_map(original_map):
         for level2 in re_constructed[level1]:
             print 'level 2 keyname:{}'.format(level2);
     """
-        return re_constructed;
+    return re_constructed;
 
 if __name__=='__main__':
     path=sys.argv[1];
@@ -355,7 +353,7 @@ if __name__=='__main__':
     leaf_tuple_stack=parse(path);
     range_map_in_map=insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack);
     draw_tree(range_map_in_map);
-    
+
     re_constructed=re_construct_map(range_map_in_map);
     filename=os.path.basename(path);
     with codecs.open('./parsed_json/'+filename+'.json', 'w', 'utf-8') as f:

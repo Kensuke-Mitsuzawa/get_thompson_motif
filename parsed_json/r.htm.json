@@ -1,4 +1,325 @@
 {
+    "R_300_399_Refuges and recapture.": {
+        "318": {
+            "content": [
+                "R318. †R318. ", 
+                "Girl hidden in skin of her dead mother.", 
+                " Köhler-Bolte I 346."
+            ], 
+            "child": [
+                [
+                    "R318.1. †R318.1. ", 
+                    "Boy hidden under skin in order not to be seen and\r\nprophesied about.", 
+                    " Icelandic: Örvar-Odds saga 12--13."
+                ]
+            ]
+        }, 
+        "313": {
+            "content": [
+                "R313. †R313. ", 
+                "Princess hides in straw.", 
+                "\r\n*Fb “halmstrå” I 540."
+            ], 
+            "child": []
+        }, 
+        "312": {
+            "content": [
+                "R312. †R312. ", 
+                "Forest as refuge.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R312.1. †R312.1. ", 
+                    "Forest as refuge of eloping lovers.", 
+                    " (Cf. †R225.) Schoepperle\r\n391ff.; Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "311": {
+            "content": [
+                "R311. †R311. ", 
+                "Tree refuge.", 
+                " Type\r\n162*; *Fb “træ” III 865a; *Hdwb. d. Märchens I 199a; BP I 429, II 195f.--Breton: Sébillot\r\nIncidents s.v. “arbres”; Missouri French:\r\nCarrière; India: *Thompson-Balys; Chinese: Graham; Japanese: Ikeda; N. A.\r\nIndian: *Thompson Tales 341 n. 230; S. A. Indian (Toba): Métraux MAFLS XL 62;\r\nAfrica (Zulu): Callaway 145, 346."
+            ], 
+            "child": [
+                [
+                    "R311.1. †R311.1. ", 
+                    "Trees magically hide a fugitive.", 
+                    " Dh II 40ff.; N. A. Indian: Kroeber JAFL XXI 225."
+                ], 
+                [
+                    "R311.1.1. †R311.1.1. ", 
+                    "Thorn-brake as refuge.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "R311.2. †R311.2. ", 
+                    "King escapes pursuers through hollow tree in his hall.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "R311.3. †R311.3. ", 
+                    "Stolen child found in hollow tree.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R311.4. †R311.4. ", 
+                    "Stretching tree refuge for fugitive.", 
+                    " (Cf. †D482.1.) India:\r\n*Thompson-Balys."
+                ]
+            ]
+        }, 
+        "310": {
+            "content": [
+                "R310. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "317": {
+            "content": [
+                "R317. †R317. ", 
+                "Well (spring) as refuge.", 
+                "\r\nFb “kilde” II 118b; Irish myth: Cross; Africa (Benga): Nassau 225 No. 33,\r\n(Kaffir): Theal 129, (Basuto): Jacottet 160 No. 23."
+            ], 
+            "child": []
+        }, 
+        "316": {
+            "content": [
+                "R316. †R316. ", 
+                "Refuge on rock in sea.", 
+                "\r\nFinnish: Kalevala rune 4."
+            ], 
+            "child": [
+                [
+                    "R316.1. †R316.1. ", 
+                    "Refuge on island.", 
+                    "\r\nIcelandic: Boberg."
+                ]
+            ]
+        }, 
+        "315": {
+            "content": [
+                "R315. †R315. ", 
+                "Cave as refuge.", 
+                " Irish\r\nmyth: *Cross; Jewish: *Neuman; India: Thompson-Balys; Eskimo, (Greenland):\r\nRasmussen I 150."
+            ], 
+            "child": [
+                [
+                    "R315.1. †R315.1. ", 
+                    "Cave as eloping lovers‘ refuge.", 
+                    " (Cf. †R225, †T35.)\r\nSchoepperle 391ff.; Irish myth: Cross."
+                ], 
+                [
+                    "R315.2. †R315.2. ", 
+                    "Christians crushed in cave where they take refuge from\r\nheathen.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "314": {
+            "content": [
+                "R314. †R314. ", 
+                "Negro takes refuge under princess’s throne.", 
+                " Malone PMLA XLIII 407."
+            ], 
+            "child": []
+        }, 
+        "345": {
+            "content": [
+                "R345. †R345. ", 
+                "Cities of refuge.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "322": {
+            "content": [
+                "R322. †R322. ", 
+                "Eagle’s nest as refuge.", 
+                "\r\nScottish: Campbell-McKay 1 n., 25; N. A. Indian (California): Gayton and Newman\r\n95."
+            ], 
+            "child": []
+        }, 
+        "323": {
+            "content": [
+                "R323. †R323. ", 
+                "Refuge in upper world.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R323.1. †R323.1. ", 
+                    "Murderer escapes to sky on sky rope.", 
+                    " (Cf. †F51.) India:\r\nThompson-Balys."
+                ], 
+                [
+                    "R323.2. †R323.2. ", 
+                    "Murderer escapes to sky in magic chariot.", 
+                    " Greek: Euripides‘ Medea."
+                ]
+            ]
+        }, 
+        "321": {
+            "content": [
+                "R321. †R321. ", 
+                "Escape to the stars.", 
+                " Fugitives rise in the air and become stars.\r\n(Cf. †R324.) Greek: Fox 250; Hindu: Keith 76; Japanese: Ikeda; Korean: Zong\r\nin-Sob 218 No. 98; Eskimo (West Hudson Bay): Boas BAM XV 360; N. A. Indian:\r\nThompson Tales 291f. nn. 71, 71a; S. A. Indian (Chiriguano): Métraux RMLP\r\nXXXIII 158, 164, (Jivaro): ibid. 149."
+            ], 
+            "child": [
+                [
+                    "R321.1. †R321.1. ", 
+                    "Sister escapes to the stars to avoid marrying brother.", 
+                    " He is the thunder and her face is Lightning. India:\r\nThompson-Balys."
+                ], 
+                [
+                    "R321.2. †R321.2. ", 
+                    "Escape to moon.", 
+                    "\r\nPursued hero escapes to moon. India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "326": {
+            "content": [
+                "R326. †R326. ", 
+                "Escape to fairyland.", 
+                " (Cf. †F210.) Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "341": {
+            "content": [
+                "R341. †R341. ", 
+                "Escape by intervention of Providence.", 
+                " (Cf. †F942.1.)"
+            ], 
+            "child": [
+                [
+                    "R341.1. †R341.1. ", 
+                    "Lightning strikes branch on which man is being hanged.", 
+                    " Delay gives him chance\r\nto prove his innocence. (Cf. †R175.) U.S.: *Baughman."
+                ]
+            ]
+        }, 
+        "324": {
+            "content": [
+                "R324. †R324. ", 
+                "Refuge in air.", 
+                " Fugitive supernaturally rises in air to escape. (Cf. †R321.)\r\nIndia: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R324.1. †R324.1. ", 
+                    "Escape from battle by flying in air.", 
+                    " Irish myth: *Cross; Eskimo (Mackenzie Area): Jenness 81,\r\n86, (West Hudson Bay): Boas BAM XV 315, 541f., (Labrador): Hawkes GSCan XIV\r\n151, (Greenland): Rasmussen III 99f., Rink 320, 455, 460."
+                ]
+            ]
+        }, 
+        "325": {
+            "content": [
+                "R325. †R325. ", 
+                "Church (altar) as refuge.", 
+                " Fb “kirke” II 125b; Irish myth: *Cross; Greek: Frazer Apollodorus I 276\r\nn. 4; Jewish: *Neuman; Gaster Thespis 303f.; Japanese: Ikeda."
+            ], 
+            "child": [
+                [
+                    "R325.1. †R325.1. ", 
+                    "Devil chases ghost of wicked man until he puts his head\r\ninto chapel window.", 
+                    " (Cf. †E754.) England: *Baughman."
+                ], 
+                [
+                    "R325.2. †R325.2. ", 
+                    "Idol cracks open to grant refuge to fugitive in answer to\r\nprayer; then closes again.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "R325.3. †R325.3. ", 
+                    "Saint offers murderer refuge.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "335": {
+            "content": [
+                "R335. †R335. ", 
+                "Roof as refuge for pursued animals.", 
+                " West Indies: *Flowers 573 --75, Parsons MAFLS XVIII (3) 26\r\nNo. 6."
+            ], 
+            "child": []
+        }, 
+        "327": {
+            "content": [
+                "R327. †R327. ", 
+                "Earth opens to rescue fugitive.", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "336": {
+            "content": [
+                "R336. †R336. ", 
+                "Refuge under kettle.", 
+                "\r\nIcelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "300": {
+            "content": [
+                "R300. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "331": {
+            "content": [
+                "R331. †R331. ", 
+                "Hero takes refuge at king’s court.", 
+                " *Dickson 143 nn. 140--42; Deutschbein 34; *Boje 74ff."
+            ], 
+            "child": []
+        }, 
+        "355": {
+            "content": [
+                "R355. †R355. ", 
+                "Eloping girl recaptured by parents.", 
+                " (Cf. †R225.) Type 516;\r\nRösch FFC LXXVII 111."
+            ], 
+            "child": []
+        }, 
+        "352": {
+            "content": [
+                "R352. †R352. ", 
+                "Lovers fleeing from slavery are recaptured.", 
+                " (Cf. †R211.4.) Italian\r\nNovella: *Rotunda."
+            ], 
+            "child": []
+        }, 
+        "351": {
+            "content": [
+                "R351. †R351. ", 
+                "Fugitive discovered by reflection in water.", 
+                " *Type 408; *Cox 503;\r\n*Cosquin Contes indiens 85ff.; *Köhler-Bolte I 281; Köhler-Bolte Zs. f. Vksk.\r\nVI 64 to Gonzenbach No. 14; Malone PMLA XLIII 399.--India: *Thompson-Balys;\r\nChinese: Graham; Japanese: Ikeda; Indonesia: DeVries‘s list No. 212, Dixon 140 n. 21, 226 n. 33; New Hebrides,\r\nTorres Straits, New Guinea: ibid. 140 n. 21; Melanesia: ibid. 226 n. 33; N. A.\r\nIndian: *Thompson Tales 352 n. 270."
+            ], 
+            "child": [
+                [
+                    "R351.1. †R351.1. ", 
+                    "Milk drops from woman’s breast on tiger‘s leg and reveals\r\nher hiding place in tree.", 
+                    " S. A. Indian (Chiriguano): Métraux RMLP XXXIII 156, 161."
+                ]
+            ]
+        }, 
+        "350": {
+            "content": [
+                "R350. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }
+    }, 
     "R_0_99_None": {
         "61": {
             "content": [
@@ -968,6 +1289,1824 @@
                 "R54. †R54. ", 
                 "Hero locked up while his father is murdered.", 
                 " Icelandic: Boberg."
+            ], 
+            "child": []
+        }
+    }, 
+    "R_100_199_None": {
+        "151": {
+            "content": [
+                "R151. †R151. ", 
+                "Husband rescues wife.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "R151.1. †R151.1. ", 
+                    "Husband rescues stolen wife.", 
+                    " (Cf. †H1385.3, †R11.1.)\r\nKrappe Revue Celtique XLVIII (1931) 94--123; Irish myth: *Cross; Spanish: Boggs\r\nFFC XC 46 No. 316; India: *Thompson-Balys; Japanese: Ikeda; N. A. Indian:\r\n*Thompson Tales 342 n. 235; Africa (Ila, Rhodesia): Smith and Dale II 399 No.\r\n1."
+                ], 
+                [
+                    "R151.1.1. †R151.1.1. ", 
+                    "Husband frees wife who has sold herself into slavery in\r\norder to ransom him.", 
+                    " Italian Novella:\r\nRotunda."
+                ], 
+                [
+                    "R151.2. †R151.2. ", 
+                    "Husband rescues wife from burning at stake.", 
+                    " (Cf. †R175.) *Dickson\r\n78."
+                ], 
+                [
+                    "R151.3. †R151.3. ", 
+                    "Husband rescues wife from cannibal.", 
+                    " (Cf. †G10.) Chinese:\r\nGraham."
+                ]
+            ]
+        }, 
+        "150": {
+            "content": [
+                "R150. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "153": {
+            "content": [
+                "R153. †R153. ", 
+                "Parents rescues child.", 
+                " (Cf. †S351.)"
+            ], 
+            "child": [
+                [
+                    "R153.1. †R153.1. ", 
+                    "Parents rescue son.", 
+                    null
+                ], 
+                [
+                    "R153.1.1. †R153.1.1. ", 
+                    "Parents rescue son from lower world on rope.", 
+                    " Africa (Basuto): Jacottet 86 No. 13."
+                ], 
+                [
+                    "R153.2. †R153.2. ", 
+                    "Father rescues children.", 
+                    null
+                ], 
+                [
+                    "R153.2.1. †R153.2.1. ", 
+                    "Father hides children from murderous mother.", 
+                    " After many years they come forth and she dies of fright.\r\n*Type 765."
+                ], 
+                [
+                    "R153.3. †R153.3. ", 
+                    "Father rescues son(s).", 
+                    "\r\nIcelandic: Lagerholm 170ff., *Boberg."
+                ], 
+                [
+                    "R153.3.1. †R153.3.1. ", 
+                    "Father rescues son captured by enemy.", 
+                    " Type 899*; Spanish Exempla: Keller."
+                ], 
+                [
+                    "R153.3.2. †R153.3.2. ", 
+                    "Father rescues son stolen by animals.", 
+                    " Africa (Bushmen, South of Zambesi): Theal 56."
+                ], 
+                [
+                    "R153.3.3. †R153.3.3. ", 
+                    "Old robber frees his three sons: relates frightful\r\nadventures.", 
+                    " In order to free them he must relate three adventures, each more\r\nfrightful than the last. *Type 953; *BP III 369; Wesselski Märchen 217 No. 29."
+                ], 
+                [
+                    "R153.3.4. †R153.3.4. ", 
+                    "Father rescues son from prison.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "R153.3.5. †R153.3.5. ", 
+                    "Fathers thrust sons above water even as they themselves\r\ndrown.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "R153.3.6. †R153.3.6. ", 
+                    "Father hides son from Satan.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "R153.4. †R153.4. ", 
+                    "Mother rescues son.", 
+                    null
+                ], 
+                [
+                    "R153.4.1. †R153.4.1. ", 
+                    "Mother rescues fettered son.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "R153.4.2. †R153.4.2. ", 
+                    "Mother hides twin (triplet) sons to keep them from death.", 
+                    " (Cf. †S314.) Africa\r\n(Fang): Tessman 90, Einstein 56."
+                ], 
+                [
+                    "R153.5. †R153.5. ", 
+                    "Father rescues daughter.", 
+                    "\r\nIrish myth: *Cross; Icelandic: Lagerholm 134ff., *Boberg; Eskimo (Greenland):\r\nRasmussen III 85, (Central Eskimo): Boas RBAE VI 584, (Cumberland Sound): Boas\r\nBAM XV 164."
+                ]
+            ]
+        }, 
+        "152": {
+            "content": [
+                "R152. †R152. ", 
+                "Wife rescues husband.", 
+                " Type 316; Missouri French: Carrière; Greek:\r\nGrote I 462f.; Jewish: Neuman; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R152.1. †R152.1. ", 
+                    "Disguised wife helps husband escape from prison.", 
+                    " (Cf. †R121.) *Types 880,\r\n888, 890; Spanish Exempla: Keller; Italian Novella: Rotunda; West Indies:\r\nFlowers 521."
+                ], 
+                [
+                    "R152.2. †R152.2. ", 
+                    "Woman disguised as man sells herself into slavery in order\r\nto ransom (free) her husband (lover).", 
+                    " (Cf. †K1837.) Italian Novella: *Rotunda."
+                ], 
+                [
+                    "R152.3. †R152.3. ", 
+                    "Wives change clothes with their imprisoned husbands when\r\nallowed to visit them.", 
+                    " Husbands escape.\r\nGreek: Grote I 463."
+                ], 
+                [
+                    "R152.4. †R152.4. ", 
+                    "Wife gets back her husband from land of serpents by\r\ncharming him with her beautiful dance.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R152.5. †R152.5. ", 
+                    "Transformed wife takes husband out of captivity.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "155": {
+            "content": [
+                "R155. †R155. ", 
+                "Brothers rescue brothers.", 
+                " Icelandic: *Boberg; Missouri French:\r\nCarrière; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R155.1. †R155.1. ", 
+                    "Youngest brother rescues his elder brothers.", 
+                    " (Cf. †L31.) *Types 303,\r\n303*, 327**, 471, 551; MacCulloch Childhood 353; *BP I 503ff., 528ff.--\r\nIcelandic: *Boberg; Missouri French: Carrière; Arabian: Burton Nights S V 249;\r\nJewish: *Neuman; India: *Thompson-Balys; Indonesia: DeVries’s list No. 182; N. A. Indian (Arapaho): Dorsey and Kroeber\r\nFM V 23ff. Nos. 10, 11, (Dakota): Wissler JAFL XX 199, (Chinook): Boas BBAE XXV\r\n9ff. Nos. 1, 2, (Quinault): Farrand JE II 114 No. 10, (Caddo): Dorsey CI XLI\r\n58ff. Nos. 32, 33, (Klikitat): Jacobs U Wash II 7; Africa (Thonga): Junod 229,\r\n(Fjort): Dennett 64 No. 12."
+                ], 
+                [
+                    "R155.2. †R155.2. ", 
+                    "Elder brother rescues younger.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "154": {
+            "content": [
+                "R154. †R154. ", 
+                "Children rescue parents.", 
+                "\r\nIndia: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R154.0.1. †R154.0.1. ", 
+                    "Children rescue mother from lion’s den.", 
+                    " Dickson 57 n. 75."
+                ], 
+                [
+                    "R154.1. †R154.1. ", 
+                    "Son rescues mother.", 
+                    "\r\nIrish myth: *Cross; India: *Thompson-Balys; Buddhist myth: Malalasekera I 207."
+                ], 
+                [
+                    "R154.1.1. †R154.1.1. ", 
+                    "Son rescues mother from burning at stake.", 
+                    " (Cf. †R175.) *Dickson\r\n128ff. nn. 98, 99."
+                ], 
+                [
+                    "R154.2. †R154.2. ", 
+                    "Son rescues father.", 
+                    "\r\nType 301C*; Irish myth: *Cross; Icelandic: Boberg; India: *Thompson-Balys."
+                ], 
+                [
+                    "R154.2.1. †R154.2.1. ", 
+                    "Son frees father by bringing riddle the king cannot solve.", 
+                    " (Cf. †H542.) Spanish:\r\nBoggs FFC XC 112 No. 927*B."
+                ], 
+                [
+                    "R154.2.2. †R154.2.2. ", 
+                    "Son recovers father‘s bones.", 
+                    " Hawaii: Beckwith myth 259, 263, 346f.; Tahiti: ibid. 266;\r\nMaori: ibid. *249."
+                ], 
+                [
+                    "R154.2.3. †R154.2.3. ", 
+                    "Sons rescue father.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R154.3. †R154.3. ", 
+                    "Daughter rescues father.", 
+                    "\r\nRumania: Schullerus FFC LXXVIII No. 879*; Italian Novella: Rotunda; India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "157": {
+            "content": [
+                "R157. †R157. ", 
+                "Sisters rescue sisters.", 
+                " (Cf. †G551.2.)"
+            ], 
+            "child": [
+                [
+                    "R157.1. †R157.1. ", 
+                    "Youngest sister rescues elder.", 
+                    " (Cf. †L50.) *Type 311;\r\n*BP I 398ff.; *Roberts 219."
+                ]
+            ]
+        }, 
+        "156": {
+            "content": [
+                "R156. †R156. ", 
+                "Brother rescues sister(s).", 
+                " (Cf. †G551.1.) Irish\r\nmyth: Cross; Icelandic: *Boberg; Spanish: Espinosa II No. 18; Greek: Grote I\r\n156; India: *Thompson-Balys; Chinese: Graham."
+            ], 
+            "child": []
+        }, 
+        "158": {
+            "content": [
+                "R158. †R158. ", 
+                "Sister rescues brother(s).", 
+                " *Type 707; Icelandic: *Boberg; Rumanian: Schullerus FFC\r\nLXXVII No. 879*; India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "191": {
+            "content": [
+                "R191. †R191. ", 
+                "King (prince) returns home (from exile) and rescues his\r\nnative country.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "115": {
+            "content": [
+                "R115. †R115. ", 
+                "King transformed to parrot frees captured parrots.", 
+                " (Cf. †D641.)\r\n*Fischer-Bolte 209."
+            ], 
+            "child": [
+                [
+                    "R115.1. †R115.1. ", 
+                    "Husband transformed into mouse so he can enter cave-prison\r\nof his wife.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "117": {
+            "content": [
+                "R117. †R117. ", 
+                "Rescue from being burned.", 
+                " (Cf. †R175.) Icelandic: Lagerholm 117--18,\r\n*Boberg; Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "116": {
+            "content": [
+                "R116. †R116. ", 
+                "Rescue from robbers’ den.", 
+                " (Cf. †R111.1.2.) *Type 851; BP I 188ff.;\r\nFrench Canadian: Sister Marie Ursule; Jewish: Neuman; India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "137": {
+            "content": [
+                "R137. †R137. ", 
+                "Mermaid rescues heroine who has been thrown overboard.", 
+                " (Cf. †B81.) Italian:\r\nBasile Pentamerone IV No. 7; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "110": {
+            "content": [
+                "R110. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "R110.1. †R110.1. ", 
+                    "Goddess delivers and restores goods of man thrown into\r\njail.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "135": {
+            "content": [
+                "R135. †R135. ", 
+                "Abandoned children (wife, etc.) find way back by clue\r\n(bread-crumb, grain, pebble, etc.).", 
+                " They have dropped the objects while being led away. *Types 327,\r\n431, 620, 955; *BP I 115ff., 124, 370; Köhler-Bolte I 134; *Penzer III 104 n.\r\n2; Fb “ært” III 1153b, “gryn” IV 187a;\r\n*Saintyves Perrault 310. -- Irish myth: Cross; Italian: Basile Pentamerone V\r\nNo. 8; Japanese: Ikeda; Indonesia: *Dixon 227 n. 35, DeVries’s list No. 147;\r\nPhilippine: Fansler MAFLS XII 442; Lkuñgen: Hill-Tout JAI XXXVII 334; S. A.\r\nIndian (Warrau): Métraux RMLP XXXIII 145; Africa (Kaffir): Theal 120."
+            ], 
+            "child": [
+                [
+                    "R135.0.1. †R135.0.1. ", 
+                    "Stolen wife makes trail of speaking spittle for husband.", 
+                    " Spittle speaks and directs him. Jamaica: Beckwith MAFLS\r\nXVII 263 No. 67."
+                ], 
+                [
+                    "R135.0.2. †R135.0.2. ", 
+                    "Trail of grain (seeds).", 
+                    " (Cf. †R267.) India: *Thompson-Balys."
+                ], 
+                [
+                    "R135.0.2.1. †R135.0.2.1. ", 
+                    "Trail of rice husks.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "R135.0.3. †R135.0.3. ", 
+                    "Trail of jewels.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "R135.0.4. †R135.0.4. ", 
+                    "Trail of shreds of dress.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "R135.0.5. †R135.0.5. ", 
+                    "Trail of thread.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "R135.0.6. †R135.0.6. ", 
+                    "Trail of ashes.", 
+                    " India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "R135.0.7. †R135.0.7. ", 
+                    "Trail of flowers.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R135.1. †R135.1. ", 
+                    "Crumb (grain) trail eaten by birds.", 
+                    " Lost persons cannot find\r\nway back. *Types 327, 431; Missouri French: Carrière; Japanese: Ikeda."
+                ], 
+                [
+                    "R135.1.1. †R135.1.1. ", 
+                    "Feathers left to mark trail blown away by wind.", 
+                    " S. A. Indian (Warrau):\r\nMétraux RMLP XXXIII 145."
+                ]
+            ]
+        }, 
+        "112": {
+            "content": [
+                "R112. †R112. ", 
+                "Magic rescue of prisoner from mound.", 
+                " (Cf. †R45.) *Fb “höj” I 740b; Irish myth: Cross;\r\nSpanish: Espinosa III No. 140; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R112.1. †R112.1. ", 
+                    "Three blasts on horn before sunrise to rescue prisoner from\r\nmound.", 
+                    " *Fb “höj” I\r\n740b."
+                ], 
+                [
+                    "R112.2. †R112.2. ", 
+                    "Riding three times around hill to free captive confined\r\nwithin.", 
+                    " Fb “ride” III 52b."
+                ], 
+                [
+                    "R112.3. †R112.3. ", 
+                    "Rescue of prisoners from fairy stronghold.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "176": {
+            "content": [
+                "R176. †R176. ", 
+                "Executioner miraculously blinded: condemned man saved.", 
+                " Jewish: *bin Gorion Born Judas@2 I 39, 361, Neuman."
+            ], 
+            "child": []
+        }, 
+        "175": {
+            "content": [
+                "R175. †R175. ", 
+                "Rescue at the stake.", 
+                " (Cf. †R151.2, †R154.1.1, †R164.2, †R215.)\r\n*Dickson 78 n. 40; *Boje 116ff.; English: Wells 97 (Chevalere Assigne);\r\nIcelandic: *Boberg; Jewish: *Neuman; India: Thompson-Balys; West Indies:\r\nFlowers 572."
+            ], 
+            "child": [
+                [
+                    "R175.1. †R175.1. ", 
+                    "Escape from sacrificial altar on ram with golden fleece.", 
+                    " Greek: Grote I 117."
+                ]
+            ]
+        }, 
+        "138": {
+            "content": [
+                "R138. †R138. ", 
+                "Rescue from shipwreck.", 
+                "\r\nIcelandic: *Boberg; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R138.1. †R138.1. ", 
+                    "Mermaid rescues hero (boy) from shipwreck.", 
+                    " Icelandic: Lagerholm 164f., Boberg."
+                ], 
+                [
+                    "R138.2. †R138.2. ", 
+                    "Gam rescues hero as boy from shipwreck.", 
+                    " Icelandic: Lagerholm 163--164."
+                ]
+            ]
+        }, 
+        "100": {
+            "content": [
+                "R100. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "170": {
+            "content": [
+                "R170. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "182": {
+            "content": [
+                "R182. †R182. ", 
+                "True rescuer hidden by girl when he arrives to claim her.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "181": {
+            "content": [
+                "R181. †R181. ", 
+                "Demon enclosed in bottle released.", 
+                " *Type 331; *BP II\r\n414ff., IV 321; Jewish: Neuman, **Levi Revue des Études Juives LXXXV 137;\r\nIndia: *Thompson-Balys; Japanese: Ikeda."
+            ], 
+            "child": [
+                [
+                    "R181.1. †R181.1. ", 
+                    "Demon imprisoned in tree released.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "187": {
+            "content": [
+                "R187. †R187. ", 
+                "Horn of Roncevalles.", 
+                "\r\nHero calls aid of waiting soldiers on horn. *Thien Motive 32; Old French:\r\nChanson de Roland."
+            ], 
+            "child": [
+                [
+                    "R187.1. †R187.1. ", 
+                    "Dord fían.", 
+                    "\r\nA call used by members of a fían (warrior band) for summoning aid. Irish myth:\r\nCross."
+                ]
+            ]
+        }, 
+        "185": {
+            "content": [
+                "R185. †R185. ", 
+                "Mortal fights with “Death”.", 
+                " (Cf. †R169.16.) *BP III\r\n293; Greek: *Frazer Apollodorus I 92 n. 3, Fox 38, 107 (Alcestis, Sisyphus);\r\nIndia: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R185.1. †R185.1. ", 
+                    "Mortal deceives Angel of Death.", 
+                    " (Cf. †V233.) Jewish:\r\nNeuman."
+                ]
+            ]
+        }, 
+        "188": {
+            "content": [
+                "R188. †R188. ", 
+                "Rescued person horrifies rescuers: e.g., they swoon on\r\nseeing him.", 
+                " Scottish: Campbell-McKay No.\r\n2. and note."
+            ], 
+            "child": []
+        }, 
+        "142": {
+            "content": [
+                "R142. †R142. ", 
+                "Exposed children swallowed by earth; vomited up when grown.", 
+                " (Cf. †F900.) Jewish:\r\nNeuman."
+            ], 
+            "child": []
+        }, 
+        "143": {
+            "content": [
+                "R143. †R143. ", 
+                "Abandoned man befriended by a Centaur.", 
+                " (Cf. †B21.) Greek: Grote\r\nI 109."
+            ], 
+            "child": []
+        }, 
+        "141": {
+            "content": [
+                "R141. †R141. ", 
+                "Rescue from well.", 
+                "\r\nIndia: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "121": {
+            "content": [
+                "R121. †R121. ", 
+                "Means of rescue from prison.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R121.1. †R121.1. ", 
+                    "Princess pulled through prison window by hand and freed.", 
+                    " Cape Verde Islands: Parsons MAFLS XV (1) 280 No. 91, 283\r\nNo. 92."
+                ], 
+                [
+                    "R121.2. †R121.2. ", 
+                    "Rescuer impersonates captive and deceives blind guardian\r\nwhile captive escapes.", 
+                    " Mangaia (Cook\r\nGroup): Dixon 75."
+                ], 
+                [
+                    "R121.3. †R121.3. ", 
+                    "House burned (torn) down to deliver man imprisoned in it.", 
+                    " *Chauvin VI 74 No. 239."
+                ], 
+                [
+                    "R121.4. †R121.4. ", 
+                    "Ants carry silk threads to prisoner, who makes rope and\r\nescapes.", 
+                    " They have thread tied to their\r\nfeet. Fischer-Bolte 212."
+                ], 
+                [
+                    "R121.5. †R121.5. ", 
+                    "Ariadne-thread.", 
+                    "\r\nPrisoner given a thread as a clue to find his way out of the labyrinth in which\r\nhe is being confined. *Herbert III 204; Oesterley No. 63; Greek: Frazer\r\nApollodorus II 135 n. 3."
+                ], 
+                [
+                    "R121.6. †R121.6. ", 
+                    "Rescue from prison by saint, who enters and breaks fetters.", 
+                    " (Cf. †R165.) Alphabet\r\nNo. 436; *Loomis White Magic 89, 93; Icelandic: *Boberg."
+                ], 
+                [
+                    "R121.6.1. †R121.6.1. ", 
+                    "Saint appears to captor in vision and demands prisoner‘s\r\nrelease.", 
+                    "\r\n(Cf. †R165.) Irish myth: Cross."
+                ], 
+                [
+                    "R121.6.2. †R121.6.2. ", 
+                    "Locks marvelously open for person.", 
+                    " Irish myth: Cross\r\n(†F1088.4); Jewish: Neuman."
+                ], 
+                [
+                    "R121.7. †R121.7. ", 
+                    "Lovers ransomed from prison.", 
+                    " Italian Novella: *Rotunda."
+                ], 
+                [
+                    "R121.8. †R121.8. ", 
+                    "Fairy mound destroyed to rescue person confined in it.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "R121.9. †R121.9. ", 
+                    "Stream carries communication between prisoner and rescuer.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "R121.10. †R121.10. ", 
+                    "With her teeth woman files away chain tying up husband.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "122": {
+            "content": [
+                "R122. †R122. ", 
+                "Miraculous rescue.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "R122.1. †R122.1. ", 
+                    "Prisoner whirled away in blaze of fire.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "R122.2. †R122.2. ", 
+                    "Prisoner carried off in cloud.", 
+                    " (Cf. †D2121.7.) Irish\r\nmyth: Cross."
+                ]
+            ]
+        }, 
+        "123": {
+            "content": [
+                "R123. †R123. ", 
+                "Boon granted after prayer and widow’s son is released from\r\nprison.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "168": {
+            "content": [
+                "R168. †R168. ", 
+                "Angels as rescuers.", 
+                " Irish myth: Cross (†R169.12); Jewish:\r\n*Neuman."
+            ], 
+            "child": []
+        }, 
+        "169": {
+            "content": [
+                "R169. †R169. ", 
+                "Other rescuers.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R169.1. †R169.1. ", 
+                    "Hero in disguise of foolish knight, then of black knight,\r\nrescues lady.", 
+                    " (Cf. †R222.) English: Wells 147 (Ipomadon)."
+                ], 
+                [
+                    "R169.2. †R169.2. ", 
+                    "Boys rescued from beasts by hermit.", 
+                    " (Cf. †N843, †R131.10.) Dickson\r\n105."
+                ], 
+                [
+                    "R169.3. †R169.3. ", 
+                    "Boy saved by werwolf.", 
+                    " (Cf. †D113.1.1.) English: Wells 19 (William\r\nof Palerne)."
+                ], 
+                [
+                    "R169.4. †R169.4. ", 
+                    "Hero rescued by servant.", 
+                    " (Cf. †P361, †R53.4.) *Type 519, 851; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "R169.4.1. †R169.4.1. ", 
+                    "Rescue of bride from mysterious perils by hidden faithful\r\nservant.", 
+                    "\r\nType 516; *Rösch FFC LXXVII 128; India: *Thompson-Balys."
+                ], 
+                [
+                    "R169.4.2. †R169.4.2. ", 
+                    "Rescue of king’s children by faithful servant.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "R169.5. †R169.5. ", 
+                    "Hero rescued by friend.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "R169.5.1. †R169.5.1. ", 
+                    "Hero‘s wife rescued by his faithful friend.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R169.6. †R169.6. ", 
+                    "Youth saved from death sentence by father’s friend.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "R169.7. †R169.7. ", 
+                    "Royal minister rescues abandoned queen(s).", 
+                    " (Cf. †P110.) India:\r\nThompson-Balys."
+                ], 
+                [
+                    "R169.8. †R169.8. ", 
+                    "Predestined rescuer.", 
+                    "\r\nSouth Africa: Bourhill and Drake 237ff. No. 20."
+                ], 
+                [
+                    "R169.9. †R169.9. ", 
+                    "Boy rescued by childless woman.", 
+                    " Africa (Fang): Tessman 91."
+                ], 
+                [
+                    "R169.10. †R169.10. ", 
+                    "Unpromising hero as rescuer.", 
+                    " (Cf. †L100.) India:\r\nThompson-Balys."
+                ], 
+                [
+                    "R169.10.1. †R169.10.1. ", 
+                    "Fool rescues girl and wins her for his wife.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R169.11. †R169.11. ", 
+                    "Unknown helper(s) emerge(s) in the last moment and turn(s)\r\nout later to be well known.", 
+                    " (Cf. †R222.) Icelandic: *Boberg."
+                ], 
+                [
+                    "R169.12. †R169.12. ", 
+                    "Hero rescued by sailors.", 
+                    "\r\nFrench Canadian: Sister Marie Ursule."
+                ], 
+                [
+                    "R169.13. †R169.13. ", 
+                    "Child rescued by nurse.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "R169.14. †R169.14. ", 
+                    "Wounded hero restored in peasant‘s house.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "R169.15. †R169.15. ", 
+                    "Rescue by stranger.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R169.16. †R169.16. ", 
+                    "Death as rescuer.", 
+                    " (Cf. †R185.) Africa (Dahomé): Einstein 27."
+                ]
+            ]
+        }, 
+        "164": {
+            "content": [
+                "R164. †R164. ", 
+                "Rescue by giant.", 
+                " (Cf. †G100.) India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R164.1. †R164.1. ", 
+                    "Giant rescues maiden.", 
+                    "\r\nDickson 154."
+                ], 
+                [
+                    "R164.2. †R164.2. ", 
+                    "Giant rescues woman from burning at stake.", 
+                    " (Cf. †R175.) *Dickson\r\n130 n. 102."
+                ]
+            ]
+        }, 
+        "165": {
+            "content": [
+                "R165. †R165. ", 
+                "Rescue by saint (holy man).", 
+                " (Cf. †R121.6.) Alphabet\r\nNo. 560; *Loomis White Magic 93; Irish: Plummer cxlix, *Cross."
+            ], 
+            "child": [
+                [
+                    "R165.1. †R165.1. ", 
+                    "Rescue of poor girl by St. Nicholas.", 
+                    " Saint keeps her from being sold into slavery. Spanish\r\nExempla: Keller."
+                ], 
+                [
+                    "R165.2. †R165.2. ", 
+                    "Innocently hanged person saved by saint.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "R165.3. †R165.3. ", 
+                    "Abducted wife brought back by fakir.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "166": {
+            "content": [
+                "R166. †R166. ", 
+                "Brothers having extraordinary skill rescue princess.", 
+                " *Type 653; BP III 45ff.;\r\n*Köhler-Bolte I 198, 439; Italian: Basile Pentamerone V No. 7; Japanese: Ikeda."
+            ], 
+            "child": []
+        }, 
+        "167": {
+            "content": [
+                "R167. †R167. ", 
+                "Master rescues disciple.", 
+                "\r\nIndia: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "161": {
+            "content": [
+                "R161. †R161. ", 
+                "Lover rescues his lady.", 
+                "\r\nIrish myth: *Cross; Icelandic: Boberg; West Indies: Flowers 571."
+            ], 
+            "child": [
+                [
+                    "R161.0.1. †R161.0.1. ", 
+                    "Hero rescued by his lady.", 
+                    " Irish myth: *Cross; India: Thompson-Balys."
+                ], 
+                [
+                    "R161.1. †R161.1. ", 
+                    "Lover rescues his lady from abductor.", 
+                    " Irish myth: *Cross; English: Wells 80 (Sir Tristrem);\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R161.2. †R161.2. ", 
+                    "Princess rescued by blind man restores his sight and\r\nmarries him.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R161.3. †R161.3. ", 
+                    "Lover rescues his lady from drowning.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "R161.4. †R161.4. ", 
+                    "Lover rescues his lady from the gallows.", 
+                    " England, U.S.: *Baughman, Child No. 95."
+                ]
+            ]
+        }, 
+        "162": {
+            "content": [
+                "R162. †R162. ", 
+                "Rescue by captor‘s daughter (wife, mother).", 
+                " Types 516, 975**; *Rösch\r\nFFC LXXVII 102; *Loomis White Magic 117; Basset RTP XVI 614; Irish myth: Cross;\r\nEnglish: Wells 85 (The Sowdone of Babylone); Icelandic: *Boberg; Greek: *Frazer\r\nApollodorus II 135 n. 3 (Ariadne); India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "163": {
+            "content": [
+                "R163. †R163. ", 
+                "Rescue by grateful dead man.", 
+                " (Cf. †E341.) *Types\r\n505--508; **Liljeblad passim; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "133": {
+            "content": [
+                "R133. †R133. ", 
+                "Vanished wife rescued.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R133.1. †R133.1. ", 
+                    "Hero finds his vanished wife and disenchants her.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R133.2. †R133.2. ", 
+                    "Lost wife restored by conjurer.", 
+                    " Eskimo (Cumberland Sound): Boas BAM XV 246."
+                ]
+            ]
+        }, 
+        "131": {
+            "content": [
+                "R131. †R131. ", 
+                "Exposed or abandoned child rescued.", 
+                " Gaster Oldest Stories\r\n171; Icelandic: *Boberg; Irish myth: *Cross; Missouri French: Carrière;\r\nSpanish: Espinosa II No. 19, Espinosa Jr. Nos. 138--41; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R131.0.1. †R131.0.1. ", 
+                    "Nurse begs alms from door to door so as to keep child and\r\nnurture him.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R131.0.2. †R131.0.2. ", 
+                    "Miraculous rescue of all exposed children.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "R131.1. †R131.1. ", 
+                    "Hunter rescues abandoned child.", 
+                    " *Type 930; *Aarne FFC\r\nXXIII 56, 59; Missouri French: Carrière; Italian Novella: Rotunda; Greek: Fox\r\n22 (Telephos), 57 (Atalanta)."
+                ], 
+                [
+                    "R131.2. †R131.2. ", 
+                    "Miller rescues abandoned child.", 
+                    " *Types 707, 930; BP II 380ff.; *Aarne FFC XXIII 61;\r\nSpanish: Espinosa Jr. No. 116."
+                ], 
+                [
+                    "R131.2.1. †R131.2.1. ", 
+                    "Miller rescues drowning princess.", 
+                    " French Canadian: Sister Marie Ursule."
+                ], 
+                [
+                    "R131.3. †R131.3. ", 
+                    "Herdsman rescues abandoned child.", 
+                    " (Cf. †S351.2.) India:\r\nThompson-Balys."
+                ], 
+                [
+                    "R131.3.1. †R131.3.1. ", 
+                    "Shepherd rescues abandoned child.", 
+                    " (Cf. †N841.) *Type 930;\r\nHartland Perseus III 3 ff.; *Aarne FFC XXIII 56ff.; Dickson 101, 170; *Nutt FLR\r\nIV 1ff. -- Roman: Fox 307 (Romulus and Remus); Italian Novella: Rotunda; Greek:\r\nLongus Daphnis and Chloe, Fox 43 (Zethos and Amphion), 48 (Oedipus), 118\r\n(Paris)."
+                ], 
+                [
+                    "R131.3.2. †R131.3.2. ", 
+                    "Goatherd rescues abandoned child.", 
+                    " Greek: Fox 280."
+                ], 
+                [
+                    "R131.3.3. †R131.3.3. ", 
+                    "Cowherd rescues abandoned child.", 
+                    " Irish myth: *Cross; MacCulloch Celtic 74; English: Wells\r\n20 (William of Palerne); Greek: *Frazer Apollodorus I 338 n. 1."
+                ], 
+                [
+                    "R131.3.3.1. †R131.3.3.1. ", 
+                    "Person pushed into well by wife rescued by cowherd.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R131.3.4. †R131.3.4. ", 
+                    "Swineherd rescues abandoned child.", 
+                    " Irish myth: *Cross; India: *Thompson-Balys."
+                ], 
+                [
+                    "R131.4. †R131.4. ", 
+                    "Fisher rescues abandoned child.", 
+                    " *Types 707, 930; BP II 380ff.; *Boje 65, 126; *Aarne FFC\r\nXXIII 62; English: Wells 14 (The Lay of Havelok); Italian Novella: Rotunda."
+                ], 
+                [
+                    "R131.5. †R131.5. ", 
+                    "Servant rescues abandoned child.", 
+                    " Irish myth: *Cross, Icelandic: Gunnlaugs saga Ormstungu\r\nch. 3, Boberg; Italian Novella: Rotunda."
+                ], 
+                [
+                    "R131.6. †R131.6. ", 
+                    "Peasant rescues abandoned child.", 
+                    " Icelandic: Boberg; Spanish: Espinosa Jr. No. 139; Italian\r\nNovella: Rotunda; Babylonian: Spence 17, 157; India: *Thompson-Balys."
+                ], 
+                [
+                    "R131.7. †R131.7. ", 
+                    "Merchant rescues abandoned child.", 
+                    " (Cf. †N851.) Dickson 104\r\nn. 13; Jewish: *Neuman."
+                ], 
+                [
+                    "R131.8. †R131.8. ", 
+                    "Other workmen rescue abandoned child.", 
+                    null
+                ], 
+                [
+                    "R131.8.1. †R131.8.1. ", 
+                    "Horse-keeper rescues abandoned child.", 
+                    " Greek: *Frazer Apollodorus I 82 n. 2."
+                ], 
+                [
+                    "R131.8.2. †R131.8.2. ", 
+                    "Gardener rescues abandoned child.", 
+                    " India: *Thompson-Balys; Palaung tribe: Scott Indo-Chinese\r\n276."
+                ], 
+                [
+                    "R131.8.3. †R131.8.3. ", 
+                    "Washerman rescues abandoned child.", 
+                    " Palaung tribe: Scott Indo-Chinese 277."
+                ], 
+                [
+                    "R131.8.4. †R131.8.4. ", 
+                    "Smith rescues abandoned child.", 
+                    " (Cf. †N855.) Krappe\r\nBalor 3; Irish myth: Cross; Icelandic: De la Saussaye 143."
+                ], 
+                [
+                    "R131.8.5. †R131.8.5. ", 
+                    "Forester rescues abandoned child.", 
+                    " *Boje 125ff.; Sparnaay 43; Chinese: Ferguson 41."
+                ], 
+                [
+                    "R131.8.6. †R131.8.6. ", 
+                    "Potter rescues abandoned child(ren).", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "R131.8.7. †R131.8.7. ", 
+                    "Gold-washer rescues abandoned child.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "R131.8.8. †R131.8.8. ", 
+                    "Barber rescues and befriends abandoned boy.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R131.9. †R131.9. ", 
+                    "Porter rescues abandoned child.", 
+                    " English: Wells 126 (Lai Le Freine)."
+                ], 
+                [
+                    "R131.10. †R131.10. ", 
+                    "Hermit rescues abandoned child.", 
+                    " (Cf. †N843, †R169.2.)\r\nEnglish: Wells 96 (Chevalere Assigne); Italian Novella: Rotunda; India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "R131.10.1. †R131.10.1. ", 
+                    "Woman disguised as hermit rescues abandoned child.", 
+                    " (Cf. †K1837.3.) Italian\r\nNovella: Rotunda."
+                ], 
+                [
+                    "R131.11. †R131.11. ", 
+                    "Exalted person rescues abandoned child.", 
+                    " Dickson 170."
+                ], 
+                [
+                    "R131.11.1. †R131.11.1. ", 
+                    "Princess rescues abandoned child.", 
+                    " Sparnaay 33; Dickson 37, 170; Jewish: *Neuman; China:\r\nEberhard FFC CXX 99ff. No. 58, FFC CXXVIII 76f. No. 34."
+                ], 
+                [
+                    "R131.11.2. †R131.11.2. ", 
+                    "King rescues abandoned child.", 
+                    " Dickson 170 n. 24; Italian: Basile Pentamerone III No. 2;\r\nJewish: *Neuman; India: *Thompson-Balys."
+                ], 
+                [
+                    "R131.11.3. †R131.11.3. ", 
+                    "Prince rescues abandoned child.", 
+                    " Italian: Basile Pentamerone V No. 8."
+                ], 
+                [
+                    "R131.11.4. †R131.11.4. ", 
+                    "Deity rescues abandoned child.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R131.11.5. †R131.11.5. ", 
+                    "Minister’s son recovers prince‘s lost wife for him.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R131.12. †R131.12. ", 
+                    "Fairy rescues abandoned child.", 
+                    " (Cf. †F311.) Krappe\r\nBalor 3; Irish myth: Cross."
+                ], 
+                [
+                    "R131.13. †R131.13. ", 
+                    "Palmer rescues abandoned child.", 
+                    " (Cf. †N846.1.) English:\r\nWells 118 *(Octovian)."
+                ], 
+                [
+                    "R131.14. †R131.14. ", 
+                    "Sailors rescue abandoned child.", 
+                    " Italian: Basile Pentamerone III No. 2."
+                ], 
+                [
+                    "R131.15. †R131.15. ", 
+                    "Children abandoned in a boat survive storm and are rescued.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "R131.16. †R131.16. ", 
+                    "Angel rescues abandoned child.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "R131.17. †R131.17. ", 
+                    "Coyote rescues abandoned child(ren).", 
+                    " N. A. Indian (California): Gayton and Newman 89."
+                ], 
+                [
+                    "R131.18. †R131.18. ", 
+                    "Pious woman rescues abandoned child.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "R131.19. †R131.19. ", 
+                    "Bard (poet) rescues abandoned child.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "R131.20. †R131.20. ", 
+                    "Indians rescue abandoned children.", 
+                    " French Canadian: Sister Marie Ursule."
+                ]
+            ]
+        }, 
+        "130": {
+            "content": [
+                "R130. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "111": {
+            "content": [
+                "R111. †R111. ", 
+                "Rescue of captive maiden.", 
+                " (Cf. †H1385.1, †R10.1.) *Sparnaay 45ff.;\r\nHdwb. d. Märchens I 550a nn. 219, 220, 554b; Breton: Sébillot Incidents s.v. “princesse”; French Canadian: Barbeau JAFL XXIX 18;\r\nSpanish: Espinosa II Nos. 133--35, III Nos. 140, 143; India: *Thompson-Balys;\r\nN. A. Indian: Thompson CColl II 334ff."
+            ], 
+            "child": [
+                [
+                    "R111.0.1. †R111.0.1. ", 
+                    "All man‘s property offered to rescuer of stolen daughter.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R111.1. †R111.1. ", 
+                    "Princess (maiden) rescued from captor.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "R111.1.1. †R111.1.1. ", 
+                    "Rescue of princess from ogre.", 
+                    " See references to\r\n†R11.1. Type 590; BP III 1; *Basset RTP III 562; English: Wells 64 (The\r\nAvowynge of King Arthur), 66 (Ywain and Gawain), 70 (Libeaus Disconus); Irish\r\nmyth: *Cross: Spanish: Espinosa III No. 143; Italian: Basile Pentamerone IV No.\r\n3; India: *Thompson-Balys; Japanese: Anesaki 307, 359; N. A. Indian (Zuñi):\r\nBenedict II 341."
+                ], 
+                [
+                    "R111.1.2. †R111.1.2. ", 
+                    "Princess rescued from robbers.", 
+                    " *Types 506B, 970**; *BP III 490ff.; *Liljeblad\r\nTobiasgeschichte; Icelandic: Boberg; Italian: Basile Pentamerone I No. 7;\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "R111.1.3. †R111.1.3. ", 
+                    "Rescue of princess (maiden) from dragon.", 
+                    " *Types 300, 303;\r\n*Hartland Perseus III 1--65 passim; **Ranke FFC CXIV; *BP I 534; *Loomis White\r\nMagic 119. See also references to †B11.10 and †B11.11. -- Icelandic: *Boberg;\r\nMissouri French: Carrière; Spanish: Espinosa II Nos. 133--135, Espinosa Jr.\r\nNos. 68f.; Greek: *Frazer Apollodorus I 158 n. 3; India: *Thompson-Balys;\r\nJapanese: Ikeda."
+                ], 
+                [
+                    "R111.1.4. †R111.1.4. ", 
+                    "Rescue of princess (maiden) from giant (monster).", 
+                    " (Cf. †G100.) *Dickson\r\n132 n. 106; *Brown Iwain 50 n. 1; Irish myth: *Cross; English: Wells 117 (Sir\r\nTorrent of Portyngale); Icelandic: *Boberg; India: Thompson-Balys; Japanese:\r\nIkeda."
+                ], 
+                [
+                    "R111.1.5. †R111.1.5. ", 
+                    "Rescue of woman from snake-husband.", 
+                    " (Cf. †B604.1.) Jamaica:\r\n*Beckwith MAFLS XVII 272 No. 85."
+                ], 
+                [
+                    "R111.1.6. †R111.1.6. ", 
+                    "Princess ransomed from slavery.", 
+                    " (Cf. †R61.) *Type 506A;\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R111.1.6.1. †R111.1.6.1. ", 
+                    "Queen rescued from slavery.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "R111.1.7. †R111.1.7. ", 
+                    "Rescue of princess (maiden) from magician.", 
+                    " (Cf. †D1711.) Irish\r\nmyth: *Cross; Icelandic: *Boberg."
+                ], 
+                [
+                    "R111.1.8. †R111.1.8. ", 
+                    "Rescue of maidens from witches.", 
+                    " (Cf. †G200.) Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "R111.1.9. †R111.1.9. ", 
+                    "Princess rescued from undesired suitor.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "R111.1.10. †R111.1.10. ", 
+                    "Rescue of princess (queen, maiden) from supernatural being\r\nwho has won her at game of chance.", 
+                    " Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "R111.1.11. †R111.1.11. ", 
+                    "Maiden rescued from rakshasa.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "R111.1.12. †R111.1.12. ", 
+                    "Princess rescued from captivity of elephant.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R111.1.13. †R111.1.13. ", 
+                    "Rescue of girl from tigers.", 
+                    " Chinese: Graham."
+                ], 
+                [
+                    "R111.1.13.1. †R111.1.13.1. ", 
+                    "Rescue of woman from bear’s cave.", 
+                    " Cheremis: Sebeok-Nyerges; India: Thompson-Balys."
+                ], 
+                [
+                    "R111.2. †R111.2. ", 
+                    "Princess rescued from place of captivity.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R111.2.1. †R111.2.1. ", 
+                    "Princess(es) rescued from lower world.", 
+                    " *Type 301; *BP II 300;\r\nFrench Canadian: Barbeau JAFL XXIX 25; Missouri French: Carrière; Spanish:\r\nEspinosa II 133--135; India: Thompson-Balys; Indonesia: Dixon 215."
+                ], 
+                [
+                    "R111.2.1.1. †R111.2.1.1. ", 
+                    "Stolen woman rescued from lower world.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R111.2.2. †R111.2.2. ", 
+                    "Rescue of princess from mountain.", 
+                    " *Type 530; *BP III 111; Icelandic: De la Saussaye 143, 144\r\n(Siegfried and Brunhilde)."
+                ], 
+                [
+                    "R111.2.3. †R111.2.3. ", 
+                    "Princess rescued from giant‘s cave where she is fettered to\r\na chair by the hair.", 
+                    " (Cf. †R41.5.) Icelandic: *Boberg."
+                ], 
+                [
+                    "R111.2.3.1. †R111.2.3.1. ", 
+                    "Rescue of earl’s daughter from giant‘s cave where she is\r\nchained to the wall (a pillar).", 
+                    " Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "R111.2.4. †R111.2.4. ", 
+                    "Princess rescued from temple where she is imprisoned.", 
+                    " Icelandic: Bósa saga\r\n30ff ch. 8, 114ff ch. 12, Boberg."
+                ], 
+                [
+                    "R111.2.5. †R111.2.5. ", 
+                    "Girl rescued from tree.", 
+                    "\r\nChinese: Graham."
+                ], 
+                [
+                    "R111.3. †R111.3. ", 
+                    "Means of rescuing princess.", 
+                    null
+                ], 
+                [
+                    "R111.3.1. †R111.3.1. ", 
+                    "Girl rescued by traveling through air.", 
+                    " Jones PMLA XXIII 563; India: *Thompson-Balys."
+                ], 
+                [
+                    "R111.4. †R111.4. ", 
+                    "Hero returns rescued princess to her betrothed.", 
+                    " Type 506; BP III 490ff."
+                ], 
+                [
+                    "R111.5. †R111.5. ", 
+                    "Nobleman rescues lady from treacherous servant.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "R111.6. †R111.6. ", 
+                    "Girl rescued and then abandoned.", 
+                    " Types 300, 303; *Ranke FFC CXIV."
+                ], 
+                [
+                    "R111.7. †R111.7. ", 
+                    "Joint rescuers quarrel over rescued princess.", 
+                    " Type 653; India: Thompson-Balys; Africa (Konde): Gemuseus\r\nund Berger ZsES XXIII 1ff., (Tanga): Nassau JAFL XXVIII 30ff. No. 5, (Vai):\r\nEllis 200f. No. 18."
+                ], 
+                [
+                    "R111.8. †R111.8. ", 
+                    "Rescued person stolen from rescuer.", 
+                    null
+                ], 
+                [
+                    "R111.8.1. †R111.8.1. ", 
+                    "Rescued woman stolen from rescuer by demon.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R111.8.2. †R111.8.2. ", 
+                    "Rescued woman stolen from rescuer by other men.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }
+    }, 
+    "R_200_299_Escapes and pursuits.": {
+        "216": {
+            "content": [
+                "R216. †R216. ", 
+                "Escape from ship while captors quarrel.", 
+                " Italian Novella: Rotunda."
+            ], 
+            "child": [
+                [
+                    "R216.1. †R216.1. ", 
+                    "Escape from ship by jumping into the sea.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "217": {
+            "content": [
+                "R217. †R217. ", 
+                "Inscription accidentally seen tells hero how to escape\r\ncaptivity.", 
+                " Africa (Swahili): Steere 331ff."
+            ], 
+            "child": []
+        }, 
+        "214": {
+            "content": [
+                "R214. †R214. ", 
+                "Animal eludes bird watchman and escapes from his hole.", 
+                " Indonesia: DeVries‘s list No. 112."
+            ], 
+            "child": []
+        }, 
+        "215": {
+            "content": [
+                "R215. †R215. ", 
+                "Escape from execution.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R215.1. †R215.1. ", 
+                    "Escape from execution pyre by means of wings.", 
+                    " *Type 575."
+                ], 
+                [
+                    "R215.1.2. †R215.1.2. ", 
+                    "Escape from execution pyre through underground passage.", 
+                    " Hdwb. d. Märchens I\r\n600b. nn. 17--18."
+                ], 
+                [
+                    "R215.2. †R215.2. ", 
+                    "Escape from death by boiling oil.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "R215.3. †R215.3. ", 
+                    "Escape from execution on flying wooden horse.", 
+                    " (Cf. †D1626.1.) India:\r\n*Thompson-Balys; Buddhist myth: Malalasekera II 839."
+                ]
+            ]
+        }, 
+        "212": {
+            "content": [
+                "R212. †R212. ", 
+                "Escape from grave.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R212.1. †R212.1. ", 
+                    "Man buried alive with king escapes from the tomb.", 
+                    " Follows noise made by sea animal and finds way out to sea.\r\nChauvin VII 19 No. 373D n. 3."
+                ], 
+                [
+                    "R212.1.1. †R212.1.1. ", 
+                    "Man buried alive escapes from tomb when thief tries to rob\r\nit.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "R212.1.2. †R212.1.2. ", 
+                    "Captive buried alive to his neck fastens his teeth on\r\njackal that comes to eat him and companions.", 
+                    "\r\nRest flee when they hear him howl. In struggles to get free jackal loosens\r\nearth around captive, who manages to free himself. Buddhist myth: Malalasekera\r\nII 570."
+                ], 
+                [
+                    "R212.2. †R212.2. ", 
+                    "Man buried alive with beloved escapes, as thieves break\r\nopen the tomb.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "213": {
+            "content": [
+                "R213. †R213. ", 
+                "Escape from home.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R213.1. †R213.1. ", 
+                    "Prince escapes from home in order to see world.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "210": {
+            "content": [
+                "R210. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "211": {
+            "content": [
+                "R211. †R211. ", 
+                "Escape from prison.", 
+                " Icelandic: *Boberg; Missouri French:\r\nCarrière."
+            ], 
+            "child": [
+                [
+                    "R211.1. †R211.1. ", 
+                    "Giant breaks from tower prison.", 
+                    " Dickson 130 n. 102; Japanese: Ikeda."
+                ], 
+                [
+                    "R211.2. †R211.2. ", 
+                    "Captive bores way out of prison.", 
+                    " Icelandic: *Boberg; Swiss: Jegerlehner Oberwallis 313 No.\r\n98; Korean: Zong in-Sob 174 No. 75."
+                ], 
+                [
+                    "R211.3. †R211.3. ", 
+                    "Escape through underground passage.", 
+                    " Italian: Basile Pentamerone II No. 7."
+                ], 
+                [
+                    "R211.4. †R211.4. ", 
+                    "Escape from slavery (pirates).", 
+                    " (Cf. †R61.) Italian\r\nNovella: *Rotunda."
+                ], 
+                [
+                    "R211.5. †R211.5. ", 
+                    "Captive hews through iron prison with sword.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "R211.6. †R211.6. ", 
+                    "Captive knocks prison roof off.", 
+                    " (Cf. †F627.) Irish myth:\r\n*Cross."
+                ], 
+                [
+                    "R211.7. †R211.7. ", 
+                    "Escape from pit of snakes by means of rope.", 
+                    " (Cf. †Q465, †R41.3.1.)\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "R211.8. †R211.8. ", 
+                    "Rescue from prison by beheading giant keeper.", 
+                    " French Canadian: Sister Marie Ursule."
+                ], 
+                [
+                    "R211.9. †R211.9. ", 
+                    "Escape from prison because of bribed guards.", 
+                    " Buddhist myth: Malalasekera II 355."
+                ]
+            ]
+        }, 
+        "242": {
+            "content": [
+                "R242. †R242. ", 
+                "Flight carrying friend (girl) on back.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "265": {
+            "content": [
+                "R265. †R265. ", 
+                "Pursuer (witch, giant) pulls out tail of fugitive‘s horse.", 
+                " Fb “hale” IV 197b; cf. Burns “Tam O’ Shanter”; India:\r\nThompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "218": {
+            "content": [
+                "R218. †R218. ", 
+                "Escape from fairyland.", 
+                " (Cf. †F210.) Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "219": {
+            "content": [
+                "R219. †R219. ", 
+                "Escapes--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R219.1. †R219.1. ", 
+                    "Man carried off on bed escapes by grasping tree limbs as he\r\npasses under tree.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "R219.2. †R219.2. ", 
+                    "Man and wife escape from land of dead upon a vine.", 
+                    " (Cf. †E481.) Philippine\r\n(Tinguian): Cole 185."
+                ]
+            ]
+        }, 
+        "271": {
+            "content": [
+                "R271. †R271. ", 
+                "Pursuit by fire.", 
+                " N. A.\r\nIndian (California): Gayton and Newman 82."
+            ], 
+            "child": []
+        }, 
+        "272": {
+            "content": [
+                "R272. †R272. ", 
+                "Pursuer follows successive night campfires (each brighter\r\nthan last).", 
+                " Chinese: Graham."
+            ], 
+            "child": []
+        }, 
+        "253": {
+            "content": [
+                "R253. †R253. ", 
+                "Escape from nest of giant bird by seizing two young birds\r\nand jumping.", 
+                " Philippine (Tinguian): Cole\r\n201."
+            ], 
+            "child": []
+        }, 
+        "252": {
+            "content": [
+                "R252. †R252. ", 
+                "Flight by vaulting on stick.", 
+                " N. A. Indian (California): Gayton and Newman 92."
+            ], 
+            "child": []
+        }, 
+        "235": {
+            "content": [
+                "R235. †R235. ", 
+                "Fugitives cut support of bridge so that pursuer falls.", 
+                " Indonesia: Dixon 229."
+            ], 
+            "child": []
+        }, 
+        "236": {
+            "content": [
+                "R236. †R236. ", 
+                "Pursuers aided by magic weather phenomenon.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "R236.1. †R236.1. ", 
+                    "Fugitive aided by magic mist.", 
+                    " Irish myth: *Cross; Jewish: Neuman."
+                ], 
+                [
+                    "R236.2. †R236.2. ", 
+                    "Sun sets at high noon to hide fugitive.", 
+                    " (Cf. †F965.) Jewish:\r\n*Neuman."
+                ], 
+                [
+                    "R236.3. †R236.3. ", 
+                    "Earthquake saves fugitive.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "R236.4. †R236.4. ", 
+                    "Fugitive has magic wind against him, pursuer with him\r\n(caused by goddess).", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "251": {
+            "content": [
+                "R251. †R251. ", 
+                "Flight on a tree, which ogre tries to cut down.", 
+                " **Parsons Zs. f.\r\nEthnologie LIV 1-29; Bolte Zs. f. Vksk. XXXIII--XXXIV 38; Japanese: Ikeda;\r\nKorean: Zong in-Sob 9 No. 3; Africa (Togo): Einstein 12f.; Cape Verde Islands:\r\nParsons MAFLS XV (1) 121 n. 3, 125, 131f.; American Negro (Georgia): Harris\r\nFriends 91 No. 12. Cf. Thompson Tales 341 n. 230. Most African references in\r\n†B421."
+            ], 
+            "child": []
+        }, 
+        "231": {
+            "content": [
+                "R231. †R231. ", 
+                "Obstacle flight--Atalanta type.", 
+                " Objects are thrown back\r\nwhich the pursuer stops to pick up while the fugitive escapes. *Pauli (ed.\r\nBolte) No. 526; Köhler-Bolte I 430; Irish myth: Cross; Icelandic: *Boberg;\r\nSpanish: Espinosa II Nos. 122--25; Greek: Roscher Lexikon s.v. “Absyrtos”; India: Thompson-Balys; Buddhist myth: Malalasekera II 860;\r\nJapanese: Anesaki 224; N. A. Indian: *Thompson Tales 342 n. 232; S. A. Indian\r\n(Toba): Métraux MAFLS XL 74; Africa (Gold Coast): Barker and Sinclair 99 No.\r\n18, 125 No. 22, (Zulu): Callaway 145, (Angola): Chatelain 101 No. 6, (Kaffir):\r\nTheal 46 No. 2, (Yoruba): Ellis 269 No. 4."
+            ], 
+            "child": [
+                [
+                    "R231.1. †R231.1. ", 
+                    "Ogre tries to retain fugitive by tempting him with gold\r\nring; but he takes ring by cutting off the hand.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "R231.2. †R231.2. ", 
+                    "Fugitive cuts tail of camel caught by pursuer and it turns\r\ninto grass.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R231.2.1. †R231.2.1. ", 
+                    "Helpful animal’s tail cut off so pursuers who hang onto\r\ntail are shaken off into river.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "255": {
+            "content": [
+                "R255. †R255. ", 
+                "Formula for girl fleeing: behind me night, etc.", 
+                " “Behind me night and before me day that no one shall see\r\nwhere I go.” *Type 510B; *BP II 46; Ainu: Ikeda (Type 175)."
+            ], 
+            "child": []
+        }, 
+        "224": {
+            "content": [
+                "R224. †R224. ", 
+                "Girl flees to escape incestuous brother.", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "257": {
+            "content": [
+                "R257. †R257. ", 
+                "Fugitives sustain selves on apples.", 
+                " Hdwb. d. Märchens I 90b\r\nno. 3."
+            ], 
+            "child": []
+        }, 
+        "233": {
+            "content": [
+                "R233. †R233. ", 
+                "Fugitive kills pursuer and takes his extraordinary horse to\r\ncontinue flight.", 
+                " Boje 96ff."
+            ], 
+            "child": []
+        }, 
+        "200": {
+            "content": [
+                "R200. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "245": {
+            "content": [
+                "R245. †R245. ", 
+                "Whale-boat.", 
+                " A man is\r\ncarried across the water on a whale (fish). (He usually deceives the whale as\r\nto the nearness of the land or as to hearing thunder. As a consequence the\r\nwhale runs into the shore or is killed by lightning.) *Loomis White Magic 91;\r\ncf. Aarne FFC XXIII 137; Maori: Dixon 8; N. A. Indian: *Thompson Tales 327 n.\r\n179; Jamaica: Beckwith MAFLS XVII 256f. Nos. 38, 39, 275 No. 86; Cape Verde\r\nIslands: Parsons MAFLS XV (1) 310 n. 1."
+            ], 
+            "child": [
+                [
+                    "R245.1. †R245.1. ", 
+                    "Crocodile-boat.", 
+                    "\r\nTrickster props his jaws apart and leaves him. India: Thompson-Balys."
+                ], 
+                [
+                    "R245.2. †R245.2. ", 
+                    "Snake king takes fleeing captives across river.", 
+                    " Buddhist myth: Malalasekera I 785."
+                ]
+            ]
+        }, 
+        "244": {
+            "content": [
+                "R244. †R244. ", 
+                "Ships burned to prevent flight.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "261": {
+            "content": [
+                "R261. †R261. ", 
+                "Pursuit by rolling object.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R261.1. †R261.1. ", 
+                    "Pursuit by rolling head.", 
+                    " *Kittredge Gawain and the Green Knight 189\r\nn. 1; Japanese: Ikeda; N. A. Indian: *Thompson Tales 343 nn. 238, 238a,\r\n*Alexander N. A. Myth. 290 n. 37; cf. JAFL II 69; (California): Gayton and\r\nNewman 79; S. A. Indian (Cashinawa): Métraux BBAE CXLIII (3) 684, (Chaco,\r\nWarrau, Shipaya): Lowie ibid. 54f., (Tenetehara): Wagley-Galvao ibid. 148;\r\nAfrica (Congo): Weeks 207 n. 4."
+                ]
+            ]
+        }, 
+        "246": {
+            "content": [
+                "R246. †R246. ", 
+                "Crane-bridge.", 
+                "\r\nFugitives are helped across a stream by a crane who lets them cross on his leg.\r\nThe pursuer is either refused assistance or drowned by the crane. N. A. Indian:\r\n*Thompson Tales 340 n. 227."
+            ], 
+            "child": [
+                [
+                    "R246.1. †R246.1. ", 
+                    "Stone bridge appears for fugitives.", 
+                    " Disappears and drowns pursuers. Loomis White Magic 130."
+                ]
+            ]
+        }, 
+        "267": {
+            "content": [
+                "R267. †R267. ", 
+                "Fugitives trailed by mustard seeds (ashes) dropped from\r\nbag.", 
+                "\r\n(Cf. †R135.) India: *Thompson-Balys; Africa (Kaffir): Theal 127ff."
+            ], 
+            "child": []
+        }, 
+        "243": {
+            "content": [
+                "R243. †R243. ", 
+                "Fugitives aided by helpful animal.", 
+                " (Cf. †B520.)"
+            ], 
+            "child": [
+                [
+                    "R243.1. †R243.1. ", 
+                    "Pursuer misdirected by animal to help fugitive.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "228": {
+            "content": [
+                "R228. †R228. ", 
+                "Children leave home because their parents refuse them food.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "227": {
+            "content": [
+                "R227. †R227. ", 
+                "Wife flees from husband.", 
+                " (Cf. †P210, †T200.) India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R227.1. †R227.1. ", 
+                    "Wife flees from animal husband.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R227.2. †R227.2. ", 
+                    "Flight from hated husband.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "R227.3. †R227.3. ", 
+                    "Supernatural wife finds garment stolen from her by husband\r\nand leaves him.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "225": {
+            "content": [
+                "R225. †R225. ", 
+                "Elopement.", 
+                " *Type 516; Rösch FFC LXXVII 106; *Thien Motive 27; *Boje 110ff.;\r\n*Krappe Revue Hispanique LXXVIII (1930) 489--543. -- Irish myth: *Cross;\r\nIcelandic: *Boberg; Missouri French: Carrière; Italian Novella: Rotunda; Greek:\r\n*Frazer Apollodorus II 174 n. 1 (Helen); India: *Thompson-Balys; Buddhist myth:\r\nMalalasekera II 860."
+            ], 
+            "child": [
+                [
+                    "R225.1. †R225.1. ", 
+                    "Elopement on winged horse.", 
+                    " Type 516; Rösch FFC\r\nLXXVII 110."
+                ], 
+                [
+                    "R225.2. †R225.2. ", 
+                    "Lovers elope to prevent girl‘", 
+                    null
+                ]
+            ]
+        }, 
+        "268": {
+            "content": [
+                "R268. †R268. ", 
+                "Dew in footprints reveals man‘s way.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "222": {
+            "content": [
+                "R222. †R222. ", 
+                "Unknown knight.", 
+                " (Three\r\ndays‘ tournament.) For three days in succession an unknown knight in different\r\narmor wins a tournament and escapes without recognition. Finally identified by\r\ntokens. **Weston The Three Days Tournament; *Types 314, 502; *BP III 111;\r\n*Child V 44ff.; *Webster Kittredge Memorial Volume 227; Bruce MLN XXIV 257;\r\n*Hibbard 226 n. 2; *Fb “hest” I 598a; Zs. f. Vksk. IV 98; RTP VIII 82. -- English: Wells 48\r\n(Lancelot of the Laik), 147 (Ipomadon); Icelandic: *Boberg; Missouri French:\r\nCarrière; French Canadian: Barbeau JAFL XXIX 18; India: Thompson-Balys; N. A.\r\nIndian: *Thompson CColl II 349ff., 407, (Wichita): Dorsey JAFL XVI 160, (Skidi\r\nPawnee): Dorsey MAFLS VIII Nos. 40, 41."
+            ], 
+            "child": []
+        }, 
+        "221": {
+            "content": [
+                "R221. †R221. ", 
+                "Heroine’s three-fold flight from ball.", 
+                " Cinderella (Cap o‘ Rushes) after meeting the prince at a ball (church) flees before\r\nidentification is possible. Repeated three times. *Type 510; **Cox 1--121,\r\n437--446 passim; Missouri French: Carrière; Spanish: Espinosa Jr. Nos. 123f.;\r\nItalian: Basile Pentamerone I No. 6; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "220": {
+            "content": [
+                "R220. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "262": {
+            "content": [
+                "R262. †R262. ", 
+                "Magic eel pursues man over land.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "260": {
+            "content": [
+                "R260. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "241": {
+            "content": [
+                "R241. †R241. ", 
+                "Flight on skis; two on one pair.", 
+                " Icelandic: *Boberg."
             ], 
             "child": []
         }

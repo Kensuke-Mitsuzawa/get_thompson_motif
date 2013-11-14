@@ -1,4 +1,1921 @@
 {
+    "N_700_799_Accidental encounters.": {
+        "741": {
+            "content": [
+                "N741. †N741. ", 
+                "Unexpected meeting of husband and wife.", 
+                " Irish myth: *Cross;\r\nMissouri French: Carrière; Spanish: Espinosa II Nos. 99--103; India:\r\n*Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N741.1. †N741.1. ", 
+                    "Concealed wife.", 
+                    "\r\nUnknown wife supernaturally conceals herself until the favorable moment to come\r\nforward. Italian: Crane 340; Greek: Garnett II 18; Hindu: Rouse FL V 85."
+                ], 
+                [
+                    "N741.2. †N741.2. ", 
+                    "Husband and wife become separated in shipwreck.", 
+                    " Wife unexpectedly meets husband on street. They are\r\nreunited. Italian Novella: Rotunda."
+                ], 
+                [
+                    "N741.3. †N741.3. ", 
+                    "Slandered queen chances to be in Rome at the same time as\r\nher estranged husband.", 
+                    " Reconciled by the\r\nPope. Italian Novella: Rotunda."
+                ], 
+                [
+                    "N741.3.1. †N741.3.1. ", 
+                    "Calumniated wife is forced to flee.", 
+                    " (Cf. †K2210.) Reunited\r\nby chance after many years at Emperor‘s court.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "N741.4. †N741.4. ", 
+                    "Husband and wife reunited after long separation and tedious\r\nquest.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N741.5. †N741.5. ", 
+                    "Maiden found in magic garden; prince’s wife in former life.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "768": {
+            "content": [
+                "N768. †N768. ", 
+                "Abandoned children accidentally discovered by villainess.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "743": {
+            "content": [
+                "N743. †N743. ", 
+                "Accidental meeting of sisters.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "745": {
+            "content": [
+                "N745. †N745. ", 
+                "Accidental meeting of seeker of exiled prince with prince\r\nat meal.", 
+                " Messenger in pilgrim garb invites\r\nunknown prince to eat with him. Recognition. *Boje 85."
+            ], 
+            "child": []
+        }, 
+        "746": {
+            "content": [
+                "N746. †N746. ", 
+                "Accidental meeting of cousins.", 
+                " Icelandic: borsteins\r\nsaga Vík. 446, Boberg."
+            ], 
+            "child": []
+        }, 
+        "762": {
+            "content": [
+                "N762. †N762. ", 
+                "Person accidentally met unexpectedly knows the other‘s\r\nname.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "763": {
+            "content": [
+                "N763. †N763. ", 
+                "Hero captured by man he has formerly rescued: rewarded.", 
+                " *Type 953; Scottish: Campbell-McKay No. 25."
+            ], 
+            "child": []
+        }, 
+        "760": {
+            "content": [
+                "N760. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "761": {
+            "content": [
+                "N761. †N761. ", 
+                "Unexpected encounter in oasis.", 
+                " Malone PMLA XLIII 398."
+            ], 
+            "child": []
+        }, 
+        "700": {
+            "content": [
+                "N700. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "767": {
+            "content": [
+                "N767. †N767. ", 
+                "Unwitting combat between sons of friends.", 
+                " Recognition and\r\nreconciliation. (Cf. †N731.2.) Greek: Fox 128 (Glaukos and Diomedes)."
+            ], 
+            "child": []
+        }, 
+        "764": {
+            "content": [
+                "N764. †N764. ", 
+                "Unexpected meeting with wild man.", 
+                " (Cf. †F567.) Dickson 122\r\nn. 72; Missouri French: Carrière."
+            ], 
+            "child": []
+        }, 
+        "765": {
+            "content": [
+                "N765. †N765. ", 
+                "Meeting with robber band.", 
+                " Dickson 68 n. 14."
+            ], 
+            "child": []
+        }, 
+        "792": {
+            "content": [
+                "N792. †N792. ", 
+                "Adventures from pursuing objects carried off by bird.", 
+                " Type 480; Roberts 130."
+            ], 
+            "child": []
+        }, 
+        "791": {
+            "content": [
+                "N791. †N791. ", 
+                "Adventures from pursuing object carried off by river.", 
+                " Type 480; Roberts 129."
+            ], 
+            "child": []
+        }, 
+        "718": {
+            "content": [
+                "N718. †N718. ", 
+                "Accidental meeting with the son of the only person who can\r\novercome curse on hero.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "731": {
+            "content": [
+                "N731. †N731. ", 
+                "Unexpected meeting of father and son.", 
+                " Irish myth: *Cross;\r\nMissouri French: Carrière Italian Novella: *Rotunda; Jewish: Neuman; India:\r\nThompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N731.1. †N731.1. ", 
+                    "Unknown son returns to father‘s court.", 
+                    " Irish myth: Cross; Greek: Fox 119 (Paris)."
+                ], 
+                [
+                    "N731.1.1. †N731.1.1. ", 
+                    "King unknowingly adopts his own lost son.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N731.2. †N731.2. ", 
+                    "Father-son combat.", 
+                    " Neither knows who the other is. (Sohrab and Rustem.) **Potter\r\nSohrab and Rustem; Deutschbein I 232ff.; Potter FL XV 216ff.; Rank Inzest-Motif\r\n164ff.; Hibbard 227 n. 5; *Köhler-Bolte II 256ff.; L. Wolff Hessische Blätter\r\nf. Volksk. XXXIX 54--63. -- Irish: *Cross, MacCulloch Celtic 145, 169\r\n(Cuchulainn, Fionn), Thurneysen 403ff.; English: Wells 135 (Sir Degare);\r\nIcelandic: *Boberg; Greek: Fox 140 (Telegonos and Odysseus); Arabian: Burton\r\nNights VII 89 n.; Persian Carnoy 332; Chinese: Werner Myths 315--319, Coyajee JPASB XXIV 179; Philippine: Dixon 235; Hawaii:\r\nBeckwith Myth 508."
+                ], 
+                [
+                    "N731.2.1. †N731.2.1. ", 
+                    "Hero fights with friend of father and then reveals himself.", 
+                    " English: Wells 17 (Reinbrun, Gy son of Warwike)."
+                ], 
+                [
+                    "N731.2.2. †N731.2.2. ", 
+                    "Undesired combat between sworn (blood) brothers (foster\r\nbrothers).", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N731.3. †N731.3. ", 
+                    "Father unexpectedly meets abandoned son and reinstates him.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N731.4. †N731.4. ", 
+                    "At execution block condemned man discovered to be king‘s\r\nunknown son.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "730": {
+            "content": [
+                "N730. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "733": {
+            "content": [
+                "N733. †N733. ", 
+                "Accidental meeting of brothers.", 
+                " Irish myth: *Cross; Icelandic: *Boberg; Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "N733.1. †N733.1. ", 
+                    "Brothers unwittingly fight each other.", 
+                    " (Cf. †N731.2.2.) Dickson\r\n100, 109, 153; Icelandic: Boberg; Tuamotu: Stimson MS (z-G. 13/317)."
+                ], 
+                [
+                    "N733.2. †N733.2. ", 
+                    "Brother unwittingly kills half brother in fight.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "N733.3. †N733.3. ", 
+                    "Joseph and his brethren.", 
+                    "\r\nElder brothers unwittingly come to maltreated youngest in great need. Eventual\r\nrecognition. India: Thompson-Balys."
+                ], 
+                [
+                    "N733.4. †N733.4. ", 
+                    "Two returning brothers unwittingly purchase bird, which is\r\ntransformed youngest brother, as present intended for him.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N733.5. †N733.5. ", 
+                    "Brothers accidentally reunited when wedding of one to a\r\nking’s daughter is celebrated and neighboring rulers are invited.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "732": {
+            "content": [
+                "N732. †N732. ", 
+                "Accidental meeting of father and daughter.", 
+                " Missouri French:\r\nCarrière."
+            ], 
+            "child": [
+                [
+                    "N732.1. †N732.1. ", 
+                    "Father unwittingly buys daughter who has been sold into\r\nslavery.", 
+                    " Greek: Frazer Apollodorus I 389\r\nn. 1 (Tisiphone)."
+                ], 
+                [
+                    "N732.2. †N732.2. ", 
+                    "Deserted daughter’s good fortune discovered by accident.", 
+                    " N. A. Indian: *Thompson Tales 348 n. 251."
+                ], 
+                [
+                    "N732.2.1. †N732.2.1. ", 
+                    "Daughter‘s good fortune accidentally discovered by father\r\nwho has become a beggar.", 
+                    " Chinese: Graham."
+                ], 
+                [
+                    "N732.3. †N732.3. ", 
+                    "Parents accidentally meet daughter who has survived their\r\nattempts to drown her.", 
+                    " Italian Novella:\r\nRotunda."
+                ]
+            ]
+        }, 
+        "735": {
+            "content": [
+                "N735. †N735. ", 
+                "Accidental meeting of mother and son.", 
+                " Irish myth: *Cross; Jewish: Neuman; India: Thompson-Balys;\r\nChinese: Graham."
+            ], 
+            "child": [
+                [
+                    "N735.1. †N735.1. ", 
+                    "Begging ascetics beg alms of their own mother.", 
+                    " Buddhist myth: Malalasekera II 511."
+                ]
+            ]
+        }, 
+        "734": {
+            "content": [
+                "N734. †N734. ", 
+                "Accidental meeting of brother and sister.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "N734.1. †N734.1. ", 
+                    "Slaves ordered married discover they are brother and\r\nsister.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N734.2. †N734.2. ", 
+                    "Saint prays with woman; learns she is his sister.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "737": {
+            "content": [
+                "N737. †N737. ", 
+                "Accidental reunion of lovers.", 
+                " Italian Novella: *Rotunda."
+            ], 
+            "child": []
+        }, 
+        "736": {
+            "content": [
+                "N736. †N736. ", 
+                "Accidental meeting of mother and daughter.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "738": {
+            "content": [
+                "N738. †N738. ", 
+                "Accidental meeting of nephew and uncle.", 
+                " Hero takes refuge unwittingly at his uncle’s court.\r\n*Dickson 143 n. 143; Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "N738.1. †N738.1. ", 
+                    "Uncle and nephew unwittingly about to kill one another.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "775": {
+            "content": [
+                "N775. †N775. ", 
+                "Race with fairies leads to adventures.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "774": {
+            "content": [
+                "N774. †N774. ", 
+                "Adventures from pursuing enchanted animal (hind, boar,\r\nbird).", 
+                " (Guiding Beast.) Types 710 (Grimm\r\nNo. 3), 425; *Tegethoff 14; **Pschmadt Die Sage von der verfolgten Hinde\r\n(Greifswald, 1911); Dickson 53f.; Clouston Tales I 215; *Fb “hjort” I 625a;\r\nHibbard 244 (Chevalere Assigne). -- Irish myth: *Cross; Icelandic: Lagerholm\r\n25--26, Sveinsson FFC LXXXIII xxxiii, *Boberg; Italian: Basile Pentamerone I\r\nNo. 9, *Rotunda; India: *Thompson-Balys; New Britain: Dixon 140."
+            ], 
+            "child": [
+                [
+                    "N774.1. †N774.1. ", 
+                    "Adventure from pursuing thieving birds.", 
+                    " Type 610; India: Thompson-Balys."
+                ], 
+                [
+                    "N774.2. †N774.2. ", 
+                    "Adventures from seeking (lost) domestic beast (bull).", 
+                    " Type 511; Icelandic: Boberg; India: Thompson-Balys."
+                ], 
+                [
+                    "N774.3. †N774.3. ", 
+                    "Adventures from pursuing animal (not magic).", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N774.3.1. †N774.3.1. ", 
+                    "Runaway ox leads pursuer to burial place of Adam and Eve.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "777": {
+            "content": [
+                "N777. †N777. ", 
+                "Dropped ball (basket) leads to adventures when recovery is\r\nattempted.", 
+                " Italian: Basile Pentamerone III\r\nNo. 10 (Type 440)."
+            ], 
+            "child": [
+                [
+                    "N777.1. †N777.1. ", 
+                    "Adventures encountered in running after cotton being blown\r\naway by wind.", 
+                    " Type 480; *Roberts 130;\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "N777.2. †N777.2. ", 
+                    "Bucket dropped into well leads to adventures.", 
+                    " Type 480; *Roberts 125."
+                ], 
+                [
+                    "N777.3. †N777.3. ", 
+                    "Flax dropped into well leads to adventures.", 
+                    " Type 480; *Roberts 125."
+                ], 
+                [
+                    "N777.4. †N777.4. ", 
+                    "Spindle dropped into well leads to adventures.", 
+                    " Type 480; *Roberts 125."
+                ]
+            ]
+        }, 
+        "776": {
+            "content": [
+                "N776. †N776. ", 
+                "Light seen from tree lodging place at night leads to\r\nadventures.", 
+                " *Type 130, 327; *Aarne FFC XI 111; BP I 115ff.; Missouri French:\r\nCarrière; Japanese: Ikeda."
+            ], 
+            "child": [
+                [
+                    "N776.1. †N776.1. ", 
+                    "Climbing tree to look around leads to adventures.", 
+                    " India: *Thompson-Balys; Chinese: Graham."
+                ], 
+                [
+                    "N776.2. †N776.2. ", 
+                    "Adventures from trying to strangle oneself in tree.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N776.3. †N776.3. ", 
+                    "Adventures from having slept beneath tree.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "771": {
+            "content": [
+                "N771. †N771. ", 
+                "King (prince) lost on hunt has adventures.", 
+                " *BP I 432 n. 2;\r\n*Köhler-Bolte II 408ff.; Dickson 93, 123 n. 75; Malone PMLA XLIII 398; Irish\r\nmyth: *Cross; Icelandic: *Boberg; Italian: Basile Pentamerone I No. 8, V No. 5;\r\nIndia: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N771.1. †N771.1. ", 
+                    "King on hunt is taken prisoner.", 
+                    " Icelandic: Þiðriks saga\r\nII 120 --40."
+                ], 
+                [
+                    "N771.2. †N771.2. ", 
+                    "Girls going in the wood for nuts have adventures.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "770": {
+            "content": [
+                "N770. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "N770.0.1. †N770.0.1. ", 
+                    "Feast as occasion for the beginning of adventures or the\r\narrival of questers.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "773": {
+            "content": [
+                "N773. †N773. ", 
+                "Adventure from following animal to cave (lower world).", 
+                " *Type 301; Irish myth: *Cross; Spanish: Boggs FFC XC 66\r\nNo. 508 A*, Espinosa Jr. No. 67; Indonesia: DeVries‘s list No. 163; N. A.\r\nIndian (California): Gayton and Newman 74."
+            ], 
+            "child": [
+                [
+                    "N773.1. †N773.1. ", 
+                    "Adventure from following ogre to cave.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N773.2. †N773.2. ", 
+                    "Adventure from returning for forgotten comb.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "772": {
+            "content": [
+                "N772. †N772. ", 
+                "Parting at crossroads to go on adventures.", 
+                " *Type 303; *Ranke FFC\r\nCXIV (motif †B2); India: Thompson-Balys; Chinese: Graham."
+            ], 
+            "child": []
+        }, 
+        "766": {
+            "content": [
+                "N766. †N766. ", 
+                "Unwitting adultery with blood-brother’s wife.", 
+                " *Type 1364; Wesselski\r\nMärchen 187 No. 2."
+            ], 
+            "child": []
+        }, 
+        "715": {
+            "content": [
+                "N715. †N715. ", 
+                "Lovers first see each other on shores of lake.", 
+                " M. Bloomfield in Penzer VII xxiii; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N715.1. †N715.1. ", 
+                    "Hero finds maiden at fountain (well, river).", 
+                    " Irish myth: *Cross; Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "713": {
+            "content": [
+                "N713. †N713. ", 
+                "King marries girl who finds lost object of his.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N713.1. †N713.1. ", 
+                    "Princess catches raja‘s golden bird; he trails it to her\r\npalace.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N713.2. †N713.2. ", 
+                    "King marries girl who finds his lost ring.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "778": {
+            "content": [
+                "N778. †N778. ", 
+                "Taking refuge in a grave leads to adventure.", 
+                " Italian Novella: *Rotunda."
+            ], 
+            "child": []
+        }, 
+        "711": {
+            "content": [
+                "N711. †N711. ", 
+                "King (prince) accidentally finds maiden and marries her.", 
+                " *Types 403, 451, 705, 709; *BP I 99ff., 295ff.; Irish\r\nmyth: *Cross; Icelandic: Boberg; Spanish: Espinosa II Nos. 99--103, Espinosa\r\nJr. Nos. 80, 115; Italian: Basile Pentamerone I No. 8; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N711.1. †N711.1. ", 
+                    "King (prince) finds maiden in woods (tree) and marries her.", 
+                    " *Types 450, 706, 710;\r\nIrish myth: Cross; Icelandic: *Boberg; Missouri French: Carrière; French\r\nCanadian: Sister Marie Ursule; India: *Thompson-Balys."
+                ], 
+                [
+                    "N711.2. †N711.2. ", 
+                    "Hero finds maiden in (magic) castle.", 
+                    " *Types 304, 400, 408, 410, 590; Irish myth: *Cross; India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "N711.3. †N711.3. ", 
+                    "Hero finds maiden in (magic) garden.", 
+                    " *Types 550, 551, 706; Spanish: Espinosa Jr. No. 106;\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "N711.4. †N711.4. ", 
+                    "Prince sees maiden at church and is enamored.", 
+                    " *Types 510AB; Missouri\r\nFrench: Carrière; Spanish: Espinosa III Nos. 111f., Espinosa Jr. No. 119."
+                ], 
+                [
+                    "N711.4.1. †N711.4.1. ", 
+                    "Lovers meet at temple.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "N711.5. †N711.5. ", 
+                    "Prince (king) finds girl floating on water in basket:\r\nmarries her.", 
+                    " Hertel Zs. f. Vksk. XIX\r\n83ff.; Penzer II 5; Italian: Basile Pentamerone III No. 2; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "N711.6. †N711.6. ", 
+                    "Prince sees heroine at ball and is enamored.", 
+                    " *Type 510AB; Missouri\r\nFrench: Carrière; Spanish: Espinosa II 107--112, 154; Espinosa Jr. Nos. 123f.;\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "712": {
+            "content": [
+                "N712. †N712. ", 
+                "Prince first sees heroine as she comes forth from her\r\nhiding-box.", 
+                " She has concealed herself\r\nuntil the favorable moment. *Cox 489; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N712.1. †N712.1. ", 
+                    "Princess concealed in trunk and sent to beggar, who marries\r\nher.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "716": {
+            "content": [
+                "N716. †N716. ", 
+                "Lover sees beloved first while she is bathing.", 
+                " II Samuel ch. 11; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N716.1. †N716.1. ", 
+                    "Man stumbles on bathing maiden.", 
+                    " Mono-Alu: Wheeler Nos. 8, 9, 31, 48."
+                ]
+            ]
+        }, 
+        "710": {
+            "content": [
+                "N710. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "784": {
+            "content": [
+                "N784. †N784. ", 
+                "Shouting after bathing: adventures follow.", 
+                " N. A. Indian (California): Gayton and Newman 88."
+            ], 
+            "child": []
+        }, 
+        "785": {
+            "content": [
+                "N785. †N785. ", 
+                "Adventures from seeking water.", 
+                " Irish myth: *Cross; Icelandic: Boberg."
+            ], 
+            "child": [
+                [
+                    "N785.1. †N785.1. ", 
+                    "Man hunting honey encounters lost maiden, returns her to\r\nher parents.", 
+                    " Africa (Fang): Tessman 121."
+                ]
+            ]
+        }, 
+        "786": {
+            "content": [
+                "N786. †N786. ", 
+                "Anchor catching in oratory of submarine monastery leads to\r\nadventures.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "781": {
+            "content": [
+                "N781. †N781. ", 
+                "Hero embarks in rudderless boat.", 
+                " Köhler-Bolte I 189;\r\n*Schoepperle Tristan and Isolt II 370ff.; Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "782": {
+            "content": [
+                "N782. †N782. ", 
+                "Mother‘s parting gift to adventuring son: the two loaves of\r\nbread.", 
+                " One for hunger, one for overeating.\r\nIndia: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "783": {
+            "content": [
+                "N783. †N783. ", 
+                "Broken vessel (calabash, etc.) to be mended leads to\r\nadventure.", 
+                "\r\nAfrica (Guinea Coast): Trautmann La Litterature à la Côte des Esclaves (Paris,\r\n1927), West Africa: Travélé Proverbes et contes Bambara (Paris, 1923) 205ff.,\r\nNo. 66, Frobenius Atlantis VIII 274ff. No. 120."
+            ], 
+            "child": []
+        }, 
+        "788": {
+            "content": [
+                "N788. †N788. ", 
+                "Incidents when wife takes food to husband in field or\r\nforest.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "724": {
+            "content": [
+                "N724. †N724. ", 
+                "Hunter accidentally discovers beautiful girl being secretly\r\nreared in a cave.", 
+                " Africa (Pangwe): Tessman\r\n366."
+            ], 
+            "child": []
+        }, 
+        "723": {
+            "content": [
+                "N723. †N723. ", 
+                "Girl sees man as he lies sleeping by wayside.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "721": {
+            "content": [
+                "N721. †N721. ", 
+                "Runaway horse carries bride to her lover.", 
+                " Bridegroom unwittingly\r\nhires a horse belonging to his rival for his bride to ride to the wedding. A\r\nstorm arises and the horse carries her to his master. *Bédier Fabliaux 119,\r\n473."
+            ], 
+            "child": []
+        }
+    }, 
+    "N_300_399_Unlucky accidents.": {
+        "318": {
+            "content": [
+                "N318. †N318. ", 
+                "Accidental separation of lovers.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N318.1. †N318.1. ", 
+                    "Man, thinking it an enemy, flees as sweetheart comes after\r\nhim in pursuit.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N318.2. †N318.2. ", 
+                    "Princess accidentally elopes with wrong man.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "339": {
+            "content": [
+                "N339. †N339. ", 
+                "Accidental death--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N339.1. †N339.1. ", 
+                    "Man falls into jar of honey and is drowned.", 
+                    " Chases a mouse. Greek: Frazer Apollodorus I 310 n. 2."
+                ], 
+                [
+                    "N339.2. †N339.2. ", 
+                    "Flies caught in honey.", 
+                    "\r\nDeath from greed. Wienert FFC LVI 61 (ET 242), 146 (ST 512); Halm Aesop No.\r\n293."
+                ], 
+                [
+                    "N339.3. †N339.3. ", 
+                    "Foxes crowd into house and are suffocated.", 
+                    " Eskimo (Koryak): *Jochelson JE VI 363."
+                ], 
+                [
+                    "N339.4. †N339.4. ", 
+                    "Groom killed by lightning on wedding night.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "N339.5. †N339.5. ", 
+                    "Uxorious king is burned to death while taking an alcohol\r\nbath.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "N339.6. †N339.6. ", 
+                    "Man forgets to wear magic gown and is killed.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N339.7. †N339.7. ", 
+                    "Army drowned by unnoticed incoming tide.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N339.8. †N339.8. ", 
+                    "Accidental death from fall on own weapon (shield).", 
+                    " Irish myth: *Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "N339.8.1. †N339.8.1. ", 
+                    "Accidental death of father from fall into the fire when\r\ntaking down weapons for his son.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "N339.9. †N339.9. ", 
+                    "Girl abducted by fairy left on shore, where she is\r\naccidentally drowned.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N339.10. †N339.10. ", 
+                    "Youth gazing at own image reflected in water falls and\r\ndrowns.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N339.11. †N339.11. ", 
+                    "Girl lets down her sari for hero to climb up by but, when\r\nhe is halfway up, sari breaks and he is killed.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N339.12. †N339.12. ", 
+                    "Prefect, cursed by bishop, dies of fish-bone stuck in his\r\nthroat.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N339.13. †N339.13. ", 
+                    "Accidental death by striking head against lintel of door.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N339.14. †N339.14. ", 
+                    "Wife throwing husband’s corpse into river (according to\r\ncustom) is caught by corpse‘s arm and drowned.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N339.15. †N339.15. ", 
+                    "Thief crushed to death by fallen fragments of wall he has\r\nbored.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N339.16. †N339.16. ", 
+                    "King mortally wounded on killed enemy‘s tooth.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "N339.17. †N339.17. ", 
+                    "Bottle wherein jinn is imprisoned inadvertently opened and\r\njinn escapes to kill his captor.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "338": {
+            "content": [
+                "N338. †N338. ", 
+                "Death as result of mistaken identity: wrong person killed.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "N338.1. †N338.1. ", 
+                    "Saint changes places with charioteer; latter is killed.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N338.2. †N338.2. ", 
+                    "Fool (person) disguised as (supposed) king killed.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N338.3. †N338.3. ", 
+                    "Son killed because mistaken for someone else.", 
+                    " (Cf. †N321.) Icelandic:\r\nBoberg; Italian Novella: Rotunda (†N366); Greek: Grote I 242; Jewish: Neuman;\r\nPhilippine (Tinguian): Cole 98."
+                ], 
+                [
+                    "N338.3.1. †N338.3.1. ", 
+                    "Father orders unrecognized son thrown into sea.", 
+                    " Hawaii: Beckwith Myth 480."
+                ]
+            ]
+        }, 
+        "335": {
+            "content": [
+                "N335. †N335. ", 
+                "Unexpected death at hands of an animal.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N335.1. †N335.1. ", 
+                    "Bird hunter killed by adder just as he is shooting bird.", 
+                    " Wienert FFC LVI 65 (ET 295), 207 (ST 197); Halm Aesop No.\r\n171; India: Thompson-Balys."
+                ], 
+                [
+                    "N335.2. †N335.2. ", 
+                    "Blood bath causes woman to be carried off by bird.", 
+                    " A pregnant woman demands a bath of blood: husband\r\nsubstitutes a bath of red dye. A Garuda bird attracted by the dye carries her\r\noff. Penzer I 97; Dunlop-Liebrecht 135."
+                ], 
+                [
+                    "N335.2.1. †N335.2.1. ", 
+                    "Sick queen lying under red satin carried off by bird who\r\nthinks it is red meat.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "N335.3. †N335.3. ", 
+                    "Death by rebounding bow.", 
+                    "\r\nAnts gnaw a bowstring, so that the bow rebounds and cuts off head of man who is\r\nleaning on it. *Bloomfield in Penzer VII xx ff."
+                ], 
+                [
+                    "N335.4. †N335.4. ", 
+                    "Accidental death from flying splinter of bone.", 
+                    " Bone being gnawed by animal lets splinter fly and kills\r\nyoung animals. Africa (Larusa): Fokken “Erzählungen und Märchen der Larusa”\r\nZsKS VII 82ff. No. 1, (Wachaga): Gutmann 87ff. No. 44, (Masai): Fuchs Sagen,\r\nMythen und Sitten der Masai (Jena, 1910) 50ff., (Uganda): Rowling The Tales of\r\nSir Apolo: Uganda Folklore and Proverbs (London, n.d.) 47ff., (Congo): Stanley\r\nMy Dark Companions and their Strange Stories (New York, 1906) 161ff., Casati\r\nTen Years in Equatoria and the Return with Emin Pasha (New York, 1891) II 45f."
+                ], 
+                [
+                    "N335.5. †N335.5. ", 
+                    "Hound strikes unique vulnerable spot.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N335.6. †N335.6. ", 
+                    "Series of accidental animal killings.", 
+                    null
+                ], 
+                [
+                    "N335.6.1. †N335.6.1. ", 
+                    "Attacking animal is killed by another in ambush.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N335.7. †N335.7. ", 
+                    "Tortoise lands on elephant‘s back so that elephant’s back\r\nis broken.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "334": {
+            "content": [
+                "N334. †N334. ", 
+                "Accidental fatal ending of game or joke.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N334.1. †N334.1. ", 
+                    "Children play hog-killing: one killed.", 
+                    " *Type 2401; *BP I 202;\r\nWesselski Archiv Orientální II 431; England, U.S.: Baughman."
+                ], 
+                [
+                    "N334.2. †N334.2. ", 
+                    "Hanging in game or jest accidentally proves fatal.", 
+                    " Wesselski Theorie 18; Fb “hænge” I\r\n731b; Danish: Christensen DF XLVII 200 No. 36; Icelandic: Boberg; Lithuanian:\r\nBalys Index No. 3309, Legends Nos. 605 609; Estonian: Aarne FFC XXV 122 Nos.\r\n40, 41."
+                ], 
+                [
+                    "N334.3. †N334.3. ", 
+                    "Practical joker asks doctor to castrate him.", 
+                    " Doctor insists on the operation. Italian Novella:\r\n*Rotunda."
+                ]
+            ]
+        }, 
+        "337": {
+            "content": [
+                "N337. †N337. ", 
+                "Accidental death through misdirected weapon.", 
+                " Irish myth: *Cross; Greek: Frazer Apollodorus II 63 n. 2;\r\nBuddhist myth: Malalasekera II 715; Africa (Fang): Tessman 135, (Congo):\r\nGrenfell 820."
+            ], 
+            "child": [
+                [
+                    "N337.1. †N337.1. ", 
+                    "Blind poet unintentionally kills friend.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N337.2. †N337.2. ", 
+                    "Hero, while measuring wild boar, accidentally wounded\r\nmortally by bristle.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N337.3. †N337.3. ", 
+                    "Axe thrown at one animal misses but kills another.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "336": {
+            "content": [
+                "N336. †N336. ", 
+                "Accidental death through dream.", 
+                " Man dodging blow in dream hits his head against wall and\r\nkills himself. Alphabet No. 285."
+            ], 
+            "child": []
+        }, 
+        "331": {
+            "content": [
+                "N331. †N331. ", 
+                "Things accidentally fall and kill person.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N331.1. †N331.1. ", 
+                    "Dagger in wall above bed falls and kills girl.", 
+                    " Has been placed there by her lover. Indonesia: De Vries’s\r\nlist No. 219."
+                ], 
+                [
+                    "N331.1.1. †N331.1.1. ", 
+                    "Knife accidentally strikes girl‘s throat and kills her.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N331.1.2. †N331.1.2. ", 
+                    "Prince’s arrow accidentally grazes breast of merchant‘s\r\nwife.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N331.1.3. †N331.1.3. ", 
+                    "Bride lets dagger fall and kill husband.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N331.2. †N331.2. ", 
+                    "Bread accidentally dropped from tree on bear’s nose kills\r\nbear.", 
+                    " Type 2006*."
+                ], 
+                [
+                    "N331.2.1. †N331.2.1. ", 
+                    "Man hidden in tree so frightened of lioness he drops his\r\nsword and kills her.", 
+                    " India:\r\n*Thompson-Balys."
+                ]
+            ]
+        }, 
+        "330": {
+            "content": [
+                "N330. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "333": {
+            "content": [
+                "N333. †N333. ", 
+                "Aiming at fly has fatal results.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N333.1. †N333.1. ", 
+                    "Person killed by hitting fly on his face.", 
+                    " Italian Novella: Rotunda; India: *Thompson-Balys;\r\nJapanese: Ikeda; Indonesia: De Vries‘s list No. 285. Cf. Type 1586."
+                ], 
+                [
+                    "N333.1.1. †N333.1.1. ", 
+                    "To give child a slap to stop its crying, numskull kills it.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N333.2. †N333.2. ", 
+                    "Man accidentally killed by bear trying to chase away flies.", 
+                    " *Chauvin II 118 Nos. 99, 100; India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "332": {
+            "content": [
+                "N332. †N332. ", 
+                "Accidental poisoning.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N332.1. †N332.1. ", 
+                    "Man accidentally fed bread which his father has poisoned.", 
+                    " The wicked man puts poison in the bread he gives a beggar.\r\nThe beggar gives his loaf to the son. Type 837; *De Vries Tijdschrift voor\r\nNederlandsche Taal- en Letterkunde XLVII 63ff.; India: *Thompson-Balys."
+                ], 
+                [
+                    "N332.1.1. †N332.1.1. ", 
+                    "Poisoned bath prepared for another accidentally used by\r\nhero.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N332.2. †N332.2. ", 
+                    "Horse accidentally poisoned instead of master.", 
+                    " An attempt is made to give the hero a poisoned cup. He is\r\non horseback and spurs his horse away to avoid the cup. The poison is spilled\r\nand enters the horse‘s ear and kills him. *Type 851; *BP I 189; Spanish:\r\nEspinosa Jr. No. 131."
+                ], 
+                [
+                    "N332.2.1. †N332.2.1. ", 
+                    "Elephant on rampage accidentally poisoned instead of man.", 
+                    " Man claims having killed elephant. India: Thompson-Balys."
+                ], 
+                [
+                    "N332.3. †N332.3. ", 
+                    "Serpent carried by bird lets poison drop into milk and\r\npoisons drinkers.", 
+                    " *Chauvin VIII 60 No. 25;\r\n*Krappe Balor 184 n. 12; Spanish Exempla: Keller; Jewish: Neuman, bin Gorion\r\nBorn Judas III 96; India: Thompson-Balys."
+                ], 
+                [
+                    "N332.3.1. †N332.3.1. ", 
+                    "Head of killed snake bites and kills king.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N332.3.2. †N332.3.2. ", 
+                    "Snake in jug bites would-be thief.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N332.4. †N332.4. ", 
+                    "Boy accidentally drinks “poison” intended for his\r\nstepbrother.", 
+                    " Doctor had substituted\r\nsleeping potion for the requested poison. Italian Novella: *Rotunda."
+                ], 
+                [
+                    "N332.4.1. †N332.4.1. ", 
+                    "Youth accidentally takes the poison he intended for his\r\nfather.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "N332.5. †N332.5. ", 
+                    "Woman unwittingly poisons her son.", 
+                    " Mistakes poison for medicine. Italian Novella: Rotunda."
+                ], 
+                [
+                    "N332.6. †N332.6. ", 
+                    "Man eats food which is mysteriously poisoned.", 
+                    " S. A. Indian\r\n(Chiriguano): Métraux RMLP XXXIII 177; Jewish: *Neuman; Buddhist myth:\r\nMalalasekera II 511."
+                ], 
+                [
+                    "N332.7. †N332.7. ", 
+                    "Hidden fruit accidentally poisoned by snake.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "392": {
+            "content": [
+                "N392. †N392. ", 
+                "Robber attempting to steal cow at night seizes thieving\r\ntiger.", 
+                " Great fight in stable. India:\r\n*Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N392.1. †N392.1. ", 
+                    "Escaping prisoner falls by accident onto tiger‘s back and\r\nis carried away.", 
+                    " Korean: Zong in-Sob 175\r\nNo. 75."
+                ], 
+                [
+                    "N392.2. †N392.2. ", 
+                    "Woman errs on to the road-of-the-tiger: carried off.", 
+                    " S. A. Indian\r\n(Chiriguano): Métraux RMLP XXXIII 161."
+                ]
+            ]
+        }, 
+        "391": {
+            "content": [
+                "N391. †N391. ", 
+                "Lover who is\r\ndetained away beyond stipulated time returns to find fiancée married.", 
+                " Italian Novella: *Rotunda."
+            ], 
+            "child": [
+                [
+                    "N391.0.1. †N391.0.1. ", 
+                    "Hospitality enforced on hero keeps him overlong from home;\r\nmeantime wife abducted.", 
+                    " Chinese: Graham."
+                ], 
+                [
+                    "N391.1. †N391.1. ", 
+                    "Mistress expecting lover accidentally exchanges places with\r\nher maidservant.", 
+                    " Italian Novella: Rotunda (also †K1856)."
+                ]
+            ]
+        }, 
+        "397": {
+            "content": [
+                "N397. †N397. ", 
+                "Accidental self-injury.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "396": {
+            "content": [
+                "N396. †N396. ", 
+                "The sleeping guard.", 
+                "\r\nWatchman falls asleep as enemy approaches. Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "395": {
+            "content": [
+                "N395. †N395. ", 
+                "Man blinded trying to heal girl.", 
+                " Powders blow into his one good eye. Italian Novella:\r\n*Rotunda."
+            ], 
+            "child": []
+        }, 
+        "394": {
+            "content": [
+                "N394. †N394. ", 
+                "Delay in bringing pardon allows deserved execution.", 
+                " Messenger, ignorant of contents of message, stops to view\r\nculprit’s execution. Italian Novella: Rotunda."
+            ], 
+            "child": [
+                [
+                    "N394.1. †N394.1. ", 
+                    "Sign of prisoner‘s reprieve changed by wind.", 
+                    " A flag to be flown in certain way, but wind catches it\r\njust at the wrong moment so that prisoner is executed. Korean: Zong in-Sob 61\r\nNo. 34."
+                ]
+            ]
+        }, 
+        "399": {
+            "content": [
+                "N399. †N399. ", 
+                "Additional unlucky accidents.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N399.1. †N399.1. ", 
+                    "Shipwrecked man lands on deadly enemy’s territory and is\r\nattacked.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "N399.2. †N399.2. ", 
+                    "Man‘s inordinate laughter brings unfortunate results.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N399.3. †N399.3. ", 
+                    "Man discovers he is married to wer-tiger.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "398": {
+            "content": [
+                "N398. †N398. ", 
+                "Mistake in interpreting prophecy (oracle) brings\r\nmisfortune.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "311": {
+            "content": [
+                "N311. †N311. ", 
+                "Separation of persons caused by looking for water.", 
+                " *M. Bloomfield in Penzer VII xxiv ff.; India:\r\n*Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "344": {
+            "content": [
+                "N344. †N344. ", 
+                "Father kills self believing that son is dead.", 
+                " The son forgets to spread white sails, the prearranged\r\nsignal of his safety. (Told also of lovers.) *Schoepperle II 437f.; Greek:\r\nFrazer Apollodorus II 137 n. 4."
+            ], 
+            "child": [
+                [
+                    "N344.1. †N344.1. ", 
+                    "Wrong sign put out leads to boys‘ leaving home.", 
+                    " They are to be informed by a sign if a sister is born.\r\n*Type 451; BP I 70ff.; Italian: Basile Pentamerone IV No. 8."
+                ], 
+                [
+                    "N344.2. †N344.2. ", 
+                    "Father causes death of innocent son, believing him guilty\r\nof adultery with father’s wife.", 
+                    " Irish\r\nmyth: *Cross; Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "345": {
+            "content": [
+                "N345. †N345. ", 
+                "The falcon of Sir Federigo.", 
+                " An impoverished suitor has only a falcon to catch birds\r\nwith. His lady‘s sick son wants the falcon and she goes to ask for it. The suitor\r\nserves dinner for her--his falcon. When she makes her request it is too late.\r\n*Bédier Fabliaux 153f.; Boccaccio Decameron V No. 9 (*Lee 170); Italian\r\nNovella: *Rotunda."
+            ], 
+            "child": []
+        }, 
+        "346": {
+            "content": [
+                "N346. †N346. ", 
+                "Pigeon hastily kills his mate for stealing wheat.", 
+                " It has merely dried out\r\nand no longer fills the nest. When the dampness later swells the wheat, he sees\r\nhis mistake and kills himself in remorse. Chauvin II 104 No. 66; Bødker\r\nExempler 302 No. 69; Spanish Exempla: Keller; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "322": {
+            "content": [
+                "N322. †N322. ", 
+                "Eavesdropping person unwittingly killed.", 
+                " Icelandic: *Boberg. Cf. death of Polonius in Shakespeare’s\r\n“Hamlet”."
+            ], 
+            "child": [
+                [
+                    "N322.1. †N322.1. ", 
+                    "Eavesdropping man in disguise as devil killed unwittingly\r\nby daughter‘s lover.", 
+                    " Swiss: Jegerlehner\r\nOberwallis 305 No. 4."
+                ], 
+                [
+                    "N322.2. †N322.2. ", 
+                    "Eavesdropping wife hidden in bushes killed unwittingly by\r\nhusband.", 
+                    " Greek: Fox 72 (Prokris)."
+                ]
+            ]
+        }, 
+        "323": {
+            "content": [
+                "N323. †N323. ", 
+                "Parricide prophecy unwittingly fulfilled.", 
+                " *Type 931; *Krappe Balor\r\n13 n. 45; Greek: *Grote I 206; India: Thompson-Balys. See all references to\r\n†M343 (Parricide prophecy)."
+            ], 
+            "child": []
+        }, 
+        "320": {
+            "content": [
+                "N320. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "N320.1. †N320.1. ", 
+                    "Man unwittingly causes death of daughter.", 
+                    " English romance: Malory III 15."
+                ]
+            ]
+        }, 
+        "347": {
+            "content": [
+                "N347. †N347. ", 
+                "Innocent man accidentally suspected of crime.", 
+                " (Cf. †N342.2.) India:\r\n*Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N347.1. †N347.1. ", 
+                    "Clerk who enters tavern arrested with others for murder.", 
+                    " Scala Celi 59a No. 326; Chauvin IX 19; Spanish Exempla:\r\nKeller; Icelandic: Boberg."
+                ], 
+                [
+                    "N347.2. †N347.2. ", 
+                    "Saint who entered house of ill fame to reform inmates\r\naccused of going with evil intent.", 
+                    " Spanish\r\nExempla: Keller."
+                ], 
+                [
+                    "N347.3. †N347.3. ", 
+                    "Boy is hanged for cattle theft; the strayed cattle are\r\ndiscovered later.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "N347.4. †N347.4. ", 
+                    "Man having purchased stolen ornament unwittingly presents\r\nit to owner as gift; is thrown into jail as thief.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N347.5. †N347.5. ", 
+                    "Poor man presented rich robe by emperor is locked up as a\r\nthief.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N347.6. †N347.6. ", 
+                    "Man falsely accused commits suicide.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N347.7. †N347.7. ", 
+                    "Greedy disciple decides to remain in city despite learned\r\nteacher’s warning and is condemned to take the place of a thief.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "340": {
+            "content": [
+                "N340. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "N340.1. †N340.1. ", 
+                    "Suicide in remorse over hasty condemnation.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N340.2. †N340.2. ", 
+                    "King hastily has 7,000 people put to death for stoning his\r\njudges to death.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "N340.3. †N340.3. ", 
+                    "Woman wrongly condemned for drunkenness when seen to take\r\none drink.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "341": {
+            "content": [
+                "N341. †N341. ", 
+                "Misunderstood message causes messenger to be killed\r\n(accused).", 
+                " BP II 366."
+            ], 
+            "child": []
+        }, 
+        "342": {
+            "content": [
+                "N342. †N342. ", 
+                "Hasty condemnation of man who accidentally becomes\r\nsuspected of crime.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N342.1. †N342.1. ", 
+                    "Faithful servant guarding master’s wife from danger falsely\r\ncondemned for betraying his master.", 
+                    " *Type 516; *BP I 42ff.; *Rösch FFC LXXVII 129; Italian: Basile\r\nPentamerone IV No. 9; India: *Thompson-Balys; Korean: Zong in-Sob 155ff. No.\r\n68."
+                ], 
+                [
+                    "N342.1.1. †N342.1.1. ", 
+                    "Faithful son guarding his father from monster falsely\r\naccused by stepmother.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "N342.2. †N342.2. ", 
+                    "Stumbling over bloody corpse brings accusation of murder.", 
+                    " Man gets blood on himself. *Chauvin V 136 No. 64."
+                ], 
+                [
+                    "N342.3. †N342.3. ", 
+                    "Jealous and overhasty man kills his rescuing twin brother.", 
+                    " *Type 303; Italian: Basile Pentamerone I No. 7; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "N342.4. †N342.4. ", 
+                    "False accusation overheard causes hasty killing.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N342.5. †N342.5. ", 
+                    "Angry brother kills husband, thinking latter had killed\r\nwife (sister) and baby.", 
+                    " Heptameron No. 23."
+                ], 
+                [
+                    "N342.6. †N342.6. ", 
+                    "Woman mistakenly accused of cannibalism.", 
+                    " She is seen biting off finger of corpse to get its ring.\r\nIndia: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "343": {
+            "content": [
+                "N343. †N343. ", 
+                "Lover kills self believing his mistress dead.", 
+                " She has been frightened\r\naway by a lion. (Pyramus and Thisbe.) Köhler-Bolte I 4; Irish myth: *Cross;\r\nItalian Novella: Rotunda; Greek: Fox 201, **G. Hart Ursprung und Verbreitung\r\nder Pyramus und Thisbe-Sage (1889); *C. de Boer Pyramus et Thisbe (Amsterdam,\r\n1911)."
+            ], 
+            "child": [
+                [
+                    "N343.1. †N343.1. ", 
+                    "Mistress kills self, believing her lover dead.", 
+                    " Irish myth: *Cross; Italian Novella: Rotunda; India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "N343.2.1. †N343.2.1. ", 
+                    "Wife dies, believing husband dead.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "N343.3. †N343.3. ", 
+                    "Woman feigns death to meet exiled lover.", 
+                    " It leads to his death. Lover hears of her supposed death,\r\nreturns and submits to execution. Italian Novella: Rotunda."
+                ], 
+                [
+                    "N343.4. †N343.4. ", 
+                    "Lover commits suicide on finding beloved dead.", 
+                    " Heptameron No. 70."
+                ]
+            ]
+        }, 
+        "312": {
+            "content": [
+                "N312. †N312. ", 
+                "Separation of twins through being carried off by beast.", 
+                " Dickson 107."
+            ], 
+            "child": []
+        }, 
+        "367": {
+            "content": [
+                "N367. †N367. ", 
+                "Daughter unwittingly turns her own parents out of doors.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "365": {
+            "content": [
+                "N365. †N365. ", 
+                "Incest unwittingly committed.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N365.1. †N365.1. ", 
+                    "Boy unwittingly commits incest with his mother.", 
+                    " See all references to\r\n†M344. Heptameron No. 30; Spanish: Boggs FFC XC 117 No. 983; Italian Novella:\r\n*Rotunda; Minehassa (Celebes): Dixon 158."
+                ], 
+                [
+                    "N365.1.1. †N365.1.1. ", 
+                    "Man unwittingly falls in love with his own mother.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N365.2. †N365.2. ", 
+                    "Unwitting father-daughter incest.", 
+                    " Irish myth: *Cross; Icelandic: *Boberg; Greek: Fox 198\r\n(Myrrha); Tuamotu: Stimson MS (z-G. 13/116)."
+                ], 
+                [
+                    "N365.2.1. †N365.2.1. ", 
+                    "Father unwittingly falls in love with daughter.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N365.3. †N365.3. ", 
+                    "Unwitting brother-sister incest.", 
+                    " Irish myth: *Cross; Welsh: MacCulloch Celtic 201; Italian\r\nNovella: *Rotunda; India: Thompson-Balys; Tuamotu: Stimson MS (T-G. 3/59);\r\nHawaii: Beckwith Myth 516."
+                ], 
+                [
+                    "N365.3.1. †N365.3.1. ", 
+                    "Brother and sister unwittingly in love with each other.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N365.3.2. †N365.3.2. ", 
+                    "Boy says, “Whoever eats this mushroom is my wife.”", 
+                    " His own sister eats it and he runs away. India: *Thompson-Balys."
+                ], 
+                [
+                    "N365.4. †N365.4. ", 
+                    "Man unwittingly lies with mother-in-law.", 
+                    " Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "348": {
+            "content": [
+                "N348. †N348. ", 
+                "Jealous husband kills innocent wife.", 
+                " Suspicions aroused when villain leaves his handkerchief in\r\nher room. (Othello.) Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "349": {
+            "content": [
+                "N349. †N349. ", 
+                "Hasty killing or condemnation--miscellaneous.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "N349.1. †N349.1. ", 
+                    "Warriors erroneously slay allies in night battle.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N349.2. †N349.2. ", 
+                    "Father kills his son in battle rage.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "N349.3. †N349.3. ", 
+                    "King, seeing eldest son leaving room, decides that he is a\r\nrakshasa.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "360": {
+            "content": [
+                "N360. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "361": {
+            "content": [
+                "N361. †N361. ", 
+                "Sacred animal unwittingly killed.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N361.1. †N361.1. ", 
+                    "Brahmin unwittingly kills calf.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "313": {
+            "content": [
+                "N313. †N313. ", 
+                "Child follows bird and loses its mother.", 
+                " Tobler Epiphanie der Seele 71."
+            ], 
+            "child": []
+        }, 
+        "310": {
+            "content": [
+                "N310. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "324": {
+            "content": [
+                "N324. †N324. ", 
+                "Man unwittingly kills prince.", 
+                " Exiled. *Boje 120f."
+            ], 
+            "child": [
+                [
+                    "N324.1. †N324.1. ", 
+                    "Transformed prince unwittingly killed.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "300": {
+            "content": [
+                "N300. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "317": {
+            "content": [
+                "N317. †N317. ", 
+                "Separation of family by shipwreck.", 
+                " India: Thompson-Balys; Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "325": {
+            "content": [
+                "N325. †N325. ", 
+                "Unwitting murder because of insane illusion.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N325.1. †N325.1. ", 
+                    "Man kills son thinking that he is cutting a branch.", 
+                    " Greek: Frazer Apollodorus I 329 n. 1."
+                ], 
+                [
+                    "N325.2. †N325.2. ", 
+                    "Women, driven mad, devour their infants’ flesh.", 
+                    " Greek: Frazer Apollodorus I 331 n. 4."
+                ], 
+                [
+                    "N325.3. †N325.3. ", 
+                    "Mother kills son thinking him a wild beast.", 
+                    " Greek: Frazer Apollodorus I 331 n. 3."
+                ]
+            ]
+        }, 
+        "316": {
+            "content": [
+                "N316. †N316. ", 
+                "Separation in jungle (forest).", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "380": {
+            "content": [
+                "N380. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "381": {
+            "content": [
+                "N381. †N381. ", 
+                "Drop of honey causes chain of accidents.", 
+                " Hunter drops honey in a\r\ngrocery; weasel eats honey; cat chases weasel; dog chases cat; grocer kills\r\ndog: all the cause of a bloody feud between villages. *Taylor JAFL XLVI 87 No.\r\n2036; BP II 104 n. 2; *Wesselski Hessische Blätter f. Vksk XXXII 21; Chauvin\r\nVIII 41 No. 9; Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "N381.1. †N381.1. ", 
+                    "Ant pinching frog causes chain of accidents.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "382": {
+            "content": [
+                "N382. †N382. ", 
+                "Fugitive slave takes wrong road and is caught.", 
+                " Wienert FFC LVI 85 (ET 518), 116 (ST 264)."
+            ], 
+            "child": []
+        }, 
+        "383": {
+            "content": [
+                "N383. †N383. ", 
+                "Man falls dead from sudden realization.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N383.1. †N383.1. ", 
+                    "Man falls dead when he realizes that he has been riding\r\nover frozen sea.", 
+                    " *Bolte Zs. f. Vksk. XVIII\r\n91."
+                ], 
+                [
+                    "N383.2. †N383.2. ", 
+                    "Man falls dead when he realizes that he has eaten bread\r\nfrom flour used for abscess plaster.", 
+                    "\r\nChauvin VIII 38 No. 6; Spanish Exempla: Keller."
+                ], 
+                [
+                    "N383.3. †N383.3. ", 
+                    "Mother dies of fright when she learns that she was about to\r\ncommit incest with her son.", 
+                    " He has\r\ndisguised himself to test her chastity. *Krappe Balor 181ff.; Alphabet No. 710\r\n(Secundus)."
+                ]
+            ]
+        }, 
+        "384": {
+            "content": [
+                "N384. †N384. ", 
+                "Death from fright.", 
+                " (Cf. †N383.3.) Italian Novella: Rotunda; Eskimo (Greenland): Rink\r\n228, 439, 452, Rasmussen I 148, II 334, III 61, 97, Holm 26."
+            ], 
+            "child": [
+                [
+                    "N384.0.1. †N384.0.1. ", 
+                    "Madness from fright.", 
+                    "\r\nU.S.: *Baughman."
+                ], 
+                [
+                    "N384.0.1.1. †N384.0.1.1. ", 
+                    "The cadaver arm.", 
+                    "\r\nMedical students (or student nurses or hospital employees) play trick on one of\r\ntheir number by suspending a cadaver arm or leg from the light cord in the\r\nperson‘s room (sometimes the object is placed in the person’s bed). Some\r\ncircumstance keeps them from being on hand to observe the person‘s reaction;\r\nthe next day they remember the joke and go to the victim’s room to investigate.\r\nThey have to break down the door. They find the victim sitting on the bed--her\r\nhair is snow white--and she is gnawing on the cadaver arm. U.S.: *Baughman."
+                ], 
+                [
+                    "N384.1. †N384.1. ", 
+                    "Mouse frightens man to death.", 
+                    " Type 167*."
+                ], 
+                [
+                    "N384.2. †N384.2. ", 
+                    "Death in the graveyard; person‘s clothing is caught; the\r\nperson thinks something awful is holding him; he dies of fright.", 
+                    " Ireland, England, U.S.: Baughman."
+                ], 
+                [
+                    "N384.3. †N384.3. ", 
+                    "Wicked stepmother falls into the fire because of fright.", 
+                    " (Cf. †M431.6.)\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "N384.4. †N384.4. ", 
+                    "Fraternity initiate dies of fright.", 
+                    " U.S.: *Baughman."
+                ], 
+                [
+                    "N384.5. †N384.5. ", 
+                    "Queen dies from fright because of evil prophecy.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "N384.6. †N384.6. ", 
+                    "Sham magician causes simpleton’s death.", 
+                    " Is frightened to death by the impersonation of demons.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "N384.7. †N384.7. ", 
+                    "Sham execution proves fatal.", 
+                    " Jester condemned to die on block. Pail of water used\r\ninstead of axe. He dies. Italian Novella: *Rotunda."
+                ], 
+                [
+                    "N384.8. †N384.8. ", 
+                    "Priest frightens boy by tying girl‘s corpse to bell-rope.", 
+                    " In revenge the boy puts the body in the priest’s bed.\r\nPriest flees. Dies from injuries. Italian Novella: Rotunda."
+                ], 
+                [
+                    "N384.9. †N384.9. ", 
+                    "Lover frightens mistress as a joke.", 
+                    " She dies from the shock. Italian Novella: Rotunda."
+                ], 
+                [
+                    "N384.10. †N384.10. ", 
+                    "Man playing ghost killed.", 
+                    " Meaning to frighten son, father plays devil or a ghost. Son kills him.\r\nLithuanian: Balys Index No. 3443, Legends Nos. 861ff."
+                ], 
+                [
+                    "N384.11. †N384.11. ", 
+                    "Joker playing dead killed.", 
+                    " Lithuanian: Balys Index No. 3443A, Legends Nos. 864f."
+                ], 
+                [
+                    "N384.12. †N384.12. ", 
+                    "Woman playing dead to spy on husband killed.", 
+                    " Lithuanian: Balys Legends No. 866."
+                ], 
+                [
+                    "N384.13. †N384.13. ", 
+                    "Brothers fall dead at sight of long lost brother whom they\r\nsold into captivity.", 
+                    " (Cf. †N733.) Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "315": {
+            "content": [
+                "N315. †N315. ", 
+                "Separation by being on different banks of stream.", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "386": {
+            "content": [
+                "N386. †N386. ", 
+                "Lover‘s wound breaks while he is in bed with mistress.", 
+                " He bleeds to death (or is discovered because of the\r\nblood). Schoepperle I 222; von der Hagen I cxxvii; Italian Novella: Rotunda."
+            ], 
+            "child": [
+                [
+                    "N386.1. †N386.1. ", 
+                    "Lover’s spur catches in sheet when he tries to escape.", 
+                    " Uncovers mistress. Heptameron No. 62."
+                ], 
+                [
+                    "N386.2. †N386.2. ", 
+                    "Man pinned in bed by weapon caught in quilt.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "387": {
+            "content": [
+                "N387. †N387. ", 
+                "Feud starts over trifle.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N387.1. †N387.1. ", 
+                    "Quarrel over dog starts the Guelph-Ghibelline feud.", 
+                    " Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "388": {
+            "content": [
+                "N388. †N388. ", 
+                "Blind men accidentally hurt each other.", 
+                " (Trying to kill pig, or the like.) Herbert III 71."
+            ], 
+            "child": []
+        }, 
+        "314": {
+            "content": [
+                "N314. †N314. ", 
+                "Persons fall asleep on rock, which magically shoots upward.", 
+                " N. A. Indian (California): Gayton and Newman 76."
+            ], 
+            "child": []
+        }, 
+        "321": {
+            "content": [
+                "N321. †N321. ", 
+                "Son returning home after long absence unwittingly killed by\r\nparents.", 
+                "\r\n(Cf. †N338.3.) Type 939*; Lithuanian: Balys Index No. 939*; Livonian: Loorits\r\nFFC LXVI No. 9391."
+            ], 
+            "child": []
+        }, 
+        "362": {
+            "content": [
+                "N362. †N362. ", 
+                "King (prince) unwittingly killed.", 
+                " Africa (Fulah): Frobenius Atlantis VI 182ff. No. 4."
+            ], 
+            "child": []
+        }, 
+        "352": {
+            "content": [
+                "N352. †N352. ", 
+                "Bird carries off ring which lover has taken from sleeping\r\nmistress’s finger.", 
+                " He searches for the ring and becomes separated from her. *Penzer\r\nIV 192 n. 1; *von der Hagen I cxxxiii; *Köhler-Bolte II 351; Italian Novella:\r\nRotunda; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N352.1. †N352.1. ", 
+                    "Bird carries off jeweled veil with which girl had covered\r\nsleeping lover‘s face.", 
+                    " Lover pursues bird\r\nand becomes separated from the girl. Italian Novella: Rotunda."
+                ], 
+                [
+                    "N352.2. †N352.2. ", 
+                    "Jewel (garment) carried off by bird from bather.", 
+                    " Clothes have been left on bank of stream. India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "N352.3. †N352.3. ", 
+                    "Serpent steals jewels: person falsely accused of theft.", 
+                    " (Cf. †N347.) India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "351": {
+            "content": [
+                "N351. †N351. ", 
+                "Money (treasure) unwittingly given away.", 
+                " Unlucky man given a loaf which is filled with gold\r\nexchanges it for another loaf. *Type 841; *Pauli (ed. Bolte) Nos. 326, 327;\r\nSpanish: Espinosa Jr. No. 185; Italian Novella: Rotunda; Icelandic: Boberg;\r\nIndia: *Thompson-Balys; Chinese: Graham; Japanese: Ikeda; N. A. Indian\r\n(Pochulata): Boas JAFL XXV 223."
+            ], 
+            "child": [
+                [
+                    "N351.1. †N351.1. ", 
+                    "Boy‘s servant takes pearl to his wife instead of to\r\nmerchant; she throws it away.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "N351.2. †N351.2. ", 
+                    "Beggar accidentally overlooks money put into his way.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "350": {
+            "content": [
+                "N350. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "385": {
+            "content": [
+                "N385. †N385. ", 
+                "Unintentional injuries bring unfortunate consequences.", 
+                " (Sometimes the injuries are mere breeches of tabu.)\r\n*Penzer II 147, VII 92 n. 1."
+            ], 
+            "child": [
+                [
+                    "N385.1. †N385.1. ", 
+                    "Person has successive misfortunes while making plans\r\nbecause he forgets to say, “If God wills.”", 
+                    " (Cf. †G224.1, †J1217.1.) Irish myth:\r\n*Cross; Lithuanian: Balys Index No. 848*."
+                ]
+            ]
+        }
+    }, 
     "N_800_899_None": {
         "886": {
             "content": [
@@ -649,6 +2566,1809 @@
                 "N822. †N822. ", 
                 "Lame boy (girl) as helper.", 
                 " Africa (Ekoi): Talbot 35, 58, 248, 280."
+            ], 
+            "child": []
+        }
+    }, 
+    "N_100_299_The ways of luck and fate.": {
+        "N_100_169_NATURE OF LUCK AND FATE": {
+            "258": {
+                "content": [
+                    "N258. †N258. ", 
+                    "Train of troubles from lost horseshoe nail.", 
+                    " Master tries to go on in spite of the loss. *BP III 335ff."
+                ], 
+                "child": []
+            }, 
+            "146": {
+                "content": [
+                    "N146. †N146. ", 
+                    "Man not fated to die cannot be killed.", 
+                    " (Cf. †N101.3.) Jewish:\r\n*Neuman."
+                ], 
+                "child": []
+            }, 
+            "215": {
+                "content": [
+                    "N215. †N215. ", 
+                    "Child borne off by tiger, which is caught by griffin, which\r\nis killed by lioness, which rears child with her whelps.", 
+                    " English: Wells 118 (Octavian); India: Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "212": {
+                "content": [
+                    "N212. †N212. ", 
+                    "Money cannot be kept from where it is destined to go.", 
+                    " Miser told that his hoard is to go to poor man. He hides\r\nit in a trunk and throws it into the sea but it drifts to the house of the poor\r\nman who tries in vain to restore it to its owner. *Type 745; *Chauvin II 129\r\nNo. 137; *Herbert III 234, 377 No. 61, 447; *Oesterley No. 109, Lithuanian:\r\nBalys Index No. 934B*; Russian: Andrejev No. 834B*; West Indies: Flowers 563."
+                ], 
+                "child": [
+                    [
+                        "N212.1. †N212.1. ", 
+                        "Husband‘s magic gift returns to him.", 
+                        " Wife gives husband’s magic gift (fruit) to lover, who\r\npresents it to a dancing girl, who sells it back to the husband. India:\r\n*Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "213": {
+                "content": [
+                    "N213. †N213. ", 
+                    "Man fated to be rich.", 
+                    "\r\nBuddhist myth: Malalasekera I 828, 931."
+                ], 
+                "child": []
+            }, 
+            "136": {
+                "content": [
+                    "N136. †N136. ", 
+                    "The judge‘s bad-luck bringing boots.", 
+                    " The wealthy merchant becomes a beggar, due to the judge’s\r\nboots he acquired through exchange (theft). Lithuanian: Balys Index No. 2447*."
+                ], 
+                "child": []
+            }, 
+            "211": {
+                "content": [
+                    "N211. †N211. ", 
+                    "Lost object returns to its owner.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N211.1. †N211.1. ", 
+                        "Lost ring found in fish.", 
+                        " (Polycrates.) *Pauli (ed. Bolte) No. 635;\r\n*Wesselski Mönchslatein 188 No. 146; *Chauvin V 17 No. 10, 141 No. 68, VI 32\r\nNo. 202; Fb “ring” IV 328b; Toldo VIII 40;\r\nSaintyves “L‘Anneau de Polycrate” Revue de l’histoire des religions (1912)\r\n1--32; *Loomis White Magic 121.--Irish: Plummer clxxxiv, *Cross; Norwegian:\r\nSolheim Register 20; Italian Novella: Rotunda; Jewish: *Neuman, *Gaster Exempla\r\n210 No. 118, *bin Gorion Born Judas@2 II 106, 344, III 51, 55, 300; India:\r\n*Thompson-Balys; Japanese: Ikeda; Korean: Zong in-Sob 29; Philippine: Fansler\r\nMAFLS XII 7; Africa (Gold Coast): Barker and Sinclair 133."
+                    ], 
+                    [
+                        "N211.1.0.1. †N211.1.0.1. ", 
+                        "Lost articles found in interior of fish through virtue of\r\nsaint.", 
+                        " Irish myth: Cross."
+                    ], 
+                    [
+                        "N211.1.1. †N211.1.1. ", 
+                        "Lost pin found in fish.", 
+                        "\r\nIrish myth: Cross."
+                    ], 
+                    [
+                        "N211.1.2. †N211.1.2. ", 
+                        "Key (to fetters) found in fish.", 
+                        " Irish myth: *Cross."
+                    ], 
+                    [
+                        "N211.1.3. †N211.1.3. ", 
+                        "Lost sword found in fish.", 
+                        " Icelandic: Boberg."
+                    ], 
+                    [
+                        "N211.1.4. †N211.1.4. ", 
+                        "Lost trinket found in fish.", 
+                        " Irish myth: Cross."
+                    ], 
+                    [
+                        "N211.1.5. †N211.1.5. ", 
+                        "Brooch lost by saint found in fish.", 
+                        " Irish myth: Cross."
+                    ], 
+                    [
+                        "N211.2. †N211.2. ", 
+                        "Unavailing attempt to get rid of slippers; they always\r\nreturn.", 
+                        " *Chauvin VI 130 No. 283."
+                    ], 
+                    [
+                        "N211.3. †N211.3. ", 
+                        "Angel helps to find lost pin.", 
+                        " Irish myth: Cross."
+                    ]
+                ]
+            }, 
+            "223": {
+                "content": [
+                    "N223. †N223. ", 
+                    "Man must have drinking horn; stumble reveals one as he\r\ndeparts on search.", 
+                    " Irish myth: Cross."
+                ], 
+                "child": []
+            }, 
+            "277": {
+                "content": [
+                    "N277. †N277. ", 
+                    "Oxen bear dead usurer to gallows to be buried.", 
+                    " They are allowed to go where they will. Pauli (ed. Bolte)\r\nNo. 197."
+                ], 
+                "child": []
+            }, 
+            "113": {
+                "content": [
+                    "N113. †N113. ", 
+                    "Good luck personified.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N113.1. †N113.1. ", 
+                        "Good fortune resides in an object.", 
+                        " Buddhist myth: Malalasekera II 1138."
+                    ], 
+                    [
+                        "N113.1.1. †N113.1.1. ", 
+                        "Casket with Good Luck in it given to men by Zeus.", 
+                        " Wienert FFC LVI 36; *Babrius No. 58."
+                    ], 
+                    [
+                        "N113.2. †N113.2. ", 
+                        "Personification of Good Luck lives in man‘s forehead.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N113.2.1. †N113.2.1. ", 
+                        "Lucky right hand.", 
+                        "\r\nGaster Thespis 174."
+                    ], 
+                    [
+                        "N113.2.2. †N113.2.2. ", 
+                        "Man’s luck resides in his tooth.", 
+                        " (Cf. †N101.4.) Buddhist\r\nmyth: Malalasekera I 860."
+                    ], 
+                    [
+                        "N113.3. †N113.3. ", 
+                        "Personification of Good Luck leaves palace since king is\r\ndestined to die that night.", 
+                        " India:\r\nThompson-Balys."
+                    ], 
+                    [
+                        "N113.4. †N113.4. ", 
+                        "Luck can be found in certain place.", 
+                        " India: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "270": {
+                "content": [
+                    "N270. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "271": {
+                "content": [
+                    "N271. †N271. ", 
+                    "Murder will out.", 
+                    " Missouri French: Carrière; Spanish: Espinosa Jr Nos. 202--209;\r\nJewish: *Neuman; India: *Thompson-Balys."
+                ], 
+                "child": [
+                    [
+                        "N271.1. †N271.1. ", 
+                        "The sun brings all to light.", 
+                        " The murderer repeats as\r\nhe sees the rays of the sun, the last words of the dying man, thus betraying\r\nthe crime. *Type 960; *BP II 531; *Hdwb. d. Märchens I 98b, *Zachariae Kleine\r\nSchriften 134; *Basset 1001 Contes II 381."
+                    ], 
+                    [
+                        "N271.1.1. †N271.1.1. ", 
+                        "Moon brings murder to light.", 
+                        " (Like †N271.1.) BP II\r\n532."
+                    ], 
+                    [
+                        "N271.2. †N271.2. ", 
+                        "Murder revealed by unusual names of boys.", 
+                        " The dying man leaves message to name his sons “O God” and\r\n“O king” (or the like). This arouses the king‘s curiosity and brings the murder\r\nto light. BP II 336, 535; Spanish: Boggs FFC XC 116 No. 960."
+                    ], 
+                    [
+                        "N271.3. †N271.3. ", 
+                        "The Cranes of Ibycus.", 
+                        " Murdered man calls on cranes, the only\r\nwitnesses of the murder, to avenge him. The cranes follow the murderer and\r\npoint him out. *BP II 532; *Amalfi Zs. f. Vksk. VI 115ff.; *Zachariae ibid. IX\r\n336; Scala Celi 100b No. 539; Hertz Abhandlungen 334; Köhler-Bolte II 563;\r\nChauvin II 123, VII 146; *Krappe Bulletin Hispanique XXXIX 27. -- England:\r\nBaughman; Spanish: Espinosa Jr. No. 209; Jewish: *Neuman."
+                    ], 
+                    [
+                        "N271.3.1. †N271.3.1. ", 
+                        "Ravens pursue murderer who has killed two children.", 
+                        " England: Baughman."
+                    ], 
+                    [
+                        "N271.4. †N271.4. ", 
+                        "Murder discovered through knowledge of bird languages.", 
+                        " Birds point out the murder. *Type 781."
+                    ], 
+                    [
+                        "N271.5. †N271.5. ", 
+                        "Murderer through miracle suspected of theft; murder thus\r\ndiscovered.", 
+                        " Type 761*."
+                    ], 
+                    [
+                        "N271.6. †N271.6. ", 
+                        "Murder revealed by child.", 
+                        null
+                    ], 
+                    [
+                        "N271.6.1. †N271.6.1. ", 
+                        "Child‘s song reveals murder.", 
+                        " Africa (Bantu): Torrend Specimens of Bantu Folk-lore from\r\nNorthern Rhodesia (New York, 1921) 9ff. No. 1, 14ff. No. 2."
+                    ], 
+                    [
+                        "N271.7. †N271.7. ", 
+                        "Murder discovered on digging foundations of house.", 
+                        " House burns. Diggers discover body. Italian Novella:\r\n*Rotunda."
+                    ], 
+                    [
+                        "N271.8. †N271.8. ", 
+                        "Murderer traced through victim‘s ring.", 
+                        " Italian Novella: Rotunda."
+                    ], 
+                    [
+                        "N271.9. †N271.9. ", 
+                        "Tree follows murderer.", 
+                        "\r\nScotland: Baughman."
+                    ], 
+                    [
+                        "N271.10. †N271.10. ", 
+                        "Ship will sink if murderer is aboard.", 
+                        " England: Baughman."
+                    ], 
+                    [
+                        "N271.11. †N271.11. ", 
+                        "Murder will out: murderers quarrel under influence of drink\r\nand reveal crime.", 
+                        " Buddhist myth:\r\nMalalasekera II 1216."
+                    ]
+                ]
+            }, 
+            "131": {
+                "content": [
+                    "N131. †N131. ", 
+                    "Acts performed for changing luck.", 
+                    " *Fb “lykke” II 474f."
+                ], 
+                "child": [
+                    [
+                        "N131.1. †N131.1. ", 
+                        "Luck changing after cohabitation.", 
+                        " Icelandic: Bósasaga 23,\r\nHrolfs saga Kraka 96ff."
+                    ], 
+                    [
+                        "N131.2. †N131.2. ", 
+                        "Turning right-handwise in certain place brings luck.", 
+                        " Irish myth: Cross."
+                    ], 
+                    [
+                        "N131.3. †N131.3. ", 
+                        "Spilling salt brings bad luck.", 
+                        null
+                    ], 
+                    [
+                        "N131.3.1. †N131.3.1. ", 
+                        "Judas Iscariot spills salt at the Last Supper.", 
+                        " England: Baughman."
+                    ], 
+                    [
+                        "N131.4. †N131.4. ", 
+                        "Luck changing after change of name.", 
+                        " Jewish: *Neuman."
+                    ], 
+                    [
+                        "N131.5. †N131.5. ", 
+                        "Luck changing after change of place.", 
+                        " Jewish: *Neuman."
+                    ]
+                ]
+            }, 
+            "130": {
+                "content": [
+                    "N130. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "137": {
+                "content": [
+                    "N137. †N137. ", 
+                    "Philosopher conquers evil fate.", 
+                    " India: Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "275": {
+                "content": [
+                    "N275. †N275. ", 
+                    "Criminal confesses because he thinks himself accused.", 
+                    " *BP II 534, 412; India: *Thompson-Balys."
+                ], 
+                "child": [
+                    [
+                        "N275.1. †N275.1. ", 
+                        "Criminal confesses because of misunderstood animal cries.", 
+                        " BP II 534, 412; Pauli (ed. Bolte) No. 66."
+                    ], 
+                    [
+                        "N275.2. †N275.2. ", 
+                        "Criminal confesses because of misunderstanding of a\r\ndialect.", 
+                        " BP II 534, 412."
+                    ], 
+                    [
+                        "N275.3. †N275.3. ", 
+                        "Detection by accidental remark.", 
+                        " Wife misunderstands husband’s remark and confesses. Cent\r\nNouvelles Nouvelles No. 32."
+                    ], 
+                    [
+                        "N275.4. †N275.4. ", 
+                        "Thief imagines that group of people in street are talking\r\nand laughing at him; he confesses.", 
+                        " U.S.:\r\nBaughman."
+                    ], 
+                    [
+                        "N275.5. †N275.5. ", 
+                        "Criminal in church mistakes words of service as accusation.", 
+                        " (Cf. Type 1833.)"
+                    ], 
+                    [
+                        "N275.5.1. †N275.5.1. ", 
+                        "Sheep thief confesses when preacher says, “All we like\r\nsheep have gone astray.”", 
+                        " U.S.: Baughman."
+                    ]
+                ]
+            }, 
+            "135": {
+                "content": [
+                    "N135. †N135. ", 
+                    "Objects effect change of luck.", 
+                    " India: Thompson-Balys."
+                ], 
+                "child": [
+                    [
+                        "N135.1. †N135.1. ", 
+                        "Thirteen as unlucky number.", 
+                        " **Böklen Die “unglückezahl” Dreizehn (Leipzig,\r\n1913); Hdwb. d. Abergl. s.v. “Zahlen” B 13; *Fb “tretten”; **Kyriakiodos To\r\nDysoionon tou Arithmou 13 (Athens, 1953)."
+                    ], 
+                    [
+                        "N135.2. †N135.2. ", 
+                        "Possession of money brings luck.", 
+                        " Nothing escapes a mouse\r\nas long as she has in her hole a purse of money Chauvin II 94 No. 45; Bødker\r\nExempler 291 No. 49."
+                    ], 
+                    [
+                        "N135.2.1. †N135.2.1. ", 
+                        "Discovery of treasure brings luck.", 
+                        " Chinese: Graham."
+                    ], 
+                    [
+                        "N135.3. †N135.3. ", 
+                        "The luck-bringing shirt.", 
+                        " The king is to become lucky when he puts on\r\nthe shirt of a lucky man. The only man who says that he is lucky has no shirt.\r\n*Type 844; **Köhler Aufsätze 119ff.; H. C. Andersen‘s “Lykkens Galocher”; Edwin Markham’s “The Shoes of\r\nFortune.”"
+                    ], 
+                    [
+                        "N135.3.1. †N135.3.1. ", 
+                        "Feast for those who have not known sorrow.", 
+                        " Dying Alexander’s letter to his mother orders such a feast. No one comes.\r\n*Köhler-Bolte I 579; Köhler Aufsätze 130."
+                    ], 
+                    [
+                        "N135.4. †N135.4. ", 
+                        "Lucky marks on body.", 
+                        "\r\nIndia: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "134": {
+                "content": [
+                    "N134. †N134. ", 
+                    "Persons effect change of luck.", 
+                    " Irish myth: Cross."
+                ], 
+                "child": [
+                    [
+                        "N134.1. †N134.1. ", 
+                        "Persons bring bad luck.", 
+                        "\r\nJewish: *Neuman."
+                    ], 
+                    [
+                        "N134.1.1. †N134.1.1. ", 
+                        "Unlucky to have man in house while cloth is being dyed.", 
+                        " Irish myth: Cross."
+                    ], 
+                    [
+                        "N134.1.2. †N134.1.2. ", 
+                        "Wife brings bad luck to the husband’s family.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N134.1.3. †N134.1.3. ", 
+                        "Persons lose luck as punishment.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N134.1.4. †N134.1.4. ", 
+                        "Spirit of adversity brings bad luck to house.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N134.1.5. †N134.1.5. ", 
+                        "Passenger brings bad luck to ship.", 
+                        " Cast overboard. Jonah.\r\n(Cf. †S264.1.)"
+                    ]
+                ]
+            }, 
+            "234": {
+                "content": [
+                    "N234. †N234. ", 
+                    "Boast of poor boy made good by fate:", 
+                    " he boasts to elder brothers he will build a palace on a\r\ncertain spot; accidentally comes on treasure trove and makes good his boast.\r\nIndia: Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "253": {
+                "content": [
+                    "N253. †N253. ", 
+                    "Safety in shadow of wall.", 
+                    " After many misfortunes the man is\r\napparently safe. The wall falls on him. *Type 947; *BP III 289f.; Bødker\r\nExempler 277 No. 18; Spanish Exempla: Keller."
+                ], 
+                "child": []
+            }, 
+            "250": {
+                "content": [
+                    "N250. ", 
+                    null, 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N250.1. †N250.1. ", 
+                        "Bad luck follows man who shoots stork.", 
+                        " *Fb “stork” III 592b."
+                    ], 
+                    [
+                        "N250.2. †N250.2. ", 
+                        "Persecution by bad luck.", 
+                        "\r\nWishing to escape it, the luckless couple build themselves a new home. Scarcely\r\ndo they establish themselves in the new home, when bad luck addresses them from\r\nthe hearth: “I have already waited for you here three days.” Lithuanian: Balys\r\nIndex No. 735B*."
+                    ], 
+                    [
+                        "N250.3. †N250.3. ", 
+                        "Persecution by a god so that will of deity can be followed.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N250.4. †N250.4. ", 
+                        "Bad luck banished and freed.", 
+                        " The poor man in some way banishes his bad luck and becomes\r\nprosperous. Out of envy his rich brother sets it free; it then follows him.\r\nLithuanian: Balys Index No. 735A*; Russian: Andrejev No. 735 I*."
+                    ]
+                ]
+            }, 
+            "174": {
+                "content": [
+                    "N174. †N174. ", 
+                    "Careful builder outside when storm comes is killed;\r\ncareless builder saved.", 
+                    " Spanish Exempla:\r\nKeller; Africa (Angola): Chatelain 247 No. 58."
+                ], 
+                "child": []
+            }, 
+            "173": {
+                "content": [
+                    "N173. †N173. ", 
+                    "Disagreeable and disliked youth as favorite of Fortune.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                "child": []
+            }, 
+            "172": {
+                "content": [
+                    "N172. †N172. ", 
+                    "Prodigal as favorite of fortune.", 
+                    " *Type 935; Irish: Beal XXI 305, O’Suilleabhain 14."
+                ], 
+                "child": [
+                    [
+                        "N172.1. †N172.1. ", 
+                        "Prodigal son favored over faithful son.", 
+                        " Spanish Exempla: Keller."
+                    ]
+                ]
+            }, 
+            "171": {
+                "content": [
+                    "N171. †N171. ", 
+                    "Unprotected son makes fortune; protected son has bad luck.", 
+                    " Type 935*."
+                ], 
+                "child": []
+            }, 
+            "170": {
+                "content": [
+                    "N170. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "251": {
+                "content": [
+                    "N251. †N251. ", 
+                    "Person pursued by misfortune.", 
+                    " (Placidas, Eustacius.) His goods are destroyed, his wife\r\ncarried off by a ship captain and his children by animals. *Type 938; Herbert\r\nIII 241; *Oesterley No. 110; *Bolte Zs. f. Vksk. XXVIII 154f.; Alphabet No.\r\n311; *Hibbard 3ff.; Boccaccio Decameron II Nos. 6, 8 (Lee 34, 39); *Loomis\r\nWhite Magic 112; **Gerould PMLA XIX 335ff.; Dickson 100 n. 7.--Irish: *Cross;\r\nO’Suilleabhain 42, Beal XXI 315; Italian Novella: *Rotunda; Jewish: *Neuman,\r\nbin Gorion Born Judas@2 I 374; India: *Thompson-Balys; Buddhist myth:\r\nMalalasekera II 113, 793; West Indies: Flowers 564."
+                ], 
+                "child": [
+                    [
+                        "N251.1. †N251.1. ", 
+                        "Man captured by pirates is maimed, crippled, blinded.", 
+                        " He is patient through it all. Finally he is elected ruler\r\nby his dead master‘s subjects. Italian Novella: Rotunda."
+                    ], 
+                    [
+                        "N251.2. †N251.2. ", 
+                        "Man who aspires to greater wealth loses all.", 
+                        " When he is about to be rewarded by king the latter dies.\r\nItalian Novella: Rotunda."
+                    ], 
+                    [
+                        "N251.3. †N251.3. ", 
+                        "Man who loses fortune marries widow of his rich master.", 
+                        " (Cf. †N227.) Italian\r\nNovella: Rotunda."
+                    ], 
+                    [
+                        "N251.4. †N251.4. ", 
+                        "Travelers pursued by misfortune.", 
+                        " Italian Novella: Rotunda."
+                    ], 
+                    [
+                        "N251.5. †N251.5. ", 
+                        "Fortune of the lucky wife.", 
+                        " A luckless man becomes successful in all his undertakings\r\nwhen he marries a lucky woman and lives by her luck. Lithuanian: Balys Index\r\nNo. 737B*."
+                    ], 
+                    [
+                        "N251.6. †N251.6. ", 
+                        "The luckless son and his envious father.", 
+                        " Seeing a luck-bringing animal at his son’s house, the\r\nwizard father orders it to be destroyed, but the grandchildren eat of its meat\r\nand become fortunate. Lithuanian: Balys Index No. 738*."
+                    ], 
+                    [
+                        "N251.7. †N251.7. ", 
+                        "Misfortune pursues farmer.", 
+                        " U.S.: *Baughman."
+                    ]
+                ]
+            }, 
+            "256": {
+                "content": [
+                    "N256. †N256. ", 
+                    "Unlucky classes.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N256.1. †N256.1. ", 
+                        "Goldsmith unlucky.", 
+                        "\r\nIndia: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "112": {
+                "content": [
+                    "N112. †N112. ", 
+                    "Bad luck personified.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N112.1. †N112.1. ", 
+                        "Bad luck put into a sack.", 
+                        " Köhler-Bolte I 258."
+                    ]
+                ]
+            }, 
+            "145": {
+                "content": [
+                    "N145. †N145. ", 
+                    "Cast-out princess prospers because of Good Luck.", 
+                    " India: *Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "231": {
+                "content": [
+                    "N231. †N231. ", 
+                    "The fourteen lucky daughters.", 
+                    " The husband leaves his wife, who has given birth to\r\nfourteen girls, thinking he is persecuted by bad luck because of failure to\r\nhave a son. On the seashore, the girls find precious stones. The wife, now\r\nprosperous, finds her husband among beggars. Lithuanian: Balys Index No. 1668*."
+                ], 
+                "child": []
+            }, 
+            "182": {
+                "content": [
+                    "N182. †N182. ", 
+                    "Snake turns to gold in answer to dream.", 
+                    " Woman tells dream of pot of gold. Robbers overhear but\r\nfinding only snake in pot turn it loose on woman’s bed. It turns to gold.\r\nIndia: Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "183": {
+                "content": [
+                    "N183. †N183. ", 
+                    "Money lost twice: recovered third time.", 
+                    " Type 935**; Lithuanian: Balys Index No. 946*; Spanish:\r\nBoggs FFC XC 114 No. 945A*."
+                ], 
+                "child": []
+            }, 
+            "127": {
+                "content": [
+                    "N127. †N127. ", 
+                    "The auspicious (lucky) day (days).", 
+                    " (Cf. †N53.) Irish myth:\r\n*Cross; Jewish: *Neuman."
+                ], 
+                "child": [
+                    [
+                        "N127.0.1. †N127.0.1. ", 
+                        "Different kinds of luck attending persons born on the\r\nseveral days of the week.", 
+                        " Irish myth:\r\n*Cross."
+                    ], 
+                    [
+                        "N127.1. †N127.1. ", 
+                        "Tuesday as auspicious day.", 
+                        " Irish myth: *Cross."
+                    ], 
+                    [
+                        "N127.2. †N127.2. ", 
+                        "Wednesday as auspicious (inauspicious) day.", 
+                        " Irish myth: *Cross."
+                    ], 
+                    [
+                        "N127.3. †N127.3. ", 
+                        "Thursday as lucky day.", 
+                        "\r\nIrish myth: Cross."
+                    ], 
+                    [
+                        "N127.4. †N127.4. ", 
+                        "Friday as auspicious day.", 
+                        " Irish myth: *Cross."
+                    ]
+                ]
+            }, 
+            "181": {
+                "content": [
+                    "N181. †N181. ", 
+                    "Fortunes of the rich man and of the poor man.", 
+                    " The Fortune of the rich brother tells the poor brother to\r\nseek his luck under a bush. The poor man goes there and Fortune tells him to\r\nbecome a merchant. He becomes rich. Type 735; India: Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "186": {
+                "content": [
+                    "N186. †N186. ", 
+                    "Man who derided another‘s faith in the stars becomes\r\nrespected astrologer.", 
+                    " (Cf. †P481.) Italian Novella: Rotunda."
+                ], 
+                "child": []
+            }, 
+            "187": {
+                "content": [
+                    "N187. †N187. ", 
+                    "Hero fails to meet the man he seeks, though they are close\r\nto one another.", 
+                    " Icelandic: Sterka 436,\r\nBoberg."
+                ], 
+                "child": []
+            }, 
+            "185": {
+                "content": [
+                    "N185. †N185. ", 
+                    "Fugitive woman burdened with child saved; childless woman\r\nkilled.", 
+                    " Estonian: Aarne FFC XXV 136 No.\r\n92."
+                ], 
+                "child": []
+            }, 
+            "128": {
+                "content": [
+                    "N128. †N128. ", 
+                    "Unlucky days (“cross-days”).", 
+                    " Irish myth: *Cross."
+                ], 
+                "child": [
+                    [
+                        "N128.0.1. †N128.0.1. ", 
+                        "Days of the week on which certain tragic deaths occurred.", 
+                        " Irish myth: *Cross."
+                    ], 
+                    [
+                        "N128.1. †N128.1. ", 
+                        "National disasters occur always at the same date.", 
+                        " Jewish: Neuman."
+                    ], 
+                    [
+                        "N128.2. †N128.2. ", 
+                        "Monday and Wednesday as unlucky days.", 
+                        " Jewish: Neuman."
+                    ]
+                ]
+            }, 
+            "255": {
+                "content": [
+                    "N255. †N255. ", 
+                    "Escape from one misfortune into worse.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N255.1. †N255.1. ", 
+                        "Stag escapes from hunters to be eaten by lion.", 
+                        " Wienert FFC LVI *49, 55 (ET 86, 152), 116, 136 (ST 261,\r\n417); Halm Aesop No. 129, 252."
+                    ], 
+                    [
+                        "N255.2. †N255.2. ", 
+                        "Ass gets progressively worse masters.", 
+                        " Finally the farmer beats him living and will not spare his\r\nhide when he is dead. Wienert FFC LVI 77 (ET 435), 109 (ST 214, 390); Halm\r\nAesop No. 329."
+                    ], 
+                    [
+                        "N255.3. †N255.3. ", 
+                        "Halcyon builds nest on sea-cliff to escape land hazards.", 
+                        " Tempest blows nest away. Wienert FFC LVI *63 (ET 266), 140\r\n(ST 4623; Halm Aesop No. 29."
+                    ], 
+                    [
+                        "N255.4. †N255.4. ", 
+                        "Fugitive slave takes refuge in mill house, where he must\r\nwork harder than ever.", 
+                        " Wienert FFC LVI *83\r\n(ET 499), 116 (ST 260); Halm Aesop No. 121."
+                    ], 
+                    [
+                        "N255.5. †N255.5. ", 
+                        "Daw fleeing from captivity caught in trees by thread around\r\nfoot.", 
+                        " Starves. Wienert FFC LVI 63 (ET\r\n265), 116 (ST 259); Halm Aesop No. 202."
+                    ], 
+                    [
+                        "N255.6. †N255.6. ", 
+                        "Old man burns self with gunpowder, and then burns himself\r\nworse when he pours hot water over his body.", 
+                        "\r\nIndia: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "201": {
+                "content": [
+                    "N201. †N201. ", 
+                    "Wish for exalted husband realized.", 
+                    " Girls make wish that they may marry king (prince, etc.).\r\nIt so happens. *Type 707; *BP II 380ff., 393; Italian Novella: Rotunda; India:\r\nThompson-Balys; N. A. Indian: Thompson CColl II 388."
+                ], 
+                "child": []
+            }, 
+            "200": {
+                "content": [
+                    "N200. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "203": {
+                "content": [
+                    "N203. †N203. ", 
+                    "Lucky person.", 
+                    " Icelandic:\r\n*Boberg; Jewish: *Neuman; India: *Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "202": {
+                "content": [
+                    "N202. †N202. ", 
+                    "Wishes for good fortune realized.", 
+                    " Jewish: *Neuman; India: *Thompson-Balys; Buddhist myth:\r\nMalalasekera I 87, 420, II 824."
+                ], 
+                "child": [
+                    [
+                        "N202.1. †N202.1. ", 
+                        "Wish realized that all women should fall in love with man\r\nat sight.", 
+                        " Buddhist myth: Malalasekera I\r\n724."
+                    ]
+                ]
+            }, 
+            "142": {
+                "content": [
+                    "N142. †N142. ", 
+                    "Destiny better than work, show, or speculation.", 
+                    " A peasant makes a little\r\nby his work; a nobleman more by his outward show; a merchant still more by\r\nspeculation; but a prince most of all by his destiny. Chauvin II 109 No. 72;\r\nBødker Exempler 305 No. 76; Spanish Exempla: Keller."
+                ], 
+                "child": []
+            }, 
+            "143": {
+                "content": [
+                    "N143. †N143. ", 
+                    "Luck only with money that is earned honestly.", 
+                    " Icelandic: Boberg."
+                ], 
+                "child": []
+            }, 
+            "140": {
+                "content": [
+                    "N140. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "141": {
+                "content": [
+                    "N141. †N141. ", 
+                    "Luck or intelligence? Dispute as to which is the more\r\npowerful.", 
+                    " Man with intelligence remains\r\npoor (is brought into court). Saved by mere luck. *Type 945; BP III 53f.; Tille\r\nFFC XXXIV 254; Jewish: bin Gorion Born Judas@2 IV 47, 128, 276, 281; India:\r\n*Thompson-Balys."
+                ], 
+                "child": [
+                    [
+                        "N141.1. †N141.1. ", 
+                        "Which is more important, learning or wit?", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N141.2. †N141.2. ", 
+                        "Which is more powerful, wealth or wisdom?", 
+                        " India: *Thompson-Balys."
+                    ], 
+                    [
+                        "N141.3. †N141.3. ", 
+                        "Which is more beautiful, nymph of Luck or of Ill-Luck (Luck\r\nwhen coming, Ill-Luck when going).", 
+                        " India:\r\nThompson-Balys."
+                    ], 
+                    [
+                        "N141.4. †N141.4. ", 
+                        "Weaver married by Wealth to a princess to show Wisdom that\r\nhe is the more powerful.", 
+                        " India:\r\nThompson-Balys."
+                    ]
+                ]
+            }, 
+            "120": {
+                "content": [
+                    "N120. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "119": {
+                "content": [
+                    "N119. †N119. ", 
+                    "Luck and fate personified--miscellaneous.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N119.1. †N119.1. ", 
+                        "Dog tries to catch its fate in its own tail.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N119.2. †N119.2. ", 
+                        "Buffalo’s fate in bamboo growing from head.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N119.3. †N119.3. ", 
+                        "Ill-omened face of king; harbinger of evil. India:\r\nThompson-Balys.", 
+                        null
+                    ]
+                ]
+            }, 
+            "225": {
+                "content": [
+                    "N225. †N225. ", 
+                    "Man robbed and penniless entertained by wealthy widow and\r\nenriched.", 
+                    " Boccaccio Decameron II No. 2\r\n(Lee 25); Italian Novella: *Rotunda."
+                ], 
+                "child": []
+            }, 
+            "178": {
+                "content": [
+                    "N178. †N178. ", 
+                    "Loss of eye saves man from execution.", 
+                    " Man to be buried with\r\nking. Gets off because he lacks an eye. *Wesselski Märchen 230; Pauli (ed.\r\nBolte) No. 480."
+                ], 
+                "child": [
+                    [
+                        "N178.1. †N178.1. ", 
+                        "Broken leg saves man from fatal fight.", 
+                        " King has ordered that he be killed in a fight. He breaks\r\nhis leg and cannot take part. Meantime the king learns of his innocence.\r\nChauvin II 152 No. 18; Spanish Exempla: Keller."
+                    ], 
+                    [
+                        "N178.2. †N178.2. ", 
+                        "Man chosen for execution because he is fat.", 
+                        " India: *Thompson-Balys."
+                    ], 
+                    [
+                        "N178.3. †N178.3. ", 
+                        "King‘s counselor expelled from a court thereby escapes\r\naccompanying the king, who is killed by robbers.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N178.4. †N178.4. ", 
+                        "Only crippled cow not driven away by robbers.", 
+                        " India: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "121": {
+                "content": [
+                    "N121. †N121. ", 
+                    "Fate decided before birth.", 
+                    " Irish myth: *Cross; Jewish: *Neuman; India:\r\nThompson-Balys."
+                ], 
+                "child": [
+                    [
+                        "N121.1. †N121.1. ", 
+                        "Child born with objects that indicate fate.", 
+                        " Cheremis: Sebeok-Nyerges."
+                    ], 
+                    [
+                        "N121.1.1. †N121.1.1. ", 
+                        "Spirit of new-born child in uniform.", 
+                        " God has determined fates of everyone. Type 934*;\r\nLithuanian: Balys Index No. 934C*; Livonian: Loorits FFC LXVI No. 934I."
+                    ], 
+                    [
+                        "N121.1.2. †N121.1.2. ", 
+                        "New-born child with a weapon and a game animal: fated to be\r\nhunter.", 
+                        " Cheremis: Sebeok-Nyerges."
+                    ], 
+                    [
+                        "N121.2. †N121.2. ", 
+                        "Death forestalls evil fates.", 
+                        " Mother shown what would have been the evil fates of her\r\nchildren if they had not died. BP III 472ff.; Irish: Beal XXI 336,\r\nO’Suilleabhain 120."
+                    ], 
+                    [
+                        "N121.3. †N121.3. ", 
+                        "Newborn girl fated to be a courtesan.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N121.4. †N121.4. ", 
+                        "Seventh daughter predestined to be magician.", 
+                        " (Cf. †Z71.5.) Argentina:\r\nJijena Sanchez 54, 64; Spain: ibid. 69; Portugal: ibid. 70."
+                    ]
+                ]
+            }, 
+            "261": {
+                "content": [
+                    "N261. †N261. ", 
+                    "Train of troubles from sparrow‘s vengeance.", 
+                    " A man runs over the dog, friend of the sparrow. Through\r\nthe sparrow’s vengeance the man loses his horse, his property, and finally his\r\nlife. *Type 248; *BP I 515; Jamaica: Beckwith MAFLS XVII 254 No. 34."
+                ], 
+                "child": [
+                    [
+                        "N261.1. †N261.1. ", 
+                        "Train of troubles for seven brothers for having destroyed\r\nbird‘s nest.", 
+                        " India: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "125": {
+                "content": [
+                    "N125. †N125. ", 
+                    "Choices by chance.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N125.1. †N125.1. ", 
+                        "He upon whom feather (wisp) falls to be king‘s fool.", 
+                        " Irish myth: Cross."
+                    ], 
+                    [
+                        "N125.2. †N125.2. ", 
+                        "Luck determined by whether a crooked-necked demigod is\r\nlooking at one.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N125.3. †N125.3. ", 
+                        "King to be victorious as long as he rides muzzled gelding.", 
+                        " Irish myth: Cross."
+                    ], 
+                    [
+                        "N125.4. †N125.4. ", 
+                        "Districts named from first person met in each.", 
+                        " Irish myth: Cross."
+                    ]
+                ]
+            }, 
+            "265": {
+                "content": [
+                    "N265. †N265. ", 
+                    "Person brings bad luck to others.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N265.1. †N265.1. ", 
+                        "Girl brings ill luck and death to everyone she comes in\r\ncontact with.", 
+                        " India: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "264": {
+                "content": [
+                    "N264. †N264. ", 
+                    "Whether man begs all day or for an hour he gets only a\r\nsmall basket of grain.", 
+                    " India:\r\n*Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "227": {
+                "content": [
+                    "N227. †N227. ", 
+                    "Man who is impoverished is given high post by princess in\r\ndisguise.", 
+                    "\r\nMarries her. (Cf. †N251.3.) Italian Novella: Rotunda."
+                ], 
+                "child": []
+            }, 
+            "226": {
+                "content": [
+                    "N226. †N226. ", 
+                    "Wrecked man saved on coffer of jewels; becomes rich.", 
+                    " Boccaccio Decameron II No. 4 (Lee 30); Italian Novella:\r\n*Rotunda."
+                ], 
+                "child": []
+            }, 
+            "100": {
+                "content": [
+                    "N100. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "101": {
+                "content": [
+                    "N101. †N101. ", 
+                    "Inexorable fate.", 
+                    " *Cosquin Contes Indiens 126f.; Hdwb. d. Märchens II 63 s.v.\r\nFatalismus; Icelandic: *Boberg; India: *Thompson-Balys."
+                ], 
+                "child": [
+                    [
+                        "N101.1. †N101.1. ", 
+                        "Inexorable fate: no day without sorrow.", 
+                        " A king, who has made decree against sorrow on a certain\r\nday is blinded by a swallow in his sleep. Pauli (ed. Bolte) No. 481."
+                    ], 
+                    [
+                        "N101.2. †N101.2. ", 
+                        "Inexorable fate: death from violating tabus.", 
+                        " (Cf. †C920.) Irish myth:\r\n*Cross."
+                    ], 
+                    [
+                        "N101.3. †N101.3. ", 
+                        "Man cannot die: snake will not bite him though it is\r\nprovoked by him.", 
+                        " (Cf. †N146.) Buddhist myth: Malalasekera II 1030."
+                    ], 
+                    [
+                        "N101.4. †N101.4. ", 
+                        "Man fated to become king becomes so despite fact he breaks\r\nhis tooth in which his luck resides.", 
+                        " (Cf. †N113.2.2.) Buddhist myth: Malalasekera I 860."
+                    ]
+                ]
+            }, 
+            "102": {
+                "content": [
+                    "N102. †N102. ", 
+                    "Fortune comes to deserving and undeserving.", 
+                    " Jewish: Neuman."
+                ], 
+                "child": []
+            }, 
+            "222": {
+                "content": [
+                    "N222. †N222. ", 
+                    "First objects picked up bring fortune.", 
+                    " India: Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "221": {
+                "content": [
+                    "N221. †N221. ", 
+                    "Man granted power of winning at cards.", 
+                    " Irish: Beal XXI 329, O‘Suilleabhain 90; Spanish: Boggs FFC\r\nXC 45, 52 Nos. 313, 345, Espinosa II Nos. 122ff., 168--171, Espinosa Jr. Nos.\r\n70--73, 210."
+                ], 
+                "child": []
+            }, 
+            "278": {
+                "content": [
+                    "N278. †N278. ", 
+                    "Supernatural voice points out criminal.", 
+                    " Pauli (ed. Bolte) No.\r\n352; *Wesselski Mönchslatein 182 No. 140."
+                ], 
+                "child": []
+            }, 
+            "115": {
+                "content": [
+                    "N115. †N115. ", 
+                    "Book of fate.", 
+                    " India:\r\n*Thompson-Balys; Gaster Thespis 348."
+                ], 
+                "child": []
+            }, 
+            "114": {
+                "content": [
+                    "N114. †N114. ", 
+                    "Fortune as an old woman.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "224": {
+                "content": [
+                    "N224. †N224. ", 
+                    "Man finds treasure he refused as gift.", 
+                    " Irish myth: Cross."
+                ], 
+                "child": []
+            }, 
+            "118": {
+                "content": [
+                    "N118. †N118. ", 
+                    "Issues left to fate (luck).", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N118.1. †N118.1. ", 
+                        "Ship‘s course left to the winds that it might be carried\r\nwhere fate wills it.", 
+                        " India:\r\nThompson-Balys."
+                    ]
+                ]
+            }, 
+            "122": {
+                "content": [
+                    "N122. †N122. ", 
+                    "Lucky or unlucky places.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "N122.0.1. †N122.0.1. ", 
+                        "The choice of roads.", 
+                        " At parting of three roads are equivocal\r\ninscriptions telling what will happen if each is chosen. Brothers each choose a\r\ndifferent road. Köhler-Bolte I 537ff.; India Thompson-Balys."
+                    ], 
+                    [
+                        "N122.1. †N122.1. ", 
+                        "Unlucky places.", 
+                        "\r\nJewish: *Neuman."
+                    ]
+                ]
+            }, 
+            "177": {
+                "content": [
+                    "N177. †N177. ", 
+                    "Beggar escapes from fire.", 
+                    " Refused hospitality, he must sleep outdoors. The house burns down.\r\n*Pauli (ed. Bolte) No. 479; Jewish: Neuman."
+                ], 
+                "child": []
+            }, 
+            "228": {
+                "content": [
+                    "N228. †N228. ", 
+                    "Leopard tied in bag in water floats to shore and finds a\r\nmate.", 
+                    " Grateful to trickster who has tied\r\nhim up. India: *Thompson-Balys."
+                ], 
+                "child": []
+            }, 
+            "111": {
+                "content": [
+                    "N111. †N111. ", 
+                    "Fortuna.", 
+                    " Luck (fate)\r\nthought of as a goddess. **Patch Fortuna; *Penzer I 106f., 135, II 49, 116, III\r\n24, 74, 298, VI 42, 72, 105 n. 1, 124, 156, 159, VII 70, VIII 87; Frazer\r\nPausanias III 424; India: *Thompson-Balys."
+                ], 
+                "child": [
+                    [
+                        "N111.1. †N111.1. ", 
+                        "Dwelling place of Fortuna.", 
+                        null
+                    ], 
+                    [
+                        "N111.1.1. †N111.1.1. ", 
+                        "Home of Fortuna in other world.", 
+                        " Patch PMLA XXXIII 630."
+                    ], 
+                    [
+                        "N111.1.2. †N111.1.2. ", 
+                        "Home of Fortuna on island (in otherworld).", 
+                        " *Köhler-Bolte II 412f.;\r\n*Patch Fortuna 129ff.; Hartland Science 199."
+                    ], 
+                    [
+                        "N111.2. †N111.2. ", 
+                        "Appearance of Fortuna.", 
+                        null
+                    ], 
+                    [
+                        "N111.2.1. †N111.2.1. ", 
+                        "Fortuna blind.", 
+                        " *Patch\r\nFortuna 44 n. 2."
+                    ], 
+                    [
+                        "N111.2.1.1. †N111.2.1.1. ", 
+                        "Fortune has one eye, watches over everybody.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N111.2.2. †N111.2.2. ", 
+                        "Fortuna with two faces.", 
+                        "\r\n*Patch Fortuna 43 nn. 3, 4."
+                    ], 
+                    [
+                        "N111.2.3. †N111.2.3. ", 
+                        "Fortuna half white, half black.", 
+                        " *Patch Fortuna 43 n. 4."
+                    ], 
+                    [
+                        "N111.3. †N111.3. ", 
+                        "Fortune‘s wheel. **Patch Fortuna 147ff.", 
+                        "; *Köhler-Bolte II 66;\r\nIrish: O’Suilleabhain 122, Beal XXI 336;\r\nJewish: *Neuman."
+                    ], 
+                    [
+                        "N111.3.1. †N111.3.1. ", 
+                        "Fortune‘s wheel turned by dead king in mountain.", 
+                        " Armenian: Ananikian 34."
+                    ], 
+                    [
+                        "N111.3.2. †N111.3.2. ", 
+                        "Fortune with pair of scales in his hands weighs man’s\r\nbalance.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "N111.4. †N111.4. ", 
+                        "Fortune‘s dealings with men.", 
+                        null
+                    ], 
+                    [
+                        "N111.4.1. †N111.4.1. ", 
+                        "Man thanks earth for saving his life; had he fallen into\r\nwell he would have blamed Fortune.", 
+                        " Wienert\r\nFFC LVI 81 (ET 470), 125 (ST 341); Halm Aesop No. 316; Italian Novella:\r\nRotunda."
+                    ], 
+                    [
+                        "N111.5. †N111.5. ", 
+                        "Giant is clerk to God of Destiny and measures out mortals’\r\nspans of existence.", 
+                        " India: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "126": {
+                "content": [
+                    "N126. †N126. ", 
+                    "Lots cast to determine luck or fate.", 
+                    " Irish myth: Cross; Icelandic: *Boberg; Jewish: *Neuman."
+                ], 
+                "child": [
+                    [
+                        "N126.1. †N126.1. ", 
+                        "Lots cast to determine who shall undertake adventure.", 
+                        " Irish myth: Cross."
+                    ], 
+                    [
+                        "N126.2. †N126.2. ", 
+                        "Lots cast to determine father of illegitimate child.", 
+                        " Irish myth: *Cross."
+                    ]
+                ]
+            }, 
+            "252": {
+                "content": [
+                    "N252. †N252. ", 
+                    "Messengers announce successive misfortunes.", 
+                    " Spanish Exempla: Keller; Greek: Aeschylus Agamemnon line\r\n860; Jewish: Neuman. Cf. story of Job."
+                ], 
+                "child": [
+                    [
+                        "N252.1. †N252.1. ", 
+                        "Messengers announce successive misfortunes to warrior as he\r\nsets out for war.", 
+                        " Tells of death of father,\r\nmother, brother, and sister, but he refuses to turn back. Finnish: Kalevala\r\nrune 36."
+                    ]
+                ]
+            }, 
+            "110": {
+                "content": [
+                    "N110. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }
+        }
+    }, 
+    "N_0_99_Wagers and gambling.": {
+        "61": {
+            "content": [
+                "N61. †N61. ", 
+                "Wager that falsehood is better than truth.", 
+                " Left to unjust umpire, so that falsehood wins. *Type 613;\r\n*BP II 468ff.; **Christiansen FFC XXIV 47; Chauvin V 11 No. 8, 13 No. 9, 14 No.\r\n158; *Pauli (ed. Bolte) No. 489; India: *Thompson-Balys; N. A. Indian: Thompson\r\nCColl II 395."
+            ], 
+            "child": []
+        }, 
+        "63": {
+            "content": [
+                "N63. †N63. ", 
+                "Wager: more doctors than men of other professions.", 
+                " The trickster feigns toothache. Everyone suggests\r\nremedies. He takes down their names as doctors and wins the wager. *Wesselski\r\nGonnella 110 No. 11; Italian Novella: *Rotunda."
+            ], 
+            "child": []
+        }, 
+        "66": {
+            "content": [
+                "N66. †N66. ", 
+                "Wager: fortune made from capital or from working at\r\nvocation.", 
+                " Test: money given to workman is\r\nstolen or lost; lead for his work given him is lent to fisherman who rewards\r\nhim with a fish in which is a diamond. *Chauvin VI 32 No. 202."
+            ], 
+            "child": []
+        }, 
+        "67": {
+            "content": [
+                "N67. †N67. ", 
+                "Wager: woman can be forced to give alms.", 
+                " Trickster announces that only those who have deceived\r\ntheir husbands are exempt. Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "25": {
+            "content": [
+                "N25. †N25. ", 
+                "Wager on truthfulness of servant.", 
+                " The servant is sent to a neighbor‘s where he is made drunk\r\nand is seduced by the neighbor’s wife. He tells the master all. *Type 889; Wesselski Märchen 200;\r\nWesselski Mönchslatein I No. 1; Fb “lyve” II\r\n491a, “sandhed” III 157b; Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "1": {
+            "content": [
+                "N1. †N1. ", 
+                "Gamblers.", 
+                " Spanish: Espinosa Jr. Nos. 70--73, 210; Missouri French:\r\nCarrière; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "N1.0.1. †N1.0.1. ", 
+                    "Gambling caused by possession of men by evil demons.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N1.1. †N1.1. ", 
+                    "Hero makes fortune through gambling.", 
+                    " Scotch: Campbell Tales II 253, 271."
+                ], 
+                [
+                    "N1.2. †N1.2. ", 
+                    "Conquering gambler.", 
+                    " Bankrupt gambler gets supernatural power\r\nand wins back his fortune. N. A. Indian: *Thompson Tales 354 n. 276, (Zuñi):\r\nBenedict II 342, (Klikitat): Jacobs U Wash II 5."
+                ], 
+                [
+                    "N1.2.1. †N1.2.1. ", 
+                    "The miracle of broken die at gambling saves man.", 
+                    " Krappe Hispanic Review XIV (1946) 164ff."
+                ], 
+                [
+                    "N1.2.2. †N1.2.2. ", 
+                    "Dice made from bones from graveyard.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N1.3. †N1.3. ", 
+                    "Betting contest between two kings.", 
+                    " Philippine: Fansler MAFLS XII 8."
+                ]
+            ]
+        }, 
+        "0": {
+            "content": [
+                "N0. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "3": {
+            "content": [
+                "N3. †N3. ", 
+                "Supernatural adversary in gambling (witch or giant).", 
+                " Norse: Boberg."
+            ], 
+            "child": [
+                [
+                    "N3.1. †N3.1. ", 
+                    "Gambling with a god.", 
+                    " India: Thompson-Balys; N. A. Indian (Zuñi)\r\n*Benedict II 338."
+                ]
+            ]
+        }, 
+        "2": {
+            "content": [
+                "N2. †N2. ", 
+                "Extraordinary stakes at gambling.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "N2.0.1. †N2.0.1. ", 
+                    "Play for unnamed stakes.", 
+                    "\r\nIrish myth: *Cross; Scottish: Campbell-McKay Nos. 1, 17."
+                ], 
+                [
+                    "N2.0.2. †N2.0.2. ", 
+                    "Stakes not claimed by winner, who insists on another game.", 
+                    " Scottish: Campbell-McKay No. 17."
+                ], 
+                [
+                    "N2.1. †N2.1. ", 
+                    "Own body as stake: to be taken as slave.", 
+                    " Missouri French:\r\nCarrière; India: *Thompson-Balys; Buddhist myth: Malalasekera II 882; N. A.\r\nIndian: *Thompson Tales 354 n. 277."
+                ], 
+                [
+                    "N2.2. †N2.2. ", 
+                    "Lives wagered.", 
+                    " *Fb\r\n“spille” III 487b; Icelandic: *Boberg; India: *Thompson-Balys; Burmese: Scott\r\nIndo-Chinese 323; Hawaii Beckwith Myth 111, 459; N. A. Indian: *Thompson Tales\r\n354 n. 277; Africa (Fjort): Dennett 71 No. 15."
+                ], 
+                [
+                    "N2.3. †N2.3. ", 
+                    "Bodily members wagered.", 
+                    null
+                ], 
+                [
+                    "N2.3.1. †N2.3.1. ", 
+                    "Head wagered.", 
+                    " India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "N2.3.2. †N2.3.2. ", 
+                    "Hand wagered.", 
+                    " To be\r\ncut off. Penzer II 232n."
+                ], 
+                [
+                    "N2.3.2.1. †N2.3.2.1. ", 
+                    "Hands and feet wagered.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "N2.3.3. †N2.3.3. ", 
+                    "Eyes wagered.", 
+                    " *Type\r\n613; Christiansen FFC XXIV 48ff., 55; India: *Thompson-Balys; N. A. Indian\r\n(California): Gayton and Newman 82."
+                ], 
+                [
+                    "N2.3.4. †N2.3.4. ", 
+                    "Nose wagered.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "N2.3.5. †N2.3.5. ", 
+                    "Intestines wagered.", 
+                    "\r\nAfrica (Wute): Sieber 212f."
+                ], 
+                [
+                    "N2.4. †N2.4. ", 
+                    "Helpful animals lost in wager.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N2.5. †N2.5. ", 
+                    "Whole kingdom (all property) as wager.", 
+                    " *Fb “spille” III 487b, “konge” II 264b; Icelandic: Boberg;\r\nIndia: *Thompson-Balys; Hawaii: Beckwith Myth 429."
+                ], 
+                [
+                    "N2.5.1. †N2.5.1. ", 
+                    "Right of succession to the throne lost in gambling.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N2.5.2. †N2.5.2. ", 
+                    "Half kingdom as wager.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "N2.6. †N2.6. ", 
+                    "Wife as wager.", 
+                    " *Fb\r\n“spille” III 487b; Irish myth: *Cross; India: *Thompson-Balys; Chinese:\r\nEberhard FFC CXX 216 No. 165; N. A. Indian: *Thompson Tales 354 n. 276."
+                ], 
+                [
+                    "N2.6.1. †N2.6.1. ", 
+                    "Sister as wager.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "N2.6.2. †N2.6.2. ", 
+                    "Daughter as wager.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "N2.6.3. †N2.6.3. ", 
+                    "Damsel as wager.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "N2.7. †N2.7. ", 
+                    "Love wagered in game.", 
+                    "\r\nDanish: Grundtvig No. 238; Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "5": {
+            "content": [
+                "N5. †N5. ", 
+                "Card-playing parson.", 
+                "\r\nThe parson plays cards all Saturday night, goes to sleep at church, and calls\r\nout the names of the cards. Type 1839A; Lithuanian: Balys Index No. 1785E*. Cf.\r\nType 1839B."
+            ], 
+            "child": []
+        }, 
+        "4": {
+            "content": [
+                "N4. †N4. ", 
+                "Devil as gambler.", 
+                " Fb\r\n“kort” II 279a, “klör” II 204; Alphabet No. 450;\r\nScala Celi 110b, 111a Nos. 615, 616; Irish: O’Suilleabhain 33, 36, Beal XXI 311, 313;\r\nMissouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "N4.0.1. †N4.0.1. ", 
+                    "Devil cheated at card playing.", 
+                    " Fb “fanden” I 267b."
+                ], 
+                [
+                    "N4.1. †N4.1. ", 
+                    "Devil makes wager with builder of Cologne Cathedral.", 
+                    " Wünsche 83f."
+                ], 
+                [
+                    "N4.2. †N4.2. ", 
+                    "Playing game of chance (or skill) with uncanny being.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "7": {
+            "content": [
+                "N7. †N7. ", 
+                "Trained rat upsets pieces in gambling game: trained (or\r\ntransformed) cat chases it away.", 
+                " India:\r\n*Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "6": {
+            "content": [
+                "N6. †N6. ", 
+                "Luck in gambling.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N6.1. †N6.1. ", 
+                    "Luck in gambling from compact with devil.", 
+                    " Scala Celi 24a No. 154; Spanish: Boggs FFC XC 55 No.\r\n408A*, Espinosa Jr. Nos. 70--73."
+                ], 
+                [
+                    "N6.2. †N6.2. ", 
+                    "Cuckold loses luck.", 
+                    " A\r\nman‘s wife is deceived in order that he may lose in gambling. N. A. Indian\r\n(California): Gayton and Newman 81."
+                ], 
+                [
+                    "N6.3. †N6.3. ", 
+                    "Saint helps gambler.", 
+                    "\r\nIcelandic: Boberg."
+                ]
+            ]
+        }, 
+        "9": {
+            "content": [
+                "N9. †N9. ", 
+                "Wagers and gambling--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N9.1. †N9.1. ", 
+                    "Gambler loses everything.", 
+                    " (Cf. †N2.5.) India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "8": {
+            "content": [
+                "N8. †N8. ", 
+                "Gambler’s attention distracted by women.", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "77": {
+            "content": [
+                "N77. †N77. ", 
+                "Wager: bullock to defeat elephant.", 
+                " Elephant is frightened and flees. India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "75": {
+            "content": [
+                "N75. †N75. ", 
+                "Wager: to swallow egg with one gulp.", 
+                " Tricksters give numskull egg with chick in it. Fool hears\r\nchick peep as he starts to swallow his egg, but he says that the chick peeped\r\ntoo late. Spanish: Childers."
+            ], 
+            "child": []
+        }, 
+        "73": {
+            "content": [
+                "N73. †N73. ", 
+                "Wager: whose hunger is it more difficult to appease--that\r\nof man or that of beast? When nuts are strewn before master’s well-fed guests,\r\nthey snatch and eat them.", 
+                " Herdsman wins\r\nwager. Lithuanian: Balys Index No. 1545*."
+            ], 
+            "child": []
+        }, 
+        "72": {
+            "content": [
+                "N72. †N72. ", 
+                "Wager on second marvelous object.", 
+                " First object has proved to be ordinary. King induced to\r\nmake large wager that second is ordinary. He loses. India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "71": {
+            "content": [
+                "N71. †N71. ", 
+                "Wager: to begin sermon with illustration from card-playing.", 
+                " Card-playing parson wins the wager. Type 1839B."
+            ], 
+            "child": []
+        }, 
+        "91": {
+            "content": [
+                "N91. †N91. ", 
+                "Purchase of box without knowledge of its contents.", 
+                " *Chauvin VI 17 No. 189 n. 2."
+            ], 
+            "child": []
+        }, 
+        "90": {
+            "content": [
+                "N90. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "92": {
+            "content": [
+                "N92. †N92. ", 
+                "Wager to win or lose according to whether jackal howls or\r\nass brays before game is finished.", 
+                " India:\r\nThompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "94": {
+            "content": [
+                "N94. †N94. ", 
+                "Father hides wealth to keep son from gambling it away.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "78": {
+            "content": [
+                "N78. †N78. ", 
+                "Ghoulish wager won.", 
+                "\r\nEngland: *Baughman."
+            ], 
+            "child": []
+        }, 
+        "11": {
+            "content": [
+                "N11. †N11. ", 
+                "Wager on wife‘s complacency.", 
+                " Though the man has\r\nfoolishly bargained everything away, she praises him and he wins the wager.\r\nType 1415; *BP II 199; *Hdwb. d. Märchens I 187 n. 131."
+            ], 
+            "child": []
+        }, 
+        "10": {
+            "content": [
+                "N10. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "13": {
+            "content": [
+                "N13. †N13. ", 
+                "Husbands wager that they will be able to do what wives tell\r\nthem to do.", 
+                " One is told to drown himself:\r\nloses wager. England: Baughman."
+            ], 
+            "child": []
+        }, 
+        "12": {
+            "content": [
+                "N12. †N12. ", 
+                "Wager on the most obedient wife.", 
+                " The husband tames his\r\nshrewish wife so that he wins the wager. *Type 901; *Wesselski Märchen 216 No.\r\n24; von der Hagen I lxxxii; *Köhler-Bolte I 137; Shakespeare‘s “The Taming of the Shrew”; N. A. Indian (Zuñi): Boas JAFL XXXV 76."
+            ], 
+            "child": [
+                [
+                    "N12.1. †N12.1. ", 
+                    "Wager: raja’s daughter will bring servant dinner in field.", 
+                    " Merchant ignorant that she is his wife. India:\r\n*Thompson-Balys."
+                ]
+            ]
+        }, 
+        "15": {
+            "content": [
+                "N15. †N15. ", 
+                "Chastity wager.", 
+                " A man\r\nmakes a wager on his wife‘s chastity. In spite of unsuccessful attempts to seduce her and of\r\nfalse proofs presented, he wins the wager. *Type 882; *Köhler-Bolte I 211f.,\r\n375, 581; **G. Paris Romania XXXII 481ff.; *von der Hagen III lxxxiii;\r\nBoccaccio Decameron II No. 9 (Lee 42); Shakespeare’s “Cymbeline”; *Child V 500 s.v. “wager”.--Irish myth:\r\nCross; Welsh: MacCulloch Celtic 110; England: Baughman; Italian Novella:\r\n*Rotunda; Jewish: bin Gorion Born Judas@2 I 276ff., III 109, 304; India:\r\n*Thompson-Balys; Philippine: Fansler MAFLS XII 62, 253ff."
+            ], 
+            "child": [
+                [
+                    "N15.1. †N15.1. ", 
+                    "Chastity wager: woman succumbs.", 
+                    " Buddhist myth: Malalasekera I 51."
+                ], 
+                [
+                    "N15.2. †N15.2. ", 
+                    "Wager on nun’s chastity.", 
+                    "\r\nBuddhist myth: Malalasekera II 996."
+                ]
+            ]
+        }, 
+        "16": {
+            "content": [
+                "N16. †N16. ", 
+                "Wagers on unborn children.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N16.1. †N16.1. ", 
+                    "Wager on sex of unborn child.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N16.2. †N16.2. ", 
+                    "Fathers whose unborn children are affianced wager as to\r\nmastery in the house.", 
+                    " (Cf. †N12.) India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "55": {
+            "content": [
+                "N55. †N55. ", 
+                "Shooting contest on wager.", 
+                " *Type 592; *BP II 490ff.; Spanish: Espinosa III 153."
+            ], 
+            "child": [
+                [
+                    "N55.1. †N55.1. ", 
+                    "Loser of shooting wager to go naked into thorns for bird.", 
+                    " *Type 592; *BP II 490ff."
+                ]
+            ]
+        }, 
+        "56": {
+            "content": [
+                "N56. †N56. ", 
+                "Wager: woman to turn somersault in middle of public square.", 
+                " It is performed not exactly in the center of the square;\r\nhence she loses. India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "51": {
+            "content": [
+                "N51. †N51. ", 
+                "Wager: who can call three tree names first.", 
+                " The bear names different\r\nvarieties of the same tree, so that the fox wins the wager. *Type 7; Dh I 193;\r\nKrohn Bär (Wolf) und Fuchs (JSFO VI) 65ff.; Fb “træ” III 867b; N. A. Indian (San Carlos Apache): cf. Goddard\r\nPaAM XXIV 24."
+            ], 
+            "child": [
+                [
+                    "N51.1. †N51.1. ", 
+                    "Wager about tree names: learned and common names.", 
+                    " Brahmin gives learned names but servant‘s common names are\r\nconfirmed by illiterate peasants. India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "50": {
+            "content": [
+                "N50. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "53": {
+            "content": [
+                "N53. †N53. ", 
+                "Wager: it is an auspicious day.", 
+                " In spite of all\r\nmisfortunes wagerer insists that he is right. (Cf. †N127.) India:\r\nThompson-Balys."
             ], 
             "child": []
         }

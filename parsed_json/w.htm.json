@@ -1,4 +1,1585 @@
 {
+    "W_100_199_Unfavorable traits of character.": {
+        "151": {
+            "content": [
+                "W151. †W151. ", 
+                "Greed.", 
+                " Irish myth:\r\nCross; Jewish: *Neuman; Icelandic: *Boberg; West Indies: Flowers 582."
+            ], 
+            "child": [
+                [
+                    "W151.0.1. †W151.0.1. ", 
+                    "Cauldron of greed.", 
+                    "\r\nIrish myth: *Cross"
+                ], 
+                [
+                    "W151.1. †W151.1. ", 
+                    "Harlot weeps when her impoverished lover leaves her to\r\nthink that she has left him his coat.", 
+                    "\r\n*Crane Vitry 214 No. 200; Herbert III 16; *Pauli (ed. Bolte) No. 10; Scala Celi\r\n87b No. 512; Italian Novella: Rotunda."
+                ], 
+                [
+                    "W151.2. †W151.2. ", 
+                    "Visiting friends take everything from house of dying man.", 
+                    " Pauli (ed. Bolte) No. 496."
+                ], 
+                [
+                    "W151.2.1. †W151.2.1. ", 
+                    "Visitors of sick stag eat up all his provisions so that he\r\nstarves.", 
+                    " Wienert FFC LVI *60 (ET 227), 122\r\n(ST 311); Halm Aesop No. 131."
+                ], 
+                [
+                    "W151.2.2. †W151.2.2. ", 
+                    "Hospitable man impoverished by greedy guests.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W151.3. †W151.3. ", 
+                    "Wolves devour an ox without leaving a share for the\r\nrightful owner.", 
+                    " Pauli (ed. Bolte) No. 495."
+                ], 
+                [
+                    "W151.4. †W151.4. ", 
+                    "Snake and weasel stop fighting in order to catch mouse.", 
+                    " Wienert FFC LVI 49 (ET 80), 134 (ST 396); Halm Aesop No.\r\n345."
+                ], 
+                [
+                    "W151.5. †W151.5. ", 
+                    "Father-in-law sued for breach of contract because he does\r\nnot die in two years as he has predicted.", 
+                    " Nouvelles Récréations No. 49."
+                ], 
+                [
+                    "W151.6. †W151.6. ", 
+                    "Hog with broken leg refuses to tell another where peas are\r\nto be found.", 
+                    " “I intend to go there myself\r\nas soon as I get well again.” Lithuanian: Balys Index No. 215*."
+                ], 
+                [
+                    "W151.7. †W151.7. ", 
+                    "Eats up the money.", 
+                    " Old\r\nman before dying eats his money. In church, son wants to cut corpse open and\r\nget the money. The devil: “Don‘t spoil the skin.” Shakes money out of the corpse’s\r\nthroat and takes the skin. Lithuanian: Balys Index No. 3621, Legends No. 638."
+                ], 
+                [
+                    "W151.8. †W151.8. ", 
+                    "Thieves quarrel over booty: owner comes.", 
+                    " (Cf. †J2136.5.2.) India:\r\nThompson-Balys."
+                ], 
+                [
+                    "W151.9. †W151.9. ", 
+                    "Greedy person (animal) gets hand (head) stuck in food jar.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "W151.10. †W151.10. ", 
+                    "Greedy man tries to stuff food into his nostrils as well as\r\ninto his mouth.", 
+                    " Africa (Fang): Tessman\r\n140."
+                ]
+            ]
+        }, 
+        "150": {
+            "content": [
+                "W150. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "153": {
+            "content": [
+                "W153. †W153. ", 
+                "Miserliness.", 
+                " Spanish\r\nExempla: Keller; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "W153.1. †W153.1. ", 
+                    "Miser’s heart found in his strong-box.", 
+                    " Chauvin II 152 No. 14."
+                ], 
+                [
+                    "W153.2. †W153.2. ", 
+                    "Miserly husband spies on wife to see that she does not eat\r\ntoo much.", 
+                    " Gets burned in the chimney and\r\nbeaten in the bed where he hides. Type 1407; U.S.: Baughman."
+                ], 
+                [
+                    "W153.2.1. †W153.2.1. ", 
+                    "Miserly husband spies on wife, lest she cook too much.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W153.3. †W153.3. ", 
+                    "Miserly wife exposed to guests by her husband.", 
+                    " Russian: Andrejev No. 1454."
+                ], 
+                [
+                    "W153.4. †W153.4. ", 
+                    "Man is so miserly that he never drinks wine until it\r\nbecomes strong.", 
+                    " Gets full benefit from it.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "W153.5. †W153.5. ", 
+                    "Friar so miserly that he stays in ditch three days before\r\n“lending” a hand to his rescuers.", 
+                    " Italian\r\nNovella: Rotunda."
+                ], 
+                [
+                    "W153.6. †W153.6. ", 
+                    "Miser dreams that he spends some money.", 
+                    " Strangles himself in his sleep. Italian Novella: Rotunda."
+                ], 
+                [
+                    "W153.7. †W153.7. ", 
+                    "Miser decides not to commit suicide.", 
+                    " Does not want the expense of a rope. Italian Novella:\r\nRotunda."
+                ], 
+                [
+                    "W153.7.1. †W153.7.1. ", 
+                    "Miser is given rope to hang himself.", 
+                    " Miser annoys merchant so much over the price of a rope\r\nthat the latter gives it to him provided he will hang himself as he plans to\r\ndo. Spanish: Childers."
+                ], 
+                [
+                    "W153.8. †W153.8. ", 
+                    "Miser appoints himself as the sole heir of his own estate.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W153.9. †W153.9. ", 
+                    "Miser decides to kill his pigs himself.", 
+                    " Refuses to pay fee. Chain of circumstances make it\r\ninfinitely more expensive. Italian Novella: Rotunda."
+                ], 
+                [
+                    "W153.10. †W153.10. ", 
+                    "Miser is rebuked by friend.", 
+                    " “You get no benefit from your wealth.” Proves his folly.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "W153.11. †W153.11. ", 
+                    "Miser dies because he will not buy a candle.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W153.11.1. †W153.11.1. ", 
+                    "Dying miser tells son to extinguish candle just as soon as\r\nhe dies.", 
+                    " Spanish: Childers."
+                ], 
+                [
+                    "W153.11.2. †W153.11.2. ", 
+                    "Miser runs back home to put out lamp left burning.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W153.12. †W153.12. ", 
+                    "Miser is kidnapped and held for ransom.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W153.13. †W153.13. ", 
+                    "Wood dealer prays for raja‘s death so that he can sell\r\nsandal wood for funeral pyre.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W153.14. †W153.14. ", 
+                    "Miser tries to reduce sacrifice promised to god.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "W153.15. †W153.15. ", 
+                    "Miser prays to enter heaven with his clothes on: gold coins\r\nsewn into undergarments.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "152": {
+            "content": [
+                "W152. †W152. ", 
+                "Stinginess.", 
+                " Irish\r\nmyth: *Cross; Icelandic: *Boberg; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "W152.1. †W152.1. ", 
+                    "Fox spoils his food rather than divide with ape.", 
+                    " Wienert FFC LVI 58 (ET 193), 133 (ST 393)."
+                ], 
+                [
+                    "W152.2. †W152.2. ", 
+                    "Man had rather be burned alive than to share food with a\r\nguest.", 
+                    " Penzer V 165ff."
+                ], 
+                [
+                    "W152.3. †W152.3. ", 
+                    "Stingy dead woman raises her head to correct account of\r\nlaundress, who is overcharging her daughter.", 
+                    "\r\nSpanish: Boggs FFC XC 128 No. 1482."
+                ], 
+                [
+                    "W152.4. †W152.4. ", 
+                    "Stingy man forced to share his money when he lies and says\r\nhe has none.", 
+                    " Pauli (ed. Bolte) No. 707."
+                ], 
+                [
+                    "W152.5. †W152.5. ", 
+                    "Stingy woman will not give soup to man until she spills it.", 
+                    " Then she says he may have the soup. Pauli (ed. Bolte) No.\r\n321."
+                ], 
+                [
+                    "W152.6. †W152.6. ", 
+                    "Stingy king will not hire soldiers: defeated.", 
+                    " Pauli (ed. Bolte) No. 181."
+                ], 
+                [
+                    "W152.7. †W152.7. ", 
+                    "Spider in stingy woman‘s house grows thin.", 
+                    " Type 286*."
+                ], 
+                [
+                    "W152.8. †W152.8. ", 
+                    "Stingy horse refuses ass little feed, though he promises\r\nmuch for later time.", 
+                    " Wienert FFC LVI *58\r\n(ET 196), 133 (ST 394); Hervieux II 142."
+                ], 
+                [
+                    "W152.9. †W152.9. ", 
+                    "Stingy man cancels invitations to his guests.", 
+                    " “It is better that they speak ill of me on an empty\r\nstomach than on a full one.” Italian Novella: Rotunda."
+                ], 
+                [
+                    "W152.10. †W152.10. ", 
+                    "Drummer drums for own wedding so as to save expense.", 
+                    " Nouvelles Récréations\r\nNo. 49."
+                ], 
+                [
+                    "W152.11. †W152.11. ", 
+                    "Stingy men love possessions so much that they wear out\r\ntheir feet to save shoes.", 
+                    " Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "W152.12. †W152.12. ", 
+                    "Stingy man and his servants.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W152.12.1. †W152.12.1. ", 
+                    "Farmer gets help up early in morning for a light breakfast:\r\na glass of water and a lantern.", 
+                    " Canada:\r\nBaughman."
+                ], 
+                [
+                    "W152.12.2. †W152.12.2. ", 
+                    "Stingy farmer encourages help by promise of hot lunch.", 
+                    " The servant discovers that the hot lunch is a mustard\r\nsandwich. Canada: Baughman."
+                ], 
+                [
+                    "W152.12.3. †W152.12.3. ", 
+                    "Master insists that maid whistle when she brings in the\r\ndessert.", 
+                    " He is afraid she will eat the\r\nraisins out of the cakes. U.S.: Baughman."
+                ], 
+                [
+                    "W152.12.4. †W152.12.4. ", 
+                    "Master insists that servants whistle as they pick\r\nstrawberries so that they cannot eat any.", 
+                    "\r\nU.S.: Baughman."
+                ], 
+                [
+                    "W152.13. †W152.13. ", 
+                    "The stingy man and his animals.", 
+                    null
+                ], 
+                [
+                    "W152.13.1. †W152.13.1. ", 
+                    "A stranger notices that man’s cows need feed, feeds them.", 
+                    " They die of the shock of being fed. U.S.: Baughman."
+                ], 
+                [
+                    "W152.14. †W152.14. ", 
+                    "Man who insists on using everything that is useful.", 
+                    null
+                ], 
+                [
+                    "W152.14.1. †W152.14.1. ", 
+                    "Man finds a bunghole lying around loose, has cooper build a\r\nbarrel around it.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "W152.14.2. †W152.14.2. ", 
+                    "Man saves sausage skins, sends them back for refilling.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "W152.15. †W152.15. ", 
+                    "Stingy man does not eat butter; only looks at it and enjoys\r\nthe thought.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W152.16. †W152.16. ", 
+                    "Wife of stingy man prays that her husband become sick so\r\nthat she can get better food.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "W152.17. †W152.17. ", 
+                    "Wife keeps half of the money she plans to give for a\r\nshrine.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "155": {
+            "content": [
+                "W155. †W155. ", 
+                "Hardness of heart.", 
+                "\r\nEngland, U.S.: Baughman; West Indies: Flowers 583."
+            ], 
+            "child": [
+                [
+                    "W155.1. †W155.1. ", 
+                    "Hardhearted horse allows ass to be overburdened until it is\r\ncrushed.", 
+                    " Horse must then assume the load.\r\nWienert FFC LVI *56 (ET 170), 144 (ST 397); Halm Aesop No. 177."
+                ], 
+                [
+                    "W155.1.1. †W155.1.1. ", 
+                    "Old bullock deserted and left to die.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W155.1.2. †W155.1.2. ", 
+                    "Man overloads and starves camel.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W155.2. †W155.2. ", 
+                    "Man helping another across stream drops him when he learns\r\nthat he has lost his high position.", 
+                    " Jaworskij\r\nDer Urquell II 195."
+                ], 
+                [
+                    "W155.3. †W155.3. ", 
+                    "Man unable to weep for hardness of heart.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W155.4. †W155.4. ", 
+                    "Hardhearted person refuses reprieve for father’s murderers.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "W155.5. †W155.5. ", 
+                    "Permission refused to drink from water tank.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "154": {
+            "content": [
+                "W154. †W154. ", 
+                "Ingratitude.", 
+                " Jewish:\r\n*Neuman; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "W154.1. †W154.1. ", 
+                    "Man dismissed after years of service with a pittance.", 
+                    " *Type 592; BP II 490ff."
+                ], 
+                [
+                    "W154.1.1. †W154.1.1. ", 
+                    "Usurer’s ingratitude toward servant.", 
+                    " Dismisses him and charges him for a rope which he had cut\r\nwhile saving the usurer from hanging. Spanish: Childers."
+                ], 
+                [
+                    "W154.2. †W154.2. ", 
+                    "Monster ungrateful for rescue.", 
+                    " *Type 426; BP II 420; India: *Thompson-Balys."
+                ], 
+                [
+                    "W154.2.1. †W154.2.1. ", 
+                    "Rescued animal threatens rescuer.", 
+                    " *Type 155; India: *Thompson-Balys."
+                ], 
+                [
+                    "W154.2.2. †W154.2.2. ", 
+                    "Man ungrateful for rescue by animal.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "W154.3. †W154.3. ", 
+                    "Crane pulls bone from wolf‘s throat: wolf refuses payment.", 
+                    " “That you were allowed to take your beak from my throat is\r\npayment enough.” (Cf. †B382.) *Type 76; *Crane Vitry 192 No. 136; *Wienert FFC LVI\r\n54 n. 3 (ET 145), 147 (ST 517); Halm Aesop No. 276; Jacobs Aesop 200 No. 5. --\r\nSpanish Exempla: Keller; Italian Novella: Rotunda; Jewish: *Neuman; India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "W154.3.1. †W154.3.1. ", 
+                    "Lion rescued from net by rat: eats rat.", 
+                    " Cf. Type 75. Italian Novella: Rotunda; Africa (Ibo,\r\nNigeria): Thomas 86, (Kaffir): Kidd 243 No. 10 (lion and gazelle); West Indies:\r\nFlowers 582."
+                ], 
+                [
+                    "W154.3.2. †W154.3.2. ", 
+                    "Tiger has thorn pulled by man: attacks man.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W154.4. †W154.4. ", 
+                    "Hunter beats dog which has grown old in his service.", 
+                    " Wienert FFC LVI 73 (ET 380), 89 (ST 14); Spanish Exempla:\r\nKeller. Cf. Type 101."
+                ], 
+                [
+                    "W154.5. †W154.5. ", 
+                    "Dog tries to bite man rescuing him from well.", 
+                    " Wienert FFC LVI 72 (ET 370), 147 (ST 523); Halm Aesop No.\r\n192."
+                ], 
+                [
+                    "W154.5.1. †W154.5.1. ", 
+                    "Ungrateful fox hits with tail the man who carries him\r\nacross stream.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "W154.5.1.1. †W154.5.1.1. ", 
+                    "Man kills whale which carried him home across sea.", 
+                    " Tonga: Gifford 142."
+                ], 
+                [
+                    "W154.5.1.2. †W154.5.1.2. ", 
+                    "Man who has been rescued from pit tries to kill his monkey\r\nrescuer for food.", 
+                    " Buddhist myth:\r\nMalalasekera II 472f."
+                ], 
+                [
+                    "W154.5.1.3. †W154.5.1.3. ", 
+                    "Ungrateful ape plucks feathers from heron who has carried\r\nhim across water.", 
+                    " Indonesia: DeVries’s\r\nlist No. 34."
+                ], 
+                [
+                    "W154.6. †W154.6. ", 
+                    "Ungrateful wanderer pulls nut tree to pieces to get the\r\nnuts.", 
+                    " Wienert FFC LVI *74 (ET 394), 147\r\n(ST 520); Halm Aesop No. 188."
+                ], 
+                [
+                    "W154.7. †W154.7. ", 
+                    "Wanderers in shade of plane tree blame it for not bearing\r\nfruit.", 
+                    " Wienert FFC LVI *74 (ET 396), 147\r\n(ST 519); Halm Aesop No. 313."
+                ], 
+                [
+                    "W154.8. †W154.8. ", 
+                    "Grateful animals; ungrateful man.", 
+                    " A traveler saves a\r\nmonkey, a snake, a tiger, and a jeweler from a pit. The monkey gives him fruit;\r\nthe tiger a necklace of a princess he has killed. The jeweler accuses the\r\nrescuer before the king. The serpent saves him by biting the prince and then\r\nshowing the man the proper remedy. *Type 160; Chauvin II 106 No. 71; *Penzer V\r\n157 n. 1; Cosquin Études 22ff.; Moe Samlede Skrifter I 192ff.; *BP IV 139;\r\n*Wesselski Theorie 82ff.; *Oesterley No. 119; Fb “ulvgrav”; Bødker Exempler 304 No. 25.--Spanish Exempla: Keller; Jewish:\r\nbin Gorion Born Judas@2 IV 51, 277, Neuman; India: *Thompson-Balys; Africa:\r\nFrobenius Atlantis IX 385f. Nos. 103, 104, (Gold Coast): Barker and Sinclair\r\n163 No. 32, (Zanzibar): Bateman 81ff. No. 6."
+                ], 
+                [
+                    "W154.9. †W154.9. ", 
+                    "Man rescued from drowning kills rescuer.", 
+                    " Oceanic: Dixon 193 nn. 20--25."
+                ], 
+                [
+                    "W154.9.1. †W154.9.1. ", 
+                    "Whales rescue drowning king who planned to kill them.", 
+                    " Polynesia: Beckwith Myth 502--05; Tuamotu: Stimson MS\r\n(T-G. 3/912)."
+                ], 
+                [
+                    "W154.10. †W154.10. ", 
+                    "Snake kills ungrateful tamer.", 
+                    " Chinese: Eberhard FFC CXX 33 No. 19."
+                ], 
+                [
+                    "W154.11. †W154.11. ", 
+                    "Tiger returns rope to former captor: rewarded by having\r\ntail cut off.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W154.12. †W154.12. ", 
+                    "Man kills his rescuer in order to collect reward.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W154.12.1. †W154.12.1. ", 
+                    "Knight is ungrateful for rescue in battle.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W154.12.2. †W154.12.2. ", 
+                    "Ungrateful Brahmin brings his wild goose rescuer to king as\r\nremedy against leprosy.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W154.12.3. †W154.12.3. ", 
+                    "Ungrateful brothers plot against rescuer.", 
+                    " *Types 550, 551."
+                ], 
+                [
+                    "W154.13. †W154.13. ", 
+                    "Benefactor falsely accused of theft by ungrateful youth.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W154.14. †W154.14. ", 
+                    "Woman who saves suitor from death is later condemned to die\r\nby the ingrate.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W154.15. †W154.15. ", 
+                    "Kind magistrate is victim of ingratitude.", 
+                    " Gives lawbreaker a light sentence. The latter seduces the\r\nmagistrate’s wife. Italian Novella: Rotunda."
+                ], 
+                [
+                    "W154.16. †W154.16. ", 
+                    "Ruler persecutes his friends and is kind to his enemies.", 
+                    " Is killed. Italian Novella: Rotunda."
+                ], 
+                [
+                    "W154.17. †W154.17. ", 
+                    "Man beheads rescuer for leaving him so long in pain.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "W154.18. †W154.18. ", 
+                    "Man ungrateful for life saved because rescuer helped others\r\nalso.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "W154.19. †W154.19. ", 
+                    "Ungrateful Jew steals horse of Christian who has lent it to\r\nhim.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "W154.20. †W154.20. ", 
+                    "Man beats people bearing him gifts.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "W154.21. †W154.21. ", 
+                    "Workers (builder) killed when secret building or grave is\r\nfinished.", 
+                    "\r\n(Cf. †W181.2.) Krappe “Les funérailles d‘Alaric” Annuaire de l’institut de philologie et d‘histoire\r\norientales et slaves VII (1939--44) 229ff."
+                ], 
+                [
+                    "W154.22. †W154.22. ", 
+                    "Person compared to nettle, which stings the hand that\r\nprotects it.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W154.23. †W154.23. ", 
+                    "Ingratitude from ignorance.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W154.24. †W154.24. ", 
+                    "Man fails to feed his animal rescuer.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W154.25. †W154.25. ", 
+                    "Man sets dogs onto bear after bear has carried him home to\r\nsafety.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W154.26. †W154.26. ", 
+                    "Man demands ever larger gifts.", 
+                    null
+                ], 
+                [
+                    "W154.26.1. †W154.26.1. ", 
+                    "Man trades an egg for a needle, demands treat of a gill of\r\nrum, the traditional reward for traders.", 
+                    "\r\nThe storekeeper gives him the rum; he asks for an egg in it. The storekeeper\r\nbreaks an egg (the one he has just traded the needle for) into the rum. It has\r\ntwo yolks; the trader asks for two needles. U.S.: Baughman."
+                ], 
+                [
+                    "W154.27. †W154.27. ", 
+                    "Man works his horses to death, then complains that borrowed\r\nhorse overeats.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "W154.28. †W154.28. ", 
+                    "Wizard makes pupil think himself Emperor and exposes\r\npupil’s ingratitude.", 
+                    " Herbert III 94, 431,\r\n536; Chauvin II 150."
+                ]
+            ]
+        }, 
+        "157": {
+            "content": [
+                "W157. †W157. ", 
+                "Dishonesty.", 
+                " Irish:\r\nBeal XXI 327, O‘Suilleabhain 75; Icelandic: *Boberg; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "W157.1. †W157.1. ", 
+                    "Priest uses fortune dishonestly made to erect monuments to\r\nhimself.", 
+                    " Wesselski Bebel I 171 No. 10."
+                ]
+            ]
+        }, 
+        "156": {
+            "content": [
+                "W156. †W156. ", 
+                "The dog in the manger.", 
+                "\r\nHas no use for the manger but refuses to give it up to the horse. Wienert FFC\r\nLVI 54, 58 (ET 142, 195), 132, 147 (ST 385, 518); Halm Aesop No. 228; Phaedrus\r\nI No. 19; Hervieux II 11; Herbert III 14; Crane Vitry 201 No. 161; Jacobs Aesop\r\n209 No. 40."
+            ], 
+            "child": []
+        }, 
+        "195": {
+            "content": [
+                "W195. †W195. ", 
+                "Envy.", 
+                " (Cf. †Q302.)"
+            ], 
+            "child": [
+                [
+                    "W195.1. †W195.1. ", 
+                    "Goose and turkey envious of peacock point out its ugly legs\r\nand voice.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "158": {
+            "content": [
+                "W158. †W158. ", 
+                "Inhospitality.", 
+                " (Cf. †Q292.) Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "196": {
+            "content": [
+                "W196. †W196. ", 
+                "Lack of patience.", 
+                "\r\nU.S.: Baughman."
+            ], 
+            "child": []
+        }, 
+        "193": {
+            "content": [
+                "W193. †W193. ", 
+                "Extortion.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W193.1. †W193.1. ", 
+                    "Man extorts large price for betel leaf from addict.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "115": {
+            "content": [
+                "W115. †W115. ", 
+                "Slovenliness.", 
+                " (Cf. †Q322.)"
+            ], 
+            "child": [
+                [
+                    "W115.1. †W115.1. ", 
+                    "The slovenly\r\nfiancée.", 
+                    " Type 1453**."
+                ], 
+                [
+                    "W115.2. †W115.2. ", 
+                    "Woman becomes clean only after three washings and the use\r\nof three pounds of soap.", 
+                    " Type 1447*."
+                ], 
+                [
+                    "W115.3. †W115.3. ", 
+                    "Rancher is not recognized by his wife and family after he\r\nhas cleaned up in town at hotel.", 
+                    " U.S.:\r\nBaughman."
+                ]
+            ]
+        }, 
+        "117": {
+            "content": [
+                "W117. †W117. ", 
+                "Boastfulness.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W117.1. †W117.1. ", 
+                    "Neglected wife given trifle boasts of it.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "116": {
+            "content": [
+                "W116. †W116. ", 
+                "Vanity.", 
+                " Irish myth:\r\nCross; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "W116.1. †W116.1. ", 
+                    "Old woman reaches town before vain fop who stops to adjust\r\nclothes.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W116.2. †W116.2. ", 
+                    "Expenditure of money for vanity.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W116.3. †W116.3. ", 
+                    "Plain people made rulers have vain display.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W116.4. †W116.4. ", 
+                    "Peacock admires self in mirror.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W116.5. †W116.5. ", 
+                    "Wasp seeking fame stings courtiers: killed.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W116.6. †W116.6. ", 
+                    "Wealthy man pretends enjoyment of good music.", 
+                    " Told when to applaud. India: Thompson-Balys."
+                ], 
+                [
+                    "W116.7. †W116.7. ", 
+                    "Use of strange language to show one’s high education.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W116.8. †W116.8. ", 
+                    "Jackal forces all animals who come to drink to praise him\r\nlike a king.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "111": {
+            "content": [
+                "W111. †W111. ", 
+                "Laziness.", 
+                " Types 368*, 675, 822, 843*, 1370*, 1405, 1454*, 1561, 1950;\r\n*Chauvin IX 33f. Nos. 25, 26; *Krappe Bulletin Hispanique XXXIX 30; Missouri\r\nFrench: Carrière; S. A. Indian (Chiriguano): Métraux RMLP XXXIII 175; West\r\nIndies: Flowers 581."
+            ], 
+            "child": [
+                [
+                    "W111.1. †W111.1. ", 
+                    "Contest in laziness.", 
+                    " Each cites instances of his laziness. *Type\r\n1950; *BP III 207; Wesselski Märchen 213 No. 21; Pauli (ed. Bolte) No. 261;\r\nOesterley No. 91; Fb “doven” IV 102b.--Spanish\r\nExempla: Keller; India: Thompson-Balys."
+                ], 
+                [
+                    "W111.1.1. †W111.1.1. ", 
+                    "Man lets legs burn in fire rather than move them.", 
+                    " Wesselski Märchen 213\r\nNo. 21; Pauli (ed. Bolte) No. 261; India: Thompson-Balys."
+                ], 
+                [
+                    "W111.1.1.1. †W111.1.1.1. ", 
+                    "Man is burned to death because he is too lazy to put out\r\nspark.", 
+                    " Italian Novella: Rotunda; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "W111.1.1.2. †W111.1.1.2. ", 
+                    "Lazy man’s belongings burn.", 
+                    " He is too lazy to stop rats from playing with lighted\r\ncandle. Italian Novella: Rotunda."
+                ], 
+                [
+                    "W111.1.1.3. †W111.1.1.3. ", 
+                    "Man too lazy to open eyes to see where fire is burning.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W111.1.1.4. †W111.1.1.4. ", 
+                    "Three lazy beggars burn alive rather than run away from\r\nburning castle.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W111.1.1.5. †W111.1.1.5. ", 
+                    "Mother calls to daughter to tell her that she (daughter) is\r\nstanding on a live coal.", 
+                    " The daughter asks\r\nwhich foot the coal is under. U.S.: Baughman."
+                ], 
+                [
+                    "W111.1.2. †W111.1.2. ", 
+                    "Man will not lift knife to cut rope about to hang him.", 
+                    " Wesselski Märchen 213\r\nNo. 21; Pauli (ed. Bolte) No. 261."
+                ], 
+                [
+                    "W111.1.3. †W111.1.3. ", 
+                    "Man will not move in bed when water drops in his eyes.", 
+                    " Wesselski Märchen 213\r\nNo. 21; Spanish Exempla: Keller; Italian Novella: Rotunda."
+                ], 
+                [
+                    "W111.1.4. †W111.1.4. ", 
+                    "Man so lazy that he will not wipe his running nose.", 
+                    " This causes him to lose prospective bride. Spanish\r\nExempla: Keller."
+                ], 
+                [
+                    "W111.1.5. †W111.1.5. ", 
+                    "Man floating in river too lazy to drink.", 
+                    " His voice is damaged. Spanish Exempla: Keller."
+                ], 
+                [
+                    "W111.1.6. †W111.1.6. ", 
+                    "Man too lazy to pick up berries (dates).", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "W111.2. †W111.2. ", 
+                    "The lazy servant.", 
+                    "\r\nIndia: Thompson-Balys; West Indies: Flowers 581."
+                ], 
+                [
+                    "W111.2.0.1. †W111.2.0.1. ", 
+                    "Lazy servant gets others to perform his duties.", 
+                    null
+                ], 
+                [
+                    "W111.2.1. †W111.2.1. ", 
+                    "Servant to call his master at daybreak:", 
+                    " looks into dark closet to see if it is yet light. They\r\nsleep till noon. Pauli (ed. Bolte) No. 263."
+                ], 
+                [
+                    "W111.2.2. †W111.2.2. ", 
+                    "Servant to close door at night: leaves it open so that he\r\nwill not have to open it next morning.", 
+                    " Wesselski Mönchslatein 54 No. 47; *Crane Vitry 216 No. 204."
+                ], 
+                [
+                    "W111.2.3. †W111.2.3. ", 
+                    "“If it is day, give me food; if it is night, let me sleep.”", 
+                    " The master has told the\r\nservant to go to work. Wesselski Mönchslatein 54 No. 47."
+                ], 
+                [
+                    "W111.2.4. †W111.2.4. ", 
+                    "Boy to see whether it is raining: calls dog (cat) in and\r\nfeels of his paws.", 
+                    " Wesselski Mönchslatein 54 No. 47; *Crane Vitry 216 No. 204;\r\nSpanish Exempla: Keller; India: *Thompson-Balys."
+                ], 
+                [
+                    "W111.2.5. †W111.2.5. ", 
+                    "Boy to see whether there is fire in the house: feels of cat\r\nto see if she is warm.", 
+                    " Wesselski Mönchslatein 54 No. 47; *Crane Vitry 216 No. 204."
+                ], 
+                [
+                    "W111.2.6. †W111.2.6. ", 
+                    "The boy eats breakfast, dinner, and supper one immediately\r\nafter the other; then lies down to sleep.", 
+                    "\r\n*Type 1561."
+                ], 
+                [
+                    "W111.2.7. †W111.2.7. ", 
+                    "Lazy boy always says that it is raining.", 
+                    " The peasant and the boy sleep during the rain in the hay\r\nbarn. When the peasant asks, the boy always says that it is still raining. Type\r\n1560**."
+                ], 
+                [
+                    "W111.2.8. †W111.2.8. ", 
+                    "Lazy boy says he cannot walk.", 
+                    " Cheremis: Sebeok-Nyerges."
+                ], 
+                [
+                    "W111.2.9. †W111.2.9. ", 
+                    "Servant tells master to cover his face: no need to put out\r\nlamp.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "W111.3. †W111.3. ", 
+                    "The lazy wife.", 
+                    null
+                ], 
+                [
+                    "W111.3.1. †W111.3.1. ", 
+                    "Lazy wife in soiled dress thinks husband is bringing her a\r\nnew dress from market.", 
+                    " He is bringing a\r\ngoose. Type 1371*."
+                ], 
+                [
+                    "W111.3.2. †W111.3.2. ", 
+                    "Cat beaten for not working.", 
+                    " Lazy wife must hold cat and is scratched. Type 1370*;\r\nRussian: Andrejev No. 1370."
+                ], 
+                [
+                    "W111.3.3. †W111.3.3. ", 
+                    "Lazy wife throws bread out of window instead of putting it\r\nback into oven.", 
+                    " Spanish: Boggs FFC XC 126\r\nNo. 1389."
+                ], 
+                [
+                    "W111.3.4. †W111.3.4. ", 
+                    "Why he beats her.", 
+                    " Lazy\r\nwife beaten by husband maintains that she has done nothing. That is why he is\r\nbeating her. Wesselski Bebel I 206 No 90."
+                ], 
+                [
+                    "W111.3.5. †W111.3.5. ", 
+                    "Wife too lazy to spin.", 
+                    "\r\nSupposed dead husband comes back to life and gives his wife a beating, because\r\nthere was no shirt even in the event of death. Lithuanian: Balys Index No. 1370B*;\r\nRussian: Andrejev No. 1370B*."
+                ], 
+                [
+                    "W111.3.6. †W111.3.6. ", 
+                    "“Who will not work, shall not eat.”", 
+                    " Idle daughter-in-law learns work. Lithuanian: Balys Index\r\nNo. 1370A*."
+                ], 
+                [
+                    "W111.4. †W111.4. ", 
+                    "Lazy husband.", 
+                    " Fansler\r\nMAFLS XII 236."
+                ], 
+                [
+                    "W111.5. †W111.5. ", 
+                    "Other lazy persons.", 
+                    "\r\nChinese: Graham."
+                ], 
+                [
+                    "W111.5.1. †W111.5.1. ", 
+                    "Lazy mother given shoes of cotton; son knows that she will\r\nnot wear them out.", 
+                    " *Wesselski Hodscha\r\nNasreddin II 204 No. 406."
+                ], 
+                [
+                    "W111.5.2. †W111.5.2. ", 
+                    "Lazy girl does not know where the spring is.", 
+                    " Type 1453*."
+                ], 
+                [
+                    "W111.5.3. †W111.5.3. ", 
+                    "Lazy man asked direction only points with his foot.", 
+                    " *Dh II 115ff.; England: Baughman."
+                ], 
+                [
+                    "W111.5.4. †W111.5.4. ", 
+                    "Lazy dog wakes only for his meals.", 
+                    " Wienert FFC LVI 73 (ET 381), 126 (ST 348); Halm Aesop No.\r\n413."
+                ], 
+                [
+                    "W111.5.5. †W111.5.5. ", 
+                    "Man in mud too lazy to take hand extended to help him up.", 
+                    " Scala Celi 5a No. 26."
+                ], 
+                [
+                    "W111.5.6. †W111.5.6. ", 
+                    "Lazy son-in-law: afraid of a dog.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W111.5.7. †W111.5.7. ", 
+                    "Ruler is too lazy to stop quarrels.", 
+                    " They lead to his death.\r\nItalian Novella: Rotunda (†W111.6)."
+                ], 
+                [
+                    "W111.5.8. †W111.5.8. ", 
+                    "Man with stolen fig in his mouth submits to having cheek\r\nlanced rather than open his mouth.", 
+                    " (Cf. †J1842.2.) Italian Novella: Rotunda (†W111.7)."
+                ], 
+                [
+                    "W111.5.8.1. †W111.5.8.1. ", 
+                    "Man is so lazy that he starves rather than open his mouth\r\nfor food to fall in when it falls from trees.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "W111.5.9. †W111.5.9. ", 
+                    "Learning a trade in bed.", 
+                    " Working independently, the lazy fellow\r\nspoils the materials received--starts making something big, which at the end\r\nturns to nothing. For example, begins with forging a plough: this becomes an\r\naxe, the axe a knife, and knife a needle, the needle--nothing. (Cf. †J2080.)\r\nLithuanian: Balys Index No. 2446*."
+                ], 
+                [
+                    "W111.5.10. †W111.5.10. ", 
+                    "Lazy man asks if wood is split before he accepts it as a\r\ngift.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "W111.5.10.1. †W111.5.10.1. ", 
+                    "Lazy man is being taken to poorhouse or out of town or to\r\ncemetery to be buried alive.", 
+                    " The group\r\ntake pity on him, offer him various articles to help him get started again. One\r\noffers a bushel of corn. The lazy one rises up from the bottom of the wagon or\r\ncoffin where he has been lying: “Is the corn shelled?” Canada, U.S.: *Baughman."
+                ], 
+                [
+                    "W111.5.11. †W111.5.11. ", 
+                    "Lazy man misses seeing the sheriff‘s funeral; he is facing\r\nthe wrong way as the procession passes.", 
+                    "\r\nU.S.: Baughman."
+                ], 
+                [
+                    "W111.5.12. †W111.5.12. ", 
+                    "Man digs three potatoes in one day: one dug, one being dug,\r\none about to be dug.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "W111.5.13. †W111.5.13. ", 
+                    "Man weeds garden from cushioned rocking chair, using fire\r\ntongs to reach weeds.", 
+                    " U.S.: Baughman."
+                ]
+            ]
+        }, 
+        "110": {
+            "content": [
+                "W110. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "175": {
+            "content": [
+                "W175. †W175. ", 
+                "Changeableness.", 
+                "\r\nWienert FFC LVI 134."
+            ], 
+            "child": [
+                [
+                    "W175.1. †W175.1. ", 
+                    "Sister gives due honor and regard to brother only in times\r\nof his prosperity.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "171": {
+            "content": [
+                "W171. †W171. ", 
+                "Two-facedness.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W171.1. †W171.1. ", 
+                    "Man winks both at buyer and seller.", 
+                    " He tries to appear friendly to both. Pauli (ed. Bolte) No.\r\n491."
+                ]
+            ]
+        }, 
+        "182": {
+            "content": [
+                "W182. †W182. ", 
+                "The crying child.", 
+                " He\r\nstops crying so that after a rest he can cry louder than ever. *Crane Vitry 265\r\nNo. 300; Herbert III 13 No. 85; *Pauli (ed. Bolte) No. 594; Scala Celi 158b No.\r\n892."
+            ], 
+            "child": []
+        }, 
+        "181": {
+            "content": [
+                "W181. †W181. ", 
+                "Jealousy.", 
+                " Irish myth: *Cross; Missouri French: Carrière; Icelandic:\r\n*Boberg; Spanish: Espinosa Jr. Nos. 142--45."
+            ], 
+            "child": [
+                [
+                    "W181.1. †W181.1. ", 
+                    "Sheep jealous of dog because he does nothing.", 
+                    " Do not consider that he guards the flock. Wienert FFC LVI\r\n*58 (ET 197), 132 (ST 386); Halm Aesop No. 317."
+                ], 
+                [
+                    "W181.2. †W181.2. ", 
+                    "King kills architect after completion of great building, so\r\nthat he may never again build one so great.", 
+                    " (Cf. †S161.0.1, †W154.21.) Wesselski\r\nTheorie 15; Ireland, England: Baughman."
+                ], 
+                [
+                    "W181.2.1. †W181.2.1. ", 
+                    "Architect kills pupil who has surpassed him in skill.", 
+                    " England: *Baughman."
+                ], 
+                [
+                    "W181.2.2. †W181.2.2. ", 
+                    "Architect commits suicide when he discovers that his pupil\r\nhas surpassed him in skill.", 
+                    " England:\r\nBaughman."
+                ], 
+                [
+                    "W181.3. †W181.3. ", 
+                    "Raven wants to be as white as a swan.", 
+                    " Wienert FFC LVI *46 (ET 49), 90 (ST 26); Halm Aesop No.\r\n206."
+                ], 
+                [
+                    "W181.4. †W181.4. ", 
+                    "Jealous fox betrays wolf to peasant and then appropriates\r\nwolf‘s cave and food.", 
+                    " Peasant kills him in\r\na few days. Wienert FFC LVI 58 (ET 194), 132, 139 (ST 383, 453)."
+                ], 
+                [
+                    "W181.5. †W181.5. ", 
+                    "Raven jealous of partridge’s way of flying.", 
+                    " Wienert FFC LVI 46 (ET 50), 90 (ST 25)."
+                ], 
+                [
+                    "W181.6. †W181.6. ", 
+                    "Jealousy of Venus in the love of Psyche and Cupid.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W181.7. †W181.7. ", 
+                    "Ruler who is jealous of his subjects‘ happiness prohibits their\r\ngames.", 
+                    " Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "187": {
+            "content": [
+                "W187. †W187. ", 
+                "Insolence.", 
+                " Irish myth:\r\nCross."
+            ], 
+            "child": []
+        }, 
+        "185": {
+            "content": [
+                "W185. †W185. ", 
+                "Violence of temper.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "W185.1. †W185.1. ", 
+                    "Man demonstrates his violence of temper.", 
+                    " He overhears a man tell of his temper. In anger he enters\r\nand demands to know when he has ever lost his temper. Penzer V 90f."
+                ], 
+                [
+                    "W185.2. †W185.2. ", 
+                    "Prayer that overbearing knight’s illness be increased.", 
+                    " A little sickness has made him kind; more may make him\r\nkinder. Crane Vitry 48 No. 103; Mensa Philosophica No. 143."
+                ], 
+                [
+                    "W185.3. †W185.3. ", 
+                    "Temper lost from reading history.", 
+                    " Man so angered that he refuses to pay his workmen. Italian\r\nNovella: Rotunda."
+                ], 
+                [
+                    "W185.4. †W185.4. ", 
+                    "Monk loses temper at cup and breaks it.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "W185.5. †W185.5. ", 
+                    "Violence of judge‘s temper leads him to have men given\r\ndeath sentence unjustly.", 
+                    " Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "W185.6. †W185.6. ", 
+                    "Insult worse than wound.", 
+                    "\r\nThe lion to the man: “The wound has healed, but the pain of harsh words still\r\nremains.” Lithuanian: Balys Index No. 161*; Rumanian: Schullerus FFC LXXVIII\r\nNo. 159IV*; India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "188": {
+            "content": [
+                "W188. †W188. ", 
+                "Contentiousness.", 
+                " (Cf. †Q300.) Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "141": {
+            "content": [
+                "W141. †W141. ", 
+                "Talkativeness.", 
+                " Jewish:\r\nNeuman."
+            ], 
+            "child": []
+        }, 
+        "121": {
+            "content": [
+                "W121. †W121. ", 
+                "Cowardice.", 
+                " Irish myth: *Cross; Missouri French: Carrière; Icelandic:\r\n*Boberg."
+            ], 
+            "child": [
+                [
+                    "W121.1. †W121.1. ", 
+                    "Hunter wants to be shown lion tracks, not lion himself.", 
+                    " Wienert FFC LVI 67 (ET 314), 101 (ST 143); Halm Aesop No.\r\n114."
+                ], 
+                [
+                    "W121.2. †W121.2. ", 
+                    "Coward boasts when there is no danger.", 
+                    " (Cf. †J974, †J978.)"
+                ], 
+                [
+                    "W121.2.1. †W121.2.1. ", 
+                    "Ass insults dying lion.", 
+                    "\r\nWienert FFC LVI 56 (ET 166), 112 (ST 233); Jacobs Aesop 202 No. 9; Spanish\r\nExempla: Keller."
+                ], 
+                [
+                    "W121.2.2. †W121.2.2. ", 
+                    "Fox insults caged lion.", 
+                    "\r\nWienert FFC LVI 56 (ET 160), 112 (ST 232); Halm Aesop No. 40."
+                ], 
+                [
+                    "W121.2.3. †W121.2.3. ", 
+                    "Crow sits on sheep’s back; afraid to sit on dog‘s.", 
+                    " Wienert FFC LVI 55 (ET 154), 106 (ST 188)."
+                ], 
+                [
+                    "W121.2.4. †W121.2.4. ", 
+                    "Dogs tear up lion skin: fear living lion.", 
+                    " Wienert FFC LVI 55 (ET 153), 112 (ST 235); Halm Aesop No.\r\n219."
+                ], 
+                [
+                    "W121.2.5. †W121.2.5. ", 
+                    "Coward gloats over robber slain by another person.", 
+                    " Wienert FFC LVI 82 (ET 483), 101, 126 (ST 144, 350)."
+                ], 
+                [
+                    "W121.2.6. †W121.2.6. ", 
+                    "Monkey safe in tree insults gorilla as “broken face”.", 
+                    " Africa (Fang): Nassau 233 No. 1."
+                ], 
+                [
+                    "W121.3. †W121.3. ", 
+                    "Cowardly soldier turns back when he hears raven’s croak.", 
+                    " Wienert FFC LVI 73 (ET 385), 137 (ST 425); Halm Aesop No.\r\n379."
+                ], 
+                [
+                    "W121.4. †W121.4. ", 
+                    "Queen mother shames cowardly son and companions.", 
+                    " “In truth, gentlemen, you do well in weeping; for since\r\nyou didn‘t fight like men to defend your land, it is suitable that now you weep\r\nlike women on leaving it.” Spanish: Childers."
+                ], 
+                [
+                    "W121.5. †W121.5. ", 
+                    "Cowardly spider rushes at fly but hides when wasp appears.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "W121.6. †W121.6. ", 
+                    "Coward gives his purse to thief with lame excuse.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W121.7. †W121.7. ", 
+                    "Cowardly bridegroom flees elephant and loses bride.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W121.8. †W121.8. ", 
+                    "Illness from fear.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "W121.8.1. †W121.8.1. ", 
+                    "Swooning from cowardice.", 
+                    "\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "123": {
+            "content": [
+                "W123. †W123. ", 
+                "Indecision.", 
+                " (Cf. †J1040.) West Indies: Flowers 581."
+            ], 
+            "child": [
+                [
+                    "W123.1. †W123.1. ", 
+                    "The man who only tasted wine.", 
+                    " Will not drink but gets drunk nevertheless by frequent\r\ntasting. Pauli (ed. Bolte) No. 246."
+                ]
+            ]
+        }, 
+        "125": {
+            "content": [
+                "W125. †W125. ", 
+                "Gluttony.", 
+                " Jewish:\r\n*Neuman; India: *Thompson-Balys; N. A. Indian (California): Gayton and Newman\r\n67."
+            ], 
+            "child": [
+                [
+                    "W125.1. †W125.1. ", 
+                    "Greedy animal eats poisoned fruit in spite of warning.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W125.2. †W125.2. ", 
+                    "Gluttonous wife eats all the meal while cooking it.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "W125.3. †W125.3. ", 
+                    "New son-in-law given choice of meals eats all.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W125.4. †W125.4. ", 
+                    "Pupil eats cakes given as alms for his master.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W125.5. †W125.5. ", 
+                    "Husband eats wife’s share of food as well as his own.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "126": {
+            "content": [
+                "W126. †W126. ", 
+                "Disobedience.", 
+                " Missouri French: Carrière; Spanish Exempla: Keller; Jewish:\r\nNeuman."
+            ], 
+            "child": [
+                [
+                    "W126.1. †W126.1. ", 
+                    "Monk obedient only as long as work is agreeable.", 
+                    " Always says that unpleasant work is beneath his dignity.\r\nPauli (ed. Bolte) No. 367."
+                ]
+            ]
+        }, 
+        "127": {
+            "content": [
+                "W127. †W127. ", 
+                "Petulance.", 
+                " Irish myth:\r\nCross."
+            ], 
+            "child": []
+        }, 
+        "128": {
+            "content": [
+                "W128. †W128. ", 
+                "Dissatisfaction.", 
+                " Irish\r\nmyth: *Cross."
+            ], 
+            "child": [
+                [
+                    "W128.1. †W128.1. ", 
+                    "Hog tired of his daily food.", 
+                    " Goes to the judge and gets better food assigned to him,\r\nbut the fox cheats him out of it. Type 211*."
+                ], 
+                [
+                    "W128.2. †W128.2. ", 
+                    "Dissatisfied fox.", 
+                    " In\r\nkingdom of lions laments that he always gets the worst bits of food. *Wienert\r\nFFC LVI 34."
+                ], 
+                [
+                    "W128.3. †W128.3. ", 
+                    "Dissatisfied rivers complain against sea.", 
+                    " Say that it makes their water unusable. Wienert FFC LVI\r\n*75 (ET 408), 125 (ST 344); Halm Aesop No 380."
+                ], 
+                [
+                    "W128.4. †W128.4. ", 
+                    "Peacock dissatisfied with his voice.", 
+                    " Wienert FFC LVI 78 (ET 441), 133 (ST 388)."
+                ], 
+                [
+                    "W128.5. †W128.5. ", 
+                    "Monk dissatisfied with things as he has them is admonished\r\nto take what he receives from God.", 
+                    " Spanish\r\nExempla: Keller."
+                ], 
+                [
+                    "W128.6. †W128.6. ", 
+                    "Sparrow dissatisfied with pond water wants to go to sea.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "165": {
+            "content": [
+                "W165. †W165. ", 
+                "False pride.", 
+                " Son ashamed of his peasant father who brings him money. Father\r\ndisinherits him. (Cf. †Q331.) *Pauli (ed. Bolte) No. 643; U.S.: Baughman."
+            ], 
+            "child": [
+                [
+                    "W165.1. †W165.1. ", 
+                    "Humble man after speaking to king disdains his own family.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W165.2. †W165.2. ", 
+                    "Ass after associating with lion disdains his own family.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "100": {
+            "content": [
+                "W100. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "167": {
+            "content": [
+                "W167. †W167. ", 
+                "Stubbornness.", 
+                " Grimm No.\r\n3 (Type 710); U.S.: Baughman."
+            ], 
+            "child": [
+                [
+                    "W167.1. †W167.1. ", 
+                    "Two stubborn goats meet each other on a bridge.", 
+                    " Neither will step aside; both fall into water. Type 202*;\r\nWienert FFC LVI 56 (ET 171)."
+                ], 
+                [
+                    "W167.2. †W167.2. ", 
+                    "Woman’s stubbornness causes loss of chance to go on\r\npilgrimage.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "161": {
+            "content": [
+                "W161. †W161. ", 
+                "Love of publicity.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W161.1. †W161.1. ", 
+                    "Three envoys debate as to which of them should be received\r\nwith the greatest honor.", 
+                    " Italian Novella:\r\nRotunda."
+                ]
+            ]
+        }, 
+        "133": {
+            "content": [
+                "W133. †W133. ", 
+                "Inconsistency.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W133.1. †W133.1. ", 
+                    "Prince penalizes cursing, although he himself curses.", 
+                    " Wesselski Bebel I 167 No. 2."
+                ], 
+                [
+                    "W133.2. †W133.2. ", 
+                    "Woman admires marvelous shot of hero which kills deer, but\r\nangers him when she begs mercy for the deer.", 
+                    "\r\nFischer-Bolte 203ff."
+                ]
+            ]
+        }, 
+        "131": {
+            "content": [
+                "W131. †W131. ", 
+                "Profligacy.", 
+                " India:\r\nThompson-Balys."
+            ], 
+            "child": [
+                [
+                    "W131.1. †W131.1. ", 
+                    "Profligate wastes entire fortune before beginning his own\r\nadventures.", 
+                    " *Chauvin V 77 No. 22 n. 1."
+                ]
+            ]
+        }, 
+        "137": {
+            "content": [
+                "W137. †W137. ", 
+                "Curiosity.", 
+                " Missouri French: Carrière; Jewish: *Neuman; Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "136": {
+            "content": [
+                "W136. †W136. ", 
+                "False modesty.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W136.1. †W136.1. ", 
+                    "Look! look! she cries from the barrel.", 
+                    " A nobleman has arranged for a peasant girl to become his\r\nmistress. When he comes to take her away he cannot find her. Disappointed, he\r\nis about to depart when the girl, who has hidden in a barrel, calls out “Look!”\r\nShe really wants to be found. Pauli (ed. Bolte) No. 13."
+                ]
+            ]
+        }
+    }, 
+    "W_200_299_Traits of character--miscellaneous.": {
+        "216": {
+            "content": [
+                "W216. †W216. ", 
+                "Thrift.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W216.1. †W216.1. ", 
+                    "Thrifty merchant tells son that even a snake laid by will\r\nbe useful.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "200": {
+            "content": [
+                "W200. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "214": {
+            "content": [
+                "W214. †W214. ", 
+                "Man will not do a woman‘s bidding.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "215": {
+            "content": [
+                "W215. †W215. ", 
+                "Extreme prudence.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "W215.1. †W215.1. ", 
+                    "Magic help sent to enemy.", 
+                    " Hero sends fairy healing charms to his enemy so that when they resume\r\nfighting it cannot be said he wins because of superior care. Irish myth: Cross."
+                ], 
+                [
+                    "W215.2. †W215.2. ", 
+                    "Refusal to fight wounded enemy.", 
+                    " Hero feels it dishonorable to fight with sorely wounded\r\nenemy, because it would be said he died of previous wounds rather than the ones\r\nhero might inflict. Irish myth: Cross."
+                ], 
+                [
+                    "W215.3. †W215.3. ", 
+                    "Long life sacrificed that descendants may be kings as\r\nprophesied.", 
+                    " (Cf. †M314.) Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "212": {
+            "content": [
+                "W212. †W212. ", 
+                "Eagerness for combat.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "W212.1. †W212.1. ", 
+                    "Eager warriors go through tent wall.", 
+                    " Warriors so eager for battle they do not take time to go\r\nout of tent door but go through the tent wall. Irish myth: *Cross."
+                ], 
+                [
+                    "W212.2. †W212.2. ", 
+                    "Warriors contend with each other until battle starts.", 
+                    " When they agree to engage in battle, they cannot endure to\r\nbe without combat. Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "213": {
+            "content": [
+                "W213. †W213. ", 
+                "Man will not allow food served to strangers until a man of\r\nthem wrestles with him.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "W213.1. †W213.1. ", 
+                    "Host requires deed of bravery before feast is eaten.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "211": {
+            "content": [
+                "W211. †W211. ", 
+                "Active imagination.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W211.1. †W211.1. ", 
+                    "The boy: “If I had one and then got two more, I should have\r\nthree.”", 
+                    " Type 2411."
+                ], 
+                [
+                    "W211.2. †W211.2. ", 
+                    "“I surely saw a hundred wolves (snakes).”", 
+                    "--“There weren’t so many as that.”--“Well, what made the\r\nnoise in the bushes?” Type 2009*; Lithuanian: Balys Index No. 1863*; Estonian:\r\nAarne FFC XXV No. 2009*; Russian: Andrejev No. 2009; India: *Thompson-Balys."
+                ], 
+                [
+                    "W211.3. †W211.3. ", 
+                    "“I am not alone!” Man travelling alone through the forest\r\nat night, is afraid of robbers.", 
+                    " He hangs\r\nhis cap on a stick and keeps repeating: “I am not travelling alone, there are\r\ntwo of us.” Lithuanian: Balys Index No. 1862*."
+                ]
+            ]
+        }, 
+        "226": {
+            "content": [
+                "W226. †W226. ", 
+                "Moving home simple for poor man.", 
+                " Man is so poor that when he moves all he has to do is to\r\nput out the fire and whistle for the dog to follow him. U.S.: Baughman."
+            ], 
+            "child": []
+        }, 
+        "225": {
+            "content": [
+                "W225. †W225. ", 
+                "Taciturn man.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W225.1. †W225.1. ", 
+                    "Man is rebuked for loquaciousness when he speaks after\r\nthirty-seven days.", 
+                    " U.S.: Baughman."
+                ]
+            ]
+        }
+    }, 
     "W_0_99_Favorable traits of character.": {
         "24": {
             "content": [

@@ -1,4 +1,1603 @@
 {
+    "V_300_399_Religious beliefs.": {
+        "313": {
+            "content": [
+                "V313. †V313. ", 
+                "Last judgment.", 
+                " Jewish:\r\nMoreno Esdras, *Neuman."
+            ], 
+            "child": []
+        }, 
+        "312": {
+            "content": [
+                "V312. †V312. ", 
+                "Belief in Immaculate Conception.", 
+                " (Cf. †T510.) *Encyc.\r\nRel. Ethics Index 272a; Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "V312.1. †V312.1. ", 
+                    "Proclamation of dogma of Immaculate Conception stops\r\nplague.", 
+                    " Pauli (ed. Bolte) Nos. 552, 553."
+                ], 
+                [
+                    "V312.2. †V312.2. ", 
+                    "Man miraculously dies for opposing dogma of Immaculate\r\nConception.", 
+                    " Attempt to disprove the dogma\r\nby false miracle. Sham dead man is to rise if the dogma is not true. He is\r\nfound to be actually dead. Pauli (ed. Bolte) No. 554."
+                ]
+            ]
+        }, 
+        "311": {
+            "content": [
+                "V311. †V311. ", 
+                "Belief in the life to come.", 
+                " *Encyc. Rel. Ethics Index 272b; Irish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "V311.0.1. †V311.0.1. ", 
+                    "Doctrine of immortality taught by druids.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V311.1. †V311.1. ", 
+                    "Man converted to belief in future life on deathbed.", 
+                    " Feels sure nevertheless that nothing will come of it.\r\nWesselski Bebel I 182 No. 32."
+                ], 
+                [
+                    "V311.2. †V311.2. ", 
+                    "Dying man refuses to believe in life to come.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V311.3. †V311.3. ", 
+                    "Given choice between life and heaven, person chooses\r\nlatter.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "310": {
+            "content": [
+                "V310. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "317": {
+            "content": [
+                "V317. †V317. ", 
+                "The chosen people.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V317.1. †V317.1. ", 
+                    "Holy land.", 
+                    " Jewish:\r\n*Neuman."
+                ]
+            ]
+        }, 
+        "316": {
+            "content": [
+                "V316. †V316. ", 
+                "Efficacy of prayer.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V316.1. †V316.1. ", 
+                    "“He that asks shall receive.”", 
+                    " Hermit wants to prove truth of these words of the Gospel\r\nand asks for the hand of the princess. Performs the difficult task imposed upon\r\nhim. Lithuanian: Balys Index No. 779*; Russian: Andrejev No. 841I*."
+                ]
+            ]
+        }, 
+        "315": {
+            "content": [
+                "V315. †V315. ", 
+                "Belief in the Atonement.", 
+                "\r\n*Encyc. Rel. Ethics Index 48c; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V315.1. †V315.1. ", 
+                    "Power of repentance.", 
+                    "\r\nJewish: *Neuman."
+                ]
+            ]
+        }, 
+        "332": {
+            "content": [
+                "V332. †V332. ", 
+                "Baptism of heathen.", 
+                "\r\n*Thien Motive 40f.; Spanish Exempla: Keller."
+            ], 
+            "child": []
+        }, 
+        "322": {
+            "content": [
+                "V322. †V322. ", 
+                "Heretical baptism.", 
+                "\r\nHeathen baptized into devil‘s possession. Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "323": {
+            "content": [
+                "V323. †V323. ", 
+                "Atheists.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V323.1. †V323.1. ", 
+                    "Epicureans regarded as atheists.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "320": {
+            "content": [
+                "V320. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "344": {
+            "content": [
+                "V344. †V344. ", 
+                "Temple about to be taken over by pagans saved by appearance\r\nof a Sign of the Cross (image of the Virgin).", 
+                " Alphabet No. 708; *Crane Miraculis No. 20."
+            ], 
+            "child": []
+        }, 
+        "345": {
+            "content": [
+                "V345. †V345. ", 
+                "Dove flies out of man‘s mouth.", 
+                " Impious anchorite has agreed to forsake his religion in\r\nreturn for the possession of a maid. When he repents the dove reenters his\r\nmouth. Italian Novella: Rotunda; Spanish Exempla: Keller."
+            ], 
+            "child": []
+        }, 
+        "346": {
+            "content": [
+                "V346. †V346. ", 
+                "Skeptic kicked by sacrificial animal.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "347": {
+            "content": [
+                "V347. †V347. ", 
+                "Idols found on their faces after saint’s arrival.", 
+                " *Loomis White Magic 89; Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "340": {
+            "content": [
+                "V340. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "327": {
+            "content": [
+                "V327. †V327. ", 
+                "Author of book against heretic honored by Virgin Mary and\r\nangels.", 
+                " Scala Celi 117b No. 652."
+            ], 
+            "child": []
+        }, 
+        "342": {
+            "content": [
+                "V342. †V342. ", 
+                "Sign of cross intimidates Jews.", 
+                " Type 1709*."
+            ], 
+            "child": []
+        }, 
+        "343": {
+            "content": [
+                "V343. †V343. ", 
+                "Jews protesting against marriage of Jewess and Christian\r\nare struck dumb.", 
+                " Wesselski Mönchslatein 52 No. 62."
+            ], 
+            "child": []
+        }, 
+        "326": {
+            "content": [
+                "V326. †V326. ", 
+                "Hero renounces heaven because dead companions (heathen) are\r\nnot there.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "328": {
+            "content": [
+                "V328. †V328. ", 
+                "Man sets fire to his house and perishes in it rather than\r\naccept Christianity.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "365": {
+            "content": [
+                "V365. †V365. ", 
+                "Jewish traditions concerning non-Jews.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "362": {
+            "content": [
+                "V362. †V362. ", 
+                "Plague from Jews’ poisoning wells.", 
+                " German: H. Rauchfuss Alte Geschichte u. neue Sagen aus\r\nThuringen 60."
+            ], 
+            "child": []
+        }, 
+        "363": {
+            "content": [
+                "V363. †V363. ", 
+                "Jewish child thrown into oven by father for taking\r\neucharist.", 
+                "\r\nPreserved by Virgin Mary. *Ward II 601; Irish myth: Cross (†V35.1.0.1); Spanish\r\nExempla: Keller."
+            ], 
+            "child": [
+                [
+                    "V363.1. †V363.1. ", 
+                    "Jewish child resurrected (saved by power of Virgin Mary)\r\nafter being burned to ashes for eating consecrated bread in Christian church.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "360": {
+            "content": [
+                "V360. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "341": {
+            "content": [
+                "V341. †V341. ", 
+                "Pagan sybil draws picture of Madonna and Child in sand.", 
+                " Result of vision. Pauli (ed. Bolte) No. 560."
+            ], 
+            "child": []
+        }, 
+        "336": {
+            "content": [
+                "V336. †V336. ", 
+                "Conversion to Judaism.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "300": {
+            "content": [
+                "V300. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "331": {
+            "content": [
+                "V331. †V331. ", 
+                "Conversion to Christianity.", 
+                " (Cf. †M177.1.) Pauli\r\n(ed. Bolte) No. 555; Dickson 199 n. 89; Malone PMLA XLIII 413. -- Irish:\r\n*Cross, O’Suilleabhain 65, Beal XXI 325;\r\nIcelandic: *Boberg; English: Wells 88 (Roland and Vernagu); Spanish Exempla:\r\nKeller; Jewish: *Neuman; Tahiti: Henry Ancient Tahiti (Honolulu, 1928) 178."
+            ], 
+            "child": [
+                [
+                    "V331.0.1. †V331.0.1. ", 
+                    "Druid converted to Christianity.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V331.0.2. †V331.0.2. ", 
+                    "Three (two) Irishmen who believed in Christianity before\r\nthe coming of St. Patrick.", 
+                    " (Cf. †A1546.3.1.) Irish myth: *Cross."
+                ], 
+                [
+                    "V331.1. †V331.1. ", 
+                    "Conversion to Christianity through miracle.", 
+                    " Dickson 193--98 passim; Alphabet No. 558; Icelandic:\r\n*Boberg; Irish: *Cross, O‘Suilleabhain 71, 74, Beal XXI 326; English: Wells 91\r\n(Otuel), 119 (Octovian), *Hibbard 45ff.; Italian Novella: *Rotunda."
+                ], 
+                [
+                    "V331.1.1. †V331.1.1. ", 
+                    "Conversion to Christianity by miracle of seeing blood flow\r\nfrom Jesus’ image.", 
+                    " Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "V331.1.2. †V331.1.2. ", 
+                    "Conversion to Christianity through appearance of the cross\r\nand angels.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V331.1.3. †V331.1.3. ", 
+                    "Conversion to Christianity because the heathen gods prove\r\nto be less powerful.", 
+                    " *Loomis White Magic\r\n75."
+                ], 
+                [
+                    "V331.1.4. †V331.1.4. ", 
+                    "Conversion because saint‘s staff miraculously goes through\r\nneophytes’ foot.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V331.2. †V331.2. ", 
+                    "Conversion to Christianity on pain of death.", 
+                    " *Dickson 188 n. 64, 224; Icelandic: *Boberg."
+                ], 
+                [
+                    "V331.3. †V331.3. ", 
+                    "Miraculous beautification upon conversion to Christianity.", 
+                    " (Cf. †D1860.) English:\r\nWells 122 (The King of Tars)."
+                ], 
+                [
+                    "V331.4. †V331.4. ", 
+                    "Conversion to Christianity through repentance.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V331.5. †V331.5. ", 
+                    "Conversion to Christianity through love.", 
+                    " Italian Novella: *Rotunda."
+                ], 
+                [
+                    "V331.6. †V331.6. ", 
+                    "Conversion to Christianity out of gratitude.", 
+                    " Ruler has captive baptize his sister and then marry her.\r\nGrateful for past kindnesses. Italian Novella: Rotunda."
+                ], 
+                [
+                    "V331.7. †V331.7. ", 
+                    "Saladin asks to be made a Christian knight.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V331.8. †V331.8. ", 
+                    "Fairies converted to Christianity.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V331.9. †V331.9. ", 
+                    "Swans (transformed children) do not suffer in harsh weather\r\nafter conversion to Christianity.", 
+                    " Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "V331.10. †V331.10. ", 
+                    "Conversion to Christianity because of admiration for\r\nChristian virtue.", 
+                    null
+                ], 
+                [
+                    "V331.10.1. †V331.10.1. ", 
+                    "Conversion to Christianity through show of forgiveness and\r\ngentleness.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "325": {
+            "content": [
+                "V325. †V325. ", 
+                "Baptismal water vanishes before Aryan bishop.", 
+                " Alphabet No. 95."
+            ], 
+            "child": []
+        }, 
+        "330": {
+            "content": [
+                "V330. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "380": {
+            "content": [
+                "V380. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "381": {
+            "content": [
+                "V381. †V381. ", 
+                "Heathen beats his god because of misfortune.", 
+                " (Cf. †V123.) *Boje 101;\r\nChinese: Eberhard FFC CXX 238 No. 185."
+            ], 
+            "child": []
+        }, 
+        "382": {
+            "content": [
+                "V382. †V382. ", 
+                "Doctor ridicules belief in Devil, Heaven, and Hell.", 
+                " Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "383": {
+            "content": [
+                "V383. †V383. ", 
+                "Religious fanaticism.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "V383.1. †V383.1. ", 
+                    "Prolonged prostration in worship causes death.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V383.2. †V383.2. ", 
+                    "Hindu drinks water by mistake from Mohammedan‘s vessel: his\r\nfortune turns to evil.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "385": {
+            "content": [
+                "V385. †V385. ", 
+                "Romans won’t include Jesus in their pantheon because of his\r\npoverty which they hate.", 
+                " Spanish Exempla:\r\nKeller."
+            ], 
+            "child": []
+        }, 
+        "321": {
+            "content": [
+                "V321. †V321. ", 
+                "Insane man burns heretic in his bed: restored to his senses\r\nas reward.", 
+                " Pauli (ed. Bolte) No. 47."
+            ], 
+            "child": []
+        }, 
+        "364": {
+            "content": [
+                "V364. †V364. ", 
+                "A Christianized Jew becomes a priest.", 
+                " During Mass, he stabs\r\nthe consecrated host, blood flows (cf. †C55, †J1261.2, †V30). He kills the\r\nother priest who saw him commit the sacrilege, and before killing, forces him\r\nto renounce his faith. A miracle exposes the murderer. Lithuanian: Balys Index\r\nNo. 3270, Legends Nos. 416ff."
+            ], 
+            "child": []
+        }, 
+        "356": {
+            "content": [
+                "V356. †V356. ", 
+                "Christian hero (saint) overthrows heathen idols.", 
+                " *Boje 82; *Toldo V 339; Irish myth: *Cross; Icelandic:\r\n*Boberg."
+            ], 
+            "child": [
+                [
+                    "V356.1. †V356.1. ", 
+                    "Saint dispels pagan devils from ancient shrines.", 
+                    " *Loomis White Magic 115."
+                ], 
+                [
+                    "V356.2. †V356.2. ", 
+                    "Pagan shrines and idols, or magic books destroyed by fire\r\nfrom heaven.", 
+                    " *Loomis White Magic 35."
+                ], 
+                [
+                    "V356.2.1. †V356.2.1. ", 
+                    "Heathen idols sink into earth up to their necks through\r\npower of saint.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V356.3. †V356.3. ", 
+                    "Saint’s bachall pointed at idol defaces it.", 
+                    " (Cf. †V347.) Irish myth:\r\nCross."
+                ]
+            ]
+        }, 
+        "355": {
+            "content": [
+                "V355. †V355. ", 
+                "Buddhists become slaves of Taoists because they cannot\r\nproduce rain.", 
+                " Chinese: Werner 353."
+            ], 
+            "child": []
+        }, 
+        "354": {
+            "content": [
+                "V354. †V354. ", 
+                "Life of heroic age preferable to Christian living.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "352": {
+            "content": [
+                "V352. †V352. ", 
+                "Pagan disputant with Christian stricken dumb.", 
+                " English: Wells 76 (Joseph of Aramathie); Spanish Exempla:\r\nKeller."
+            ], 
+            "child": [
+                [
+                    "V352.1. †V352.1. ", 
+                    "Pagan disputant with Christian bested by the words put in\r\nhis mouth by God.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "351": {
+            "content": [
+                "V351. †V351. ", 
+                "Duel (debate) to prove which religion is better.", 
+                " Dickson 187 nn. 61, 62; English: Wells 88 (Roland and\r\nVernagu), 91 (Otuel); Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "V351.1. †V351.1. ", 
+                    "Wise heretic is vanquished in debate with a Christian.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V351.1.1. †V351.1.1. ", 
+                    "Brahmin wins a discussion on religion.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V351.2. †V351.2. ", 
+                    "Unbeliever loses argument with hermit.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V351.3. †V351.3. ", 
+                    "Magician overpowered in contest with a saint.", 
+                    " *Loomis White Magic 75f."
+                ], 
+                [
+                    "V351.3.1. †V351.3.1. ", 
+                    "Contest of St. Peter with Simon Magus, a magician.", 
+                    " *Loomis White Magic 120."
+                ], 
+                [
+                    "V351.4. †V351.4. ", 
+                    "Prayer-contest to prove which religion is better.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V351.5. †V351.5. ", 
+                    "Contest of miraculous powers between a Yogi and a\r\nMusselman.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "350": {
+            "content": [
+                "V350. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "361": {
+            "content": [
+                "V361.\r\n†V361. ", 
+                "Christian child killed\r\nto furnish blood for Jewish rite.", 
+                " (Hugh of Lincoln.) (Cf. †V254.7.) **V. Manzini La superstizione\r\nomicida e i sacrifici umani, con particolare riguardo alle accuse contro gli\r\nEbrei (2d ed., Padua, 1930); **Berger Mélusine VIII 169ff.; *Ward II 656 No. 3;\r\n*Brown PMLA XXI 486ff. -- English: Child III 240ff., IV 497a."
+            ], 
+            "child": []
+        }
+    }, 
+    "V_100_199_Religious edifices and objects.": {
+        "151": {
+            "content": [
+                "V151. †V151. ", 
+                "Sacred writings.", 
+                " *Encyc.\r\nRel. Ethics Index 530a; Irish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "V151.1. †V151.1. ", 
+                    "Captive released because of ability to recite beginning of\r\nGenesis.", 
+                    "\r\n(Cf. †J1185.) Gaster Exempla 193 No. 38."
+                ]
+            ]
+        }, 
+        "150": {
+            "content": [
+                "V150. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "113": {
+            "content": [
+                "V113. †V113. ", 
+                "Shrines.", 
+                " (Cf. †C51.1.) *Encyc. Rel. Ethics Index 546a; Irish myth: *Cross;\r\nMissouri French: Carrière; Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "V113.0.1. †V113.0.1. ", 
+                    "Miracles at shrine.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "V113.0.2. †V113.0.2. ", 
+                    "Vow to visit shrine.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "V113.1. †V113.1. ", 
+                    "Cripples at shrine frightened and run away without\r\ncrutches.", 
+                    " *Herbert III 21; *Crane Vitry\r\n241f. No. 254."
+                ], 
+                [
+                    "V113.2. †V113.2. ", 
+                    "Robbers promise to make offerings to the shrine of a hermit\r\nif successful.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "112": {
+            "content": [
+                "V112. †V112. ", 
+                "Temples.", 
+                " *Encyc. Rel.\r\nEthics Index 591b; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V112.0.1. †V112.0.1. ", 
+                    "Ark of the temple.", 
+                    "\r\nJewish: *Neuman."
+                ], 
+                [
+                    "V112.1. †V112.1. ", 
+                    "Spirit huts.", 
+                    "\r\nPhilippine (Tinguian): Cole 69; Hawaii: Beckwith Myth 112."
+                ], 
+                [
+                    "V112.2. †V112.2. ", 
+                    "Mosques.", 
+                    null
+                ], 
+                [
+                    "V112.3. †V112.3. ", 
+                    "Synagogues.", 
+                    " Jewish:\r\n*Neuman."
+                ]
+            ]
+        }, 
+        "133": {
+            "content": [
+                "V133. †V133. ", 
+                "Holy candles.", 
+                " *Encyc.\r\nRel. Ethics III 188ff."
+            ], 
+            "child": []
+        }, 
+        "114": {
+            "content": [
+                "V114. †V114. ", 
+                "Sacred groves.", 
+                " *Frazer\r\nGolden Bough XII 293 s.v. “Grove(s), sacred”; Irish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "V114.1. †V114.1. ", 
+                    "Sacred groves of druids.", 
+                    "\r\nIrish myth: *Cross."
+                ]
+            ]
+        }, 
+        "117": {
+            "content": [
+                "V117. †V117. ", 
+                "Pulpits.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "116": {
+            "content": [
+                "V116. †V116. ", 
+                "Altars.", 
+                " (Cf. †V135.) *Encyc. Rel. Ethics Index 18a; Irish myth: *Cross;\r\nJewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "137": {
+            "content": [
+                "V137. †V137. ", 
+                "House of woman who launders clothes for church spared in\r\ngreat fire.", 
+                " Alphabet No. 76."
+            ], 
+            "child": []
+        }, 
+        "136": {
+            "content": [
+                "V136. †V136. ", 
+                "Bible.", 
+                " Irish myth:\r\nCross."
+            ], 
+            "child": [
+                [
+                    "V136.1. †V136.1. ", 
+                    "Copy of gospels buried with saint.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "135": {
+            "content": [
+                "V135. †V135. ", 
+                "Altar cloths.", 
+                " (Cf. †F962.12.2.) Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "V135.1. †V135.1. ", 
+                    "Poverty-stricken couple wrap newly-born child in\r\naltar-coverings.", 
+                    " Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "134": {
+            "content": [
+                "V134. †V134. ", 
+                "Sacred wells.", 
+                " *Encyc.\r\nRel. Ethics Index 640c; Fb “kilde” II 119: Namn och Bygd XXXIII (1945) 1ff. --\r\nDanish: Schmidt Danmarks Helligkilder (DF XXXIII); Irish myth: *Cross; England,\r\nWales, Ireland, U.S.: Baughman; Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "V134.0.1. †V134.0.1. ", 
+                    "Tree beside holy well.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V134.1. †V134.1. ", 
+                    "Oracles and auguries from holy well.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V134.2. †V134.2. ", 
+                    "Offerings to holy wells.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V134.3. †V134.3. ", 
+                    "Fish in water from certain well: water refuses to boil till\r\nfish are returned to well.", 
+                    " Irish myth:\r\n*Cross."
+                ], 
+                [
+                    "V134.4. †V134.4. ", 
+                    "Ducks in pool in church: water in which they are placed\r\nrefuses to boil till ducks are restored to pool.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "118": {
+            "content": [
+                "V118. †V118. ", 
+                "Monasteries.", 
+                " Irish\r\nmyth: *Cross."
+            ], 
+            "child": [
+                [
+                    "V118.0.1. †V118.0.1. ", 
+                    "Hell as a monastery--the devil, abbot; sinners, monks.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V118.1. †V118.1. ", 
+                    "Monastery on otherworld island.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V118.2. †V118.2. ", 
+                    "Subaqueous monastery.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V118.2.1. †V118.2.1. ", 
+                    "Submarine oratory.", 
+                    "\r\nIrish myth: *Cross."
+                ]
+            ]
+        }, 
+        "144": {
+            "content": [
+                "V144. †V144. ", 
+                "Belief in miraculous powers of sacred relics.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "V144.1. †V144.1. ", 
+                    "Sacred relics carried in battle to aid victory.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V144.2. †V144.2. ", 
+                    "The relics of saint protect horses from the attack of wild\r\nbeasts.", 
+                    " *Loomis White Magic 106."
+                ]
+            ]
+        }, 
+        "142": {
+            "content": [
+                "V142. †V142. ", 
+                "Devout possessor of false relics miraculously receives\r\nauthentic ones.", 
+                " Alphabet Nos. 89, 402;\r\nSpanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "V142.1. †V142.1. ", 
+                    "Sham relics perform miracles if faith is great.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "143": {
+            "content": [
+                "V143. †V143. ", 
+                "Saint’s bones for lack of worship remove themselves from\r\nchurch.", 
+                "\r\n(Cf. †D1641.) Alphabet No. 679."
+            ], 
+            "child": [
+                [
+                    "V143.1. †V143.1. ", 
+                    "Saint‘s bones miraculously removed from reliquary broken in\r\npillage.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V143.2. †V143.2. ", 
+                    "Relics (images) carried away return to their original\r\nchurch.", 
+                    " *Loomis White Magic 48."
+                ]
+            ]
+        }, 
+        "140": {
+            "content": [
+                "V140. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V140.1. †V140.1. ", 
+                    "Angel reveals (buried) relics to saint.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V140.2. †V140.2. ", 
+                    "Saint‘s relics miraculously recovered.", 
+                    " *Loomis White Magic 127f."
+                ], 
+                [
+                    "V140.3. †V140.3. ", 
+                    "A cow licks the stone under which the secreted body of\r\nsaint is buried.", 
+                    " *Loomis White Magic 62."
+                ], 
+                [
+                    "V140.4. †V140.4. ", 
+                    "Testing the authenticity of relics: bones are cast into\r\nfire; with great noise they jump away from the flames.", 
+                    " *Loomis White Magic 92."
+                ]
+            ]
+        }, 
+        "141": {
+            "content": [
+                "V141. †V141. ", 
+                "Possession of relic brings prosperity, its loss sickness.", 
+                " Wesselski Mönchslatein\r\n113 No. 96."
+            ], 
+            "child": []
+        }, 
+        "120": {
+            "content": [
+                "V120. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V120.1. †V120.1. ", 
+                    "Images and druids.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "121": {
+            "content": [
+                "V121. †V121. ", 
+                "Miraculous image of Christ impressed on napkin.", 
+                " Veronica. Ward II 641 No. 20."
+            ], 
+            "child": []
+        }, 
+        "122": {
+            "content": [
+                "V122. †V122. ", 
+                "Image bars way of nun trying to escape convent to join\r\nlover.", 
+                "\r\nWesselski Mönchslatein 74 No. 65."
+            ], 
+            "child": [
+                [
+                    "V122.1. †V122.1. ", 
+                    "Image of Jesus descends from cross and wounds nun leaving\r\nconvent.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "123": {
+            "content": [
+                "V123. †V123. ", 
+                "Image blamed by suppliant for misfortunes.", 
+                " Type 1479**, *Wesselski Arlotto I 196 No. 23; Spanish\r\nExempla: Keller; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "V123.1. †V123.1. ", 
+                    "God under compulsion: suppliant threatens to mutilate\r\n(crush) holy image if his wish is not fulfilled.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "124": {
+            "content": [
+                "V124. †V124. ", 
+                "Preacher criticizes the likeness of Christ exhibited in his\r\nchurch.", 
+                " Says that it is unworthy of the\r\noriginal. Italian Novella: Rotunda."
+            ], 
+            "child": [
+                [
+                    "V124.1. †V124.1. ", 
+                    "Saint hangs cowl in thornbrake as symbol of Christ on the\r\nCross.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "125": {
+            "content": [
+                "V125. †V125. ", 
+                "Casting of image of Buddha delayed until a maniac‘s mite is\r\nthrown into the furnace.", 
+                " Chinese: Werner\r\n401."
+            ], 
+            "child": []
+        }, 
+        "126": {
+            "content": [
+                "V126. †V126. ", 
+                "Image of saint speaks.", 
+                "\r\n*Loomis White Magic 124."
+            ], 
+            "child": []
+        }, 
+        "127": {
+            "content": [
+                "V127. †V127. ", 
+                "Image of deity in wood (stone).", 
+                " (Cf. †V1.11.) Hawaii:\r\nBeckwith Myth 111; Cook Islands: ibid. 131; Marquesas: Handy 122; Tahiti: Henry\r\nAncient Tahiti (Honolulu, 1928) 344."
+            ], 
+            "child": []
+        }, 
+        "128": {
+            "content": [
+                "V128. †V128. ", 
+                "Motions of various kinds attributed to images.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V128.1. †V128.1. ", 
+                    "An apple is offered to a statue of the Virgin and her\r\nchild.", 
+                    " The infant reaches out and takes\r\nthe fruit. *Loomis White Magic 124."
+                ], 
+                [
+                    "V128.2. †V128.2. ", 
+                    "Portraits exude oil.", 
+                    "\r\n*Loomis White Magic 124."
+                ]
+            ]
+        }, 
+        "100": {
+            "content": [
+                "V100. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "115": {
+            "content": [
+                "V115. †V115. ", 
+                "Church bells.", 
+                " Encyc. Rel. Ethics Index 69a; Hdwb. d. Abergl. III 868ff.; E.\r\nLippert Glockenläuten als Rechtsbrauch (Freiburg im Breisgau, 1939); *P.\r\nSartori Das Buch von deutschen Glocken (Berlin, 1932).--Irish myth: *Cross;\r\nNorwegian: Solheim Register 21."
+            ], 
+            "child": [
+                [
+                    "V115.1. †V115.1. ", 
+                    "Church bell sunk in river (sea).", 
+                    " (Cf. †F993.) *Fb. “kirkeklokke” IV 260b; Wales, England: *Baughman; Finnish:\r\nAarne FFC XXXIII 47 No. 88; Finnish-Swedish: Wessman 72 Nos. 608--11; Estonian:\r\nAarne FFC XXV 135 No. 88."
+                ], 
+                [
+                    "V115.1.1. †V115.1.1. ", 
+                    "Sunken bell travels on sea bottom.", 
+                    " Finnish-Swedish: Wessman 72 No. 609."
+                ], 
+                [
+                    "V115.1.2. †V115.1.2. ", 
+                    "Raising sunken church bell.", 
+                    " Finnish-Swedish: Wessman 73 No. 620."
+                ], 
+                [
+                    "V115.1.3. †V115.1.3. ", 
+                    "Sunken church bell cannot be raised.", 
+                    " Finnish-Swedish: Wessman 73 Nos. 612--22."
+                ], 
+                [
+                    "V115.1.3.1. †V115.1.3.1. ", 
+                    "Church bell cannot be raised because silence is broken.", 
+                    " (Cf. †C401.4.)\r\nFinnish-Swedish: Wessman 72f. Nos. 612, 613, 619."
+                ], 
+                [
+                    "V115.1.3.2. †V115.1.3.2. ", 
+                    "Church bell cannot be raised because person blasphemes.", 
+                    " England: *Baughman."
+                ], 
+                [
+                    "V115.2. †V115.2. ", 
+                    "Girl sold for new church bell.", 
+                    " (Cf. †S210.) England:\r\nChild I 91ff."
+                ], 
+                [
+                    "V115.3. †V115.3. ", 
+                    "Devil buys church bell and demoralizes congregation.", 
+                    " They have always come early before since they had no bell\r\nto announce the time. Now they wait for the bell. Pauli (ed. Bolte) No. 92."
+                ], 
+                [
+                    "V115.4. †V115.4. ", 
+                    "What church bells say.", 
+                    "\r\nFb “kirkeklokke” IV 260A."
+                ]
+            ]
+        }, 
+        "132": {
+            "content": [
+                "V132. †V132. ", 
+                "Holy water.", 
+                " *Encyc.\r\nRel. Ethics IV 61f.; Irish myth: *Cross; Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "V132.1. †V132.1. ", 
+                    "Holy water prevents a man from committing incest with his\r\ndaughter.", 
+                    "\r\n(Cf. †T411.) Alphabet No. 523."
+                ], 
+                [
+                    "V132.2. †V132.2. ", 
+                    "Holy water disperses demons.", 
+                    " (Cf. †D1385.) Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "V132.2.1. †V132.2.1. ", 
+                    "Holy water removes mark placed on man’s face by the devil.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V132.3. †V132.3. ", 
+                    "Drinking holy water facilitates cursing.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "131": {
+            "content": [
+                "V131. †V131. ", 
+                "Religious robes (vestments).", 
+                " *Encyc. Rel. Ethics Index 629c; Gaster Thespis 270f.;\r\nJewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V131.1. †V131.1. ", 
+                    "Sight of holy fringe on garment restrains a man from\r\nfornication and reforms the harlot.", 
+                    " Gaster\r\nExempla 192f. No. 35; Jewish: *Neuman."
+                ], 
+                [
+                    "V131.2. †V131.2. ", 
+                    "White robes of druids.", 
+                    "\r\nIrish myth: *Cross."
+                ]
+            ]
+        }, 
+        "130": {
+            "content": [
+                "V130. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "111": {
+            "content": [
+                "V111. †V111. ", 
+                "Churches.", 
+                " *Encyc. Rel.\r\nEthics Index 123c; Irish: *Cross, Beal XXI 335, O’Suilleabhain 112."
+            ], 
+            "child": [
+                [
+                    "V111.1. †V111.1. ", 
+                    "Visit to certain church protects from drowning on\r\npilgrimage.", 
+                    " (Cf. †D1384, †D1388.) Irish myth: Cross."
+                ], 
+                [
+                    "V111.2. †V111.2. ", 
+                    "Stones for building church (chapel) miraculously supplied.", 
+                    " (Cf. †D931.0.1.) Irish\r\nmyth: Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "V111.3. †V111.3. ", 
+                    "Place where a church must be built miraculously indicated.", 
+                    " *Loomis White Magic 127f."
+                ], 
+                [
+                    "V111.3.1. †V111.3.1. ", 
+                    "Birds indicate the site where a church is to be built by\r\nmaking a model of the structure on the spot.", 
+                    "\r\n*Loomis White Magic 68."
+                ], 
+                [
+                    "V111.3.2. †V111.3.2. ", 
+                    "Divine person points out site for church.", 
+                    " United States: Baughman."
+                ]
+            ]
+        }, 
+        "110": {
+            "content": [
+                "V110. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }
+    }, 
+    "V_450_499_Religious orders.": {
+        "466": {
+            "content": [
+                "V466. †V466. ", 
+                "Simony.", 
+                " Italian\r\nNovella: Rotunda."
+            ], 
+            "child": [
+                [
+                    "V466.1. †V466.1. ", 
+                    "Pope guilty of simony.", 
+                    "\r\nItalian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "468": {
+            "content": [
+                "V468. †V468. ", 
+                "Priest is bribed into betraying the confessional.", 
+                " Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "465": {
+            "content": [
+                "V465. †V465. ", 
+                "Clerical vices.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V465.1. †V465.1. ", 
+                    "Incontinence of clergy.", 
+                    "\r\n*Encyc. Rel. Ethics Index 113b, 136c; West Indies: Flowers 580."
+                ], 
+                [
+                    "V465.1.1. †V465.1.1. ", 
+                    "Incontinent monk (priest).", 
+                    " Irish myth: *Cross; Italian Novella: Rotunda"
+                ], 
+                [
+                    "V465.1.1.1. †V465.1.1.1. ", 
+                    "Monk seduces girl; then kills her; becomes infidel.", 
+                    " *Chauvin VIII 128 No. 118; Spanish Exempla: Keller."
+                ], 
+                [
+                    "V465.1.1.2. †V465.1.1.2. ", 
+                    "Marriage of clerics.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V465.1.2. †V465.1.2. ", 
+                    "Incontinent nun.", 
+                    " Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "V465.1.2.1. †V465.1.2.1. ", 
+                    "Nun hidden by abbess from pursuing knight betrays her own\r\nhiding place to him.", 
+                    " Is afterwards\r\nabandoned. *Pauli (ed. Bolte) No. 13; Crane Vitry 159 No. 58."
+                ], 
+                [
+                    "V465.1.2.2. †V465.1.2.2. ", 
+                    "Nun tempted into sinning with man who tells her God can’t\r\nsee things that happen in the dark.", 
+                    "\r\nSpanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "451": {
+            "content": [
+                "V451. †V451. ", 
+                "First-born son and one of every ten born thereafter given\r\nto Church.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "467": {
+            "content": [
+                "V467. †V467. ", 
+                "Priest uses cook-book instead of breviary.", 
+                " Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "453": {
+            "content": [
+                "V453. †V453. ", 
+                "Levites as religious order.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "461": {
+            "content": [
+                "V461. †V461. ", 
+                "Clerical virtue.", 
+                " Irish\r\nmyth: *Cross."
+            ], 
+            "child": [
+                [
+                    "V461.1. †V461.1. ", 
+                    "Obedient and industrious nun the worthiest in the convent.", 
+                    " Pauli (ed. Bolte) No. 690; Alphabet No. 322; Spanish\r\nExempla: Keller."
+                ], 
+                [
+                    "V461.2. †V461.2. ", 
+                    "Truthful monk refuses to cheat even for his order.", 
+                    " Pauli (ed. Bolte) No. 111."
+                ], 
+                [
+                    "V461.3. †V461.3. ", 
+                    "Chastity as clerical virtue.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V461.4. †V461.4. ", 
+                    "Submission as clerical virtue.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V461.4.1. †V461.4.1. ", 
+                    "Truthfulness as clerical virtue.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V461.5. †V461.5. ", 
+                    "Extended meditation as clerical virtue.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V461.6. †V461.6. ", 
+                    "Monk lives where people speak ill of him to avoid danger of\r\nflattery.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V461.7. †V461.7. ", 
+                    "Clerical virtue of absolute faith.", 
+                    " Man captured by robbers is so confident that God will\r\nprotect him that he is saved. Spanish Exempla: Keller."
+                ], 
+                [
+                    "V461.8. †V461.8. ", 
+                    "Poverty as saintly virtue.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "460": {
+            "content": [
+                "V460. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "463": {
+            "content": [
+                "V463. †V463. ", 
+                "Religious martyrdom.", 
+                "\r\nIrish myth: *Cross; Icelandic: *Boberg; Jewish: *Neuman"
+            ], 
+            "child": [
+                [
+                    "V463.1. †V463.1. ", 
+                    "Cleric surrenders life that body may consecrate land.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V463.2. †V463.2. ", 
+                    "First martyr: John the Baptist.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "462": {
+            "content": [
+                "V462. †V462. ", 
+                "Asceticism.", 
+                " *Loomis\r\nWhite Magic 111f.; *Encyc. Rel. Ethics Index 42b; Irish myth: *Cross; Spanish\r\nExempla: Keller; Jewish: *Neuman; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "V462.0.1. †V462.0.1. ", 
+                    "Kingship renounced to become an ascetic.", 
+                    " Irish myth: Cross; India: Thompson-Balys."
+                ], 
+                [
+                    "V462.0.2. †V462.0.2. ", 
+                    "Since salvation is predestined, asceticism deemed useless.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V462.0.3. †V462.0.3. ", 
+                    "Husband abandons wife to become ascetic.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V462.0.4. †V462.0.4. ", 
+                    "Murderer becomes ascetic.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V462.1. †V462.1. ", 
+                    "Maintaining silence as ascetic practice.", 
+                    " Alphabet Nos. 709, 711, 712, 725; Swiss: Jegerlehner\r\nOberwallis 310 No. 32; Spanish Exempla: Keller."
+                ], 
+                [
+                    "V462.2. †V462.2. ", 
+                    "Ascetic fasting.", 
+                    " Alphabet Nos. 24, 145; Wesselski Mönchslatein 170 No. 135; Irish\r\nmyth: *Cross; India: *Thompson-Balys."
+                ], 
+                [
+                    "V462.2.1. †V462.2.1. ", 
+                    "Ascetic faster increases his sufferings by placing food and\r\ndrink before himself.", 
+                    " Alphabet Nos. 22,\r\n23; Scala Celi 4a No. 16; India: Thompson-Balys."
+                ], 
+                [
+                    "V462.2.2. †V462.2.2. ", 
+                    "Person refuses to eat dainties.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.2.2.1. †V462.2.2.1. ", 
+                    "Saint refuses pearls as alms and asks for food.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V462.2.3. †V462.2.3. ", 
+                    "Death from ascetic devotions.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V462.3. †V462.3. ", 
+                    "Ascetic weeping.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "V462.4. †V462.4. ", 
+                    "Asceticism: allowing self no repose.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.4.1. †V462.4.1. ", 
+                    "Asceticism: cleric practices continual genuflexion.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.4.2. †V462.4.2. ", 
+                    "Cross vigil.", 
+                    " Cleric\r\nstands with hands extended in shape of cross. Irish myth: *Cross."
+                ], 
+                [
+                    "V462.4.3. †V462.4.3. ", 
+                    "Saint always extends one hand toward heaven while\r\nperforming such acts as eating or reaping.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V462.5. †V462.5. ", 
+                    "Ascetic cleric tortures his flesh.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.5.0.1. †V462.5.0.1. ", 
+                    "Ascetic cleric prays to become diseased.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.5.1. †V462.5.1. ", 
+                    "Ascetic cleric wears hair garment.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.5.1.1. †V462.5.1.1. ", 
+                    "Saint never wears woolen clothing, but skins of wolves and\r\nother beasts.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.5.1.2. †V462.5.1.2. ", 
+                    "Ascetic cleric sleeps (prays) with wet sheet (mantle) about\r\nhim.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.5.2. †V462.5.2. ", 
+                    "Ascetic cleric sleeps on stone.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.5.2.1. †V462.5.2.1. ", 
+                    "Saint takes but little sleep.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V462.5.2.2. †V462.5.2.2. ", 
+                    "Saint stands for seven years without sleep.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V462.6. †V462.6. ", 
+                    "Ascetic cleric avoids listening to music.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.7. †V462.7. ", 
+                    "Ascetic cleric never smiles.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V462.8. †V462.8. ", 
+                    "Ascetic immersion.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V462.8.1. †V462.8.1. ", 
+                    "Saint confines himself in narrow pen during Lent.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V462.8.2. †V462.8.2. ", 
+                    "Saint stands (asleep) while bird builds nest and hatches\r\nbrood in his hand.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V462.9. †V462.9. ", 
+                    "Ascetic cleric leads mendicant life.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V462.10. †V462.10. ", 
+                    "Ascetic cleric lives for seven years on whale’s back.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V462.11. †V462.11. ", 
+                    "Ascetic cleric renounces world (to become a herder).", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V462.12. †V462.12. ", 
+                    "Monk refuses chance of having temptation removed since he\r\nconsiders it strengthening to have it ever present to test him.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V462.13. †V462.13. ", 
+                    "Evil ascetic misuses magic powers obtained through\r\nreligious meditation.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "V462.14. †V462.14. ", 
+                    "Boy takes twelve years to wash off ascetic‘s dirt.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "472": {
+            "content": [
+                "V472. †V472. ", 
+                "Clerical vows because of disappointment in love.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V472.1. †V472.1. ", 
+                    "Man becomes hermit when he realizes selfishness of his\r\nbeloved‘s love.", 
+                    " (Cf. †T93.2.) Heptameron No. 24."
+                ]
+            ]
+        }, 
+        "473": {
+            "content": [
+                "V473. †V473. ", 
+                "Former monk refuses to take pay for his work, considering\r\nit as a religious act.", 
+                " India:\r\nThompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "470": {
+            "content": [
+                "V470. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "471": {
+            "content": [
+                "V471. †V471. ", 
+                "Taking clerical vows heals disease.", 
+                " Alphabet No. 783."
+            ], 
+            "child": []
+        }, 
+        "464": {
+            "content": [
+                "V464. †V464. ", 
+                "Self-torture to secure holiness.", 
+                " India: *Thompson-Balys:"
+            ], 
+            "child": []
+        }, 
+        "450": {
+            "content": [
+                "V450. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "475": {
+            "content": [
+                "V475. †V475. ", 
+                "Renunciation of clerical vows.", 
+                " Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "V475.1. †V475.1. ", 
+                    "Monk who has left order punished (dies in torment).", 
+                    " Alphabet Nos. 73, 784."
+                ], 
+                [
+                    "V475.2. †V475.2. ", 
+                    "Monk who has left his order forgiven and miraculously\r\nreinstated.", 
+                    " Alphabet No. 781."
+                ], 
+                [
+                    "V475.3. †V475.3. ", 
+                    "Man who is disappointed with his religious order renounces\r\nhis vow.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V475.4. †V475.4. ", 
+                    "Saint leaves his order because he is fond of music.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V475.5. †V475.5. ", 
+                    "Anchorite tempted by money to return to worldly life.", 
+                    " Buddhist myth: Malalasekera II 807."
+                ]
+            ]
+        }
+    }, 
     "V_200_299_Sacred persons.": {
         "235": {
             "content": [
@@ -1904,6 +3503,2739 @@
                 "V291. †V291. ", 
                 "Master poets (ollamhs) as sacred persons.", 
                 " Irish myth: *Cross."
+            ], 
+            "child": []
+        }
+    }, 
+    "V_0_99_Religious services.": {
+        "58": {
+            "content": [
+                "V58. †V58. ", 
+                "Prayer as ceremony.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V58.1. †V58.1. ", 
+                    "Prayers at sunrise and sunset.", 
+                    " Tahiti: Henry Ancient Tahiti (Honolulu, 1928) 143."
+                ], 
+                [
+                    "V58.2. †V58.2. ", 
+                    "Prayer with face toward east.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V58.3. †V58.3. ", 
+                    "Repeated circumambulations with prayer.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V58.4. †V58.4. ", 
+                    "Handwashing before prayer.", 
+                    " Greek: Homer passim; Jewish: *Neuman."
+                ], 
+                [
+                    "V58.5. †V58.5. ", 
+                    "Prayer shawl.", 
+                    " Jewish:\r\nNeuman."
+                ]
+            ]
+        }, 
+        "52": {
+            "content": [
+                "V52. †V52. ", 
+                "Miraculous power of prayer.", 
+                " Irish: *Cross, Beal XXI 334, O‘Suilleabhain 112; Spanish\r\nExempla: Keller; West Indies: Flowers 579. Cf. Nouvelles de Sens No. 26."
+            ], 
+            "child": [
+                [
+                    "V52.1. †V52.1. ", 
+                    "Man saved from lechery through prayer.", 
+                    " Alphabet No. 65; Spanish Exempla: Keller."
+                ], 
+                [
+                    "V52.2. †V52.2. ", 
+                    "Continuous prayer sustains man through frightful vigil.", 
+                    " *Type 307; *BP III 534;\r\n*Köhler-Bolte II 213ff.; Irish: Beal XXI 313, 319, O‘Suilleabhain 37, 53; Japanese: Ikeda."
+                ], 
+                [
+                    "V52.3. †V52.3. ", 
+                    "Prayer before battle brings victory.", 
+                    " Scala Celi 151b No. 833; Irish myth: *Cross; Spanish\r\nExempla: Keller; Jewish: *Neuman."
+                ], 
+                [
+                    "V52.4. †V52.4. ", 
+                    "Objects supplied through prayer.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V52.5. †V52.5. ", 
+                    "Prayer restores shattered vessel.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V52.6. †V52.6. ", 
+                    "Mariners saved from maelstrom through prayer.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V52.7. †V52.7. ", 
+                    "Prayer at saint’s flagstone averts trouble.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V52.8. †V52.8. ", 
+                    "Prayer brings death to enemy.", 
+                    " Irish myth: *Cross; Spanish Exempla: Keller; Hawaii:\r\nBeckwith Myth 105, 345."
+                ], 
+                [
+                    "V52.9. †V52.9. ", 
+                    "Prayer for protection on journey to land of dead.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V52.10. †V52.10. ", 
+                    "Prayers of devout woman free husband from death and\r\nimprisonment.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V52.11. †V52.11. ", 
+                    "Prayer of sinner changes his color from black into white.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V52.12. †V52.12. ", 
+                    "The clever brothers work, the foolish brother only prays;\r\nfinally he acquires all the property.", 
+                    "\r\nLithuanian: Balys Index No. 1666*."
+                ], 
+                [
+                    "V52.13. †V52.13. ", 
+                    "Saint‘s Paternoster outweighs ox.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V52.14. †V52.14. ", 
+                    "Reciting martyrology will prevent decomposition of body of\r\none who recites it.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V52.15. †V52.15. ", 
+                    "Prayer said by saint into his right hand restores displaced\r\neye of opponent.", 
+                    " Irish myth: *Cross"
+                ]
+            ]
+        }, 
+        "30": {
+            "content": [
+                "V30. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V30.1. †V30.1. ", 
+                    "The eaten god.", 
+                    " *Encyc.\r\nRel. Ethics V 136--39."
+                ], 
+                [
+                    "V30.1.1. †V30.1.1. ", 
+                    "Flesh of Artemis eaten as quail or bear.", 
+                    " Greek: Fox 183."
+                ]
+            ]
+        }, 
+        "29": {
+            "content": [
+                "V29. †V29. ", 
+                "Confession--miscellaneous motifs.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V29.1. †V29.1. ", 
+                    "Search for confessor.", 
+                    "\r\nGreat sinner sent from one confessor to another. All say that his sins are too\r\ngreat for forgiveness. Finally he succeeds. *Type 756C; **Andrejev FFC LIV\r\n28ff.; Irish: O‘Suilleabhain 46, 48, Beal XXI 317."
+                ], 
+                [
+                    "V29.2. †V29.2. ", 
+                    "Monks shrive selves clean under threat of complete exposure\r\nof their sins by brother possessed of fiend.", 
+                    "\r\nAlphabet No. 171."
+                ], 
+                [
+                    "V29.3. †V29.3. ", 
+                    "Miracle attests fact that man does not need to confess.", 
+                    " He hangs his sack on a sunbeam. Spanish: Boggs FFC XC 146\r\nNo. 1805A."
+                ], 
+                [
+                    "V29.4. †V29.4. ", 
+                    "Sodomist makes sport of confession.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V29.5. †V29.5. ", 
+                    "Unnecessary for husband to confess as his wife has already\r\ndone it for him.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V29.6. †V29.6. ", 
+                    "Penitent brings manuscript of sins to confession.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V29.6.1. †V29.6.1. ", 
+                    "List of sins: schedule is returned miraculously cleansed of\r\nall his sins.", 
+                    " *Loomis White Magic 131."
+                ], 
+                [
+                    "V29.7. †V29.7. ", 
+                    "Confessor and penitent exchange confidences.", 
+                    " Balance sins and cancel wrongs. Italian Novella: Rotunda."
+                ], 
+                [
+                    "V29.8. †V29.8. ", 
+                    "The devil goes to confession.", 
+                    " Performs very severe\r\npenance, but cannot bear to humble himself and to stoop before the altar. (Cf.\r\n†G303.16.9.) Lithuanian: Balys Index No. 818*."
+                ], 
+                [
+                    "V29.9. †V29.9. ", 
+                    "Extortionate confessor demands golden statue.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "60": {
+            "content": [
+                "V60. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V60.1. †V60.1. ", 
+                    "Stones sold at funeral wakes.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V60.2. †V60.2. ", 
+                    "Funeral rites by druids.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "61": {
+            "content": [
+                "V61. †V61. ", 
+                "Various ways of disposing of dead.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V61.1. †V61.1. ", 
+                    "Dead placed on boat.", 
+                    "\r\nEncyc. Rel. Ethics Index 79c, 545b; Fb “skib” III 243b; Icelandic: *Boberg. Cf.\r\nBeowulf."
+                ], 
+                [
+                    "V61.2. †V61.2. ", 
+                    "Dead burned on pyre.", 
+                    "\r\n(Cremation.) *Encyc. Rel. Ethics Index 143c; Icelandic: *Boberg; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "V61.3. †V61.3. ", 
+                    "Coffin buried upright.", 
+                    " Breton: Sébillot Incidents s.v. “cercueil”."
+                ], 
+                [
+                    "V61.3.0.1. †V61.3.0.1. ", 
+                    "Hero buried in armor, standing with face toward land of\r\nenemies.", 
+                    "\r\n(Cf. †V67.) Irish myth: *Cross."
+                ], 
+                [
+                    "V61.3.0.2. †V61.3.0.2. ", 
+                    "Person buried in standing position with friends about him.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V61.3.0.3. †V61.3.0.3. ", 
+                    "Man buried upright beneath kitchen stairway in order that\r\nhe may watch his family.", 
+                    " Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "V61.4. †V61.4. ", 
+                    "Head buried one place, body another.", 
+                    " Irish myth: Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "V61.4.1. †V61.4.1. ", 
+                    "Corpse buried face down.", 
+                    " (Cf. †S139.2.2.3.1.) Irish myth: Cross."
+                ], 
+                [
+                    "V61.4.2. †V61.4.2. ", 
+                    "Dismemberment before burial.", 
+                    " Gaster Thespis 242."
+                ], 
+                [
+                    "V61.5. †V61.5. ", 
+                    "King buried in his war car.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V61.6. †V61.6. ", 
+                    "Christian buried in stone coffin.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V61.7. †V61.7. ", 
+                    "Christian buried in wooden coffin.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V61.8. †V61.8. ", 
+                    "Burial in grave-mound.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "V61.8.1. †V61.8.1. ", 
+                    "Chiefs buried in hidden caves.", 
+                    " Tahiti: Henry Ancient Tahiti (Honolulu, 1928) 224."
+                ], 
+                [
+                    "V61.9. †V61.9. ", 
+                    "Lion buried in stone cave with gold letters.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "V61.10. †V61.10. ", 
+                    "Corpses exposed in tree.", 
+                    "\r\nGreek: Argonautica III 205."
+                ], 
+                [
+                    "V61.11. †V61.11. ", 
+                    "Aversion to burial in “strange city”.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "62": {
+            "content": [
+                "V62. †V62. ", 
+                "Restrictions on burial.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V62.1. †V62.1. ", 
+                    "Funeral rites forbidden.", 
+                    "\r\nIrish myth: *Cross; Greek: Fox 53, Sophocles‘ “Antigone”."
+                ], 
+                [
+                    "V62.2. †V62.2. ", 
+                    "Only usurers to carry body of usurer to grave.", 
+                    " Alphabet No. 793."
+                ]
+            ]
+        }, 
+        "63": {
+            "content": [
+                "V63. †V63. ", 
+                "Bones of dismembered person assembled and buried.", 
+                " (Cf. †E30.) Type 720; BP\r\nI 412ff., *422."
+            ], 
+            "child": []
+        }, 
+        "64": {
+            "content": [
+                "V64. †V64. ", 
+                "Money tied on corpse thrown overboard from ship in order to\r\nsecure burial.", 
+                " Child III 342, IV 506."
+            ], 
+            "child": [
+                [
+                    "V64.1. †V64.1. ", 
+                    "Shipwrecked each get a piece of the chief’s gold ring in\r\norder to have gold with them in death.", 
+                    "\r\nIcelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "53": {
+            "content": [
+                "V53. †V53. ", 
+                "Prayers of family comfort prisoner.", 
+                " Alphabet No. 298."
+            ], 
+            "child": [
+                [
+                    "V53.1. †V53.1. ", 
+                    "Prayer unfastens boy’s fetters.", 
+                    " (Cf. †R211.) Hawaii:\r\nBeckwith Myth 345."
+                ]
+            ]
+        }, 
+        "66": {
+            "content": [
+                "V66. †V66. ", 
+                "Funeral sermon.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V66.1. †V66.1. ", 
+                    "Witty funeral sermon.", 
+                    " Priest having nothing good to say about man\r\ndamns him with faint praise or gives anecdotes with unfavorable implications.\r\n(Cf. †K1961.1.2.1.) *Wesselski Arlotto I 216ff. No. 64."
+                ]
+            ]
+        }, 
+        "67": {
+            "content": [
+                "V67. †V67. ", 
+                "Accompaniments of burial.", 
+                " (Cf. †V61.3.0.1.) Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "V67.1. †V67.1. ", 
+                    "Ornaments (arms, chariots) buried with hero.", 
+                    " Irish myth: *Cross; Icelandic: *Boberg."
+                ], 
+                [
+                    "V67.2. †V67.2. ", 
+                    "Shoes buried with the dead.", 
+                    " Icelandic: MacCulloch Eddic 305."
+                ], 
+                [
+                    "V67.3. †V67.3. ", 
+                    "Treasure buried with the dead.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V67.3.1. †V67.3.1. ", 
+                    "King buried with immense treasure in the ground of an\r\nartificially dried river", 
+                    "; later the normal\r\ncourse of the river is restored. *Krappe “Les funérailles d’Alaric”\r\nAnnuaire de l‘institut de philologie et d’histoire orientales et slaves VII\r\n229--40."
+                ], 
+                [
+                    "V67.4. †V67.4. ", 
+                    "Men buried with dead chief.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V67.4.1. †V67.4.1. ", 
+                    "Captain buried with his crew.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V67.5. †V67.5. ", 
+                    "Animals buried with the dead.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "82": {
+            "content": [
+                "V82. †V82. ", 
+                "Circumcision.", 
+                " (Cf. †F81.3.) *Encyc. Rel. Ethics Index 126c; Spanish Exempla:\r\nKeller; Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "83": {
+            "content": [
+                "V83. †V83. ", 
+                "Hymns.", 
+                " Irish myth:\r\n*Cross."
+            ], 
+            "child": []
+        }, 
+        "80": {
+            "content": [
+                "V80. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "81": {
+            "content": [
+                "V81. †V81. ", 
+                "Baptism.", 
+                " *Encyc. Rel.\r\nEthics Index 61c; Irish: *Cross, Beal XXI 337, O‘Suilleabhain 128; Icelandic:\r\n*Boberg; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V81.1. †V81.1. ", 
+                    "Girl having been stolen by mountain-folk must be baptized anew.", 
+                    " *Fb “døbe” I 227."
+                ], 
+                [
+                    "V81.2. †V81.2. ", 
+                    "Tails fall off mountain spirits when they are baptized.", 
+                    " Fb “hale” IV 197b."
+                ], 
+                [
+                    "V81.3. †V81.3. ", 
+                    "Metamorphosis brought about by baptism.", 
+                    " Monster born of union of heathen ruler and Christian\r\nmaiden becomes a handsome boy on being baptized. Italian Novella: Rotunda."
+                ], 
+                [
+                    "V81.4. †V81.4. ", 
+                    "Baptism of infants.", 
+                    "\r\nMaori: Clark 185."
+                ], 
+                [
+                    "V81.5. †V81.5. ", 
+                    "Sea bath as purificatory rite.", 
+                    " Tahiti: Henry Ancient Tahiti (Honolulu, 1928) 144; Hawaii:\r\nBeckwith Myth 152, 176."
+                ]
+            ]
+        }, 
+        "86": {
+            "content": [
+                "V86. †V86. ", 
+                "Sign of the Cross.", 
+                "\r\nEncyc. Rel. Ethics VI 539b; Fb “kors” II 274; Scala Celi 67b--71b Nos. 373--404\r\npassim."
+            ], 
+            "child": [
+                [
+                    "V86.1. †V86.1. ", 
+                    "Sign of cross protects from injury.", 
+                    null
+                ], 
+                [
+                    "V86.1.1. †V86.1.1. ", 
+                    "Sign of cross prevents child from being stolen from cradle.", 
+                    " Fb “kors” II 285f."
+                ], 
+                [
+                    "V86.1.2. †V86.1.2. ", 
+                    "Sign of cross prevents garment from burning.", 
+                    " Alphabet No. 232."
+                ], 
+                [
+                    "V86.1.3. †V86.1.3. ", 
+                    "Man dies because he has killed a man with the sign of the\r\ncross on his forehead.", 
+                    " Köhler-Bolte I 382."
+                ], 
+                [
+                    "V86.2. †V86.2. ", 
+                    "Martyr with sign of cross on his heart.", 
+                    " (Cf. †V254.3.) Herbert\r\nIII 77, 416, 467, 487, 530; Scala Celi 69b No. 388; Alphabet No. 563."
+                ], 
+                [
+                    "V86.3. †V86.3. ", 
+                    "Punishment for profane use of the cross.", 
+                    " Drunkard kisses cross, thinking it is a bottle of wine.\r\nPauli (ed. Bolte) No. 271."
+                ], 
+                [
+                    "V86.4. †V86.4. ", 
+                    "Miraculous manifestations to scoffers of the cross.", 
+                    " Alphabet. No. 230; English: Wells 97 (Chevalere Assigne),\r\n89 (The Sege of Melayne)."
+                ], 
+                [
+                    "V86.5. †V86.5. ", 
+                    "Praying with arms extended so as to form a cross.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V86.6. †V86.6. ", 
+                    "Loaf bursts in oven because sign of cross has not been made\r\nover it.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V86.7. †V86.7. ", 
+                    "The seven significances of the sign of the cross.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "87": {
+            "content": [
+                "V87. †V87. ", 
+                "Christening.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "84": {
+            "content": [
+                "V84. †V84. ", 
+                "Excommunication.", 
+                "\r\n*Encyc. Rel. Ethics Index 193b; Spanish Exempla: Keller; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V84.1. †V84.1. ", 
+                    "Lightning strikes excommunicated person who enters church.", 
+                    " Scala Celi 85b No. 492."
+                ], 
+                [
+                    "V84.2. †V84.2. ", 
+                    "Priest shows power of excommunication over host.", 
+                    " It turns black. Scala Celi 85b No. 495; Herbert III 446\r\nNo. 17."
+                ], 
+                [
+                    "V84.3. †V84.3. ", 
+                    "Pirate excommunicated, goes on pilgrimage as penance.", 
+                    " Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "85": {
+            "content": [
+                "V85. †V85. ", 
+                "Religious pilgrimages.", 
+                " (Cf. †V84.3.) Chinese: Eberhard FFC CXX\r\n186f."
+            ], 
+            "child": []
+        }, 
+        "24": {
+            "content": [
+                "V24. †V24. ", 
+                "Miraculous manifestation at confession.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V24.1. †V24.1. ", 
+                    "Confession of sins of a pilgrim calms a great storm at sea.", 
+                    " Alphabet No. 174."
+                ]
+            ]
+        }, 
+        "25": {
+            "content": [
+                "V25. †V25. ", 
+                "Easy confession not effective.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V25.1. †V25.1. ", 
+                    "Man returns from dead to protest against priest who has\r\nbeen too easy with him at confession.", 
+                    "\r\nPauli (ed. Bolte) No. 303."
+                ], 
+                [
+                    "V25.2. †V25.2. ", 
+                    "Confession without giving up sin punished.", 
+                    " Scala Celi 55a No. 309."
+                ]
+            ]
+        }, 
+        "27": {
+            "content": [
+                "V27. †V27. ", 
+                "Penance magically concluded by confession.", 
+                " Type 756B; *Andrejev FFC LXIX 136ff."
+            ], 
+            "child": []
+        }, 
+        "20": {
+            "content": [
+                "V20. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V20.1. †V20.1. ", 
+                    "Protection of sinners by confession.", 
+                    " *Crane Vitry 245 No. 261, 246f. No. 263; Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "V20.1.1. †V20.1.1. ", 
+                    "A man without a confessor is a body without a head.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V20.1.2. †V20.1.2. ", 
+                    "Confessor as “soul-friend”.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "21": {
+            "content": [
+                "V21. †V21. ", 
+                "Confession brings forgiveness of sin.", 
+                " Nouvelles de Sens No. 15; Spanish: Keller, Espinosa Jr.\r\nNo. 182."
+            ], 
+            "child": [
+                [
+                    "V21.1. †V21.1. ", 
+                    "Sincere confession miraculously obliterated as sign of\r\nforgiveness.", 
+                    " *Crane Vitry 266f. Nos. 301,\r\n302; Alphabet Nos. 205, 209; Scala Celi 44b, 46a, 55a, 56b, 85b, 104a Nos. 251,\r\n258, 308, 316, 493, 561; Ward II 663 No. 12; Herbert III 259, 380, 432, 469."
+                ], 
+                [
+                    "V21.2. †V21.2. ", 
+                    "Woman confesses murder: unharmed by execution fire.", 
+                    " Alphabet No. 466; Scala Celi 47a No. 265; Wright Latin\r\nStories 66."
+                ], 
+                [
+                    "V21.3. †V21.3. ", 
+                    "Confession of monk who intended to rob monastery brings\r\nforgiveness.", 
+                    " Eventually elected prior.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "V21.4. †V21.4. ", 
+                    "Prior pardons sinning friar who has confessed.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V21.5. †V21.5. ", 
+                    "Sinner confesses before sinning and thus is pardoned.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V21.6. †V21.6. ", 
+                    "Sinner’s tearmarks on written confession cause bishop to\r\npardon his sins.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "22": {
+            "content": [
+                "V22. †V22. ", 
+                "Condemnation because of death without confession.", 
+                " (Cf. †Q223.4.) Alphabet\r\nNos. 231, 455; Spanish: Boggs FFC XC 89 No. 760A*, Keller."
+            ], 
+            "child": []
+        }, 
+        "23": {
+            "content": [
+                "V23. †V23. ", 
+                "Miracle to permit confession.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V23.1. †V23.1. ", 
+                    "Unshriven man restored to life in order to confess.", 
+                    " (Cf. †V251.) Herbert III\r\n14; *Crane Vitry 267 No. 303; *Crane Miraculis 93 No. 27; English: Wells 167\r\n(Vernon Miracles)."
+                ], 
+                [
+                    "V23.2. †V23.2. ", 
+                    "Dumb man recovers speech in order to confess.", 
+                    " *Fb “stum”."
+                ]
+            ]
+        }, 
+        "46": {
+            "content": [
+                "V46. †V46. ", 
+                "Pebble put in box each time mass is heard.", 
+                " Irish: O‘Suilleabhain 127."
+            ], 
+            "child": []
+        }, 
+        "44": {
+            "content": [
+                "V44. †V44. ", 
+                "Faithful attendance at mass outweighs evil deeds.", 
+                " *Crane Vitry Nos. 223ff. passim; Irish: O’Suilleabhain 98,\r\nBeal XXI 331."
+            ], 
+            "child": []
+        }, 
+        "45": {
+            "content": [
+                "V45. †V45. ", 
+                "Mass said for dead; they arise and say “Amen”.", 
+                " Scala Celi 133a No. 732."
+            ], 
+            "child": []
+        }, 
+        "42": {
+            "content": [
+                "V42. †V42. ", 
+                "Masses release souls from hell (purgatory).", 
+                " Herbert III 284 Nos. 54ff. passim, 473; Alphabet Nos. 613,\r\n652; Scala Celi 111b No. 620; Pauli (ed. Bolte) No. 228; Irish: O‘Suilleabhain\r\n99, Beal XXI 332; English: Wells 172 (Trentalle Sancti Gregorii); Swiss: Jegerlehner\r\nOberwallis 298 No. 11; Spanish: Espinosa Jr. Nos. 192--97."
+            ], 
+            "child": []
+        }, 
+        "43": {
+            "content": [
+                "V43. †V43. ", 
+                "Holy man has his own mass.", 
+                " (Cf. †F1011.1, †V29.3.)\r\nWhen upbraided for not coming to mass, he hangs his coat on a sunbeam. Swiss:\r\nJegerlehner Oberwallis 309 No. 10; Spanish: Boggs FFC XC 147 No. 1805B."
+            ], 
+            "child": []
+        }, 
+        "40": {
+            "content": [
+                "V40. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "41": {
+            "content": [
+                "V41. †V41. ", 
+                "Masses work miracles.", 
+                "\r\n*Herbert III 273ff. passim; Scala Celi 130b, 131a Nos. 712--16."
+            ], 
+            "child": [
+                [
+                    "V41.1. †V41.1. ", 
+                    "Imprisoned miner kept alive by masses performed by his\r\nwife.", 
+                    " Ward II 675; Herbert III *85, 284,\r\n324, 365; Alphabet No. 499."
+                ], 
+                [
+                    "V41.2. †V41.2. ", 
+                    "Hearing masses causes triumph in tournament.", 
+                    " Angel takes absent knight’s place. He is delayed by going\r\nto mass. *Liebrecht 29; Alphabet No. 462; Scala Celi 130b No. 714; *Ward II\r\n662; Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "1": {
+            "content": [
+                "V1. †V1. ", 
+                "Objects of worship.", 
+                "\r\n*Encyc. Rel. Ethics Index 649b; Irish myth: *Cross; Icelandic: MacCulloch Eddic\r\n214, *Boberg."
+            ], 
+            "child": [
+                [
+                    "V1.1. †V1.1. ", 
+                    "Worship of particular gods and goddesses.", 
+                    null
+                ], 
+                [
+                    "V1.1.1. †V1.1.1. ", 
+                    "Worship of one god.", 
+                    "\r\nJewish: Neuman."
+                ], 
+                [
+                    "V1.2. †V1.2. ", 
+                    "Worship of spirits.", 
+                    null
+                ], 
+                [
+                    "V1.2.1. †V1.2.1. ", 
+                    "Worship of fairies.", 
+                    " Irish myth: Cross (†V1.16, †V1.16.1);\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "V1.2.2. †V1.2.2. ", 
+                    "Worship of devil.", 
+                    " Irish myth: Cross (†V1.15, †V1.15.1)."
+                ], 
+                [
+                    "V1.2.3. †V1.2.3. ", 
+                    "Worship of “disar”.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "V1.2.4. †V1.2.4. ", 
+                    "Worship of angels.", 
+                    "\r\nJewish: *Neuman."
+                ], 
+                [
+                    "V1.3. †V1.3. ", 
+                    "Worship of ancestors.", 
+                    "\r\nEncyc. Rel. Ethics I 425--67; Irish myth: Cross; Icelandic: Boberg; India:\r\nThompson-Balys; Chinese: Eberhard FFC CXX 411 s.v. “Ahnenfiguren”; Hawaii:\r\nBeckwith Myth 160; Society Islands: Henry Ancient Tahiti (Honolulu, 1928) 561;\r\nTuamotu: Stimson MS (T-G. 3/619); Africa (Cameroon): Mansfield 233, (Fang):\r\nTrilles 140."
+                ], 
+                [
+                    "V1.4. †V1.4. ", 
+                    "Worship of heavenly bodies.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "V1.4.1. †V1.4.1. ", 
+                    "Worship of the sky.", 
+                    " (Cf. †A210.)"
+                ], 
+                [
+                    "V1.4.2. †V1.4.2. ", 
+                    "Worship of the sun.", 
+                    " (Cf. †A220.) Irish myth: *Cross; Icelandic:\r\nBoberg; Jewish: Neuman; India: *Thompson-Balys; Hawaii: Beckwith Myth 12."
+                ], 
+                [
+                    "V1.4.3. †V1.4.3. ", 
+                    "Worship of moon.", 
+                    " (Cf. †A240.) Jewish: Neuman."
+                ], 
+                [
+                    "V1.4.4. †V1.4.4. ", 
+                    "Worship of stars.", 
+                    " (Cf. †A250.) Jewish: Neuman; India: Thompson-Balys."
+                ], 
+                [
+                    "V1.5. †V1.5. ", 
+                    "Worship of manifestations in nature.", 
+                    null
+                ], 
+                [
+                    "V1.5.1. †V1.5.1. ", 
+                    "Worship of clouds.", 
+                    " (Cf. †A283.)"
+                ], 
+                [
+                    "V1.5.2. †V1.5.2. ", 
+                    "Worship of thunder.", 
+                    " (Cf. †A284.)"
+                ], 
+                [
+                    "V1.5.3. †V1.5.3. ", 
+                    "Worship of wind.", 
+                    " (Cf. †A282.)"
+                ], 
+                [
+                    "V1.5.4. †V1.5.4. ", 
+                    "Worship of storm.", 
+                    " (Cf. †A281.)"
+                ], 
+                [
+                    "V1.5.5. †V1.5.5. ", 
+                    "Worship of dawn.", 
+                    " (Cf. †A270.)"
+                ], 
+                [
+                    "V1.5.6. †V1.5.6. ", 
+                    "Worship of light.", 
+                    " (Cf. †A260.)"
+                ], 
+                [
+                    "V1.5.6.1. †V1.5.6.1. ", 
+                    "Worship of rainbow.", 
+                    " (Cf. †A288.)"
+                ], 
+                [
+                    "V1.5.7. †V1.5.7. ", 
+                    "Worship of frost.", 
+                    " (Cf. †A289.1.)"
+                ], 
+                [
+                    "V1.6. †V1.6. ", 
+                    "Worship of elements of nature.", 
+                    null
+                ], 
+                [
+                    "V1.6.1. †V1.6.1. ", 
+                    "Worship of earth.", 
+                    " (Cf. †A400.) India: Thompson-Balys."
+                ], 
+                [
+                    "V1.6.1.1. †V1.6.1.1. ", 
+                    "Worship of mountains and hills.", 
+                    " (Cf. †A495.) Danish:\r\nKristensen Danske Sagn III (1895) 65ff., (1931) 47ff."
+                ], 
+                [
+                    "V1.6.2. †V1.6.2. ", 
+                    "Worship of water.", 
+                    " (Cf. †A420.)"
+                ], 
+                [
+                    "V1.6.2.0.1. †V1.6.2.0.1. ", 
+                    "Worship of water-goddess.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V1.6.2.1. †V1.6.2.1. ", 
+                    "Sacred rivers and lakes.", 
+                    " (Cf. †A425.)"
+                ], 
+                [
+                    "V1.6.2.2. †V1.6.2.2. ", 
+                    "Worship of sea.", 
+                    " (Cf. †A421.) Irish myth: Cross."
+                ], 
+                [
+                    "V1.6.3. †V1.6.3. ", 
+                    "Worship of fire.", 
+                    " (Cf. †A493.) Encyc. Rel. Ethics Index 202c; Penzer III 160; Irish\r\nmyth: *Cross; Jewish: *Neuman."
+                ], 
+                [
+                    "V1.6.3.1. †V1.6.3.1. ", 
+                    "Sacred fire.", 
+                    " *Encyc.\r\nRel. Ethics Index 202b; Penzer I 260, II 247--55; Irish myth: *Cross."
+                ], 
+                [
+                    "V1.6.3.1.1. †V1.6.3.1.1. ", 
+                    "(Sacrificial) fire from which all others must be lighted.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V1.6.4. †V1.6.4. ", 
+                    "Worship of minerals and metals.", 
+                    " (Cf. †A492.)"
+                ], 
+                [
+                    "V1.6.4.1. †V1.6.4.1. ", 
+                    "Sacred stones.", 
+                    " Irish\r\nmyth: *Cross; Icelandic: Corpus Poeticum Boreale I 322, Boberg, Schmidt DF\r\nXXXIX 86ff.; Hawaii: Beckwith Myth 88ff.; Tahiti: Henry Ancient Tahiti\r\n(Honolulu, 1928) 382."
+                ], 
+                [
+                    "V1.6.4.2. †V1.6.4.2. ", 
+                    "Sacred shells.", 
+                    " Tonga:\r\nGifford 52; Tahiti: Henry 391."
+                ], 
+                [
+                    "V1.7. †V1.7. ", 
+                    "Worship of trees and plants.", 
+                    " (Cf. †A430, †C51.2.2.)\r\n*Encyc. Rel. Ethics Index 611b; *Penzer II 96 n. 1, VII 162 n. 1; Schmidt\r\nBrandtrær og Ulykkestrær Danske Studier (1928) 54ff.; Irish myth: *Cross;\r\nIcelandic: MacCulloch Eddic 214; S. A. Indian (Antilles): Alexander Lat. Am.\r\n25f."
+                ], 
+                [
+                    "V1.7.1. †V1.7.1. ", 
+                    "Sacred tree.", 
+                    " *Encyc.\r\nRel. Ethics Index 611a; *Fb “træ” III 866a; Wimberly 156;\r\nIrish myth: *Cross; Jewish: Neuman."
+                ], 
+                [
+                    "V1.7.1.1. †V1.7.1.1. ", 
+                    "Sacred oak.", 
+                    " Irish\r\nmyth: *Cross; Jewish: Neuman."
+                ], 
+                [
+                    "V1.7.1.2. †V1.7.1.2. ", 
+                    "Sacred ash.", 
+                    " Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "V1.7.1.3. †V1.7.1.3. ", 
+                    "Sacred yew.", 
+                    " Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "V1.7.1.4. †V1.7.1.4. ", 
+                    "Sacred bo-tree.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "V1.8. †V1.8. ", 
+                    "Worship of animals.", 
+                    "\r\n*Encyc. Rel. Ethics Index 28a; Jewish: *Neuman."
+                ], 
+                [
+                    "V1.8.1. †V1.8.1. ", 
+                    "Cow worship.", 
+                    " Encyc.\r\nRel. Ethics Index 142bc; **Burnell FL LVIII 377ff.; *Penzer II 240; Icelandic:\r\nBoberg."
+                ], 
+                [
+                    "V1.8.1.1. †V1.8.1.1. ", 
+                    "Bull worship.", 
+                    " Irish\r\nmyth: Cross; Jewish: *Neuman."
+                ], 
+                [
+                    "V1.8.2. †V1.8.2. ", 
+                    "Horse worship.", 
+                    " Penzer\r\nII 57; Icelandic: MacCulloch Eddic 216, *Boberg."
+                ], 
+                [
+                    "V1.8.3. †V1.8.3. ", 
+                    "Dog worship.", 
+                    " Encyc.\r\nRel. Ethics Index 167b; Jewish: Neuman; Chinese: Werner 422."
+                ], 
+                [
+                    "V1.8.4. †V1.8.4. ", 
+                    "Swine worship.", 
+                    " Irish\r\nmyth: Cross; Icelandic: MacCulloch Eddic 109, *Boberg."
+                ], 
+                [
+                    "V1.8.5. †V1.8.5. ", 
+                    "Wolf worship.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "V1.8.6. †V1.8.6. ", 
+                    "Serpent worship.", 
+                    "\r\n*Encyc. Rel. Ethics Index 539a; *Penzer III 142; Jewish: *Neuman."
+                ], 
+                [
+                    "V1.8.7. †V1.8.7. ", 
+                    "Bird worship.", 
+                    " (Cf. †A132.6.1.) Irish myth: Cross; Jewish: Neuman; Easter\r\nIsland: Métraux Ethnology 313f."
+                ], 
+                [
+                    "V1.8.8. †V1.8.8. ", 
+                    "Dragon worship.", 
+                    "\r\nJewish: Neuman; Chinese: Eberhard FFC CXX 103f."
+                ], 
+                [
+                    "V1.8.9. †V1.8.9. ", 
+                    "Lion worship.", 
+                    " Jewish:\r\nNeuman."
+                ], 
+                [
+                    "V1.8.10. †V1.8.10. ", 
+                    "Ass worship.", 
+                    " Jewish:\r\nNeuman."
+                ], 
+                [
+                    "V1.8.11. †V1.8.11. ", 
+                    "Fish worship.", 
+                    "\r\nMarquesas: Handy 104; Hawaii: Beckwith Myth 129."
+                ], 
+                [
+                    "V1.9. †V1.9. ", 
+                    "Worship of tools and implements.", 
+                    null
+                ], 
+                [
+                    "V1.9.1. †V1.9.1. ", 
+                    "Plow worship.", 
+                    " (Cf. †A432.) Irish myth: *Cross."
+                ], 
+                [
+                    "V1.9.2. †V1.9.2. ", 
+                    "Worship of weapons.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V1.9.3. †V1.9.3. ", 
+                    "Worship of hammer (axe).", 
+                    "\r\nTahiti: Henry Ancient Tahiti (Honolulu, 1928) 147."
+                ], 
+                [
+                    "V1.10. †V1.10. ", 
+                    "Worship of fetish.", 
+                    " (Cf. †D1274.) *Encyc. Rel. Ethics Index 200a; Irish myth: *Cross;\r\nJewish: *Neuman; Africa (Fjort): Dennett 96."
+                ], 
+                [
+                    "V1.10.1. †V1.10.1. ", 
+                    "Man worships a cake which from time to time he eats.", 
+                    " *Chauvin V 24 No. 13 n. 1."
+                ], 
+                [
+                    "V1.10.2. †V1.10.2. ", 
+                    "Cult of heads.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "V1.10.3. †V1.10.3. ", 
+                    "Sacred feather.", 
+                    "\r\nTuamotu: Beckwith Myth 289."
+                ], 
+                [
+                    "V1.11. †V1.11. ", 
+                    "Worship of idols.", 
+                    " (Cf. †Q558.12, †V11.10.) Irish myth: *Cross; Jewish: *Neuman."
+                ], 
+                [
+                    "V1.11.1. †V1.11.1. ", 
+                    "Worship of golden calf.", 
+                    "\r\nJewish: Neuman."
+                ], 
+                [
+                    "V1.11.2. †V1.11.2. ", 
+                    "Worship of stone idols.", 
+                    "\r\nJewish: Neuman."
+                ], 
+                [
+                    "V1.11.3. †V1.11.3. ", 
+                    "Worship of wooden idol.", 
+                    "\r\nIcelandic: *Boberg; Hawaii: Beckwith Myth 16."
+                ]
+            ]
+        }, 
+        "0": {
+            "content": [
+                "V0. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "5": {
+            "content": [
+                "V5. †V5. ", 
+                "Negligence in religious exercise.", 
+                " (Cf. †Q223.)"
+            ], 
+            "child": [
+                [
+                    "V5.1. †V5.1. ", 
+                    "Virgin Mary reproves a monk who sleeps at altar.", 
+                    " Alphabet No. 284."
+                ], 
+                [
+                    "V5.2. †V5.2. ", 
+                    "Negligent priests buried under bags filled with words\r\nomitted from service.", 
+                    " *Crane Vitry 141 No.\r\n19."
+                ], 
+                [
+                    "V5.3. †V5.3. ", 
+                    "Devils cause monk to perspire and stay away from church\r\nservice.", 
+                    " Pauli (ed. Bolte). No. 260."
+                ]
+            ]
+        }, 
+        "4": {
+            "content": [
+                "V4. †V4. ", 
+                "Value of religious exercises.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V4.1. †V4.1. ", 
+                    "Religious exercises weighed in balance.", 
+                    " A son doubts whether the words spoken by the priests to\r\nwhom his father has willed a sum of money is worth so much. The words are put\r\non paper and are found to outweigh the money. Pauli (ed. Bolte) No. 465; Irish:\r\nO’Suilleabhain 65, 113, Beal XXI 325, 335."
+                ]
+            ]
+        }, 
+        "31": {
+            "content": [
+                "V31. †V31. ", 
+                "Unconsecrated host.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V31.1. †V31.1. ", 
+                    "Host taken away from sinful priest.", 
+                    " Alphabet Nos 689, 691; Scala Celi 40b, 41a Nos. 229--36;\r\nHerbert III 398, 399, 465, 480, 483, 609, 709; Lithuanian: Balys Legends No.\r\n409; Italian Novella: Rotunda."
+                ], 
+                [
+                    "V31.2. †V31.2. ", 
+                    "Unconsecrated host ineffective.", 
+                    " Alphabet No. 162."
+                ], 
+                [
+                    "V31.3. †V31.3. ", 
+                    "Unconsecrated host refused.", 
+                    " Alphabet Nos. 161, 310."
+                ], 
+                [
+                    "V31.4. †V31.4. ", 
+                    "Altar casts away host with louse baked in it.", 
+                    " Alphabet No. 690."
+                ], 
+                [
+                    "V31.5. †V31.5. ", 
+                    "Devil eats unblessed bread.", 
+                    " Scala Celi 64b No. 353."
+                ]
+            ]
+        }, 
+        "96": {
+            "content": [
+                "V96. †V96. ", 
+                "Ritual bathing.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V96.1. †V96.1. ", 
+                    "Taking bath in a sacred river (Ganges).", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "68": {
+            "content": [
+                "V68. †V68. ", 
+                "Preparations for burial.", 
+                "\r\nIrish myth: Cross; Icelandic: Lagerholm 33, *Boberg."
+            ], 
+            "child": [
+                [
+                    "V68.1. †V68.1. ", 
+                    "Dead washed (in river).", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V68.2. †V68.2. ", 
+                    "Dead washed and hair combed.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "V68.3. †V68.3. ", 
+                    "Dying hero wants to be buried in the clothes of his brother\r\nwho killed him.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "V68.4. †V68.4. ", 
+                    "Dead is undressed.", 
+                    " Icelandic: Göngu-Hrólfs saga 245."
+                ], 
+                [
+                    "V68.4.1. †V68.4.1. ", 
+                    "Dead not to be buried naked.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "V68.5. †V68.5. ", 
+                    "Dead rubbed with red paint.", 
+                    " Africa (Fang): Trilles 140."
+                ]
+            ]
+        }, 
+        "39": {
+            "content": [
+                "V39. †V39. ", 
+                "Sacrament--miscellaneous motifs.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V39.1. †V39.1. ", 
+                    "Man considering self unworthy to receive host given it by\r\nGod himself.", 
+                    " Pauli (ed. Bolte) No. 687."
+                ], 
+                [
+                    "V39.2. †V39.2. ", 
+                    "Wicked woman unable to endure presence of host at mass.", 
+                    " English: Wells 151 (Richard Coer de Lyon)."
+                ], 
+                [
+                    "V39.3. †V39.3. ", 
+                    "Sacrament effective even from unworthy priest.", 
+                    " Man who has refused such a sacrament shown a vision of a\r\nleper giving men good water without harm. Alphabet No. 687; Irish:\r\nO‘Suilleabhain 126, Beal XXI 334, 337."
+                ], 
+                [
+                    "V39.4. †V39.4. ", 
+                    "Vision of sacrament in form of young child.", 
+                    " Alphabet No. 694; Scala Celi 66a Nos. 360--64; Toldo IV\r\n49ff.; Irish: O’Suilleabhain 109."
+                ], 
+                [
+                    "V39.5. †V39.5. ", 
+                    "Sacred image appears on host.", 
+                    " Woman who has vowed not\r\nto use make-up or ornaments thus rewarded. (Cf. †V35.1.2.) Italian Novella:\r\nRotunda."
+                ], 
+                [
+                    "V39.6. †V39.6. ", 
+                    "Host given as pledge to keep one‘s word.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "V39.7. †V39.7. ", 
+                    "Voice from grave asks that it be opened.", 
+                    " Corpse spits out host because he has missed confession.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "V39.8. †V39.8. ", 
+                    "Sick men die and go to hell because they hesitate to take\r\nsacrament.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V39.9. †V39.9. ", 
+                    "Woman who eats before communion cannot swallow the wafer.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "75": {
+            "content": [
+                "V75. †V75. ", 
+                "Easter.", 
+                " Irish myth:\r\n*Cross."
+            ], 
+            "child": [
+                [
+                    "V75.1. †V75.1. ", 
+                    "Passover.", 
+                    " Jewish:\r\nMoreno Esdras, *Neuman."
+                ]
+            ]
+        }, 
+        "73": {
+            "content": [
+                "V73. †V73. ", 
+                "Fasts.", 
+                " Irish myth:\r\nCross; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "V73.0.1. †V73.0.1. ", 
+                    "Christ in the desert overcomes devil by fasting.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V73.1. †V73.1. ", 
+                    "Fast to prevent pestilence.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V73.2. †V73.2. ", 
+                    "Fast improves health.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "V73.3. †V73.3. ", 
+                    "Saint causes two youths to be fed with the best food, says\r\none is doomed to go to hell, the other will practice austerity in his old age.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V73.4. †V73.4. ", 
+                    "Fasting to secure a prosperous journey.", 
+                    " Jewish: Moreno Esdras\r\n(†V74.1)."
+                ], 
+                [
+                    "V73.5. †V73.5. ", 
+                    "Fasting on “Golden Fridays” as charm against certain\r\nmisfortunes.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V73.6. †V73.6. ", 
+                    "Lent.", 
+                    " Irish myth:\r\nCross."
+                ], 
+                [
+                    "V73.6.1. †V73.6.1. ", 
+                    "Christ‘s forty-days’ fast called “His Lent”.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V73.6.2. †V73.6.2. ", 
+                    "Saint remains silent during Lent by holding stone in mouth.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V73.6.3. †V73.6.3. ", 
+                    "Holy man eats pork and beef in Lent because pig is raised\r\non milk, ox on grass; but refuses to eat cake because it contains weevils (live\r\nmeat).", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "72": {
+            "content": [
+                "V72. †V72. ", 
+                "Christmas.", 
+                " *Encyc. Rel. Ethics Index 121b; *Hdwb. d. Abergl. IX 979ff., IX\r\nNachträge 864--968; Irish myth: Cross; Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "V72.1. †V72.1. ", 
+                    "Little Christmas.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "71": {
+            "content": [
+                "V71. †V71. ", 
+                "Sabbath.", 
+                " *Encyc. Rel. Ethics Index 509c; Irish myth: *Cross; Jewish:\r\nMoreno Esdras (†V71.2.), *Neuman."
+            ], 
+            "child": [
+                [
+                    "V71.1. †V71.1. ", 
+                    "Jewish automaton will not work on Saturday.", 
+                    " *Dickson 212 n. 140."
+                ], 
+                [
+                    "V71.1.1. †V71.1.1. ", 
+                    "Manna does not descend on Sabbath.", 
+                    " Jewish: *Neuman."
+                ], 
+                [
+                    "V71.2. †V71.2. ", 
+                    "Misfortune ascribed to breaking Sabbath.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V71.3. †V71.3. ", 
+                    "Various events, from creation to Resurrection, that\r\noccurred on Sabbath.", 
+                    " Irish myth: Cross;\r\nJewish: Neuman."
+                ]
+            ]
+        }, 
+        "70": {
+            "content": [
+                "V70. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V70.1. †V70.1. ", 
+                    "The first day of summer.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "V70.1.1. †V70.1.1. ", 
+                    "Festival of Beltane (== May Day).", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V70.2. †V70.2. ", 
+                    "Whitsuntide.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "V70.3. †V70.3. ", 
+                    "Midsummer.", 
+                    " (Cf. †A1535.3.) Irish myth: *Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "V70.3.1. †V70.3.1. ", 
+                    "Feast of Saint John the Baptist.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V70.4. †V70.4. ", 
+                    "Harvest-festival.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "V70.5. †V70.5. ", 
+                    "Festival of Samhain (Hallowe‘en, Tara [Temair]).", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V70.6. †V70.6. ", 
+                    "Festival of Imbolg (Brigit, Candlemas).", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V70.7. †V70.7. ", 
+                    "Feast of the new moon.", 
+                    " Jewish: Moreno Esdras (†V74)."
+                ], 
+                [
+                    "V70.8. †V70.8. ", 
+                    "Festival of Cenn (Crom) Cruaich.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "91": {
+            "content": [
+                "V91. †V91. ", 
+                "Accidental calling on god’s name held to outweigh a life of\r\nwickedness.", 
+                " Hindu: Keith 180."
+            ], 
+            "child": []
+        }, 
+        "59": {
+            "content": [
+                "V59. †V59. ", 
+                "Prayers answered--miscellaneous.", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "V59.1. †V59.1. ", 
+                    "Skill in theft granted as answer to prayer.", 
+                    " Africa (Duala): Lederbogen JAS IV 64."
+                ]
+            ]
+        }, 
+        "93": {
+            "content": [
+                "V93. †V93. ", 
+                "Religious dancing.", 
+                " (Cf. †A1542.) India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "92": {
+            "content": [
+                "V92. †V92. ", 
+                "“Our Lady‘s Tumbler.”", 
+                "\r\nA tumbler, turned monk, dances while others chant psalms. He is praising God in\r\nthe only way he knows. *Herbert III 417; *Wicksteed Romania II 315; Romanische\r\nForschungen XI 223."
+            ], 
+            "child": []
+        }, 
+        "69": {
+            "content": [
+                "V69. †V69. ", 
+                "Funeral rites-miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V69.1. †V69.1. ", 
+                    "All dead are buried after battle.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V69.2. †V69.2. ", 
+                    "Hero buried as unknown merchant in foreign country.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "97": {
+            "content": [
+                "V97. †V97. ", 
+                "Study of Tora as religious service.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "14": {
+            "content": [
+                "V14. †V14. ", 
+                "Sacrifice must be without blemish.", 
+                " Greek: Homer passim; Jewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "11": {
+            "content": [
+                "V11. †V11. ", 
+                "Power to which sacrifice is made.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V11.1. †V11.1. ", 
+                    "Sacrifice to tree.", 
+                    " (Cf. †V1.1.) *Encyc. Rel. Ethics Index 611a; Fb “træ” III 866a."
+                ], 
+                [
+                    "V11.2. †V11.2. ", 
+                    "Sacrifice to sea.", 
+                    "\r\n*Penzer II 72 n. 1, VII 146 n. 1; Irish myth: *Cross; Icelandic: Boberg; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "V11.2.1. †V11.2.1. ", 
+                    "Sacrifice to river.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "V11.3. †V11.3. ", 
+                    "Sacrifice to stone.", 
+                    "\r\n*Encyc. Rel. Ethics Index 570; *Fb “sten” III 553a; Irish myth: *Cross;\r\nIcelandic: MacCulloch Eddic 225, *Boberg; Danish: Schmidt DF XXXIX 90ff."
+                ], 
+                [
+                    "V11.4. †V11.4. ", 
+                    "Sacrifices to Confucius.", 
+                    "\r\nEncyc. Rel. Ethics IV 13f.; Chinese: Werner 102."
+                ], 
+                [
+                    "V11.5. †V11.5. ", 
+                    "Sacrifice to wind.", 
+                    "\r\nEncyc. Rel. Ethics Index 645b; Icelandic: *Boberg; Swiss: Jegerlehner\r\nOberwallis 307 No. 29; Greek: Euripides Iphigenia at Aulis."
+                ], 
+                [
+                    "V11.6. †V11.6. ", 
+                    "Sacrifice to the dead.", 
+                    " (Cf. †A108.1.) *Encyc. Rel. Ethics Index\r\n512b; Irish myth: *Cross."
+                ], 
+                [
+                    "V11.6.1. †V11.6.1. ", 
+                    "Human sacrifice in connection with funeral.", 
+                    " (Cf. †S260.1.) Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "V11.6.2. †V11.6.2. ", 
+                    "Animal sacrifice in connection with funeral.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V11.7. †V11.7. ", 
+                    "Sacrifice to animal.", 
+                    "\r\nJewish: Neuman."
+                ], 
+                [
+                    "V11.7.1. †V11.7.1. ", 
+                    "Sacrifice to serpent.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "V11.8. †V11.8. ", 
+                    "Sacrifice to saint.", 
+                    "\r\nIrish: O‘Suilleabhain 89."
+                ], 
+                [
+                    "V11.9. †V11.9. ", 
+                    "Sacrifice to deity.", 
+                    "\r\nJewish: Neuman."
+                ], 
+                [
+                    "V11.9.1. †V11.9.1. ", 
+                    "Sacrifice to unknown god.", 
+                    " Hawaii: Beckwith Myth 70."
+                ], 
+                [
+                    "V11.10. †V11.10. ", 
+                    "Sacrifice to idols.", 
+                    " (Cf. †V1.11.) Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "10": {
+            "content": [
+                "V10. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V10.1. †V10.1. ", 
+                    "Goddess prevents suicide of man despairing of ability to\r\nmake sacrifice.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V10.2. †V10.2. ", 
+                    "God dislikes offerings beyond one’s ability.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "13": {
+            "content": [
+                "V13. †V13. ", 
+                "Sacrifice made when treasure is found.", 
+                " Fb “skat” III 235b."
+            ], 
+            "child": []
+        }, 
+        "12": {
+            "content": [
+                "V12. †V12. ", 
+                "Nature of sacrifice.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V12.1. †V12.1. ", 
+                    "Blood as sacrifice.", 
+                    "\r\nIrish: O’Suilleabhain 90."
+                ], 
+                [
+                    "V12.2. †V12.2. ", 
+                    "Jewels as sacrifice to sea.", 
+                    " (Cf. †V11.2.) *Penzer II\r\n72 n. 1."
+                ], 
+                [
+                    "V12.3. †V12.3. ", 
+                    "Skulls as sacrifice to a god.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V12.4. †V12.4. ", 
+                    "Animals as sacrifice.", 
+                    "\r\nIrish myth: *Cross; Jewish: *Neuman; India: Thompson-Balys."
+                ], 
+                [
+                    "V12.4.0.1. †V12.4.0.1. ", 
+                    "Sacrifice of animals at the edification of a temple.", 
+                    " Jewish: Moreno Esdras\r\n(†V17.8)."
+                ], 
+                [
+                    "V12.4.1. †V12.4.1. ", 
+                    "Dog as sacrifice.", 
+                    "\r\nIrish myth: Cross; Chinese: Eberhard FFC CXX 218 No. 167."
+                ], 
+                [
+                    "V12.4.2. †V12.4.2. ", 
+                    "Cat as sacrifice.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "V12.4.3. †V12.4.3. ", 
+                    "Pig as sacrifice.", 
+                    "\r\nIrish myth: *Cross; Jewish: Neuman; Chinese: Eberhard FFC CXX 218 No. 167."
+                ], 
+                [
+                    "V12.4.3.1. †V12.4.3.1. ", 
+                    "Hog as sacrifice.", 
+                    "\r\nIcelandic: Boberg; Greek: Homer Odyssey XIV 435; Hawaii: Beckwith Myth 123."
+                ], 
+                [
+                    "V12.4.4. †V12.4.4. ", 
+                    "Ox (bull) as sacrifice.", 
+                    "\r\nIrish myth: Cross; Icelandic: *Boberg: Greek: Homer passim; Jewish: Neuman."
+                ], 
+                [
+                    "V12.4.4.1. †V12.4.4.1. ", 
+                    "Cow as sacrifice.", 
+                    "\r\nCheremis: Sebeok-Nyerges."
+                ], 
+                [
+                    "V12.4.4.1.1. †V12.4.4.1.1. ", 
+                    "Heifer as sacrifice.", 
+                    "\r\nGreek: Homer passim."
+                ], 
+                [
+                    "V12.4.4.2. †V12.4.4.2. ", 
+                    "Calf as sacrifice.", 
+                    "\r\nJewish: *Neuman."
+                ], 
+                [
+                    "V12.4.5. †V12.4.5. ", 
+                    "Goat as sacrifice.", 
+                    "\r\nIcelandic: *Boberg; Jewish: Neuman."
+                ], 
+                [
+                    "V12.4.6. †V12.4.6. ", 
+                    "Sheep (ram) as sacrifice.", 
+                    " Cheremis: Sebeok-Nyerges; Jewish: Neuman."
+                ], 
+                [
+                    "V12.4.7. †V12.4.7. ", 
+                    "Hare as sacrifice.", 
+                    "\r\nCheremis: Sebeok-Nyerges."
+                ], 
+                [
+                    "V12.4.8. †V12.4.8. ", 
+                    "Ass as sacrifice.", 
+                    "\r\n*Krappe Classical Philology XLII (1947) 223--34; Jewish: *Neuman."
+                ], 
+                [
+                    "V12.4.9. †V12.4.9. ", 
+                    "Horse as sacrifice.", 
+                    "\r\n*Encyc. Rel. Ethics Index 262b; *Howey 185ff.; Icelandic: *Boberg."
+                ], 
+                [
+                    "V12.4.10. †V12.4.10. ", 
+                    "Fish as sacrifice.", 
+                    "\r\nHawaii: Beckwith Myth 19, 420; Tahiti: Henry Ancient Tahiti (Honolulu, 1928)\r\n241."
+                ], 
+                [
+                    "V12.4.11. †V12.4.11. ", 
+                    "Bird as sacrifice.", 
+                    "\r\nJewish: *Neuman."
+                ], 
+                [
+                    "V12.5. †V12.5. ", 
+                    "Gold as sacrifice to false wooden god.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V12.6. †V12.6. ", 
+                    "Thrall as sacrifice.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "V12.7. †V12.7. ", 
+                    "Eyes (human or animal) as sacrifice.", 
+                    " Marquesas: Handy 134; Hawaii: Beckwith Myth 130, 497."
+                ], 
+                [
+                    "V12.8. †V12.8. ", 
+                    "Flowers as sacrifice.", 
+                    "\r\nHawaii: Beckwith Myth 16."
+                ], 
+                [
+                    "V12.9. †V12.9. ", 
+                    "Libations.", 
+                    " Drink\r\npoured out to the gods. Greek: Homer passim; Chinese: Graham."
+                ], 
+                [
+                    "V12.10. †V12.10. ", 
+                    "Incense as sacrifice.", 
+                    "\r\nJewish: *Neuman."
+                ]
+            ]
+        }, 
+        "15": {
+            "content": [
+                "V15. †V15. ", 
+                "Sacrifice: olive branch laid on altar of Mercy.", 
+                " Greek: Frazer Apollodorus I 375 n. 2."
+            ], 
+            "child": []
+        }, 
+        "48": {
+            "content": [
+                "V48. †V48. ", 
+                "The canonical hours.", 
+                "\r\nIrish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "17": {
+            "content": [
+                "V17. †V17. ", 
+                "Purpose of sacrifice.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V17.0.1. †V17.0.1. ", 
+                    "Sacrifice to deity in order to obtain favors.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V17.1. †V17.1. ", 
+                    "Sacrifice for a good year, crops.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V17.2. †V17.2. ", 
+                    "Sacrifice after committing a sin.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "V17.3. †V17.3. ", 
+                    "Sacrifice to get help in danger.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V17.4. †V17.4. ", 
+                    "Sacrifice for good weather.", 
+                    " (Cf. †V17.1.) Icelandic:\r\nÖrvar-Odds saga 38f."
+                ], 
+                [
+                    "V17.4.1. †V17.4.1. ", 
+                    "Sacrifice to get snow and good conditions for skiing.", 
+                    " Icelandic: Flateyjarbók\r\nI 21f., Boberg."
+                ], 
+                [
+                    "V17.5. †V17.5. ", 
+                    "Sacrifice to get knowledge.", 
+                    null
+                ], 
+                [
+                    "V17.5.1. †V17.5.1. ", 
+                    "Sacrifice to find out where abducted daughter is.", 
+                    " Icelandic: Flateyjarbók\r\nI 219, Boberg."
+                ], 
+                [
+                    "V17.6. †V17.6. ", 
+                    "Sacrifice in order that king may live 300 years.", 
+                    " (Cf. †F571.7.)\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "V17.7. †V17.7. ", 
+                    "Sacrifice to deity for return of abducted persons.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V17.8. †V17.8. ", 
+                    "Sacrifice at edification of temple.", 
+                    " (Cf. †V12.4.0.1.)\r\nJewish: Neuman."
+                ], 
+                [
+                    "V17.9. †V17.9. ", 
+                    "Sacrifice by women at childbirth.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "16": {
+            "content": [
+                "V16. †V16. ", 
+                "Sacrifice at religious festivals.", 
+                " Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "V16.1. †V16.1. ", 
+                    "Sacrifices at Passover.", 
+                    "\r\nJewish: Moreno Esdras, *Neuman."
+                ]
+            ]
+        }, 
+        "19": {
+            "content": [
+                "V19. †V19. ", 
+                "Religious sacrifices--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V19.1. †V19.1. ", 
+                    "Rising smoke as sign of acceptance of sacrifice.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "32": {
+            "content": [
+                "V32. †V32. ", 
+                "Host miraculously given when it is refused a man by the\r\npriest.", 
+                " Pauli (ed. Bolte) No. 129;\r\nAlphabet Nos. 160, 420; Spanish Exempla: Keller; Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "57": {
+            "content": [
+                "V57. †V57. ", 
+                "Purpose of prayer.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V57.1. †V57.1. ", 
+                    "Prayer for good harvest.", 
+                    "\r\nIndia: Thompson-Balys; Maori: Clark 32."
+                ], 
+                [
+                    "V57.2. †V57.2. ", 
+                    "Prayer for shower of gold.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V57.3. †V57.3. ", 
+                    "Prayer on special occasions.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "49": {
+            "content": [
+                "V49. †V49. ", 
+                "Mass--miscellaneous motifs.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V49.1. †V49.1. ", 
+                    "Werwolves hold mass.", 
+                    " (Cf. †D113.1.1, †E492, †G243.) Köhler-Bolte\r\nI 134; Gascon: Bladé Contes pop. de Gascogne II 360 No. 4."
+                ], 
+                [
+                    "V49.2. †V49.2. ", 
+                    "Angel holds mass in church on the day that the king absents\r\nhimself for sake of hunting trip.", 
+                    " Spanish\r\nExempla: Keller."
+                ]
+            ]
+        }, 
+        "51": {
+            "content": [
+                "V51. †V51. ", 
+                "Learning to pray.", 
+                "\r\nJewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "V51.1. †V51.1. ", 
+                    "Man who does not know how to pray so holy that he walks on\r\nwater.", 
+                    " *Pauli (ed. Bolte) No. 332;\r\n**Andrejev “Tri Starca” Novoje Delo (Kazan, 1922) (see Anderson Zs. f. Vksk.\r\nXXX-XXXII 171); Lithuanian: Balys Index No. 827*; Russian: Andrejev No. 827*."
+                ], 
+                [
+                    "V51.2. †V51.2. ", 
+                    "Worldly-minded learn to pray by thinking of their usual\r\nbusiness.", 
+                    " Pauli (ed. Bolte) Nos. 334, 338;\r\nScala Celi 37b No. 209."
+                ], 
+                [
+                    "V51.3. †V51.3. ", 
+                    "Woman shows that the Lord’s Prayer is the best.", 
+                    " Pauli (ed. Bolte) No. 333."
+                ], 
+                [
+                    "V51.4. †V51.4. ", 
+                    "Woman taught that it is better to pray before Christ‘s\r\nimage than before a saint’s.", 
+                    " Wesselski\r\nArlotto I 201 No. 26."
+                ], 
+                [
+                    "V51.5. †V51.5. ", 
+                    "“Beatus” best prayer for saving condemned souls.", 
+                    " (Cf. †E754.1.1.) Irish\r\nmyth: *Cross."
+                ]
+            ]
+        }, 
+        "50": {
+            "content": [
+                "V50. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "35": {
+            "content": [
+                "V35. †V35. ", 
+                "The stolen sacrament.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V35.1. †V35.1. ", 
+                    "Jews bribe woman to steal host for them: miraculous\r\nmanifestations.", 
+                    " Scala Celi 64a No. 350."
+                ], 
+                [
+                    "V35.1.1. †V35.1.1. ", 
+                    "Horse kneels before stolen sacrament.", 
+                    " Pauli (ed. Bolte) No. 556; Mensa Philosophica No. 59;\r\nScala Celi 64a Nos. 349f."
+                ], 
+                [
+                    "V35.1.2. †V35.1.2. ", 
+                    "Sacred image miraculously appears on stolen sacrament.", 
+                    " (Cf. †V39.5.) Pauli (ed.\r\nBolte) No. 557."
+                ], 
+                [
+                    "V35.2. †V35.2. ", 
+                    "Stolen sacred hosts put into coffin.", 
+                    " Before death, a woman\r\nasks to put a bag into coffin. It is filled with hosts. (Cf. †C55, †D1031.1.1.)\r\nLithuanian: Balys Legends Nos. 628ff."
+                ]
+            ]
+        }, 
+        "34": {
+            "content": [
+                "V34. †V34. ", 
+                "Miraculous working of the host.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V34.1. †V34.1. ", 
+                    "Host cures disease.", 
+                    "\r\nAlphabet No. 164."
+                ], 
+                [
+                    "V34.2. †V34.2. ", 
+                    "Princess sick because toad has swallowed her consecrated\r\nwafer.", 
+                    " *Type 613; **Christiansen FFC XXIV\r\n83f.; *BP I 322ff."
+                ], 
+                [
+                    "V34.3. †V34.3. ", 
+                    "Man who has received sacrament overcomes enemy, a\r\nblasphemer.", 
+                    " Alphabet No. 163; Pauli (ed.\r\nBolte) No. 535."
+                ], 
+                [
+                    "V34.4. †V34.4. ", 
+                    "Clothes of knight who kneels in mud before host as it\r\npasses miraculously kept clean.", 
+                    " Alphabet\r\nNo. 492; Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "55": {
+            "content": [
+                "V55. †V55. ", 
+                "Man worships devil‘s image in order to secure advancement.", 
+                " Scala Celi 8b No. 56; Alphabet No. 50."
+            ], 
+            "child": []
+        }, 
+        "88": {
+            "content": [
+                "V88. †V88. ", 
+                "Ceremony of the proclamation of a Buddha.", 
+                " Chinese: Werner 271."
+            ], 
+            "child": []
+        }, 
+        "18": {
+            "content": [
+                "V18. †V18. ", 
+                "Ceremony of sacrifice.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "33": {
+            "content": [
+                "V33. †V33. ", 
+                "Incredulity as to sacredness of host punished.", 
+                " Pauli (ed. Bolte) No. 687; Alphabet No. 309."
+            ], 
+            "child": [
+                [
+                    "V33.1. †V33.1. ", 
+                    "Incredulity as to sacredness of host confounded by\r\nmiraculous appearance.", 
+                    " Scala Celi 42a,\r\n65b, 66a Nos. 239, 357--60, 364; Herbert III 539."
+                ], 
+                [
+                    "V33.1.1. †V33.1.1. ", 
+                    "Incredulity of true transformation of host banished by\r\nactual appearance of Jesus‘s body and blood.", 
+                    "\r\nSpanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "65": {
+            "content": [
+                "V65. †V65. ", 
+                "Commemoration of death.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "V65.1. †V65.1. ", 
+                    "Calves kept separate from cows in commemoration of hero‘s\r\ndeath.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V65.2. †V65.2. ", 
+                    "Drinking festival in memory of the dead.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V65.3. †V65.3. ", 
+                    "Wedding and funeral festival on same time.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "V65.4. †V65.4. ", 
+                    "Professional mourning.", 
+                    "\r\nVirgil Aeneid XI 37; Greek: Aeschylus Libation-Pourers 423; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "V65.4.1. †V65.4.1. ", 
+                    "Funeral song sung over dead.", 
+                    " *Hdwb. d. Abergl. VIII 1071ff.; *E. Reiner Die rituelle\r\nTotenklage der Griechen (Stuttgart, 1938); Irish myth: *Cross; Icelandic:\r\nBoberg."
+                ], 
+                [
+                    "V65.5. †V65.5. ", 
+                    "Funeral games.", 
+                    " Virgil\r\nAeneid V 66; Irish myth: *Cross."
+                ]
+            ]
+        }
+    }, 
+    "V_400_449_Religious virtues.": {
+        "400": {
+            "content": [
+                "V400. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "421": {
+            "content": [
+                "V421. †V421. ", 
+                "Shipman refuses alms: ship turned to stone.", 
+                " Alphabet No. 608."
+            ], 
+            "child": []
+        }, 
+        "420": {
+            "content": [
+                "V420. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "422": {
+            "content": [
+                "V422. †V422. ", 
+                "Uncharitable knight drives bargain even in giving alms:\r\ndevoured by serpents.", 
+                " His alms of corn\r\nturn to serpents. *Herbert III 334 No. 7, 340."
+            ], 
+            "child": []
+        }, 
+        "425": {
+            "content": [
+                "V425. †V425. ", 
+                "Uncharitable pope wanders after death.", 
+                " Alphabet No. 294."
+            ], 
+            "child": []
+        }, 
+        "412": {
+            "content": [
+                "V412. †V412. ", 
+                "Miraculous manifestations during act of charity.", 
+                " *Ward III 7; *Crane Vitry Nos. 92, 94, 95."
+            ], 
+            "child": [
+                [
+                    "V412.1. †V412.1. ", 
+                    "Bread stolen by St. Nicholas for purpose of feeding poor is\r\nmiraculously restored.", 
+                    " Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "V412.2. †V412.2. ", 
+                    "The more bread (flour) the monks give to the poor the more\r\nGod places in their bins.", 
+                    " (Cf. †D1652.1.1.) Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "441": {
+            "content": [
+                "V441. †V441. ", 
+                "Forgiveness.", 
+                " Irish\r\nmyth: Cross."
+            ], 
+            "child": [
+                [
+                    "V441.1. †V441.1. ", 
+                    "Saint heals enemy.", 
+                    "\r\nIrish myth: *Cross."
+                ]
+            ]
+        }, 
+        "440": {
+            "content": [
+                "V440. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "414": {
+            "content": [
+                "V414. †V414. ", 
+                "Saint shares punishment of sinful man whose cloak he shared\r\nin life.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "415": {
+            "content": [
+                "V415. †V415. ", 
+                "Children envious of money given by deceased father to\r\nbishop.", 
+                " In vision they take their father’s\r\nbody up and find a quittance saying that he has received more than a\r\nhundredfold reward. Alphabet No. 302; Spanish Exempla: Keller."
+            ], 
+            "child": []
+        }, 
+        "416": {
+            "content": [
+                "V416. †V416. ", 
+                "Act of charity obliterates sin.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V416.1. †V416.1. ", 
+                    "Man convicted of cheating at his bookkeeping is excused\r\nwhen it is learned that he has given the money to the poor.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "410": {
+            "content": [
+                "V410. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V410.1. †V410.1. ", 
+                    "Charity rewarded above prayer or hearing of masses.", 
+                    " Irish: O’Suilleabhain 131; Spanish: Boggs FFC XC 87 No.\r\n756E*."
+                ], 
+                [
+                    "V410.2. †V410.2. ", 
+                    "Prince‘s motto: charity conquers.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "411": {
+            "content": [
+                "V411. †V411. ", 
+                "Miraculous reward for charities.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "V411.1. †V411.1. ", 
+                    "Queen gives away a sleeve of her dress: miraculously\r\nrestored.", 
+                    " Pauli (ed. Bolte) No. 322."
+                ], 
+                [
+                    "V411.2. †V411.2. ", 
+                    "Saint exchanges coat with beggar: gold sleeves miraculously\r\nappear.", 
+                    " Herbert III 6; Crane Vitry 173 No.\r\n92."
+                ], 
+                [
+                    "V411.3. †V411.3. ", 
+                    "Man who has given all in charity has foot amputated:\r\nrestored miraculously.", 
+                    " Alphabet No. 81;\r\nSpanish Exempla: Keller."
+                ], 
+                [
+                    "V411.4. †V411.4. ", 
+                    "Stones turn to gold for charitable money-lender.", 
+                    " Hence money borrowed for wedding is never refused by\r\nlenders. India: Thompson-Balys."
+                ], 
+                [
+                    "V411.5. †V411.5. ", 
+                    "Treasure given away by saint miraculously restored.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V411.5.1. †V411.5.1. ", 
+                    "Man earns as much as he gave away for charity in his former\r\nlife.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "V411.6. †V411.6. ", 
+                    "Food given away by saint miraculously restored.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V411.7. †V411.7. ", 
+                    "Charitable king blows nose after having given to beggar.", 
+                    " Huge ruby appears in his kerchief. Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "V411.8. †V411.8. ", 
+                    "Jesus appears to St. Martin when he gives his cloak to\r\nbeggar.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "V411.9. †V411.9. ", 
+                    "Charity miraculously repaid: flame settles on forehead.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "438": {
+            "content": [
+                "V438. †V438. ", 
+                "Merit for charity lost by asking work in return.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "413": {
+            "content": [
+                "V413. †V413. ", 
+                "Son’s acts of charity save his father‘s soul.", 
+                " English: Wells 175 (The Child of Bristowe)."
+            ], 
+            "child": []
+        }, 
+        "436": {
+            "content": [
+                "V436. †V436. ", 
+                "Mendicant refuses to accept alms from barren woman.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "437": {
+            "content": [
+                "V437. †V437. ", 
+                "Saint repeatedly bestows father‘s goods upon the poor.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "434": {
+            "content": [
+                "V434. †V434. ", 
+                "Conqueror restores kingship to king for charity.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "435": {
+            "content": [
+                "V435. †V435. ", 
+                "Pious man charitable to man who has formerly refused him\r\ncharity.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "432": {
+            "content": [
+                "V432. †V432. ", 
+                "Man beggars self by charity.", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "433": {
+            "content": [
+                "V433. †V433. ", 
+                "Charity of saints.", 
+                "\r\nIrish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "430": {
+            "content": [
+                "V430. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "431": {
+            "content": [
+                "V431. †V431. ", 
+                "Charity of usurers ineffective.", 
+                " Alphabet Nos. 260, 754, 786, 789, 792; Irish: Beal XXI\r\n337; Spanish: Espinosa Jr. No. 213."
+            ], 
+            "child": []
+        }
+    }, 
+    "V_500_599_Religious motifs--miscellaneous.": {
+        "522": {
+            "content": [
+                "V522. †V522. ", 
+                "Sinner reformed after visit to heaven and hell.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "516": {
+            "content": [
+                "V516. †V516. ", 
+                "Vision of future.", 
+                "\r\nJewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "523": {
+            "content": [
+                "V523. †V523. ", 
+                "The only king ever saved in spite of himself.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "526": {
+            "content": [
+                "V526. †V526. ", 
+                "Worship of particular deity brings reward of birth in\r\nBrahma-world.", 
+                " Buddhist myth: Malalasekera\r\nI 13."
+            ], 
+            "child": []
+        }, 
+        "533": {
+            "content": [
+                "V533. †V533. ", 
+                "Pilgrimage to Benares.", 
+                "\r\nIndia: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "542": {
+            "content": [
+                "V542. †V542. ", 
+                "Man hears voice telling him to leave danger spot in mine.", 
+                " U.S.: *Baughman."
+            ], 
+            "child": []
+        }, 
+        "525": {
+            "content": [
+                "V525. †V525. ", 
+                "Sinner who thinks of God saved; devotee who thinks of\r\nworldly things goes to hell.", 
+                " India:\r\nThompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "540": {
+            "content": [
+                "V540. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "541": {
+            "content": [
+                "V541. †V541. ", 
+                "Man is prevented from taking passage on ship which later\r\nsinks.", 
+                " U.S.: Baughman."
+            ], 
+            "child": []
+        }, 
+        "520": {
+            "content": [
+                "V520. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "535": {
+            "content": [
+                "V535. †V535. ", 
+                "Pilgrimage to Jerusalem.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "531": {
+            "content": [
+                "V531. †V531. ", 
+                "Pilgrimage to Holy Land.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "V531.1. †V531.1. ", 
+                    "Pilgrimage to follow roads Christ walked.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "530": {
+            "content": [
+                "V530. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "511": {
+            "content": [
+                "V511. †V511. ", 
+                "Visions of the other world.", 
+                null
+            ], 
+            "child": [
+                [
+                    "V511.1. †V511.1. ", 
+                    "Visions of heaven.", 
+                    "\r\n**Becker Medieval Visions of Heaven and Hell (Baltimore, 1899); **Ward II\r\n396ff. passim; Alphabet No. 622, 743; Dickson 265; Scala Celi 66a, 138b Nos.\r\n362, 777. -- Irish: *Cross, O’Suilleabhain 57, Beal XXI 322; English: Malory\r\nMorte D‘Arthur XV 3; Finnish-Swedish: Wessman 105 No. 932; Spanish Exempla:\r\nKeller; Jewish: *Neuman."
+                ], 
+                [
+                    "V511.1.1. †V511.1.1. ", 
+                    "Saints have visions of heaven.", 
+                    " *Toldo IV 49."
+                ], 
+                [
+                    "V511.1.2. †V511.1.2. ", 
+                    "Vision of angels defending road to heaven against devils.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V511.2. †V511.2. ", 
+                    "Visions of hell.", 
+                    " *Becker (see †V511.1); Alphabet No. 610; Dickson 265; Herbert III\r\n25; **Ward II 386ff.; *Crane Vitry 260f. No. 289; Scala Celi 34b, 74a, 85b Nos.\r\n195, 422, 497. -- Irish myth: *Cross; Icelandic: *Boberg; Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "V511.2.1. †V511.2.1. ", 
+                    "Vision of fires of hell.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "V511.2.2. †V511.2.2. ", 
+                    "Vision of gate of hell.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "V511.2.3. †V511.2.3. ", 
+                    "Girl sees vision of her mother in hell.", 
+                    " She chooses to live the poor life of her father which leads\r\nto heaven. Spanish Exempla: Keller."
+                ], 
+                [
+                    "V511.3. †V511.3. ", 
+                    "Visions of purgatory.", 
+                    "\r\n*Dickson 265 n. 87; *Loomis White Magic 116; Irish myth: *Cross."
+                ], 
+                [
+                    "V511.4. †V511.4. ", 
+                    "Visions of Land of the Saints.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "510": {
+            "content": [
+                "V510. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "V510.1. †V510.1. ", 
+                    "God speaks in vision to devotee.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "V510.2. †V510.2. ", 
+                    "Only man without sin can see God.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "513": {
+            "content": [
+                "V513. †V513. ", 
+                "Saints have miraculous visions.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "V513.1. †V513.1. ", 
+                    "Saint incited (instructed) through vision.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V513.2. †V513.2. ", 
+                    "Vision of the earth in the devil‘s snares.", 
+                    " Saint sees earth in snares. Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "512": {
+            "content": [
+                "V512. †V512. ", 
+                "Vision of judgment.", 
+                "\r\nMan sees his own soul being judged."
+            ], 
+            "child": [
+                [
+                    "V512.1. †V512.1. ", 
+                    "His faith into the balance.", 
+                    " A clerk sees his good and evil deeds being weighed. He\r\nasks them to throw his faith in Christ (the Virgin) into the scale. He is\r\nsaved. Ward II 651 No. 5; *Herbert III 471."
+                ], 
+                [
+                    "V512.2. †V512.2. ", 
+                    "Man whose only good deed was unintentional sees this deed\r\noutweigh all his evil in the scales of judgment.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "515": {
+            "content": [
+                "V515. †V515. ", 
+                "Allegorical visions.", 
+                "\r\nIrish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "V515.1. †V515.1. ", 
+                    "Allegorical visions--religious.", 
+                    null
+                ], 
+                [
+                    "V515.1.1. †V515.1.1. ", 
+                    "Vision of chairs (thrones) in heaven.", 
+                    " Chairs of gold, silver,\r\ncrystal (glass) assigned to saints according to merit. (Cf. †A661.0.3.) Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "V515.1.2. †V515.1.2. ", 
+                    "Wife sees moon enter mouth of husband; husband sees star\r\nenter mouth of wife: famous child (saint) will be born.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V515.1.3. †V515.1.3. ", 
+                    "Saint sees vision of flames covering Ireland quenched\r\nexcept for sparks; then great light appears, dispelling darkness.", 
+                    " Flames are those of the faith brought by St. Patrick; they\r\nbecome less until restored by St. Columkill. Irish myth: Cross."
+                ], 
+                [
+                    "V515.1.3.1. †V515.1.3.1. ", 
+                    "When shower falls, small stone becomes larger, large stone\r\nwastes away.", 
+                    " Vision of present and future\r\nstate of Irish church. Irish myth: Cross."
+                ], 
+                [
+                    "V515.1.3.2. †V515.1.3.2. ", 
+                    "Vision in which swineherd sees yew tree upon a rock, with\r\nan oratory in front of it and angels ascending from it.", 
+                    " Vision interpreted by druid as symbolizing founding of\r\nCashel and the royal line of Munster. Irish myth: *Cross."
+                ], 
+                [
+                    "V515.1.4. †V515.1.4. ", 
+                    "Constantine’s vision of the Cross.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "V515.1.5. †V515.1.5. ", 
+                    "Vision of dry bones.", 
+                    "\r\nJewish: Neuman."
+                ], 
+                [
+                    "V515.2. †V515.2. ", 
+                    "Allegorical visions--political.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "V515.2.1. †V515.2.1. ", 
+                    "Vision in which chieftain sees pair of gray seals that\r\nsucked at his two breasts.", 
+                    " They are two of\r\nhis allies who are being overpowered by invaders. Irish myth: Cross."
+                ], 
+                [
+                    "V515.2.1.1. †V515.2.1.1. ", 
+                    "Vision in which king sees whelp reared by him gather dogs\r\nof Ireland and Britain against him but suffer death in battle at last.", 
+                    " The whelp is one of king‘s two foster sons. Irish myth:\r\nCross."
+                ], 
+                [
+                    "V515.2.2. †V515.2.2. ", 
+                    "Vision in which saint foresees allegorically the\r\nramifications of king’s family Irish myth: Cross.", 
+                    null
+                ], 
+                [
+                    "V515.2.3. †V515.2.3. ", 
+                    "Vision in which king sees his four sons changed into lion,\r\ngreyhound, beagle, cur, which fight with alternating success, until lion\r\nsubdues the other three.", 
+                    " Irish myth:\r\n*Cross."
+                ]
+            ]
+        }, 
+        "514": {
+            "content": [
+                "V514. †V514. ", 
+                "Non-religious visions.", 
+                "\r\nIrish myth: *Cross; Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "532": {
+            "content": [
+                "V532. †V532. ", 
+                "Pilgrimage to Mecca.", 
+                "\r\nIndia: Thompson-Balys."
             ], 
             "child": []
         }

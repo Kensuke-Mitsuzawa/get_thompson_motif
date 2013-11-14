@@ -1,4 +1,610 @@
 {
+    "P_500_599_None": {
+        "555": {
+            "content": [
+                "P555. †P555. ", 
+                "Defeat in battle.", 
+                "\r\nIrish myth: Cross; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "P555.1. †P555.1. ", 
+                    "Submission indicated by defeated lying with conqueror‘s\r\nsword between teeth.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P555.2. †P555.2. ", 
+                    "Corpses of dead foes dismembered.", 
+                    " Tupper and Ogle Walter Map 93."
+                ], 
+                [
+                    "P555.2.1. †P555.2.1. ", 
+                    "Heads of fallen enemies piled up after battle.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P555.2.1.1. †P555.2.1.1. ", 
+                    "“Publication of slaying.”", 
+                    " Heads of slain enemies displayed. Irish myth: Cross; *Icelandic:\r\nBoberg."
+                ], 
+                [
+                    "P555.2.1.2. †P555.2.1.2. ", 
+                    "Jawbone cut from slain opponent.", 
+                    " Hawaii: Beckwith Myth 422."
+                ], 
+                [
+                    "P555.3. †P555.3. ", 
+                    "Gate of captured town (castle) to be widened until\r\noverlord’s spear can pass through crosswise.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "554": {
+            "content": [
+                "P554. †P554. ", 
+                "Battle-cairn.", 
+                " Losses\r\nreckoned by number of stones remaining in pile after each survivor has removed\r\none. Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "557": {
+            "content": [
+                "P557. †P557. ", 
+                "Military customs.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P557.1. †P557.1. ", 
+                    "Warrior not entitled to ransom if captured without arms.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.2. †P557.2. ", 
+                    "Pledge with enemy to be kept.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.3. †P557.3. ", 
+                    "Stones erected where enemy falls.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.4. †P557.4. ", 
+                    "Customs concerning single combat.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.4.1. †P557.4.1. ", 
+                    "First to reach field of combat has choice of weapons.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.4.2. †P557.4.2. ", 
+                    "Warrior who begins combat has right to desist.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.4.3. †P557.4.3. ", 
+                    "Choice of weapons alternates each succeeding day.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.4.4. †P557.4.4. ", 
+                    "“Men‘s truth” (fir fer).", 
+                    "\r\nChallenger to single combat must submit to same conditions as person\r\nchallenged. Irish myth: Cross."
+                ], 
+                [
+                    "P557.4.4.1. †P557.4.4.1. ", 
+                    "Warrior engaged in combat with one-armed opponent allows\r\none hand to be bound to his side.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P557.5. †P557.5. ", 
+                    "Warrior disgraced by slaying of those under his protection.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.6. †P557.6. ", 
+                    "Warrior dies with face toward foe.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P557.7. †P557.7. ", 
+                    "Divorce given to wives before leaving for battle.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "556": {
+            "content": [
+                "P556. †P556. ", 
+                "Challenge to battle.", 
+                "\r\nIrish myth: Cross; Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "P556.1. †P556.1. ", 
+                    "Challenge by turning left side of shield toward enemy.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P556.2. †P556.2. ", 
+                    "Challenge to battle by hurling javelin skyward.", 
+                    " Virgil Aeneid IX 53."
+                ]
+            ]
+        }, 
+        "551": {
+            "content": [
+                "P551. †P551. ", 
+                "Army.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P551.0.1. †P551.0.1. ", 
+                    "Band of professional warriors.", 
+                    " Irish myth: Cross; Icelandic: *Boberg."
+                ], 
+                [
+                    "P551.1. †P551.1. ", 
+                    "Army of young men.", 
+                    " Old\r\nmen excluded. *Chauvin VII 84 No. 373bis."
+                ], 
+                [
+                    "P551.2. †P551.2. ", 
+                    "Soldiers chained (tied) together to prevent flight from\r\nbattle.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P551.3. †P551.3. ", 
+                    "Clerics exempted from military service.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P551.4. †P551.4. ", 
+                    "Hero drives retreating warriors back into battle.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P551.5. †P551.5. ", 
+                    "Boy corps.", 
+                    " Irish myth:\r\nCross."
+                ], 
+                [
+                    "P551.6. †P551.6. ", 
+                    "Law requiring military service of women revoked through\r\ninfluence of saint.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P551.7. †P551.7. ", 
+                    "Conflicts with the recruiting officers.", 
+                    " Lithuanian: Balys Index No. 3743."
+                ], 
+                [
+                    "P551.8. †P551.8. ", 
+                    "Retainers not required to go to battle under overlord\r\nexcept for pay.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P551.8.1. †P551.8.1. ", 
+                    "Only 700 subjects of under-king required to serve under\r\noverlord on any one hosting.", 
+                    " Irish myth:\r\nCross."
+                ], 
+                [
+                    "P551.9. †P551.9. ", 
+                    "“Battle seeds” (semen bellicosum).", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "550": {
+            "content": [
+                "P550. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "553": {
+            "content": [
+                "P553. †P553. ", 
+                "Weapons.", 
+                " Irish myth:\r\nCross; Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "P553.1. †P553.1. ", 
+                    "Poisoned weapons.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "552": {
+            "content": [
+                "P552. †P552. ", 
+                "Battle formations.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P552.1. †P552.1. ", 
+                    "Battle-pen.", 
+                    " Warriors\r\nfight in circle around leader. Irish myth: Cross."
+                ], 
+                [
+                    "P552.2. †P552.2. ", 
+                    "Superior troops distributed throughout army to prevent\r\ntheir soldierly qualities from being too obvious.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P552.3. †P552.3. ", 
+                    "Phalanx.", 
+                    " Irish myth:\r\nCross."
+                ], 
+                [
+                    "P552.3.1. †P552.3.1. ", 
+                    "Roof of shields.", 
+                    "\r\nTestudo. Irish myth: Cross."
+                ], 
+                [
+                    "P552.4. †P552.4. ", 
+                    "War-machines.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P552.5. †P552.5. ", 
+                    "Haircut as preparation for war.", 
+                    " Maori: Beckwith Myth 250."
+                ]
+            ]
+        }, 
+        "536": {
+            "content": [
+                "P536. †P536. ", 
+                "Punishment for failure to pay tax.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P536.1. †P536.1. ", 
+                    "Nose cut off for failure to pay tax.", 
+                    " (Cf. †Q451.5.) Irish\r\nmyth: Cross."
+                ]
+            ]
+        }, 
+        "524": {
+            "content": [
+                "P524. †P524. ", 
+                "Legal security.", 
+                " Irish\r\nmyth: Cross."
+            ], 
+            "child": [
+                [
+                    "P524.1. †P524.1. ", 
+                    "Poet may not act as security.", 
+                    " (Cf. †P427.) Irish myth:\r\nCross."
+                ], 
+                [
+                    "P524.2. †P524.2. ", 
+                    "Foreigner may not act as security.", 
+                    " (Cf. †P191.) Irish myth:\r\nCross."
+                ]
+            ]
+        }, 
+        "525": {
+            "content": [
+                "P525. †P525. ", 
+                "Contracts.", 
+                " Irish myth:\r\nCross."
+            ], 
+            "child": [
+                [
+                    "P525.0.1. †P525.0.1. ", 
+                    "“It is a debt if it is promised.”", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P525.1. †P525.1. ", 
+                    "Contract made by madman void.", 
+                    " (Cf. †P192.) Irish myth:\r\nCross."
+                ], 
+                [
+                    "P525.2. †P525.2. ", 
+                    "Contract made by woman without her husband void.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P525.3. †P525.3. ", 
+                    "He nearest to blood of slain man must avenge his death.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "526": {
+            "content": [
+                "P526. †P526. ", 
+                "Legal principles.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P526.1. †P526.1. ", 
+                    "“To every cow belongs its calf,”", 
+                    " a legal principle applied to question of ownership of copy\r\nof manuscript. Irish myth: Cross."
+                ], 
+                [
+                    "P526.2. †P526.2. ", 
+                    "“To every son belongs his mother”", 
+                    ": in case of suspected illegitimacy, child is not guilty.\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "541": {
+            "content": [
+                "P541. †P541. ", 
+                "Law-making.", 
+                " Irish\r\nmyth: Cross."
+            ], 
+            "child": [
+                [
+                    "P541.1. †P541.1. ", 
+                    "Heptads.", 
+                    " Laws made in groups of seven. (Cf. †Z71.5.) Irish myth: Cross."
+                ], 
+                [
+                    "P541.2. †P541.2. ", 
+                    "Laws made at yearly feast.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P541.2.1. †P541.2.1. ", 
+                    "Laws made at feast every seven years.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "521": {
+            "content": [
+                "P521. †P521. ", 
+                "Complacent judge disregards the confession.", 
+                " He has put the criminal to torture without success. When\r\nhe releases him, the criminal says, “In a moment I should have confessed all.”\r\nThe judge lets him go nevertheless. Wesselski Hodscha Nasreddin I 266 No. 247."
+            ], 
+            "child": []
+        }, 
+        "522": {
+            "content": [
+                "P522. †P522. ", 
+                "Laws.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P522.1. †P522.1. ", 
+                    "Lex talionis.", 
+                    " One life for one life. Equal number must be given up by each\r\nfeuding side. (Cf. †P535.) Irish myth: Cross (†P548.2); India: Thompson-Balys;\r\nNew Guinea: Ker 61."
+                ], 
+                [
+                    "P522.1.1. †P522.1.1. ", 
+                    "A nose for a nose.", 
+                    "\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "523": {
+            "content": [
+                "P523. †P523. ", 
+                "Bringing suit in law courts.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P523.1. †P523.1. ", 
+                    "Foreigner may not bring suit.", 
+                    " (Cf. †P191.) Irish myth:\r\nCross."
+                ], 
+                [
+                    "P523.2. †P523.2. ", 
+                    "Madman may not bring suit.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P523.2.1. †P523.2.1. ", 
+                    "Fool not to be punished for his crime.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P523.3. †P523.3. ", 
+                    "Slave may not bring suit.", 
+                    " (Cf. †P170.) Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "548": {
+            "content": [
+                "P548. †P548. ", 
+                "Miscellaneous legal customs.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "500": {
+            "content": [
+                "P500. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "561": {
+            "content": [
+                "P561. †P561. ", 
+                "Tournaments.", 
+                " **R. C.\r\nClephan The Tournament (London, 1919); *O. Mueller Turnier und Kampf in den\r\naltfrz. Artusromanen (Erfurt, 1907); Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "P561.1. †P561.1. ", 
+                    "King is persuaded to rescind ban on tournaments.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "P561.2. †P561.2. ", 
+                    "Tournament: to avenge death of king.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "537": {
+            "content": [
+                "P537. †P537. ", 
+                "Payment of stipend.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "518": {
+            "content": [
+                "P518. †P518. ", 
+                "Cities of refuge.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "535": {
+            "content": [
+                "P535. †P535. ", 
+                "Eric fines (imposed for personal injury, etc.).", 
+                " (Cf. †P522.1.) Irish\r\nmyth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "533": {
+            "content": [
+                "P533. †P533. ", 
+                "Feudal tribute.", 
+                "\r\nSpecified interchange of aid and gifts. Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P533.1. †P533.1. ", 
+                    "Hostages.", 
+                    " Irish myth:\r\nCross."
+                ], 
+                [
+                    "P533.1.1. †P533.1.1. ", 
+                    "Boys as hostages.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "532": {
+            "content": [
+                "P532. †P532. ", 
+                "Payment of tax (tribute).", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "531": {
+            "content": [
+                "P531. †P531. ", 
+                "Taxation and payment of fines or tribute.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "P531.1. †P531.1. ", 
+                    "Tribe failing to attend yearly feast to send gift as sign\r\nof submission.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P531.1.1. †P531.1.1. ", 
+                    "Tribute required of conquered foreigners.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "P531.2. †P531.2. ", 
+                    "Tax on treasure trove.", 
+                    " (Cf. †N500.) Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "511": {
+            "content": [
+                "P511. †P511. ", 
+                "Criminal allowed to choose his method of execution.", 
+                " *Wesselski Märchen 199."
+            ], 
+            "child": [
+                [
+                    "P511.1. †P511.1. ", 
+                    "Chooses to die of old age.", 
+                    " Criminal given choice of\r\ndeaths. (Cf. †J1181.) Hdwb. d. Märchens s.v. “Friedrich\r\nder Grosse” n. 58."
+                ], 
+                [
+                    "P511.2. †P511.2. ", 
+                    "Man condemned to lose his eye is allowed to choose the\r\ninstrument.", 
+                    " Herbert III 71; Hervieux IV 310\r\nNo. 117; Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "510": {
+            "content": [
+                "P510. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "513": {
+            "content": [
+                "P513. †P513. ", 
+                "Criminal may fight against odds rather than be judicially\r\nexecuted.", 
+                " Child IV 497a."
+            ], 
+            "child": []
+        }, 
+        "512": {
+            "content": [
+                "P512. †P512. ", 
+                "Condemned woman may be freed by marrying a rogue.", 
+                " *Fb “gifte” I 432; Zs. f. Vksk. XXIII 108, XXV 286, XXVII 236; Sehreuer Zs.\r\nf. vgl. Rechtswiss. XXXIV 201; Blätter f. pommersche Volkskunde VII 63."
+            ], 
+            "child": [
+                [
+                    "P512.1. †P512.1. ", 
+                    "Release from execution at a woman’s request (by marriage to\r\nher).", 
+                    " *Taylor JAFL LX 185."
+                ]
+            ]
+        }, 
+        "515": {
+            "content": [
+                "P515. †P515. ", 
+                "Pardoning of criminal comes too late.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "517": {
+            "content": [
+                "P517. †P517. ", 
+                "Crime less serious if committed at request of a lady.", 
+                " English romance: Malory VII 18."
+            ], 
+            "child": []
+        }, 
+        "516": {
+            "content": [
+                "P516. †P516. ", 
+                "Youngest of judges first to give decision.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": []
+        }
+    }, 
     "P_300_399_Other social relationships.": {
         "319": {
             "content": [
@@ -628,6 +1234,3951 @@
                     "P361.9. †P361.9. ", 
                     "Crow lets itself be caught so as to save king of crows.", 
                     " India: Thompson-Balys."
+                ]
+            ]
+        }
+    }, 
+    "P_0_99_Royalty and nobility.": {
+        "51": {
+            "content": [
+                "P51. †P51. ", 
+                "Noble person saves self from difficulties by knowledge of a\r\ntrade.", 
+                "\r\n(Cf. †P31.) Chauvin VIII 111 No. 90."
+            ], 
+            "child": []
+        }, 
+        "50": {
+            "content": [
+                "P50. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "P50.0.1. †P50.0.1. ", 
+                    "King and vassals: obligations of vassals to king.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P50.0.1.1. †P50.0.1.1. ", 
+                    "King demands open gate to vassals‘ castle (city).", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P50.1. †P50.1. ", 
+                    "Earl.", 
+                    " Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "P50.1.1. †P50.1.1. ", 
+                    "Earl’s name preferred to king‘s.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P50.2. †P50.2. ", 
+                    "Marshall.", 
+                    null
+                ]
+            ]
+        }, 
+        "60": {
+            "content": [
+                "P60. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "61": {
+            "content": [
+                "P61. †P61. ", 
+                "Noble woman given to foreigners on condition that\r\nthereafter their land be held by female right.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "52": {
+            "content": [
+                "P52. †P52. ", 
+                "Knight jousts with all comers.", 
+                " (Cf. †P561.) English\r\nromance: Malory passim."
+            ], 
+            "child": [
+                [
+                    "P52.1. †P52.1. ", 
+                    "Knight’s duty to perform as lady bids.", 
+                    " English romance: Malory VI 5."
+                ]
+            ]
+        }, 
+        "24": {
+            "content": [
+                "P24. †P24. ", 
+                "Queen must pay tribute to victorious queen to the amount\r\npaid by king to victorious king.", 
+                " Irish\r\nmyth: Cross."
+            ], 
+            "child": []
+        }, 
+        "25": {
+            "content": [
+                "P25. †P25. ", 
+                "Queen meddles in state affairs.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "26": {
+            "content": [
+                "P26. †P26. ", 
+                "Captured queen commits suicide.", 
+                " (Cf. †P16.3.0.1.) Irish\r\nmyth: Cross; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "P26.1. †P26.1. ", 
+                    "Queen commits suicide, as her husband vanquishes and kills\r\nher father and her brother.", 
+                    " Icelandic:\r\nBoberg."
+                ]
+            ]
+        }, 
+        "27": {
+            "content": [
+                "P27. †P27. ", 
+                "Grief at queen‘s death.", 
+                "\r\nIcelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "P27.1. †P27.1. ", 
+                    "King sits mourning on his wife’s grave mound.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P27.2. †P27.2. ", 
+                    "King mourns so much at wife‘s death that he goes on piracy,\r\n(every summer afterward).", 
+                    " Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "P27.3. †P27.3. ", 
+                    "King calls daughter in second marriage by the name of his\r\nfirst queen.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "20": {
+            "content": [
+                "P20. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "P20.1. †P20.1. ", 
+                    "Clever queen.", 
+                    " Icelandic:\r\n*Boberg."
+                ]
+            ]
+        }, 
+        "21": {
+            "content": [
+                "P21. †P21. ", 
+                "Queen intervenes for condemned courtiers.", 
+                " *Chauvin II 104 No. 65."
+            ], 
+            "child": [
+                [
+                    "P21.1. †P21.1. ", 
+                    "Queen as intercessor with king.", 
+                    " Greek: Odyssey VI 313; Jewish: Neuman; India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "22": {
+            "content": [
+                "P22. †P22. ", 
+                "Queen marries\r\nmurderer of her fiancée.", 
+                " Italian Novella:\r\nRotunda."
+            ], 
+            "child": [
+                [
+                    "P22.1. †P22.1. ", 
+                    "Queen leaves country with her son, having killed her\r\nhusband in revenge for his killing of her father and brother.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "23": {
+            "content": [
+                "P23. †P23. ", 
+                "Queen persuades king to make war without cause that her\r\nsons may have territory.", 
+                " Irish myth:\r\nCross."
+            ], 
+            "child": [
+                [
+                    "P23.1. †P23.1. ", 
+                    "Queen persuades husband to riot against his superior.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P23.2. †P23.2. ", 
+                    "Queen persuades husband to claim her father’s kingdom after\r\nhis death.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P23.3. †P23.3. ", 
+                    "Queen persuades husband to avenge her father.", 
+                    " Icelandic: Boberg"
+                ], 
+                [
+                    "P23.4. †P23.4. ", 
+                    "Queen offers son to be killed in order to spur to fight and\r\navenge her first husband.", 
+                    " (Cf. †S12.3.) Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "28": {
+            "content": [
+                "P28. †P28. ", 
+                "Marriage of queen.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P28.1. †P28.1. ", 
+                    "Chieftainess of such rank that none of her countrymen can\r\nwoo her.", 
+                    " Maori: Clark 2."
+                ]
+            ]
+        }, 
+        "29": {
+            "content": [
+                "P29. †P29. ", 
+                "Queens--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P29.1. †P29.1. ", 
+                    "No king to rule who is not husband of certain queen.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P29.2. †P29.2. ", 
+                    "Queen commits adultery with husband’s foster son.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P29.3. †P29.3. ", 
+                    "Queen (princess) pours liquor for battle champions.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "40": {
+            "content": [
+                "P40. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "41": {
+            "content": [
+                "P41. †P41. ", 
+                "Princess cannot be married to someone of low caste, though\r\nhe passes suitor test.", 
+                " India:\r\nThompson-Balys."
+            ], 
+            "child": [
+                [
+                    "P41.1. †P41.1. ", 
+                    "Great warrior destroyed by king when he asks for princess\r\nin marriage.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "0": {
+            "content": [
+                "P0. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "3": {
+            "content": [
+                "P3. †P3. ", 
+                "Issue of marriage of brother and sister of highest chiefly\r\nrank is a god.", 
+                " Hawaii: Beckwith Myth 521."
+            ], 
+            "child": []
+        }, 
+        "38": {
+            "content": [
+                "P38. †P38. ", 
+                "Prince forfeits father’s and God‘s blessing if he fails to\r\nclaim throne.", 
+                " English romance: Malory I 4."
+            ], 
+            "child": []
+        }, 
+        "90": {
+            "content": [
+                "P90. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "93": {
+            "content": [
+                "P93. †P93. ", 
+                "Certain foods, ornaments, feathers, etc. reserved for\r\nroyalty.", 
+                " Hawaii: Beckwith Myth 376."
+            ], 
+            "child": []
+        }, 
+        "92": {
+            "content": [
+                "P92. †P92. ", 
+                "Bathing pool reserved for royalty.", 
+                " Tahiti: Henry Ancient Tahiti (Honolulu, 1928) 608."
+            ], 
+            "child": []
+        }, 
+        "95": {
+            "content": [
+                "P95. †P95. ", 
+                "Impossible to refuse the request of a troubled nobleman.", 
+                " Greek: Odyssey IV 653."
+            ], 
+            "child": []
+        }, 
+        "94": {
+            "content": [
+                "P94. †P94. ", 
+                "Garment must be removed in presence of certain high chiefs.", 
+                " Hawaii: Beckwith Myth 376."
+            ], 
+            "child": []
+        }, 
+        "11": {
+            "content": [
+                "P11. †P11. ", 
+                "Choice of kings.", 
+                "\r\nIndia: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "P11.0.1. †P11.0.1. ", 
+                    "Prophecy that brother who first kisses saint will be king.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P11.0.2. †P11.0.2. ", 
+                    "Choice of king of trees.", 
+                    null
+                ], 
+                [
+                    "P11.0.2.1. †P11.0.2.1. ", 
+                    "Bramble chosen king of trees.", 
+                    " Herbert III 34; Hebrew: Judges 9: 8--15."
+                ], 
+                [
+                    "P11.1. †P11.1. ", 
+                    "Choice of kings by divine will.", 
+                    " *Egerton JAOS XXXIII 158; Krappe Revue Hispanique LVI\r\n(1922) 5--24; *Penzer V 175ff.; *Chauvin VI 75 No. 239; India: Thompson-Balys."
+                ], 
+                [
+                    "P11.1.1. †P11.1.1. ", 
+                    "Kings chosen by lot.", 
+                    "\r\n*Chauvin VI 75 No. 239; Africa (Swahili): Steere 141."
+                ], 
+                [
+                    "P11.2. †P11.2. ", 
+                    "Winner of contest to be king.", 
+                    " *Pauli (ed. Bolte) No. 269; Jewish: *Neuman; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "P11.2.1. †P11.2.1. ", 
+                    "King chosen by contest: princes finding greatest fault with\r\ntheir father.", 
+                    " Youngest can find no fault\r\nand is chosen. Type 924**."
+                ], 
+                [
+                    "P11.2.2. †P11.2.2. ", 
+                    "King chosen by contest.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P11.2.2.1. †P11.2.2.1. ", 
+                    "The one of two giant brothers who performs the greatest\r\nfeat and procures the wildest dog elected as king.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P11.2.3. †P11.2.3. ", 
+                    "The one of two giant brothers who gets the most skillful\r\nprincess elected as king.", 
+                    " Icelandic:\r\nBoberg."
+                ], 
+                [
+                    "P11.3. †P11.3. ", 
+                    "Owner of magic object chosen as king.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P11.4. †P11.4. ", 
+                    "King chosen on basis of strength and exploits.", 
+                    " Irish myth: Cross; Spanish Exempla: Keller."
+                ], 
+                [
+                    "P11.4.1. †P11.4.1. ", 
+                    "He who can open palace door to be king.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P11.4.2. †P11.4.2. ", 
+                    "Amasser of largest fortune to be king.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P11.5. †P11.5. ", 
+                    "He who can fill out a certain wide seat chosen as king.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P11.6. †P11.6. ", 
+                    "Inauguration of king as espousal to goddess.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "10": {
+            "content": [
+                "P10. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "P10.1. †P10.1. ", 
+                    "Special place where occur births of royalty.", 
+                    " Hawaii: Beckwith Myth 376."
+                ]
+            ]
+        }, 
+        "13": {
+            "content": [
+                "P13. †P13. ", 
+                "Customs connected with kings.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "P13.0.1. †P13.0.1. ", 
+                    "Privileges of under-king.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P13.0.2. †P13.0.2. ", 
+                    "Duties of under-king‘s retainers.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P13.1. †P13.1. ", 
+                    "King cannot judge without crown.", 
+                    " Fb “konge” II 264b."
+                ], 
+                [
+                    "P13.2. †P13.2. ", 
+                    "Mismanagement of king’s treasury a mortal offense.", 
+                    " Fb “penge” II 803a."
+                ], 
+                [
+                    "P13.3. †P13.3. ", 
+                    "Royal purple (golden diadem) worn as sign of royalty.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P13.3.1. †P13.3.1. ", 
+                    "Kingly insignia worn only on field of battle.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P13.3.2. †P13.3.2. ", 
+                    "Ring can make or unmake a king.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P13.4. †P13.4. ", 
+                    "King must marry.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P13.5. †P13.5. ", 
+                    "Crowning of kings.", 
+                    "\r\nIcelandic: *Boberg; Buddhist myth: Malalasekera I 986."
+                ], 
+                [
+                    "P13.5.1. †P13.5.1. ", 
+                    "Anointing of kings.", 
+                    "\r\nJewish: *Neuman."
+                ], 
+                [
+                    "P13.6. †P13.6. ", 
+                    "Custom to appoint a king by day and slay him at night.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P13.7. †P13.7. ", 
+                    "Royal anniversaries.", 
+                    "\r\nJewish: *Neuman."
+                ], 
+                [
+                    "P13.8. †P13.8. ", 
+                    "King must never be present at funeral.", 
+                    " Jewish: *Neuman."
+                ], 
+                [
+                    "P13.9. †P13.9. ", 
+                    "Royal perquisites.", 
+                    null
+                ], 
+                [
+                    "P13.9.1. †P13.9.1. ", 
+                    "King has first choice in booty.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "P13.9.2. †P13.9.2. ", 
+                    "Fifth of the land‘s production belongs to king.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "12": {
+            "content": [
+                "P12. †P12. ", 
+                "Character of kings.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P12.1. †P12.1. ", 
+                    "Hunting a madness of kings.", 
+                    " Penzer II 127; Irish myth: *Cross; Icelandic: Boberg;\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "P12.2. †P12.2. ", 
+                    "Injustice deadliest of monarch’s sins.", 
+                    " Penzer I 124 n. 1."
+                ], 
+                [
+                    "P12.2.1. †P12.2.1. ", 
+                    "Tyrannical king.", 
+                    "\r\nJewish: *Neuman; India: Thompson-Balys."
+                ], 
+                [
+                    "P12.3. †P12.3. ", 
+                    "Usurper imposes burdensome taxes.", 
+                    " Dickson 175 n. 39."
+                ], 
+                [
+                    "P12.4. †P12.4. ", 
+                    "King who intends rape killed.", 
+                    " Attackers flee into exile. Irish myth: Cross."
+                ], 
+                [
+                    "P12.5. †P12.5. ", 
+                    "Good king never retreats in battle.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "P12.5.0.1. †P12.5.0.1. ", 
+                    "Dead king carried into battle in his war-chariot.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P12.5.1. †P12.5.1. ", 
+                    "King in battle hides in ditch, with earth piled around him.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "P12.6. †P12.6. ", 
+                    "Just king brings good fortune upon people.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "P12.6.1. †P12.6.1. ", 
+                    "Four duties of king to subjects: devotion, protection of\r\nsubjects, justice, and increase of his kingdom.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P12.7. †P12.7. ", 
+                    "Clever king knows everything in advance.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P12.8. †P12.8. ", 
+                    "King banishes nobleman whose castle he wants.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P12.9. †P12.9. ", 
+                    "Nobility of character a mark of kings.", 
+                    " Kings overcomes passion for beautiful captives and sends\r\nthem back untouched to their people. Spanish Exempla: Keller."
+                ], 
+                [
+                    "P12.10. †P12.10. ", 
+                    "King is superior to all in strength, beauty, largeness,\r\netc., and usually has victory.", 
+                    " Icelandic:\r\n*Boberg; Jewish: *Neuman."
+                ], 
+                [
+                    "P12.11. †P12.11. ", 
+                    "Uxorious king neglects duties.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P12.12. †P12.12. ", 
+                    "King avenges lack of homage.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P12.13. †P12.13. ", 
+                    "King quick to anger.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "P12.13.1. †P12.13.1. ", 
+                    "King to be seen after anger cools.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P12.14. †P12.14. ", 
+                    "Modesty of king.", 
+                    "\r\nJewish: *Neuman."
+                ]
+            ]
+        }, 
+        "15": {
+            "content": [
+                "P15. †P15. ", 
+                "Adventures of kings.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P15.1. †P15.1. ", 
+                    "Disguised king punished by peasant.", 
+                    " Beaten because he does not get up early enough. (King\r\nAlfred and the cakes.) *BP III 451 n. 1."
+                ], 
+                [
+                    "P15.1.1. †P15.1.1. ", 
+                    "Disguised king taught courtesy by peasant.", 
+                    " English: Wells 94 (The Taill of Rauf Coilyear)."
+                ], 
+                [
+                    "P15.1.2. †P15.1.2. ", 
+                    "King pardons person who has made mistake of addressing one\r\nof his courtiers as king.", 
+                    " Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "P15.2. †P15.2. ", 
+                    "King demands subject’s wife for himself.", 
+                    " India: Thompson-Balys; Chinese: Graham."
+                ], 
+                [
+                    "P15.2.1. †P15.2.1. ", 
+                    "King carries off subject’s wife and makes her his own.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P15.3. †P15.3. ", 
+                    "King loses his kingdom to impostor.", 
+                    " (Cf. †K1934.1.) Jewish:\r\nNeuman."
+                ], 
+                [
+                    "P15.4. †P15.4. ", 
+                    "King is cursed by disguised dwarf-smiths whose work he\r\ncriticised.", 
+                    " Icelandic: Ásmundar saga Kappabana 466."
+                ], 
+                [
+                    "P15.5. †P15.5. ", 
+                    "King frees man sent by rival king to kill him.", 
+                    " He sees bravery in the would-be assassin. Spanish Exempla:\r\nKeller."
+                ], 
+                [
+                    "P15.6. †P15.6. ", 
+                    "King descends to bottom of sea in glass barrel to study\r\nways of fishes.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "P15.7. †P15.7. ", 
+                    "King himself works at brick building so that subjects\r\ncannot complain of enforced labor.", 
+                    " Jewish:\r\n*Neuman."
+                ], 
+                [
+                    "P15.8. †P15.8. ", 
+                    "Subjects drive their ruler away after he has made them do\r\nforced labor.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "14": {
+            "content": [
+                "P14. †P14. ", 
+                "Particular practices of kings.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P14.1. †P14.1. ", 
+                    "Prisoners released as celebration of king’s success.", 
+                    " *Chauvin VI 101 No. 269 n. 2; Babylonian: Spence 59."
+                ], 
+                [
+                    "P14.2. †P14.2. ", 
+                    "King will not permit a one-eyed man in his presence.", 
+                    " *Chauvin V 160 No. 84 n. 1."
+                ], 
+                [
+                    "P14.3. †P14.3. ", 
+                    "King playing chess when important news arrives.", 
+                    " *Dickson 233 n. 30; Icelandic: *Boberg."
+                ], 
+                [
+                    "P14.4. †P14.4. ", 
+                    "King orders all gold brought to him.", 
+                    " Wesselski Archiv\r\nOrientální I 77."
+                ], 
+                [
+                    "P14.5. †P14.5. ", 
+                    "King never touches earth: carried always by slaves.", 
+                    " Africa (Upoto): Einstein 121."
+                ], 
+                [
+                    "P14.6. †P14.6. ", 
+                    "King‘s (prince’s) sulking chamber.", 
+                    " He sulks here until his wishes are carried out. India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "P14.7. †P14.7. ", 
+                    "None permitted to enter hall of king unless he possesses an\r\nart.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P14.8. †P14.8. ", 
+                    "King does not want men who are unable to engage in any\r\nsport.", 
+                    "\r\nIcelandic: Örvar-Odds saga 142--43."
+                ], 
+                [
+                    "P14.8.1. †P14.8.1. ", 
+                    "King asks all newcomers what they can do and expects a\r\nprompt answer.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P14.9. †P14.9. ", 
+                    "Law that nobody may give the king bad tidings.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P14.10. †P14.10. ", 
+                    "Kings have seat on hills.", 
+                    " Icelandic: *Boberg; India: Thompson-Balys."
+                ], 
+                [
+                    "P14.11. †P14.11. ", 
+                    "King angry at hero who rides straight into the castle\r\nwithout permission.", 
+                    " Icelandic: Völsunga saga ch. 28 (26)."
+                ], 
+                [
+                    "P14.12. †P14.12. ", 
+                    "King has his own gifts stolen back for him.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P14.13. †P14.13. ", 
+                    "King gives his own wife as reward.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P14.14. †P14.14. ", 
+                    "King requires everyone who comes before him to tell a\r\nstory.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P14.15. †P14.15. ", 
+                    "King has champion to enforce respect.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P14.15.1. †P14.15.1. ", 
+                    "Old, wise counsellor of court.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P14.15.2. †P14.15.2. ", 
+                    "Court messenger.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P14.16. †P14.16. ", 
+                    "Threefold division of king‘s day:", 
+                    " one third dedicated to watching boys at play; one third to\r\nplaying fidehell (chess?); one third to drinking. Irish myth: Cross."
+                ], 
+                [
+                    "P14.17. †P14.17. ", 
+                    "King’s stronghold on island.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P14.18. †P14.18. ", 
+                    "King orders man whose neck the rope will fit to be\r\nexecuted.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P14.19. †P14.19. ", 
+                    "King goes in disguise at night to observe his subjects.", 
+                    " India: *Thompson-Balys; Buddhist myth: Malalasekera I 424,\r\n908."
+                ], 
+                [
+                    "P14.20. †P14.20. ", 
+                    "Tom-tom beater to spread the news of kingship.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "P14.21. †P14.21. ", 
+                    "King shows himself in public only one day a year.", 
+                    " Jewish: *Neuman."
+                ], 
+                [
+                    "P14.22. †P14.22. ", 
+                    "King keeps lions as pets and a lion-tamer at his palace.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "P14.23. †P14.23. ", 
+                    "King does not eat much during years of famine in order not\r\nto forget the hungry.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "17": {
+            "content": [
+                "P17. †P17. ", 
+                "Succession to the throne.", 
+                " Missouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "P17.0.1. †P17.0.1. ", 
+                    "No sons left to rule after father.", 
+                    " Lawmaker’s sons slain in rebellion against him. Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P17.0.2. †P17.0.2. ", 
+                    "Son succeeds father as king.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P17.0.2.1. †P17.0.2.1. ", 
+                    "At son‘s wedding king names him as successor.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P17.0.3. †P17.0.3. ", 
+                    "Vengeance for destruction of fairy-mound pursues king’s\r\ndescendants.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P17.1. †P17.1. ", 
+                    "First man to arrive after king‘s death to be heir.", 
+                    " (Cf. †N683.) Hdwb. d.\r\nMärchens I 605a n. 62; India: *Thompson-Balys."
+                ], 
+                [
+                    "P17.2. †P17.2. ", 
+                    "Queen chosen to live rather than king so that she can bear\r\nan heir to the throne.", 
+                    " Serpents alleged to\r\ntell by their death which shall die first: male serpent predicts king’s death;\r\nfemale, queen‘s. King has male serpent killed. BP IV 139; Gesta Romanorum No.\r\n92."
+                ], 
+                [
+                    "P17.3. †P17.3. ", 
+                    "Dying king names successor.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P17.3.1. †P17.3.1. ", 
+                    "Second-born son declared as successor because message about\r\nthe birth of first son was slower traveling.", 
+                    "\r\nEmperor will not change proclamation. India: Thompson-Balys."
+                ], 
+                [
+                    "P17.4. †P17.4. ", 
+                    "Kingship rotates among brothers.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P17.5. †P17.5. ", 
+                    "Brothers rule jointly.", 
+                    "\r\nIrish myth: Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "P17.6. †P17.6. ", 
+                    "Succession by mother-right.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P17.7. †P17.7. ", 
+                    "Succession will fall to line that has been wronged.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P17.8. †P17.8. ", 
+                    "Kingship given to younger brother.", 
+                    " (Cf. †P17.10.) Irish\r\nmyth: Cross; Icelandic: Boberg; Jewish: Neuman."
+                ], 
+                [
+                    "P17.9. †P17.9. ", 
+                    "Natural son succeeds to the throne.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P17.9.1. †P17.9.1. ", 
+                    "Natural son is refused kingship and half heritage.", 
+                    " Icelandic: Hervarar saga 86--88, Boberg."
+                ], 
+                [
+                    "P17.10. †P17.10. ", 
+                    "Three sons each get a kingship, but the youngest the most\r\nimportant in the home country.", 
+                    " (Cf. †P17.8.) Icelandic: Boberg."
+                ], 
+                [
+                    "P17.11. †P17.11. ", 
+                    "Slayer of king marries widow and inherits kingdom.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P17.12. †P17.12. ", 
+                    "King to be succeeded by whoever can carry his dead body a\r\ncertain distance.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P17.13. †P17.13. ", 
+                    "What the princes most desire: king asks each of three sons\r\nseparately.", 
+                    " Answers: to study, to make\r\npilgrimages, to build a great kingdom. Last chosen. India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "16": {
+            "content": [
+                "P16. †P16. ", 
+                "End of king‘s reign.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P16.1. †P16.1. ", 
+                    "King (prince) retires from the world (becomes hermit,\r\nswineherd).", 
+                    " *Chauvin VI 194 No. 363; Irish\r\nmyth: Cross; Icelandic: *Boberg."
+                ], 
+                [
+                    "P16.1.1. †P16.1.1. ", 
+                    "King on retiring orders funeral obsequies given him.", 
+                    " Chauvin VIII 115 No. 98."
+                ], 
+                [
+                    "P16.1.2. †P16.1.2. ", 
+                    "King learning of queen‘s adultery abdicates.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P16.1.3. †P16.1.3. ", 
+                    "The higher the office held in this world, the heavier the\r\njudgment of God: Cuchulinn’s reason for abjuring kingship.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P16.1.4. †P16.1.4. ", 
+                    "Father abdicates in favor of son.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P16.2. †P16.2. ", 
+                    "King must resign if maimed (disfigured).", 
+                    " Irish: MacCulloch Celtic 25, Cross."
+                ], 
+                [
+                    "P16.2.1. †P16.2.1. ", 
+                    "King must resign if he begets natural son.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P16.3. †P16.3. ", 
+                    "King killed when old.", 
+                    "\r\nHawaii: Beckwith 409f.; Tonga: Gifford 31."
+                ], 
+                [
+                    "P16.3.0.1. †P16.3.0.1. ", 
+                    "King commits suicide.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P16.3.1. †P16.3.1. ", 
+                    "Old king attacked.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P16.3.1.1. †P16.3.1.1. ", 
+                    "Attempt to kill old king by suffocating him in bathroom.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P16.3.2. †P16.3.2. ", 
+                    "King too old to fight goes himself into his grave mound.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P16.4. †P16.4. ", 
+                    "Persons buried with dead king.", 
+                    " *Wesselski Märchen 230;\r\nIcelandic: Corpus Poeticum Boreale I 303, *Boberg."
+                ], 
+                [
+                    "P16.4.1. †P16.4.1. ", 
+                    "Suttee.", 
+                    " Wife burned with dead king. *Penzer IV 255 ff., 264; **Zachariae\r\nZs. f. Vksk. XIV 198ff., 302ff., 395ff., XV 74ff.; Chauvin VII 20; Mansikka FFC\r\nXLIII 330ff.; Hert Die Indogermanen II 440, 490ff.; Grimm Deutsche\r\nRechtsalterthümer I 622; Hoops‘ Reallexikon IV 556ff.;\r\nSchreuer Zs. f. Vgl. Rechtswissenschaft XXXIV 19ff. --Icelandic: *Boberg;\r\nSlavic: Máchal 233; India: *Thompson-Balys; Melanesia: Codrington 288ff.;\r\nAfrica: Frobenius Atlantis VII 106, 227."
+                ], 
+                [
+                    "P16.5. †P16.5. ", 
+                    "Shavings of spear which killed king cast into cataract.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P16.6. †P16.6. ", 
+                    "Kings worshipped after their death.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P16.7. †P16.7. ", 
+                    "King slain by “his own household” in revenge for deposing\r\nhis father.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P16.8. †P16.8. ", 
+                    "Land where every raja dies; if he rules for a day he dies\r\nthat night; if he rules for a night, he dies that day.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P16.9. †P16.9. ", 
+                    "King’s coffin sunk into river.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "55": {
+            "content": [
+                "P55. †P55. ", 
+                "Wild man of noble birth.", 
+                " (Cf. †F567.) Dickson 135 n. 117; Irish\r\nmyth: Cross."
+            ], 
+            "child": []
+        }, 
+        "32": {
+            "content": [
+                "P32. †P32. ", 
+                "Friendship of prince and commoner.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "P32.1. †P32.1. ", 
+                    "All children born in realm on same day as chief‘s son are\r\nbrought to palace to be the boy’s companions.", 
+                    " Hawaii: Beckwith Myth 441."
+                ]
+            ]
+        }, 
+        "31": {
+            "content": [
+                "P31. †P31. ", 
+                "Prince must learn a trade.", 
+                " (Cf. †P51.) *Chauvin VI\r\n74 No. 239."
+            ], 
+            "child": [
+                [
+                    "P31.1. †P31.1. ", 
+                    "Princes as smiths.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "30": {
+            "content": [
+                "P30. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "P30.1. †P30.1. ", 
+                    "King’s sons called kings.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "37": {
+            "content": [
+                "P37. †P37. ", 
+                "Birth rites confer royalty on infant prince.", 
+                " Easter Island: Métraux\r\nEthnology 59."
+            ], 
+            "child": []
+        }, 
+        "36": {
+            "content": [
+                "P36. †P36. ", 
+                "Dispossessed prince taunted by usurper‘s son.", 
+                " West Africa: Frobenius Atlantis VI 182ff. No. 4."
+            ], 
+            "child": []
+        }, 
+        "35": {
+            "content": [
+                "P35. †P35. ", 
+                "Unknown prince chosen chief of children in play.", 
+                " *Type 920; *DeVries FFC LXXIII 40ff."
+            ], 
+            "child": []
+        }, 
+        "34": {
+            "content": [
+                "P34. †P34. ", 
+                "Prince imprisoned as hostage for safety from king.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "19": {
+            "content": [
+                "P19. †P19. ", 
+                "Other motifs connected with kings.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P19.1. †P19.1. ", 
+                    "King’s presence necessary for army‘s victory.", 
+                    " English romance: Malory passim."
+                ], 
+                [
+                    "P19.2. †P19.2. ", 
+                    "King may have any woman as paramour if he makes her a\r\nsettlement.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P19.2.1. †P19.2.1. ", 
+                    "King abducts woman to be his paramour.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P19.3. †P19.3. ", 
+                    "King must procure whatever visiting poets ask, or suffer\r\nfrom their satire.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P19.4. †P19.4. ", 
+                    "Kingly powers (rights).", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P19.4.0.1. †P19.4.0.1. ", 
+                    "King’s wand (rod).", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P19.4.1. †P19.4.1. ", 
+                    "King may judge against all save one of highest rank in\r\nreligion or learning.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P19.5. †P19.5. ", 
+                    "King raised from dead (by saint). Irish myth: Cross.", 
+                    null
+                ]
+            ]
+        }, 
+        "18": {
+            "content": [
+                "P18. †P18. ", 
+                "Marriage of kings.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P18.1. †P18.1. ", 
+                    "After highly mourned wife‘s death the king marries another\r\nwho turns out to be an evil witch.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P18.2. †P18.2. ", 
+                    "Limited number of wives for polygamous king.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }
+    }, 
+    "P_400_499_Trades and professions.": {
+        "458": {
+            "content": [
+                "P458. †P458. ", 
+                "Woodsman.", 
+                " Types 327, 700; Köhler Aufsätze 49; Sébillot Métiers No. 16;\r\nMissouri French: Carrière."
+            ], 
+            "child": []
+        }, 
+        "459": {
+            "content": [
+                "P459. †P459. ", 
+                "Other artisans.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P459.1. †P459.1. ", 
+                    "Printer.", 
+                    " Sébillot Métiers No. 19."
+                ]
+            ]
+        }, 
+        "451": {
+            "content": [
+                "P451. †P451. ", 
+                "Spinner.", 
+                " Sébillot Métiers No. 5; *Von Sydow Spinnsagor."
+            ], 
+            "child": []
+        }, 
+        "452": {
+            "content": [
+                "P452. †P452. ", 
+                "Dressmaker (milliner, etc.).", 
+                " Type 326; German Grimm\r\nNo. 4; *Hdwb. d. Abergl. IX Nachträge 269f.; Sébillot Métiers No. 8."
+            ], 
+            "child": []
+        }, 
+        "453": {
+            "content": [
+                "P453. †P453. ", 
+                "Shoemaker.", 
+                " **C. Nyrop Dania VIII 195ff.; *Sébillot Métiers No. 10; Irish\r\nmyth: Cross; Spanish: Espinosa Jr. Nos. 151, 155--157, 185."
+            ], 
+            "child": [
+                [
+                    "P453.1. †P453.1. ", 
+                    "Why shoemakers are indolent.", 
+                    " A shoemaker spits at Christ on way to be crucified. Christ\r\ntells him, “A poor slobbering fellow thou shalt be, and all shoemakers after\r\nthee, for what thou has done to me.” (Cf. †A2231.2, †P445.1.) England; Baughman."
+                ]
+            ]
+        }, 
+        "454": {
+            "content": [
+                "P454. †P454. ", 
+                "Hatter.", 
+                " Sébillot Métiers No. 10 pp. 52ff."
+            ], 
+            "child": []
+        }, 
+        "455": {
+            "content": [
+                "P455. †P455. ", 
+                "Mason (bricklayer).", 
+                " Sébillot Métiers No. 12."
+            ], 
+            "child": []
+        }, 
+        "456": {
+            "content": [
+                "P456. †P456. ", 
+                "Carpenter.", 
+                " Sébillot Métiers No. 13; Panchatantra (tr. Ryder) 62ff., 89ff.,\r\n260ff.; Irish myth: Cross; Jewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "457": {
+            "content": [
+                "P457. †P457. ", 
+                "House-painter.", 
+                " Sébillot Métiers No. 15."
+            ], 
+            "child": []
+        }, 
+        "413": {
+            "content": [
+                "P413. †P413. ", 
+                "Ferryman.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P413.1. †P413.1. ", 
+                    "Eternal ferryman.", 
+                    " Always transports passengers and when the ruler is in danger\r\ntakes his place. (Cf. †Q25.) Cosquin Lorraine I 215."
+                ], 
+                [
+                    "P413.1.1. †P413.1.1. ", 
+                    "Ferryman puts oar into king’s hand and he must remain\r\nferryman.", 
+                    " *Type 461; Japanese: Ikeda."
+                ]
+            ]
+        }, 
+        "429": {
+            "content": [
+                "P429. †P429. ", 
+                "Miscellaneous learned professions.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P429.1. †P429.1. ", 
+                    "Astronomers.", 
+                    " Jewish:\r\n*Neuman."
+                ]
+            ]
+        }, 
+        "428": {
+            "content": [
+                "P428. †P428. ", 
+                "Musician.", 
+                " Icelandic:\r\nBoberg."
+            ], 
+            "child": [
+                [
+                    "P428.1. †P428.1. ", 
+                    "Harper.", 
+                    " Irish myth:\r\nCross; Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "401": {
+            "content": [
+                "P401. †P401. ", 
+                "Son insists on following father‘s trade.", 
+                " This has been kept secret at request of dying father who\r\nwas unsuccessful. Son learns from mother. *Cosquin Contes indiens 395ff."
+            ], 
+            "child": []
+        }, 
+        "400": {
+            "content": [
+                "P400. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "421": {
+            "content": [
+                "P421. †P421. ", 
+                "Judge.", 
+                " Irish myth:\r\nCross; Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "P421.1. †P421.1. ", 
+                    "Jackals as judges.", 
+                    "\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "420": {
+            "content": [
+                "P420. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "422": {
+            "content": [
+                "P422. †P422. ", 
+                "Lawyer.", 
+                " Hdwb. d.\r\nAbergl. I 202."
+            ], 
+            "child": [
+                [
+                    "P422.1. †P422.1. ", 
+                    "Lawyers punished in hell.", 
+                    " Alphabet Nos. 42, 43."
+                ], 
+                [
+                    "P422.1.1. †P422.1.1. ", 
+                    "Tongue of dead lawyer found to be lacking.", 
+                    " Scala Celi 7b No. 44; Etienne de Bourbon No. 440."
+                ]
+            ]
+        }, 
+        "425": {
+            "content": [
+                "P425. †P425. ", 
+                "Scribe.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P425.1. †P425.1. ", 
+                    "Scribe who cannot read his own writing.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "424": {
+            "content": [
+                "P424. †P424. ", 
+                "Physician.", 
+                " Penzer X\r\n263a s.v. “Physician”; Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P424.1. †P424.1. ", 
+                    "Physician hides eyes as he passes graveyard.", 
+                    " He does not want to see those who have died from his\r\nmedicine. *Wesselski Hodscha Nasreddin I 259 No. 204."
+                ], 
+                [
+                    "P424.2. †P424.2. ", 
+                    "Doctor who can cure can also poison.", 
+                    " This reflection brings the doctor under the king’s\r\nsuspicion. *Chauvin V 276 No. 156."
+                ], 
+                [
+                    "P424.3. †P424.3. ", 
+                    "Physician killed for fatal diagnosis.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P424.3.1. †P424.3.1. ", 
+                    "“Skillful” physician compelled to help carry away the bier\r\nof his dead patient.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "P424.4. †P424.4. ", 
+                    "Fairy as physician.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P424.5. †P424.5. ", 
+                    "Female physician.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "427": {
+            "content": [
+                "P427. †P427. ", 
+                "Druid (poet, learned man).", 
+                " Irish myth: Cross; Icelandic: MacCulloch Eddic 311."
+            ], 
+            "child": [
+                [
+                    "P427.0.1. †P427.0.1. ", 
+                    "Druid inspires great respect and fear.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.0.2. †P427.0.2. ", 
+                    "Person assailed by druid loses treasure.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.0.3. †P427.0.3. ", 
+                    "Women druids.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P427.0.4. †P427.0.4. ", 
+                    "Simon Magus as druid.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P427.1. †P427.1. ", 
+                    "Druid performs sacrifices.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.1.1. †P427.1.1. ", 
+                    "Druids perform human sacrifice.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.1.2. †P427.1.2. ", 
+                    "Druids as priests.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P427.1.3. †P427.1.3. ", 
+                    "Druidic (heathen) baptism.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.1.4. †P427.1.4. ", 
+                    "Druidic tonsure.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P427.2. †P427.2. ", 
+                    "Druid as emissary of peace.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.3. †P427.3. ", 
+                    "Advice (instruction) from druid.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.4. †P427.4. ", 
+                    "Poet (druid) as satirist.", 
+                    " (Cf. †M402.) Irish myth: Cross."
+                ], 
+                [
+                    "P427.4.1. †P427.4.1. ", 
+                    "Fear of druidic lampoon as activating power.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.5. †P427.5. ", 
+                    "Druid as physician.", 
+                    " (Cf. †P424.) Irish myth: Cross."
+                ], 
+                [
+                    "P427.5.1. †P427.5.1. ", 
+                    "Wounded soldiers healed by bath in pool of milk through\r\npower of druid.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.6. †P427.6. ", 
+                    "Druid as judge.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P427.7. †P427.7. ", 
+                    "Poet.", 
+                    " Irish myth:\r\nCross; Icelandic: *Boberg."
+                ], 
+                [
+                    "P427.7.1. †P427.7.1. ", 
+                    "Extemporaneous composition by poets.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.7.2. †P427.7.2. ", 
+                    "Extensive repertory of poets.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.7.2.1. †P427.7.2.1. ", 
+                    "Difficult language used by poets.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.7.2.1.1. †P427.7.2.1.1. ", 
+                    "Poets and fools closely allied.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.7.3. †P427.7.3. ", 
+                    "Blind poets.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P427.7.4. †P427.7.4. ", 
+                    "Women poets.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P427.7.5. †P427.7.5. ", 
+                    "Bard.", 
+                    " Irish myth:\r\nCross."
+                ], 
+                [
+                    "P427.7.6. †P427.7.6. ", 
+                    "Poet‘s rod.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P427.7.7. †P427.7.7. ", 
+                    "Poet as judge.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P427.7.8. †P427.7.8. ", 
+                    "Poet rewarded for poem.", 
+                    "\r\nIrish myth: Cross; Icelandic: *Boberg."
+                ], 
+                [
+                    "P427.7.9. †P427.7.9. ", 
+                    "Poets banished.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P427.7.9.1. †P427.7.9.1. ", 
+                    "Excessive demands of poets.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P427.7.10. †P427.7.10. ", 
+                    "Rivaling poets.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P427.8. †P427.8. ", 
+                    "Druids as rath-builders.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P427.9. †P427.9. ", 
+                    "Druids (poets) boil spell.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "426": {
+            "content": [
+                "P426. †P426. ", 
+                "Clergy.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P426.0.1. †P426.0.1. ", 
+                    "In fear of clerics pagans flee into fairy mounds.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P426.1. †P426.1. ", 
+                    "Parson (priest).", 
+                    " Jewish: Neuman (†P426.1, †V452)."
+                ], 
+                [
+                    "P426.1.1. †P426.1.1. ", 
+                    "First of animals and fruits belong to priest.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "P426.2. †P426.2. ", 
+                    "Hermit.", 
+                    " Hdwb. d. Märchens I 507b; Irish myth: Cross; Spanish: Espinosa II\r\nNo. 75, Espinosa Jr. No. 186."
+                ], 
+                [
+                    "P426.3. †P426.3. ", 
+                    "Monks.", 
+                    " Irish myth:\r\nCross."
+                ], 
+                [
+                    "P426.3.1. †P426.3.1. ", 
+                    "Untrained monk becomes skillful wright (smith) through\r\npower of saint.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P426.3.2. †P426.3.2. ", 
+                    "Monks as converted druids.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P426.3.3. †P426.3.3. ", 
+                    "Woman disguised as monk enters monastery.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "448": {
+            "content": [
+                "P448. †P448. ", 
+                "Butcher.", 
+                " Sébillot Métiers No. 4."
+            ], 
+            "child": []
+        }, 
+        "443": {
+            "content": [
+                "P443. †P443. ", 
+                "Miller.", 
+                " Type 461 (Danish); Von Sydow Våra folksagor (1941) 38; *Sébillot\r\nMétiers No. 1; Missouri French: Carrière; Spanish: Espinosa Jr. Nos. 137, 141,\r\n198."
+            ], 
+            "child": [
+                [
+                    "P443.0.1. †P443.0.1. ", 
+                    "Water-miller.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "P443.1. †P443.1. ", 
+                    "Why millers are thieves.", 
+                    "\r\nFlemish: DeMeyer FFC XXXVII 84 No. 27e."
+                ]
+            ]
+        }, 
+        "442": {
+            "content": [
+                "P442. †P442. ", 
+                "Baker.", 
+                " *Sébillot Métiers Nos. 2, 3; *Nyrop Dania VIII 174ff."
+            ], 
+            "child": [
+                [
+                    "P442.1. †P442.1. ", 
+                    "Baker and devil walking together.", 
+                    " Breton: Sébillot\r\nIncidents s.v. “boulanger”."
+                ]
+            ]
+        }, 
+        "441": {
+            "content": [
+                "P441. †P441. ", 
+                "Tailor.", 
+                " *Fb “skrædder”; *Chauvin IX 29 No. 18; *Sébillot Métiers No. 7; *Feilberg Dania\r\nI 165ff., III 184ff.; Paludan Danske Studier (1925) 19ff.; Missouri French:\r\nCarrière."
+            ], 
+            "child": [
+                [
+                    "P441.1. †P441.1. ", 
+                    "Tailor occupies God’s throne for a day.", 
+                    " *Type 800; *BP I 342."
+                ], 
+                [
+                    "P441.2. †P441.2. ", 
+                    "Tailoring only trade devil cannot learn.", 
+                    " He fails to knot thread because it would make sign of the\r\ncross. Scotch: Campbell Superstitions 304."
+                ], 
+                [
+                    "P441.3. †P441.3. ", 
+                    "Tailor punished in hell.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P441.4. †P441.4. ", 
+                    "Busy tailor asks soldier to mount watch in his place.", 
+                    " Missouri French:\r\nCarrière 177f. No. 36, 261 No. 59."
+                ]
+            ]
+        }, 
+        "440": {
+            "content": [
+                "P440. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "447": {
+            "content": [
+                "P447. †P447. ", 
+                "Smith.", 
+                " *Sébillot Métiers Nos. 17, 18; *Hdwb. d. Abergl. IX Nachträge\r\n257--67; Andree (1878) 153; *Nyrop Dania IX 186ff.; Von Sydow Våra folksagor\r\n(1941) 39ff. -- Irish myth: Cross; Icelandic: *Boberg; Missouri French:\r\nCarrière; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "P447.0.1. †P447.0.1. ", 
+                    "Smith from Lochlann", 
+                    "\r\n(Scandinavia, otherworld [?]) Irish myth: Cross."
+                ], 
+                [
+                    "P447.1. †P447.1. ", 
+                    "Smith as grandfather of king.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P447.2. †P447.2. ", 
+                    "Smith as rath-builder.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P447.3. †P447.3. ", 
+                    "Smith as lord of hall of hospitality.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P447.4. †P447.4. ", 
+                    "Smith punished in hell.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "P447.5. †P447.5. ", 
+                    "Smith honored by king as indispensable.", 
+                    " Invited to festival. England: *Baughman."
+                ], 
+                [
+                    "P447.6. †P447.6. ", 
+                    "Rivaling smiths.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "P447.7. †P447.7. ", 
+                    "Goldsmith as lover.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "P447.8. †P447.8. ", 
+                    "Covetous goldsmith.", 
+                    "\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "460": {
+            "content": [
+                "P460. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "445": {
+            "content": [
+                "P445. †P445. ", 
+                "Weaver.", 
+                " Sébillot Métiers No. 6."
+            ], 
+            "child": [
+                [
+                    "P445.1. †P445.1. ", 
+                    "Why weavers are the most unhappy of men.", 
+                    " They gave a nail for the Crucifixion. Flemish: DeMeyer FFC\r\nXXXVII 84 No. 27C."
+                ], 
+                [
+                    "P445.2. †P445.2. ", 
+                    "Why weavers have patience.", 
+                    " Flemish: DeMeyer FFC XXXVII 84 No. 27d."
+                ]
+            ]
+        }, 
+        "446": {
+            "content": [
+                "P446. †P446. ", 
+                "Barber.", 
+                " Sébillot Métiers No. 11; Penzer III 100 n. 1."
+            ], 
+            "child": [
+                [
+                    "P446.1. †P446.1. ", 
+                    "Barbers as bunglers of plans.", 
+                    " Chauvin V 154ff. Nos. 78ff. and n. 1."
+                ], 
+                [
+                    "P446.2. †P446.2. ", 
+                    "Barbers cunning and greedy.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "461": {
+            "content": [
+                "P461. †P461. ", 
+                "Soldier.", 
+                " *Hdwb. d. Abergl. IX Nachträge 485ff.; Missouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "P461.1. †P461.1. ", 
+                    "Soldier who has had both hands severed fights with his\r\nteeth until he is killed.", 
+                    " Italian Novella:\r\nRotunda."
+                ], 
+                [
+                    "P461.2. †P461.2. ", 
+                    "Soldier dies happy on learning of enemy‘s rout.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "P461.3. †P461.3. ", 
+                    "Soldier is ordered to set fire to enemy’s armada.", 
+                    " Is caught and sawed in two. Italian Novella: Rotunda."
+                ], 
+                [
+                    "P461.4. †P461.4. ", 
+                    "Woman instructs in art of arms.", 
+                    " (Cf. †F565.1.) Irish\r\nmyth: Cross."
+                ]
+            ]
+        }, 
+        "485": {
+            "content": [
+                "P485. †P485. ", 
+                "Philosopher.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P485.1. †P485.1. ", 
+                    "Treacherous philosophers.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "444": {
+            "content": [
+                "P444. †P444. ", 
+                "Cabinet-maker.", 
+                " *Sébillot Métiers No. 14."
+            ], 
+            "child": [
+                [
+                    "P444.1. †P444.1. ", 
+                    "Brave soldier and timid cabinet-maker as companions.", 
+                    " German: Grimm No. 130a; BP III 67."
+                ]
+            ]
+        }, 
+        "483": {
+            "content": [
+                "P483. †P483. ", 
+                "Juggler (conjurer).", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "482": {
+            "content": [
+                "P482. †P482. ", 
+                "Painter (artist).", 
+                null
+            ], 
+            "child": [
+                [
+                    "P482.1. †P482.1. ", 
+                    "Devil pulls painter from chair.", 
+                    " Scala Celi 120b No. 660."
+                ]
+            ]
+        }, 
+        "481": {
+            "content": [
+                "P481. †P481. ", 
+                "Astrologer.", 
+                " Penzer X\r\n77a s.v. “Astrologer”; Jewish: *Neuman; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "414": {
+            "content": [
+                "P414. †P414. ", 
+                "Hunter.", 
+                " Types 246, 304; Von Sydow Våra folksagor (1941) 39."
+            ], 
+            "child": []
+        }, 
+        "415": {
+            "content": [
+                "P415. †P415. ", 
+                "Collier.", 
+                " (Cf. †K2262.)"
+            ], 
+            "child": [
+                [
+                    "P415.1. †P415.1. ", 
+                    "Hero as collier.", 
+                    " Icelandic: Þiðriks saga I 308f., Boberg."
+                ]
+            ]
+        }, 
+        "471": {
+            "content": [
+                "P471. †P471. ", 
+                "Actor.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P471.1. †P471.1. ", 
+                    "Actors banished along with vagabonds.", 
+                    " Pauli (ed. Bolte) No. 537."
+                ]
+            ]
+        }, 
+        "410": {
+            "content": [
+                "P410. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "411": {
+            "content": [
+                "P411. †P411. ", 
+                "Peasant.", 
+                " **Hdwb. d. Märchens I 184a."
+            ], 
+            "child": [
+                [
+                    "P411.1. †P411.1. ", 
+                    "Peasant refuses to sell possessions to king.", 
+                    " (Miller of Sanssouci.) Swiss: Jegerlehner Oberwallis 309\r\nNo. 13."
+                ], 
+                [
+                    "P411.1.1. †P411.1.1. ", 
+                    "Peasant and his wife in hut near castle as contrasts to\r\nking and queen.", 
+                    " Icelandic: Lagerholm lvi,\r\n*Boberg."
+                ], 
+                [
+                    "P411.2. †P411.2. ", 
+                    "Peasant is cutting wood in front of his house as guests\r\narrive.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P411.3. †P411.3. ", 
+                    "Wounded hero finds shelter and is cured in peasant‘s house.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P411.4. †P411.4. ", 
+                    "Hero stays overnight in peasant’s house, to which he\r\naccidentally comes, and where he gets advice and direction.", 
+                    " (Cf. †H1232.4.)\r\nIcelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "412": {
+            "content": [
+                "P412. †P412. ", 
+                "Shepherd.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P412.1. †P412.1. ", 
+                    "Shepherd as hero.", 
+                    "\r\n*Type 300."
+                ], 
+                [
+                    "P412.1.1. †P412.1.1. ", 
+                    "Life of shepherd proper preparation for ruler.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "P412.2. †P412.2. ", 
+                    "Swineherd.", 
+                    " (Cf. †L113.1.1.) Irish myth: Cross."
+                ], 
+                [
+                    "P412.3. †P412.3. ", 
+                    "Hero as rabbit-herd.", 
+                    "\r\nType 570."
+                ]
+            ]
+        }, 
+        "475": {
+            "content": [
+                "P475. †P475. ", 
+                "Robber.", 
+                " Irish myth: Cross; Missouri French: Carrière; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "P475.1. †P475.1. ", 
+                    "Twelve robbers.", 
+                    " Fb III\r\n132a “røver”."
+                ], 
+                [
+                    "P475.2. †P475.2. ", 
+                    "Robbers defeated and killed.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "435": {
+            "content": [
+                "P435. †P435. ", 
+                "Usurer.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P435.1. †P435.1. ", 
+                    "Wealthy usurer prays that the sons of the rich will become\r\nmad.", 
+                    " That will benefit his business. His\r\nown sons lose their minds. Italian Novella: Rotunda."
+                ], 
+                [
+                    "P435.2. †P435.2. ", 
+                    "Usurer stops lending money.", 
+                    " He does so, not because it is wrong, but because he is\r\nlosing money. Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "430": {
+            "content": [
+                "P430. †P430. ", 
+                "Financiers and merchants.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "431": {
+            "content": [
+                "P431. †P431. ", 
+                "Merchant.", 
+                " Jewish:\r\n*Neuman."
+            ], 
+            "child": [
+                [
+                    "P431.1. †P431.1. ", 
+                    "Merchants as spreaders of news.", 
+                    " *Dickson 174 n. 35."
+                ]
+            ]
+        }
+    }, 
+    "P_200_299_None": {
+        "216": {
+            "content": [
+                "P216. †P216. ", 
+                "Wife only one able to persuade her husband.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "214": {
+            "content": [
+                "P214. †P214. ", 
+                "Wife drinks blood of slain husband.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P214.1. †P214.1. ", 
+                    "Wife commits suicide (dies) on death of husband.", 
+                    " (Cf. †P16.4.1.) Irish\r\nmyth: Cross."
+                ]
+            ]
+        }, 
+        "212": {
+            "content": [
+                "P212. †P212. ", 
+                "Wife more merciful than blood relations.", 
+                " They refuse to ransom condemned man; wife does so. Child\r\nII 349f., III 516, IV 481, V 231ff., 296."
+            ], 
+            "child": []
+        }, 
+        "213": {
+            "content": [
+                "P213. †P213. ", 
+                "Husband more merciful than blood relations.", 
+                " They refuse to ransom condemned woman; husband does so.\r\nChild II 346--53, III 511, IV 481f., V 231ff., 296."
+            ], 
+            "child": []
+        }, 
+        "210": {
+            "content": [
+                "P210. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "211": {
+            "content": [
+                "P211. †P211. ", 
+                "Wife chooses father’s side in feud.", 
+                " Must choose between husband and father. S. A. Indian\r\n(Carib): Alexander Lat. Am. 266."
+            ], 
+            "child": [
+                [
+                    "P211.1. †P211.1. ", 
+                    "Wife chooses father rather than husband or son.", 
+                    " (Cf. †P253.3.) Only one\r\ncan be saved; he alone is irreplaceable. Spanish: Childers."
+                ], 
+                [
+                    "P211.2. †P211.2. ", 
+                    "Mother kills husband for murdering their daughter.", 
+                    " Africa (Kamerun): Mansfield 228."
+                ]
+            ]
+        }, 
+        "264": {
+            "content": [
+                "P264. †P264. ", 
+                "Sister-in-law.", 
+                " (Cf. †K2212.2.)"
+            ], 
+            "child": []
+        }, 
+        "270": {
+            "content": [
+                "P270. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "P270.1. †P270.1. ", 
+                    "Foster parents fined for blemish on child.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P270.2. †P270.2. ", 
+                    "Peasant and his wife as foster parents of exposed king‘s\r\nson.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P270.3. †P270.3. ", 
+                    "Parents kill son for slaying their foster son.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "271": {
+            "content": [
+                "P271. †P271. ", 
+                "Foster father.", 
+                " **C. Schubert Der Pflegesohn (Nourri) im Heldenepos (Marburg,\r\n1906); Irish myth: Cross; Missouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "P271.1. †P271.1. ", 
+                    "Magician as foster father.", 
+                    " (Cf. †N845.) English\r\nromance: Malory, Book 1; Icelandic: Boberg."
+                ], 
+                [
+                    "P271.2. †P271.2. ", 
+                    "Fisherman as foster father.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P271.3. †P271.3. ", 
+                    "Dwarf as foster father.", 
+                    " (Cf. †F451.5.1.) Icelandic: MacCulloch\r\nEddic 267, *Boberg."
+                ], 
+                [
+                    "P271.4. †P271.4. ", 
+                    "Living king’s or nobleman‘s son as foster son of father’s\r\nfriend: considered an honor for the foster father.", 
+                    " Weinhold Altnordisches Leben (1856) 285ff.; Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "P271.5. †P271.5. ", 
+                    "Foster father as constant helper.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P271.6. †P271.6. ", 
+                    "Foster children return foster father’s love: avenge him,\r\netc.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P271.7. †P271.7. ", 
+                    "King‘s son named after his father’s foster father.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P271.8. †P271.8. ", 
+                    "Thor slays his foster father and takes himself the realm of\r\nThrace.", 
+                    " Icelandic: Snorra Edda Prol. III,\r\nMacCulloch Eddic. 314."
+                ]
+            ]
+        }, 
+        "272": {
+            "content": [
+                "P272. †P272. ", 
+                "Foster mother.", 
+                " Irish myth: Cross; Missouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "P272.1. †P272.1. ", 
+                    "Witch foster mother.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P272.2. †P272.2. ", 
+                    "Foster mother as helper.", 
+                    " (See all items under †P272.) Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "P272.3. †P272.3. ", 
+                    "Former mistress as sons’ foster mother.", 
+                    " Icelandic: Bosa saga 6ff."
+                ]
+            ]
+        }, 
+        "273": {
+            "content": [
+                "P273. †P273. ", 
+                "Foster brother.", 
+                "\r\n*Valtyr Gudmundsson “Fóstbrædralag” in prjár Ritgjörethir\r\n(Kaupmannahöfn, 1892) 29--55; Irish myth: Cross; Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "P273.1. †P273.1. ", 
+                    "Faithful foster brother.", 
+                    " *Type 516; *BP I 46; *Rösch FFC LXXVII 96;\r\nIrish myth: Cross; Icelandic: *Boberg."
+                ], 
+                [
+                    "P273.1.1. †P273.1.1. ", 
+                    "Foster brothers avenge each other.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P273.1.2. †P273.1.2. ", 
+                    "King‘s son begs pardon for treacherous foster brother.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P273.1.3. †P273.1.3. ", 
+                    "Foster brother as constant adviser.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P273.2. †P273.2. ", 
+                    "Faithless foster brother.", 
+                    null
+                ], 
+                [
+                    "P273.2.1. †P273.2.1. ", 
+                    "Promise of marriage to king’s daughter induces warrior to\r\nfight foster brother.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P273.2.2. †P273.2.2. ", 
+                    "Earl‘s son seduces foster brother’s sister and betrays\r\nhimself.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P273.2.3. †P273.2.3. ", 
+                    "King‘s son falsely accuses foster brother of attempt to\r\nseduce his sister.", 
+                    " Icelandic: Lagerholm\r\n161--63, introd. lxxviii, *Boberg."
+                ], 
+                [
+                    "P273.2.4. †P273.2.4. ", 
+                    "Magic writing makes foster brothers enemies.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P273.3. †P273.3. ", 
+                    "Unable to hit man himself, enemy kills his foster brother.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P273.4. †P273.4. ", 
+                    "Children of Tuatha De Danann fostered by Milesians.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "274": {
+            "content": [
+                "P274. †P274. ", 
+                "Foster sister.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P274.1. †P274.1. ", 
+                    "Love between foster sister and foster brother.", 
+                    " Icelandic: Herrmann Saxo II 80, *Boberg."
+                ]
+            ]
+        }, 
+        "275": {
+            "content": [
+                "P275. †P275. ", 
+                "Foster son.", 
+                " Irish\r\nmyth: Cross."
+            ], 
+            "child": [
+                [
+                    "P275.1. †P275.1. ", 
+                    "Foster son commits adultery with foster father’s wife.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "234": {
+            "content": [
+                "P234. †P234. ", 
+                "Father and daughter.", 
+                "\r\nIrish myth: Cross; Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "P234.1. †P234.1. ", 
+                    "Daughter marries her husband’s slayer in order to save her\r\nold father from war.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P234.2. †P234.2. ", 
+                    "Father and daughter die at same time.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "253": {
+            "content": [
+                "P253. †P253. ", 
+                "Sister and brother.", 
+                "\r\nType 450; Irish myth: Cross; Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "P253.0.1. †P253.0.1. ", 
+                    "Sister‘s son.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "P253.0.2. †P253.0.2. ", 
+                    "One sister and two brothers.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P253.0.3. †P253.0.3. ", 
+                    "One sister and three (four) brothers.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P253.0.4. †P253.0.4. ", 
+                    "One sister and ten brothers.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P253.0.5. †P253.0.5. ", 
+                    "One sister and six (seven, eleven, twelve) brothers.", 
+                    " Type 451."
+                ], 
+                [
+                    "P253.1. †P253.1. ", 
+                    "Brother about to drink blood of seemingly guilty sister.", 
+                    " Köhler-Bolte Zs. f.\r\nVksk. VI 61."
+                ], 
+                [
+                    "P253.2. †P253.2. ", 
+                    "Sister faithful to transformed brother.", 
+                    " *Types 450, 451; Child I 315f."
+                ], 
+                [
+                    "P253.2.1. †P253.2.1. ", 
+                    "Brother faithful to persecuted sister.", 
+                    " East Africa: Zuure L’Ame du Murundi (Paris, 1932) 331ff.\r\nNo. 2."
+                ], 
+                [
+                    "P253.3. †P253.3. ", 
+                    "Brother chosen rather than husband or son.", 
+                    " Only one can be saved;\r\nhe alone is irreplaceable. Chauvin II 190 No. 2; Tawney Journal of Philology\r\nXII 121; Aly Volksmärchen bei Herodot 35, 109; Philippine: Fansler MAFLS XII\r\n257 No. 31."
+                ], 
+                [
+                    "P253.4. †P253.4. ", 
+                    "Girl comes to brother‘s aid when he is attacked.", 
+                    " She slays the assailant and is eventually acquitted.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "P253.5. †P253.5. ", 
+                    "Sister avenges brother’s death.", 
+                    " India: Thompson-Balys; Icelandic: *Boberg."
+                ], 
+                [
+                    "P253.6. †P253.6. ", 
+                    "Sister warns brothers.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P253.7. †P253.7. ", 
+                    "Brothers persecute sister‘s lover and are in return killed\r\nby him.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P253.8. †P253.8. ", 
+                    "Clever sister saves life of brother.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P253.9. †P253.9. ", 
+                    "Woman dies of sorrow for death of brother.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "250": {
+            "content": [
+                "P250. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "P250.1. †P250.1. ", 
+                    "Elder children to protect younger.", 
+                    " Breton: Sébillot\r\nIncidents s.v. “aînés”."
+                ]
+            ]
+        }, 
+        "251": {
+            "content": [
+                "P251. †P251. ", 
+                "Brothers.", 
+                " *Penzer III\r\n272 n. 1; Irish myth: Cross; Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "P251.1. †P251.1. ", 
+                    "Friend unfaithful but brother faithful.", 
+                    " Brought to test by actions at apparent death of hero.\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "P251.2. †P251.2. ", 
+                    "Warrior will not fight where his brother was slain.", 
+                    " Place considered defiled. Irish myth: Cross."
+                ], 
+                [
+                    "P251.3. †P251.3. ", 
+                    "Brothers follow each other in exile.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P251.3.1. †P251.3.1. ", 
+                    "Brothers strive to avenge each other.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P251.4. †P251.4. ", 
+                    "Brothers scorn brother‘s wise counsel.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P251.4.1. †P251.4.1. ", 
+                    "Brothers kill brother because they fail to understand his\r\nwise answer.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P251.5. †P251.5. ", 
+                    "Two brothers.", 
+                    " Type\r\n303; Icelandic: *Boberg."
+                ], 
+                [
+                    "P251.5.1. †P251.5.1. ", 
+                    "Two brothers follow and help each other on piracy, etc.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P251.5.2. †P251.5.2. ", 
+                    "Two brothers are confusingly like each other.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P251.5.3. †P251.5.3. ", 
+                    "Hostile brothers.", 
+                    "\r\nIcelandic: *Boberg; Jewish: *Neuman."
+                ], 
+                [
+                    "P251.5.4. †P251.5.4. ", 
+                    "Two brothers as contrasts.", 
+                    " Hdwb. d. Märchens II “Formel”; Icelandic: *Boberg."
+                ], 
+                [
+                    "P251.5.5. †P251.5.5. ", 
+                    "Brother unjustly imprisoned by brother.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P251.5.6. †P251.5.6. ", 
+                    "Man’s descendants shall serve those of his brother.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P251.6. †P251.6. ", 
+                    "Several brothers.", 
+                    null
+                ], 
+                [
+                    "P251.6.1. †P251.6.1. ", 
+                    "Three brothers.", 
+                    " Types\r\n654, 655; Icelandic: *Boberg."
+                ], 
+                [
+                    "P251.6.2. †P251.6.2. ", 
+                    "Four brothers.", 
+                    " Types\r\n653, 655."
+                ], 
+                [
+                    "P251.6.3. †P251.6.3. ", 
+                    "Six or seven brothers.", 
+                    "\r\nType 451."
+                ], 
+                [
+                    "P251.6.4. †P251.6.4. ", 
+                    "Eight brothers.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "P251.6.5. †P251.6.5. ", 
+                    "Nine brothers.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P251.6.6. †P251.6.6. ", 
+                    "Eleven brothers.", 
+                    " Type\r\n451; Icelandic: Boberg."
+                ], 
+                [
+                    "P251.6.7. †P251.6.7. ", 
+                    "Twelve brothers.", 
+                    " Type\r\n451."
+                ], 
+                [
+                    "P251.7. †P251.7. ", 
+                    "Older brother has birthright, entitling him to a double\r\nshare.", 
+                    "\r\n(Cf. †P233.11.) Jewish: *Neuman."
+                ], 
+                [
+                    "P251.8. †P251.8. ", 
+                    "Repudiation of relationship of birth between man and his\r\nbad brother.", 
+                    " Africa (Wakweli): Bender 92f."
+                ]
+            ]
+        }, 
+        "230": {
+            "content": [
+                "P230. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "P230.1. †P230.1. ", 
+                    "Mother prefers son, father daughter.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P230.2. †P230.2. ", 
+                    "Mother dislikes her children in forced marriage.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P230.3. †P230.3. ", 
+                    "Queen dislikes son who is unlike her and loves a poor girl:\r\nplots against him.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "236": {
+            "content": [
+                "P236. †P236. ", 
+                "Undutiful children.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P236.1. †P236.1. ", 
+                    "Folly of father’s giving all property to children before\r\nhis death.", 
+                    " They abandon him. *Oesterley\r\nNo. 273; Spanish: Boggs FFC XC 116 No. 980A. Cf. Shakespeare‘s King Lear."
+                ], 
+                [
+                    "P236.2. †P236.2. ", 
+                    "Supposed chest of gold induces children to care for aged\r\nfather.", 
+                    "\r\nThey think that the chest of stones contains the inheritance. *Pauli (ed.\r\nBolte) No. 435; Scala Celi 98b No. 528; Dunlop-Wilson II 185f.; von der Hagen\r\nII lviii No. 49; Hdwb. d. Abergl. IV 1290. --Lithuanian: Balys Index No. 2452*;\r\nSpanish: Boggs FFC XC 116 No. 980A; Italian Novella: *Rotunda; Palestine:\r\nSchmidt-Kahle Volkserzählungen aus Palästina II No. 123; India:\r\n*Thompson-Balys; Indonesia: Jeynball Catalogus Maleische en Sundaneesche Hss.\r\n173, ibid. Supplement Catalogus Javaansche en Madoereesche Hss. 22."
+                ], 
+                [
+                    "P236.3. †P236.3. ", 
+                    "Not daring to curse father directly, son does so\r\nindirectly.", 
+                    " Nouvelles Récréations No. 50."
+                ], 
+                [
+                    "P236.4. †P236.4. ", 
+                    "Son deposes father and usurps throne.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P236.5. †P236.5. ", 
+                    "Undutiful children ridicule father while he is drunk and\r\nnaked.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "P236.6. †P236.6. ", 
+                    "Undutiful son overawes his father by threats.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P236.7. †P236.7. ", 
+                    "Undutiful son taught lesson showing his mother has suffered\r\nfrom him.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "232": {
+            "content": [
+                "P232. †P232. ", 
+                "Mother and daughter.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P232.1. †P232.1. ", 
+                    "Wicked mother and her sons do everything to prevent\r\ndaughter‘s marriage with beloved.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "P232.2. †P232.2. ", 
+                    "Mother lets daughter unwittingly marry own father in order\r\nto avenge his raping.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "233": {
+            "content": [
+                "P233. †P233. ", 
+                "Father and son.", 
+                " Irish\r\nmyth: Cross; Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "P233.1. †P233.1. ", 
+                    "Son as pledge for father who has committed murder.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P233.2. †P233.2. ", 
+                    "Young hero rebuked by his father.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P233.2.1. †P233.2.1. ", 
+                    "Father drives away bad son whom the mother prefers.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P233.3. †P233.3. ", 
+                    "Berserks scold their father who apparently without reason\r\ncalled their adversary invincible.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "P233.3.1. †P233.3.1. ", 
+                    "Hero’s son by giantess scorns his father‘s feebleness:\r\nstill it is the son who is slain.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "P233.4. †P233.4. ", 
+                    "Natural son preferred to legitimate.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P233.5. †P233.5. ", 
+                    "Oldest son responsible to father for welfare of others.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "P233.6. †P233.6. ", 
+                    "Son avenges father.", 
+                    "\r\nEnglish romance: Malory X 21, 34, 36; Icelandic: *Boberg; Jewish: Neuman;\r\nIndia: Thompson-Balys; Africa: Bouveignes 163."
+                ], 
+                [
+                    "P233.7. †P233.7. ", 
+                    "Son must threaten father before he will recognize him as son,\r\neven though he brings ring from his mother.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P233.8. †P233.8. ", 
+                    "Prodigal son returns.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "P233.9. †P233.9. ", 
+                    "Son chastizes father for scorning mother.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "P233.10. †P233.10. ", 
+                    "Father in vision reproves son about to succumb to\r\ntemptation.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "P233.11. †P233.11. ", 
+                    "Birthright transferred by father from the oldest son to\r\nanother.", 
+                    "\r\n(Cf. †P251.7.) Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "237": {
+            "content": [
+                "P237. †P237. ", 
+                "Daughters flogged by parents.", 
+                " Child I 192, II 435, V237a."
+            ], 
+            "child": []
+        }, 
+        "231": {
+            "content": [
+                "P231. †P231. ", 
+                "Mother and son.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P231.1. †P231.1. ", 
+                    "Boy sickens from grief at mother‘s death.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P231.2. †P231.2. ", 
+                    "Son warns mother.", 
+                    "\r\n(Hamlet.) Icelandic: *Boberg."
+                ], 
+                [
+                    "P231.3. †P231.3. ", 
+                    "Mother-love.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P231.4. †P231.4. ", 
+                    "Mother kills sons who lack courage to help her revenge her\r\nfather and brothers, and are likely to betray the plot.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P231.5. †P231.5. ", 
+                    "Mother reveals fact that son is offspring of supernatural\r\nfather.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P231.6. †P231.6. ", 
+                    "Mother (eagle) casts out dull, stupid changeling; rears\r\nbold, energetic son.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P231.7. †P231.7. ", 
+                    "Mother commits suicide when son wants to marry foreigner\r\naccording to foreign rites.", 
+                    " Chinese:\r\nEberhard FFC CXX 267."
+                ]
+            ]
+        }, 
+        "281": {
+            "content": [
+                "P281. †P281. ", 
+                "Stepfather.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P281.1. †P281.1. ", 
+                    "Stepfather as foster father.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P281.2. †P281.2. ", 
+                    "Stepfather murdered.", 
+                    "\r\nIcelandic: Boberg."
+                ]
+            ]
+        }, 
+        "280": {
+            "content": [
+                "P280. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "283": {
+            "content": [
+                "P283. †P283. ", 
+                "Stepbrother.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P283.1. †P283.1. ", 
+                    "Stepbrothers kill devastating monsters.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "282": {
+            "content": [
+                "P282. †P282. ", 
+                "Stepmother.", 
+                " Irish myth: Cross; Missouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "P282.1. †P282.1. ", 
+                    "Realm ruled by stepmother, while king is absent.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P282.2. †P282.2. ", 
+                    "Stepmother mourns her stepsons’ death, not her own son‘s.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P282.3. †P282.3. ", 
+                    "Stepmother in love with stepson.", 
+                    " (Cf. †T418.) Irish myth:\r\nCross; Greek: Euripides Hippolytus; Chinese-Persian: *Coyajee JPASB XXIV 192."
+                ], 
+                [
+                    "P282.3.1. †P282.3.1. ", 
+                    "Love of stepmother who has killed her husband refused.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "284": {
+            "content": [
+                "P284. †P284. ", 
+                "Stepsister.", 
+                " (Cf. †K2212.1.) Icelandic: Boberg; Missouri French: Carrière."
+            ], 
+            "child": []
+        }, 
+        "201": {
+            "content": [
+                "P201. †P201. ", 
+                "Inherent enmity between members of a family.", 
+                " Dickson 100 n. 5."
+            ], 
+            "child": [
+                [
+                    "P201.1. †P201.1. ", 
+                    "Feud between two branches of family.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "200": {
+            "content": [
+                "P200. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "203": {
+            "content": [
+                "P203. †P203. ", 
+                "Game with ancestors‘ bones.", 
+                " A boy interrupts a game played with the bones of his\r\nfather or other murdered relative. N. A. Indian: Kroeber JAFL XXI 225."
+            ], 
+            "child": []
+        }, 
+        "202": {
+            "content": [
+                "P202. †P202. ", 
+                "Person reproached for having no relatives.", 
+                " Irish myth: Cross; Koryak: *Jochelson JE VI 372."
+            ], 
+            "child": []
+        }, 
+        "205": {
+            "content": [
+                "P205. †P205. ", 
+                "Refusal to fight relatives.", 
+                " Hindu: Tawney I 175; Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "263": {
+            "content": [
+                "P263. †P263. ", 
+                "Brother-in-law.", 
+                " (Cf. †K2211.1.)"
+            ], 
+            "child": [
+                [
+                    "P263.1. †P263.1. ", 
+                    "Widower marries wife’s sister.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "262": {
+            "content": [
+                "P262. †P262. ", 
+                "Mother-in-law.", 
+                " Irish\r\nmyth: Cross."
+            ], 
+            "child": [
+                [
+                    "P262.1. †P262.1. ", 
+                    "Bad relations between mother-in-law and daughter-in-law.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "261": {
+            "content": [
+                "P261. †P261. ", 
+                "Father-in-law.", 
+                " India:\r\nThompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "260": {
+            "content": [
+                "P260. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "241": {
+            "content": [
+                "P241. †P241. ", 
+                "Parents descend to hell instead of sons.", 
+                " Irish: O’Suilleabhain 53."
+            ], 
+            "child": [
+                [
+                    "P241.1. †P241.1. ", 
+                    "Pious children save their parents from hell.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "265": {
+            "content": [
+                "P265. †P265. ", 
+                "Son-in-law.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P265.1. †P265.1. ", 
+                    "Idle sons-in-law driven away by gradually reducing their\r\nfood.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "242": {
+            "content": [
+                "P242. †P242. ", 
+                "Children punished for fathers‘ sins.", 
+                " Jewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "290": {
+            "content": [
+                "P290. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "298": {
+            "content": [
+                "P298. †P298. ", 
+                "Niece.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "296": {
+            "content": [
+                "P296. †P296. ", 
+                "Godparents.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P296.1. †P296.1. ", 
+                    "Godfather.", 
+                    " Hdwb. d. Abergl. III 803; Missouri French: Carrière. See also\r\n†N811 and all references and cross-references."
+                ], 
+                [
+                    "P296.2. †P296.2. ", 
+                    "Godmother.", 
+                    null
+                ]
+            ]
+        }, 
+        "297": {
+            "content": [
+                "P297. †P297. ", 
+                "Nephew.", 
+                " *F. B. Gummere\r\nThe Sister’s Son (Oxford, 1901); C. H. Bell The Sister‘s Son in the Mediaeval\r\nGerman Epic (Berkeley, 1922); Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "294": {
+            "content": [
+                "P294. †P294. ", 
+                "Aunt.", 
+                " *Rivers “The\r\nFather‘s Sister in Oceania” FL XXI 42."
+            ], 
+            "child": [
+                [
+                    "P294.1. †P294.1. ", 
+                    "Paternal aunt as aid.", 
+                    "\r\nN. A. Indian (California): Gayton and Newman 82."
+                ]
+            ]
+        }, 
+        "295": {
+            "content": [
+                "P295. †P295. ", 
+                "Cousins.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "292": {
+            "content": [
+                "P292. †P292. ", 
+                "Grandmother.", 
+                " Missouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "P292.1. †P292.1. ", 
+                    "Grandmother as foster mother.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "293": {
+            "content": [
+                "P293. †P293. ", 
+                "Uncle.", 
+                " **W. O.\r\nFarnsworth Uncle and Nephew in the Old French Chansons de Geste (New York, 1913);\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P293.1. †P293.1. ", 
+                    "Mother’s brother as foster father.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P293.2. †P293.2. ", 
+                    "Mother‘s brother as helper.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P293.2.1. †P293.2.1. ", 
+                    "Children take after their mother’s brothers.", 
+                    " Jewish: *Neuman."
+                ], 
+                [
+                    "P293.3. †P293.3. ", 
+                    "Hero killed in fighting with father‘s brother.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P293.4. †P293.4. ", 
+                    "Young prince sent to his father’s mother‘s brother.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P293.5. †P293.5. ", 
+                    "Father’s brother avenged.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "252": {
+            "content": [
+                "P252. †P252. ", 
+                "Sisters.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P252.1. †P252.1. ", 
+                    "Two sisters.", 
+                    " Type 480,\r\n711, 426."
+                ], 
+                [
+                    "P252.1.1. †P252.1.1. ", 
+                    "Sister kills sister.", 
+                    "\r\nIrish myth: Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "P252.2. †P252.2. ", 
+                    "Three sisters.", 
+                    " Types\r\n311--12, 510, 511."
+                ], 
+                [
+                    "P252.3. †P252.3. ", 
+                    "Seven sisters.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P252.4. †P252.4. ", 
+                    "Eight sisters.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "P252.5. †P252.5. ", 
+                    "Nine sisters.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P252.6. †P252.6. ", 
+                    "Ten sisters.", 
+                    "\r\nIcelandic: *Boberg."
+                ], 
+                [
+                    "P252.7. †P252.7. ", 
+                    "Eighteen sisters kill one another.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "291": {
+            "content": [
+                "P291. †P291. ", 
+                "Grandfather.", 
+                " Irish myth: Cross; Missouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "P291.1. †P291.1. ", 
+                    "Grandfather as foster father.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }
+    }, 
+    "P_100_199_Other social orders.": {
+        "151": {
+            "content": [
+                "P151. †P151. ", 
+                "Man so rich that people prefer the dung from his mules over\r\nking‘s gold and silver.", 
+                " Jewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "150": {
+            "content": [
+                "P150. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "191": {
+            "content": [
+                "P191. †P191. ", 
+                "Social status of foreigners.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "190": {
+            "content": [
+                "P190. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "192": {
+            "content": [
+                "P192. †P192. ", 
+                "Madmen (fools, professional fools).", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P192.1. †P192.1. ", 
+                    "Professional fool.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P192.2. †P192.2. ", 
+                    "Fool as clever judge.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P192.3. †P192.3. ", 
+                    "Fool can walk on water.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P192.4. †P192.4. ", 
+                    "Fool can live under water.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P192.5. †P192.5. ", 
+                    "Fool makes friends with birds and beasts.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P192.6. †P192.6. ", 
+                    "Customary to shave heads of demented so that they may be\r\nrecognized as such.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P192.7. †P192.7. ", 
+                    "Fool recognized by lump on his forehead.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "116": {
+            "content": [
+                "P116. †P116. ", 
+                "Minister acts as stepping-stone in midst of flame-filled\r\ntrench so that king can step across from one side to the other.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "111": {
+            "content": [
+                "P111. †P111. ", 
+                "Banished minister found indispensable and recalled.", 
+                " *Chauvin VI 38 No. 207 n. 5; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "110": {
+            "content": [
+                "P110. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "178": {
+            "content": [
+                "P178. †P178. ", 
+                "Slaves freed.", 
+                "\r\nIcelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "P178.1. †P178.1. ", 
+                    "Knocking out a slave‘s tooth entitles him to freedom.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "P178.2. †P178.2. ", 
+                    "Slaves released after definite term.", 
+                    " Jewish: Neuman (seven years)."
+                ]
+            ]
+        }, 
+        "177": {
+            "content": [
+                "P177. †P177. ", 
+                "Origin of thralls.", 
+                "\r\nIcelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "176": {
+            "content": [
+                "P176. †P176. ", 
+                "Murder by slaves.", 
+                "\r\nIcelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "175": {
+            "content": [
+                "P175. †P175. ", 
+                "Slave killed.", 
+                "\r\nIcelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "P175.1. †P175.1. ", 
+                    "Slave hanged.", 
+                    "\r\nIcelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "174": {
+            "content": [
+                "P174. †P174. ", 
+                "Children of slave and free person become slaves.", 
+                " Hawaii: Beckwith Myth 300."
+            ], 
+            "child": []
+        }, 
+        "173": {
+            "content": [
+                "P173. †P173. ", 
+                "Captive king’s sons made slaves.", 
+                " Irish myth: Cross; Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "P173.1. †P173.1. ", 
+                    "Captive king‘s daughter as slave.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P173.2. †P173.2. ", 
+                    "Killed enemy’s son as slave.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "P173.3. †P173.3. ", 
+                    "Captives from battle sold as slaves.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "P173.4. †P173.4. ", 
+                    "Futile attempt to get rid of man by selling him to\r\nmerchants as slave.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "172": {
+            "content": [
+                "P172. †P172. ", 
+                "Requirement that slaves given as tribute should not know\r\nIrish.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "171": {
+            "content": [
+                "P171. †P171. ", 
+                "Branding person makes him one’s slave for life.", 
+                " Wesselski Hodscha Nasreddin II 198 No. 391."
+            ], 
+            "child": [
+                [
+                    "P171.1. †P171.1. ", 
+                    "Slave‘s ear bored.", 
+                    "\r\nJewish: *Neuman."
+                ], 
+                [
+                    "P171.2. †P171.2. ", 
+                    "Bond woman with rope girding her loins.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "170": {
+            "content": [
+                "P170. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "P170.0.1. †P170.0.1. ", 
+                    "Female slaves.", 
+                    " (Cf. †P173.1.) Irish myth: Cross."
+                ], 
+                [
+                    "P170.0.1.1. †P170.0.1.1. ", 
+                    "Female slaves as medium of exchange (unit of value).", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "120": {
+            "content": [
+                "P120. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "160": {
+            "content": [
+                "P160. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "161": {
+            "content": [
+                "P161. †P161. ", 
+                "Beggars’ many children.", 
+                "\r\n*Wesselski Bebel II 131 No. 97, 136 No. 107."
+            ], 
+            "child": []
+        }, 
+        "162": {
+            "content": [
+                "P162. †P162. ", 
+                "Lepers.", 
+                " Irish myth:\r\nCross; Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "P162.1. †P162.1. ", 
+                    "Naked leper.", 
+                    " Irish\r\nmyth: Cross."
+                ]
+            ]
+        }, 
+        "163": {
+            "content": [
+                "P163. †P163. ", 
+                "Beggar rewarded by king for poem (song).", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": []
+        }
+    }, 
+    "P_700_799_Society--miscellaneous motifs.": {
+        "715": {
+            "content": [
+                "P715. †P715. ", 
+                "Particular nations (races).", 
+                null
+            ], 
+            "child": [
+                [
+                    "P715.1. †P715.1. ", 
+                    "Jews.", 
+                    " **Goebel Jüdische Motive in märchenhafte Erzählungsgut (Gleiwitz,\r\n1932) 281--288; Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "721": {
+            "content": [
+                "P721. †P721. ", 
+                "Diseases (plague) invoked to combat overpopulation.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "720": {
+            "content": [
+                "P720. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "711": {
+            "content": [
+                "P711. †P711. ", 
+                "Patriotism.", 
+                " Irish\r\nmyth: Cross; Spanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "P711.1. †P711.1. ", 
+                    "Wolves of his own country dearer than dogs of another.", 
+                    " Pauli (ed. Bolte) No. 420."
+                ], 
+                [
+                    "P711.2. †P711.2. ", 
+                    "Mother of invalided soldier says of his limping: “Every\r\nstep will remind you of your virtue.”", 
+                    "\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "P711.3. †P711.3. ", 
+                    "Common citizen saves the honor of his country.", 
+                    " Gives his own funds. Italian Novella: Rotunda."
+                ], 
+                [
+                    "P711.4. †P711.4. ", 
+                    "Scipio plunges into burning pit to save Rome from\r\ndestruction.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "P711.5. †P711.5. ", 
+                    "Roman undertakes to kill Hannibal.", 
+                    " Kills another by mistake. Burns off his hand for having failed.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "P711.6. †P711.6. ", 
+                    "National unity preserved by expulsion of all foreign\r\nelements.", 
+                    " Jewish: Moreno Esdras, Neuman."
+                ], 
+                [
+                    "P711.7. †P711.7. ", 
+                    "Aristotle rises from sick bed to rush into battle for his\r\ncountry.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "P711.8. †P711.8. ", 
+                    "Aversion to burial in foreign soil.", 
+                    " Irish myth: Cross; Jewish: Neuman."
+                ], 
+                [
+                    "P711.9. †P711.9. ", 
+                    "Patriotism: king learning that nation will triumph whose\r\nking dies in battle, allows self to be killed.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "710": {
+            "content": [
+                "P710. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }
+    }, 
+    "P_600_699_None": {
+        "623": {
+            "content": [
+                "P623. †P623. ", 
+                "Fasting (as a means of distraint).", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P623.0.1. †P623.0.1. ", 
+                    "Fasting against God.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P623.0.1.1. †P623.0.1.1. ", 
+                    "Clerics fast against God for revelation.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P623.0.2. †P623.0.2. ", 
+                    "Fasting against the Devil.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P623.0.3. †P623.0.3. ", 
+                    "Fasting against fairies.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P623.0.4. †P623.0.4. ", 
+                    "Fasting against saints.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "P623.0.5. †P623.0.5. ", 
+                    "Fasting by saints causes tree worshipped by pagans to fall.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P623.0.6. †P623.0.6. ", 
+                    "Fasting to enforce saint‘s dues.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P623.0.7. †P623.0.7. ", 
+                    "Calves not let to cows during fast.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "622": {
+            "content": [
+                "P622. †P622. ", 
+                "Servant must keep horns and hide of his cattle that are\r\nslain.", 
+                "\r\nWesselski Märchen 200."
+            ], 
+            "child": []
+        }, 
+        "621": {
+            "content": [
+                "P621. †P621. ", 
+                "Bridle goes with horse when horse is bought.", 
+                " *Wesselski Märchen 245f.\r\nNo. 55."
+            ], 
+            "child": []
+        }, 
+        "600": {
+            "content": [
+                "P600. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "665": {
+            "content": [
+                "P665. †P665. ", 
+                "Custom: boasting of sexual prowess.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "661": {
+            "content": [
+                "P661. †P661. ", 
+                "Hut for invalid to prevent noxious odor.", 
+                " *Schoepperle 367ff."
+            ], 
+            "child": []
+        }, 
+        "678": {
+            "content": [
+                "P678. †P678. ", 
+                "Pulling out hair as sign of grief.", 
+                " Jewish: Moreno Esdras\r\n(†P673.1)."
+            ], 
+            "child": [
+                [
+                    "P678.1. †P678.1. ", 
+                    "Tearing garments as sign of grief.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "674": {
+            "content": [
+                "P674. †P674. ", 
+                "Old person commits suicide when strength fails.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "613": {
+            "content": [
+                "P613. †P613. ", 
+                "Charon‘s fee: putting coin in dead person’s mouth to pay\r\nfor ferry across Styx.", 
+                " Italian Novella:\r\n*Rotunda."
+            ], 
+            "child": []
+        }, 
+        "631": {
+            "content": [
+                "P631. †P631. ", 
+                "Strangers to be given precedence over man at home.", 
+                " Duke permits visiting duke to go through narrow path\r\nfirst. This sets custom. Pauli (ed. Bolte) No. 515."
+            ], 
+            "child": []
+        }, 
+        "632": {
+            "content": [
+                "P632. †P632. ", 
+                "Customs concerning recognition of rank.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "P632.1. †P632.1. ", 
+                    "Couches provided for men of high rank.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P632.2. †P632.2. ", 
+                    "Cuts of meat distributed according to rank.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P632.2.1. †P632.2.1. ", 
+                    "“The champion’s portion.”", 
+                    " The choicest portion assigned to the bravest at feasts. Irish myth:\r\nCross."
+                ], 
+                [
+                    "P632.3. †P632.3. ", 
+                    "Rank among children recognized by quality of appointments\r\nand food.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P632.4. †P632.4. ", 
+                    "Color worn signifies rank.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P632.4.1. †P632.4.1. ", 
+                    "Precedence shown by position of shield (flag).", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P632.5. †P632.5. ", 
+                    "Long hair prized by Irish heroes.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "633": {
+            "content": [
+                "P633. †P633. ", 
+                "Young not to precede old.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "634": {
+            "content": [
+                "P634. †P634. ", 
+                "Feasts.", 
+                " Irish myth:\r\nCross."
+            ], 
+            "child": [
+                [
+                    "P634.0.1. †P634.0.1. ", 
+                    "Customs connected with eating and food.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "P634.1. †P634.1. ", 
+                    "Feast (hospitality) endures for three days and three\r\nnights.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P634.2. †P634.2. ", 
+                    "Feast (hospitality) endures for seven days and seven\r\nnights.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "612": {
+            "content": [
+                "P612. †P612. ", 
+                "Trumpet blown before house of one sentenced to death.", 
+                " *Crane Vitry 151 No. 42; Spanish Exempla: Keller."
+            ], 
+            "child": []
+        }, 
+        "675": {
+            "content": [
+                "P675. †P675. ", 
+                "Touching head as sign of acceptance of bargain.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "676": {
+            "content": [
+                "P676. †P676. ", 
+                "Feet (legs) seized in supplication.", 
+                " Greek: Iliad XXII 337 and passim; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "677": {
+            "content": [
+                "P677. †P677. ", 
+                "Customs connected with dueling.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P677.1. †P677.1. ", 
+                    "Duel: shooting and catching arrows in turn.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "616": {
+            "content": [
+                "P616. †P616. ", 
+                "Newcomers forced to pass the night with ruling princess.", 
+                " Given sleeping potion. Goods confiscated for failure to\r\nconsummate marriage. Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "617": {
+            "content": [
+                "P617. †P617. ", 
+                "People weep when child is born.", 
+                " They sing and laugh at burials. Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "672": {
+            "content": [
+                "P672. †P672. ", 
+                "Pulling a man’s beard as an insult.", 
+                " E. Hinojosa Homenaje a\r\nMenéndez y Pelayo I 568ff.; R. Menéndez Pidal Cantar del Mio Cid II 498;\r\nItalian Novella: *Rotunda."
+            ], 
+            "child": [
+                [
+                    "P672.1. †P672.1. ", 
+                    "Fur made of beards of conquered kings.", 
+                    " Welsh: MacCulloch Celtic 185."
+                ], 
+                [
+                    "P672.2. †P672.2. ", 
+                    "Cutting off a man’s (woman‘s) hair as an insult.", 
+                    " Irish myth: Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "P672.3. †P672.3. ", 
+                    "Rubbing shaved head of hero with cow dung as insult.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "P672.4. †P672.4. ", 
+                    "Insult: lighting lamp with king’s moustache.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "671": {
+            "content": [
+                "P671. †P671. ", 
+                "Woman veils self as expression of surprise.", 
+                " Chauvin V 149 No. 73 n. 1."
+            ], 
+            "child": []
+        }, 
+        "651": {
+            "content": [
+                "P651. †P651. ", 
+                "Customs concerning bells.", 
+                null
+            ], 
+            "child": [
+                [
+                    "P651.1. †P651.1. ", 
+                    "Bells hung at every corner of ship.", 
+                    " Child IV 462a."
+                ], 
+                [
+                    "P651.2. †P651.2. ", 
+                    "Bells on horse‘s mane.", 
+                    "\r\nChild I 323, II 183--191, 344, IV 410, 413."
+                ], 
+                [
+                    "P651.3. †P651.3. ", 
+                    "Bells rung backward as alarm.", 
+                    " Child III 26."
+                ]
+            ]
+        }, 
+        "673": {
+            "content": [
+                "P673. †P673. ", 
+                "Footwashing as sign of reconciliation.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "611": {
+            "content": [
+                "P611. †P611. ", 
+                "Women meet when bathing.", 
+                "\r\nIcelandic: Snorra Edda Skaldsk. XLI (Nibel), *Boberg; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "641": {
+            "content": [
+                "P641. †P641. ", 
+                "Injured husband will not kill a naked man.", 
+                " Child V 489 s.v. “naked”."
+            ], 
+            "child": []
+        }, 
+        "643": {
+            "content": [
+                "P643. †P643. ", 
+                "With only opponent’s arms.", 
+                " Hero goes to encounter unarmed except for the arms he\r\nwrests from his opponent. Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "642": {
+            "content": [
+                "P642. †P642. ", 
+                "Only the brave to wear beards.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "644": {
+            "content": [
+                "P644. †P644. ", 
+                "Hero unwilling to answer questions before he is dressed.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "681": {
+            "content": [
+                "P681. †P681. ", 
+                "Mourning customs.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "682": {
+            "content": [
+                "P682. †P682. ", 
+                "Greeting customs.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "P682.1. †P682.1. ", 
+                    "Greeting in God‘s name.", 
+                    "\r\nJewish: Neuman."
+                ], 
+                [
+                    "P682.2. †P682.2. ", 
+                    "Voyagers have right to ask landsman first question.", 
+                    " Marquesas: Handy 56, 72."
                 ]
             ]
         }

@@ -800,5 +800,387 @@
                 ]
             ]
         }
+    }, 
+    "U_0_99_None": {
+        "60": {
+            "content": [
+                "U60. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "61": {
+            "content": [
+                "U61. †U61. ", 
+                "Dividing after God‘s fashion: little to poor, much to rich.", 
+                " *Wesselski Hodscha Nasreddin II 233 No. 509, Bebel I 232\r\nNo. 149, Mensa Philosophica No. 63."
+            ], 
+            "child": []
+        }, 
+        "63": {
+            "content": [
+                "U63. †U63. ", 
+                "Priest has no friends until he becomes bishop: then they\r\nflock to him.", 
+                " Pauli (ed. Bolte) No. 421."
+            ], 
+            "child": []
+        }, 
+        "65": {
+            "content": [
+                "U65. †U65. ", 
+                "Wealth is relative: beggar with horse, wife, or dog\r\nconsidered rich by poorer beggar.", 
+                " Pauli\r\n(ed. Bolte) No. 612."
+            ], 
+            "child": [
+                [
+                    "U65.1. †U65.1. ", 
+                    "Grass serves as pleasant couch for poor.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "66": {
+            "content": [
+                "U66. †U66. ", 
+                "Every man has his price.", 
+                null
+            ], 
+            "child": [
+                [
+                    "U66.1. †U66.1. ", 
+                    "Every woman has her price.", 
+                    null
+                ], 
+                [
+                    "U66.1.1. †U66.1.1. ", 
+                    "Bid raised for queen’s favors until she hesitates.", 
+                    " Jester replies, “If a man have goods enough, he might have\r\na sovereign lady.” England, U.S.: *Baughman."
+                ]
+            ]
+        }, 
+        "67": {
+            "content": [
+                "U67. †U67. ", 
+                "Jester takes cow and tells king people have plenty of milk,\r\nfor “he who is warm thinks everyone else is.”", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "68": {
+            "content": [
+                "U68. †U68. ", 
+                "Optimist becomes pessimist when his money is stolen.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "83": {
+            "content": [
+                "U83. †U83. ", 
+                "King in exile neglected, but courted when he regains throne.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "81": {
+            "content": [
+                "U81. †U81. ", 
+                "Great possessions bring great risks.", 
+                " Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "U81.1. †U81.1. ", 
+                    "Dove‘s pride in her large brood linked with fear for their\r\nloss.", 
+                    " Wienert FFC LVI 44 (ET 21), 141 (ST\r\n470); Halm Aesop No. 358."
+                ]
+            ]
+        }, 
+        "84": {
+            "content": [
+                "U84. †U84. ", 
+                "Price of object depends on where it is on sale.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "25": {
+            "content": [
+                "U25. †U25. ", 
+                "Theft to avoid starvation forgiven.", 
+                " *Chauvin II 126 No. 128."
+            ], 
+            "child": []
+        }, 
+        "27": {
+            "content": [
+                "U27. †U27. ", 
+                "Swallow killed in court house by snake laments injustice in\r\nhouse of justice.", 
+                " Wienert FFC LVI 50 (ET\r\n100), 140 (ST 464); Halm No. 418."
+            ], 
+            "child": []
+        }, 
+        "21": {
+            "content": [
+                "U21. †U21. ", 
+                "Justice depends on the point of view.", 
+                null
+            ], 
+            "child": [
+                [
+                    "U21.1. †U21.1. ", 
+                    "Hen complains that man eats her, but she eats ant.", 
+                    " Indonesia: DeVries’s list No. 101."
+                ], 
+                [
+                    "U21.2. †U21.2. ", 
+                    "A gift of property silences criticism.", 
+                    " A priest who has preached against lucrative places given\r\nthe clergy is silent when he receives one. Pauli (ed. Bolte) No. 546."
+                ], 
+                [
+                    "U21.3. †U21.3. ", 
+                    "Man complains of injustice of gods‘ wrecking ship because\r\nof one man’s sin.", 
+                    " He then kills whole\r\nswarm of ants because one has stung him. Wienert FFC LVI 77 (ET 429), 103 (ST\r\n161); Halm No. 118; Irish: O‘Suilleabhain 11, Beal XXI 305."
+                ], 
+                [
+                    "U21.4. †U21.4. ", 
+                    "Wolf objects to lion stealing sheep from him although he\r\nhas himself stolen it.", 
+                    " Wienert FFC LVI 55\r\n(ET 148), 129 (ST 366); Halm No. 279."
+                ], 
+                [
+                    "U21.5. †U21.5. ", 
+                    "Judge reduces penalty when accused is his own son.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "42": {
+            "content": [
+                "U42. †U42. ", 
+                "Praise what your master likes and scorn what he dislikes.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "41": {
+            "content": [
+                "U41. †U41. ", 
+                "Ruler forces bishop to ordain ignorant priest.", 
+                " Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "0": {
+            "content": [
+                "U0. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "12": {
+            "content": [
+                "U12. †U12. ", 
+                "Largest burdens laid on smallest asses: best offices to\r\nmost ignorant men.", 
+                " *Wesselski Bebel II 121\r\nNo. 64."
+            ], 
+            "child": []
+        }, 
+        "71": {
+            "content": [
+                "U71. †U71. ", 
+                "Man so constantly enriched by God that he cannot give all\r\nhis goods to the poor.", 
+                " Herbert III 7;\r\nCrane Vitry 175 No. 97."
+            ], 
+            "child": []
+        }, 
+        "11": {
+            "content": [
+                "U11. †U11. ", 
+                "Small trespasses punished; large crimes condoned.", 
+                null
+            ], 
+            "child": [
+                [
+                    "U11.1. †U11.1. ", 
+                    "Ass punished for stealing mouthful of grass; lion and wolf\r\nforgiven for eating sheep.", 
+                    " Wesselski Mönchslatein 71 No. 61."
+                ], 
+                [
+                    "U11.1.1. †U11.1.1. ", 
+                    "Animals confess sins to one another: fox and wolf forgive\r\neach other; punish ass.", 
+                    " (Cf. †V20.) *Pauli (ed. Bolte) No. 350."
+                ], 
+                [
+                    "U11.1.1.1. †U11.1.1.1. ", 
+                    "Animals confess sins to lion holding court.", 
+                    " All the powerful animals forgiven. Ass and lamb are\r\npunished. Italian Novella: Rotunda."
+                ], 
+                [
+                    "U11.1.1.2. †U11.1.1.2. ", 
+                    "Penitent in confession worries about little sins and\r\nbelittles the big ones.", 
+                    " *Wesselski Arlotto\r\nI 191 No. 17; Italian Novella: Rotunda."
+                ], 
+                [
+                    "U11.2. †U11.2. ", 
+                    "He who steals much called king; he who steals little called\r\nrobber.", 
+                    " *Pauli (ed. Bolte) No. 351; Scala\r\nCeli 20a No. 120; Alphabet No. 334; Spanish Exempla: Keller."
+                ], 
+                [
+                    "U11.2.1. †U11.2.1. ", 
+                    "Wolf punished for theft; kings honored.", 
+                    " Wesselski Bebel II 126 No. 82."
+                ]
+            ]
+        }, 
+        "10": {
+            "content": [
+                "U10. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "38": {
+            "content": [
+                "U38. †U38. ", 
+                "Ruler exiles subject for trivial remark.", 
+                " Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "15": {
+            "content": [
+                "U15. †U15. ", 
+                "Fool laughs at the absurdities he sees about him.", 
+                " (1) Sees a man who is to\r\ndie that day buy shoes. (2) Sees sheriff leading a man to the gallows: a big\r\nthief leading a little one. (3) Sees farmer weeping at funeral of his child,\r\nwhile priest (the real father) sings. Wesselski Mönchslatein 193 No. 153."
+            ], 
+            "child": [
+                [
+                    "U15.0.1. †U15.0.1. ", 
+                    "Dwarf king (fairy) laughs at the absurdities he sees about\r\nhim.", 
+                    " (1)\r\nSees man who is to die that day complain that his shoes are too thin. (Cf.\r\n†J2174.) (2) Sees women adorn their heads when they are immoral below. (Cf.\r\n†J2050.) (3) Sees man remove from his wife’s garment dust gathered\r\nwhile she lay with another man. (Cf. †J2301.3.) (4) Sees persons making plans\r\nwhile forgetting to say, “If God wills.” Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "U15.1. †U15.1. ", 
+                    "Philosopher laughs at the vanities and sins of the world.", 
+                    " His companion weeps. Spanish: Childers."
+                ]
+            ]
+        }, 
+        "14": {
+            "content": [
+                "U14. †U14. ", 
+                "Unworthy rewarded instead of the worthy.", 
+                " Italian Novella: *Rotunda."
+            ], 
+            "child": []
+        }, 
+        "33": {
+            "content": [
+                "U33. †U33. ", 
+                "Cock killed by his captors in spite of his plea of\r\nusefulness to man.", 
+                " Wienert FFC LVI 49, 64\r\n(ET 88, 280, 281), 146, 148 (ST 514, 527, 528); Halm Aesop Nos. 14, 195, 341."
+            ], 
+            "child": []
+        }, 
+        "32": {
+            "content": [
+                "U32. †U32. ", 
+                "Smallness of offense no excuse when hunter prepares to kill\r\nlark.", 
+                " She has stolen but a single grain of\r\nwheat. Wienert FFC LVI 64 (ET 273), 146 (ST 513); Halm Aesop No. 209."
+            ], 
+            "child": []
+        }, 
+        "31": {
+            "content": [
+                "U31. †U31. ", 
+                "Wolf unjustly accuses lamb and eats him.", 
+                " When all the lamb’s defenses are good the wolf asserts the right of the strong over\r\nthe weak. (Usually accused of stirring up water from lower in stream.) (Cf.\r\n†U141.) Wienert FFC LVI 50 (ET 97), 148 (ST 526); Halm Aesop No. 274; *Crane\r\nVitry 191 No. 135; Herbert III 12; Alphabet No. 631; Jacobs Aesop 199 No. 2;\r\nItalian Novella: Rotunda; Indonesia: DeVries‘s\r\nlist No. 83 (monkey and goat)."
+            ], 
+            "child": [
+                [
+                    "U31.1. †U31.1. ", 
+                    "Cat unjustly accuses cock and eats him.", 
+                    " Although all the cock’s defenses are good the cat tells\r\nhim that she can no longer go hungry and eats him. Italian Novella: Rotunda."
+                ], 
+                [
+                    "U31.2. †U31.2. ", 
+                    "Crow exercises rights of strong over dove who cannot defend\r\nself.", 
+                    " Dove at crow‘s request sings to save\r\nher brood which crow kills after song. Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "30": {
+            "content": [
+                "U30. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "37": {
+            "content": [
+                "U37. †U37. ", 
+                "Wolf as commander orders all booty divided, but keeps his\r\nown.", 
+                " Wienert FFC LVI 47 (ET 58), 103 (ST\r\n157); Halm Aesop No. 281."
+            ], 
+            "child": []
+        }, 
+        "36": {
+            "content": [
+                "U36. †U36. ", 
+                "Lion cub killed by bull gives lioness no right to complain.", 
+                " Wienert FFC LVI 50 (ET 92), 129 (ST 367); Halm Aesop No.\r\n395."
+            ], 
+            "child": []
+        }, 
+        "35": {
+            "content": [
+                "U35. †U35. ", 
+                "Rich man (king) seizes poor widow’s (nun‘s) cow.", 
+                " Herbert III 40ff. No. 39; Hervieux IV No. 40; Irish myth:\r\n*Cross."
+            ], 
+            "child": [
+                [
+                    "U35.1. †U35.1. ", 
+                    "King seizes old woman’s cow.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "U35.1.1. †U35.1.1. ", 
+                    "King seizes poor man‘s lamb.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "U35.2. †U35.2. ", 
+                    "Nobles ruin peasant’s (widow‘s) crops with impunity.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "34": {
+            "content": [
+                "U34. †U34. ", 
+                "Nobleman murders one of the people.", 
+                " Goes unpunished. Italian Novella: Rotunda."
+            ], 
+            "child": [
+                [
+                    "U34.1. †U34.1. ", 
+                    "Nobleman who kills one of the people is brought to justice\r\nonly after long delay.", 
+                    " Italian Novella:\r\nRotunda."
+                ]
+            ]
+        }, 
+        "18": {
+            "content": [
+                "U18. †U18. ", 
+                "The fathers have eaten sour grapes and the children‘s teeth\r\nare set on edge.", 
+                " Jewish: Neuman."
+            ], 
+            "child": []
+        }
     }
 }
