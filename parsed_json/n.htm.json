@@ -1,0 +1,656 @@
+{
+    "N_800_899_None": {
+        "886": {
+            "content": [
+                "N886. †N886. ", 
+                "Blind man carries lame man.", 
+                " They thus combine and are able to get along. *Type 519;\r\n*Wesselski Arlotto II 255 n. 1; Herbert III 192; Oesterley No. 71; Scala Celi\r\n23b No. 151. -- Irish: MacCulloch Celtic 68, *Cross; Jewish: *Neuman; India:\r\n*Thompson-Balys; Philippine: Fansler MAFLS XII 53; N. A. Indian (Navaho):\r\nAlexander N. Am. 174."
+            ], 
+            "child": [
+                [
+                    "N886.1. †N886.1. ", 
+                    "Hunchback leads blind man.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "884": {
+            "content": [
+                "N884. †N884. ", 
+                "Robber as helper.", 
+                " West\r\nAfrica: Nassau Fetischism in West Africa (London, 1904) No. 2."
+            ], 
+            "child": [
+                [
+                    "N884.1. †N884.1. ", 
+                    "Robber helps king.", 
+                    "\r\n*Type 952; *BP III 450ff.; India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "854": {
+            "content": [
+                "N854. †N854. ", 
+                "Peasant as helper.", 
+                " Icelandic: Ásmundar saga Kappabana 472, Boberg."
+            ], 
+            "child": [
+                [
+                    "N854.1. †N854.1. ", 
+                    "Peasant as foster father.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "855": {
+            "content": [
+                "N855. †N855. ", 
+                "Helpful smith.", 
+                " Missouri French: Carrière."
+            ], 
+            "child": [
+                [
+                    "N855.1. †N855.1. ", 
+                    "Smith as foster father.", 
+                    " *Von Sydow Sigurds strid med Fåvne 19ff.;\r\nIcelandic: Boberg."
+                ]
+            ]
+        }, 
+        "856": {
+            "content": [
+                "N856. †N856. ", 
+                "Helpful forester.", 
+                "\r\nEnglish: Wells 96 (Chevalere Assigne)."
+            ], 
+            "child": [
+                [
+                    "N856.1. †N856.1. ", 
+                    "Forester as foster father.", 
+                    " *Type 652; BP II 121ff., *122; Icelandic: Boberg."
+                ], 
+                [
+                    "N856.2. †N856.2. ", 
+                    "Cowherd as foster father.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "857": {
+            "content": [
+                "N857. †N857. ", 
+                "Enemy’s servant as helper.", 
+                " Italian Novella: Rotunda."
+            ], 
+            "child": []
+        }, 
+        "836": {
+            "content": [
+                "N836. †N836. ", 
+                "King as helper.", 
+                "\r\nSpanish Exempla: Keller."
+            ], 
+            "child": [
+                [
+                    "N836.1. †N836.1. ", 
+                    "King adopts hero (heroine).", 
+                    " English: Wells 8 (King Horn), 11 (Horn Childe and Maiden\r\nRimnild), 17 (Reinbrun, Gy sone of Warwike), 20 (William of Palerne), 115 (Sir\r\nEglamour of Artois), 117 (Sir Torrent of Portyngale); Icelandic: Boberg; India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "N836.2. †N836.2. ", 
+                    "Each of four kings does something to save dying falcon.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "N836.3. †N836.3. ", 
+                    "King helps princes in exile to avenge their father and take\r\ntheir homeland back.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "851": {
+            "content": [
+                "N851. †N851. ", 
+                "Merchant as helper.", 
+                "\r\nMalone PMLA XLIII 409; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "852": {
+            "content": [
+                "N852. †N852. ", 
+                "Soldier as helper.", 
+                " Cheremis:\r\nSebeok-Nyerges."
+            ], 
+            "child": []
+        }, 
+        "835": {
+            "content": [
+                "N835. †N835. ", 
+                "Wealthy (powerful) man as helper.", 
+                " French Canadian: Barbeau JAFL XXIX 14."
+            ], 
+            "child": []
+        }, 
+        "838": {
+            "content": [
+                "N838. †N838. ", 
+                "Hero (culture hero) as helper.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "818": {
+            "content": [
+                "N818. †N818. ", 
+                "Sky as helper.", 
+                " Africa\r\n(Thonga): Junod 266ff."
+            ], 
+            "child": [
+                [
+                    "N818.1. †N818.1. ", 
+                    "Sun as helper.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "819": {
+            "content": [
+                "N819. †N819. ", 
+                "Supernatural helpers--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N819.1. †N819.1. ", 
+                    "Immortal as helper.", 
+                    "\r\nChinese: Graham."
+                ], 
+                [
+                    "N819.2. †N819.2. ", 
+                    "Transformed person as helper.", 
+                    " Chinese: Graham."
+                ], 
+                [
+                    "N819.2.1. †N819.2.1. ", 
+                    "Transformed mother as helper.", 
+                    " Chinese: Graham."
+                ], 
+                [
+                    "N819.3. †N819.3. ", 
+                    "Helpful vital heads.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "N819.3.1. †N819.3.1. ", 
+                    "Helpful speaking skull.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "N819.4. †N819.4. ", 
+                    "Supernatural medicine-man as helper.", 
+                    " S. A. Indian\r\n(Tupenamba): Métraux RMLP XXXIII 168."
+                ]
+            ]
+        }, 
+        "810": {
+            "content": [
+                "N810. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "N810.1. †N810.1. ", 
+                    "Invisible guardians.", 
+                    "\r\nHindu: Tawney I 193, 544; Icelandic: *Boberg."
+                ], 
+                [
+                    "N810.2. †N810.2. ", 
+                    "Helper‘s beard and eyebrows cut.", 
+                    " Only after hero has performed this service is help\r\nforthcoming. *BP II 392."
+                ], 
+                [
+                    "N810.3. †N810.3. ", 
+                    "Hero’s divine father as helper.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "N810.4. †N810.4. ", 
+                    "Supernatural helper comes from sky.", 
+                    " Korean: Zong in-Sob 65 No. 35."
+                ], 
+                [
+                    "N810.5. †N810.5. ", 
+                    "Supernatural person disguised as servant as helper.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "N810.6. †N810.6. ", 
+                    "Saint disguised (as poor man) as helper.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "811": {
+            "content": [
+                "N811. †N811. ", 
+                "Supernatural godfather.", 
+                "\r\nA king chooses as the godfather of his son the first man he meets. The\r\ngodfather proves to be supernatural. *Type 652; *BP I 377ff., II 121ff., III\r\n18."
+            ], 
+            "child": []
+        }, 
+        "812": {
+            "content": [
+                "N812. †N812. ", 
+                "Giant or ogre as helper.", 
+                " *Types 531, 709; Böklen 84ff.; BP III\r\n18ff.; Malone PMLA XLIII 412; Irish myth: *Cross; Missouri French: Carrière;\r\nIndia: *Thompson-Balys; Eskimo (Bering Strait): Nelson RBAE XVIII 471; Africa\r\n(Zulu): Callaway 44, (Benga): Nassau 208ff."
+            ], 
+            "child": [
+                [
+                    "N812.0.1. †N812.0.1. ", 
+                    "Giant‘s help secured by feeding him.", 
+                    " *Type 531; BP III 18ff."
+                ], 
+                [
+                    "N812.1. †N812.1. ", 
+                    "Wise giant as foster father of hero.", 
+                    " Icelandic: Olrik Sakses Oldhistorie I (1892) 40ff.,\r\n*Boberg."
+                ], 
+                [
+                    "N812.2. †N812.2. ", 
+                    "Giantess as foster mother and helper of hero.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "N812.3. †N812.3. ", 
+                    "Grateful giantess as helper.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "N812.4. †N812.4. ", 
+                    "Giantess helps the man she loves.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "N812.5. †N812.5. ", 
+                    "Monster grateful to hero for being spared becomes helpful.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "N812.6. †N812.6. ", 
+                    "Ogre magically produces water for caravan.", 
+                    " Buddhist myth: Malalasekera I 15."
+                ], 
+                [
+                    "N812.7. †N812.7. ", 
+                    "Chief with three supernatural ogre helpers.", 
+                    " Marquesas: Handy 76."
+                ]
+            ]
+        }, 
+        "813": {
+            "content": [
+                "N813. †N813. ", 
+                "Helpful genie (spirit).", 
+                " *Types 561, 562; *Aarne MSFO XXV 3--82; *BP\r\nII 535ff., 547ff.; *Fischer-Bolte 215.--Missouri French: Carrière; India:\r\n*Thompson-Balys; Buddhist myth: Malalasekera II 1302; Chinese: Eberhard FFC CXX\r\n182; Philippine (Tinguian): Cole 67, 140, 142; Samoa: Beckwith Myth 438, 442;\r\nEaster Island: Métraux Ethnology 319, 369, 375; Tuamotu: Stimson MS (z-G. 3/1007, 13/174, 221), Henry Ancient Tahiti (Honolulu, 1928) 520f., Beckwith\r\nMyth 450; S. A. Indian (Mura): Métraux MAFLS XL 36; Africa (Fang): Tessman 194."
+            ], 
+            "child": []
+        }, 
+        "814": {
+            "content": [
+                "N814. †N814. ", 
+                "Helpful angel.", 
+                " Hdwb. d. Märchens I 535b; Irish myth: Cross; Jewish: *Neuman;\r\nIndia: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N814.1. †N814.1. ", 
+                    "Man carried through air by angel.", 
+                    " Icelandic: Boberg; Jewish: bin Gorion Born Judas I 117,\r\n374."
+                ]
+            ]
+        }, 
+        "815": {
+            "content": [
+                "N815. †N815. ", 
+                "Fairy as helper.", 
+                " Irish\r\nmyth: *Cross; Icelandic: *Boberg; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N815.0.1. †N815.0.1. ", 
+                    "Helpful tree-spirit.", 
+                    " (Cf. †F441.2.) India: Thompson-Balys;\r\nBuddhist myth: Malalasekera I 534."
+                ], 
+                [
+                    "N815.0.2. †N815.0.2. ", 
+                    "Helpful water-spirit.", 
+                    " (Cf. †F420.) India: Thompson-Balys."
+                ], 
+                [
+                    "N815.0.2.1. †N815.0.2.1. ", 
+                    "Gift of gold bracelet from river goddess.", 
+                    " (Cf. †A4215.1.) India:\r\nThompson-Balys."
+                ], 
+                [
+                    "N815.1. †N815.1. ", 
+                    "Fairy nurse as helper.", 
+                    "\r\nIrish myth: Cross."
+                ]
+            ]
+        }, 
+        "816": {
+            "content": [
+                "N816. †N816. ", 
+                "Santa Claus as bringer of Christmas gifts.", 
+                " *Hoffman-Krayer Zs. f. Vksk. XXV 121 nn. 7--9."
+            ], 
+            "child": []
+        }, 
+        "817": {
+            "content": [
+                "N817. †N817. ", 
+                "Deity as helper.", 
+                "\r\nGreek: Iliad and Odyssey passim; India: *Thompson-Balys; Buddhist myth:\r\nMalalasekera I 840, II 504."
+            ], 
+            "child": [
+                [
+                    "N817.0.1. †N817.0.1. ", 
+                    "God as helper.", 
+                    " Irish\r\nmyth: *Cross; Jewish: *Neuman; Hawaii: Beckwith Myth 22, 111, 174."
+                ], 
+                [
+                    "N817.0.2. †N817.0.2. ", 
+                    "Goddess as helper.", 
+                    "\r\nGreek: Grote I 54; Buddhist myth: Malalasekera II 979."
+                ], 
+                [
+                    "N817.1. †N817.1. ", 
+                    "Gods discuss means of settling dispute among girl’s\r\nsuitors.", 
+                    " Venus has girl make her own\r\nchoice. Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "832": {
+            "content": [
+                "N832. †N832. ", 
+                "Boy as helper.", 
+                " (Cf. †N827). Cheremis: Sebeok-Nyerges."
+            ], 
+            "child": [
+                [
+                    "N832.1. †N832.1. ", 
+                    "Boy as mysterious housekeeper for buffalo herd.", 
+                    " (Cf. †H831.1.) India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "N832.2. †N832.2. ", 
+                    "Sons as helpers.", 
+                    " Type\r\n551; Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "826": {
+            "content": [
+                "N826. †N826. ", 
+                "Help from beggar.", 
+                " (Cf. †N825.3.1.) *Type 531; Fb “tigger”\r\nIII 794b; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "831": {
+            "content": [
+                "N831. †N831. ", 
+                "Girl as helper.", 
+                " Types 311, 313; Dickson 52f.; Tobler Epiphanie der Seele 71;\r\nMissouri French: Carrière; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N831.1. †N831.1. ", 
+                    "Mysterious housekeeper.", 
+                    " Men find their house mysteriously put in\r\norder. Discover that it is done by a girl (frequently an animal transformed\r\ninto a girl). *Type 709; **Böklen Sneewittchenstudien 89ff.; MacCulloch\r\nChildhood 261; *BP I 450ff.; Hatt Asiatic Influences 96--102. -- Breton:\r\nSébillot Incidents s.v. “menage”; Missouri French:\r\nCarrière; Spanish: Espinosa Jr. Nos. 71--74, 81, Espinosa II No. 114, Boggs FFC\r\nXC 48 No. 327D*; Italian: Basile Pentamerone IV No. 6; India: *Thompson-Balys;\r\nChinese: Graham; Korean: Zong in-Sob 30; Indonesia: DeVries‘s list No. 152, Dixon 218; New Britain, Philippine,\r\nMelanesia: Dixon 110 n. 25, 224 nn. 27, 28; Philippine (Tinguian): Cole 34;\r\nEskimo (Kodiak): Golder JAFL XVI 88, (West Hudson Bay): Boas BAM XV 223; N.A.\r\nIndian: *Thompson Tales 335 n. 207; S. A. Indian: *Jijena Sanchez 23,\r\n(Surinam): Alexander Lat. Am. 274; Africa (Ekoi): Talbot 134, 136, (Basuto):\r\nJacottet 110 No. 16, (Kaffir): Theal 74, (Congo): Weeks 215 No. 11, (Zulu):\r\nCallaway 124."
+                ], 
+                [
+                    "N831.1.1. †N831.1.1. ", 
+                    "Mysterious housekeeper is fairy mistress.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "827": {
+            "content": [
+                "N827. †N827. ", 
+                "Child as helper.", 
+                " (Cf. †N832.) Spanish: Boggs FFC XC 105 No. 860; Chinese: Graham;\r\nKorean: Zong in-Sob 47."
+            ], 
+            "child": []
+        }, 
+        "837": {
+            "content": [
+                "N837. †N837. ", 
+                "Queen as helper.", 
+                "\r\nIcelandic: Boberg; India: Thompson-Balys; Africa (Zulu): Callaway 239."
+            ], 
+            "child": []
+        }, 
+        "847": {
+            "content": [
+                "N847. †N847. ", 
+                "Prophet as helper.", 
+                " Moreno Esdras (†N829); Irish myth: Cross; Jewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "846": {
+            "content": [
+                "N846. †N846. ", 
+                "Cleric as helper.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N846.1. †N846.1. ", 
+                    "Palmer as helper.", 
+                    "\r\nDickson 63."
+                ], 
+                [
+                    "N846.2. †N846.2. ", 
+                    "Priest as helper.", 
+                    "\r\nTuamotu: Stimson MS (z-G. 3/1174)."
+                ]
+            ]
+        }, 
+        "845": {
+            "content": [
+                "N845. †N845. ", 
+                "Magician as helper.", 
+                "\r\nDickson 121 n. 64; Lithuanian: Balys Index No. 3669, Legends No. 621; India:\r\n*Thompson-Balys; Tuamotu: Stimson MS (z-G. 3/1386, 13/203, 317)."
+            ], 
+            "child": []
+        }, 
+        "844": {
+            "content": [
+                "N844. †N844. ", 
+                "Dervish as helper.", 
+                "\r\nMalone PMLA XLIII 400."
+            ], 
+            "child": [
+                [
+                    "N844.1. †N844.1. ", 
+                    "Sadhu as helper.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "N844.2. †N844.2. ", 
+                    "Fakir as helper.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "843": {
+            "content": [
+                "N843. †N843. ", 
+                "Hermit as helper.", 
+                "\r\nIrish myth: Cross; Icelandic: Boberg; English: Wells 66 (Ywain and Gawain);\r\nSpanish: Boggs FFC XC 70 No. 535, Espinosa Jr. Nos. 129, 139; India:\r\n*Thompson-Balys; Hindu: Tawney I 486, II 146."
+            ], 
+            "child": []
+        }, 
+        "842": {
+            "content": [
+                "N842. †N842. ", 
+                "Cook as helper.", 
+                null
+            ], 
+            "child": [
+                [
+                    "N842.1. †N842.1. ", 
+                    "Cook as foster father.", 
+                    "\r\nArabian: Burton I 226."
+                ]
+            ]
+        }, 
+        "841": {
+            "content": [
+                "N841. †N841. ", 
+                "Shepherd as helper.", 
+                "\r\nSpanish: Boggs FFC XC 54 No. 405A*, Espinosa Jr. No. 215; Chinese: Graham."
+            ], 
+            "child": []
+        }, 
+        "861": {
+            "content": [
+                "N861. †N861. ", 
+                "Foundling helper.", 
+                " Type 516; Rösch FFC LXXVII 96; Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "863": {
+            "content": [
+                "N863. †N863. ", 
+                "Slave (swineherd) as helper of princess.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "864": {
+            "content": [
+                "N864. †N864. ", 
+                "Leper as helper.", 
+                " Irish\r\nmyth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "848": {
+            "content": [
+                "N848. †N848. ", 
+                "Saint (pious man) as helper.", 
+                " Irish myth: *Cross; Icelandic: *Boberg; Jewish: Neuman;\r\nIndia: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "N848.0.1. †N848.0.1. ", 
+                    "Holy man as helper.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "N848.1. †N848.1. ", 
+                    "Hero ransoms maltreated picture of a saint.", 
+                    " As reward he gets help from the grateful saint.\r\nLithuanian: Balys Index No. 506C*."
+                ], 
+                [
+                    "N848.2. †N848.2. ", 
+                    "A wise man (saint, brahmin) recognizes that a man\r\nunwittingly carries a venomous serpent in his proviant sack and warns him.", 
+                    " Krappe Moyen Age (1937) No. 4."
+                ]
+            ]
+        }, 
+        "828": {
+            "content": [
+                "N828. †N828. ", 
+                "Wise woman as helper.", 
+                "\r\nItalian: Basile Pentamerone V No. 3."
+            ], 
+            "child": []
+        }, 
+        "825": {
+            "content": [
+                "N825. †N825. ", 
+                "Old person as helper.", 
+                "\r\nSpanish: Espinosa II Nos. 99--103, 119--121, 126--132."
+            ], 
+            "child": [
+                [
+                    "N825.1. †N825.1. ", 
+                    "Childless old couple adopt hero.", 
+                    " Malone: PMLA XLIII 399."
+                ], 
+                [
+                    "N825.2. †N825.2. ", 
+                    "Old man helper.", 
+                    " *Types 307, 329, 480, 512*; *BP III 365ff., 534ff.; *Chauvin VI\r\n109 No. 273 n. 1; Roberts 150. -- Irish myth: Cross; Missouri French: Carrière;\r\nSpanish: Espinosa II Nos. 75, 99 --103, 138f.; India: *Thompson-Balys; Chinese:\r\nGraham; Japanese: Ikeda; Tuamotu: Stimson MS (z-G. 13/174); Hawaii: Beckwith Myth 461; N. A. Indian (Seneca):\r\nCurtin-Hewitt RBAE XXXII 88 No. 4; Africa (Kaffir): Theal 83."
+                ], 
+                [
+                    "N825.3. †N825.3. ", 
+                    "Old woman helper.", 
+                    " *Types 316, 400, 480, 707; *BP II 380ff., 466; *Cosquin Études\r\n563; Hdwb. d. Märchens I s.v. “Alte im Walde”; Roberts 150. -- Irish\r\nmyth: *Cross; Icelandic: *Boberg; Finnish: Kalevala rune 7; Breton: Sébillot\r\nIncidents s.v. “vieille”; Missouri French:\r\nCarrière; Italian: Basile Pentamerone V No. 9, Rotunda; Spanish: Espinosa II\r\nNos. 99--103, 126--132, Espinosa Jr. Nos. 107, 109; India: *Thompson-Balys;\r\nKorean: Zong in-Sob 63, 166; Polynesia (general): Beckwith Myth chapt. 17\r\npassim; Hawaii: ibid. 257--264, 491; Tahiti: ibid. 251; Tonga: Gifford 156;\r\nMaori: Dixon 59; Eskimo (Greenland): Rasmussen II 162; N. A. Indian: *Thompson\r\nTales 327 n. 180; Africa: Werner African 233, (Ekoi): Talbot 18, 207, 235, 364,\r\n(Basuto): Jacottet 118 No. 17, 142 No. 20, 204\r\nNo. 30, 226 No. 33, (Kaffir): Theal 48ff., 82, 145, (Zanzibar): Bateman 128 No.\r\n7, (Angola): Chatelain 47 No. 1, 57 No. 2, 93 No. 5, (Zulu): Callaway 217."
+                ], 
+                [
+                    "N825.3.1. †N825.3.1. ", 
+                    "Help from old beggar woman.", 
+                    " *Hdwb. d. Märchens I\r\n248b; BP III 206 (Grimm No. 150.)"
+                ], 
+                [
+                    "N825.3.2. †N825.3.2. ", 
+                    "Old woman by spring as helper.", 
+                    " *Type 480; Roberts 151; Italian: Basile Pentamerone IV No.\r\n7."
+                ], 
+                [
+                    "N825.3.3. †N825.3.3. ", 
+                    "Help from grandmother.", 
+                    "\r\nN. A. Indian (California): Gayton and Newman 69."
+                ]
+            ]
+        }, 
+        "801": {
+            "content": [
+                "N801. †N801. ", 
+                "Helper grateful for being bought from slavery.", 
+                " Type 516; Rösch FFC\r\nLXXVII 97."
+            ], 
+            "child": []
+        }, 
+        "800": {
+            "content": [
+                "N800. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "821": {
+            "content": [
+                "N821. †N821. ", 
+                "Help from little man.", 
+                "\r\n*Types 513B, 570; *BP III 267ff."
+            ], 
+            "child": []
+        }, 
+        "820": {
+            "content": [
+                "N820. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "822": {
+            "content": [
+                "N822. †N822. ", 
+                "Lame boy (girl) as helper.", 
+                " Africa (Ekoi): Talbot 35, 58, 248, 280."
+            ], 
+            "child": []
+        }
+    }
+}

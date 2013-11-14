@@ -1,0 +1,416 @@
+{
+    "C_500_549_Tabu: touching.": {
+        "524": {
+            "content": [
+                "C524.\r\n†C524. ", 
+                "Tabu: disembarking\r\nfrom boat on return from other world.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "525": {
+            "content": [
+                "C525.\r\n†C525. ", 
+                "Tabu:\r\npicking up card fallen to ground.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "542": {
+            "content": [
+                "C542.\r\n†C542. ", 
+                "Tabu:\r\ntouching treasures of other world.", 
+                null
+            ], 
+            "child": [
+                [
+                    "C542.1.\r\n†C542.1. ", 
+                    "Tabu:\r\ncontact with things on journey to hell.", 
+                    null
+                ], 
+                [
+                    "C542.2.\r\n†C542.2. ", 
+                    "Tabu:\r\ntouching fire in other world.", 
+                    null
+                ]
+            ]
+        }, 
+        "543": {
+            "content": [
+                "C543.\r\n†C543. ", 
+                "Tabu:\r\npicking up comb from ground.", 
+                " It\r\nbelongs to fairy (witch) who will avenge insult. Scottish: Campbell-McKay No.\r\n22 note.--Cheremis: Sebeok-Nyerges."
+            ], 
+            "child": []
+        }, 
+        "526": {
+            "content": [
+                "C526.\r\n†C526. ", 
+                "Tabu:\r\ntouching sacred mountain.", 
+                "\r\nJewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "541": {
+            "content": [
+                "C541.\r\n†C541. ", 
+                "Tabu: contact\r\nwith the dead.", 
+                " Jewish: *Neuman;\r\nEskimo (Greenland): Rink 341, 452, Rasmussen III 104."
+            ], 
+            "child": [
+                [
+                    "C541.1.\r\n†C541.1. ", 
+                    "Tabu: dead\r\nbody not to be on ship.", 
+                    "\r\nEnglish-Scottish: Child I 245 n."
+                ], 
+                [
+                    "C541.2.\r\n†C541.2. ", 
+                    "Head of\r\nslain man must not be moved.", 
+                    " Fb\r\n“hoved” I 655a."
+                ], 
+                [
+                    "C541.3.\r\n†C541.3. ", 
+                    "Tabu:\r\ntouching bones of murdered person.", 
+                    null
+                ], 
+                [
+                    "C541.4.\r\n†C541.4. ", 
+                    "Tabu:\r\nlying on ancestors’ bones.", 
+                    "\r\nLithuanian: Balys Index No. 3541."
+                ], 
+                [
+                    "C541.5.\r\n†C541.5. ", 
+                    "Tabu:\r\ntaking down corpse of hanged man.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "C541.6.\r\n†C541.6. ", 
+                    "Tabu:\r\nembalming.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "546": {
+            "content": [
+                "C546.\r\n†C546. ", 
+                "Tabu:\r\nstriking certain rock.", 
+                " Samoa:\r\nBeckwith Myth 19, notes 10--12."
+            ], 
+            "child": []
+        }, 
+        "521": {
+            "content": [
+                "C521.\r\n†C521. ", 
+                "Tabu:\r\ndismounting from horse.", 
+                "\r\nHartland Science 199; Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "C521.1.\r\n†C521.1. ", 
+                    "Tabu:\r\ndismounting from magic sack.", 
+                    "\r\nFrench Canadian: Sister Marie Ursule."
+                ]
+            ]
+        }, 
+        "522": {
+            "content": [
+                "C522.\r\n†C522. ", 
+                "Tabu:\r\nplowing in certain place.", 
+                " Fb\r\n“plove” II 849b, “hö"
+            ], 
+            "child": []
+        }, 
+        "523": {
+            "content": [
+                "C523.\r\n†C523. ", 
+                "Tabu: digging.", 
+                null
+            ], 
+            "child": [
+                [
+                    "C523.1.\r\n†C523.1. ", 
+                    "Tabu:\r\ndigging up certain stones.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "C523.2.\r\n†C523.2. ", 
+                    "Tabu:\r\ndigging in fairy ring.", 
+                    " England:\r\nBaughman."
+                ]
+            ]
+        }, 
+        "520": {
+            "content": [
+                "C520.\r\n", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "549": {
+            "content": [
+                "C549.\r\n†C549. ", 
+                "Tabu:\r\ntouching (miscellaneous).", 
+                null
+            ], 
+            "child": [
+                [
+                    "C549.1.\r\n†C549.1. ", 
+                    "Tabu:\r\ntiger and lion after having killed a man not to touch certain animals: cow,\r\nbuffalo, pig, deer, wild goat.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "C549.1.1.\r\n†C549.1.1. ", 
+                    "Tabu:\r\ntouching a horse or moving a dead cat or dog.", 
+                    null
+                ], 
+                [
+                    "C549.2.\r\n†C549.2. ", 
+                    "Tabu:\r\ntouching soldiers of enchanted (sleeping) army and their horses.", 
+                    null
+                ]
+            ]
+        }, 
+        "536": {
+            "content": [
+                "C536.\r\n†C536. ", 
+                "Tabu: not to\r\nclean houses with cow-dung.", 
+                "\r\nIndia: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "500": {
+            "content": [
+                "C500.\r\n", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "501": {
+            "content": [
+                "C501.\r\n†C501. ", 
+                "Tabu:\r\ncontact with things belonging to a king.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "544": {
+            "content": [
+                "C544.\r\n†C544. ", 
+                "Tabu:\r\ncrushing eggs.", 
+                null
+            ], 
+            "child": [
+                [
+                    "C544.1.\r\n†C544.1. ", 
+                    "Tabu:\r\ncrushing lizard‘s eggs.", 
+                    " Hawaii:\r\nBeckwith Myth 127."
+                ]
+            ]
+        }, 
+        "545": {
+            "content": [
+                "C545.\r\n†C545. ", 
+                "Tabu:\r\ntouching certain clothes.", 
+                null
+            ], 
+            "child": [
+                [
+                    "C545.1.\r\n†C545.1. ", 
+                    "Tabu:\r\ntouching old clothes.", 
+                    "\r\n(Abandoned clothes should be thrown away.)--Tahiti: Henry 143."
+                ], 
+                [
+                    "C545.2.\r\n†C545.2. ", 
+                    "Tabu:\r\ntouching clothes of certain person.", 
+                    null
+                ], 
+                [
+                    "C545.3.\r\n†C545.3. ", 
+                    "Tabu:\r\ntouching dress.", 
+                    " French\r\nCanadian: Sister Marie Ursule."
+                ]
+            ]
+        }, 
+        "514": {
+            "content": [
+                "C514.\r\n†C514. ", 
+                "Tabu:\r\nburning saja wood (terminalia tomentosa).", 
+                null
+            ], 
+            "child": []
+        }, 
+        "537": {
+            "content": [
+                "C537.\r\n†C537. ", 
+                "Tabu:\r\ntouching certain animals.", 
+                null
+            ], 
+            "child": [
+                [
+                    "C537.1.\r\n†C537.1. ", 
+                    "Tabu:\r\ntouching camel after he has retired from work.", 
+                    null
+                ], 
+                [
+                    "C537.2.\r\n†C537.2. ", 
+                    "Tabu:\r\ntouching hairless dog.", 
+                    " Hawaii:\r\nBeckwith Myth 343."
+                ], 
+                [
+                    "C537.3.\r\n†C537.3. ", 
+                    "Tabu:\r\ntouching horse or moving dead cat or dog.", 
+                    null
+                ]
+            ]
+        }, 
+        "518": {
+            "content": [
+                "C518.\r\n†C518. ", 
+                "Tabu:\r\ncutting down tree.", 
+                " Jewish:\r\nNeuman; Maori: Clark 95; Tuamotu: Stimson MS (z--G 3/1174)."
+            ], 
+            "child": [
+                [
+                    "C518.1.\r\n†C518.1. ", 
+                    "Cutting\r\nelder tree fatal to man.", 
+                    " (See †C920.)--England: Baughman."
+                ], 
+                [
+                    "C518.2.\r\n†C518.2. ", 
+                    "Cutting\r\nwhite thorn tree fatal to man who cuts it.", 
+                    null
+                ]
+            ]
+        }, 
+        "535": {
+            "content": [
+                "C535.\r\n†C535. ", 
+                "Tabu:\r\nstepping on bread (or otherwise misusing it).", 
+                null
+            ], 
+            "child": []
+        }, 
+        "533": {
+            "content": [
+                "C533.\r\n†C533. ", 
+                "Tabu:\r\ntouching box.", 
+                " Eskimo\r\n(Cumberland Sound): Boas BAM XV 203."
+            ], 
+            "child": [
+                [
+                    "C533.1.\r\n†C533.1. ", 
+                    "Tabu:\r\ntouching magic box.", 
+                    " (Cf. †D1174.) Africa (Ekoi): Talbot 18, 178, (Vai): Ellis 187 No.\r\n3, (Basuto): Jacottet 220 No. 33."
+                ]
+            ]
+        }, 
+        "532": {
+            "content": [
+                "C532.\r\n†C532. ", 
+                "Tabu:\r\ntouching water.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "531": {
+            "content": [
+                "C531.\r\n†C531. ", 
+                "Tabu:\r\ntouching with iron.", 
+                " *MacCulloch\r\nChildhood 339; Hartland Science 163f.; Fb “"
+            ], 
+            "child": [
+                [
+                    "C531.1.\r\n†C531.1. ", 
+                    "Umbilical\r\ncord not to be cut with iron.", 
+                    "\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "530": {
+            "content": [
+                "C530.\r\n", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "511": {
+            "content": [
+                "C511.\r\n†C511. ", 
+                "Tabu:\r\ntouching leaves (of tree).", 
+                " Breton: Sébillot Incidents s.v. “feuilles”."
+            ], 
+            "child": []
+        }, 
+        "510": {
+            "content": [
+                "C510.\r\n", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "513": {
+            "content": [
+                "C513.\r\n†C513. ", 
+                "Tabu:\r\nbreaking twig.", 
+                " BP III 62f.; Hdwb. d. Märchens s.v. “Baum”."
+            ], 
+            "child": [
+                [
+                    "C513.1.\r\n†C513.1. ", 
+                    "Tabu:\r\ncutting branches of tree.", 
+                    "\r\nJewish: Neuman."
+                ]
+            ]
+        }, 
+        "512": {
+            "content": [
+                "C512.\r\n†C512. ", 
+                "Tabu:\r\nplucking ear of grain.", 
+                " Gold\r\nCoast: Barker and Sinclair 181 No. 36."
+            ], 
+            "child": []
+        }, 
+        "515": {
+            "content": [
+                "C515.\r\n†C515. ", 
+                "Tabu:\r\ntouching (plucking) flowers.", 
+                "\r\nType 451; Hartland Science 200.--English-Scottish: Child I 360 n.; Hawaii:\r\nBeckwith Myth 17."
+            ], 
+            "child": []
+        }, 
+        "519": {
+            "content": [
+                "C519.\r\n†C519. ", 
+                "Tabu:\r\ntouching tree (plant)--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "C519.1.\r\n†C519.1. ", 
+                    "Tabu:\r\nharming tree in any way before burning it.", 
+                    null
+                ]
+            ]
+        }, 
+        "517": {
+            "content": [
+                "C517.\r\n†C517. ", 
+                "Tabu:\r\npulling nuts.", 
+                " English-Scottish:\r\nChild I 360 n."
+            ], 
+            "child": []
+        }, 
+        "516": {
+            "content": [
+                "C516.\r\n†C516. ", 
+                "Tabu: lying\r\nunder tree.", 
+                " Girl who does so carried off by fairies. (Cf. †C520.)--English-Scottish:\r\nChild V 499 s.v. “trees”--Irish\r\nmyth: Cross."
+            ], 
+            "child": []
+        }
+    }
+}

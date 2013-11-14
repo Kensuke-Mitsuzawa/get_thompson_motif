@@ -1,0 +1,473 @@
+{
+    "A_2650_2699_ORIGIN OF VARIOUS PLANTS AND TREES": {
+        "2658": {
+            "content": [
+                "A2658. †A2658. ", 
+                "Origin of lady-slipper (calceolaria hybrida).", 
+                " Flemish: DeMeyer XXXVII 92 No. 256*."
+            ], 
+            "child": []
+        }, 
+        "2653": {
+            "content": [
+                "A2653. †A2653. ", 
+                "Origin of primrose.", 
+                " (Cf. †A2622.)--Flemish: DeMeyer FFC XXXVII\r\n91 No. 250."
+            ], 
+            "child": []
+        }, 
+        "2651": {
+            "content": [
+                "A2651. †A2651. ", 
+                "Origin of daisy.", 
+                " (See †A2612.2.)--Flemish: DeMeyer FFC XXXVII 92 No. 253*."
+            ], 
+            "child": []
+        }, 
+        "2650": {
+            "content": [
+                "A2650. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "2657": {
+            "content": [
+                "A2657. †A2657. ", 
+                "Origin of forget-me-not.", 
+                "\r\nFlemish: DeMeyer FFC XXXVII 92 No. 255*."
+            ], 
+            "child": []
+        }, 
+        "2656": {
+            "content": [
+                "A2656. †A2656. ", 
+                "Origin of rose.", 
+                null
+            ], 
+            "child": [
+                [
+                    "A2656.1. †A2656.1. ", 
+                    "Origin of mossrose.", 
+                    "\r\nFlemish: DeMeyer FFC XXXVII 92 No. 254*"
+                ], 
+                [
+                    "A2656.2. †A2656.2. ", 
+                    "Origin of York and Lancaster rose.", 
+                    " From dust and blood of slain of War of the Roses--a\r\nvariety of rose unknown before that time. England: Baughman."
+                ]
+            ]
+        }, 
+        "2655": {
+            "content": [
+                "A2655. †A2655. ", 
+                "Origin of bindweed (convolvulus sepium).", 
+                " Flemish: DeMeyer FFC XXXVII 91 No. 252*."
+            ], 
+            "child": []
+        }, 
+        "2654": {
+            "content": [
+                "A2654. †A2654. ", 
+                "Origin of “Mary’s bed straw” (thymus serpyllum).", 
+                " Flemish: De Meyer FFC XXXVII 91 No. 251*."
+            ], 
+            "child": []
+        }, 
+        "2666": {
+            "content": [
+                "A2666. †A2666. ", 
+                "Origin of rue.", 
+                " (See †A2611.0.4.1.)"
+            ], 
+            "child": []
+        }, 
+        "2664": {
+            "content": [
+                "A2664. †A2664. ", 
+                "Origin of mandrake.", 
+                " (See †A2611.5.)"
+            ], 
+            "child": []
+        }, 
+        "2665": {
+            "content": [
+                "A2665. †A2665. ", 
+                "Origin of wild morning glory.", 
+                " Hawaii: Beckwith Myth 282."
+            ], 
+            "child": [
+                [
+                    "A2665.1. †A2665.1. ", 
+                    "Origin of narcissus.", 
+                    "\r\nChinese: Eberhard 131 No. 87."
+                ]
+            ]
+        }, 
+        "2688": {
+            "content": [
+                "A2688. †A2688. ", 
+                "Origin of weeds.", 
+                "\r\nIndia: Thompson-Balys; Tonga: Gifford 22."
+            ], 
+            "child": [
+                [
+                    "A2688.1. †A2688.1. ", 
+                    "Origin of thistles.", 
+                    " (See †A2615.1, †A2631.1.)--Irish myth:\r\nCross; Finnish: Aarne FFC VIII 23 No. 130; Jewish: Neuman."
+                ], 
+                [
+                    "A2688.1.1. †A2688.1.1. ", 
+                    "Origin of thorn-bush.", 
+                    "\r\nFb “torn” III 827a; Jewish: Neuman; India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "2663": {
+            "content": [
+                "A2663. †A2663. ", 
+                "Origin of clove.", 
+                "\r\nFlemish: DeMeyer FFC XXXVII 92 No. 261*."
+            ], 
+            "child": []
+        }, 
+        "2662": {
+            "content": [
+                "A2662. †A2662. ", 
+                "Origin of hellebore.", 
+                "\r\nFlemish: DeMeyer FFC XXXVII 92 No. 259*."
+            ], 
+            "child": []
+        }, 
+        "2684": {
+            "content": [
+                "A2684. †A2684. ", 
+                "Origin of cultivated plants.", 
+                " (Cf. †A2685,\r\n†A2691.2.)--Jibaro: Karsten, cf. JAFL XXXII 446; Tonga: Gifford 17f.; Japanese:\r\nBeckwith Myth 102."
+            ], 
+            "child": [
+                [
+                    "A2684.1. †A2684.1. ", 
+                    "Origin of flax.", 
+                    "\r\nLithuanian: Balys Legends No. 112."
+                ], 
+                [
+                    "A2684.2. †A2684.2. ", 
+                    "Origin of hemp.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "A2684.2.1. †A2684.2.1. ", 
+                    "Origin of sorghum.", 
+                    "\r\nAfrica (Wute): Sieber 204."
+                ], 
+                [
+                    "A2684.3. †A2684.3. ", 
+                    "Origin of cotton plant.", 
+                    " S. Am. Indian (Paressi): Métraux BBAE\r\nCXLIII (3) 359."
+                ]
+            ]
+        }, 
+        "2685": {
+            "content": [
+                "A2685. †A2685. ", 
+                "Origin of cereals.", 
+                null
+            ], 
+            "child": [
+                [
+                    "A2685.1. †A2685.1. ", 
+                    "Origin of corn.", 
+                    " (See †A2611.1.)--India: Thompson-Balys."
+                ], 
+                [
+                    "A2685.1.1. †A2685.1.1. ", 
+                    "Origin of maize.", 
+                    " India: Thompson-Balys; S. A. Indian (Chiriguano): Métraux RMLP\r\nXXXIII 172, (Tembé): Métraux ibid. 140, (Kaigua, Apapocuva-Guarani): Métraux\r\nibid. 136, (Tenetehara): Wagley-Galvao BBAE CXLIII (3) 148."
+                ], 
+                [
+                    "A2685.2. †A2685.2. ", 
+                    "Origin of straw.", 
+                    "\r\nFormerly whole blade became grain. Straw left for dog. Finnish: Aarne FFC VIII\r\n10. No. 49, XXXIII 53 No. 49; Estonian: Aarne FFC XXV 143 No. 28; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "A2685.3. †A2685.3. ", 
+                    "Origin of rye.", 
+                    "\r\nFinnish: Aarne FFC VIII 23 No. 129; India: Thompson-Balys."
+                ], 
+                [
+                    "A2685.4. †A2685.4. ", 
+                    "Origin of barley.", 
+                    "\r\nFinnish: Kalevala rune 2; Jewish: Neuman."
+                ], 
+                [
+                    "A2685.5. †A2685.5. ", 
+                    "Origin of manioc.", 
+                    " S. Am. Indian (Paressi): Métraux BBAE CXLIII (3) 360, (Mataco):\r\nMétraux MAFLS XL 128."
+                ]
+            ]
+        }, 
+        "2686": {
+            "content": [
+                "A2686. †A2686. ", 
+                "Origin of vegetables.", 
+                "\r\nIndia: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "A2686.1. †A2686.1. ", 
+                    "Origin of mushroom.", 
+                    " (Cf. †A2613.1.)--Dh II 107; India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "A2686.2. †A2686.2. ", 
+                    "Origin of peas.", 
+                    " (See †A2612.3.)--India: Thompson-Balys."
+                ], 
+                [
+                    "A2686.3. †A2686.3. ", 
+                    "Origin of pepper plant.", 
+                    " (See †A2611.4.)--S. Am. Indian (Brazil):\r\nOberg 109."
+                ], 
+                [
+                    "A2686.3.1. †A2686.3.1. ", 
+                    "Origin of kava plant.", 
+                    "\r\nTonga: Beckwith Myth 101, Gifford 72, 75."
+                ], 
+                [
+                    "A2686.4. †A2686.4. ", 
+                    "Origin of edible roots.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "A2686.4.1. †A2686.4.1. ", 
+                    "Origin of sweet potato.", 
+                    "\r\nHawaii: Beckwith Myth 242; S. Am. Indian (Brazil): Oberg 109."
+                ], 
+                [
+                    "A2686.4.2. †A2686.4.2. ", 
+                    "Origin of taro.", 
+                    "\r\nMono-Alu: Wheeler 67; Hawaii: Beckwith Myth 98."
+                ], 
+                [
+                    "A2686.4.3. †A2686.4.3. ", 
+                    "Origin of yams.", 
+                    " Tonga:\r\nGifford 17."
+                ], 
+                [
+                    "A2686.5. †A2686.5. ", 
+                    "Origin of turmeric.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "A2686.6. †A2686.6. ", 
+                    "Origin of beans.", 
+                    " S. Am. Indian (Caingang): Métraux BBAE CXLIII (1) 473."
+                ], 
+                [
+                    "A2686.7. †A2686.7. ", 
+                    "Origin of gourds.", 
+                    " S. Am. Indian (Caingang): Métraux BBAE CXLIII (1) 473."
+                ], 
+                [
+                    "A2686.8. †A2686.8. ", 
+                    "Origin of cinnamon.", 
+                    "\r\nJewish: Neuman."
+                ]
+            ]
+        }, 
+        "2687": {
+            "content": [
+                "A2687. †A2687. ", 
+                "Origin of fruits.", 
+                null
+            ], 
+            "child": [
+                [
+                    "A2687.1. †A2687.1. ", 
+                    "Origin of blood-oranges.", 
+                    " Sébillot RTP III 25."
+                ], 
+                [
+                    "A2687.2. †A2687.2. ", 
+                    "Origin of melons.", 
+                    " S.\r\nAm. Indian (Mataco): MAFLS XL 128."
+                ], 
+                [
+                    "A2687.3. †A2687.3. ", 
+                    "Origin of berries.", 
+                    "\r\nHawaii: Beckwith Myth 188, 282."
+                ], 
+                [
+                    "A2687.4. †A2687.4. ", 
+                    "Origin of pumpkin.", 
+                    " S. Am. Indian (Jivaro): Steward-Métraux BBAE CXLIII (3) 627."
+                ], 
+                [
+                    "A2687.5. †A2687.5. ", 
+                    "Origin of banana.", 
+                    "\r\nTonga: Gifford 17."
+                ]
+            ]
+        }, 
+        "2680": {
+            "content": [
+                "A2680. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "2681": {
+            "content": [
+                "A2681. †A2681. ", 
+                "Origin of trees.", 
+                " (See †A2612.1.)--Finnish: Kalevala rune 2; Icel.: MacCulloch\r\nEddic 325--26; India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "A2681.1. †A2681.1. ", 
+                    "Origin of weeping willow.", 
+                    " (See †A2632.1.)"
+                ], 
+                [
+                    "A2681.2. †A2681.2. ", 
+                    "Origin of oak.", 
+                    " Finnish:\r\nKalevala rune 2."
+                ], 
+                [
+                    "A2681.3. †A2681.3. ", 
+                    "Poplars from weeping maidens transformed by god.", 
+                    " *Frazer Pausanias II 72."
+                ], 
+                [
+                    "A2681.4. †A2681.4. ", 
+                    "Origin of birch trees.", 
+                    null
+                ], 
+                [
+                    "A2681.4.1. †A2681.4.1. ", 
+                    "First birch trees in Ireland.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "A2681.5. †A2681.5. ", 
+                    "Origin of palms.", 
+                    "\r\nJewish: Neuman; India: Thompson-Balys."
+                ], 
+                [
+                    "A2681.5.1. †A2681.5.1. ", 
+                    "Origin of coconut tree.", 
+                    " (See †A2611.3.)--Oceanic (Cove Is.):\r\nHawaii: Beckwith Myth 104, (Tahiti): ibid. 101, (New Guinea): ibid. 102, (Marshall\r\nIs.): Davenport 223, (Marquesas): Handy 30."
+                ], 
+                [
+                    "A2681.6. †A2681.6. ", 
+                    "Origin of bamboo.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ], 
+                [
+                    "A2681.7. †A2681.7. ", 
+                    "Origin of sandalwood tree.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "A2681.8. †A2681.8. ", 
+                    "Origin of dammar tree.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "A2681.9. †A2681.9. ", 
+                    "Origin of mulberry tree.", 
+                    "\r\nMarquesas: Handy 123."
+                ], 
+                [
+                    "A2681.10. †A2681.10. ", 
+                    "Origin of banyan tree.", 
+                    "\r\nMarquesas: Handy 123."
+                ], 
+                [
+                    "A2681.11. †A2681.11. ", 
+                    "Origin of breadfruit tree.", 
+                    " Hawaii: Beckwith Myth 68, 971, 101."
+                ], 
+                [
+                    "A2681.12. †A2681.12. ", 
+                    "Origin of palm-wine tree.", 
+                    " Africa (Bushonga): Torday 236."
+                ], 
+                [
+                    "A2681.13. †A2681.13. ", 
+                    "Origin of cedar tree.", 
+                    "\r\nJewish: Neuman."
+                ]
+            ]
+        }, 
+        "2682": {
+            "content": [
+                "A2682. †A2682. ", 
+                "Origin of creepers.", 
+                " India: Thompson-Balys; S. Am. Indian (Mataco):\r\nMétraux MAFLS XL 128."
+            ], 
+            "child": []
+        }, 
+        "2683": {
+            "content": [
+                "A2683. †A2683. ", 
+                "Origin of grass.", 
+                "\r\nIndia: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "2661": {
+            "content": [
+                "A2661. †A2661. ", 
+                "Origin of snowdrop (galanthus nivatis).", 
+                " Flemish: DeMeyer FFC XXXVII 92 No. 257*."
+            ], 
+            "child": []
+        }, 
+        "2692": {
+            "content": [
+                "A2692. †A2692. ", 
+                "Origin of poisonous plants.", 
+                " India: Thompson-Balys;\r\nS. Am. Indian (Cashinawa): Métraux BBAE CXLIII (3) 686; Africa (Tonga): Gifford\r\n27."
+            ], 
+            "child": []
+        }, 
+        "2691": {
+            "content": [
+                "A2691. †A2691. ", 
+                "Origin of narcotic plants.", 
+                null
+            ], 
+            "child": [
+                [
+                    "A2691.1. †A2691.1. ", 
+                    "Origin of coffee.", 
+                    "\r\nFinnish: Aarne FFC VIII 23 No. 127."
+                ], 
+                [
+                    "A2691.2. †A2691.2. ", 
+                    "Origin of tobacco.", 
+                    " (See †A2611.2, †A2611.2.1.)--Chinese: Eberhard FFC CXX 131 No.\r\n88; India: *Thompson-Balys; Calif. Indian: Gayton and Newman 58; S. Am. Indian\r\n(Cariri): Lowie BBAE CXLIII (1) 559."
+                ], 
+                [
+                    "A2691.3. †A2691.3. ", 
+                    "Origin of ganja.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "A2691.4. †A2691.4. ", 
+                    "Origin of opium.", 
+                    "\r\nIndia: *Thompson-Balys; Chinese: Eberhard 131 No. 88."
+                ], 
+                [
+                    "A2691.5. †A2691.5. ", 
+                    "Origin of betel.", 
+                    "\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }
+    }
+}

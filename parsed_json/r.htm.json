@@ -1,0 +1,975 @@
+{
+    "R_0_99_None": {
+        "61": {
+            "content": [
+                "R61. †R61. ", 
+                "Person sold into slavery.", 
+                " *Types 506, 888; Italian Novella: *Rotunda; Jewish: Neuman; Africa\r\n(Fang): Einstein 151."
+            ], 
+            "child": []
+        }, 
+        "53": {
+            "content": [
+                "R53. †R53. ", 
+                "Captivity as refuge for the captive.", 
+                " Type 870."
+            ], 
+            "child": [
+                [
+                    "R53.1. †R53.1. ", 
+                    "Woman hidden in underground chamber or mud cabin.", 
+                    " (Cf. †R45.) Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "R53.2. †R53.2. ", 
+                    "Woman hidden in sacred place which her lover is not\r\nsupposed to dare to enter.", 
+                    " Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "R53.3. †R53.3. ", 
+                    "Girl locked up in order to postpone wedding.", 
+                    " Icelandic: Göngu-Hrólfs\r\nsaga 306."
+                ], 
+                [
+                    "R53.4. †R53.4. ", 
+                    "Faithful servant locks his master and his friend up in a\r\nlittle house built from wood from their wrecked ships; they falsely think\r\nthemselves betrayed.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "82": {
+            "content": [
+                "R82. †R82. ", 
+                "Captive sends secret message outside (in orange or on\r\nhandkerchief).", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "83": {
+            "content": [
+                "R83. †R83. ", 
+                "Baker, disguised as old woman, substitutes for princess in\r\ncell when he brings bread to her.", 
+                " India:\r\nThompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "81": {
+            "content": [
+                "R81. †R81. ", 
+                "Woman suckles imprisoned relative through prison wall.", 
+                " **Köhler-Bolte I 373, II\r\n387; *Fb “datter” IV 94b; *DeCock Studien en\r\nEssays 23ff.; *Crane Vitry 232f. No. 238; *Oesterley No. 215; Herbert III 220;\r\nAlphabet No. 166; Scala Celi 39a No. 220; *Krappe Bulletin Hispanique XXXIX\r\n28.--Spanish: Keller, Espinosa II No. 17; Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "R81.1. †R81.1. ", 
+                    "Woman suckles husband isolated on rock.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "84": {
+            "content": [
+                "R84. †R84. ", 
+                "Prisoner‘s sustenance from outside prison.", 
+                " (Cf. †R81.) Jewish:\r\n*Neuman."
+            ], 
+            "child": []
+        }, 
+        "85": {
+            "content": [
+                "R85. †R85. ", 
+                "Captive protected by angel from abductor.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "24": {
+            "content": [
+                "R24. †R24. ", 
+                "Abductor in disguise.", 
+                " (Cf. †K1310.) India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "R24.1. †R24.1. ", 
+                    "Prince disguised as holy man abducts princess.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R24.2. †R24.2. ", 
+                    "Princely suitor in minstrel disguise carries princess away.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "25": {
+            "content": [
+                "R25. †R25. ", 
+                "Abduction through underground passage.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R25.1. †R25.1. ", 
+                    "Princess abducted through underground passage.", 
+                    " (Cf. †R10.1.) *Type 516;\r\nRösch FFC LXXVII 102; BP I 46ff.; Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "22": {
+            "content": [
+                "R22. †R22. ", 
+                "Abduction by giving soporific.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "R22.1. †R22.1. ", 
+                    "Abduction by giving soporific and rolling up in a cloak.", 
+                    " *Chauvin V 23 No. 13 n. 2."
+                ], 
+                [
+                    "R22.2. †R22.2. ", 
+                    "Abduction by means of sleep-giving music.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "23": {
+            "content": [
+                "R23. †R23. ", 
+                "Abduction with aid of magic mask which renders invisible.", 
+                " (Cf. †D1361.32.) Irish\r\nmyth: Cross."
+            ], 
+            "child": []
+        }, 
+        "46": {
+            "content": [
+                "R46. †R46. ", 
+                "Captivity under water.", 
+                "\r\nIndia: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "47": {
+            "content": [
+                "R47. †R47. ", 
+                "Captivity in lower world.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "45": {
+            "content": [
+                "R45. †R45. ", 
+                "Captivity in mound (cave, hollow hill).", 
+                " *Type 870; *BP III 443ff., 450; *Fb “höj” I 740b, 741; **Liungman Traditionsstudie över sagan om prinsessan\r\ni jordkulan (Göteborg, 1925). -- Irish myth: *Cross; Icelandic: *Boberg;\r\nSpanish: Boggs FFC XC 54 No. 405*A; India: *Thompson-Balys; Chinese: Graham."
+            ], 
+            "child": [
+                [
+                    "R45.1. †R45.1. ", 
+                    "Man confined under roots of tree.", 
+                    " N. A. Indian (Seneca): CurtinHewitt RBAE XXXII 705 No.\r\n135."
+                ], 
+                [
+                    "R45.2. †R45.2. ", 
+                    "Imprisonment in lion’s den.", 
+                    " Italian: Basile\r\nPentamerone III No. 5; Missouri French: Carrière; Spanish Exempla: Keller;\r\nJewish: Neuman."
+                ], 
+                [
+                    "R45.3. †R45.3. ", 
+                    "Captivity in cave.", 
+                    null
+                ], 
+                [
+                    "R45.3.1. †R45.3.1. ", 
+                    "Bear keeps human wife captive in cave with stone at\r\nentrance.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "42": {
+            "content": [
+                "R42. †R42. ", 
+                "Captivity in sunken valley.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "43": {
+            "content": [
+                "R43. †R43. ", 
+                "Captivity on island.", 
+                "\r\nIrish myth: *Cross; India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "40": {
+            "content": [
+                "R40. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "41": {
+            "content": [
+                "R41. †R41. ", 
+                "Captivity in tower (castle, prison).", 
+                null
+            ], 
+            "child": [
+                [
+                    "R41.1. †R41.1. ", 
+                    "Captivity in castle.", 
+                    "\r\n*Type 400; English: Wells 66 (Ywain and Gawain); Irish myth: *Cross; India:\r\n*Thompson-Balys."
+                ], 
+                [
+                    "R41.1.1. †R41.1.1. ", 
+                    "Captivity in subterranean palace.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R41.2. †R41.2. ", 
+                    "Captivity in tower.", 
+                    "\r\n*Type 310; Dickson 198 n. 8; Irish myth: *Cross; Italian: Basile Pentamerone II\r\nNo. 1, IV No. 6, Rotunda; India: *Thompson-Balys."
+                ], 
+                [
+                    "R41.2.1. †R41.2.1. ", 
+                    "Slandered wife is locked in tower for forty days.", 
+                    " If no champion appears, she is to be burned. Former suitor\r\nrescues her. Spanish: Childers."
+                ], 
+                [
+                    "R41.2.2. †R41.2.2. ", 
+                    "Captivity in bower.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "R41.3. †R41.3. ", 
+                    "Captivity in dungeon.", 
+                    "\r\nIrish myth: *Cross; English: Wells 22 (Sir Beues of Hamtoun); Jewish: Neuman."
+                ], 
+                [
+                    "R41.3.1. †R41.3.1. ", 
+                    "Prison filled with snakes.", 
+                    " (Cf. †Q465.1.) *Boje 92;\r\nHdwb. d. Märchens I 436b nn. 183--198; Irish myth: Cross; Jewish: Neuman."
+                ], 
+                [
+                    "R41.3.2. †R41.3.2. ", 
+                    "Prison with stream of water in it.", 
+                    " Boje 93."
+                ], 
+                [
+                    "R41.3.3. †R41.3.3. ", 
+                    "Prison floor with spikes in it.", 
+                    " Boje 91ff."
+                ], 
+                [
+                    "R41.3.4. †R41.3.4. ", 
+                    "Captivity in well.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R41.4. †R41.4. ", 
+                    "Groom as prisoner in his and giantess‘s bridal chamber.", 
+                    " (Cf. †R41.5.) Icelandic:\r\n*Boberg."
+                ], 
+                [
+                    "R41.5. †R41.5. ", 
+                    "Abducted princess fettered in hall with 100 doors.", 
+                    " Bridal bed for her and\r\ngiant in the midst. (Cf. †R111.2.3.) Icelandic: Boberg."
+                ], 
+                [
+                    "R41.5.1. †R41.5.1. ", 
+                    "Queen kept in palace of forty doors, each of them watched\r\nby a dog.", 
+                    " Africa (Dahome): Einstein 25."
+                ], 
+                [
+                    "R41.6. †R41.6. ", 
+                    "Captivity in a pillar.", 
+                    "\r\nCheremis: Sebeok-Nyerges."
+                ], 
+                [
+                    "R41.7. †R41.7. ", 
+                    "Captivity in cages.", 
+                    " (Cf. †Q433.1.) Cheremis: Sebeok-Nyerges;\r\nJewish: Neuman."
+                ]
+            ]
+        }, 
+        "1": {
+            "content": [
+                "R1. †R1. ", 
+                "Wild man captured and tamed.", 
+                " *Dickson 116 n. 44, 122; N. A. Indian: *Thompson Tales 319\r\nn. 152."
+            ], 
+            "child": []
+        }, 
+        "0": {
+            "content": [
+                "R0. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "3": {
+            "content": [
+                "R3. †R3. ", 
+                "King imprisons another king‘s embassy.", 
+                " Thien Motive 10."
+            ], 
+            "child": []
+        }, 
+        "2": {
+            "content": [
+                "R2. †R2. ", 
+                "God holds the devil captive for three years.", 
+                " Dh. I 184."
+            ], 
+            "child": []
+        }, 
+        "5": {
+            "content": [
+                "R5. †R5. ", 
+                "Capture on field of battle.", 
+                " Irish myth: Cross; Icelandic: *Boberg; Jewish: Neuman."
+            ], 
+            "child": [
+                [
+                    "R5.1. †R5.1. ", 
+                    "Enemy host imprisoned by earthen walls thrown up by hero’s\r\nchariot wheels.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "R5.2. †R5.2. ", 
+                    "Hero captured by being pressed between shields from all\r\nsides.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "4": {
+            "content": [
+                "R4. †R4. ", 
+                "Surprise capture.", 
+                "\r\nIrish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "R4.1. †R4.1. ", 
+                    "Enemy surprised while bathing: taken.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "7": {
+            "content": [
+                "R7. †R7. ", 
+                "Men held captive in the Land of Women.", 
+                " (Cf. †F112.) India:\r\nThompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "6": {
+            "content": [
+                "R6. †R6. ", 
+                "Messenger of Death imprisoned.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "9": {
+            "content": [
+                "R9. †R9. ", 
+                "Captivity--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R9.1. †R9.1. ", 
+                    "Sun captured.", 
+                    null
+                ], 
+                [
+                    "R9.1.1. †R9.1.1. ", 
+                    "Sun captured during visit to earth.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R9.1.2. †R9.1.2. ", 
+                    "Sun and Moon captured by creditor, thus causing eclipse.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R9.1.3. †R9.1.3. ", 
+                    "Sun and Moon imprison each other.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R9.2. †R9.2. ", 
+                    "Grain and pulse in human form imprisoned by wicked king.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R9.3. †R9.3. ", 
+                    "Ogress captured and reformed.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R9.4. †R9.4. ", 
+                    "Fire-maiden imprisoned in iron house.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R9.5. †R9.5. ", 
+                    "Cow imprisoned until it promises not to eat men.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R9.6. †R9.6. ", 
+                    "King imprisons all living creatures.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "8": {
+            "content": [
+                "R8. †R8. ", 
+                "Gods captured.", 
+                " India:\r\n*Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "39": {
+            "content": [
+                "R39. †R39. ", 
+                "Abduction--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R39.1. †R39.1. ", 
+                    "Abduction by magician.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R39.2. †R39.2. ", 
+                    "Abduction by old woman.", 
+                    "\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "75": {
+            "content": [
+                "R75. †R75. ", 
+                "Surrendering.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R75.1. †R75.1. ", 
+                    "Defeated surrender their city.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "R75.2. †R75.2. ", 
+                    "Warriors surrender after chief‘s death.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "R75.2.1. †R75.2.1. ", 
+                    "Warriors flee after chief’s death.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "74": {
+            "content": [
+                "R74. †R74. ", 
+                "Defeated warriors go into the conqueror‘s service.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "R74.1. †R74.1. ", 
+                    "Defeated enemy turns conqueror‘s best friend.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "R74.2. †R74.2. ", 
+                    "Defeated enemy’s son turns conqueror‘s man.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "R74.3. †R74.3. ", 
+                    "Defeated enemy holds rank and country when he promises to\r\npay tax to conqueror.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "R74.3.1. †R74.3.1. ", 
+                    "Imprisoned king’s son released when he promises to be a\r\nfaithful subject and pay tax.", 
+                    " Icelandic:\r\n*Boberg."
+                ]
+            ]
+        }, 
+        "72": {
+            "content": [
+                "R72. †R72. ", 
+                "Defiant prisoners refuse to accept grace even from their\r\nfather unless it is granted them all.", 
+                " (Cf. †M165.) Hdwb. d. Märchens II “Gnade\r\nausbitten”; Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "71": {
+            "content": [
+                "R71. †R71. ", 
+                "Captive prince joins captor out of gratitude for his\r\nfreedom.", 
+                "\r\n(He had refused to promise that he would not fight again.) (Cf. †W27.) Italian\r\nNovella: *Rotunda."
+            ], 
+            "child": []
+        }, 
+        "70": {
+            "content": [
+                "R70. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "32": {
+            "content": [
+                "R32. †R32. ", 
+                "Abduction by stealing clothes of bathers.", 
+                " Africa (Cameroon):\r\nLederbogen Märchen II 122f. No. 9."
+            ], 
+            "child": []
+        }, 
+        "11": {
+            "content": [
+                "R11. †R11. ", 
+                "Abduction by monster (ogre).", 
+                " (Cf. †G440.) **Feilberg\r\nBjærgtagen (København, 1910); Spanish: Espinosa II Nos. 133--135, III Nos.\r\n141f.; India: *Thompson-Balys; Buddhist myth: Malalasekera II 129, 1060; S. A.\r\nIndian (Toba): Métraux MAFLS XL 39."
+            ], 
+            "child": [
+                [
+                    "R11.1. †R11.1. ", 
+                    "Princess (maiden) abducted by monster (ogre).", 
+                    " (Cf. †R10.1.) *Types\r\n301, 302, 311, 312; *BP I 398, 404, II 301, 317, III 434; Hdwb. d. Märchens I\r\n544b, 547a nn. 60--79, 140--174; *Fb “brud” IV 64b.--Irish myth:\r\n*Cross; Icelandic: *Boberg; Missouri French: Carrière; India: *Thompson-Balys;\r\nChinese: Graham; Korean: Zong in-Sob 221 No. 98; Japanese: Dixon 215 n. 17;\r\nEskimo (Smith Sound): Kroeber JAFL XII 167; N. A. Indian: *Thompson Tales 341f.\r\nnn. 228, 228a, 231, 235."
+                ], 
+                [
+                    "R11.1.1. †R11.1.1. ", 
+                    "Abduction of girl by half bestial man (hair on body, nails\r\nof dog).", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "R11.2. †R11.2. ", 
+                    "Abduction by devil.", 
+                    null
+                ], 
+                [
+                    "R11.2.1. †R11.2.1. ", 
+                    "Devil carries off wicked people.", 
+                    " Scala Celi 6b, 43a, 54b, 77b Nos. 39, 246, 306, 441; Fb\r\n“fanden” I 267a; Irish: O‘Suilleabhain 55, Beal XXI 322; Finnish-Swedish:\r\nWessman 13 Nos. 116, 118; Spanish Exempla: Keller; West Indies: Flowers 571."
+                ], 
+                [
+                    "R11.2.1.1. †R11.2.1.1. ", 
+                    "Devil carries off emperor because of his many murders.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "R11.2.2. †R11.2.2. ", 
+                    "Abduction by demon.", 
+                    "\r\nIndia: *Thompson-Balys; Buddhist myth: Malalasekera II 507, 1053; Tuamotu:\r\nStimson MS (z-G. 3/1386)."
+                ], 
+                [
+                    "R11.2.2.1. †R11.2.2.1. ", 
+                    "Abduction by Echo.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R11.3. †R11.3. ", 
+                    "Abduction by giant.", 
+                    " (Cf. †F531, †G100.) English romance: Malory\r\nV 5; Icelandic: *Boberg; India: *Thompson-Balys; Korean: Zong in-Sob 166 No.\r\n72; N. A. Indian (Zuñi): Benedict II 334."
+                ]
+            ]
+        }, 
+        "10": {
+            "content": [
+                "R10. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "R10.1. †R10.1. ", 
+                    "Princess (maiden) abducted.", 
+                    " (Cf. †R11.1, †R12.1,\r\n†R13.1, †R16.1, †R17.1, †R25.1, †R31.) *Types 301, 302, 311, 312; *Hdwb. d.\r\nMärchens I 553b nn. 296--315; Feilberg Bjærgtagen (København 1910).--Irish\r\nmyth: *Cross; Icelandic: *Boberg; Breton: Sébillot Incidents s.v. “princesse”; Spanish: Espinosa II No. 133--135; Italian\r\nNovella: Rotunda; Greek: Grote I 156; India: *Thompson-Balys; Chinese: Graham;\r\nIndonesia: DeVries‘s list No. 220."
+                ], 
+                [
+                    "R10.1.1. †R10.1.1. ", 
+                    "Maiden abducted by soldiers.", 
+                    " Italian Novella: *Rotunda."
+                ], 
+                [
+                    "R10.1.2. †R10.1.2. ", 
+                    "Lover abducts maiden from cruel father and brother.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "R10.2. †R10.2. ", 
+                    "Pretended abduction.", 
+                    "\r\nAdulterous wife plots own abduction by paramour. Irish myth: Cross."
+                ], 
+                [
+                    "R10.3. †R10.3. ", 
+                    "Children abducted.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "R10.4. †R10.4. ", 
+                    "Hero abducted by witch who loves him.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "R10.4.1. †R10.4.1. ", 
+                    "Abduction of bridegroom and killing of his bride planned as\r\ngiantess’s revenge.", 
+                    " Icelandic: Lagerholm\r\n56--58, Boberg."
+                ]
+            ]
+        }, 
+        "13": {
+            "content": [
+                "R13. †R13. ", 
+                "Abduction by animal.", 
+                "\r\nChinese: Graham."
+            ], 
+            "child": [
+                [
+                    "R13.0.1. †R13.0.1. ", 
+                    "Children carried off by animals.", 
+                    " *Hibbard 270 n. 10, 276; Irish myth: *Cross."
+                ], 
+                [
+                    "R13.1. †R13.1. ", 
+                    "Abduction by wild beast.", 
+                    null
+                ], 
+                [
+                    "R13.1.1. †R13.1.1. ", 
+                    "Baboons abduct boy.", 
+                    "\r\nAfrica (Hottentot): Bleek 42."
+                ], 
+                [
+                    "R13.1.2. †R13.1.2. ", 
+                    "Lion carries off child.", 
+                    "\r\nItalian Novella: *Rotunda."
+                ], 
+                [
+                    "R13.1.3. †R13.1.3. ", 
+                    "Rhinoceros carries off man.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R13.1.4. †R13.1.4. ", 
+                    "Abduction by tiger.", 
+                    null
+                ], 
+                [
+                    "R13.1.4.1. †R13.1.4.1. ", 
+                    "Tiger abducts man.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R13.1.4.2. †R13.1.4.2. ", 
+                    "Abduction of woman by tiger.", 
+                    " India: *Thompson-Balys;\r\nChinese: Graham; S. A. Indian (Chiriguano): Métraux RMLP XXXIII 142."
+                ], 
+                [
+                    "R13.1.4.2.1. †R13.1.4.2.1. ", 
+                    "Tigers abduct princess to be wife of their human ward.", 
+                    " India: *Thompson-Balys."
+                ], 
+                [
+                    "R13.1.5. †R13.1.5. ", 
+                    "Wolf abducts person.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "R13.1.6. †R13.1.6. ", 
+                    "Girl abducted by bear and made his wife.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R13.1.7. †R13.1.7. ", 
+                    "Abduction by monkey.", 
+                    null
+                ], 
+                [
+                    "R13.1.7.1. †R13.1.7.1. ", 
+                    "Girl carried off by monkeys.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R13.1.8. †R13.1.8. ", 
+                    "Abduction by rabbit.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R13.1.9. †R13.1.9. ", 
+                    "Abduction by leopard.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R13.1.10. †R13.1.10. ", 
+                    "Abduction by elephant.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R13.1.11. †R13.1.11. ", 
+                    "Abduction by fox.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R13.2. †R13.2. ", 
+                    "Abduction by domestic beast.", 
+                    null
+                ], 
+                [
+                    "R13.2.1. †R13.2.1. ", 
+                    "Girl carried off by ram.", 
+                    " (Cf. †R10.1.) Breton: Sébillot Incidents\r\ns.v. “bélier”."
+                ], 
+                [
+                    "R13.2.2. †R13.2.2. ", 
+                    "Bull carries off devil after he has tried to deceive God.", 
+                    " (Cf. †A60.) Dh I 35."
+                ], 
+                [
+                    "R13.2.3. †R13.2.3. ", 
+                    "Abduction by cat.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "R13.2.3.1. †R13.2.3.1. ", 
+                    "Abduction by goddess‘s cat.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "R13.3. †R13.3. ", 
+                    "Person carried off by bird.", 
+                    " German: Grimm No. 51; India: *Thompson-Balys; Philippine\r\n(Tinguian): Cole 183, 201; N. A. Indian (California): Gayton and Newman 79;\r\nAfrica (Yoruba): Frobenius Atlantis X 222ff. No. 14."
+                ], 
+                [
+                    "R13.3.1. †R13.3.1. ", 
+                    "Abduction by ravens.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "R13.3.2. †R13.3.2. ", 
+                    "Eagle carries off youth.", 
+                    "\r\nGreek: Fox 240 (Ganymede); Japanese: Ikeda."
+                ], 
+                [
+                    "R13.4. †R13.4. ", 
+                    "Abduction by reptile.", 
+                    null
+                ], 
+                [
+                    "R13.4.1. †R13.4.1. ", 
+                    "Abduction by snake.", 
+                    "\r\nIndia: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "12": {
+            "content": [
+                "R12. †R12. ", 
+                "Abduction by pirates.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R12.1. †R12.1. ", 
+                    "Maiden abducted by pirates (robbers).", 
+                    " (Cf. †R10.1.) *Reinhard\r\nPMLA XXXVIII 465; Irish myth: *Cross; Italian Novella: *Rotunda; India:\r\n*Thompson-Balys; Buddhist myth: Malalasekera I 981."
+                ], 
+                [
+                    "R12.2. †R12.2. ", 
+                    "Man abducted by pirates.", 
+                    "\r\nFrench Canadian: Sister Marie Ursule; Italian Novella: *Rotunda."
+                ], 
+                [
+                    "R12.2.1. †R12.2.1. ", 
+                    "Child abducted by robbers and brought up in their ways.", 
+                    " Later becomes wealthy and law-abiding. Irish myth: Cross."
+                ], 
+                [
+                    "R12.3. †R12.3. ", 
+                    "Lovers abducted by pirates.", 
+                    " Italian Novella: *Rotunda."
+                ], 
+                [
+                    "R12.4. †R12.4. ", 
+                    "Girl enticed into boat and abducted.", 
+                    " India: *Thompson-Balys."
+                ]
+            ]
+        }, 
+        "14": {
+            "content": [
+                "R14. †R14. ", 
+                "Deity (demigod) abducts person.", 
+                " Greek: Grote I 35, 83, 261; India: *Thompson-Balys;\r\nPhilippine (Tinguian): Cole 183."
+            ], 
+            "child": []
+        }, 
+        "17": {
+            "content": [
+                "R17. †R17. ", 
+                "Abduction by whirlwind.", 
+                " (Cf. †D1520.28.) Hartland Science 175;\r\nIcelandic: Boberg; Japanese: Ikeda; Africa (Basuto): Jacottet 160 No. 23."
+            ], 
+            "child": [
+                [
+                    "R17.1. †R17.1. ", 
+                    "Whirlwind carries princess away.", 
+                    " (Cf. †R10.1.) *Fb “hvirvelvind” I 708."
+                ]
+            ]
+        }, 
+        "16": {
+            "content": [
+                "R16. †R16. ", 
+                "Abduction by transformed person.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R16.1. †R16.1. ", 
+                    "Maiden abducted by transformed hero.", 
+                    " (Cf. †D658, †D2121.7,\r\n†R10.1.) *Type 516; Rösch FFC LXXVII 112; Spanish: Boggs FFC XC 57 No. 425."
+                ], 
+                [
+                    "R16.2. †R16.2. ", 
+                    "Child carried off by werwolf.", 
+                    " (Cf. †D113.1.1.) Hibbard\r\n216."
+                ], 
+                [
+                    "R16.3. †R16.3. ", 
+                    "Woman abducted by (transformed) fairy.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "R16.4. †R16.4. ", 
+                    "Abduction by tiger-man.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R16.5. †R16.5. ", 
+                    "Abduction by elephant-man.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "33": {
+            "content": [
+                "R33. †R33. ", 
+                "Fairy physician abducted to heal wounded mortals.", 
+                " (Cf. †F344.) Irish myth:\r\nCross."
+            ], 
+            "child": []
+        }, 
+        "18": {
+            "content": [
+                "R18. †R18. ", 
+                "Abduction by rejected suitor.", 
+                " Irish myth: *Cross; Icelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "31": {
+            "content": [
+                "R31. †R31. ", 
+                "Light extinguished and woman stolen.", 
+                " (Cf. †R10.1.) Icelandic:\r\n*Boberg; N. A. Indian: *Thompson Tales 343 n. 237."
+            ], 
+            "child": []
+        }, 
+        "49": {
+            "content": [
+                "R49. †R49. ", 
+                "Other places of captivity.", 
+                null
+            ], 
+            "child": [
+                [
+                    "R49.1. †R49.1. ", 
+                    "Captivity in tree.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "R49.2. †R49.2. ", 
+                    "Captivity in an oven.", 
+                    "\r\nCheremis: Sebeok-Nyerges."
+                ], 
+                [
+                    "R49.3. †R49.3. ", 
+                    "Ogre seizes girl and puts her in a drum.", 
+                    " Africa (Luba): DeClerq ZsKS IV 225."
+                ]
+            ]
+        }, 
+        "51": {
+            "content": [
+                "R51. †R51. ", 
+                "Mistreatment of prisoners.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "R51.1. †R51.1. ", 
+                    "Prisoners starved.", 
+                    "\r\nIrish myth: Cross; Jewish: Neuman."
+                ], 
+                [
+                    "R51.2. †R51.2. ", 
+                    "Prisoners confined in chains.", 
+                    " Irish myth: *Cross; Jewish: Neuman."
+                ], 
+                [
+                    "R51.3. †R51.3. ", 
+                    "Prisoners mutilated.", 
+                    "\r\nIrish myth: Cross; Jewish: Neuman."
+                ], 
+                [
+                    "R51.4. †R51.4. ", 
+                    "Prisoner massacred.", 
+                    "\r\nJewish: Neuman."
+                ]
+            ]
+        }, 
+        "50": {
+            "content": [
+                "R50. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "35": {
+            "content": [
+                "R35. †R35. ", 
+                "Abducted princess gives birth to child.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "54": {
+            "content": [
+                "R54. †R54. ", 
+                "Hero locked up while his father is murdered.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": []
+        }
+    }
+}

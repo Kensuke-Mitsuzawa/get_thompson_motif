@@ -4,7 +4,6 @@
 import sys, codecs, re, lxml.html, os, json;
 
 def numeric_process(middle_label):
-     
     if re.search(ur'.+\d+--.+\d+\. .+\r\n.+$', middle_label):
         numeric, char=re.split(ur'\. ', middle_label);
         numeric=numeric.replace(u'\u2020', u'');
@@ -28,6 +27,19 @@ def numeric_process(middle_label):
         #(頭文字, 開始番号，終了番号)
         range_tuple=(prefix, range_start, range_end, char);
 
+    #U.htmlの場合に変なフォーマットがあったので，それに対処するため
+    elif re.search(ur'.+\d+-.+\d+\.\s.+\r\n.+--.+', middle_label):
+        numeric, char=middle_label.rstrip(u'.').split(u'.');
+        numeric=numeric.replace(u'\u2020', u'');
+        char=(char.replace(u'\r\n', u' ')).strip();
+        numeric=numeric.strip(u'.')
+        range_start, range_end=numeric.split(u'-');
+        prefix=range_start[0];
+        range_start=re.sub(ur'^[A-Z]', u'',range_start);
+        range_end=re.sub(ur'^[A-Z]', u'',range_end);
+        #(頭文字, 開始番号，終了番号)
+        range_tuple=(prefix, range_start, range_end, char);
+
     elif re.search(ur'.+\d+--.+\d+\..*', middle_label):
         numeric=middle_label.replace(u'\u2020', u'');
         range_start, range_end=numeric.split(u'--');
@@ -39,6 +51,7 @@ def numeric_process(middle_label):
         #range_end=range_end.strip().strip(u'.');
         range_end=range_end.strip().split(u'.')[0];
         range_tuple=(prefix, range_start, range_end, None);       
+    
     return range_tuple;
 
 def construct_classifier(html_file_path):
@@ -53,6 +66,7 @@ def construct_classifier(html_file_path):
     for p_node in p_node_list:
         range_tuple=None;
         if p_node.attrib==middle_node_attribute:
+            #U.htmlに対しては，まったく獲得できていないので，ここ以下の問題かと思う
             if not p_node.text==None:
                 middle_label=p_node.text;
                 if re.search(ur'.+\d+--.+\d+\. .+\r\n.+$', middle_label):
@@ -61,7 +75,7 @@ def construct_classifier(html_file_path):
                     range_tuple=numeric_process(middle_label)
                 elif re.search(ur'.+\d+--.+\d+\..*', middle_label):
                     range_tuple=numeric_process(middle_label)
-            
+                    
             else: 
                 child_node_list=list(p_node);
                 for child_node in child_node_list:
@@ -72,6 +86,8 @@ def construct_classifier(html_file_path):
                             range_tuple=numeric_process(middle_label)
                         elif re.search(ur'.+\d+--.+\d+\.\r\n.+$', middle_label):
                             range_tuple=numeric_process(middle_label)
+                        elif re.search(ur'.+\d+-+.+\d+\..+', middle_label):
+                            range_tuple=numeric_process(middle_label)
                     #<b><span> <b>のケースに対処するため
                     grandchild_node_list=list(child_node);
                     for grandchild_node in grandchild_node_list:
@@ -80,7 +96,6 @@ def construct_classifier(html_file_path):
                             range_tuple=numeric_process(middle_label)
                         elif re.search(ur'.+\d+--.+\d+\.\r\n.+$', middle_label):
                             range_tuple=numeric_process(middle_label)
-
         if not range_tuple==None:
             range_list.append(range_tuple);
     return range_list;
@@ -123,7 +138,7 @@ def compare_range(compare_item_1, compare_item_2):
         return True;
     else:
         return False;
-#ルールが有効でないことがわかったので，コメントアウト
+
 def parse(html_file_path):
     middle_node_attribute={'align': 'center', 'style': 'text-align:center;'};
     html=open(html_file_path, 'rb').read();
@@ -189,6 +204,7 @@ def parse(html_file_path):
                 leaf_layer_map={}; 
                 #iノード（たぶん概要）の獲得
                 if not p_node.find('i')==None:
+                    #この時点でu.htmlにはiノードがないケースがたくさん
                     fourth_layer_outline=p_node.find('i').text;
                     #iノードの後ろ（資料情報）の獲得
                     if not (p_node.find('i').tail)==None:
@@ -201,6 +217,7 @@ def parse(html_file_path):
 
             #４層目マップへの要素の追加
             leaf_tuple_stack.append( (fourth_layer_label_name,\
+
                                     fourth_layer_outline,\
                                     example_material) ); 
         #TODO A0のようなタイプのノードへの対応
@@ -221,7 +238,6 @@ def insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack):
             if len(class_number.split(u'.'))==2:
                 leaf_parent_map[class_number.split(u'.')[0]]={'content':leaf_tuple,\
                                                               'child':[]};
-
             #==============================
             #class_numberがすでに辞書に登録ずみの子どもだったら，childのリストにタプルを追加
             else:
@@ -243,14 +259,26 @@ def insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack):
             range_end=int(tree_node_number[2]);
             #モチーフ番号が当てはまる階層を探して，当てはまる範囲に登録する
             if leaf_parent_number >= range_start and leaf_parent_number <=range_end:
-                if range_map_in_map[tree_node_number]=={}:
-                    copied_range_map_in_map[tree_node_number]=leaf_parent_map[str(leaf_parent_number)];
+                if copied_range_map_in_map[tree_node_number]=={}:
+                    copied_range_map_in_map[tree_node_number]={item:leaf_parent_map[item]};
                 else:
-                    for tree_child_node_tuple in range_map_in_map[tree_node_number]:
-                        range_child_start=int(tree_child_node_tuple[1]);
-                        range_child_end=int(tree_child_node_tuple[2]);
-                        if leaf_parent_number >= range_child_start and leaf_parent_number <= range_child_end:
-                            copied_range_map_in_map[tree_node_number][tree_child_node_tuple][leaf_parent_number]=leaf_parent_map[str(leaf_parent_number)];
+                    tuple_in_flag=False;
+                    for already_element in copied_range_map_in_map[tree_node_number]:
+                        #この階層がキーである可能性があるので
+                        #現状ではこれより下の階層にキーがないと仮定する（そう思いたい）
+                        if isinstance(already_element, tuple):
+                            range_child_start=int(already_element[1]);
+                            range_child_end=int(already_element[2]);
+                            if leaf_parent_number >= range_child_start and leaf_parent_number <= range_end:
+                                tuple_in_flag=True;
+                                if copied_range_map_in_map[tree_node_number][already_element]=={}:
+                                    copied_range_map_in_map[tree_node_number][already_element]={item:leaf_parent_map[item]}
+                                else:
+                                    copied_range_map_in_map[tree_node_number][already_element].setdefault(item, leaf_parent_map[item]);
+                    #この階層にタプルがなくて，かつタプルがあったとしても範囲でなかった場合 
+                    if tuple_in_flag==False:
+                        (copied_range_map_in_map[tree_node_number]).setdefault(item, leaf_parent_map[item]);
+                         
     return copied_range_map_in_map;
 
 def draw_tree(range_map_in_map):
@@ -261,14 +289,56 @@ def draw_tree(range_map_in_map):
         #first_layer_stack.append(u'{}_{}_{}'.format(top_item[1]. top_item[2], top_item[3]));
         print u'|-- {}_{}_{}'.format(top_item[1], top_item[2], top_item[3])
 
+def re_construct_map(original_map):
+    """
+    現状の辞書（キーがタプル）はjsonに出力できないので，アンダースコア接続にキーを書き換える
+    """
+    re_constructed={};
+    for keyname in original_map:
+        new_keyname=u'{0}_{1}_{2}_{3}'.format(keyname[0],
+                                              keyname[1],
+                                              keyname[2],
+                                              keyname[3]);
+        re_constructed[new_keyname]={};
+        for second_keyname in original_map[keyname]:
+            if isinstance(second_keyname, tuple):
+                new_second_keyname=u'{0}_{1}_{2}_{3}'.format(second_keyname[0],
+                                                             second_keyname[1],
+                                                             second_keyname[2],
+                                                             second_keyname[3]);
+                re_constructed[new_keyname][new_second_keyname]={};
+                for third_keyname in original_map[keyname][second_keyname]:
+                    new_third_keyname=third_keyname
+                    if isinstance(third_keyname, tuple):
+                        print 'Still another level exists:{}'.format(third_keyname);
+                    else:
+                        re_constructed[new_keyname][new_second_keyname].setdefault(new_third_keyname,\
+                                                                                   original_map\
+                                                                                   [keyname]\
+                                                                                   [second_keyname]\
+                                                                                   [third_keyname]);
+            else:
+                new_second_keyname=second_keyname;
+                re_constructed[new_keyname].setdefault(new_second_keyname, original_map[keyname][second_keyname])
+            
+    #デバッグ用に残しておく
+            """
+    for level1 in re_constructed:
+        print 'level 1 keyname:{}'.format(level1)
+        for level2 in re_constructed[level1]:
+            print 'level 2 keyname:{}'.format(level2);
+    """
+        return re_constructed;
+
 if __name__=='__main__':
-    index_char=sys.argv[1];
-    path='./htmls/{}.htm'.format(index_char)
+    path=sys.argv[1];
     range_list=construct_classifier(path);
     range_map_in_map=sort_classifier(range_list); 
     leaf_tuple_stack=parse(path);
     range_map_in_map=insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack);
     draw_tree(range_map_in_map);
-
-    #with codecs.open(path+'.json', 'w', 'utf-8') as f:
-        #json.dump(range_map_in_map, f, indent=4, ensure_ascii=False);
+    
+    re_constructed=re_construct_map(range_map_in_map);
+    filename=os.path.basename(path);
+    with codecs.open('./parsed_json/'+filename+'.json', 'w', 'utf-8') as f:
+        json.dump(re_constructed, f, indent=4, ensure_ascii=False);

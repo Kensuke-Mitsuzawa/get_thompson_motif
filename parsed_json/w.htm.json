@@ -1,0 +1,529 @@
+{
+    "W_0_99_Favorable traits of character.": {
+        "24": {
+            "content": [
+                "W24. †W24. ", 
+                "Man speaks no evil.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "25": {
+            "content": [
+                "W25. †W25. ", 
+                "Equanimity of the comedian.", 
+                " When he sees his house carried off by a flood, he fiddles\r\nthe whole time. Type 944*."
+            ], 
+            "child": [
+                [
+                    "W25.1. †W25.1. ", 
+                    "Equanimity of the enslaved unfortunate.", 
+                    " Does not complain when\r\nbeset by a series of misfortunes. (Cf. †N251.1.) Italian Novella: Rotunda."
+                ], 
+                [
+                    "W25.2. †W25.2. ", 
+                    "Minister always says, “It is for the best,” when anything\r\nhappens.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "26": {
+            "content": [
+                "W26. †W26. ", 
+                "Patience.", 
+                " Spanish\r\nExempla: Keller; Jewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "27": {
+            "content": [
+                "W27. †W27. ", 
+                "Gratitude.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W27.1. †W27.1. ", 
+                    "Man weeps with gratitude to God because He did not make him\r\nhideous as toad.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "20": {
+            "content": [
+                "W20. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "21": {
+            "content": [
+                "W21. †W21. ", 
+                "Emperor friendly to everyone.", 
+                " Would act as he should like an emperor to act toward him\r\nif he were a common man. Pauli (ed. Bolte) No. 166."
+            ], 
+            "child": []
+        }, 
+        "23": {
+            "content": [
+                "W23. †W23. ", 
+                "Man never listens to scandal.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "45": {
+            "content": [
+                "W45. †W45. ", 
+                "Honor.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W45.1. †W45.1. ", 
+                    "Prostrate soldier asks his enemy to stab him in the chest\r\ninstead of the back in order to save his honor.", 
+                    " The captor frees him and the two become friends. Spanish:\r\nChilders."
+                ]
+            ]
+        }, 
+        "28": {
+            "content": [
+                "W28. †W28. ", 
+                "Self-sacrifice.", 
+                " Irish\r\nmyth: Cross."
+            ], 
+            "child": [
+                [
+                    "W28.1. †W28.1. ", 
+                    "Woman drinks poison that son may be king.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "W28.2. †W28.2. ", 
+                    "Woman sacrifices life for son‘s honor.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "W28.3. †W28.3. ", 
+                    "Man leaps from vessel into jaws of sea-beast so as to save\r\nremaining passengers.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "W28.4. †W28.4. ", 
+                    "Saint threatens to take place of homicide in hell unless\r\nsoul is released.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "43": {
+            "content": [
+                "W43. †W43. ", 
+                "Peacefulness.", 
+                " Jewish:\r\n*Neuman."
+            ], 
+            "child": []
+        }, 
+        "0": {
+            "content": [
+                "W0. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "2": {
+            "content": [
+                "W2. †W2. ", 
+                "Good inclinations enter body at puberty.", 
+                " Jewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "11": {
+            "content": [
+                "W11. †W11. ", 
+                "Generosity.", 
+                " Irish\r\nmyth: *Cross; Spanish: Keller, Espinosa Jr. No. 200; Jewish: Neuman; India:\r\nThompson-Balys."
+            ], 
+            "child": [
+                [
+                    "W11.1. †W11.1. ", 
+                    "Philanthropist will give his spurs if someone will drive\r\nhis horse for him.", 
+                    " He has given away his\r\ncoat, etc. to beggars. One finally asks for his spurs. Pauli (ed. Bolte) No.\r\n330."
+                ], 
+                [
+                    "W11.2. †W11.2. ", 
+                    "Munificent monarch.", 
+                    "\r\nIndia: Thompson-Balys; Icelandic: *Boberg."
+                ], 
+                [
+                    "W11.2.1. †W11.2.1. ", 
+                    "Emperor thinks day lost when he gives no gifts.", 
+                    " Alphabet No. 443; Spanish Exempla: Keller."
+                ], 
+                [
+                    "W11.2.2. †W11.2.2. ", 
+                    "King will not eat breakfast till gifts are given.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W11.3. †W11.3. ", 
+                    "Man divides money into three parts: (1) for the poor, (2)\r\nfor pilgrims, (3) for himself and family.", 
+                    "\r\nScala Celi 164a No. 921."
+                ], 
+                [
+                    "W11.4. †W11.4. ", 
+                    "Man lets himself be sold as slave so as to practice\r\ngenerosity.", 
+                    " Wesselski Archiv Orientální II 429; Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.4.1. †W11.4.1. ", 
+                    "Brahmin steals to feed guests (deities).", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W11.5. †W11.5. ", 
+                    "Generosity toward enemy.", 
+                    "\r\nItalian Novella: Rotunda; Icelandic: Boberg."
+                ], 
+                [
+                    "W11.5.1. †W11.5.1. ", 
+                    "Ruler pardons his enemies.", 
+                    " Italian Novella: *Rotunda."
+                ], 
+                [
+                    "W11.5.1.1. †W11.5.1.1. ", 
+                    "Man pardons his assailants.", 
+                    " They attack again and are killed. Italian Novella:\r\nRotunda."
+                ], 
+                [
+                    "W11.5.2. †W11.5.2. ", 
+                    "Ruler pardons emissary who has come to murder him.", 
+                    " Italian Novella: *Rotunda."
+                ], 
+                [
+                    "W11.5.3. †W11.5.3. ", 
+                    "Wronged knight conquers enemy and then pardons him.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.5.4. †W11.5.4. ", 
+                    "Conqueror returns defeated man’s wife and family to him.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.5.5. †W11.5.5. ", 
+                    "Conqueror spares city.", 
+                    "\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "W11.5.6. †W11.5.6. ", 
+                    "Ruler reproaches son for bringing him the head of his\r\nfallen enemy.", 
+                    " Latter given honorable\r\nburial. Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.5.7. †W11.5.7. ", 
+                    "Man saved through intercession of enemy.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.5.7.1. †W11.5.7.1. ", 
+                    "Man pays fine for enemy who is falsely accused.", 
+                    " Italian Novella: *Rotunda."
+                ], 
+                [
+                    "W11.5.8. †W11.5.8. ", 
+                    "Captor contributes to captive‘s ransom.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.5.9. †W11.5.9. ", 
+                    "Warrior gives steed to his enemy.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.5.9.1. †W11.5.9.1. ", 
+                    "Calumniated woman intercedes for accusers.", 
+                    " (Cf. †K2112.) Italian\r\nNovella: Rotunda."
+                ], 
+                [
+                    "W11.5.9.2. †W11.5.9.2. ", 
+                    "Man’s life spared through the intercession of the daughter\r\nhe has wronged.", 
+                    " He has ordered her killed.\r\nItalian Novella: Rotunda."
+                ], 
+                [
+                    "W11.5.10. †W11.5.10. ", 
+                    "Champion grants requested boon of safe convoy to his\r\nenemies.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W11.5.11. †W11.5.11. ", 
+                    "Chieftain spares enemies whom he takes unawares (unarmed).", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W11.5.11.1. †W11.5.11.1. ", 
+                    "Chieftain who takes king unawares, spares him on condition\r\nthat chieftain be called “lover” by women of king‘s tribe.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W11.5.12. †W11.5.12. ", 
+                    "Hero in battle refuses to slay charioteers, women, or\r\nphysicians.", 
+                    " (Cf. †C867.1.) Irish myth: Cross."
+                ], 
+                [
+                    "W11.6. †W11.6. ", 
+                    "Ruler generously settles quarrel between loser and finder\r\nof money.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.7. †W11.7. ", 
+                    "Nobleman’s generosity enables impoverished lover to\r\nentertain his lady.", 
+                    " Italian Novella:\r\nRotunda."
+                ], 
+                [
+                    "W11.7.1. †W11.7.1. ", 
+                    "Impoverished nobleman offers wife to ruler.", 
+                    " Latter spares her honor and aids the couple. Italian\r\nNovella: Rotunda."
+                ], 
+                [
+                    "W11.8. †W11.8. ", 
+                    "General sends for king so that the latter may get credit\r\nfor victory.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.9. †W11.9. ", 
+                    "Prince donates all including a tooth.", 
+                    " When he has nothing left he is asked for a gift. He allows\r\nman to extract a tooth from his mouth. (Father had offered reward to anyone\r\npersuading his son to have it extracted.) Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.10. †W11.10. ", 
+                    "Ruler protects thief.", 
+                    "\r\nAsks for the stolen plate and hides it so that it will not be found on the\r\nculprit. Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.11. †W11.11. ", 
+                    "Ruler rewards man who would curb him.", 
+                    " Italian Novella: Rotunda."
+                ], 
+                [
+                    "W11.12. †W11.12. ", 
+                    "The generous correction.", 
+                    "\r\nRuler asks treasurer to give man 200 crowns. Treasurer makes error and puts\r\ndown 300. Ruler raises sum to 400. “I can‘t allow your pen to be more liberal\r\nthan I.” Italian Novella: *Rotunda."
+                ], 
+                [
+                    "W11.12.1. †W11.12.1. ", 
+                    "King rewards knight with large sum of money.", 
+                    " Chancellor: “If you saw such a sum it would seem large to\r\nyou.” King answers that it looks small and doubles it. Italian Novella:\r\n*Rotunda."
+                ], 
+                [
+                    "W11.13. †W11.13. ", 
+                    "Novel sign of death.", 
+                    "\r\nIt is the first time that what he has given away seems too much. Italian\r\nNovella: Rotunda."
+                ], 
+                [
+                    "W11.14. †W11.14. ", 
+                    "Youngest brother shares wealth with older brothers who\r\nfoolishly lost theirs.", 
+                    " (Cf. †L31.) Africa (Jaunde): Heepe 262."
+                ], 
+                [
+                    "W11.15. †W11.15. ", 
+                    "Generous person refuses no man anything.", 
+                    " (Cf. †C871.) Irish myth:\r\n*Cross."
+                ], 
+                [
+                    "W11.16. †W11.16. ", 
+                    "Generous king gives away his only eye.", 
+                    " Irish myth: *Cross."
+                ]
+            ]
+        }, 
+        "10": {
+            "content": [
+                "W10. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "W10.1. †W10.1. ", 
+                    "Saint never drives fly or gnat from his face.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W10.2. †W10.2. ", 
+                    "Saint gives calf to wolf.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "12": {
+            "content": [
+                "W12. †W12. ", 
+                "Hospitality as a virtue.", 
+                " (Cf. †P320.) Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "W12.1. †W12.1. ", 
+                    "Man (king) prefers death to loss of reputation for\r\nhospitality.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W12.2. †W12.2. ", 
+                    "Man looks for strangers so as to bestow hospitality on\r\nthem.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "15": {
+            "content": [
+                "W15. †W15. ", 
+                "Woman shelters son’s murderer out of charity.", 
+                " Spanish: Boggs FFC XC 86 No. 756D*; Italian Novella:\r\n*Rotunda."
+            ], 
+            "child": [
+                [
+                    "W15.1. †W15.1. ", 
+                    "Murderer goes to victim‘s son and asks to be killed.", 
+                    " The son aids him to escape. Italian Novella: Rotunda."
+                ]
+            ]
+        }, 
+        "16": {
+            "content": [
+                "W16. †W16. ", 
+                "Bishop exchanges places with prisoner so as to have him\r\nreturn to his mother.", 
+                " Italian Novella:\r\nRotunda."
+            ], 
+            "child": []
+        }, 
+        "33": {
+            "content": [
+                "W33. †W33. ", 
+                "Heroism.", 
+                " Irish myth:\r\n*Cross; Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "W33.1. †W33.1. ", 
+                    "Badly wounded warrior continues fighting.", 
+                    " Irish myth: *Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "W33.2. †W33.2. ", 
+                    "Warrior refuses to delay battle in return for promise of\r\nlong, happy life.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "18": {
+            "content": [
+                "W18. †W18. ", 
+                "Envious man sets out to kill one who is noted for his\r\ngenerosity.", 
+                " He is won over by the\r\ngenerosity of his intended victim. Italian Novella: *Rotunda."
+            ], 
+            "child": []
+        }, 
+        "31": {
+            "content": [
+                "W31. †W31. ", 
+                "Obedience.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "37": {
+            "content": [
+                "W37. †W37. ", 
+                "Conscientiousness.", 
+                null
+            ], 
+            "child": [
+                [
+                    "W37.0.1. †W37.0.1. ", 
+                    "Man never breaks his word.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W37.1. †W37.1. ", 
+                    "Oil well digger runs out of money, leaves the country,\r\nforgetting to tell his driller.", 
+                    " He returns\r\nfifty years later, finds the driller still drilling away. U.S.: Baughman."
+                ], 
+                [
+                    "W37.2. †W37.2. ", 
+                    "Man keeps promise to return to be eaten by tiger: let go\r\nwithout harm.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "W37.3. †W37.3. ", 
+                    "Rabbi returns jewel found with bought ass.", 
+                    " He had not paid for it. Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "35": {
+            "content": [
+                "W35. †W35. ", 
+                "Justice.", 
+                " Irish myth:\r\nCross; Jewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "W35.1. †W35.1. ", 
+                    "Man picked to judge bull-fight because he is “no fairer to\r\nhis friend than to his foe.”", 
+                    " Irish myth:\r\nCross."
+                ], 
+                [
+                    "W35.2. †W35.2. ", 
+                    "Upright judge refuses a bribe: he is responsible to a\r\nhigher tribunal called Conscience.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "34": {
+            "content": [
+                "W34. †W34. ", 
+                "Loyalty.", 
+                " Irish myth:\r\nCross."
+            ], 
+            "child": [
+                [
+                    "W34.1. †W34.1. ", 
+                    "Man constrained to flee with leader‘", 
+                    null
+                ], 
+                [
+                    "W34.2. †W34.2. ", 
+                    "Loyal friends refuse to fight against disgraced comrade.", 
+                    " (Cf. †P310.) Irish myth:\r\nCross."
+                ], 
+                [
+                    "W34.3. †W34.3. ", 
+                    "Cowardly to leave battle while lord is alive.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "W34.4. †W34.4. ", 
+                    "Fakir rewarded by prince with a life of luxury in city\r\nchooses to return to his monkey friends in jungle.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "32": {
+            "content": [
+                "W32. †W32. ", 
+                "Bravery.", 
+                " Irish myth:\r\n*Cross."
+            ], 
+            "child": [
+                [
+                    "W32.1. †W32.1. ", 
+                    "King Richard leads host to victory by leaping his horse\r\noverboard.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,339 @@
+{
+    "G_400_499_Falling into ogre’s power.": {
+        "450": {
+            "content": [
+                "G450. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "451": {
+            "content": [
+                "G451. †G451. ", 
+                "Following witch‘s fire into her power.", 
+                " *Type 303."
+            ], 
+            "child": []
+        }, 
+        "452": {
+            "content": [
+                "G452. †G452. ", 
+                "Youth takes service with ogre.", 
+                " Scottish: Campbell-McKay No. 25."
+            ], 
+            "child": []
+        }, 
+        "455": {
+            "content": [
+                "G455. †G455. ", 
+                "Falling into ogre’s power through fascination with his\r\ndaughter.", 
+                "\r\n(Cf. †G530.2.) Tuamotu: Stimson MS (z-G. 13/152)."
+            ], 
+            "child": []
+        }, 
+        "475": {
+            "content": [
+                "G475. †G475. ", 
+                "Ogre attacks intruders.", 
+                null
+            ], 
+            "child": [
+                [
+                    "G475.1. †G475.1. ", 
+                    "Ogre attacks intruders in house in woods.", 
+                    " *Type 301; India: *Thompson-Balys; Chinese: Graham;\r\nJapanese: Ikeda; Philippine: Fansler MAFLS XII 34, 433; Borneo: *Dixon 188 n.\r\n6."
+                ], 
+                [
+                    "G475.2. †G475.2. ", 
+                    "Ogre attacks intruders on bridge.", 
+                    " *Type 301."
+                ]
+            ]
+        }, 
+        "406": {
+            "content": [
+                "G406. †G406. ", 
+                "Lost (marooned) person falls into ogre’s power.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "405": {
+            "content": [
+                "G405. †G405. ", 
+                "Man on hunt falls into ogre’s (witch‘s) power.", 
+                " Type 303; Irish myth: Cross; Icelandic: *Boberg; Spanish\r\nExempla: Keller; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "403": {
+            "content": [
+                "G403. †G403. ", 
+                "Ogre in animal form lures victim into captivity.", 
+                " Hdwb. d. Märchens I 542b\r\nnn. 23--27; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "402": {
+            "content": [
+                "G402. †G402. ", 
+                "Pursuit of animal leads to ogre‘s house.", 
+                " India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "G402.1. †G402.1. ", 
+                    "Pursuit of bird leads to ogre’s house.", 
+                    " Type 313; Africa (Kaffir): Theal 108."
+                ], 
+                [
+                    "G402.2. †G402.2. ", 
+                    "Pursuit of mongoose leads to witch‘s house.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "401": {
+            "content": [
+                "G401. †G401. ", 
+                "Children wander into ogre’s house.", 
+                " *Types 327, 327**; Swiss: Jegerlehner Oberwallis 326 No.\r\n1; Spanish: Boggs FFC XC 48 No. 327E*, Espinosa Jr. No. 81; West Indies:\r\nFlowers 453."
+            ], 
+            "child": [
+                [
+                    "G401.1. †G401.1. ", 
+                    "Mistake of elder leads two brothers to the home of ogre.", 
+                    " Alu: Wheeler 50."
+                ]
+            ]
+        }, 
+        "400": {
+            "content": [
+                "G400. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "421": {
+            "content": [
+                "G421. †G421. ", 
+                "Ogre traps victim.", 
+                "\r\nAfrica (Zulu): Callaway 6, (Basuto): Jacottet 258 No. 38."
+            ], 
+            "child": []
+        }, 
+        "420": {
+            "content": [
+                "G420. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "423": {
+            "content": [
+                "G423. †G423. ", 
+                "Ball falling into water puts person into ogre’s (witch‘s,\r\nwater spirit’s) power.", 
+                " *Type 440; BP I\r\n226."
+            ], 
+            "child": []
+        }, 
+        "422": {
+            "content": [
+                "G422. †G422. ", 
+                "Ogre imprisons victim.", 
+                "\r\n*Type 327; Oceanic (New Zealand, Mangaia, Rotuma): Dixon 62."
+            ], 
+            "child": [
+                [
+                    "G422.1. †G422.1. ", 
+                    "Ogre imprisons victim in drum.", 
+                    " Africa (Basuto): Jacottet 62 No. 10, (Kaffir): Kidd 233\r\nNo. 4, (Yoruba): Ellis 261 No. 1."
+                ]
+            ]
+        }, 
+        "424": {
+            "content": [
+                "G424. †G424. ", 
+                "Bridal party will not pass over bridge for fear of\r\nwater-demon.", 
+                " Fb ”bro“ IV 62a."
+            ], 
+            "child": []
+        }, 
+        "426": {
+            "content": [
+                "G426. †G426. ", 
+                "Ogre draws girl over waterfall.", 
+                " Eskimo (Kodiak): Golder JAFL XVI 26."
+            ], 
+            "child": []
+        }, 
+        "410": {
+            "content": [
+                "G410. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "466": {
+            "content": [
+                "G466. †G466. ", 
+                "Lousing as task set by ogre.", 
+                " *Type 480, Roberts 167f.; Greek: Frazer Pausanias V 269f.;\r\nAfrica: Werner African 205."
+            ], 
+            "child": []
+        }, 
+        "465": {
+            "content": [
+                "G465. †G465. ", 
+                "Ogre sets impossible tasks.", 
+                " *Type 313; Chinese: Graham; Africa (Benga): Nassau 215 No.\r\n33."
+            ], 
+            "child": []
+        }, 
+        "464": {
+            "content": [
+                "G464. †G464. ", 
+                "Ogre tyrannizes over fairyland.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "441": {
+            "content": [
+                "G441. †G441. ", 
+                "Ogre carries victim in bag (basket).", 
+                " *Type 327; Norwegian: Christiansen 43f. No. 327**; India:\r\nThompson-Balys; Eskimo (Greenland): Rasmussen II 85; N. A. Indian: *Thompson\r\nTales 351 n. 268a, (California): Gayton and Newman 96; Africa (Basuto):\r\nJacottet 66 No. 10, (Kaffir): Theal 120, 134, (Zulu): Callaway 75."
+            ], 
+            "child": []
+        }, 
+        "440": {
+            "content": [
+                "G440. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "461": {
+            "content": [
+                "G461. †G461. ", 
+                "Youth promised to ogre visits ogre‘s home.", 
+                " *Types 313, 314, 313***;\r\nMissouri French: Carrière; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "G461.1. †G461.1. ", 
+                    "Boy in ogre’s house sees many human heads placed in rows:\r\nheads smile and weep.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "463": {
+            "content": [
+                "G463. †G463. ", 
+                "Ogre guesses correctly and gets princess.", 
+                " Italian: Basile Pentamerone I No. 5."
+            ], 
+            "child": []
+        }, 
+        "462": {
+            "content": [
+                "G462. †G462. ", 
+                "Person as servant in ogre‘s house.", 
+                " Types 314, 428; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "G462.1. †G462.1. ", 
+                    "Hero as giant’s (ogre‘s) goatherd.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "442": {
+            "content": [
+                "G442. †G442. ", 
+                "Child-stealing demon.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "G442.1. †G442.1. ", 
+                    "Ogre abducts new-born babe, keeping it captive for seven\r\nyears.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "G442.2. †G442.2. ", 
+                    "Child watched throughout night as protection against\r\nchild-stealing demon.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "411": {
+            "content": [
+                "G411. †G411. ", 
+                "Person aids ogre and is captured.", 
+                " Africa (Zulu): Callaway 75, (Basuto): Jacottet 236 No. 34."
+            ], 
+            "child": []
+        }, 
+        "414": {
+            "content": [
+                "G414. †G414. ", 
+                "Ogress invites boys to live in her house.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "476": {
+            "content": [
+                "G476. †G476. ", 
+                "Ugly ogre terrifies women who flee and are drowned.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "477": {
+            "content": [
+                "G477. †G477. ", 
+                "Ogre kills men and rapes women.", 
+                " Icelandic: *Boberg; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "412": {
+            "content": [
+                "G412. †G412. ", 
+                "Children lured into ogre’s house.", 
+                " Mono-Alu-Fauru: Wheeler 44f.; Eskimo (West Hudson Bay):\r\nBoas BAM XV 189, 311."
+            ], 
+            "child": [
+                [
+                    "G412.1. †G412.1. ", 
+                    "Ogre‘s gingerbread house lures child.", 
+                    " *Type 327."
+                ]
+            ]
+        }, 
+        "413": {
+            "content": [
+                "G413. †G413. ", 
+                "Ogre disguises voice to lure victim.", 
+                " Africa (Basuto): Jacottet 64 No. 10; West Indies: Flowers\r\n453."
+            ], 
+            "child": []
+        }, 
+        "478": {
+            "content": [
+                "G478. †G478. ", 
+                "Ogre kills noisy children.", 
+                " Eskimo (Greenland): Rink 47; Koryak: Jochelson JE VI 191."
+            ], 
+            "child": []
+        }
+    }
+}
