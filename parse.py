@@ -4,6 +4,7 @@
 import sys, codecs, re, lxml.html, os, json;
 
 def numeric_process(middle_label):
+    print [middle_label]
     if re.search(ur'.+\d+--.+\d+\. .+\r\n.+$', middle_label):
         numeric, char=re.split(ur'\. ', middle_label);
         numeric=numeric.replace(u'\u2020', u'');
@@ -28,6 +29,7 @@ def numeric_process(middle_label):
         range_tuple=(prefix, range_start, range_end, char);
 
     #U.htmlの場合に変なフォーマットがあったので，それに対処するため
+    #elif re.search(ur'.+\d+-.+\d+\.\s.+\r\n.+--.+', middle_label):
     elif re.search(ur'.+\d+-.+\d+\.\s.+\r\n.+--.+', middle_label):
         numeric, char=middle_label.rstrip(u'.').split(u'.');
         numeric=numeric.replace(u'\u2020', u'');
@@ -39,6 +41,22 @@ def numeric_process(middle_label):
         range_end=re.sub(ur'^[A-Z]', u'',range_end);
         #(頭文字, 開始番号，終了番号)
         range_tuple=(prefix, range_start, range_end, char);
+    
+    #jとkの特殊な場合のフォーマットに対応させるため
+    #不具合がある場合はここを疑ったほうがいい
+    elif re.search(ur'.+\d+-\u2020\w+\d+\.\s.+\r\n.+', middle_label) or re.search(ur'.+\d+-\u2020\w+\d+\.\s\w+', middle_label) or\
+        re.search(ur'.+\d+-\u2020\w+\d+\.\r\n.+', middle_label):
+        numeric, char=middle_label.rstrip(u'.').split(u'.');
+        numeric=numeric.replace(u'\u2020', u'');
+        char=(char.replace(u'\r\n', u' ')).strip();
+        numeric=numeric.strip(u'.')
+        range_start, range_end=numeric.split(u'-');
+        prefix=range_start[0];
+        range_start=re.sub(ur'^[A-Z]', u'',range_start);
+        range_end=re.sub(ur'^[A-Z]', u'',range_end);
+        #(頭文字, 開始番号，終了番号)
+        range_tuple=(prefix, range_start, range_end, char);
+
 
     elif re.search(ur'.+\d+--.+\d+\..*', middle_label):
         numeric=middle_label.replace(u'\u2020', u'');
