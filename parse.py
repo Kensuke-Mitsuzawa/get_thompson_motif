@@ -264,7 +264,6 @@ def insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack):
                                                     'child':[]};
                 else:
                     (leaf_parent_map[parent_number]['child']).append(leaf_tuple);
-
     #葉の階層情報を分類して登録する
     copied_range_map_in_map=range_map_in_map.copy();
     for item in leaf_parent_map:
@@ -275,26 +274,24 @@ def insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack):
             range_end=int(tree_node_number[2]);
             #モチーフ番号が当てはまる階層を探して，当てはまる範囲に登録する
             if leaf_parent_number >= range_start and leaf_parent_number <=range_end:
-                if copied_range_map_in_map[tree_node_number]=={}:
-                    copied_range_map_in_map[tree_node_number]={item:leaf_parent_map[item]};
-                else:
-                    tuple_in_flag=False;
-                    for already_element in copied_range_map_in_map[tree_node_number]:
-                        #この階層がキーである可能性があるので
-                        #現状ではこれより下の階層にキーがないと仮定する（そう思いたい）
-                        if isinstance(already_element, tuple):
-                            range_child_start=int(already_element[1]);
-                            range_child_end=int(already_element[2]);
-                            if leaf_parent_number >= range_child_start and leaf_parent_number <= range_end:
-                                tuple_in_flag=True;
-                                if copied_range_map_in_map[tree_node_number][already_element]=={}:
-                                    copied_range_map_in_map[tree_node_number][already_element]={item:leaf_parent_map[item]}
-                                else:
-                                    copied_range_map_in_map[tree_node_number][already_element].setdefault(item, leaf_parent_map[item]);
-                    #この階層にタプルがなくて，かつタプルがあったとしても範囲でなかった場合 
-                    if tuple_in_flag==False:
-                        (copied_range_map_in_map[tree_node_number]).setdefault(item, leaf_parent_map[item]);
-                         
+                #この時，{(u'N', u'100', u'299', u'The ways of luck and fate.'): {(u'N', u'100', u'169', u'NATURE OF LUCK AND FATE'): {}}は反応できない
+                tuple_in_flag=False;
+                for already_element in copied_range_map_in_map[tree_node_number]:
+                    #この階層がキーである可能性があるので
+                    #現状ではこれより下の階層にキーがないと仮定する（そう思いたい）
+                    if isinstance(already_element, tuple):
+                        range_child_start=int(already_element[1]);
+                        range_child_end=int(already_element[2]);
+                        if leaf_parent_number >= range_child_start and leaf_parent_number <= range_child_end:
+                            #print leaf_parent_number, range_child_start, range_child_end
+                            tuple_in_flag=True;
+                            if copied_range_map_in_map[tree_node_number][already_element]=={}:
+                                copied_range_map_in_map[tree_node_number][already_element]={item:leaf_parent_map[item]}
+                            else:
+                                copied_range_map_in_map[tree_node_number][already_element].setdefault(item, leaf_parent_map[item]);
+                #この階層にタプルがなくて，かつタプルがあったとしても範囲でなかった場合 
+                if tuple_in_flag==False:
+                    (copied_range_map_in_map[tree_node_number]).setdefault(item, leaf_parent_map[item]);
     return copied_range_map_in_map;
 
 def draw_tree(range_map_in_map):
