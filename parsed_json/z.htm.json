@@ -1,145 +1,130 @@
 {
     "Z_0_99_None": {
-        "11": {
+        "60": {
             "content": [
-                "Z11. †Z11. ", 
-                "Endless tales.", 
-                " Hundreds of sheep to be carried over stream one at a time, etc.\r\nThe wording of the tale so arranged as to continue indefinitely. *Type 2300;\r\n*BP II 209; Taylor Hdwb. d. Märchens II 190a; Irish myth: *Cross; Spanish\r\nExempla: Keller; Italian Novella: *Rotunda; India: *Thompson-Balys."
+                "Z60. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "61": {
+            "content": [
+                "Z61. †Z61. ", 
+                "Never.", 
+                " Various ways of\r\nexpressing this idea. When black sheep turn white, when a dry branch sprouts,\r\netc. *Fb “aldrig” IV 9a; *Wehrhan 36; Hdwb. d. Märchens II 163a; *Gittee Zs. f.\r\nVksk. III 442ff.; Weise Zs. f. hochdeutsche Mundarten III 47ff.; Stoett\r\nNederlandsche Spreekwoorden, Spreekwijzen, Vitdrukkingen en Gezegden@4\r\n(Zutphen, 1923) I 401ff. No. 1036; Berthold Nassauische Blätter V 199ff.;\r\nTreichel Der Urquell II 214; Heller Die Bedeutung des arabischen Antar-romans\r\nfür die vergleichende Literaturkunde (Form und Geist XXI, Leipzig, 1931)\r\n174ff.; Taylor English Riddles 54 No. 143; Müller-Fraureuth Die deutschen\r\nLügendichtungen bis auf Münchhausen (Halle a. S., 1881) 19. -- Irish myth:\r\n*Cross; Jewish: Neuman; India: Thompson-Balys; West Indies: Flowers 588."
             ], 
             "child": [
                 [
-                    "Z11.1. †Z11.1. ", 
-                    "Endless tale: corn carried away grain at a time.", 
-                    " England, U.S.: *Baughman."
+                    "Z61.1. †Z61.1. ", 
+                    "Never.", 
+                    " “Till Ogham and\r\npillar be blent together, till heaven and earth, till sun and moon be blent\r\ntogether.” Irish myth: Cross."
                 ], 
                 [
-                    "Z11.2. †Z11.2. ", 
-                    "Endless tale: hundreds of birds in snare fly away one at a\r\ntime.", 
+                    "Z61.2. †Z61.2. ", 
+                    "Forever.", 
+                    " “A day and a\r\nnight.” Irish myth: Cross."
+                ], 
+                [
+                    "Z61.3. †Z61.3. ", 
+                    "Butterby Church--no church at all.", 
+                    " If person says he has gone to Butterby Church, he has not\r\ngone to church. England: Baughman."
+                ], 
+                [
+                    "Z61.4. †Z61.4. ", 
+                    "“He struck him such a blow that he remembered the milk he\r\ndrank on the sixth day after he was born.”", 
+                    "\r\nIndia: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "62": {
+            "content": [
+                "Z62. †Z62. ", 
+                "Proverbial simile.", 
+                null
+            ], 
+            "child": [
+                [
+                    "Z62.1. †Z62.1. ", 
+                    "The old and the new keys.", 
+                    " Hero marries his first sweetheart according\r\nto the proverb that the old key is better than the new. (Cf. †L214.) *Type 313;\r\n*BP II 59, 246, 335, 516ff., III 40; *Fb “nøgle” II 511b; Rumanian: Schullerus FFC LXXVIII No. 906*."
+                ], 
+                [
+                    "Z62.2. †Z62.2. ", 
+                    "“Bridegroom like the sun and bride like the moon.”", 
                     " India: Thompson-Balys."
                 ]
             ]
         }, 
-        "10": {
+        "63": {
             "content": [
-                "Z10. ", 
+                "Z63. †Z63. ", 
+                "Formulas signifying fruitlessness,", 
+                " e.g. like putting a withe about sand, like mocking a\r\nbeggar. Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "64": {
+            "content": [
+                "Z64. †Z64. ", 
+                "Proverbs.", 
+                "†1 India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "Z64.1. †Z64.1. ", 
+                    "Proverb: one man for worship, two men for cultivation of a\r\nfield, three men for a journey.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "65": {
+            "content": [
+                "Z65. †Z65. ", 
+                "Color formulas.", 
+                " Hdwb. d. Märchens II 51a."
+            ], 
+            "child": [
+                [
+                    "Z65.1. †Z65.1. ", 
+                    "Red as blood, white as snow.", 
+                    " Often from blood on snow\r\nas a suggestion, a wish is made for a child (wife) with skin like snow and\r\ncheeks like blood, etc. (Sometimes black as a raven.) Types 516, 709, 720; BP I\r\n166, 450, *461, IV 245 n. 1; Rösch FFC LXXVII 100; *Böklen 62ff.; **Cosquin\r\nContes indiens 218ff.; Italian: Basile Pentamerone V No. 9."
+                ], 
+                [
+                    "Z65.1.1. †Z65.1.1. ", 
+                    "Red as blood, white as snow, (and black as a raven).", 
+                    " Usually applied to the cheeks, skin, and hair of a girl’s\r\nlover. Irish myth: *Cross."
+                ], 
+                [
+                    "Z65.2. †Z65.2. ", 
+                    "Series: white cock, red cock, black cock.", 
+                    " These crow at dawn and\r\nscatter ghosts. (Cf. †E452.) Köhler-Bolte III 581."
+                ]
+            ]
+        }, 
+        "80": {
+            "content": [
+                "Z80. ", 
                 null, 
                 null
             ], 
-            "child": [
-                [
-                    "Z10.1. †Z10.1. ", 
-                    "Beginning formulas.", 
-                    " *Hdwb. d. Märchens II 161; *BP IV 14ff.;\r\nKorean: Zong in-Sob 14 No. 7."
-                ], 
-                [
-                    "Z10.2. †Z10.2. ", 
-                    "End formulas.", 
-                    " *BP IV 24ff.; Hdwb. d. Märchens II 164; *Petsch Formelhafte\r\nSchlüsse im Volksmärchen (1900); India: *Thompson-Balys."
-                ], 
-                [
-                    "Z10.3. †Z10.3. ", 
-                    "Transition formulas.", 
-                    " Hdwb. d. Märchens II 162; BP IV 20ff."
-                ]
-            ]
+            "child": []
         }, 
-        "13": {
+        "81": {
             "content": [
-                "Z13. †Z13. ", 
-                "Catch tales.", 
-                " The\r\nmanner of the telling forces the hearer to ask a particular question, to which\r\nthe teller returns a ridiculous answer. Type 2200; England, U.S., Canada:\r\n*Baughman; West Indies: Flowers 586."
-            ], 
-            "child": [
-                [
-                    "Z13.1. †Z13.1. ", 
-                    "Tale-teller frightens listener: yells “Boo” at exciting\r\npoint.", 
-                    " Type 366; Canada, England, U.S.:\r\n*Baughman."
-                ], 
-                [
-                    "Z13.2. †Z13.2. ", 
-                    "Catch tale: teller is killed in his own story.", 
-                    " Canada, U.S.: *Baughman."
-                ]
-            ]
-        }, 
-        "12": {
-            "content": [
-                "Z12. †Z12. ", 
-                "Unfinished tales.", 
-                " Just\r\nas the interest is aroused the narrator quits. “If the bowl had been stronger\r\nmy tale had been longer.” *Types 2250, 2260; BP II 210, III 455; Taylor Hdwb. d. Märchens\r\nII 189b; Köhler-Bolte I 269."
+                "Z81. †Z81. ", 
+                "Blowing the house in.", 
+                "\r\nI‘ll huff and I’ll puff till I blow your house in. Type 124; *Taylor JAFL XLVI\r\n78; BP I 40f.; Jacobs English Fairy Tales 251 No. 14."
             ], 
             "child": []
         }, 
-        "15": {
+        "0": {
             "content": [
-                "Z15. †Z15. ", 
-                "Tale avoiding all pronouns.", 
-                " Lang English Fairy Tales 118."
-            ], 
-            "child": []
-        }, 
-        "14": {
-            "content": [
-                "Z14. †Z14. ", 
-                "“Runs.”", 
-                " Conventional passages of set form within a tale, usually recited\r\nin a different voice from the rest. *Hdwb. d. Märchens II 163; *Campbell-McKay\r\n233ff.; India: *Thompson-Balys."
-            ], 
-            "child": []
-        }, 
-        "17": {
-            "content": [
-                "Z17. †Z17. ", 
-                "Rounds.", 
-                " Stories which begin over and over again and repeat. Type 2350;\r\nTaylor JAFL XLVI 88, Hdwb. d. Märchens II 190; U.S.: Baughman; Lithuanian:\r\nBalys Index No. 2300; India: Thompson-Balys."
-            ], 
-            "child": []
-        }, 
-        "16": {
-            "content": [
-                "Z16. †Z16. ", 
-                "Tales ending with a question.", 
-                " *Type 653; *BP III 45; Basset RTP VII 188; Cosquin Revue\r\nd‘Ethnographie et des Traditions Populaires I 62, II 41; Africa: Werner African\r\n359."
-            ], 
-            "child": [
-                [
-                    "Z16.1. †Z16.1. ", 
-                    "Four brothers construct a woman.", 
-                    " Whose is she? India: Thompson-Balys."
-                ]
-            ]
-        }, 
-        "19": {
-            "content": [
-                "Z19. †Z19. ", 
-                "Formulistic frameworks--miscellaneous.", 
+                "Z0. ", 
+                null, 
                 null
             ], 
-            "child": [
-                [
-                    "Z19.1. †Z19.1. ", 
-                    "Game-tales.", 
-                    " (Used as\r\ngame.) *BP II 210."
-                ], 
-                [
-                    "Z19.2. †Z19.2. ", 
-                    "Tales filled with contradictions.", 
-                    " West Indies: Flowers 587."
-                ]
-            ]
-        }, 
-        "18": {
-            "content": [
-                "Z18. †Z18. ", 
-                "Formulistic conversations.", 
-                null
-            ], 
-            "child": [
-                [
-                    "Z18.1. †Z18.1. ", 
-                    "What makes your ears so big?--To hear the better, my child,\r\netc.", 
-                    " Type 333."
-                ]
-            ]
+            "child": []
         }, 
         "Z_20_59_CUMULATIVE TALES": {
             "30": {
@@ -147,124 +132,6 @@
                     "Z30. ", 
                     null, 
                     null
-                ], 
-                "child": []
-            }, 
-            "60": {
-                "content": [
-                    "Z60. ", 
-                    null, 
-                    null
-                ], 
-                "child": []
-            }, 
-            "61": {
-                "content": [
-                    "Z61. †Z61. ", 
-                    "Never.", 
-                    " Various ways of\r\nexpressing this idea. When black sheep turn white, when a dry branch sprouts,\r\netc. *Fb “aldrig” IV 9a; *Wehrhan 36; Hdwb. d. Märchens II 163a; *Gittee Zs. f.\r\nVksk. III 442ff.; Weise Zs. f. hochdeutsche Mundarten III 47ff.; Stoett\r\nNederlandsche Spreekwoorden, Spreekwijzen, Vitdrukkingen en Gezegden@4\r\n(Zutphen, 1923) I 401ff. No. 1036; Berthold Nassauische Blätter V 199ff.;\r\nTreichel Der Urquell II 214; Heller Die Bedeutung des arabischen Antar-romans\r\nfür die vergleichende Literaturkunde (Form und Geist XXI, Leipzig, 1931)\r\n174ff.; Taylor English Riddles 54 No. 143; Müller-Fraureuth Die deutschen\r\nLügendichtungen bis auf Münchhausen (Halle a. S., 1881) 19. -- Irish myth:\r\n*Cross; Jewish: Neuman; India: Thompson-Balys; West Indies: Flowers 588."
-                ], 
-                "child": [
-                    [
-                        "Z61.1. †Z61.1. ", 
-                        "Never.", 
-                        " “Till Ogham and\r\npillar be blent together, till heaven and earth, till sun and moon be blent\r\ntogether.” Irish myth: Cross."
-                    ], 
-                    [
-                        "Z61.2. †Z61.2. ", 
-                        "Forever.", 
-                        " “A day and a\r\nnight.” Irish myth: Cross."
-                    ], 
-                    [
-                        "Z61.3. †Z61.3. ", 
-                        "Butterby Church--no church at all.", 
-                        " If person says he has gone to Butterby Church, he has not\r\ngone to church. England: Baughman."
-                    ], 
-                    [
-                        "Z61.4. †Z61.4. ", 
-                        "“He struck him such a blow that he remembered the milk he\r\ndrank on the sixth day after he was born.”", 
-                        "\r\nIndia: Thompson-Balys."
-                    ]
-                ]
-            }, 
-            "62": {
-                "content": [
-                    "Z62. †Z62. ", 
-                    "Proverbial simile.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "Z62.1. †Z62.1. ", 
-                        "The old and the new keys.", 
-                        " Hero marries his first sweetheart according\r\nto the proverb that the old key is better than the new. (Cf. †L214.) *Type 313;\r\n*BP II 59, 246, 335, 516ff., III 40; *Fb “nøgle” II 511b; Rumanian: Schullerus FFC LXXVIII No. 906*."
-                    ], 
-                    [
-                        "Z62.2. †Z62.2. ", 
-                        "“Bridegroom like the sun and bride like the moon.”", 
-                        " India: Thompson-Balys."
-                    ]
-                ]
-            }, 
-            "63": {
-                "content": [
-                    "Z63. †Z63. ", 
-                    "Formulas signifying fruitlessness,", 
-                    " e.g. like putting a withe about sand, like mocking a\r\nbeggar. Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "64": {
-                "content": [
-                    "Z64. †Z64. ", 
-                    "Proverbs.", 
-                    "†1 India: Thompson-Balys."
-                ], 
-                "child": [
-                    [
-                        "Z64.1. †Z64.1. ", 
-                        "Proverb: one man for worship, two men for cultivation of a\r\nfield, three men for a journey.", 
-                        " India:\r\nThompson-Balys."
-                    ]
-                ]
-            }, 
-            "65": {
-                "content": [
-                    "Z65. †Z65. ", 
-                    "Color formulas.", 
-                    " Hdwb. d. Märchens II 51a."
-                ], 
-                "child": [
-                    [
-                        "Z65.1. †Z65.1. ", 
-                        "Red as blood, white as snow.", 
-                        " Often from blood on snow\r\nas a suggestion, a wish is made for a child (wife) with skin like snow and\r\ncheeks like blood, etc. (Sometimes black as a raven.) Types 516, 709, 720; BP I\r\n166, 450, *461, IV 245 n. 1; Rösch FFC LXXVII 100; *Böklen 62ff.; **Cosquin\r\nContes indiens 218ff.; Italian: Basile Pentamerone V No. 9."
-                    ], 
-                    [
-                        "Z65.1.1. †Z65.1.1. ", 
-                        "Red as blood, white as snow, (and black as a raven).", 
-                        " Usually applied to the cheeks, skin, and hair of a girl’s\r\nlover. Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z65.2. †Z65.2. ", 
-                        "Series: white cock, red cock, black cock.", 
-                        " These crow at dawn and\r\nscatter ghosts. (Cf. †E452.) Köhler-Bolte III 581."
-                    ]
-                ]
-            }, 
-            "80": {
-                "content": [
-                    "Z80. ", 
-                    null, 
-                    null
-                ], 
-                "child": []
-            }, 
-            "81": {
-                "content": [
-                    "Z81. †Z81. ", 
-                    "Blowing the house in.", 
-                    "\r\nI‘ll huff and I’ll puff till I blow your house in. Type 124; *Taylor JAFL XLVI\r\n78; BP I 40f.; Jacobs English Fairy Tales 251 No. 14."
                 ], 
                 "child": []
             }, 
@@ -357,13 +224,124 @@
                     ]
                 ]
             }, 
-            "23": {
+            "49": {
                 "content": [
-                    "Z23. †Z23. ", 
-                    "How the Rich Man\r\npaid his Servant (Lönen hos den rike man).", 
-                    "\r\nA farmer pays his servant in the first year a hen, in the second a cock, goose,\r\ngoat, cow, horse, .... girl. farmstead. **Taylor JAFL XLVI 80 No. 2010 I;\r\nKristensen Danske Dyrefabler 168--78 Nos. 392--418; *T. Norlind Svenska\r\nAllmogens Liv@2 (Stockholm, 1925) 612. -- Lithuanian: Balys Index No. 2010 I*."
+                    "Z49. †Z49. ", 
+                    "Miscellaneous interdependent chains.", 
+                    null
                 ], 
-                "child": []
+                "child": [
+                    [
+                        "Z49.1. †Z49.1. ", 
+                        "“I killed my grandmother because she refused to cook a\r\nhare.", 
+                        " I killed a priest because he said my\r\ncrime was bad. A friar absolved me to avoid being killed.” (First ed. †Z41.7.)\r\n*Taylor JAFL XLVI 87 No. 2037; Spanish: Boggs FFC XC 155 No. 2026*."
+                    ], 
+                    [
+                        "Z49.2. †Z49.2. ", 
+                        "Cumulative pursuit.", 
+                        " Boys get help. One of them injures the\r\nhelper. Pursued. Hidden by kind hen. One injures the hen. Hen pursues, etc.\r\n(First ed. †Z41.8.) *Taylor JAFL XLVI 87 No. 2038; Jamaica: Beckwith MAFLS XVII\r\n264f. No. 70."
+                    ], 
+                    [
+                        "Z49.2.1. †Z49.2.1. ", 
+                        "Fat mouse cannot get into hole.", 
+                        " “Carpenter, please pare off a little flesh from my ribs.”\r\nRefused. Final formula: the scythe cuts the creeper loose. India:\r\nThompson-Balys."
+                    ], 
+                    [
+                        "Z49.3. †Z49.3. ", 
+                        "The bird indifferent to pain.", 
+                        " A man catches a\r\nmango-bird eating mangoes and strikes it against the roots of a mango-tree. The\r\nbird cannot be made to say it suffers from the blow. In turn, he puts it in\r\nwater, strikes it on the ground, a stile, a door-frame, singes its feathers,\r\ncuts it up, cooks it, and eats it. The bird always expresses indifference in a\r\ncumulative rhyme. At last the bird asks him to look out of the window,\r\nwhereupon it flies out of his nose and the man dies. (First ed. †Z41.11.)\r\n*Taylor JAFL XLVI 87 No. 2041."
+                    ], 
+                    [
+                        "Z49.4. †Z49.4. ", 
+                        "There was once a woman; the woman had a son; the son had\r\nred breeches; etc.", 
+                        "--At last: “Shall I tell\r\nit again?”\r\n(First ed. †Z41.12.) *Taylor JAFL XLVI 81 No. 2013."
+                    ], 
+                    [
+                        "Z49.5. †Z49.5. ", 
+                        "Where is the warehouse?--The fire burned it down.", 
+                        "--Where is the fire?--The\r\nwater quenched it. (First ed. †Z41.13.) Type 2018."
+                    ], 
+                    [
+                        "Z49.5.1. †Z49.5.1. ", 
+                        "“Where is that grain?” -- “The cock snatched it.”", 
+                        " -- “Where is that cock?”--“He drowned in the sea.”--“Where\r\nis that sea?”--“It is grown over with reeds.”--“Where are those reeds?”--“The\r\nmaids have cut them down”, etc. Lithuanian: Balys Index No. 2018."
+                    ], 
+                    [
+                        "Z49.5.2. †Z49.5.2. ", 
+                        "The wolf who wanted to make bread.", 
+                        " The farmer explained to him how bread is made. He keeps on\r\nasking: “Shall I then be able to eat?” Decides he will not have enough patience to make bread. (Cf.\r\n†K555.1.2.) Lithuanian: Balys Index No. 164*."
+                    ], 
+                    [
+                        "Z49.6. †Z49.6. ", 
+                        "Trial among the animals.", 
+                        "\r\nDeer steps on kitten: cat investigates. Deer has been frightened by bird, this\r\nbird by another bird .... by crab’s pointed claw, crab by mouse in his hole. Cat eats mouse. (Frog\r\ncroaks because turtle carries his house on his head; turtle carries house\r\nbecause firefly is bringing fire; firefly brings fire because mosquito tries to\r\nbite him, etc.) (First ed. †Z41.14.) India: Thompson-Balys; Indonesia, Malaya:\r\nDixon 202; Philippine: Fansler MAFLS XII 390."
+                    ], 
+                    [
+                        "Z49.6.1. †Z49.6.1. ", 
+                        "Birds fight and cause series of accidents to other animals\r\nand people.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.6.2. †Z49.6.2. ", 
+                        "Bite (prick) causes series of accidents.", 
+                        " India: *Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.6.3. †Z49.6.3. ", 
+                        "Man sharpening his dao is bitten by a prawn.", 
+                        " He cuts down a big bamboo; a fruit falls from bamboo and\r\nstrikes a bird on the nape of the neck; the bird scratches up an ant‘s nest\r\nwith his feet; the ant bites a wild boar in the eye; and the boar bears down\r\nupon a plantain tree where a bat dwells under a leaf; the bat seeks refuge in\r\nthe ear of an elephant, and the elephant kicks down the house on an old woman.\r\nShe rushes out and falls into a well. India: *Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.7. †Z49.7. ", 
+                        "Cumulative tale: bird who seeks carpenter to release young\r\ncaught in closed tree.", 
+                        " Beetle bites calf,\r\ncalf bites cow, cow hoofs carpenter, carpenter beats wife, hunters save\r\ncarpenter’s cow, carpenter releases birds. India: Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.8. †Z49.8. ", 
+                        "Biting a grain in half.", 
+                        "\r\nFinal formula: Forester attacks bear, the bear the wolf, the wolf the dog, the\r\ndog the cat, the cat the mouse, the mouse the grain--the grain is bitten in\r\ntwo. Lithuanian: Balys Index No. 2006*."
+                    ], 
+                    [
+                        "Z49.9. †Z49.9. ", 
+                        "Pulling up the turnip.", 
+                        "\r\nFinal formula: The mouse holds onto the cat, the cat holds onto Mary, Mary\r\nholds onto Annie, Annie holds onto grandmother, grandmother holds onto\r\ngrandfather, grandfather holds onto the turnip--they all pull and pull it out.\r\nLithuanian: Balys Index No. 2008*; Russian: Andrejev No. 1960G*."
+                    ], 
+                    [
+                        "Z49.10. †Z49.10. ", 
+                        "Lizard eats cricket, frog eats lizard, snake eats frog,\r\neagle eats snake, man shoots eagle; animals escape except lizard.", 
+                        " Man takes eagle home. U.S.: Baughman."
+                    ], 
+                    [
+                        "Z49.11. †Z49.11. ", 
+                        "Who is guilty of the accident.", 
+                        " (One person blames another who blames another, etc.)\r\nIndia: *Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.11.1. †Z49.11.1. ", 
+                        "Wall in construction collapses.", 
+                        " Finally the king finds out that the sea is guilty. (The\r\nchain: mason--cement mixer--beautifully singing woman--pearl\r\nnecklace--jeweller--diver--sea.) India: *Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.11.2. †Z49.11.2. ", 
+                        "Thief breaks foot climbing wall to rob.", 
+                        " Suit against owner for dangerous wall. India:\r\n*Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.12. †Z49.12. ", 
+                        "Hermit must get cat to kill rats in hunt, cow to give cat\r\nmilk, etc.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.13. †Z49.13. ", 
+                        "Chain of killings: bulbul destroys flower and is killed by\r\ncat; cat shaken by dog; dog killed by boy; boy sentenced to death by king.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "Z49.14. †Z49.14. ", 
+                        "The little old lady who swallowed a fly.", 
+                        " She swallows a spider to eat up the fly, a bird to eat up\r\nthe spider, a dog to eat the bird, a cow to eat the dog. “The little old lady\r\nswallowed a horse--she died, of course.” U.S.: *Baughman."
+                    ]
+                ]
             }, 
             "46": {
                 "content": [
@@ -554,678 +532,6 @@
                     ]
                 ]
             }, 
-            "76": {
-                "content": [
-                    "Z76. †Z76. ", 
-                    "Formulistic exaggerations.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "Z76.1. †Z76.1. ", 
-                        "Three-fourths of men of Ireland die in one night.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "75": {
-                "content": [
-                    "Z75. †Z75. ", 
-                    "Formula: as many children as holes in a sieve.", 
-                    " Breton: Sébillot\r\nIncidents s.v. “enfants”."
-                ], 
-                "child": []
-            }, 
-            "73": {
-                "content": [
-                    "Z73. †Z73. ", 
-                    "A day and a night.", 
-                    "\r\nIrish myth: Cross."
-                ], 
-                "child": [
-                    [
-                        "Z73.1. †Z73.1. ", 
-                        "After four days--another two days--another day.", 
-                        " India: Thompson-Balys."
-                    ]
-                ]
-            }, 
-            "72": {
-                "content": [
-                    "Z72. †Z72. ", 
-                    "Formulas based on the year.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": [
-                    [
-                        "Z72.1. †Z72.1. ", 
-                        "A year and a day.", 
-                        " (Cf. †Z71.0.2.) *Fb “år” III 1195b; A Gobbe-Duval Essais de folklore juridique@2 (Paris,\r\n1920) 178ff.; Schröder und v. Künssberg Lehrbuch d. dt. Rechtsgeschichte@6\r\n(1922) 789 n.; Liebermann Herrig’s Archiv (1916) 401f.;\r\nKöhler-Bolte I 6. --Irish myth: Cross; English: Malory X 36, 39 and passim;\r\nBreton: Sébillot Incidents s.v. “an”, “congé”; French Canadian: Barbeau JAFL XXIX 18, 24."
-                    ], 
-                    [
-                        "Z72.2. †Z72.2. ", 
-                        "Seven years, seven months, seven days.", 
-                        " Type 451; BP I 431;\r\nKöhler-Bolte Zs. f. Vksk. VI 63."
-                    ], 
-                    [
-                        "Z72.3. †Z72.3. ", 
-                        "Seven (three) years between feasts.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z72.4. †Z72.4. ", 
-                        "Seven years as length of course in school.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z72.5. †Z72.5. ", 
-                        "Every third year as period of tribute.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z72.6. †Z72.6. ", 
-                        "Three hundred and sixty-five.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z72.7. †Z72.7. ", 
-                        "Twelve years and thirteen days.", 
-                        " India: Thompson-Balys."
-                    ]
-                ]
-            }, 
-            "71": {
-                "content": [
-                    "Z71. †Z71. ", 
-                    "Formulistic numbers.", 
-                    "\r\n*Hdwb. d. Abergl. s.v. “Zahl”; Penzer I 242 n. 3, 255 n. 2, VI 14 n. 1;\r\nFeilberg Dania II 185ff."
-                ], 
-                "child": [
-                    [
-                        "Z71.0.1. †Z71.0.1. ", 
-                        "Odd numbers --formulistic.", 
-                        " Roman: Pliny Natural History X 151, XXVIII 23; Hindu:\r\nCaland Verhandelingen der Koniglijke Akademie van Wetenschappen te Amsterdam\r\nXVII (4) 23 and NS I (6) 73, 103; Indonesian: Kruyt Het Animisme 514."
-                    ], 
-                    [
-                        "Z71.0.2. †Z71.0.2. ", 
-                        "Formulistic numbers: a number plus one", 
-                        " (101, 1001, etc.). R. M. Meyer Archiv f.\r\nReligionswissenschaft X (1907) 89ff.; *BP IV 397ff.; Irish myth: Cross; Jewish:\r\nNeuman."
-                    ], 
-                    [
-                        "Z71.1. †Z71.1. ", 
-                        "Formulistic number: three.", 
-                        " **R. Mueller Die Zahl\r\nDrei in Sage, Dichtung u. Kunst (Teschen, 1903); Wundt Völkerpsychologie VI\r\n341; Diels Sibyllinische Blätter 40; Aly Volksmärchen bei Herodot 240: Hdwb. d.\r\nMärchens I 412ff.; *H. Usener “Dreiheit”\r\nRheinisches Museum f. Philologie N. F. LVIII (1903) 1--47, 161--208; *Fb “tre”.--Breton: Sébillot\r\nIncidents s.v. “trois”; Irish myth: *Cross;\r\nIcelandic: *Boberg; India: *Thompson-Balys; Chinese: Graham; Africa (Bulu):\r\nKrug 120f. (Luba): DeClerq ZsKS IV 201; S. A. Indian (Chiriguano): Métraux RMLP\r\nXXXIII 166."
-                    ], 
-                    [
-                        "Z71.1.0.1. †Z71.1.0.1. ", 
-                        "Triads.", 
-                        " Irish myth:\r\n*Cross; Icelandic: Boberg."
-                    ], 
-                    [
-                        "Z71.1.0.2. †Z71.1.0.2. ", 
-                        "Formulistic numbers: threefold (e.", 
-                        "g. three times thirty). Jewish: Neuman; Africa (Fang):\r\nEinstein 49."
-                    ], 
-                    [
-                        "Z71.1.1. †Z71.1.1. ", 
-                        "Formula: three days and three nights.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.1.2. †Z71.1.2. ", 
-                        "Three chairs in heaven for three saints.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.1.3. †Z71.1.3. ", 
-                        "Three strains of (fairy) music.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.4. †Z71.1.4. ", 
-                        "Three things that lead to hell (heaven).", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.5. †Z71.1.5. ", 
-                        "Three innocent children: Ananias, Zacharias, Misael.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.6. †Z71.1.6. ", 
-                        "Three Lents.", 
-                        " Irish\r\nmyth: Cross."
-                    ], 
-                    [
-                        "Z71.1.7. †Z71.1.7. ", 
-                        "Three Maries.", 
-                        " Irish\r\nmyth: *Cross."
-                    ], 
-                    [
-                        "Z71.1.8. †Z71.1.8. ", 
-                        "Three orders of Irish saints.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.9. †Z71.1.9. ", 
-                        "Three seas surrounding the earth.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.10. †Z71.1.10. ", 
-                        "Three sods that none may escape: “The sod of his birth, the\r\nsod of his death, the sod of his burying.”", 
-                        "\r\nIrish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.1.11. †Z71.1.11. ", 
-                        "Three whom Christ raised from the dead.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.12. †Z71.1.12. ", 
-                        "Three spiritual gifts of God.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.1.13. †Z71.1.13. ", 
-                        "Three persons who spoke immediately after birth.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.14. †Z71.1.14. ", 
-                        "Three weak things that are the strongest.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.15. †Z71.1.15. ", 
-                        "Three worst things in Ireland.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.16. †Z71.1.16. ", 
-                        "Three reasons why men should condemn wealth.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.1.17. †Z71.1.17. ", 
-                        "Three cries of the world.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.1.18. †Z71.1.18. ", 
-                        "Three bad stories of the saints of Ireland.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.2. †Z71.2. ", 
-                        "Formulistic number: four.", 
-                        " Grimm Deutsche Rechtsalterthümer I 290ff.;\r\nEisler Weltenmantel 337; Wundt Völkerpsychologie VI 354ff.; Brinton Myths of\r\nthe New World 66ff.; India: Thompson-Balys; Icelandic: Boberg."
-                    ], 
-                    [
-                        "Z71.2.0.1. †Z71.2.0.1. ", 
-                        "Formulistic number: fourfold", 
-                        " (e.g. 400, 4000). Jewish: Neuman."
-                    ], 
-                    [
-                        "Z71.2.1. †Z71.2.1. ", 
-                        "Formula: north, south, east, west.", 
-                        " (The cardinal directions.) India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.2.2. †Z71.2.2. ", 
-                        "The four elements.", 
-                        "\r\nIrish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.2.3. †Z71.2.3. ", 
-                        "The four humors.", 
-                        " Irish\r\nmyth: Cross."
-                    ], 
-                    [
-                        "Z71.2.4. †Z71.2.4. ", 
-                        "Four places that cleanse the soul.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.2.5. †Z71.2.5. ", 
-                        "Four categories of souls at Judgment.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.2.6. †Z71.2.6. ", 
-                        "Four things that prevent the holy life.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.2.7. †Z71.2.7. ", 
-                        "Four things to which the glory of the world is compared.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.2.8. †Z71.2.8. ", 
-                        "Sending four messengers with four winds.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.3. †Z71.3. ", 
-                        "Formulistic number: five.", 
-                        " Irish myth: Cross; English: Gawayne and the Green Knight lines 623ff.;\r\nHdwb. d. Abergl. s.v. “Funf”; India: Thompson-Balys; N. A. Indian (Klikitat):\r\nJacobs U Wash II 32ff."
-                    ], 
-                    [
-                        "Z71.3.0.1. †Z71.3.0.1. ", 
-                        "Formulistic numbers: fivefold (e.", 
-                        "g. 50, 500). Africa (Luba): De Clerq Zs KS IV 202."
-                    ], 
-                    [
-                        "Z71.3.1. †Z71.3.1. ", 
-                        "Five sighs we should vent over our sins.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.3.2. †Z71.3.2. ", 
-                        "Five wounds of Christ.", 
-                        "\r\nIrish myth: Cross."
-                    ], 
-                    [
-                        "Z71.4. †Z71.4. ", 
-                        "Formulistic number: six.", 
-                        " Hdwb. d. Märchens I 420a s.v. “Drie” nn. 408ff."
-                    ], 
-                    [
-                        "Z71.4.0.1. †Z71.4.0.1. ", 
-                        "Formulistic number: sixfold.", 
-                        " Jewish: Neuman."
-                    ], 
-                    [
-                        "Z71.5. †Z71.5. ", 
-                        "Formulistic number: seven.", 
-                        " *Nyrop Dania II 126;\r\nGrimm Deutsche Rechtsalterthümer I 292; Wundt Völkerpsychologie VI 349;\r\n*Roscher Die Sieben- und Neunzahl im Kultus und Mythus der Griechen (Leipzig,\r\n1904); Aly Volksmärchen bei Herodot 241; *Fb “syv”.\r\n--Irish: *Cross, O‘Suilleabhain 45, 100, Beal XXI 316, 332; Breton: Sébillot\r\nIncidents s.v. “sept”; Icelandic: *Boberg;\r\nSpanish: Espinosa Jr. Nos. 157, 178; India: *Thompson-Balys; Buddhist myth:\r\nMalalasekera I 457; Chinese: Eberhard FFC CXX 49, 162, Graham; N. A. Indian\r\n(Seneca): Curtin-Hewitt RBAE XXXII 93 No. 6, 149 No. 24, 154 No. 26; Africa\r\n(Cameroon): Mansfield 224, 236, (Togo): Einstein 7, (Congo): Weeks Cannibals\r\n217."
-                    ], 
-                    [
-                        "Z71.5.0.1. †Z71.5.0.1. ", 
-                        "Formulistic numbers: sevenfold (e.", 
-                        "g. 49, 70, 70,000,\r\n7,777). (Cf. †Z71.15.) Jewish: Neuman; India: Thompson-Balys; Buddhist myth:\r\nMalalasekera II 943; Chinese: Eberhard FFC CXX 78 No. 43, 80 No. 46."
-                    ], 
-                    [
-                        "Z71.5.1. †Z71.5.1. ", 
-                        "Seven brothers and one sister.", 
-                        " Type 451; *Gummere Kittredge Anniversary Volume 17;\r\nItalian: Basile Pentamerone IV No. 8; India: *Thompson-Balys; N. A. Indian\r\n(Seneca): Curtin-Hewitt RBAE XXXII 565 No. 116."
-                    ], 
-                    [
-                        "Z71.5.2. †Z71.5.2. ", 
-                        "Journey beyond seven seas.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.5.3. †Z71.5.3. ", 
-                        "Seven year’s peace with no killing of men.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.5.4. †Z71.5.4. ", 
-                        "King for seven years.", 
-                        "\r\nIrish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.5. †Z71.5.5. ", 
-                        "Exile for seven years.", 
-                        "\r\nIrish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6. †Z71.5.6. ", 
-                        "Seven as a number in religious and social records.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.1. †Z71.5.6.1. ", 
-                        "Seven causes of poverty.", 
-                        "\r\nIrish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.2. †Z71.5.6.2. ", 
-                        "Seven Deadly Sins.", 
-                        "\r\nIrish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.3. †Z71.5.6.3. ", 
-                        "Seven ecclesiastical orders.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.4. †Z71.5.6.4. ", 
-                        "Seven grades of wisdom.", 
-                        "\r\nIrish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.5. †Z71.5.6.5. ", 
-                        "Seven joys of the Virgin Mary.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.6. †Z71.5.6.6. ", 
-                        "Seven masses necessary to free soul from hell.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.5.6.7. †Z71.5.6.7. ", 
-                        "Seven orders of poets.", 
-                        "\r\nIrish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.8. †Z71.5.6.8. ", 
-                        "Seven gifts of God (Holy Spirit).", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.5.6.9. †Z71.5.6.9. ", 
-                        "Seven penitential psalms.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.5.6.10. †Z71.5.6.10. ", 
-                        "Seven prayers of saint.", 
-                        "\r\nIrish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.11. †Z71.5.6.11. ", 
-                        "Seven to whom alms should be given.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.12. †Z71.5.6.12. ", 
-                        "Seven fair rivers in Inis Eidheand (Eden) in the East of\r\nAfrica.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.6.13. †Z71.5.6.13. ", 
-                        "Seven daughters of Humility.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.5.7. †Z71.5.7. ", 
-                        "King with seven wives and seven mares.", 
-                        " The seven wives pregnant for seven years, the seven mares\r\nseven years in foal. India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.5.8. †Z71.5.8. ", 
-                        "Seven brothers marry seven sisters.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.6. †Z71.6. ", 
-                        "Formulistic number: nine", 
-                        " (99, 900, 999, 99,999, etc.). *Hdwb. d.\r\nMärchens I 419b, nn. 378--407; Grimm Deutsche Mythologie I 505f.; Ohrt Danske\r\nTrylleformler I 196ff.; Agrell Runornas Talmystik 70ff.; Grimm Deutsche\r\nRechtsalterthümer I 84, 295; Wundt Völkerpsychologie V 82, VI 350; Hdwb. d.\r\nAbergl. I 1397; Wuttke Volksaberglaube, register.--Irish myth: *Cross;\r\nIcelandic: *Boberg; Jewish: Neuman; Persian: Carnoy 342 (99,999); India:\r\n*Thompson-Balys; Chinese: Eberhard FFC CXX 56, 206 No. 154; Philippine\r\n(Tinguian): Cole 56ff.; Africa (Wakweli):\r\nBender 76f."
-                    ], 
-                    [
-                        "Z71.6.1. †Z71.6.1. ", 
-                        "Three times nine.", 
-                        "\r\nIrish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.6.2. †Z71.6.2. ", 
-                        "Nine whirlpools of the world.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.6.3. †Z71.6.3. ", 
-                        "(Nine) wonders of Ireland.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.6.4. †Z71.6.4. ", 
-                        "Nine materials used in building Tower of Babel.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.7. †Z71.7. ", 
-                        "Formulistic number: eleven.", 
-                        " Wuttke Volksaberglaube register s.v. “Elf”; Oldenberg\r\nReligion der Veda 514; Jewish: Neuman; Icelandic: Boberg."
-                    ], 
-                    [
-                        "Z71.8. †Z71.8. ", 
-                        "Formulistic number: twelve.", 
-                        " *Hdwb. d. Märchens I\r\n420b nn. 416ff.; Wundt Völkerpsychologie VI 353; Hoops‘ Reallexikon I 496; Thien Motive 8f.; Fb “tolv”.--Irish\r\nmyth: Cross; Icelandic: *Boberg; India: *Thompson-Balys; Chinese: Eberhard FFC\r\nCXX 64."
-                    ], 
-                    [
-                        "Z71.8.1. †Z71.8.1. ", 
-                        "Twelve articles of faith.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.8.2. †Z71.8.2. ", 
-                        "Twelve abuses of the world.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.8.3. †Z71.8.3. ", 
-                        "Formulistic number: “twice twelve years”.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.8.4. †Z71.8.4. ", 
-                        "Formulistic number: twelve plus thirteen.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.8.5. †Z71.8.5. ", 
-                        "Formulistic number: twelve score.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.8.6. †Z71.8.6. ", 
-                        "Formulistic number: twenty-four.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.8.7. †Z71.8.7. ", 
-                        "Formulistic number: thirty-six.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.9. †Z71.9. ", 
-                        "Formulistic number: thirteen.", 
-                        " *Hdwb. d. Märchens I\r\n424a; Grimm Rechtsalterthümer I 298; *Kyriakides To Dysoionon tou Arithmou 13\r\n(Athenae, 1953); India: *Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.10. †Z71.10. ", 
-                        "Formulistic number: sixteen.", 
-                        " E. Skard Maal og Minne (1931) 106f.; India:\r\nThompson-Balys."
-                    ], 
-                    [
-                        "Z71.11. †Z71.11. ", 
-                        "Formulistic number: thirty.", 
-                        " (Cf. †Z71.1.0.1.) Hdwb.\r\nd. Märchens I 420b nn. 432ff."
-                    ], 
-                    [
-                        "Z71.12. †Z71.12. ", 
-                        "Formulistic number: forty.", 
-                        " *Clouston Eastern\r\nRomances 456 n. 1; Dh I 228, 283, 284; Grimm Deutsche Rechtsalterthümer I 301;\r\nWundt Völkerpsychologie VI 341; *Roscher Die Zahl 40 im Glauben der Semiten\r\n(Leipzig, 1909).-- India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.13. †Z71.13. ", 
-                        "Formulistic number: sixty.", 
-                        " (Cf. †Z71.4.) Hdwb. d.\r\nMärchens I 421a."
-                    ], 
-                    [
-                        "Z71.14. †Z71.14. ", 
-                        "Formulistic number: seventy-two.", 
-                        " (Cf. †Z71.8.) Grimm\r\nDeutsche Rechtsalterthümer I 303, II 497; Hdwb. d. Abergl. III 989, 991;\r\nSchröder Germanentum u. Hellenismus 11f.; Thien Motive 2; Bojunga “Die 72 Völkerschalten in Widsith”\r\nPaul und Braune’s Beiträge XVI 545ff.; R. Michel ibid. XV 377. -- Chinese: Wilhelm\r\nChinesische Märchen 364, 366, cf. 358, 363."
-                    ], 
-                    [
-                        "Z71.15. †Z71.15. ", 
-                        "Formulistic number: seventy-seven.", 
-                        " (Cf. †Z71.5.0.1.) *Hdwb.\r\nd. Abergl. III 991; Wuttke Volksabergl. 525b s.v. “Sieben und Siebenzig”; Gaster Thespis 180, 192, 221."
-                    ], 
-                    [
-                        "Z71.16. †Z71.16. ", 
-                        "Formulistic numbers--miscellaneous.", 
-                        " Henry Ancient Tahiti (Honolulu, 1928) 430."
-                    ], 
-                    [
-                        "Z71.16.1. †Z71.16.1. ", 
-                        "Formulistic number: eight.", 
-                        " Irish myth: *Cross; Chinese: Eberhard FFC CXX 154, 210,\r\n411 s.v. “acht”; Polynesia: *Beckwith Myth 209f.; Hawaii: ibid. 233; Tahiti:\r\nibid. 209; Cook Islands: ibid. 256, Samoa: ibid. 256; Easter Island: Métraux\r\nEthnology 80, 376."
-                    ], 
-                    [
-                        "Z71.16.1.1. †Z71.16.1.1. ", 
-                        "Eight deadly sins.", 
-                        "\r\nIrish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.16.1.2. †Z71.16.1.2. ", 
-                        "Eight virtues.", 
-                        " Irish\r\nmyth: *Cross."
-                    ], 
-                    [
-                        "Z71.16.1.3. †Z71.16.1.3. ", 
-                        "Eight miracles of Christ‘s body in the sacrament.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.16.1.4. †Z71.16.1.4. ", 
-                        "Eight unprofitable types of fasting.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.16.2. †Z71.16.2. ", 
-                        "Formulistic number: ten.", 
-                        "\r\nIrish myth: Cross; Society Islands: Henry Ancient Tahiti (Honolulu, 1928) 430;\r\nAfrica (Fang): Trilles 186."
-                    ], 
-                    [
-                        "Z71.16.2.1. †Z71.16.2.1. ", 
-                        "Ten plagues.", 
-                        " Irish\r\nmyth: Cross."
-                    ], 
-                    [
-                        "Z71.16.3. †Z71.16.3. ", 
-                        "Formulistic number: twenty-five.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.4. †Z71.16.4. ", 
-                        "Formulistic number: twenty-six.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.5. †Z71.16.5. ", 
-                        "Formulistic number: thirty-two.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.6. †Z71.16.6. ", 
-                        "Formulistic number: eighty.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.7. †Z71.16.7. ", 
-                        "Formulistic number: sixteen hundred.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.8. †Z71.16.8. ", 
-                        "Formulistic number: eighty thousand.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.9. †Z71.16.9. ", 
-                        "Formulistic number: fifty-two lakhs.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.10. †Z71.16.10. ", 
-                        "Formulistic number: fourteen.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.11. †Z71.16.11. ", 
-                        "Formulistic number: fifteen.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.16.11.1. †Z71.16.11.1. ", 
-                        "Fifteen characteristics of a good (bad) woman.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.16.11.2. †Z71.16.11.2. ", 
-                        "The fifteen Oes.", 
-                        " Irish\r\nmyth: *Cross."
-                    ], 
-                    [
-                        "Z71.16.11.3. †Z71.16.11.3. ", 
-                        "Fifteen signs before Doomsday.", 
-                        " Irish myth: *Cross."
-                    ], 
-                    [
-                        "Z71.16.12. †Z71.16.12. ", 
-                        "Formulistic number: seventeen.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "Z71.16.13. †Z71.16.13. ", 
-                        "Formulistic number: twenty-one.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.14. †Z71.16.14. ", 
-                        "Formulistic number: twenty-two.", 
-                        null
-                    ], 
-                    [
-                        "Z71.16.14.1. †Z71.16.14.1. ", 
-                        "Twenty-two rooms and twenty-two doors built by skillful\r\ncarpenter.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.15. †Z71.16.15. ", 
-                        "Formulistic number: fifty-three.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z71.16.16. †Z71.16.16. ", 
-                        "Formulistic number: fifty-six.", 
-                        " India: Thompson-Balys."
-                    ]
-                ]
-            }, 
-            "91": {
-                "content": [
-                    "Z91. †Z91. ", 
-                    "Formula for other world: “Where no man goes and no crow\r\nflies.”", 
-                    " India: Thompson-Balys."
-                ], 
-                "child": []
-            }, 
-            "90": {
-                "content": [
-                    "Z90. ", 
-                    null, 
-                    null
-                ], 
-                "child": []
-            }, 
-            "92": {
-                "content": [
-                    "Z92. †Z92. ", 
-                    "Formulas of distance.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "Z92.1. †Z92.1. ", 
-                        "“A tree on island beyond the seven seas and the sixteen\r\nrivers.”", 
-                        " India: Thompson-Balys."
-                    ]
-                ]
-            }, 
-            "78": {
-                "content": [
-                    "Z78. †Z78. ", 
-                    "Testament willing rewards and punishments.", 
-                    " Conventional ending of a story. Child V 497 s.v.\r\n“testament”."
-                ], 
-                "child": []
-            }, 
             "39": {
                 "content": [
                     "Z39. †Z39. ", 
@@ -1397,124 +703,13 @@
                     ]
                 ]
             }, 
-            "49": {
+            "23": {
                 "content": [
-                    "Z49. †Z49. ", 
-                    "Miscellaneous interdependent chains.", 
-                    null
+                    "Z23. †Z23. ", 
+                    "How the Rich Man\r\npaid his Servant (Lönen hos den rike man).", 
+                    "\r\nA farmer pays his servant in the first year a hen, in the second a cock, goose,\r\ngoat, cow, horse, .... girl. farmstead. **Taylor JAFL XLVI 80 No. 2010 I;\r\nKristensen Danske Dyrefabler 168--78 Nos. 392--418; *T. Norlind Svenska\r\nAllmogens Liv@2 (Stockholm, 1925) 612. -- Lithuanian: Balys Index No. 2010 I*."
                 ], 
-                "child": [
-                    [
-                        "Z49.1. †Z49.1. ", 
-                        "“I killed my grandmother because she refused to cook a\r\nhare.", 
-                        " I killed a priest because he said my\r\ncrime was bad. A friar absolved me to avoid being killed.” (First ed. †Z41.7.)\r\n*Taylor JAFL XLVI 87 No. 2037; Spanish: Boggs FFC XC 155 No. 2026*."
-                    ], 
-                    [
-                        "Z49.2. †Z49.2. ", 
-                        "Cumulative pursuit.", 
-                        " Boys get help. One of them injures the\r\nhelper. Pursued. Hidden by kind hen. One injures the hen. Hen pursues, etc.\r\n(First ed. †Z41.8.) *Taylor JAFL XLVI 87 No. 2038; Jamaica: Beckwith MAFLS XVII\r\n264f. No. 70."
-                    ], 
-                    [
-                        "Z49.2.1. †Z49.2.1. ", 
-                        "Fat mouse cannot get into hole.", 
-                        " “Carpenter, please pare off a little flesh from my ribs.”\r\nRefused. Final formula: the scythe cuts the creeper loose. India:\r\nThompson-Balys."
-                    ], 
-                    [
-                        "Z49.3. †Z49.3. ", 
-                        "The bird indifferent to pain.", 
-                        " A man catches a\r\nmango-bird eating mangoes and strikes it against the roots of a mango-tree. The\r\nbird cannot be made to say it suffers from the blow. In turn, he puts it in\r\nwater, strikes it on the ground, a stile, a door-frame, singes its feathers,\r\ncuts it up, cooks it, and eats it. The bird always expresses indifference in a\r\ncumulative rhyme. At last the bird asks him to look out of the window,\r\nwhereupon it flies out of his nose and the man dies. (First ed. †Z41.11.)\r\n*Taylor JAFL XLVI 87 No. 2041."
-                    ], 
-                    [
-                        "Z49.4. †Z49.4. ", 
-                        "There was once a woman; the woman had a son; the son had\r\nred breeches; etc.", 
-                        "--At last: “Shall I tell\r\nit again?”\r\n(First ed. †Z41.12.) *Taylor JAFL XLVI 81 No. 2013."
-                    ], 
-                    [
-                        "Z49.5. †Z49.5. ", 
-                        "Where is the warehouse?--The fire burned it down.", 
-                        "--Where is the fire?--The\r\nwater quenched it. (First ed. †Z41.13.) Type 2018."
-                    ], 
-                    [
-                        "Z49.5.1. †Z49.5.1. ", 
-                        "“Where is that grain?” -- “The cock snatched it.”", 
-                        " -- “Where is that cock?”--“He drowned in the sea.”--“Where\r\nis that sea?”--“It is grown over with reeds.”--“Where are those reeds?”--“The\r\nmaids have cut them down”, etc. Lithuanian: Balys Index No. 2018."
-                    ], 
-                    [
-                        "Z49.5.2. †Z49.5.2. ", 
-                        "The wolf who wanted to make bread.", 
-                        " The farmer explained to him how bread is made. He keeps on\r\nasking: “Shall I then be able to eat?” Decides he will not have enough patience to make bread. (Cf.\r\n†K555.1.2.) Lithuanian: Balys Index No. 164*."
-                    ], 
-                    [
-                        "Z49.6. †Z49.6. ", 
-                        "Trial among the animals.", 
-                        "\r\nDeer steps on kitten: cat investigates. Deer has been frightened by bird, this\r\nbird by another bird .... by crab’s pointed claw, crab by mouse in his hole. Cat eats mouse. (Frog\r\ncroaks because turtle carries his house on his head; turtle carries house\r\nbecause firefly is bringing fire; firefly brings fire because mosquito tries to\r\nbite him, etc.) (First ed. †Z41.14.) India: Thompson-Balys; Indonesia, Malaya:\r\nDixon 202; Philippine: Fansler MAFLS XII 390."
-                    ], 
-                    [
-                        "Z49.6.1. †Z49.6.1. ", 
-                        "Birds fight and cause series of accidents to other animals\r\nand people.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.6.2. †Z49.6.2. ", 
-                        "Bite (prick) causes series of accidents.", 
-                        " India: *Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.6.3. †Z49.6.3. ", 
-                        "Man sharpening his dao is bitten by a prawn.", 
-                        " He cuts down a big bamboo; a fruit falls from bamboo and\r\nstrikes a bird on the nape of the neck; the bird scratches up an ant‘s nest\r\nwith his feet; the ant bites a wild boar in the eye; and the boar bears down\r\nupon a plantain tree where a bat dwells under a leaf; the bat seeks refuge in\r\nthe ear of an elephant, and the elephant kicks down the house on an old woman.\r\nShe rushes out and falls into a well. India: *Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.7. †Z49.7. ", 
-                        "Cumulative tale: bird who seeks carpenter to release young\r\ncaught in closed tree.", 
-                        " Beetle bites calf,\r\ncalf bites cow, cow hoofs carpenter, carpenter beats wife, hunters save\r\ncarpenter’s cow, carpenter releases birds. India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.8. †Z49.8. ", 
-                        "Biting a grain in half.", 
-                        "\r\nFinal formula: Forester attacks bear, the bear the wolf, the wolf the dog, the\r\ndog the cat, the cat the mouse, the mouse the grain--the grain is bitten in\r\ntwo. Lithuanian: Balys Index No. 2006*."
-                    ], 
-                    [
-                        "Z49.9. †Z49.9. ", 
-                        "Pulling up the turnip.", 
-                        "\r\nFinal formula: The mouse holds onto the cat, the cat holds onto Mary, Mary\r\nholds onto Annie, Annie holds onto grandmother, grandmother holds onto\r\ngrandfather, grandfather holds onto the turnip--they all pull and pull it out.\r\nLithuanian: Balys Index No. 2008*; Russian: Andrejev No. 1960G*."
-                    ], 
-                    [
-                        "Z49.10. †Z49.10. ", 
-                        "Lizard eats cricket, frog eats lizard, snake eats frog,\r\neagle eats snake, man shoots eagle; animals escape except lizard.", 
-                        " Man takes eagle home. U.S.: Baughman."
-                    ], 
-                    [
-                        "Z49.11. †Z49.11. ", 
-                        "Who is guilty of the accident.", 
-                        " (One person blames another who blames another, etc.)\r\nIndia: *Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.11.1. †Z49.11.1. ", 
-                        "Wall in construction collapses.", 
-                        " Finally the king finds out that the sea is guilty. (The\r\nchain: mason--cement mixer--beautifully singing woman--pearl\r\nnecklace--jeweller--diver--sea.) India: *Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.11.2. †Z49.11.2. ", 
-                        "Thief breaks foot climbing wall to rob.", 
-                        " Suit against owner for dangerous wall. India:\r\n*Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.12. †Z49.12. ", 
-                        "Hermit must get cat to kill rats in hunt, cow to give cat\r\nmilk, etc.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.13. †Z49.13. ", 
-                        "Chain of killings: bulbul destroys flower and is killed by\r\ncat; cat shaken by dog; dog killed by boy; boy sentenced to death by king.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "Z49.14. †Z49.14. ", 
-                        "The little old lady who swallowed a fly.", 
-                        " She swallows a spider to eat up the fly, a bird to eat up\r\nthe spider, a dog to eat the bird, a cow to eat the dog. “The little old lady\r\nswallowed a horse--she died, of course.” U.S.: *Baughman."
-                    ]
-                ]
+                "child": []
             }, 
             "51": {
                 "content": [
@@ -1555,13 +750,818 @@
                 "child": []
             }
         }, 
-        "0": {
+        "76": {
             "content": [
-                "Z0. ", 
+                "Z76. †Z76. ", 
+                "Formulistic exaggerations.", 
+                null
+            ], 
+            "child": [
+                [
+                    "Z76.1. †Z76.1. ", 
+                    "Three-fourths of men of Ireland die in one night.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "75": {
+            "content": [
+                "Z75. †Z75. ", 
+                "Formula: as many children as holes in a sieve.", 
+                " Breton: Sébillot\r\nIncidents s.v. “enfants”."
+            ], 
+            "child": []
+        }, 
+        "73": {
+            "content": [
+                "Z73. †Z73. ", 
+                "A day and a night.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "Z73.1. †Z73.1. ", 
+                    "After four days--another two days--another day.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "72": {
+            "content": [
+                "Z72. †Z72. ", 
+                "Formulas based on the year.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "Z72.1. †Z72.1. ", 
+                    "A year and a day.", 
+                    " (Cf. †Z71.0.2.) *Fb “år” III 1195b; A Gobbe-Duval Essais de folklore juridique@2 (Paris,\r\n1920) 178ff.; Schröder und v. Künssberg Lehrbuch d. dt. Rechtsgeschichte@6\r\n(1922) 789 n.; Liebermann Herrig’s Archiv (1916) 401f.;\r\nKöhler-Bolte I 6. --Irish myth: Cross; English: Malory X 36, 39 and passim;\r\nBreton: Sébillot Incidents s.v. “an”, “congé”; French Canadian: Barbeau JAFL XXIX 18, 24."
+                ], 
+                [
+                    "Z72.2. †Z72.2. ", 
+                    "Seven years, seven months, seven days.", 
+                    " Type 451; BP I 431;\r\nKöhler-Bolte Zs. f. Vksk. VI 63."
+                ], 
+                [
+                    "Z72.3. †Z72.3. ", 
+                    "Seven (three) years between feasts.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z72.4. †Z72.4. ", 
+                    "Seven years as length of course in school.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z72.5. †Z72.5. ", 
+                    "Every third year as period of tribute.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z72.6. †Z72.6. ", 
+                    "Three hundred and sixty-five.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z72.7. †Z72.7. ", 
+                    "Twelve years and thirteen days.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "71": {
+            "content": [
+                "Z71. †Z71. ", 
+                "Formulistic numbers.", 
+                "\r\n*Hdwb. d. Abergl. s.v. “Zahl”; Penzer I 242 n. 3, 255 n. 2, VI 14 n. 1;\r\nFeilberg Dania II 185ff."
+            ], 
+            "child": [
+                [
+                    "Z71.0.1. †Z71.0.1. ", 
+                    "Odd numbers --formulistic.", 
+                    " Roman: Pliny Natural History X 151, XXVIII 23; Hindu:\r\nCaland Verhandelingen der Koniglijke Akademie van Wetenschappen te Amsterdam\r\nXVII (4) 23 and NS I (6) 73, 103; Indonesian: Kruyt Het Animisme 514."
+                ], 
+                [
+                    "Z71.0.2. †Z71.0.2. ", 
+                    "Formulistic numbers: a number plus one", 
+                    " (101, 1001, etc.). R. M. Meyer Archiv f.\r\nReligionswissenschaft X (1907) 89ff.; *BP IV 397ff.; Irish myth: Cross; Jewish:\r\nNeuman."
+                ], 
+                [
+                    "Z71.1. †Z71.1. ", 
+                    "Formulistic number: three.", 
+                    " **R. Mueller Die Zahl\r\nDrei in Sage, Dichtung u. Kunst (Teschen, 1903); Wundt Völkerpsychologie VI\r\n341; Diels Sibyllinische Blätter 40; Aly Volksmärchen bei Herodot 240: Hdwb. d.\r\nMärchens I 412ff.; *H. Usener “Dreiheit”\r\nRheinisches Museum f. Philologie N. F. LVIII (1903) 1--47, 161--208; *Fb “tre”.--Breton: Sébillot\r\nIncidents s.v. “trois”; Irish myth: *Cross;\r\nIcelandic: *Boberg; India: *Thompson-Balys; Chinese: Graham; Africa (Bulu):\r\nKrug 120f. (Luba): DeClerq ZsKS IV 201; S. A. Indian (Chiriguano): Métraux RMLP\r\nXXXIII 166."
+                ], 
+                [
+                    "Z71.1.0.1. †Z71.1.0.1. ", 
+                    "Triads.", 
+                    " Irish myth:\r\n*Cross; Icelandic: Boberg."
+                ], 
+                [
+                    "Z71.1.0.2. †Z71.1.0.2. ", 
+                    "Formulistic numbers: threefold (e.", 
+                    "g. three times thirty). Jewish: Neuman; Africa (Fang):\r\nEinstein 49."
+                ], 
+                [
+                    "Z71.1.1. †Z71.1.1. ", 
+                    "Formula: three days and three nights.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.1.2. †Z71.1.2. ", 
+                    "Three chairs in heaven for three saints.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.1.3. †Z71.1.3. ", 
+                    "Three strains of (fairy) music.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.4. †Z71.1.4. ", 
+                    "Three things that lead to hell (heaven).", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.5. †Z71.1.5. ", 
+                    "Three innocent children: Ananias, Zacharias, Misael.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.6. †Z71.1.6. ", 
+                    "Three Lents.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "Z71.1.7. †Z71.1.7. ", 
+                    "Three Maries.", 
+                    " Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "Z71.1.8. †Z71.1.8. ", 
+                    "Three orders of Irish saints.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.9. †Z71.1.9. ", 
+                    "Three seas surrounding the earth.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.10. †Z71.1.10. ", 
+                    "Three sods that none may escape: “The sod of his birth, the\r\nsod of his death, the sod of his burying.”", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "Z71.1.11. †Z71.1.11. ", 
+                    "Three whom Christ raised from the dead.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.12. †Z71.1.12. ", 
+                    "Three spiritual gifts of God.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.1.13. †Z71.1.13. ", 
+                    "Three persons who spoke immediately after birth.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.14. †Z71.1.14. ", 
+                    "Three weak things that are the strongest.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.15. †Z71.1.15. ", 
+                    "Three worst things in Ireland.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.16. †Z71.1.16. ", 
+                    "Three reasons why men should condemn wealth.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.1.17. †Z71.1.17. ", 
+                    "Three cries of the world.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.1.18. †Z71.1.18. ", 
+                    "Three bad stories of the saints of Ireland.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.2. †Z71.2. ", 
+                    "Formulistic number: four.", 
+                    " Grimm Deutsche Rechtsalterthümer I 290ff.;\r\nEisler Weltenmantel 337; Wundt Völkerpsychologie VI 354ff.; Brinton Myths of\r\nthe New World 66ff.; India: Thompson-Balys; Icelandic: Boberg."
+                ], 
+                [
+                    "Z71.2.0.1. †Z71.2.0.1. ", 
+                    "Formulistic number: fourfold", 
+                    " (e.g. 400, 4000). Jewish: Neuman."
+                ], 
+                [
+                    "Z71.2.1. †Z71.2.1. ", 
+                    "Formula: north, south, east, west.", 
+                    " (The cardinal directions.) India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.2.2. †Z71.2.2. ", 
+                    "The four elements.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "Z71.2.3. †Z71.2.3. ", 
+                    "The four humors.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "Z71.2.4. †Z71.2.4. ", 
+                    "Four places that cleanse the soul.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.2.5. †Z71.2.5. ", 
+                    "Four categories of souls at Judgment.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.2.6. †Z71.2.6. ", 
+                    "Four things that prevent the holy life.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.2.7. †Z71.2.7. ", 
+                    "Four things to which the glory of the world is compared.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.2.8. †Z71.2.8. ", 
+                    "Sending four messengers with four winds.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.3. †Z71.3. ", 
+                    "Formulistic number: five.", 
+                    " Irish myth: Cross; English: Gawayne and the Green Knight lines 623ff.;\r\nHdwb. d. Abergl. s.v. “Funf”; India: Thompson-Balys; N. A. Indian (Klikitat):\r\nJacobs U Wash II 32ff."
+                ], 
+                [
+                    "Z71.3.0.1. †Z71.3.0.1. ", 
+                    "Formulistic numbers: fivefold (e.", 
+                    "g. 50, 500). Africa (Luba): De Clerq Zs KS IV 202."
+                ], 
+                [
+                    "Z71.3.1. †Z71.3.1. ", 
+                    "Five sighs we should vent over our sins.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.3.2. †Z71.3.2. ", 
+                    "Five wounds of Christ.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "Z71.4. †Z71.4. ", 
+                    "Formulistic number: six.", 
+                    " Hdwb. d. Märchens I 420a s.v. “Drie” nn. 408ff."
+                ], 
+                [
+                    "Z71.4.0.1. †Z71.4.0.1. ", 
+                    "Formulistic number: sixfold.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "Z71.5. †Z71.5. ", 
+                    "Formulistic number: seven.", 
+                    " *Nyrop Dania II 126;\r\nGrimm Deutsche Rechtsalterthümer I 292; Wundt Völkerpsychologie VI 349;\r\n*Roscher Die Sieben- und Neunzahl im Kultus und Mythus der Griechen (Leipzig,\r\n1904); Aly Volksmärchen bei Herodot 241; *Fb “syv”.\r\n--Irish: *Cross, O‘Suilleabhain 45, 100, Beal XXI 316, 332; Breton: Sébillot\r\nIncidents s.v. “sept”; Icelandic: *Boberg;\r\nSpanish: Espinosa Jr. Nos. 157, 178; India: *Thompson-Balys; Buddhist myth:\r\nMalalasekera I 457; Chinese: Eberhard FFC CXX 49, 162, Graham; N. A. Indian\r\n(Seneca): Curtin-Hewitt RBAE XXXII 93 No. 6, 149 No. 24, 154 No. 26; Africa\r\n(Cameroon): Mansfield 224, 236, (Togo): Einstein 7, (Congo): Weeks Cannibals\r\n217."
+                ], 
+                [
+                    "Z71.5.0.1. †Z71.5.0.1. ", 
+                    "Formulistic numbers: sevenfold (e.", 
+                    "g. 49, 70, 70,000,\r\n7,777). (Cf. †Z71.15.) Jewish: Neuman; India: Thompson-Balys; Buddhist myth:\r\nMalalasekera II 943; Chinese: Eberhard FFC CXX 78 No. 43, 80 No. 46."
+                ], 
+                [
+                    "Z71.5.1. †Z71.5.1. ", 
+                    "Seven brothers and one sister.", 
+                    " Type 451; *Gummere Kittredge Anniversary Volume 17;\r\nItalian: Basile Pentamerone IV No. 8; India: *Thompson-Balys; N. A. Indian\r\n(Seneca): Curtin-Hewitt RBAE XXXII 565 No. 116."
+                ], 
+                [
+                    "Z71.5.2. †Z71.5.2. ", 
+                    "Journey beyond seven seas.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.5.3. †Z71.5.3. ", 
+                    "Seven year’s peace with no killing of men.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.5.4. †Z71.5.4. ", 
+                    "King for seven years.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "Z71.5.5. †Z71.5.5. ", 
+                    "Exile for seven years.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6. †Z71.5.6. ", 
+                    "Seven as a number in religious and social records.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.1. †Z71.5.6.1. ", 
+                    "Seven causes of poverty.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.2. †Z71.5.6.2. ", 
+                    "Seven Deadly Sins.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.3. †Z71.5.6.3. ", 
+                    "Seven ecclesiastical orders.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.4. †Z71.5.6.4. ", 
+                    "Seven grades of wisdom.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.5. †Z71.5.6.5. ", 
+                    "Seven joys of the Virgin Mary.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.6. †Z71.5.6.6. ", 
+                    "Seven masses necessary to free soul from hell.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.5.6.7. †Z71.5.6.7. ", 
+                    "Seven orders of poets.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.8. †Z71.5.6.8. ", 
+                    "Seven gifts of God (Holy Spirit).", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.5.6.9. †Z71.5.6.9. ", 
+                    "Seven penitential psalms.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.5.6.10. †Z71.5.6.10. ", 
+                    "Seven prayers of saint.", 
+                    "\r\nIrish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.11. †Z71.5.6.11. ", 
+                    "Seven to whom alms should be given.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.12. †Z71.5.6.12. ", 
+                    "Seven fair rivers in Inis Eidheand (Eden) in the East of\r\nAfrica.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.5.6.13. †Z71.5.6.13. ", 
+                    "Seven daughters of Humility.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.5.7. †Z71.5.7. ", 
+                    "King with seven wives and seven mares.", 
+                    " The seven wives pregnant for seven years, the seven mares\r\nseven years in foal. India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.5.8. †Z71.5.8. ", 
+                    "Seven brothers marry seven sisters.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.6. †Z71.6. ", 
+                    "Formulistic number: nine", 
+                    " (99, 900, 999, 99,999, etc.). *Hdwb. d.\r\nMärchens I 419b, nn. 378--407; Grimm Deutsche Mythologie I 505f.; Ohrt Danske\r\nTrylleformler I 196ff.; Agrell Runornas Talmystik 70ff.; Grimm Deutsche\r\nRechtsalterthümer I 84, 295; Wundt Völkerpsychologie V 82, VI 350; Hdwb. d.\r\nAbergl. I 1397; Wuttke Volksaberglaube, register.--Irish myth: *Cross;\r\nIcelandic: *Boberg; Jewish: Neuman; Persian: Carnoy 342 (99,999); India:\r\n*Thompson-Balys; Chinese: Eberhard FFC CXX 56, 206 No. 154; Philippine\r\n(Tinguian): Cole 56ff.; Africa (Wakweli):\r\nBender 76f."
+                ], 
+                [
+                    "Z71.6.1. †Z71.6.1. ", 
+                    "Three times nine.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "Z71.6.2. †Z71.6.2. ", 
+                    "Nine whirlpools of the world.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.6.3. †Z71.6.3. ", 
+                    "(Nine) wonders of Ireland.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.6.4. †Z71.6.4. ", 
+                    "Nine materials used in building Tower of Babel.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.7. †Z71.7. ", 
+                    "Formulistic number: eleven.", 
+                    " Wuttke Volksaberglaube register s.v. “Elf”; Oldenberg\r\nReligion der Veda 514; Jewish: Neuman; Icelandic: Boberg."
+                ], 
+                [
+                    "Z71.8. †Z71.8. ", 
+                    "Formulistic number: twelve.", 
+                    " *Hdwb. d. Märchens I\r\n420b nn. 416ff.; Wundt Völkerpsychologie VI 353; Hoops‘ Reallexikon I 496; Thien Motive 8f.; Fb “tolv”.--Irish\r\nmyth: Cross; Icelandic: *Boberg; India: *Thompson-Balys; Chinese: Eberhard FFC\r\nCXX 64."
+                ], 
+                [
+                    "Z71.8.1. †Z71.8.1. ", 
+                    "Twelve articles of faith.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.8.2. †Z71.8.2. ", 
+                    "Twelve abuses of the world.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.8.3. †Z71.8.3. ", 
+                    "Formulistic number: “twice twelve years”.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.8.4. †Z71.8.4. ", 
+                    "Formulistic number: twelve plus thirteen.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.8.5. †Z71.8.5. ", 
+                    "Formulistic number: twelve score.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.8.6. †Z71.8.6. ", 
+                    "Formulistic number: twenty-four.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.8.7. †Z71.8.7. ", 
+                    "Formulistic number: thirty-six.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.9. †Z71.9. ", 
+                    "Formulistic number: thirteen.", 
+                    " *Hdwb. d. Märchens I\r\n424a; Grimm Rechtsalterthümer I 298; *Kyriakides To Dysoionon tou Arithmou 13\r\n(Athenae, 1953); India: *Thompson-Balys."
+                ], 
+                [
+                    "Z71.10. †Z71.10. ", 
+                    "Formulistic number: sixteen.", 
+                    " E. Skard Maal og Minne (1931) 106f.; India:\r\nThompson-Balys."
+                ], 
+                [
+                    "Z71.11. †Z71.11. ", 
+                    "Formulistic number: thirty.", 
+                    " (Cf. †Z71.1.0.1.) Hdwb.\r\nd. Märchens I 420b nn. 432ff."
+                ], 
+                [
+                    "Z71.12. †Z71.12. ", 
+                    "Formulistic number: forty.", 
+                    " *Clouston Eastern\r\nRomances 456 n. 1; Dh I 228, 283, 284; Grimm Deutsche Rechtsalterthümer I 301;\r\nWundt Völkerpsychologie VI 341; *Roscher Die Zahl 40 im Glauben der Semiten\r\n(Leipzig, 1909).-- India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.13. †Z71.13. ", 
+                    "Formulistic number: sixty.", 
+                    " (Cf. †Z71.4.) Hdwb. d.\r\nMärchens I 421a."
+                ], 
+                [
+                    "Z71.14. †Z71.14. ", 
+                    "Formulistic number: seventy-two.", 
+                    " (Cf. †Z71.8.) Grimm\r\nDeutsche Rechtsalterthümer I 303, II 497; Hdwb. d. Abergl. III 989, 991;\r\nSchröder Germanentum u. Hellenismus 11f.; Thien Motive 2; Bojunga “Die 72 Völkerschalten in Widsith”\r\nPaul und Braune’s Beiträge XVI 545ff.; R. Michel ibid. XV 377. -- Chinese: Wilhelm\r\nChinesische Märchen 364, 366, cf. 358, 363."
+                ], 
+                [
+                    "Z71.15. †Z71.15. ", 
+                    "Formulistic number: seventy-seven.", 
+                    " (Cf. †Z71.5.0.1.) *Hdwb.\r\nd. Abergl. III 991; Wuttke Volksabergl. 525b s.v. “Sieben und Siebenzig”; Gaster Thespis 180, 192, 221."
+                ], 
+                [
+                    "Z71.16. †Z71.16. ", 
+                    "Formulistic numbers--miscellaneous.", 
+                    " Henry Ancient Tahiti (Honolulu, 1928) 430."
+                ], 
+                [
+                    "Z71.16.1. †Z71.16.1. ", 
+                    "Formulistic number: eight.", 
+                    " Irish myth: *Cross; Chinese: Eberhard FFC CXX 154, 210,\r\n411 s.v. “acht”; Polynesia: *Beckwith Myth 209f.; Hawaii: ibid. 233; Tahiti:\r\nibid. 209; Cook Islands: ibid. 256, Samoa: ibid. 256; Easter Island: Métraux\r\nEthnology 80, 376."
+                ], 
+                [
+                    "Z71.16.1.1. †Z71.16.1.1. ", 
+                    "Eight deadly sins.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "Z71.16.1.2. †Z71.16.1.2. ", 
+                    "Eight virtues.", 
+                    " Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "Z71.16.1.3. †Z71.16.1.3. ", 
+                    "Eight miracles of Christ‘s body in the sacrament.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.16.1.4. †Z71.16.1.4. ", 
+                    "Eight unprofitable types of fasting.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.16.2. †Z71.16.2. ", 
+                    "Formulistic number: ten.", 
+                    "\r\nIrish myth: Cross; Society Islands: Henry Ancient Tahiti (Honolulu, 1928) 430;\r\nAfrica (Fang): Trilles 186."
+                ], 
+                [
+                    "Z71.16.2.1. †Z71.16.2.1. ", 
+                    "Ten plagues.", 
+                    " Irish\r\nmyth: Cross."
+                ], 
+                [
+                    "Z71.16.3. †Z71.16.3. ", 
+                    "Formulistic number: twenty-five.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.4. †Z71.16.4. ", 
+                    "Formulistic number: twenty-six.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.5. †Z71.16.5. ", 
+                    "Formulistic number: thirty-two.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.6. †Z71.16.6. ", 
+                    "Formulistic number: eighty.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.7. †Z71.16.7. ", 
+                    "Formulistic number: sixteen hundred.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.8. †Z71.16.8. ", 
+                    "Formulistic number: eighty thousand.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.9. †Z71.16.9. ", 
+                    "Formulistic number: fifty-two lakhs.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.10. †Z71.16.10. ", 
+                    "Formulistic number: fourteen.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.11. †Z71.16.11. ", 
+                    "Formulistic number: fifteen.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.16.11.1. †Z71.16.11.1. ", 
+                    "Fifteen characteristics of a good (bad) woman.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.16.11.2. †Z71.16.11.2. ", 
+                    "The fifteen Oes.", 
+                    " Irish\r\nmyth: *Cross."
+                ], 
+                [
+                    "Z71.16.11.3. †Z71.16.11.3. ", 
+                    "Fifteen signs before Doomsday.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "Z71.16.12. †Z71.16.12. ", 
+                    "Formulistic number: seventeen.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "Z71.16.13. †Z71.16.13. ", 
+                    "Formulistic number: twenty-one.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.14. †Z71.16.14. ", 
+                    "Formulistic number: twenty-two.", 
+                    null
+                ], 
+                [
+                    "Z71.16.14.1. †Z71.16.14.1. ", 
+                    "Twenty-two rooms and twenty-two doors built by skillful\r\ncarpenter.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.15. †Z71.16.15. ", 
+                    "Formulistic number: fifty-three.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "Z71.16.16. †Z71.16.16. ", 
+                    "Formulistic number: fifty-six.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "91": {
+            "content": [
+                "Z91. †Z91. ", 
+                "Formula for other world: “Where no man goes and no crow\r\nflies.”", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "90": {
+            "content": [
+                "Z90. ", 
                 null, 
                 null
             ], 
             "child": []
+        }, 
+        "92": {
+            "content": [
+                "Z92. †Z92. ", 
+                "Formulas of distance.", 
+                null
+            ], 
+            "child": [
+                [
+                    "Z92.1. †Z92.1. ", 
+                    "“A tree on island beyond the seven seas and the sixteen\r\nrivers.”", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "78": {
+            "content": [
+                "Z78. †Z78. ", 
+                "Testament willing rewards and punishments.", 
+                " Conventional ending of a story. Child V 497 s.v.\r\n“testament”."
+            ], 
+            "child": []
+        }, 
+        "11": {
+            "content": [
+                "Z11. †Z11. ", 
+                "Endless tales.", 
+                " Hundreds of sheep to be carried over stream one at a time, etc.\r\nThe wording of the tale so arranged as to continue indefinitely. *Type 2300;\r\n*BP II 209; Taylor Hdwb. d. Märchens II 190a; Irish myth: *Cross; Spanish\r\nExempla: Keller; Italian Novella: *Rotunda; India: *Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "Z11.1. †Z11.1. ", 
+                    "Endless tale: corn carried away grain at a time.", 
+                    " England, U.S.: *Baughman."
+                ], 
+                [
+                    "Z11.2. †Z11.2. ", 
+                    "Endless tale: hundreds of birds in snare fly away one at a\r\ntime.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "10": {
+            "content": [
+                "Z10. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "Z10.1. †Z10.1. ", 
+                    "Beginning formulas.", 
+                    " *Hdwb. d. Märchens II 161; *BP IV 14ff.;\r\nKorean: Zong in-Sob 14 No. 7."
+                ], 
+                [
+                    "Z10.2. †Z10.2. ", 
+                    "End formulas.", 
+                    " *BP IV 24ff.; Hdwb. d. Märchens II 164; *Petsch Formelhafte\r\nSchlüsse im Volksmärchen (1900); India: *Thompson-Balys."
+                ], 
+                [
+                    "Z10.3. †Z10.3. ", 
+                    "Transition formulas.", 
+                    " Hdwb. d. Märchens II 162; BP IV 20ff."
+                ]
+            ]
+        }, 
+        "13": {
+            "content": [
+                "Z13. †Z13. ", 
+                "Catch tales.", 
+                " The\r\nmanner of the telling forces the hearer to ask a particular question, to which\r\nthe teller returns a ridiculous answer. Type 2200; England, U.S., Canada:\r\n*Baughman; West Indies: Flowers 586."
+            ], 
+            "child": [
+                [
+                    "Z13.1. †Z13.1. ", 
+                    "Tale-teller frightens listener: yells “Boo” at exciting\r\npoint.", 
+                    " Type 366; Canada, England, U.S.:\r\n*Baughman."
+                ], 
+                [
+                    "Z13.2. †Z13.2. ", 
+                    "Catch tale: teller is killed in his own story.", 
+                    " Canada, U.S.: *Baughman."
+                ]
+            ]
+        }, 
+        "12": {
+            "content": [
+                "Z12. †Z12. ", 
+                "Unfinished tales.", 
+                " Just\r\nas the interest is aroused the narrator quits. “If the bowl had been stronger\r\nmy tale had been longer.” *Types 2250, 2260; BP II 210, III 455; Taylor Hdwb. d. Märchens\r\nII 189b; Köhler-Bolte I 269."
+            ], 
+            "child": []
+        }, 
+        "15": {
+            "content": [
+                "Z15. †Z15. ", 
+                "Tale avoiding all pronouns.", 
+                " Lang English Fairy Tales 118."
+            ], 
+            "child": []
+        }, 
+        "14": {
+            "content": [
+                "Z14. †Z14. ", 
+                "“Runs.”", 
+                " Conventional passages of set form within a tale, usually recited\r\nin a different voice from the rest. *Hdwb. d. Märchens II 163; *Campbell-McKay\r\n233ff.; India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "17": {
+            "content": [
+                "Z17. †Z17. ", 
+                "Rounds.", 
+                " Stories which begin over and over again and repeat. Type 2350;\r\nTaylor JAFL XLVI 88, Hdwb. d. Märchens II 190; U.S.: Baughman; Lithuanian:\r\nBalys Index No. 2300; India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "16": {
+            "content": [
+                "Z16. †Z16. ", 
+                "Tales ending with a question.", 
+                " *Type 653; *BP III 45; Basset RTP VII 188; Cosquin Revue\r\nd‘Ethnographie et des Traditions Populaires I 62, II 41; Africa: Werner African\r\n359."
+            ], 
+            "child": [
+                [
+                    "Z16.1. †Z16.1. ", 
+                    "Four brothers construct a woman.", 
+                    " Whose is she? India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "19": {
+            "content": [
+                "Z19. †Z19. ", 
+                "Formulistic frameworks--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "Z19.1. †Z19.1. ", 
+                    "Game-tales.", 
+                    " (Used as\r\ngame.) *BP II 210."
+                ], 
+                [
+                    "Z19.2. †Z19.2. ", 
+                    "Tales filled with contradictions.", 
+                    " West Indies: Flowers 587."
+                ]
+            ]
+        }, 
+        "18": {
+            "content": [
+                "Z18. †Z18. ", 
+                "Formulistic conversations.", 
+                null
+            ], 
+            "child": [
+                [
+                    "Z18.1. †Z18.1. ", 
+                    "What makes your ears so big?--To hear the better, my child,\r\netc.", 
+                    " Type 333."
+                ]
+            ]
         }
     }, 
     "Z_300_399_Unique exceptions": {

@@ -1,938 +1,981 @@
 {
-    "M_200_299_Bargains and promises.": {
-        "216": {
+    "M_100_199_Vows and oaths.": {
+        "151": {
             "content": [
-                "M216. †M216. ", 
-                "Devil bargains to help man become priest.", 
-                " He must not later exorcise him from people. Spanish: Boggs\r\nFFC XC 50 No. 332."
+                "M151. †M151. ", 
+                "Vow not to eat before hearing of adventure.", 
+                " Sir Gawayne and the\r\nGreen Knight § 5; Irish myth: *Cross; India: Thompson-Balys."
             ], 
             "child": [
                 [
-                    "M216.1. †M216.1. ", 
-                    "The devil helps man study for priesthood.", 
-                    " For this, he must promise the devil his soul. Having\r\nbecome a great priest, the man finds means to save himself. Lithuanian: Balys\r\nIndex No. 3266, Legends Nos. 400ff."
+                    "M151.1. †M151.1. ", 
+                    "Vow not to eat before learning secret.", 
+                    " India: Thompson-Balys."
                 ], 
                 [
-                    "M216.2. †M216.2. ", 
-                    "The devil makes the herdsman’s son a priest in return for a\r\nwhistle.", 
-                    " After quarreling with the devil,\r\nwho asked to repair the whistle during Mass, the priest forgets all he learned\r\nand does not know how to hold Mass. Is beaten. Lithuanian: Balys Index No.\r\n3269, Legends Nos. 413f."
-                ]
-            ]
-        }, 
-        "217": {
-            "content": [
-                "M217. †M217. ", 
-                "Devil bargains to help man win woman.", 
-                " *Loomis White Magic 113;\r\nAlphabet No. 64; Spanish: Boggs FFC XC 66 No. 508A*, Keller; Italian Novella:\r\n*Rotunda. Cf. Cosquin Études 545ff. (sale of self to magician)."
-            ], 
-            "child": [
-                [
-                    "M217.1. †M217.1. ", 
-                    "Servant makes pact with devil denying Christ to secure\r\nnobleman’s daughter.", 
-                    " Spanish Exempla:\r\nKeller."
-                ]
-            ]
-        }, 
-        "214": {
-            "content": [
-                "M214. †M214. ", 
-                "Devil to help gambler in exchange for one task yearly.", 
-                " Spanish: Boggs FFC XC 55 No. 408A*."
-            ], 
-            "child": []
-        }, 
-        "215": {
-            "content": [
-                "M215. †M215. ", 
-                "With his whole heart: devil carries off judge.", 
-                " The devil refuses to take anything not offered him with\r\nthe whole heart. He hears the judge (advocate) cursed for fraud with such\r\nsincerity that he carries him off. *Type 1186; **Taylor PMLA XXXVI 35ff., also\r\nin Bryan and Dempster Sources and Analogues of Chaucer’s Canterbury Tales\r\n26974; *Herbert III 592; *Fb ”ridefoged“ III 53b; *Pauli (ed. Bolte) Nos. 81,\r\n807; *Robinson Complete Works of Geoffrey Chaucer (Cambridge, Mass., 1933) 809\r\n(Friar‘s Tale)."
-            ], 
-            "child": []
-        }, 
-        "212": {
-            "content": [
-                "M212. †M212. ", 
-                "Devil agrees to help man with robberies.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M212.1. †M212.1. ", 
-                    "Devil as helper of robber refuses to let women‘s ornaments\r\nbe stolen.", 
-                    " They are his own weapons. Pauli\r\n(ed. Bolte) No. 86."
+                    "M151.2. †M151.2. ", 
+                    "Vow not to marry until quest is concluded.", 
+                    " Irish myth: Cross."
                 ], 
                 [
-                    "M212.2. †M212.2. ", 
-                    "Devil at gallows repudiates his bargain with robber.", 
-                    " Ring turns to rope. The\r\njudge cannot find a rope and is about to release the thief because of the\r\nmiracle. But the ring in the box presented by the devil as a bribe turns out to\r\nbe a rope. The man is hanged. *Krappe Archivum Romanicum VII 470ff.; *Wesselski\r\nMärchen 244 No. 54; Spanish Exempla: Keller."
+                    "M151.2.1. †M151.2.1. ", 
+                    "Vow not to reign and to starve to death unless picture‘s\r\noriginal is found.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M151.3. †M151.3. ", 
+                    "Vow not to take food or drink until manner of father’s\r\ndeath is learned.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "M151.4. †M151.4. ", 
+                    "Vow not to take food or drink until enemy is killed.", 
+                    " Irish myth: Cross; Jewish: Neuman."
+                ], 
+                [
+                    "M151.5. †M151.5. ", 
+                    "Vow not to eat or sleep until certain event is brought to pass.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "M151.5.1. †M151.5.1. ", 
+                    "Vow not to eat, drink, or move from position until dead\r\nanchorite comes himself to accept necklace.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "M151.6. †M151.6. ", 
+                    "Vow not to eat or drink before knowing if king is alive.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "M151.7. †M151.7. ", 
+                    "Heroine will not laugh till arrival of destined hero.", 
+                    " (Cf. †H341.) Irish myth:\r\nCross."
+                ], 
+                [
+                    "M151.8. †M151.8. ", 
+                    "Vow not to eat until lost son is found.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M151.9. †M151.9. ", 
+                    "Vow not to see friends until quest is completed.", 
+                    " English romance: Malory XI 12."
                 ]
             ]
         }, 
-        "213": {
+        "150": {
             "content": [
-                "M213. †M213. ", 
-                "Devil as substitute for day laborer at mowing.", 
-                " He mows with a magic sickle. The evil overseer tries to\r\nkeep up with him and dies of overexhaustion. Type 820."
-            ], 
-            "child": []
-        }, 
-        "210": {
-            "content": [
-                "M210. ", 
+                "M150. ", 
                 null, 
                 null
             ], 
             "child": []
         }, 
-        "211": {
+        "152": {
             "content": [
-                "M211. †M211. ", 
-                "Man sells soul to devil.", 
-                "\r\n(Faust, Theophilus.) Types 330, 360, 361, 756B, 810, 812, 1170-1199; *BP II\r\n164, 427, 561ff., III 12; *Andrejev FFC LXIX 46, 50, 223, 227 n.; Lidzbarski Am\r\nUrds-Brunnen IV 59 n. 1; Scala Celi 9a, 112a, 135b Nos. 58, 625, 749; *Pauli\r\n(ed. Bolte) No. 667; *Fb ”sjæl“ III 215a; Faligan RTP V 1;\r\nAlphabet Nos. 50, 467; *Ludorff Anglia VII 60ff.; *Loomis White Magic 112f.;\r\n*K. Bittner Die Faustsage im russischen Schrifttum (Reichenberg. i. B. [Prager\r\nDeutsche Studien No. 37], 1925); *Krappe Bulletin Hispanique XXXIX\r\n34.--Lithuanian: Balys Index No. 3400, Legends No. 757; Spanish: Boggs FFC XC\r\n49, 67 Nos. 330, 510, Espinosa Jr. Nos. 70-74, 83f.; Italian Novella: Rotunda;\r\nArgentina: Jijena Sanchez 74; N. A. Indian (Wampanoag): Knight JAFL XXXVIII\r\n134, (Salinan): Mason U Cal X 196."
+                "M152. †M152. ", 
+                "Vow not to go to bed with wife till enemy is killed.", 
+                " Icelandic: Boberg."
             ], 
             "child": [
                 [
-                    "M211.1. †M211.1. ", 
-                    "Man unwittingly sells soul to devil.", 
-                    " He jestingly offers to\r\nsell his soul. Devil in disguise buys it. *Pauli (ed. Bolte) No. 280;\r\n*Wesselski Märchen 245 No. 55."
+                    "M152.1. †M152.1. ", 
+                    "Vow not to kiss anybody until father is revenged.", 
+                    " Icelandic: Boberg."
                 ], 
                 [
-                    "M211.1.1. †M211.1.1. ", 
-                    "Man goes to well at midnight on Old Christmas to see water\r\nturned into wine.", 
-                    " Just as it turns into wine\r\nthe devil takes him, or injures him. England, U.S.: *Baughman."
-                ], 
-                [
-                    "M211.2. †M211.2. ", 
-                    "Man sells soul to devil in return for devil‘s building\r\nhouse (barn, etc.).", 
-                    " Wünsche Teufel 29-56 passim."
-                ], 
-                [
-                    "M211.3. †M211.3. ", 
-                    "Man bequeaths soul to devil.", 
-                    " U.S.: Baughman; Italian Novella: Rotunda."
-                ], 
-                [
-                    "M211.4. †M211.4. ", 
-                    "Jews must repay devil’s help by giving tribute of persons\r\neach year.", 
-                    " Lithuanian: Balys Index No.\r\n1867D*."
-                ], 
-                [
-                    "M211.5. †M211.5. ", 
-                    "Formulas for selling one‘s soul to", 
-                    " devil. England: Baughman."
-                ], 
-                [
-                    "M211.6. †M211.6. ", 
-                    "Man sells soul to devil for visit home in boat that sails\r\nthrough sky.", 
-                    " U.S.: Baughman."
-                ], 
-                [
-                    "M211.7. †M211.7. ", 
-                    "Man sells soul to devil for magic power to escape capture.", 
-                    " Canada: Baughman."
-                ], 
-                [
-                    "M211.8. †M211.8. ", 
-                    "Man sells soul to devil for devil’s doing one specific job.", 
-                    " England, Wales: *Baughman."
-                ], 
-                [
-                    "M211.9. †M211.9. ", 
-                    "Person sells soul to devil in return for the granting of\r\nwishes.", 
-                    " England: Baughman."
+                    "M152.2. †M152.2. ", 
+                    "Vow not to sit on father‘s high-seat until he is revenged.", 
+                    " Icelandic: Boberg."
                 ]
             ]
         }, 
-        "218": {
+        "155": {
             "content": [
-                "M218. †M218. ", 
-                "Contract with the devil destroyed.", 
-                " Dh I 140; Alphabet Nos. 64, 467; Irish: Beal XXI 311,\r\nO‘Suilleabhain 33."
-            ], 
-            "child": [
-                [
-                    "M218.1. †M218.1. ", 
-                    "Pacts with the devil, sealed in blood, made ineffective by\r\na saint.", 
-                    " *Loomis White Magic 75."
-                ]
-            ]
-        }, 
-        "219": {
-            "content": [
-                "M219. †M219. ", 
-                "Other devil contract motifs.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M219.1. †M219.1. ", 
-                    "Bargain with the devil for an heir.", 
-                    " Irish myth: *Cross."
-                ], 
-                [
-                    "M219.2. †M219.2. ", 
-                    "Devil fetches man contracted to him.", 
-                    null
-                ], 
-                [
-                    "M219.2.1. †M219.2.1. ", 
-                    "Devil appears in great storm, takes away soul of person\r\ncontracted to him.", 
-                    " (Cf. †D2141.0.4, †D2141.0.5, †Q550.1.) England, U.S.: *Baughman."
-                ], 
-                [
-                    "M219.2.2. †M219.2.2. ", 
-                    "Devil flays corpse of person contracted to him.", 
-                    " (Cf. †Q457.2.) England:\r\nBaughman."
-                ], 
-                [
-                    "M219.2.3. †M219.2.3. ", 
-                    "Man contracted to the devil responds to call by voice: ”The\r\nhour has come but not the man.“", 
-                    " England,\r\nScotland: *Baughman."
-                ], 
-                [
-                    "M219.2.4. †M219.2.4. ", 
-                    "Devil carries off hunt-loving priest.", 
-                    " (Cf. †G303.17.2.4.)\r\nEngland: *Baughman."
-                ], 
-                [
-                    "M219.2.5. †M219.2.5. ", 
-                    "Body of devil’s disciple is removed from coffin by devil.", 
-                    " England, U.S.: *Baughman."
-                ], 
-                [
-                    "M219.2.6. †M219.2.6. ", 
-                    "Devil puts body of convert on a sea monster which takes it\r\naway.", 
-                    " U.S.: Baughman."
-                ], 
-                [
-                    "M219.3. †M219.3. ", 
-                    "Familiars guard and protect those who have pact with the\r\ndevil.", 
-                    " Argentina: Jijena Sanchez 80."
-                ], 
-                [
-                    "M219.4. †M219.4. ", 
-                    "Familiar devours whoever does not keep pact with devil.", 
-                    " Argentina: Jijena Sanchez 82."
-                ]
-            ]
-        }, 
-        "271": {
-            "content": [
-                "M271. †M271. ", 
-                "Sons agree to meet at father’s grave after they have been\r\nout in world for one year to learn trade.", 
-                "\r\nChinese: Graham."
-            ], 
-            "child": []
-        }, 
-        "258": {
-            "content": [
-                "M258. †M258. ", 
-                "Promise to dying man sacred.", 
+                "M155. †M155. ", 
+                "Vow to perform act of prowess.", 
                 " Icelandic: *Boberg."
             ], 
             "child": [
                 [
-                    "M258.1. †M258.1. ", 
-                    "Promise to dying father leads to adventures.", 
-                    " Type 884; *BP II 56ff."
+                    "M155.1. †M155.1. ", 
+                    "Vow to kill wild boar alone at night.", 
+                    " Wells 64 (The Avowynge of King Arthur, etc.)."
                 ], 
                 [
-                    "M258.2. †M258.2. ", 
-                    "Promise to dying father not to wed woman of certain tribe.", 
-                    " Jewish: *Neuman."
+                    "M155.2. †M155.2. ", 
+                    "Vow to find vanished sister.", 
+                    " Icelandic: *Boberg."
                 ], 
                 [
-                    "M258.3. †M258.3. ", 
-                    "Promise to dying father to bury him in his homeland.", 
-                    " Jewish: *Neuman."
-                ]
-            ]
-        }, 
-        "235": {
-            "content": [
-                "M235. †M235. ", 
-                "Bargain: woman rides naked through streets to obtain\r\nfreedom for citizens.", 
-                " Godiva. Liebrecht\r\n104; Hartland FL I 207."
-            ], 
-            "child": []
-        }, 
-        "252": {
-            "content": [
-                "M252. †M252. ", 
-                "Promise of dying man to bring news of other world.", 
-                " (Or two friends agree that the first to die shall bring\r\nnews.) *Type 470; Swiss: Jegerlehner Oberwallis 305 No. 6, 323 Nos. 112, 113,\r\n329 Nos. 31, 33; Irish: Beal XXI 331f., O‘Suilleabhain 99--102, *Cross; Jewish:\r\nbin Gorion Born Judas VI 123, 311."
-            ], 
-            "child": []
-        }, 
-        "253": {
-            "content": [
-                "M253. †M253. ", 
-                "Friends in life and death.", 
-                " In pursuance of the pledge, the living follows the other\r\nto the world of the dead. *Type 470; Pauli (ed. Bolte) No. 561; **MacKay The\r\nDouble Invitation; Jewish Neuman."
-            ], 
-            "child": []
-        }, 
-        "236": {
-            "content": [
-                "M236. †M236. ", 
-                "Peace bought for husband.", 
-                " Icelandic: MacCulloch Eddic 103, *Boberg."
-            ], 
-            "child": []
-        }, 
-        "251": {
-            "content": [
-                "M251. †M251. ", 
-                "Dying man‘s promise will be kept.", 
-                " Fb ”love“ II 452a."
-            ], 
-            "child": []
-        }, 
-        "256": {
-            "content": [
-                "M256. †M256. ", 
-                "Promise to dying man broken.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M256.1. †M256.1. ", 
-                    "Sons break promise to have masses for father’s soul.", 
-                    " ”If he is in Hell it will do him no good; if he is in\r\nHeaven he won‘t need it; and if he is in Purgatory he can purge himself.“\r\nItalian Novella: Rotunda."
-                ]
-            ]
-        }, 
-        "257": {
-            "content": [
-                "M257. †M257. ", 
-                "Dying monster’s request and promise.", 
-                " Hero is to drink his\r\nblood, suck his eyes and brains, and give his heart to his loved one to eat. He\r\nwill become marvelously strong and his wife will have three sons and four\r\ndaughters with great powers. Köhler-Bolte I 117; Gascon: Bladé I 3, 181; India:\r\nThompson-Balys."
-            ], 
-            "child": [
-                [
-                    "M257.1. †M257.1. ", 
-                    "Dying hero‘s request and promise to disciples.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M257.2. †M257.2. ", 
-                    "Murdered person’s request and promise.", 
-                    " India: Thompson-Balys."
-                ]
-            ]
-        }, 
-        "254": {
-            "content": [
-                "M254. †M254. ", 
-                "Promise to be buried with wife if she dies first.", 
-                " *Type 612; *BP I 128."
-            ], 
-            "child": []
-        }, 
-        "255": {
-            "content": [
-                "M255. †M255. ", 
-                "Deathbed promise concerning the second wife.", 
-                " Promises his dying wife\r\nthat he will not marry unless the bride meets the specifications the dying wife\r\nimposes. *Type 510B; *Cox 53--79 passim; De Vries Studien over Færösche\r\nBalladen 133; Icelandic: Boberg; Danish: Grundtvig No. 135."
-            ], 
-            "child": []
-        }, 
-        "234": {
-            "content": [
-                "M234. †M234. ", 
-                "Life spared in return for life-long service.", 
-                " Irish myth: *Cross."
-            ], 
-            "child": [
-                [
-                    "M234.1. †M234.1. ", 
-                    "Life spared in return for poetic mead.", 
-                    " Icelandic: MacCulloch Eddic 53."
-                ], 
-                [
-                    "M234.2. †M234.2. ", 
-                    "Life spared for bringing a dreaded enemy without weapon.", 
-                    " Icelandic: MacCulloch Eddic 83 f. (Thor and Loki)."
-                ], 
-                [
-                    "M234.3. †M234.3. ", 
-                    "Life bought for gold.", 
-                    "\r\nIcelandic: Boberg."
-                ], 
-                [
-                    "M234.4. †M234.4. ", 
-                    "Life bought with promise of reparations and healing of\r\nenemy.", 
+                    "M155.3. †M155.3. ", 
+                    "Vow never to flee from fire or weapon.", 
                     " Icelandic: Boberg."
                 ]
             ]
         }, 
-        "237": {
+        "113": {
             "content": [
-                "M237. †M237. ", 
-                "Bargain to save face.", 
-                "\r\nIrish myth: Cross."
+                "M113. †M113. ", 
+                "Oath taken on arms.", 
+                "\r\nIrish myth: *Cross."
             ], 
             "child": [
                 [
-                    "M237.1. †M237.1. ", 
-                    "Opponents agree not to fight and are thus undefeated.", 
+                    "M113.1. †M113.1. ", 
+                    "Oath taken on sword.", 
+                    "\r\nScottish: Campbell-McKay No. 20; Icelandic: Herrmann Saxo II 197; Jewish:\r\nNeuman."
+                ]
+            ]
+        }, 
+        "157": {
+            "content": [
+                "M157. †M157. ", 
+                "Vow to ride the forest all night and slay all comers.", 
+                " Wells 64 (The Avowynge of King Arthur, etc.)."
+            ], 
+            "child": []
+        }, 
+        "156": {
+            "content": [
+                "M156. †M156. ", 
+                "Vow to watch at frightful place all night.", 
+                " Wells 64 (The Avowynge of King Arthur)."
+            ], 
+            "child": []
+        }, 
+        "158": {
+            "content": [
+                "M158. †M158. ", 
+                "Vow never to refuse food to any man.", 
+                " Wells 64 (The Avowynge of King Arthur); Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "112": {
+            "content": [
+                "M112. †M112. ", 
+                "Oath taken on ring.", 
+                "\r\nHdwb. d. Abergl. II 67; Brumer Deutsche Rechtsgeschichte I 258; Icelandic:\r\n*Boberg."
+            ], 
+            "child": []
+        }, 
+        "193": {
+            "content": [
+                "M193. †M193. ", 
+                "Vow to destroy kingdom by austerities.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "192": {
+            "content": [
+                "M192. †M192. ", 
+                "Vow to put to death every king that comes his way unless\r\nengaged in marrying a lady at the time he sees them.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "133": {
+            "content": [
+                "M133. †M133. ", 
+                "Vow: man will love only a virgin.", 
+                " Malone PMLA XLIII 427."
+            ], 
+            "child": []
+        }, 
+        "114": {
+            "content": [
+                "M114. †M114. ", 
+                "Oath taken on sacred object.", 
+                " Jewish: Neuman; Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "M114.1. †M114.1. ", 
+                    "Oath on sacred book.", 
+                    null
+                ], 
+                [
+                    "M114.1.1. †M114.1.1. ", 
+                    "Oath by Tora.", 
+                    " Jewish:\r\n*Neuman."
+                ], 
+                [
+                    "M114.2. †M114.2. ", 
+                    "Oath taken on holy stone.", 
+                    " (Cf. †M119.5.) Icelandic: Boberg."
+                ], 
+                [
+                    "M114.3. †M114.3. ", 
+                    "Vows taken on holy swine.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "M114.4. †M114.4. ", 
+                    "Swearing on sacred relics.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "M114.5. †M114.5. ", 
+                    "Taking oath on cowdung.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "M114.6. †M114.6. ", 
+                    "Oath by touching sacred thread.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "117": {
+            "content": [
+                "M117. †M117. ", 
+                "Vow to perform certain act unless cataclysm occurs.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "116": {
+            "content": [
+                "M116. †M116. ", 
+                "Oath taken on hand of saint.", 
+                " Irish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "M116.0.1. †M116.0.1. ", 
+                    "Swearing on hand of king.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "M116.1. †M116.1. ", 
+                    "Swearing by saint‘s bachall.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "M116.2. †M116.2. ", 
+                    "Swearing by saint’s bell.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "137": {
+            "content": [
+                "M137. †M137. ", 
+                "Vow never to be jealous of one’s wife.", 
+                " Wells 64 (The Avowynge of King Arthur, etc.); Irish myth:\r\n*Cross."
+            ], 
+            "child": [
+                [
+                    "M137.1. †M137.1. ", 
+                    "Woman requires husband free from jealousy.", 
                     " Irish myth: *Cross."
                 ]
             ]
         }, 
-        "231": {
+        "136": {
             "content": [
-                "M231. †M231. ", 
-                "Free keep in inn exchanged for good story.", 
-                " *Fb ”kro“ II 303a."
+                "M136. †M136. ", 
+                "Vow not to marry till iron shoes wear out.", 
+                " Köhler-Bolte Zs. f.\r\nVksk. VI 71 (to Gonzenbach No. 32); *Roberts 137."
             ], 
             "child": []
         }, 
-        "232": {
+        "135": {
             "content": [
-                "M232. †M232. ", 
-                "Prince to give up life in exchange for learning a secret.", 
-                " Malone PMLA XLIII 405, 413."
+                "M135. †M135. ", 
+                "Vow never to remarry.", 
+                "\r\nIrish myth: *Cross; India: *Thompson-Balys."
             ], 
             "child": []
         }, 
-        "250": {
+        "134": {
             "content": [
-                "M250. ", 
-                null, 
-                null
+                "M134. †M134. ", 
+                "Prince vows to marry no woman unless he can beat her daily.", 
+                " India: *Thompson-Balys."
             ], 
             "child": []
         }, 
-        "233": {
+        "177": {
             "content": [
-                "M233. †M233. ", 
-                "Three deformed witches invited to wedding in exchange for\r\nhelp.", 
-                "\r\n*Type 501; BP I 109; **Von Sydow Två Spinnsagor."
-            ], 
-            "child": []
-        }, 
-        "201": {
-            "content": [
-                "M201. †M201. ", 
-                "Making of bargains and promises.", 
+                "M177. †M177. ", 
+                "Vow to change religion.", 
                 null
             ], 
             "child": [
                 [
-                    "M201.0.1. †M201.0.1. ", 
-                    "Bargain with God (by holy man).", 
+                    "M177.1. †M177.1. ", 
+                    "Vow to become a Christian.", 
+                    null
+                ], 
+                [
+                    "M177.1.1. †M177.1.1. ", 
+                    "King swears to become Christian if he wins battle.", 
+                    " Spanish Exempla: Keller."
+                ], 
+                [
+                    "M177.1.2. †M177.1.2. ", 
+                    "Oath not to be christened until he has fought in seven\r\nbattles for Jesus.", 
+                    " English romance: Malory\r\nX 47."
+                ], 
+                [
+                    "M177.2. †M177.2. ", 
+                    "Prince vows that he will always be servant of a goddess\r\n(Kali).", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "175": {
+            "content": [
+                "M175. †M175. ", 
+                "Pledge to say but a single phrase.", 
+                " In carrying out this\r\nagreement the men innocently confess a crime. *Types 360, 1697; BP II 561ff.;\r\nWesselski Mönchslatein 37 No. 44; India: *Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "138": {
+            "content": [
+                "M138. †M138. ", 
+                "Vow to marry first person performing certain act.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "M138.1. †M138.1. ", 
+                    "Vow to marry off two daughters to first two men father\r\nlooks at on the following morning.", 
+                    " India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "119": {
+            "content": [
+                "M119. †M119. ", 
+                "Taking of vows and oaths--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M119.1. †M119.1. ", 
+                    "Swearing by the elements: sun, moon, stars, wind.", 
+                    " Irish myth: *Cross; Greek: Argonautica III 689, Odyssey V\r\n185."
+                ], 
+                [
+                    "M119.1.1. †M119.1.1. ", 
+                    "Oath by River Styx.", 
+                    "\r\nGreek: Grote I 56f."
+                ], 
+                [
+                    "M119.2. †M119.2. ", 
+                    "Swearing by (clan) gods.", 
+                    "\r\nIrish myth: *Cross."
+                ], 
+                [
+                    "M119.3. †M119.3. ", 
+                    "Vows taken as an old Norse custom at the festival of Yule.", 
+                    " Icelandic: Cleasby and\r\nVigfússon Icel.-- Eng. Dict. (1874) 853 s.v. ”heitstrenging“;\r\nLagerholm 18, *Boberg."
+                ], 
+                [
+                    "M119.4. †M119.4. ", 
+                    "Vows taken by placing one‘s foot on a certain post in the\r\nhall.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "M119.5. †M119.5. ", 
+                    "Swearing on a stone.", 
+                    " (Cf. †M114.2.) Irish myth: Cross."
+                ], 
+                [
+                    "M119.6. †M119.6. ", 
+                    "Swearing by ”the Seven Things which they serve.“", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "M119.7. †M119.7. ", 
+                    "Oath by placing hand on genitals.", 
                     " Irish myth: Cross; Jewish: *Neuman."
                 ], 
                 [
-                    "M201.0.1.1. †M201.0.1.1. ", 
-                    "Covenant between Israel and God.", 
-                    " Jewish: *Neuman."
-                ], 
-                [
-                    "M201.0.2. †M201.0.2. ", 
-                    "Covenant between heathen and Israelites.", 
+                    "M119.8. †M119.8. ", 
+                    "Oath taken by the life of a person.", 
                     " Jewish: Neuman."
                 ], 
                 [
-                    "M201.1. †M201.1. ", 
-                    "Blood covenant.", 
-                    "\r\nContract written (or signed) with blood. Hdwb. d. Abergl. II 272ff., 1026;\r\n*Wilken Verspreide Geschriften I 539ff.; *W. Robertson Smith Religion of the\r\nSemites@3 270ff.; *Penzer I 98 n.; *Fb ”skrive“; ”blod“ IV 47b; ** H. C.\r\nTurmbull The Blood Covenant (London, 1887). -- Breton: Sébillot Incidents s.v. ”sang“, ”pacte“; Jewish: *Neuman; India: Thompson-Balys."
-                ], 
-                [
-                    "M201.1.1. †M201.1.1. ", 
-                    "Blood of contractors mixed to seal bargain.", 
-                    " Irish myth: *Cross; Africa (Ekoi): Talbot 268."
-                ], 
-                [
-                    "M201.1.2. †M201.1.2. ", 
-                    "Pact with devil signed in blood.", 
-                    " (Theophilus.) (Cf.\r\n†M211.) Type 756B; *Andrejev FFC LXIX 64; Scala Celi 9a, 135b Nos 58, 749;\r\nWünsche Teufel 55f.; England, U.S.: Baughman; Irish: Beal XXI 310 --312, O‘Suilleabhain 33f.; Spanish Exempla: Keller; Argentina:\r\nJijena Sanchez 80."
-                ], 
-                [
-                    "M201.2. †M201.2. ", 
-                    "Covenant confirmed by eating together.", 
-                    " Hdwb. d. Abergl. II 272ff.; U.S.: Baughman; Africa (Fang):\r\nNassau 242 No. 9."
-                ], 
-                [
-                    "M201.3. †M201.3. ", 
-                    "Spitting of all parties into vessel to seal bargain.", 
-                    " Icelandic: MacCulloch Eddic 53; England: Baughman."
-                ], 
-                [
-                    "M201.4. †M201.4. ", 
-                    "Covenant between saints confirmed by cutting off their\r\nthumbs.", 
-                    " Irish myth: Cross."
-                ], 
-                [
-                    "M201.5. †M201.5. ", 
-                    "Covenant confirmed by marriage.", 
-                    " Icelandic: *Boberg."
-                ], 
-                [
-                    "M201.6. †M201.6. ", 
-                    "Covenant confirmed by hostages.", 
-                    " Icelandic: *Boberg."
-                ]
-            ]
-        }, 
-        "200": {
-            "content": [
-                "M200. ", 
-                null, 
-                null
-            ], 
-            "child": []
-        }, 
-        "203": {
-            "content": [
-                "M203. †M203. ", 
-                "King‘s promise irrevocable.", 
-                " Basil Pentamerone I No.\r\n5; Irish myth: *Cross; Missouri French: Carrière; Spanish Exempla: Keller;\r\nIndia: Thompson-Balys; West Indies: Flowers 560."
-            ], 
-            "child": [
-                [
-                    "M203.1. †M203.1. ", 
-                    "King punishes one of his men who robs someone to whom the\r\nking has given safe conduct.", 
-                    " Spanish\r\nExempla: Keller."
-                ], 
-                [
-                    "M203.2. †M203.2. ", 
-                    "King kills self to carry out own promise.", 
+                    "M119.8.1. †M119.8.1. ", 
+                    "Swearing by one’s father and mother.", 
                     " India: Thompson-Balys."
                 ], 
                 [
-                    "M203.3. †M203.3. ", 
-                    "King sells self and family into slavery to keep promise.", 
-                    " India: Thompson-Balys."
+                    "M119.8.2. †M119.8.2. ", 
+                    "Swearing by life of father.", 
+                    " Jewish: *Neuman."
                 ]
             ]
         }, 
-        "202": {
+        "118": {
             "content": [
-                "M202. †M202. ", 
-                "Fulfilling of bargain or promise.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M202.0.1. †M202.0.1. ", 
-                    "Bargain or promise to be fulfilled at all hazards.", 
-                    " English romance: Malory VIII 30; Irish myth: *Cross."
-                ], 
-                [
-                    "M202.1. †M202.1. ", 
-                    "Promise to be fulfilled when iron shoes wear out.", 
-                    " *Cox Cinderella 508."
-                ], 
-                [
-                    "M202.1. †M202.1. ", 
-                    "Prisoner would be set free only after he has used up a pair\r\nof harmed shoes.", 
-                    " Krappe Philological\r\nQuarterly XI (1932) 87f."
-                ], 
-                [
-                    "M202.2. †M202.2. ", 
-                    "Man keeps word to return to enemy if his mission to his\r\npeople fails.", 
-                    " Spanish Exempla: Keller."
-                ]
-            ]
-        }, 
-        "205": {
-            "content": [
-                "M205. †M205. ", 
-                "Breaking of bargains or promises.", 
-                " India: Thompson-Balys; West Indies: Flowers 561."
-            ], 
-            "child": [
-                [
-                    "M205.0.1. †M205.0.1. ", 
-                    "Promise kept in deed but not in spirit.", 
-                    " English romance: Malory X 38."
-                ], 
-                [
-                    "M205.1. †M205.1. ", 
-                    "Animal punishes broken promise.", 
-                    null
-                ], 
-                [
-                    "M205.1.1. †M205.1.1. ", 
-                    "Turtle carrying man through water upsets him because of a\r\nbroken promise.", 
-                    " Chinese: Werner 367."
-                ], 
-                [
-                    "M205.1.1.1. †M205.1.1.1. ", 
-                    "Fish (whale) carrying man through water shakes him off when\r\nman strikes him with coconut.", 
-                    " Tahiti:\r\nBeckwith Myth 252; Tuamotu: Stimson MS (T-G. 3/600)."
-                ], 
-                [
-                    "M205.1.2. †M205.1.2. ", 
-                    "Cat witness to betrothal punishes violator.", 
-                    " Kills the man’s son when he has married a different woman.\r\nHebrew: *bin Gorion Born Judas@2 I 368."
-                ], 
-                [
-                    "M205.2. †M205.2. ", 
-                    "Curse as punishment for broken promise.", 
-                    " Irish myth: *Cross."
-                ], 
-                [
-                    "M205.3. †M205.3. ", 
-                    "A man who breaks his oath to a woman cannot be king with\r\nright.", 
-                    " Icelandic: Boberg."
-                ], 
-                [
-                    "M205.4. †M205.4. ", 
-                    "King breaks promise to care for man‘s family.", 
-                    " Is caught trying to steal his money. India: Thompson-Balys."
-                ]
-            ]
-        }, 
-        "204": {
-            "content": [
-                "M204. †M204. ", 
-                "Demanding of promised boon postponed.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M204.1. †M204.1. ", 
-                    "Demanding of promised boon postponed until an auspicious\r\nmoment.", 
-                    " Granted anything he may ask, the\r\nrecipient waits to announce his choice. English romance: Malory VIII 15; India:\r\nThompson-Balys."
-                ]
-            ]
-        }, 
-        "207": {
-            "content": [
-                "M207. †M207. ", 
-                "Land grants (bargains).", 
-                "\r\nIrish myth: *Cross."
+                "M118. †M118. ", 
+                "Swearing on a skull.", 
+                "\r\nIrish myth: Cross."
             ], 
             "child": []
         }, 
-        "206": {
+        "171": {
             "content": [
-                "M206. †M206. ", 
-                "Promise made merely as a matter of form not binding.", 
+                "M171. †M171. ", 
+                "Vow never to accept a man who does not know any sport.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "167": {
+            "content": [
+                "M167. †M167. ", 
+                "Vow to serve only the most generous of all kings.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "172": {
+            "content": [
+                "M172. †M172. ", 
+                "Vow not to touch certain thing.", 
                 null
             ], 
             "child": [
                 [
-                    "M206.1. †M206.1. ", 
-                    "Host offers to send his guest a cask of the wine he has\r\npraised.", 
-                    " Later refuses to send it as it\r\nwas merely a ”verba honoris“. Pauli (ed. Bolte) No. 308."
-                ]
-            ]
-        }, 
-        "208": {
-            "content": [
-                "M208. †M208. ", 
-                "Price set on one’s head.", 
-                "\r\nIcelandic: *Boberg."
-            ], 
-            "child": []
-        }, 
-        "263": {
-            "content": [
-                "M263. †M263. ", 
-                "Retreat in return for cessation of attack.", 
-                " Host agrees to march back a day‘s journey if warrior will\r\ncease his feats of arms upon them until a certain battle in the future. Irish\r\nmyth: Cross."
-            ], 
-            "child": []
-        }, 
-        "244": {
-            "content": [
-                "M244. †M244. ", 
-                "Bargains between men and animals.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M244.1. †M244.1. ", 
-                    "Bargain with king of mice.", 
+                    "M172.1. †M172.1. ", 
+                    "Vow never to touch money and to give what anyone begs for.", 
                     " India: Thompson-Balys."
                 ], 
                 [
-                    "M244.2. †M244.2. ", 
-                    "Captured bird promises to deliver fifteen birds in exchange\r\nfor freedom.", 
-                    " Africa (Cameroon): Lederbogen\r\n73."
+                    "M172.2. †M172.2. ", 
+                    "Vow not to touch certain tree.", 
+                    " Later cannot cross bridge made of this wood. India:\r\nThompson-Balys."
                 ]
             ]
         }, 
-        "261": {
+        "182": {
             "content": [
-                "M261. †M261. ", 
-                "Chaste woman promises herself to her lover when the rocks\r\nleave the coast. (They are moved by magic.)", 
-                "\r\nRobinson Complete Works of Geoffrey Chaucer (Cambridge, Mass., 1933) 826\r\n(Franklin‘s Tale); **Dempster and Tatlock in Bryan and Dempster Sources and\r\nAnalogues of Chaucer’s Canterbury Tales 333--56; Irish myth: Cross; cf. Type\r\n976."
+                "M182. †M182. ", 
+                "Vow not to enter any house before reaching one’s own.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "183": {
+            "content": [
+                "M183. †M183. ", 
+                "Religious vows.", 
+                " (Cf. †M177.)"
             ], 
             "child": [
                 [
-                    "M261.1. †M261.1. ", 
-                    "Chaste woman promises herself to her lover when he can make\r\na garden bloom in winter.", 
-                    " (Cf. †H352.) Italian Novella: Rotunda."
-                ], 
-                [
-                    "M261.1.1. †M261.1.1. ", 
-                    "Raja to marry girl when cut mango branch blooms.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M261.2. †M261.2. ", 
-                    "Princess promises to embrace her teacher on her wedding\r\nday.", 
-                    " Teacher has only been testing her\r\npromise. India: Thompson-Balys."
-                ]
-            ]
-        }, 
-        "260": {
-            "content": [
-                "M260. ", 
-                null, 
-                null
-            ], 
-            "child": []
-        }, 
-        "267": {
-            "content": [
-                "M267. †M267. ", 
-                "Promise to give another one’s wife for a day.", 
-                " India: *Thompson-Balys."
-            ], 
-            "child": []
-        }, 
-        "266": {
-            "content": [
-                "M266. †M266. ", 
-                "Man promises to build church if he is saved at sea.", 
-                " Danish: Kristensen Danske Sagn III (1895) 145ff., (1931)\r\n107ff.; Estonian: Aarne FFC XXV 134 No. 85; Italian Novella: Rotunda; West\r\nIndies: Flowers 562."
-            ], 
-            "child": []
-        }, 
-        "242": {
-            "content": [
-                "M242. †M242. ", 
-                "Bargains and promises between mortals and supernatural\r\nbeings.", 
-                "\r\n(Cf. †M221, †M222, †M223.) Irish myth: *Cross."
-            ], 
-            "child": [
-                [
-                    "M242.1. †M242.1. ", 
-                    "Mortal fosters fairy child to prevent destruction of crops.", 
-                    " Irish myth: *Cross."
-                ], 
-                [
-                    "M242.2. †M242.2. ", 
-                    "Contract between hungry god and untouchable: to give gods\r\nfood it they will eat from his hands.", 
+                    "M183.1. †M183.1. ", 
+                    "Vow to build shrine.", 
                     "\r\nIndia: Thompson-Balys."
                 ], 
                 [
-                    "M242.3. †M242.3. ", 
-                    "Ogre released in return for his magic girdle.", 
-                    " Tuamotu: Stimson MS (Z-G. 13/152, 221, 1314)."
-                ]
-            ]
-        }, 
-        "226": {
-            "content": [
-                "M226. †M226. ", 
-                "In return for magic shirt from girl hero is to stay in\r\nIreland for three years.", 
-                " In return he\r\nclaims her as wife. Icelandic: Boberg."
-            ], 
-            "child": []
-        }, 
-        "225": {
-            "content": [
-                "M225. †M225. ", 
-                "Eyes exchanged for food.", 
-                "\r\nA starving man lets himself be blinded in return for food. *Type 613; *BP II\r\n468ff.; **Christiansen FFC XXIV 46, 54; *Fb ”øje“ III 1166b; Missouri\r\nFrench: Carrière; India: Thompson-Balys."
-            ], 
-            "child": [
-                [
-                    "M225.1. †M225.1. ", 
-                    "Horse, clothes, and members of rider‘s body exchanged for\r\nfood.", 
-                    " India: Thompson-Balys."
-                ]
-            ]
-        }, 
-        "268": {
-            "content": [
-                "M268. †M268. ", 
-                "Marriage promised to save life.", 
-                " India: *Thompson-Balys."
-            ], 
-            "child": []
-        }, 
-        "223": {
-            "content": [
-                "M223. †M223. ", 
-                "Blind promise (rash boon).", 
-                " Person grants wish before hearing it. English romance:\r\nMalory X 22; Irish myth: *Cross."
-            ], 
-            "child": [
-                [
-                    "M223.1. †M223.1. ", 
-                    "Person who never refuses a request.", 
-                    " Irish myth: Cross."
-                ]
-            ]
-        }, 
-        "222": {
-            "content": [
-                "M222. †M222. ", 
-                "Man umpires dispute in exchange for guarantee of safety.", 
-                " Disputants, bear and tiger, agree not to eat him. India:\r\nThompson-Balys."
-            ], 
-            "child": []
-        }, 
-        "221": {
-            "content": [
-                "M221. †M221. ", 
-                "Beheading bargain.", 
-                "\r\nGiant allows hero to cut off his head; he will cut off hero‘s later.\r\n**Kittredge Gawain and the Green Knight; Irish myth: *Cross."
-            ], 
-            "child": [
-                [
-                    "M221.1. †M221.1. ", 
-                    "Hag offers to run race with men on condition that the one left\r\nbehind shall be beheaded.", 
-                    " Marvelous runner\r\nbeheads hag. Irish myth: Cross."
-                ]
-            ]
-        }, 
-        "220": {
-            "content": [
-                "M220. ", 
-                null, 
-                null
-            ], 
-            "child": []
-        }, 
-        "262": {
-            "content": [
-                "M262. †M262. ", 
-                "Person promises to have but one consort if he is cured.", 
-                " Irish myth: Cross."
-            ], 
-            "child": []
-        }, 
-        "272": {
-            "content": [
-                "M272. †M272. ", 
-                "Supernatural woman promises to return if she gives birth to\r\na boy.", 
-                " Chinese: Graham."
-            ], 
-            "child": []
-        }, 
-        "246": {
-            "content": [
-                "M246. †M246. ", 
-                "Covenant of friendship.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M246.1. †M246.1. ", 
-                    "Covenant of friendship between animals.", 
-                    null
-                ], 
-                [
-                    "M246.1.1. †M246.1.1. ", 
-                    "Covenant of friendship between elephant and jackal.", 
+                    "M183.2. †M183.2. ", 
+                    "Vow to bathe in the Ganges.", 
                     " India: Thompson-Balys."
                 ], 
                 [
-                    "M246.1.2. †M246.1.2. ", 
-                    "Covenant of friendship between louse and crow.", 
-                    " India: Thompson-Balys."
+                    "M183.3. †M183.3. ", 
+                    "Vow to find Holy Grail before returning to Round Table.", 
+                    " English romance: Malory XIII 7."
                 ], 
                 [
-                    "M246.2. †M246.2. ", 
-                    "Covenant of friendship: no matter how poor son of one is,\r\ndaughter of other will accept him as groom.", 
-                    "\r\nIndia: Thompson-Balys."
-                ], 
-                [
-                    "M246.3. †M246.3. ", 
-                    "Covenant of friendship: to secure brides for each other.", 
-                    " India: Thompson-Balys."
+                    "M183.4. †M183.4. ", 
+                    "Vow to become monk should he escape execution.", 
+                    " Buddhist myth: Malalasekera II 817."
                 ]
             ]
         }, 
-        "296": {
+        "186": {
             "content": [
-                "M296. †M296. ", 
-                "Two men in love agree to have nothing to do with the girl\r\nwithout the other’s consent.", 
-                " Hawaii:\r\nBeckwith Myth 153."
-            ], 
-            "child": []
-        }, 
-        "241": {
-            "content": [
-                "M241. †M241. ", 
-                "Bargain: to divide all winnings.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M241.1. †M241.1. ", 
-                    "Dividing the winnings: half of the bride demanded.", 
-                    " When the hero shows that\r\nhe is willing to carry out the bargain, his helper relents. *Type 505--508; *BP\r\nIII 490; Köhler-Bolte I 11, 444; *Liljeblad Tobiasgeschichte; English: Wells\r\n160 (Sir Amadace); India: Thompson-Balys."
-                ], 
-                [
-                    "M241.2. †M241.2. ", 
-                    "Dividing the winnings: presents (favors) from man‘s own\r\nwife.", 
-                    " After the agreement to divide all\r\nwinnings the first man receives favors (presents, kisses) from the second’s wife. He faithfully\r\ndelivers them. *Type 1364; Wesselski Märchen 187 No. 2; English: Wells 55 (Sir\r\nGawayne and the Green Knight)."
-                ]
-            ]
-        }, 
-        "294": {
-            "content": [
-                "M294. †M294. ", 
-                "Divine promise not to destroy sinful city if righteous live\r\nthere.", 
-                " Jewish: Neuman."
-            ], 
-            "child": []
-        }, 
-        "295": {
-            "content": [
-                "M295. †M295. ", 
-                "Bargain to keep secret.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M295.1. †M295.1. ", 
-                    "Tiger lets man go on condition he does not tell what he has\r\noverheard.", 
-                    " India: Thompson-Balys."
-                ]
-            ]
-        }, 
-        "292": {
-            "content": [
-                "M292. †M292. ", 
-                "Wife undertakes man‘s penances for him:", 
-                " also to go to heaven for him? He has a dream and when he\r\nsees that she also goes to heaven for him he decides against the bargain.\r\n*Pauli (ed. Bolte) No. 287."
-            ], 
-            "child": []
-        }, 
-        "293": {
-            "content": [
-                "M293. †M293. ", 
-                "Covenant: one nation not to wrest city from inhabitants\r\nwithout their consent.", 
+                "M186. †M186. ", 
+                "Vow never to pass over demarcation line into other’s\r\nproperty.", 
                 " Jewish: *Neuman."
             ], 
             "child": []
         }, 
-        "290": {
+        "187": {
             "content": [
-                "M290. ", 
+                "M187. †M187. ", 
+                "Oath to abide by results of lot drawing.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "184": {
+            "content": [
+                "M184. †M184. ", 
+                "Vow if queen bears another girl she and child will both be\r\nkilled.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": [
+                [
+                    "M184.1. †M184.1. ", 
+                    "Vow that no daughter born to chief‘s wife will be allowed\r\nto live until she bears a son.", 
+                    " Hawaii:\r\nBeckwith Myth 526."
+                ]
+            ]
+        }, 
+        "185": {
+            "content": [
+                "M185. †M185. ", 
+                "Vow to abide by laws.", 
+                "\r\nJewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "188": {
+            "content": [
+                "M188. †M188. ", 
+                "Oath not to mention what has been seen.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "105": {
+            "content": [
+                "M105. †M105. ", 
+                "Equivocal oaths.", 
+                " Icelandic:\r\nBoberg."
+            ], 
+            "child": []
+        }, 
+        "146": {
+            "content": [
+                "M146. †M146. ", 
+                "Vow to marry a certain woman.", 
+                " Icelandic: *Boberg."
+            ], 
+            "child": [
+                [
+                    "M146.1. †M146.1. ", 
+                    "Vow to marry queen of fairies and not to eat or drink\r\ninside kingdom until this is done.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "M146.2. †M146.2. ", 
+                    "Boy vows to marry none but girl born under the same\r\ncircumstances as he.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "M146.3. †M146.3. ", 
+                    "Vow that magically conceived children shall marry (or be\r\nfriends).", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M146.4. †M146.4. ", 
+                    "Brother and sister arrange marriage of their unborn\r\nchildren to each other.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "M146.5. †M146.5. ", 
+                    "Vow to marry none but daughter of certain man.", 
+                    " Jewish: *Neuman."
+                ], 
+                [
+                    "M146.7. †M146.7. ", 
+                    "Vow of enemy chief to marry princess of besieged city.", 
+                    " Jewish: Neuman."
+                ]
+            ]
+        }, 
+        "145": {
+            "content": [
+                "M145. †M145. ", 
+                "Vow to wed no man who cannot perform certain feat.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M145.1. †M145.1. ", 
+                    "Vow to wed no man who fears to saddle and mount a lion.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "142": {
+            "content": [
+                "M142. †M142. ", 
+                "Vow never to carry a woman.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "141": {
+            "content": [
+                "M141. †M141. ", 
+                "Vow never to strive against a woman.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "100": {
+            "content": [
+                "M100. ", 
                 null, 
                 null
             ], 
             "child": []
         }, 
-        "291": {
+        "149": {
             "content": [
-                "M291. †M291. ", 
-                "Trickster undertakes impossible bargains and collects his\r\npart.", 
-                " Trusts that in the year he is given\r\neither he or the other will die. Chauvin VIII 117ff. No. 101 n. 1."
+                "M149. †M149. ", 
+                "Vows concerning sex--miscellaneous.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M149.1. †M149.1. ", 
+                    "Lovers vow to marry only each other.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "M149.2. †M149.2. ", 
+                    "Vow to die rather than marry unwelcome suitor.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "M149.3. †M149.3. ", 
+                    "Vow to kill more successful rival.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "M149.4. †M149.4. ", 
+                    "Quarreling prince and princess vow that if they are married\r\nhe will desert her on the wedding day and she will make him eat boiled rice and\r\nthin broth for six months.", 
+                    " It so happens.\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "M149.5. †M149.5. ", 
+                    "Oath to marry daughters only into family with bridegroom\r\nfor each daughter.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M149.6. †M149.6. ", 
+                    "Vow to get stubborn girl half-married only.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M149.7. †M149.7. ", 
+                    "Vow only to marry daughter to the man who kills snake by\r\nher house.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "120": {
+            "content": [
+                "M120. ", 
+                null, 
+                null
             ], 
             "child": []
+        }, 
+        "121": {
+            "content": [
+                "M121. †M121. ", 
+                "Vow not to shave or cut hair until a certain time.", 
+                " *BP II 431ff.; A. Bugge ”Harald Haarfagres løfte“ Edda VII 166; Helm Altgermanische Religionsgeschichte I\r\n301; Eitrem Opferritus und Voropfer (Skrifter Vidensk. Selsk. i Oslo No. 1,\r\n1914) 400; Frazer Golden Bough III 194; Kruyt Het Animisme 33; FFC LXXXIII\r\nxxiv. -- Irish: O‘Suilleabhain 24, 45, Beal XXI 307, 316; Icelandic: *Boberg;\r\nSwiss: Jegerlehner Oberwallis 308 No. 39; Spanish: Boggs FFC XC 53 No. 400B*;\r\nGreek: Roscher Lexikon s.v. ”Achilleus“; Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "108": {
+            "content": [
+                "M108. †M108. ", 
+                "Violators of oaths.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M108.1. †M108.1. ", 
+                    "Babylonians do not keep their oaths.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
+        }, 
+        "168": {
+            "content": [
+                "M168. †M168. ", 
+                "Vow not to devastate country or take revenge after release.", 
+                " Icelandic: Boberg."
+            ], 
+            "child": [
+                [
+                    "M168.1. †M168.1. ", 
+                    "Vow not to deceive the man who spared one‘s life.", 
+                    " Icelandic: Boberg."
+                ]
+            ]
+        }, 
+        "125": {
+            "content": [
+                "M125. †M125. ", 
+                "Vow not to change clothes till a certain time.", 
+                " Spanish: Boggs FFC XC 53 No. 400B*."
+            ], 
+            "child": []
+        }, 
+        "126": {
+            "content": [
+                "M126. †M126. ", 
+                "Vow not to wash till a certain time.", 
+                " Greek: Iliad XXIII 49."
+            ], 
+            "child": []
+        }, 
+        "164": {
+            "content": [
+                "M164. †M164. ", 
+                "Bard vows that none of his profession will make a request\r\nof any man.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "165": {
+            "content": [
+                "M165. †M165. ", 
+                "Vow to ask nobody for peace, grace.", 
+                " (Cf. †M161.4.)\r\nIcelandic: Boberg."
+            ], 
+            "child": []
+        }, 
+        "166": {
+            "content": [
+                "M166. †M166. ", 
+                "Other vows about fighting.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M166.1. †M166.1. ", 
+                    "Vow never to give more than one blow in a fight and never\r\nto beat a fallen enemy nor take his weapons.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "M166.2. †M166.2. ", 
+                    "Vow rather to be cut in pieces than permit oneself to be\r\nbound.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "M166.3. †M166.3. ", 
+                    "Vow to kill anyone who touches his beard.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M166.4. †M166.4. ", 
+                    "Vow: never to fight with brother.", 
+                    " Buddhist myth: Malalasekera II 1019."
+                ], 
+                [
+                    "M166.5. †M166.5. ", 
+                    "Oath not to fight relatives of king.", 
+                    " English romance: Malory X 44."
+                ]
+            ]
+        }, 
+        "101": {
+            "content": [
+                "M101. †M101. ", 
+                "Punishment for broken oaths.", 
+                " Kristensen Danske Sagn VI (1) (1900) 33ff., (1936) 18ff.;\r\nJewish: *Neuman."
+            ], 
+            "child": [
+                [
+                    "M101.1. †M101.1. ", 
+                    "False swearer not allowed to approach altar.", 
+                    " Pauli (ed. Bolte) No. 485."
+                ], 
+                [
+                    "M101.2. †M101.2. ", 
+                    "Broken oaths cause of maimed people.", 
+                    " Pauli (ed. Bolte) No. 487."
+                ], 
+                [
+                    "M101.3. †M101.3. ", 
+                    "Death as punishment for broken oath.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "M101.3.1. †M101.3.1. ", 
+                    "Death caused by elements (exposure, drowning, etc.) as\r\npunishment for broken oath.", 
+                    " Irish myth:\r\n*Cross."
+                ], 
+                [
+                    "M101.3.2. †M101.3.2. ", 
+                    "Man offers to sacrifice bangles if he is given a son; when\r\nhe takes bangles back, son dies.", 
+                    " India:\r\nThompson-Balys."
+                ], 
+                [
+                    "M101.4. †M101.4. ", 
+                    "Broken oath causes girl’s hand to wither.", 
+                    " (Cf. †D2062.) Spanish\r\nExempla: Keller."
+                ], 
+                [
+                    "M101.5. †M101.5. ", 
+                    "Punishment for broken oath: loss of the inheritance of\r\nearth or heaven.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "106": {
+            "content": [
+                "M106. †M106. ", 
+                "Escape from vengeance caused by broken oaths.", 
+                " India: Thompson-Balys."
+            ], 
+            "child": []
+        }, 
+        "107": {
+            "content": [
+                "M107. †M107. ", 
+                "Vow fulfilled in next existence.", 
+                " Buddhist myth: Malalasekera II 1221."
+            ], 
+            "child": []
+        }, 
+        "162": {
+            "content": [
+                "M162. †M162. ", 
+                "Vow not to be killed by a single opponent.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "163": {
+            "content": [
+                "M163. †M163. ", 
+                "Vow never to make a nocturnal assault.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "161": {
+            "content": [
+                "M161. †M161. ", 
+                "Vow never to flee in fear of death.", 
+                " Irish myth: *Cross."
+            ], 
+            "child": [
+                [
+                    "M161.1. †M161.1. ", 
+                    "Vow to attack (kill) the enemy or die.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "M161.2. †M161.2. ", 
+                    "Vow to revenge (king, friends, father) or die.", 
+                    " English: Malory XX 10; Icelandic: *Boberg."
+                ], 
+                [
+                    "M161.3. †M161.3. ", 
+                    "Vow to live and die with the king.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "M161.4. †M161.4. ", 
+                    "Vow rather to die (on a spear) than to accept grace.", 
+                    " (Cf. †M165.) Hdwb. d. Märchens\r\nII s.v. ”Gnade ausbitten“; Icelandic: Ragnars saga\r\nLoðbr. 139-41, *Boberg."
+                ], 
+                [
+                    "M161.5. †M161.5. ", 
+                    "Rather die than go in the enemy‘s service.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "M161.6. †M161.6. ", 
+                    "Rather die in battle than in bed.", 
+                    " Icelandic: cf. MacCulloch Eddic 305ff., *Boberg."
+                ]
+            ]
+        }, 
+        "115": {
+            "content": [
+                "M115. †M115. ", 
+                "Only one oath binding.", 
+                "\r\nIt must be by so and so or else it is worthless. Italian: Basile Pentamerone IV\r\nNos. 6, 8, V No. 4."
+            ], 
+            "child": [
+                [
+                    "M115.1. †M115.1. ", 
+                    "Three-fold oath.", 
+                    "\r\nIndia: Thompson-Balys."
+                ], 
+                [
+                    "M115.1.1. †M115.1.1. ", 
+                    "Oath so heavy it dries up stream; oath so great it splits\r\nthe rock in twain; oath so violent it makes the tree wither.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "132": {
+            "content": [
+                "M132. †M132. ", 
+                "Vow of virginity.", 
+                "\r\nPenzer III 40."
+            ], 
+            "child": []
+        }, 
+        "122": {
+            "content": [
+                "M122. †M122. ", 
+                "Vow: woman not to bind hair till enemy is conquered.", 
+                " Alphabet No. 529."
+            ], 
+            "child": []
+        }, 
+        "131": {
+            "content": [
+                "M131. †M131. ", 
+                "Vow of chastity.", 
+                " Penzer I 67; Wesselski Mönchslatein 142 No. 117; Irish myth:\r\n*Cross; Missouri French: Carrière; Greek: *Grote I 162f."
+            ], 
+            "child": []
+        }, 
+        "130": {
+            "content": [
+                "M130. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "111": {
+            "content": [
+                "M111. †M111. ", 
+                "Oaths taken over severed pieces of horse.", 
+                " Pieces are then buried. Greek: Fox 25."
+            ], 
+            "child": []
+        }, 
+        "110": {
+            "content": [
+                "M110. ", 
+                null, 
+                null
+            ], 
+            "child": [
+                [
+                    "M110.1. †M110.1. ", 
+                    "Swearing while one knows that his oath is rendered\r\nvalueless.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M110.2. †M110.2. ", 
+                    "Oath is valid only when decreed in presence of ten.", 
+                    " Jewish: *Neuman."
+                ], 
+                [
+                    "M110.3. †M110.3. ", 
+                    "Oath uttered by pious when in danger of succumbing to\r\ntemptation.", 
+                    " Jewish: *Neuman."
+                ]
+            ]
         }
     }, 
     "M_300_399_None": {
@@ -2951,983 +2994,940 @@
             ]
         }
     }, 
-    "M_100_199_Vows and oaths.": {
-        "151": {
+    "M_200_299_Bargains and promises.": {
+        "216": {
             "content": [
-                "M151. †M151. ", 
-                "Vow not to eat before hearing of adventure.", 
-                " Sir Gawayne and the\r\nGreen Knight § 5; Irish myth: *Cross; India: Thompson-Balys."
+                "M216. †M216. ", 
+                "Devil bargains to help man become priest.", 
+                " He must not later exorcise him from people. Spanish: Boggs\r\nFFC XC 50 No. 332."
             ], 
             "child": [
                 [
-                    "M151.1. †M151.1. ", 
-                    "Vow not to eat before learning secret.", 
-                    " India: Thompson-Balys."
+                    "M216.1. †M216.1. ", 
+                    "The devil helps man study for priesthood.", 
+                    " For this, he must promise the devil his soul. Having\r\nbecome a great priest, the man finds means to save himself. Lithuanian: Balys\r\nIndex No. 3266, Legends Nos. 400ff."
                 ], 
                 [
-                    "M151.2. †M151.2. ", 
-                    "Vow not to marry until quest is concluded.", 
-                    " Irish myth: Cross."
-                ], 
-                [
-                    "M151.2.1. †M151.2.1. ", 
-                    "Vow not to reign and to starve to death unless picture‘s\r\noriginal is found.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M151.3. †M151.3. ", 
-                    "Vow not to take food or drink until manner of father’s\r\ndeath is learned.", 
-                    " Irish myth: Cross."
-                ], 
-                [
-                    "M151.4. †M151.4. ", 
-                    "Vow not to take food or drink until enemy is killed.", 
-                    " Irish myth: Cross; Jewish: Neuman."
-                ], 
-                [
-                    "M151.5. †M151.5. ", 
-                    "Vow not to eat or sleep until certain event is brought to pass.", 
-                    " Irish myth: Cross."
-                ], 
-                [
-                    "M151.5.1. †M151.5.1. ", 
-                    "Vow not to eat, drink, or move from position until dead\r\nanchorite comes himself to accept necklace.", 
-                    "\r\nIndia: Thompson-Balys."
-                ], 
-                [
-                    "M151.6. †M151.6. ", 
-                    "Vow not to eat or drink before knowing if king is alive.", 
-                    " Icelandic: Boberg."
-                ], 
-                [
-                    "M151.7. †M151.7. ", 
-                    "Heroine will not laugh till arrival of destined hero.", 
-                    " (Cf. †H341.) Irish myth:\r\nCross."
-                ], 
-                [
-                    "M151.8. †M151.8. ", 
-                    "Vow not to eat until lost son is found.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M151.9. †M151.9. ", 
-                    "Vow not to see friends until quest is completed.", 
-                    " English romance: Malory XI 12."
+                    "M216.2. †M216.2. ", 
+                    "The devil makes the herdsman’s son a priest in return for a\r\nwhistle.", 
+                    " After quarreling with the devil,\r\nwho asked to repair the whistle during Mass, the priest forgets all he learned\r\nand does not know how to hold Mass. Is beaten. Lithuanian: Balys Index No.\r\n3269, Legends Nos. 413f."
                 ]
             ]
         }, 
-        "150": {
+        "217": {
             "content": [
-                "M150. ", 
+                "M217. †M217. ", 
+                "Devil bargains to help man win woman.", 
+                " *Loomis White Magic 113;\r\nAlphabet No. 64; Spanish: Boggs FFC XC 66 No. 508A*, Keller; Italian Novella:\r\n*Rotunda. Cf. Cosquin Études 545ff. (sale of self to magician)."
+            ], 
+            "child": [
+                [
+                    "M217.1. †M217.1. ", 
+                    "Servant makes pact with devil denying Christ to secure\r\nnobleman’s daughter.", 
+                    " Spanish Exempla:\r\nKeller."
+                ]
+            ]
+        }, 
+        "214": {
+            "content": [
+                "M214. †M214. ", 
+                "Devil to help gambler in exchange for one task yearly.", 
+                " Spanish: Boggs FFC XC 55 No. 408A*."
+            ], 
+            "child": []
+        }, 
+        "215": {
+            "content": [
+                "M215. †M215. ", 
+                "With his whole heart: devil carries off judge.", 
+                " The devil refuses to take anything not offered him with\r\nthe whole heart. He hears the judge (advocate) cursed for fraud with such\r\nsincerity that he carries him off. *Type 1186; **Taylor PMLA XXXVI 35ff., also\r\nin Bryan and Dempster Sources and Analogues of Chaucer’s Canterbury Tales\r\n26974; *Herbert III 592; *Fb ”ridefoged“ III 53b; *Pauli (ed. Bolte) Nos. 81,\r\n807; *Robinson Complete Works of Geoffrey Chaucer (Cambridge, Mass., 1933) 809\r\n(Friar‘s Tale)."
+            ], 
+            "child": []
+        }, 
+        "212": {
+            "content": [
+                "M212. †M212. ", 
+                "Devil agrees to help man with robberies.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M212.1. †M212.1. ", 
+                    "Devil as helper of robber refuses to let women‘s ornaments\r\nbe stolen.", 
+                    " They are his own weapons. Pauli\r\n(ed. Bolte) No. 86."
+                ], 
+                [
+                    "M212.2. †M212.2. ", 
+                    "Devil at gallows repudiates his bargain with robber.", 
+                    " Ring turns to rope. The\r\njudge cannot find a rope and is about to release the thief because of the\r\nmiracle. But the ring in the box presented by the devil as a bribe turns out to\r\nbe a rope. The man is hanged. *Krappe Archivum Romanicum VII 470ff.; *Wesselski\r\nMärchen 244 No. 54; Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "213": {
+            "content": [
+                "M213. †M213. ", 
+                "Devil as substitute for day laborer at mowing.", 
+                " He mows with a magic sickle. The evil overseer tries to\r\nkeep up with him and dies of overexhaustion. Type 820."
+            ], 
+            "child": []
+        }, 
+        "210": {
+            "content": [
+                "M210. ", 
                 null, 
                 null
             ], 
             "child": []
         }, 
-        "152": {
+        "211": {
             "content": [
-                "M152. †M152. ", 
-                "Vow not to go to bed with wife till enemy is killed.", 
-                " Icelandic: Boberg."
+                "M211. †M211. ", 
+                "Man sells soul to devil.", 
+                "\r\n(Faust, Theophilus.) Types 330, 360, 361, 756B, 810, 812, 1170-1199; *BP II\r\n164, 427, 561ff., III 12; *Andrejev FFC LXIX 46, 50, 223, 227 n.; Lidzbarski Am\r\nUrds-Brunnen IV 59 n. 1; Scala Celi 9a, 112a, 135b Nos. 58, 625, 749; *Pauli\r\n(ed. Bolte) No. 667; *Fb ”sjæl“ III 215a; Faligan RTP V 1;\r\nAlphabet Nos. 50, 467; *Ludorff Anglia VII 60ff.; *Loomis White Magic 112f.;\r\n*K. Bittner Die Faustsage im russischen Schrifttum (Reichenberg. i. B. [Prager\r\nDeutsche Studien No. 37], 1925); *Krappe Bulletin Hispanique XXXIX\r\n34.--Lithuanian: Balys Index No. 3400, Legends No. 757; Spanish: Boggs FFC XC\r\n49, 67 Nos. 330, 510, Espinosa Jr. Nos. 70-74, 83f.; Italian Novella: Rotunda;\r\nArgentina: Jijena Sanchez 74; N. A. Indian (Wampanoag): Knight JAFL XXXVIII\r\n134, (Salinan): Mason U Cal X 196."
             ], 
             "child": [
                 [
-                    "M152.1. †M152.1. ", 
-                    "Vow not to kiss anybody until father is revenged.", 
-                    " Icelandic: Boberg."
+                    "M211.1. †M211.1. ", 
+                    "Man unwittingly sells soul to devil.", 
+                    " He jestingly offers to\r\nsell his soul. Devil in disguise buys it. *Pauli (ed. Bolte) No. 280;\r\n*Wesselski Märchen 245 No. 55."
                 ], 
                 [
-                    "M152.2. †M152.2. ", 
-                    "Vow not to sit on father‘s high-seat until he is revenged.", 
-                    " Icelandic: Boberg."
+                    "M211.1.1. †M211.1.1. ", 
+                    "Man goes to well at midnight on Old Christmas to see water\r\nturned into wine.", 
+                    " Just as it turns into wine\r\nthe devil takes him, or injures him. England, U.S.: *Baughman."
+                ], 
+                [
+                    "M211.2. †M211.2. ", 
+                    "Man sells soul to devil in return for devil‘s building\r\nhouse (barn, etc.).", 
+                    " Wünsche Teufel 29-56 passim."
+                ], 
+                [
+                    "M211.3. †M211.3. ", 
+                    "Man bequeaths soul to devil.", 
+                    " U.S.: Baughman; Italian Novella: Rotunda."
+                ], 
+                [
+                    "M211.4. †M211.4. ", 
+                    "Jews must repay devil’s help by giving tribute of persons\r\neach year.", 
+                    " Lithuanian: Balys Index No.\r\n1867D*."
+                ], 
+                [
+                    "M211.5. †M211.5. ", 
+                    "Formulas for selling one‘s soul to", 
+                    " devil. England: Baughman."
+                ], 
+                [
+                    "M211.6. †M211.6. ", 
+                    "Man sells soul to devil for visit home in boat that sails\r\nthrough sky.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "M211.7. †M211.7. ", 
+                    "Man sells soul to devil for magic power to escape capture.", 
+                    " Canada: Baughman."
+                ], 
+                [
+                    "M211.8. †M211.8. ", 
+                    "Man sells soul to devil for devil’s doing one specific job.", 
+                    " England, Wales: *Baughman."
+                ], 
+                [
+                    "M211.9. †M211.9. ", 
+                    "Person sells soul to devil in return for the granting of\r\nwishes.", 
+                    " England: Baughman."
                 ]
             ]
         }, 
-        "155": {
+        "218": {
             "content": [
-                "M155. †M155. ", 
-                "Vow to perform act of prowess.", 
+                "M218. †M218. ", 
+                "Contract with the devil destroyed.", 
+                " Dh I 140; Alphabet Nos. 64, 467; Irish: Beal XXI 311,\r\nO‘Suilleabhain 33."
+            ], 
+            "child": [
+                [
+                    "M218.1. †M218.1. ", 
+                    "Pacts with the devil, sealed in blood, made ineffective by\r\na saint.", 
+                    " *Loomis White Magic 75."
+                ]
+            ]
+        }, 
+        "219": {
+            "content": [
+                "M219. †M219. ", 
+                "Other devil contract motifs.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M219.1. †M219.1. ", 
+                    "Bargain with the devil for an heir.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "M219.2. †M219.2. ", 
+                    "Devil fetches man contracted to him.", 
+                    null
+                ], 
+                [
+                    "M219.2.1. †M219.2.1. ", 
+                    "Devil appears in great storm, takes away soul of person\r\ncontracted to him.", 
+                    " (Cf. †D2141.0.4, †D2141.0.5, †Q550.1.) England, U.S.: *Baughman."
+                ], 
+                [
+                    "M219.2.2. †M219.2.2. ", 
+                    "Devil flays corpse of person contracted to him.", 
+                    " (Cf. †Q457.2.) England:\r\nBaughman."
+                ], 
+                [
+                    "M219.2.3. †M219.2.3. ", 
+                    "Man contracted to the devil responds to call by voice: ”The\r\nhour has come but not the man.“", 
+                    " England,\r\nScotland: *Baughman."
+                ], 
+                [
+                    "M219.2.4. †M219.2.4. ", 
+                    "Devil carries off hunt-loving priest.", 
+                    " (Cf. †G303.17.2.4.)\r\nEngland: *Baughman."
+                ], 
+                [
+                    "M219.2.5. †M219.2.5. ", 
+                    "Body of devil’s disciple is removed from coffin by devil.", 
+                    " England, U.S.: *Baughman."
+                ], 
+                [
+                    "M219.2.6. †M219.2.6. ", 
+                    "Devil puts body of convert on a sea monster which takes it\r\naway.", 
+                    " U.S.: Baughman."
+                ], 
+                [
+                    "M219.3. †M219.3. ", 
+                    "Familiars guard and protect those who have pact with the\r\ndevil.", 
+                    " Argentina: Jijena Sanchez 80."
+                ], 
+                [
+                    "M219.4. †M219.4. ", 
+                    "Familiar devours whoever does not keep pact with devil.", 
+                    " Argentina: Jijena Sanchez 82."
+                ]
+            ]
+        }, 
+        "271": {
+            "content": [
+                "M271. †M271. ", 
+                "Sons agree to meet at father’s grave after they have been\r\nout in world for one year to learn trade.", 
+                "\r\nChinese: Graham."
+            ], 
+            "child": []
+        }, 
+        "258": {
+            "content": [
+                "M258. †M258. ", 
+                "Promise to dying man sacred.", 
                 " Icelandic: *Boberg."
             ], 
             "child": [
                 [
-                    "M155.1. †M155.1. ", 
-                    "Vow to kill wild boar alone at night.", 
-                    " Wells 64 (The Avowynge of King Arthur, etc.)."
+                    "M258.1. †M258.1. ", 
+                    "Promise to dying father leads to adventures.", 
+                    " Type 884; *BP II 56ff."
                 ], 
                 [
-                    "M155.2. †M155.2. ", 
-                    "Vow to find vanished sister.", 
-                    " Icelandic: *Boberg."
+                    "M258.2. †M258.2. ", 
+                    "Promise to dying father not to wed woman of certain tribe.", 
+                    " Jewish: *Neuman."
                 ], 
                 [
-                    "M155.3. †M155.3. ", 
-                    "Vow never to flee from fire or weapon.", 
-                    " Icelandic: Boberg."
+                    "M258.3. †M258.3. ", 
+                    "Promise to dying father to bury him in his homeland.", 
+                    " Jewish: *Neuman."
                 ]
             ]
         }, 
-        "113": {
+        "235": {
             "content": [
-                "M113. †M113. ", 
-                "Oath taken on arms.", 
-                "\r\nIrish myth: *Cross."
+                "M235. †M235. ", 
+                "Bargain: woman rides naked through streets to obtain\r\nfreedom for citizens.", 
+                " Godiva. Liebrecht\r\n104; Hartland FL I 207."
+            ], 
+            "child": []
+        }, 
+        "252": {
+            "content": [
+                "M252. †M252. ", 
+                "Promise of dying man to bring news of other world.", 
+                " (Or two friends agree that the first to die shall bring\r\nnews.) *Type 470; Swiss: Jegerlehner Oberwallis 305 No. 6, 323 Nos. 112, 113,\r\n329 Nos. 31, 33; Irish: Beal XXI 331f., O‘Suilleabhain 99--102, *Cross; Jewish:\r\nbin Gorion Born Judas VI 123, 311."
+            ], 
+            "child": []
+        }, 
+        "253": {
+            "content": [
+                "M253. †M253. ", 
+                "Friends in life and death.", 
+                " In pursuance of the pledge, the living follows the other\r\nto the world of the dead. *Type 470; Pauli (ed. Bolte) No. 561; **MacKay The\r\nDouble Invitation; Jewish Neuman."
+            ], 
+            "child": []
+        }, 
+        "236": {
+            "content": [
+                "M236. †M236. ", 
+                "Peace bought for husband.", 
+                " Icelandic: MacCulloch Eddic 103, *Boberg."
+            ], 
+            "child": []
+        }, 
+        "251": {
+            "content": [
+                "M251. †M251. ", 
+                "Dying man‘s promise will be kept.", 
+                " Fb ”love“ II 452a."
+            ], 
+            "child": []
+        }, 
+        "256": {
+            "content": [
+                "M256. †M256. ", 
+                "Promise to dying man broken.", 
+                null
             ], 
             "child": [
                 [
-                    "M113.1. †M113.1. ", 
-                    "Oath taken on sword.", 
-                    "\r\nScottish: Campbell-McKay No. 20; Icelandic: Herrmann Saxo II 197; Jewish:\r\nNeuman."
+                    "M256.1. †M256.1. ", 
+                    "Sons break promise to have masses for father’s soul.", 
+                    " ”If he is in Hell it will do him no good; if he is in\r\nHeaven he won‘t need it; and if he is in Purgatory he can purge himself.“\r\nItalian Novella: Rotunda."
                 ]
             ]
         }, 
-        "157": {
+        "257": {
             "content": [
-                "M157. †M157. ", 
-                "Vow to ride the forest all night and slay all comers.", 
-                " Wells 64 (The Avowynge of King Arthur, etc.)."
-            ], 
-            "child": []
-        }, 
-        "156": {
-            "content": [
-                "M156. †M156. ", 
-                "Vow to watch at frightful place all night.", 
-                " Wells 64 (The Avowynge of King Arthur)."
-            ], 
-            "child": []
-        }, 
-        "158": {
-            "content": [
-                "M158. †M158. ", 
-                "Vow never to refuse food to any man.", 
-                " Wells 64 (The Avowynge of King Arthur); Icelandic: Boberg."
-            ], 
-            "child": []
-        }, 
-        "112": {
-            "content": [
-                "M112. †M112. ", 
-                "Oath taken on ring.", 
-                "\r\nHdwb. d. Abergl. II 67; Brumer Deutsche Rechtsgeschichte I 258; Icelandic:\r\n*Boberg."
-            ], 
-            "child": []
-        }, 
-        "193": {
-            "content": [
-                "M193. †M193. ", 
-                "Vow to destroy kingdom by austerities.", 
-                " India: Thompson-Balys."
-            ], 
-            "child": []
-        }, 
-        "192": {
-            "content": [
-                "M192. †M192. ", 
-                "Vow to put to death every king that comes his way unless\r\nengaged in marrying a lady at the time he sees them.", 
-                " India: Thompson-Balys."
-            ], 
-            "child": []
-        }, 
-        "133": {
-            "content": [
-                "M133. †M133. ", 
-                "Vow: man will love only a virgin.", 
-                " Malone PMLA XLIII 427."
-            ], 
-            "child": []
-        }, 
-        "114": {
-            "content": [
-                "M114. †M114. ", 
-                "Oath taken on sacred object.", 
-                " Jewish: Neuman; Icelandic: *Boberg."
+                "M257. †M257. ", 
+                "Dying monster’s request and promise.", 
+                " Hero is to drink his\r\nblood, suck his eyes and brains, and give his heart to his loved one to eat. He\r\nwill become marvelously strong and his wife will have three sons and four\r\ndaughters with great powers. Köhler-Bolte I 117; Gascon: Bladé I 3, 181; India:\r\nThompson-Balys."
             ], 
             "child": [
                 [
-                    "M114.1. †M114.1. ", 
-                    "Oath on sacred book.", 
-                    null
+                    "M257.1. †M257.1. ", 
+                    "Dying hero‘s request and promise to disciples.", 
+                    " India: Thompson-Balys."
                 ], 
                 [
-                    "M114.1.1. †M114.1.1. ", 
-                    "Oath by Tora.", 
-                    " Jewish:\r\n*Neuman."
-                ], 
-                [
-                    "M114.2. †M114.2. ", 
-                    "Oath taken on holy stone.", 
-                    " (Cf. †M119.5.) Icelandic: Boberg."
-                ], 
-                [
-                    "M114.3. †M114.3. ", 
-                    "Vows taken on holy swine.", 
-                    " Icelandic: Boberg."
-                ], 
-                [
-                    "M114.4. †M114.4. ", 
-                    "Swearing on sacred relics.", 
-                    " Irish myth: *Cross."
-                ], 
-                [
-                    "M114.5. †M114.5. ", 
-                    "Taking oath on cowdung.", 
-                    "\r\nIndia: Thompson-Balys."
-                ], 
-                [
-                    "M114.6. †M114.6. ", 
-                    "Oath by touching sacred thread.", 
+                    "M257.2. †M257.2. ", 
+                    "Murdered person’s request and promise.", 
                     " India: Thompson-Balys."
                 ]
             ]
         }, 
-        "117": {
+        "254": {
             "content": [
-                "M117. †M117. ", 
-                "Vow to perform certain act unless cataclysm occurs.", 
-                " Irish myth: *Cross."
+                "M254. †M254. ", 
+                "Promise to be buried with wife if she dies first.", 
+                " *Type 612; *BP I 128."
             ], 
             "child": []
         }, 
-        "116": {
+        "255": {
             "content": [
-                "M116. †M116. ", 
-                "Oath taken on hand of saint.", 
-                " Irish myth: Cross."
+                "M255. †M255. ", 
+                "Deathbed promise concerning the second wife.", 
+                " Promises his dying wife\r\nthat he will not marry unless the bride meets the specifications the dying wife\r\nimposes. *Type 510B; *Cox 53--79 passim; De Vries Studien over Færösche\r\nBalladen 133; Icelandic: Boberg; Danish: Grundtvig No. 135."
+            ], 
+            "child": []
+        }, 
+        "234": {
+            "content": [
+                "M234. †M234. ", 
+                "Life spared in return for life-long service.", 
+                " Irish myth: *Cross."
             ], 
             "child": [
                 [
-                    "M116.0.1. †M116.0.1. ", 
-                    "Swearing on hand of king.", 
-                    " Irish myth: Cross."
+                    "M234.1. †M234.1. ", 
+                    "Life spared in return for poetic mead.", 
+                    " Icelandic: MacCulloch Eddic 53."
                 ], 
                 [
-                    "M116.1. †M116.1. ", 
-                    "Swearing by saint‘s bachall.", 
-                    " Irish myth: Cross."
+                    "M234.2. †M234.2. ", 
+                    "Life spared for bringing a dreaded enemy without weapon.", 
+                    " Icelandic: MacCulloch Eddic 83 f. (Thor and Loki)."
                 ], 
                 [
-                    "M116.2. †M116.2. ", 
-                    "Swearing by saint’s bell.", 
-                    " Irish myth: Cross."
+                    "M234.3. †M234.3. ", 
+                    "Life bought for gold.", 
+                    "\r\nIcelandic: Boberg."
+                ], 
+                [
+                    "M234.4. †M234.4. ", 
+                    "Life bought with promise of reparations and healing of\r\nenemy.", 
+                    " Icelandic: Boberg."
                 ]
             ]
         }, 
-        "137": {
+        "237": {
             "content": [
-                "M137. †M137. ", 
-                "Vow never to be jealous of one’s wife.", 
-                " Wells 64 (The Avowynge of King Arthur, etc.); Irish myth:\r\n*Cross."
+                "M237. †M237. ", 
+                "Bargain to save face.", 
+                "\r\nIrish myth: Cross."
             ], 
             "child": [
                 [
-                    "M137.1. †M137.1. ", 
-                    "Woman requires husband free from jealousy.", 
+                    "M237.1. †M237.1. ", 
+                    "Opponents agree not to fight and are thus undefeated.", 
                     " Irish myth: *Cross."
                 ]
             ]
         }, 
-        "136": {
+        "231": {
             "content": [
-                "M136. †M136. ", 
-                "Vow not to marry till iron shoes wear out.", 
-                " Köhler-Bolte Zs. f.\r\nVksk. VI 71 (to Gonzenbach No. 32); *Roberts 137."
+                "M231. †M231. ", 
+                "Free keep in inn exchanged for good story.", 
+                " *Fb ”kro“ II 303a."
             ], 
             "child": []
         }, 
-        "135": {
+        "232": {
             "content": [
-                "M135. †M135. ", 
-                "Vow never to remarry.", 
-                "\r\nIrish myth: *Cross; India: *Thompson-Balys."
+                "M232. †M232. ", 
+                "Prince to give up life in exchange for learning a secret.", 
+                " Malone PMLA XLIII 405, 413."
             ], 
             "child": []
         }, 
-        "134": {
+        "250": {
             "content": [
-                "M134. †M134. ", 
-                "Prince vows to marry no woman unless he can beat her daily.", 
+                "M250. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "233": {
+            "content": [
+                "M233. †M233. ", 
+                "Three deformed witches invited to wedding in exchange for\r\nhelp.", 
+                "\r\n*Type 501; BP I 109; **Von Sydow Två Spinnsagor."
+            ], 
+            "child": []
+        }, 
+        "201": {
+            "content": [
+                "M201. †M201. ", 
+                "Making of bargains and promises.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M201.0.1. †M201.0.1. ", 
+                    "Bargain with God (by holy man).", 
+                    " Irish myth: Cross; Jewish: *Neuman."
+                ], 
+                [
+                    "M201.0.1.1. †M201.0.1.1. ", 
+                    "Covenant between Israel and God.", 
+                    " Jewish: *Neuman."
+                ], 
+                [
+                    "M201.0.2. †M201.0.2. ", 
+                    "Covenant between heathen and Israelites.", 
+                    " Jewish: Neuman."
+                ], 
+                [
+                    "M201.1. †M201.1. ", 
+                    "Blood covenant.", 
+                    "\r\nContract written (or signed) with blood. Hdwb. d. Abergl. II 272ff., 1026;\r\n*Wilken Verspreide Geschriften I 539ff.; *W. Robertson Smith Religion of the\r\nSemites@3 270ff.; *Penzer I 98 n.; *Fb ”skrive“; ”blod“ IV 47b; ** H. C.\r\nTurmbull The Blood Covenant (London, 1887). -- Breton: Sébillot Incidents s.v. ”sang“, ”pacte“; Jewish: *Neuman; India: Thompson-Balys."
+                ], 
+                [
+                    "M201.1.1. †M201.1.1. ", 
+                    "Blood of contractors mixed to seal bargain.", 
+                    " Irish myth: *Cross; Africa (Ekoi): Talbot 268."
+                ], 
+                [
+                    "M201.1.2. †M201.1.2. ", 
+                    "Pact with devil signed in blood.", 
+                    " (Theophilus.) (Cf.\r\n†M211.) Type 756B; *Andrejev FFC LXIX 64; Scala Celi 9a, 135b Nos 58, 749;\r\nWünsche Teufel 55f.; England, U.S.: Baughman; Irish: Beal XXI 310 --312, O‘Suilleabhain 33f.; Spanish Exempla: Keller; Argentina:\r\nJijena Sanchez 80."
+                ], 
+                [
+                    "M201.2. †M201.2. ", 
+                    "Covenant confirmed by eating together.", 
+                    " Hdwb. d. Abergl. II 272ff.; U.S.: Baughman; Africa (Fang):\r\nNassau 242 No. 9."
+                ], 
+                [
+                    "M201.3. †M201.3. ", 
+                    "Spitting of all parties into vessel to seal bargain.", 
+                    " Icelandic: MacCulloch Eddic 53; England: Baughman."
+                ], 
+                [
+                    "M201.4. †M201.4. ", 
+                    "Covenant between saints confirmed by cutting off their\r\nthumbs.", 
+                    " Irish myth: Cross."
+                ], 
+                [
+                    "M201.5. †M201.5. ", 
+                    "Covenant confirmed by marriage.", 
+                    " Icelandic: *Boberg."
+                ], 
+                [
+                    "M201.6. †M201.6. ", 
+                    "Covenant confirmed by hostages.", 
+                    " Icelandic: *Boberg."
+                ]
+            ]
+        }, 
+        "200": {
+            "content": [
+                "M200. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "203": {
+            "content": [
+                "M203. †M203. ", 
+                "King‘s promise irrevocable.", 
+                " Basil Pentamerone I No.\r\n5; Irish myth: *Cross; Missouri French: Carrière; Spanish Exempla: Keller;\r\nIndia: Thompson-Balys; West Indies: Flowers 560."
+            ], 
+            "child": [
+                [
+                    "M203.1. †M203.1. ", 
+                    "King punishes one of his men who robs someone to whom the\r\nking has given safe conduct.", 
+                    " Spanish\r\nExempla: Keller."
+                ], 
+                [
+                    "M203.2. †M203.2. ", 
+                    "King kills self to carry out own promise.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M203.3. †M203.3. ", 
+                    "King sells self and family into slavery to keep promise.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "202": {
+            "content": [
+                "M202. †M202. ", 
+                "Fulfilling of bargain or promise.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M202.0.1. †M202.0.1. ", 
+                    "Bargain or promise to be fulfilled at all hazards.", 
+                    " English romance: Malory VIII 30; Irish myth: *Cross."
+                ], 
+                [
+                    "M202.1. †M202.1. ", 
+                    "Promise to be fulfilled when iron shoes wear out.", 
+                    " *Cox Cinderella 508."
+                ], 
+                [
+                    "M202.1. †M202.1. ", 
+                    "Prisoner would be set free only after he has used up a pair\r\nof harmed shoes.", 
+                    " Krappe Philological\r\nQuarterly XI (1932) 87f."
+                ], 
+                [
+                    "M202.2. †M202.2. ", 
+                    "Man keeps word to return to enemy if his mission to his\r\npeople fails.", 
+                    " Spanish Exempla: Keller."
+                ]
+            ]
+        }, 
+        "205": {
+            "content": [
+                "M205. †M205. ", 
+                "Breaking of bargains or promises.", 
+                " India: Thompson-Balys; West Indies: Flowers 561."
+            ], 
+            "child": [
+                [
+                    "M205.0.1. †M205.0.1. ", 
+                    "Promise kept in deed but not in spirit.", 
+                    " English romance: Malory X 38."
+                ], 
+                [
+                    "M205.1. †M205.1. ", 
+                    "Animal punishes broken promise.", 
+                    null
+                ], 
+                [
+                    "M205.1.1. †M205.1.1. ", 
+                    "Turtle carrying man through water upsets him because of a\r\nbroken promise.", 
+                    " Chinese: Werner 367."
+                ], 
+                [
+                    "M205.1.1.1. †M205.1.1.1. ", 
+                    "Fish (whale) carrying man through water shakes him off when\r\nman strikes him with coconut.", 
+                    " Tahiti:\r\nBeckwith Myth 252; Tuamotu: Stimson MS (T-G. 3/600)."
+                ], 
+                [
+                    "M205.1.2. †M205.1.2. ", 
+                    "Cat witness to betrothal punishes violator.", 
+                    " Kills the man’s son when he has married a different woman.\r\nHebrew: *bin Gorion Born Judas@2 I 368."
+                ], 
+                [
+                    "M205.2. †M205.2. ", 
+                    "Curse as punishment for broken promise.", 
+                    " Irish myth: *Cross."
+                ], 
+                [
+                    "M205.3. †M205.3. ", 
+                    "A man who breaks his oath to a woman cannot be king with\r\nright.", 
+                    " Icelandic: Boberg."
+                ], 
+                [
+                    "M205.4. †M205.4. ", 
+                    "King breaks promise to care for man‘s family.", 
+                    " Is caught trying to steal his money. India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "204": {
+            "content": [
+                "M204. †M204. ", 
+                "Demanding of promised boon postponed.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M204.1. †M204.1. ", 
+                    "Demanding of promised boon postponed until an auspicious\r\nmoment.", 
+                    " Granted anything he may ask, the\r\nrecipient waits to announce his choice. English romance: Malory VIII 15; India:\r\nThompson-Balys."
+                ]
+            ]
+        }, 
+        "207": {
+            "content": [
+                "M207. †M207. ", 
+                "Land grants (bargains).", 
+                "\r\nIrish myth: *Cross."
+            ], 
+            "child": []
+        }, 
+        "206": {
+            "content": [
+                "M206. †M206. ", 
+                "Promise made merely as a matter of form not binding.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M206.1. †M206.1. ", 
+                    "Host offers to send his guest a cask of the wine he has\r\npraised.", 
+                    " Later refuses to send it as it\r\nwas merely a ”verba honoris“. Pauli (ed. Bolte) No. 308."
+                ]
+            ]
+        }, 
+        "208": {
+            "content": [
+                "M208. †M208. ", 
+                "Price set on one’s head.", 
+                "\r\nIcelandic: *Boberg."
+            ], 
+            "child": []
+        }, 
+        "263": {
+            "content": [
+                "M263. †M263. ", 
+                "Retreat in return for cessation of attack.", 
+                " Host agrees to march back a day‘s journey if warrior will\r\ncease his feats of arms upon them until a certain battle in the future. Irish\r\nmyth: Cross."
+            ], 
+            "child": []
+        }, 
+        "244": {
+            "content": [
+                "M244. †M244. ", 
+                "Bargains between men and animals.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M244.1. †M244.1. ", 
+                    "Bargain with king of mice.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M244.2. †M244.2. ", 
+                    "Captured bird promises to deliver fifteen birds in exchange\r\nfor freedom.", 
+                    " Africa (Cameroon): Lederbogen\r\n73."
+                ]
+            ]
+        }, 
+        "261": {
+            "content": [
+                "M261. †M261. ", 
+                "Chaste woman promises herself to her lover when the rocks\r\nleave the coast. (They are moved by magic.)", 
+                "\r\nRobinson Complete Works of Geoffrey Chaucer (Cambridge, Mass., 1933) 826\r\n(Franklin‘s Tale); **Dempster and Tatlock in Bryan and Dempster Sources and\r\nAnalogues of Chaucer’s Canterbury Tales 333--56; Irish myth: Cross; cf. Type\r\n976."
+            ], 
+            "child": [
+                [
+                    "M261.1. †M261.1. ", 
+                    "Chaste woman promises herself to her lover when he can make\r\na garden bloom in winter.", 
+                    " (Cf. †H352.) Italian Novella: Rotunda."
+                ], 
+                [
+                    "M261.1.1. †M261.1.1. ", 
+                    "Raja to marry girl when cut mango branch blooms.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M261.2. †M261.2. ", 
+                    "Princess promises to embrace her teacher on her wedding\r\nday.", 
+                    " Teacher has only been testing her\r\npromise. India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "260": {
+            "content": [
+                "M260. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "267": {
+            "content": [
+                "M267. †M267. ", 
+                "Promise to give another one’s wife for a day.", 
                 " India: *Thompson-Balys."
             ], 
             "child": []
         }, 
-        "177": {
+        "266": {
             "content": [
-                "M177. †M177. ", 
-                "Vow to change religion.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M177.1. †M177.1. ", 
-                    "Vow to become a Christian.", 
-                    null
-                ], 
-                [
-                    "M177.1.1. †M177.1.1. ", 
-                    "King swears to become Christian if he wins battle.", 
-                    " Spanish Exempla: Keller."
-                ], 
-                [
-                    "M177.1.2. †M177.1.2. ", 
-                    "Oath not to be christened until he has fought in seven\r\nbattles for Jesus.", 
-                    " English romance: Malory\r\nX 47."
-                ], 
-                [
-                    "M177.2. †M177.2. ", 
-                    "Prince vows that he will always be servant of a goddess\r\n(Kali).", 
-                    " India: Thompson-Balys."
-                ]
-            ]
-        }, 
-        "175": {
-            "content": [
-                "M175. †M175. ", 
-                "Pledge to say but a single phrase.", 
-                " In carrying out this\r\nagreement the men innocently confess a crime. *Types 360, 1697; BP II 561ff.;\r\nWesselski Mönchslatein 37 No. 44; India: *Thompson-Balys."
+                "M266. †M266. ", 
+                "Man promises to build church if he is saved at sea.", 
+                " Danish: Kristensen Danske Sagn III (1895) 145ff., (1931)\r\n107ff.; Estonian: Aarne FFC XXV 134 No. 85; Italian Novella: Rotunda; West\r\nIndies: Flowers 562."
             ], 
             "child": []
         }, 
-        "138": {
+        "242": {
             "content": [
-                "M138. †M138. ", 
-                "Vow to marry first person performing certain act.", 
-                " India: Thompson-Balys."
+                "M242. †M242. ", 
+                "Bargains and promises between mortals and supernatural\r\nbeings.", 
+                "\r\n(Cf. †M221, †M222, †M223.) Irish myth: *Cross."
             ], 
             "child": [
                 [
-                    "M138.1. †M138.1. ", 
-                    "Vow to marry off two daughters to first two men father\r\nlooks at on the following morning.", 
-                    " India:\r\nThompson-Balys."
-                ]
-            ]
-        }, 
-        "119": {
-            "content": [
-                "M119. †M119. ", 
-                "Taking of vows and oaths--miscellaneous.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M119.1. †M119.1. ", 
-                    "Swearing by the elements: sun, moon, stars, wind.", 
-                    " Irish myth: *Cross; Greek: Argonautica III 689, Odyssey V\r\n185."
-                ], 
-                [
-                    "M119.1.1. †M119.1.1. ", 
-                    "Oath by River Styx.", 
-                    "\r\nGreek: Grote I 56f."
-                ], 
-                [
-                    "M119.2. †M119.2. ", 
-                    "Swearing by (clan) gods.", 
-                    "\r\nIrish myth: *Cross."
-                ], 
-                [
-                    "M119.3. †M119.3. ", 
-                    "Vows taken as an old Norse custom at the festival of Yule.", 
-                    " Icelandic: Cleasby and\r\nVigfússon Icel.-- Eng. Dict. (1874) 853 s.v. ”heitstrenging“;\r\nLagerholm 18, *Boberg."
-                ], 
-                [
-                    "M119.4. †M119.4. ", 
-                    "Vows taken by placing one‘s foot on a certain post in the\r\nhall.", 
-                    " Icelandic: *Boberg."
-                ], 
-                [
-                    "M119.5. †M119.5. ", 
-                    "Swearing on a stone.", 
-                    " (Cf. †M114.2.) Irish myth: Cross."
-                ], 
-                [
-                    "M119.6. †M119.6. ", 
-                    "Swearing by ”the Seven Things which they serve.“", 
+                    "M242.1. †M242.1. ", 
+                    "Mortal fosters fairy child to prevent destruction of crops.", 
                     " Irish myth: *Cross."
                 ], 
                 [
-                    "M119.7. †M119.7. ", 
-                    "Oath by placing hand on genitals.", 
-                    " Irish myth: Cross; Jewish: *Neuman."
-                ], 
-                [
-                    "M119.8. †M119.8. ", 
-                    "Oath taken by the life of a person.", 
-                    " Jewish: Neuman."
-                ], 
-                [
-                    "M119.8.1. †M119.8.1. ", 
-                    "Swearing by one’s father and mother.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M119.8.2. †M119.8.2. ", 
-                    "Swearing by life of father.", 
-                    " Jewish: *Neuman."
-                ]
-            ]
-        }, 
-        "118": {
-            "content": [
-                "M118. †M118. ", 
-                "Swearing on a skull.", 
-                "\r\nIrish myth: Cross."
-            ], 
-            "child": []
-        }, 
-        "171": {
-            "content": [
-                "M171. †M171. ", 
-                "Vow never to accept a man who does not know any sport.", 
-                " Icelandic: Boberg."
-            ], 
-            "child": []
-        }, 
-        "167": {
-            "content": [
-                "M167. †M167. ", 
-                "Vow to serve only the most generous of all kings.", 
-                " Icelandic: *Boberg."
-            ], 
-            "child": []
-        }, 
-        "172": {
-            "content": [
-                "M172. †M172. ", 
-                "Vow not to touch certain thing.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M172.1. †M172.1. ", 
-                    "Vow never to touch money and to give what anyone begs for.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M172.2. †M172.2. ", 
-                    "Vow not to touch certain tree.", 
-                    " Later cannot cross bridge made of this wood. India:\r\nThompson-Balys."
-                ]
-            ]
-        }, 
-        "182": {
-            "content": [
-                "M182. †M182. ", 
-                "Vow not to enter any house before reaching one’s own.", 
-                " Icelandic: Boberg."
-            ], 
-            "child": []
-        }, 
-        "183": {
-            "content": [
-                "M183. †M183. ", 
-                "Religious vows.", 
-                " (Cf. †M177.)"
-            ], 
-            "child": [
-                [
-                    "M183.1. †M183.1. ", 
-                    "Vow to build shrine.", 
+                    "M242.2. †M242.2. ", 
+                    "Contract between hungry god and untouchable: to give gods\r\nfood it they will eat from his hands.", 
                     "\r\nIndia: Thompson-Balys."
                 ], 
                 [
-                    "M183.2. †M183.2. ", 
-                    "Vow to bathe in the Ganges.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M183.3. †M183.3. ", 
-                    "Vow to find Holy Grail before returning to Round Table.", 
-                    " English romance: Malory XIII 7."
-                ], 
-                [
-                    "M183.4. †M183.4. ", 
-                    "Vow to become monk should he escape execution.", 
-                    " Buddhist myth: Malalasekera II 817."
+                    "M242.3. †M242.3. ", 
+                    "Ogre released in return for his magic girdle.", 
+                    " Tuamotu: Stimson MS (Z-G. 13/152, 221, 1314)."
                 ]
             ]
         }, 
-        "186": {
+        "226": {
             "content": [
-                "M186. †M186. ", 
-                "Vow never to pass over demarcation line into other’s\r\nproperty.", 
-                " Jewish: *Neuman."
+                "M226. †M226. ", 
+                "In return for magic shirt from girl hero is to stay in\r\nIreland for three years.", 
+                " In return he\r\nclaims her as wife. Icelandic: Boberg."
             ], 
             "child": []
         }, 
-        "187": {
+        "225": {
             "content": [
-                "M187. †M187. ", 
-                "Oath to abide by results of lot drawing.", 
-                " Jewish: *Neuman."
-            ], 
-            "child": []
-        }, 
-        "184": {
-            "content": [
-                "M184. †M184. ", 
-                "Vow if queen bears another girl she and child will both be\r\nkilled.", 
-                " India: Thompson-Balys."
+                "M225. †M225. ", 
+                "Eyes exchanged for food.", 
+                "\r\nA starving man lets himself be blinded in return for food. *Type 613; *BP II\r\n468ff.; **Christiansen FFC XXIV 46, 54; *Fb ”øje“ III 1166b; Missouri\r\nFrench: Carrière; India: Thompson-Balys."
             ], 
             "child": [
                 [
-                    "M184.1. †M184.1. ", 
-                    "Vow that no daughter born to chief‘s wife will be allowed\r\nto live until she bears a son.", 
-                    " Hawaii:\r\nBeckwith Myth 526."
-                ]
-            ]
-        }, 
-        "185": {
-            "content": [
-                "M185. †M185. ", 
-                "Vow to abide by laws.", 
-                "\r\nJewish: *Neuman."
-            ], 
-            "child": []
-        }, 
-        "188": {
-            "content": [
-                "M188. †M188. ", 
-                "Oath not to mention what has been seen.", 
-                " Jewish: *Neuman."
-            ], 
-            "child": []
-        }, 
-        "105": {
-            "content": [
-                "M105. †M105. ", 
-                "Equivocal oaths.", 
-                " Icelandic:\r\nBoberg."
-            ], 
-            "child": []
-        }, 
-        "146": {
-            "content": [
-                "M146. †M146. ", 
-                "Vow to marry a certain woman.", 
-                " Icelandic: *Boberg."
-            ], 
-            "child": [
-                [
-                    "M146.1. †M146.1. ", 
-                    "Vow to marry queen of fairies and not to eat or drink\r\ninside kingdom until this is done.", 
-                    " India:\r\nThompson-Balys."
-                ], 
-                [
-                    "M146.2. †M146.2. ", 
-                    "Boy vows to marry none but girl born under the same\r\ncircumstances as he.", 
-                    " India:\r\nThompson-Balys."
-                ], 
-                [
-                    "M146.3. †M146.3. ", 
-                    "Vow that magically conceived children shall marry (or be\r\nfriends).", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M146.4. †M146.4. ", 
-                    "Brother and sister arrange marriage of their unborn\r\nchildren to each other.", 
-                    " India:\r\nThompson-Balys."
-                ], 
-                [
-                    "M146.5. †M146.5. ", 
-                    "Vow to marry none but daughter of certain man.", 
-                    " Jewish: *Neuman."
-                ], 
-                [
-                    "M146.7. †M146.7. ", 
-                    "Vow of enemy chief to marry princess of besieged city.", 
-                    " Jewish: Neuman."
-                ]
-            ]
-        }, 
-        "145": {
-            "content": [
-                "M145. †M145. ", 
-                "Vow to wed no man who cannot perform certain feat.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M145.1. †M145.1. ", 
-                    "Vow to wed no man who fears to saddle and mount a lion.", 
+                    "M225.1. †M225.1. ", 
+                    "Horse, clothes, and members of rider‘s body exchanged for\r\nfood.", 
                     " India: Thompson-Balys."
                 ]
             ]
         }, 
-        "142": {
+        "268": {
             "content": [
-                "M142. †M142. ", 
-                "Vow never to carry a woman.", 
-                " Irish myth: Cross."
+                "M268. †M268. ", 
+                "Marriage promised to save life.", 
+                " India: *Thompson-Balys."
             ], 
             "child": []
         }, 
-        "141": {
+        "223": {
             "content": [
-                "M141. †M141. ", 
-                "Vow never to strive against a woman.", 
-                " Irish myth: Cross."
-            ], 
-            "child": []
-        }, 
-        "100": {
-            "content": [
-                "M100. ", 
-                null, 
-                null
-            ], 
-            "child": []
-        }, 
-        "149": {
-            "content": [
-                "M149. †M149. ", 
-                "Vows concerning sex--miscellaneous.", 
-                null
+                "M223. †M223. ", 
+                "Blind promise (rash boon).", 
+                " Person grants wish before hearing it. English romance:\r\nMalory X 22; Irish myth: *Cross."
             ], 
             "child": [
                 [
-                    "M149.1. †M149.1. ", 
-                    "Lovers vow to marry only each other.", 
-                    " Icelandic: *Boberg."
-                ], 
-                [
-                    "M149.2. †M149.2. ", 
-                    "Vow to die rather than marry unwelcome suitor.", 
-                    " Icelandic: *Boberg."
-                ], 
-                [
-                    "M149.3. †M149.3. ", 
-                    "Vow to kill more successful rival.", 
-                    " Icelandic: *Boberg."
-                ], 
-                [
-                    "M149.4. †M149.4. ", 
-                    "Quarreling prince and princess vow that if they are married\r\nhe will desert her on the wedding day and she will make him eat boiled rice and\r\nthin broth for six months.", 
-                    " It so happens.\r\nIndia: Thompson-Balys."
-                ], 
-                [
-                    "M149.5. †M149.5. ", 
-                    "Oath to marry daughters only into family with bridegroom\r\nfor each daughter.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M149.6. †M149.6. ", 
-                    "Vow to get stubborn girl half-married only.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M149.7. †M149.7. ", 
-                    "Vow only to marry daughter to the man who kills snake by\r\nher house.", 
-                    " Icelandic: *Boberg."
-                ]
-            ]
-        }, 
-        "120": {
-            "content": [
-                "M120. ", 
-                null, 
-                null
-            ], 
-            "child": []
-        }, 
-        "121": {
-            "content": [
-                "M121. †M121. ", 
-                "Vow not to shave or cut hair until a certain time.", 
-                " *BP II 431ff.; A. Bugge ”Harald Haarfagres løfte“ Edda VII 166; Helm Altgermanische Religionsgeschichte I\r\n301; Eitrem Opferritus und Voropfer (Skrifter Vidensk. Selsk. i Oslo No. 1,\r\n1914) 400; Frazer Golden Bough III 194; Kruyt Het Animisme 33; FFC LXXXIII\r\nxxiv. -- Irish: O‘Suilleabhain 24, 45, Beal XXI 307, 316; Icelandic: *Boberg;\r\nSwiss: Jegerlehner Oberwallis 308 No. 39; Spanish: Boggs FFC XC 53 No. 400B*;\r\nGreek: Roscher Lexikon s.v. ”Achilleus“; Jewish: *Neuman."
-            ], 
-            "child": []
-        }, 
-        "108": {
-            "content": [
-                "M108. †M108. ", 
-                "Violators of oaths.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M108.1. †M108.1. ", 
-                    "Babylonians do not keep their oaths.", 
-                    " Jewish: *Neuman."
-                ]
-            ]
-        }, 
-        "168": {
-            "content": [
-                "M168. †M168. ", 
-                "Vow not to devastate country or take revenge after release.", 
-                " Icelandic: Boberg."
-            ], 
-            "child": [
-                [
-                    "M168.1. †M168.1. ", 
-                    "Vow not to deceive the man who spared one‘s life.", 
-                    " Icelandic: Boberg."
-                ]
-            ]
-        }, 
-        "125": {
-            "content": [
-                "M125. †M125. ", 
-                "Vow not to change clothes till a certain time.", 
-                " Spanish: Boggs FFC XC 53 No. 400B*."
-            ], 
-            "child": []
-        }, 
-        "126": {
-            "content": [
-                "M126. †M126. ", 
-                "Vow not to wash till a certain time.", 
-                " Greek: Iliad XXIII 49."
-            ], 
-            "child": []
-        }, 
-        "164": {
-            "content": [
-                "M164. †M164. ", 
-                "Bard vows that none of his profession will make a request\r\nof any man.", 
-                " Irish myth: Cross."
-            ], 
-            "child": []
-        }, 
-        "165": {
-            "content": [
-                "M165. †M165. ", 
-                "Vow to ask nobody for peace, grace.", 
-                " (Cf. †M161.4.)\r\nIcelandic: Boberg."
-            ], 
-            "child": []
-        }, 
-        "166": {
-            "content": [
-                "M166. †M166. ", 
-                "Other vows about fighting.", 
-                null
-            ], 
-            "child": [
-                [
-                    "M166.1. †M166.1. ", 
-                    "Vow never to give more than one blow in a fight and never\r\nto beat a fallen enemy nor take his weapons.", 
-                    "\r\nIcelandic: Boberg."
-                ], 
-                [
-                    "M166.2. †M166.2. ", 
-                    "Vow rather to be cut in pieces than permit oneself to be\r\nbound.", 
-                    " Icelandic: Boberg."
-                ], 
-                [
-                    "M166.3. †M166.3. ", 
-                    "Vow to kill anyone who touches his beard.", 
-                    " India: Thompson-Balys."
-                ], 
-                [
-                    "M166.4. †M166.4. ", 
-                    "Vow: never to fight with brother.", 
-                    " Buddhist myth: Malalasekera II 1019."
-                ], 
-                [
-                    "M166.5. †M166.5. ", 
-                    "Oath not to fight relatives of king.", 
-                    " English romance: Malory X 44."
-                ]
-            ]
-        }, 
-        "101": {
-            "content": [
-                "M101. †M101. ", 
-                "Punishment for broken oaths.", 
-                " Kristensen Danske Sagn VI (1) (1900) 33ff., (1936) 18ff.;\r\nJewish: *Neuman."
-            ], 
-            "child": [
-                [
-                    "M101.1. †M101.1. ", 
-                    "False swearer not allowed to approach altar.", 
-                    " Pauli (ed. Bolte) No. 485."
-                ], 
-                [
-                    "M101.2. †M101.2. ", 
-                    "Broken oaths cause of maimed people.", 
-                    " Pauli (ed. Bolte) No. 487."
-                ], 
-                [
-                    "M101.3. †M101.3. ", 
-                    "Death as punishment for broken oath.", 
-                    " Irish myth: *Cross."
-                ], 
-                [
-                    "M101.3.1. †M101.3.1. ", 
-                    "Death caused by elements (exposure, drowning, etc.) as\r\npunishment for broken oath.", 
-                    " Irish myth:\r\n*Cross."
-                ], 
-                [
-                    "M101.3.2. †M101.3.2. ", 
-                    "Man offers to sacrifice bangles if he is given a son; when\r\nhe takes bangles back, son dies.", 
-                    " India:\r\nThompson-Balys."
-                ], 
-                [
-                    "M101.4. †M101.4. ", 
-                    "Broken oath causes girl’s hand to wither.", 
-                    " (Cf. †D2062.) Spanish\r\nExempla: Keller."
-                ], 
-                [
-                    "M101.5. †M101.5. ", 
-                    "Punishment for broken oath: loss of the inheritance of\r\nearth or heaven.", 
+                    "M223.1. †M223.1. ", 
+                    "Person who never refuses a request.", 
                     " Irish myth: Cross."
                 ]
             ]
         }, 
-        "106": {
+        "222": {
             "content": [
-                "M106. †M106. ", 
-                "Escape from vengeance caused by broken oaths.", 
-                " India: Thompson-Balys."
+                "M222. †M222. ", 
+                "Man umpires dispute in exchange for guarantee of safety.", 
+                " Disputants, bear and tiger, agree not to eat him. India:\r\nThompson-Balys."
             ], 
             "child": []
         }, 
-        "107": {
+        "221": {
             "content": [
-                "M107. †M107. ", 
-                "Vow fulfilled in next existence.", 
-                " Buddhist myth: Malalasekera II 1221."
-            ], 
-            "child": []
-        }, 
-        "162": {
-            "content": [
-                "M162. †M162. ", 
-                "Vow not to be killed by a single opponent.", 
-                " Irish myth: Cross."
-            ], 
-            "child": []
-        }, 
-        "163": {
-            "content": [
-                "M163. †M163. ", 
-                "Vow never to make a nocturnal assault.", 
-                " Irish myth: Cross."
-            ], 
-            "child": []
-        }, 
-        "161": {
-            "content": [
-                "M161. †M161. ", 
-                "Vow never to flee in fear of death.", 
-                " Irish myth: *Cross."
+                "M221. †M221. ", 
+                "Beheading bargain.", 
+                "\r\nGiant allows hero to cut off his head; he will cut off hero‘s later.\r\n**Kittredge Gawain and the Green Knight; Irish myth: *Cross."
             ], 
             "child": [
                 [
-                    "M161.1. †M161.1. ", 
-                    "Vow to attack (kill) the enemy or die.", 
-                    " Icelandic: *Boberg."
-                ], 
-                [
-                    "M161.2. †M161.2. ", 
-                    "Vow to revenge (king, friends, father) or die.", 
-                    " English: Malory XX 10; Icelandic: *Boberg."
-                ], 
-                [
-                    "M161.3. †M161.3. ", 
-                    "Vow to live and die with the king.", 
-                    " Icelandic: *Boberg."
-                ], 
-                [
-                    "M161.4. †M161.4. ", 
-                    "Vow rather to die (on a spear) than to accept grace.", 
-                    " (Cf. †M165.) Hdwb. d. Märchens\r\nII s.v. ”Gnade ausbitten“; Icelandic: Ragnars saga\r\nLoðbr. 139-41, *Boberg."
-                ], 
-                [
-                    "M161.5. †M161.5. ", 
-                    "Rather die than go in the enemy‘s service.", 
-                    " Icelandic: Boberg."
-                ], 
-                [
-                    "M161.6. †M161.6. ", 
-                    "Rather die in battle than in bed.", 
-                    " Icelandic: cf. MacCulloch Eddic 305ff., *Boberg."
+                    "M221.1. †M221.1. ", 
+                    "Hag offers to run race with men on condition that the one left\r\nbehind shall be beheaded.", 
+                    " Marvelous runner\r\nbeheads hag. Irish myth: Cross."
                 ]
             ]
         }, 
-        "115": {
+        "220": {
             "content": [
-                "M115. †M115. ", 
-                "Only one oath binding.", 
-                "\r\nIt must be by so and so or else it is worthless. Italian: Basile Pentamerone IV\r\nNos. 6, 8, V No. 4."
+                "M220. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "262": {
+            "content": [
+                "M262. †M262. ", 
+                "Person promises to have but one consort if he is cured.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "272": {
+            "content": [
+                "M272. †M272. ", 
+                "Supernatural woman promises to return if she gives birth to\r\na boy.", 
+                " Chinese: Graham."
+            ], 
+            "child": []
+        }, 
+        "246": {
+            "content": [
+                "M246. †M246. ", 
+                "Covenant of friendship.", 
+                null
             ], 
             "child": [
                 [
-                    "M115.1. †M115.1. ", 
-                    "Three-fold oath.", 
+                    "M246.1. †M246.1. ", 
+                    "Covenant of friendship between animals.", 
+                    null
+                ], 
+                [
+                    "M246.1.1. †M246.1.1. ", 
+                    "Covenant of friendship between elephant and jackal.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M246.1.2. †M246.1.2. ", 
+                    "Covenant of friendship between louse and crow.", 
+                    " India: Thompson-Balys."
+                ], 
+                [
+                    "M246.2. †M246.2. ", 
+                    "Covenant of friendship: no matter how poor son of one is,\r\ndaughter of other will accept him as groom.", 
                     "\r\nIndia: Thompson-Balys."
                 ], 
                 [
-                    "M115.1.1. †M115.1.1. ", 
-                    "Oath so heavy it dries up stream; oath so great it splits\r\nthe rock in twain; oath so violent it makes the tree wither.", 
+                    "M246.3. †M246.3. ", 
+                    "Covenant of friendship: to secure brides for each other.", 
                     " India: Thompson-Balys."
                 ]
             ]
         }, 
-        "132": {
+        "296": {
             "content": [
-                "M132. †M132. ", 
-                "Vow of virginity.", 
-                "\r\nPenzer III 40."
+                "M296. †M296. ", 
+                "Two men in love agree to have nothing to do with the girl\r\nwithout the other’s consent.", 
+                " Hawaii:\r\nBeckwith Myth 153."
             ], 
             "child": []
         }, 
-        "122": {
+        "241": {
             "content": [
-                "M122. †M122. ", 
-                "Vow: woman not to bind hair till enemy is conquered.", 
-                " Alphabet No. 529."
-            ], 
-            "child": []
-        }, 
-        "131": {
-            "content": [
-                "M131. †M131. ", 
-                "Vow of chastity.", 
-                " Penzer I 67; Wesselski Mönchslatein 142 No. 117; Irish myth:\r\n*Cross; Missouri French: Carrière; Greek: *Grote I 162f."
-            ], 
-            "child": []
-        }, 
-        "130": {
-            "content": [
-                "M130. ", 
-                null, 
-                null
-            ], 
-            "child": []
-        }, 
-        "111": {
-            "content": [
-                "M111. †M111. ", 
-                "Oaths taken over severed pieces of horse.", 
-                " Pieces are then buried. Greek: Fox 25."
-            ], 
-            "child": []
-        }, 
-        "110": {
-            "content": [
-                "M110. ", 
-                null, 
+                "M241. †M241. ", 
+                "Bargain: to divide all winnings.", 
                 null
             ], 
             "child": [
                 [
-                    "M110.1. †M110.1. ", 
-                    "Swearing while one knows that his oath is rendered\r\nvalueless.", 
-                    " India: Thompson-Balys."
+                    "M241.1. †M241.1. ", 
+                    "Dividing the winnings: half of the bride demanded.", 
+                    " When the hero shows that\r\nhe is willing to carry out the bargain, his helper relents. *Type 505--508; *BP\r\nIII 490; Köhler-Bolte I 11, 444; *Liljeblad Tobiasgeschichte; English: Wells\r\n160 (Sir Amadace); India: Thompson-Balys."
                 ], 
                 [
-                    "M110.2. †M110.2. ", 
-                    "Oath is valid only when decreed in presence of ten.", 
-                    " Jewish: *Neuman."
-                ], 
-                [
-                    "M110.3. †M110.3. ", 
-                    "Oath uttered by pious when in danger of succumbing to\r\ntemptation.", 
-                    " Jewish: *Neuman."
+                    "M241.2. †M241.2. ", 
+                    "Dividing the winnings: presents (favors) from man‘s own\r\nwife.", 
+                    " After the agreement to divide all\r\nwinnings the first man receives favors (presents, kisses) from the second’s wife. He faithfully\r\ndelivers them. *Type 1364; Wesselski Märchen 187 No. 2; English: Wells 55 (Sir\r\nGawayne and the Green Knight)."
                 ]
             ]
+        }, 
+        "294": {
+            "content": [
+                "M294. †M294. ", 
+                "Divine promise not to destroy sinful city if righteous live\r\nthere.", 
+                " Jewish: Neuman."
+            ], 
+            "child": []
+        }, 
+        "295": {
+            "content": [
+                "M295. †M295. ", 
+                "Bargain to keep secret.", 
+                null
+            ], 
+            "child": [
+                [
+                    "M295.1. †M295.1. ", 
+                    "Tiger lets man go on condition he does not tell what he has\r\noverheard.", 
+                    " India: Thompson-Balys."
+                ]
+            ]
+        }, 
+        "292": {
+            "content": [
+                "M292. †M292. ", 
+                "Wife undertakes man‘s penances for him:", 
+                " also to go to heaven for him? He has a dream and when he\r\nsees that she also goes to heaven for him he decides against the bargain.\r\n*Pauli (ed. Bolte) No. 287."
+            ], 
+            "child": []
+        }, 
+        "293": {
+            "content": [
+                "M293. †M293. ", 
+                "Covenant: one nation not to wrest city from inhabitants\r\nwithout their consent.", 
+                " Jewish: *Neuman."
+            ], 
+            "child": []
+        }, 
+        "290": {
+            "content": [
+                "M290. ", 
+                null, 
+                null
+            ], 
+            "child": []
+        }, 
+        "291": {
+            "content": [
+                "M291. †M291. ", 
+                "Trickster undertakes impossible bargains and collects his\r\npart.", 
+                " Trusts that in the year he is given\r\neither he or the other will die. Chauvin VIII 117ff. No. 101 n. 1."
+            ], 
+            "child": []
         }
     }, 
     "M_0_99_Judgments and decrees.": {

@@ -762,104 +762,6 @@
                 ], 
                 "child": []
             }, 
-            "666": {
-                "content": [
-                    "C666. †C666. ", 
-                    "Compulsion to go to certain place at certain time (or once\r\neach year).", 
-                    " Irish myth: Cross; Jewish:\r\nNeuman."
-                ], 
-                "child": []
-            }, 
-            "665": {
-                "content": [
-                    "C665. †C665. ", 
-                    "Injunction: protect certain stone from molestation.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "664": {
-                "content": [
-                    "C664. †C664. ", 
-                    "Injunction: to marry first woman met.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": [
-                    [
-                        "C664.0.1. †C664.0.1. ", 
-                        "Injunction: to cohabit with first woman met after battle.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "663": {
-                "content": [
-                    "C663. †C663. ", 
-                    "Compulsion to bathe in certain waters daily.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "662": {
-                "content": [
-                    "C662. †C662. ", 
-                    "One must eat “death vegetable” whenever one sees it.", 
-                    " Otherwise god will be angry. India: Thompson-Balys."
-                ], 
-                "child": []
-            }, 
-            "661": {
-                "content": [
-                    "C661. †C661. ", 
-                    "Girl from elfland must eat earthly food in order to remain.", 
-                    " *Fb “spise” III 495b."
-                ], 
-                "child": []
-            }, 
-            "655": {
-                "content": [
-                    "C655. †C655. ", 
-                    "Only one certain gift must be accepted.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C655.1. †C655.1. ", 
-                        "Only peacock on the steeple of the king’s golden temple can\r\nbe accepted as dowry.", 
-                        " India:\r\nThompson-Balys."
-                    ]
-                ]
-            }, 
-            "652": {
-                "content": [
-                    "C652. †C652. ", 
-                    "Compulsion: taking back talisman which opened treasure\r\nmountain.", 
-                    " Hero takes treasure and forgets\r\nthe talisman.--*Krappe Balor 109ff."
-                ], 
-                "child": []
-            }, 
-            "650": {
-                "content": [
-                    "C650. ", 
-                    null, 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C650.1. †C650.1. ", 
-                        "Customs connected with unique compulsion.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "651": {
-                "content": [
-                    "C651. †C651. ", 
-                    "The one compulsory question.", 
-                    " Percival must ask the meaning of the strange sights he\r\nsees; else the Fisher King will not be healed.--Voretzsch Altfranz Lit. 325\r\n(Chretien de Troyes Conte del Graal)."
-                ], 
-                "child": []
-            }, 
             "630": {
                 "content": [
                     "C630. ", 
@@ -976,14 +878,6 @@
                 ], 
                 "child": []
             }, 
-            "675": {
-                "content": [
-                    "C675. †C675. ", 
-                    "Compulsion to give food to everyone met on journey.", 
-                    " African (Jaunde): Nekes 251."
-                ], 
-                "child": []
-            }, 
             "610": {
                 "content": [
                     "C610. ", 
@@ -1029,13 +923,19 @@
                 ], 
                 "child": []
             }, 
-            "671": {
+            "617": {
                 "content": [
-                    "C671. †C671. ", 
-                    "The one compulsory song.", 
-                    "\r\nBeer cannot be brewed until an old man sings the song of the origin of\r\nbeer.--Finnish: Kalevala rune 20."
+                    "C617. †C617. ", 
+                    "Forbidden country.", 
+                    "\r\nIrish myth: Cross; Jewish: Neuman."
                 ], 
-                "child": []
+                "child": [
+                    [
+                        "C617.1. †C617.1. ", 
+                        "Forbidden (perilous) ford.", 
+                        " Irish myth: Cross."
+                    ]
+                ]
             }, 
             "614": {
                 "content": [
@@ -1093,34 +993,6 @@
                         "C614.2. †C614.2. ", 
                         "Tabu: going through a wicket gate.", 
                         " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "617": {
-                "content": [
-                    "C617. †C617. ", 
-                    "Forbidden country.", 
-                    "\r\nIrish myth: Cross; Jewish: Neuman."
-                ], 
-                "child": [
-                    [
-                        "C617.1. †C617.1. ", 
-                        "Forbidden (perilous) ford.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "672": {
-                "content": [
-                    "C672. †C672. ", 
-                    "Compulsion to tell stories.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C672.1. †C672.1. ", 
-                        "Curse laid upon man by stories he fails to tell: they creep\r\nout of his belly when he is asleep and talk.", 
-                        "\r\nIndia: Thompson-Balys."
                     ]
                 ]
             }, 
@@ -1201,109 +1073,6 @@
                     "C644. †C644. ", 
                     "The one forbidden thing: returning to home country after\r\nmarrying fairy.", 
                     " India: Thompson-Balys."
-                ], 
-                "child": []
-            }, 
-            "685": {
-                "content": [
-                    "C685. †C685. ", 
-                    "Injunction: to give sample of food to dog before eating.", 
-                    " Misfortune follows failure to do so.--Spanish: Boggs FFC\r\nXC 63 No. 453."
-                ], 
-                "child": []
-            }, 
-            "684": {
-                "content": [
-                    "C684. †C684. ", 
-                    "Compulsion to perform certain task yearly.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C684.1. †C684.1. ", 
-                        "Compulsion to catch blackbird alive yearly.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "C684.2. †C684.2. ", 
-                        "Compulsion to kill one of certain hogs yearly.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "C684.3. †C684.3. ", 
-                        "Compulsion to leap yearly over stone one’s size held in\r\npalm of hand.", 
-                        " Irish myth: Cross."
-                    ], 
-                    [
-                        "C684.4. †C684.4. ", 
-                        "Compulsion to hold festival at certain intervals.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "687": {
-                "content": [
-                    "C687. †C687. ", 
-                    "Injunction: to perform certain act daily.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C687.1. †C687.1. ", 
-                        "Injunction: to visit saint daily.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "686": {
-                "content": [
-                    "C686. †C686. ", 
-                    "Injunction: to forsake woman who arouses love.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": [
-                    [
-                        "C686.1. †C686.1. ", 
-                        "Tabu: to refuse help to a woman.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "681": {
-                "content": [
-                    "C681. †C681. ", 
-                    "Compulsion to answer cry.", 
-                    " Hero is magically compelled to do so. Irish myth: Cross."
-                ], 
-                "child": [
-                    [
-                        "C681.1. †C681.1. ", 
-                        "Compulsion to regard hunting cry and follow hounds.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "680": {
-                "content": [
-                    "C680. ", 
-                    null, 
-                    null
-                ], 
-                "child": []
-            }, 
-            "683": {
-                "content": [
-                    "C683. †C683. ", 
-                    "Injunction: sleep where night overtakes you.", 
-                    " Otherwise misfortune will come.--Cape Verde Islands:\r\nParsons MAFLS XV (1) 213 No. 73."
-                ], 
-                "child": []
-            }, 
-            "682": {
-                "content": [
-                    "C682. †C682. ", 
-                    "Compulsion to invite singer to feast.", 
-                    " Until that is done, the\r\nbeer will not stop foaming. (Cf. †C671.)--Finnish: Kalevala rune 20."
                 ], 
                 "child": []
             }
@@ -3247,14 +3016,6 @@
                 ], 
                 "child": []
             }, 
-            "283": {
-                "content": [
-                    "C283. †C283. ", 
-                    "Tabu: eating without giving thanks.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
             "273": {
                 "content": [
                     "C273. †C273. ", 
@@ -3314,11 +3075,11 @@
                 ], 
                 "child": []
             }, 
-            "288": {
+            "262": {
                 "content": [
-                    "C288. †C288. ", 
-                    "Tabu: refusing to eat food demanded and supplied.", 
-                    " Irish myth: Cross."
+                    "C262. †C262. ", 
+                    "Tabu: drinking in other world.", 
+                    " *Fb “drikke” I 204.--Wales: Baughman; Icel.: Herrmann Saxo\r\nII 586ff., MacCulloch Eddic 321f., Boberg."
                 ], 
                 "child": []
             }, 
@@ -3338,81 +3099,11 @@
                 ], 
                 "child": []
             }, 
-            "262": {
-                "content": [
-                    "C262. †C262. ", 
-                    "Tabu: drinking in other world.", 
-                    " *Fb “drikke” I 204.--Wales: Baughman; Icel.: Herrmann Saxo\r\nII 586ff., MacCulloch Eddic 321f., Boberg."
-                ], 
-                "child": []
-            }, 
-            "281": {
-                "content": [
-                    "C281. †C281. ", 
-                    "Tabu: drinking without presence of dead heads.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "280": {
-                "content": [
-                    "C280. †C280. ", 
-                    "Miscellaneous eating and drinking tabus.", 
-                    null
-                ], 
-                "child": []
-            }, 
             "250": {
                 "content": [
                     "C250. ", 
                     null, 
                     null
-                ], 
-                "child": []
-            }, 
-            "282": {
-                "content": [
-                    "C282. †C282. ", 
-                    "Tabu: refusing a feast.", 
-                    "\r\nIrish myth: Cross."
-                ], 
-                "child": [
-                    [
-                        "C282.1. †C282.1. ", 
-                        "Tabu: leaving a feast before it is ended.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "285": {
-                "content": [
-                    "C285. †C285. ", 
-                    "Tabu: eating in company.", 
-                    "\r\nIrish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "284": {
-                "content": [
-                    "C284. †C284. ", 
-                    "Tabu: eating alone.", 
-                    "\r\nIrish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "287": {
-                "content": [
-                    "C287. †C287. ", 
-                    "Tabu: consuming feast without discovering a new wonder.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "286": {
-                "content": [
-                    "C286. †C286. ", 
-                    "Tabu: partaking of certain feast.", 
-                    " Irish myth: Cross."
                 ], 
                 "child": []
             }
@@ -3521,65 +3212,6 @@
                     ]
                 ]
             }, 
-            "270": {
-                "content": [
-                    "C270. ", 
-                    null, 
-                    null
-                ], 
-                "child": []
-            }, 
-            "271": {
-                "content": [
-                    "C271. †C271. ", 
-                    "Tabu: drinking milk.", 
-                    "\r\nIndia: Thompson-Balys."
-                ], 
-                "child": []
-            }, 
-            "272": {
-                "content": [
-                    "C272. †C272. ", 
-                    "Tabu: drinking wine.", 
-                    " (Cf. †C251.)--Jewish: Neuman, Moreno:\r\nEsdras."
-                ], 
-                "child": [
-                    [
-                        "C272.1. †C272.1. ", 
-                        "Tabu: drinking wine touched by hand of heathen.", 
-                        " Jewish: Neuman."
-                    ], 
-                    [
-                        "C272.2. †C272.2. ", 
-                        "Tabu: drinking wine at certain time.", 
-                        " (Cf. †C755.)--Jewish:\r\n*Neuman."
-                    ], 
-                    [
-                        "C272.3. †C272.3. ", 
-                        "Tabu: drinking palm-drink: only prince allowed to break it.", 
-                        " Africa (Fang): Einstein 45, Trilles 163."
-                    ]
-                ]
-            }, 
-            "273": {
-                "content": [
-                    "C273. †C273. ", 
-                    "Tabu: drinking water.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C273.1. †C273.1. ", 
-                        "Tabu: drinking water during certain time.", 
-                        " Jewish: Neuman."
-                    ], 
-                    [
-                        "C273.2. †C273.2. ", 
-                        "Tabu: drinking water from certain bottle.", 
-                        " Chinese: Eberhard 214 No. 113."
-                    ]
-                ]
-            }, 
             "234": {
                 "content": [
                     "C234. †C234. ", 
@@ -3596,11 +3228,11 @@
                 ], 
                 "child": []
             }, 
-            "250": {
+            "236": {
                 "content": [
-                    "C250. ", 
-                    null, 
-                    null
+                    "C236. †C236. ", 
+                    "Tabu: eating after a guest.", 
+                    " Irish myth: Cross."
                 ], 
                 "child": []
             }, 
@@ -3684,11 +3316,199 @@
                     ]
                 ]
             }, 
-            "288": {
+            "200": {
                 "content": [
-                    "C288. †C288. ", 
-                    "Tabu: refusing to eat food demanded and supplied.", 
-                    " Irish myth: Cross."
+                    "C200. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "205": {
+                "content": [
+                    "C205. †C205. ", 
+                    "Tabu: eating one’s fill.", 
+                    "\r\nAfrica (Wakweli): Bender 43."
+                ], 
+                "child": []
+            }, 
+            "245": {
+                "content": [
+                    "C245. †C245. ", 
+                    "Tabu: eating food birds have pecked at.", 
+                    " *Fb “fugl” I 380b."
+                ], 
+                "child": []
+            }, 
+            "247": {
+                "content": [
+                    "C247. †C247. ", 
+                    "Tabu: eating food laid on the grave.", 
+                    " Cheremis: Sebeok-Nyerges."
+                ], 
+                "child": []
+            }, 
+            "246": {
+                "content": [
+                    "C246. †C246. ", 
+                    "Tabu: eating with person of certain caste.", 
+                    " India: Thompson-Balys."
+                ], 
+                "child": [
+                    [
+                        "C246.1. †C246.1. ", 
+                        "Tabu: Jews eating with heathen.", 
+                        " Jewish: *Neuman."
+                    ], 
+                    [
+                        "C246.2. †C246.2. ", 
+                        "Tabu: eating special food of noble girl.", 
+                        " Mono: Wheeler XIII 56."
+                    ]
+                ]
+            }, 
+            "241": {
+                "content": [
+                    "C241. †C241. ", 
+                    "Tabu: eating food of gods.", 
+                    " Babylonian: Spence 119f.; India: Thompson-Balys.--Africa\r\n(Ekoi): Talbot 183."
+                ], 
+                "child": [
+                    [
+                        "C241.1. †C241.1. ", 
+                        "Tabu: tasting milk of “cow of plenty”, dedicated to the\r\ngods.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "C241.2. †C241.2. ", 
+                        "Tabu: eating chief’s food.", 
+                        " Samoa: Beckwith Myth 512."
+                    ]
+                ]
+            }, 
+            "240": {
+                "content": [
+                    "C240. ", 
+                    null, 
+                    null
+                ], 
+                "child": []
+            }, 
+            "229": {
+                "content": [
+                    "C229. †C229. ", 
+                    "Tabu: eating certain thing--miscellaneous.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "C229.1. †C229.1. ", 
+                        "Tabu: eating thick milk.", 
+                        "\r\nKaffir: Theal 49."
+                    ], 
+                    [
+                        "C229.2. †C229.2. ", 
+                        "Tabu: women not to eat genitals (heart, liver, etc.", 
+                        ") of animals. (Cf.\r\n†C221.3.1.)--Nippigen Revue Anthropologique XIV 399.--Ekoi: Talbot 409."
+                    ], 
+                    [
+                        "C229.3. †C229.3. ", 
+                        "Tabu: eating griddle cakes (in Garden of Eden).", 
+                        "--India: Thompson-Balys."
+                    ], 
+                    [
+                        "C229.4. †C229.4. ", 
+                        "Tabu: eating firstlings (animals, fruit, etc.", 
+                        ")--Jewish: Neuman."
+                    ], 
+                    [
+                        "C229.5. †C229.5. ", 
+                        "Eating meat with milk.", 
+                        " (Cf. †C271).--Jewish: *Neuman."
+                    ], 
+                    [
+                        "C229.6. †C229.6. ", 
+                        "Tabu: eating salt.", 
+                        "\r\nAfrica (Togo): Einstein 8f.; Jewish: Neuman."
+                    ]
+                ]
+            }, 
+            "227": {
+                "content": [
+                    "C227. †C227. ", 
+                    "Tabu: eating human flesh.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "C227.1. †C227.1. ", 
+                        "Why cannibalism is out of vogue.", 
+                        " New Guinea: Ker 13."
+                    ]
+                ]
+            }, 
+            "226": {
+                "content": [
+                    "C226. †C226. ", 
+                    "Tabu: eating certain plant.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "C226.0.1. †C226.0.1. ", 
+                        "Why slayers of tigers must not eat certain plants.", 
+                        " India: Thompson-Balys."
+                    ]
+                ]
+            }, 
+            "225": {
+                "content": [
+                    "C225. †C225. ", 
+                    "Tabu: eating certain fruit.", 
+                    " Benga: Nassau 140 No.\r\n16; India: Thompson-Balys; S. Am. Indian (Tupenamba): Métraux RMLP XXXIII 172;\r\nJewish: Neuman."
+                ], 
+                "child": [
+                    [
+                        "C225.1. †C225.1. ", 
+                        "Tabu: eating pomegranate seed.", 
+                        " Greek: Fox 229."
+                    ]
+                ]
+            }, 
+            "224": {
+                "content": [
+                    "C224. †C224. ", 
+                    "Tabu: eating certain vegetable.", 
+                    null
+                ], 
+                "child": [
+                    [
+                        "C224.1. †C224.1. ", 
+                        "Tabu: eating beans.", 
+                        "\r\n*Frazer Pausanias IV 240."
+                    ], 
+                    [
+                        "C224.2. †C224.2. ", 
+                        "Tabu: eating forbidden herbs.", 
+                        " India: Thompson-Balys."
+                    ], 
+                    [
+                        "C224.3. †C224.3. ", 
+                        "Tabu: eating breadfruit.", 
+                        "\r\nMono: Wheeler 33."
+                    ], 
+                    [
+                        "C224.4. †C224.4. ", 
+                        "Tabu: horses‘ eating foreign provender.", 
+                        " Greek: *Grote II 130."
+                    ]
+                ]
+            }, 
+            "248": {
+                "content": [
+                    "C248. †C248. ", 
+                    "Tabu: eating food kept for animals.", 
+                    " India: Thompson-Balys."
                 ], 
                 "child": []
             }, 
@@ -3886,288 +3706,6 @@
                     ]
                 ]
             }, 
-            "281": {
-                "content": [
-                    "C281. †C281. ", 
-                    "Tabu: drinking without presence of dead heads.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "280": {
-                "content": [
-                    "C280. †C280. ", 
-                    "Miscellaneous eating and drinking tabus.", 
-                    null
-                ], 
-                "child": []
-            }, 
-            "283": {
-                "content": [
-                    "C283. †C283. ", 
-                    "Tabu: eating without giving thanks.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "282": {
-                "content": [
-                    "C282. †C282. ", 
-                    "Tabu: refusing a feast.", 
-                    "\r\nIrish myth: Cross."
-                ], 
-                "child": [
-                    [
-                        "C282.1. †C282.1. ", 
-                        "Tabu: leaving a feast before it is ended.", 
-                        " Irish myth: Cross."
-                    ]
-                ]
-            }, 
-            "285": {
-                "content": [
-                    "C285. †C285. ", 
-                    "Tabu: eating in company.", 
-                    "\r\nIrish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "284": {
-                "content": [
-                    "C284. †C284. ", 
-                    "Tabu: eating alone.", 
-                    "\r\nIrish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "287": {
-                "content": [
-                    "C287. †C287. ", 
-                    "Tabu: consuming feast without discovering a new wonder.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "286": {
-                "content": [
-                    "C286. †C286. ", 
-                    "Tabu: partaking of certain feast.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "200": {
-                "content": [
-                    "C200. ", 
-                    null, 
-                    null
-                ], 
-                "child": []
-            }, 
-            "205": {
-                "content": [
-                    "C205. †C205. ", 
-                    "Tabu: eating one’s fill.", 
-                    "\r\nAfrica (Wakweli): Bender 43."
-                ], 
-                "child": []
-            }, 
-            "245": {
-                "content": [
-                    "C245. †C245. ", 
-                    "Tabu: eating food birds have pecked at.", 
-                    " *Fb “fugl” I 380b."
-                ], 
-                "child": []
-            }, 
-            "262": {
-                "content": [
-                    "C262. †C262. ", 
-                    "Tabu: drinking in other world.", 
-                    " *Fb “drikke” I 204.--Wales: Baughman; Icel.: Herrmann Saxo\r\nII 586ff., MacCulloch Eddic 321f., Boberg."
-                ], 
-                "child": []
-            }, 
-            "247": {
-                "content": [
-                    "C247. †C247. ", 
-                    "Tabu: eating food laid on the grave.", 
-                    " Cheremis: Sebeok-Nyerges."
-                ], 
-                "child": []
-            }, 
-            "246": {
-                "content": [
-                    "C246. †C246. ", 
-                    "Tabu: eating with person of certain caste.", 
-                    " India: Thompson-Balys."
-                ], 
-                "child": [
-                    [
-                        "C246.1. †C246.1. ", 
-                        "Tabu: Jews eating with heathen.", 
-                        " Jewish: *Neuman."
-                    ], 
-                    [
-                        "C246.2. †C246.2. ", 
-                        "Tabu: eating special food of noble girl.", 
-                        " Mono: Wheeler XIII 56."
-                    ]
-                ]
-            }, 
-            "241": {
-                "content": [
-                    "C241. †C241. ", 
-                    "Tabu: eating food of gods.", 
-                    " Babylonian: Spence 119f.; India: Thompson-Balys.--Africa\r\n(Ekoi): Talbot 183."
-                ], 
-                "child": [
-                    [
-                        "C241.1. †C241.1. ", 
-                        "Tabu: tasting milk of “cow of plenty”, dedicated to the\r\ngods.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "C241.2. †C241.2. ", 
-                        "Tabu: eating chief’s food.", 
-                        " Samoa: Beckwith Myth 512."
-                    ]
-                ]
-            }, 
-            "240": {
-                "content": [
-                    "C240. ", 
-                    null, 
-                    null
-                ], 
-                "child": []
-            }, 
-            "229": {
-                "content": [
-                    "C229. †C229. ", 
-                    "Tabu: eating certain thing--miscellaneous.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C229.1. †C229.1. ", 
-                        "Tabu: eating thick milk.", 
-                        "\r\nKaffir: Theal 49."
-                    ], 
-                    [
-                        "C229.2. †C229.2. ", 
-                        "Tabu: women not to eat genitals (heart, liver, etc.", 
-                        ") of animals. (Cf.\r\n†C221.3.1.)--Nippigen Revue Anthropologique XIV 399.--Ekoi: Talbot 409."
-                    ], 
-                    [
-                        "C229.3. †C229.3. ", 
-                        "Tabu: eating griddle cakes (in Garden of Eden).", 
-                        "--India: Thompson-Balys."
-                    ], 
-                    [
-                        "C229.4. †C229.4. ", 
-                        "Tabu: eating firstlings (animals, fruit, etc.", 
-                        ")--Jewish: Neuman."
-                    ], 
-                    [
-                        "C229.5. †C229.5. ", 
-                        "Eating meat with milk.", 
-                        " (Cf. †C271).--Jewish: *Neuman."
-                    ], 
-                    [
-                        "C229.6. †C229.6. ", 
-                        "Tabu: eating salt.", 
-                        "\r\nAfrica (Togo): Einstein 8f.; Jewish: Neuman."
-                    ]
-                ]
-            }, 
-            "227": {
-                "content": [
-                    "C227. †C227. ", 
-                    "Tabu: eating human flesh.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C227.1. †C227.1. ", 
-                        "Why cannibalism is out of vogue.", 
-                        " New Guinea: Ker 13."
-                    ]
-                ]
-            }, 
-            "226": {
-                "content": [
-                    "C226. †C226. ", 
-                    "Tabu: eating certain plant.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C226.0.1. †C226.0.1. ", 
-                        "Why slayers of tigers must not eat certain plants.", 
-                        " India: Thompson-Balys."
-                    ]
-                ]
-            }, 
-            "225": {
-                "content": [
-                    "C225. †C225. ", 
-                    "Tabu: eating certain fruit.", 
-                    " Benga: Nassau 140 No.\r\n16; India: Thompson-Balys; S. Am. Indian (Tupenamba): Métraux RMLP XXXIII 172;\r\nJewish: Neuman."
-                ], 
-                "child": [
-                    [
-                        "C225.1. †C225.1. ", 
-                        "Tabu: eating pomegranate seed.", 
-                        " Greek: Fox 229."
-                    ]
-                ]
-            }, 
-            "224": {
-                "content": [
-                    "C224. †C224. ", 
-                    "Tabu: eating certain vegetable.", 
-                    null
-                ], 
-                "child": [
-                    [
-                        "C224.1. †C224.1. ", 
-                        "Tabu: eating beans.", 
-                        "\r\n*Frazer Pausanias IV 240."
-                    ], 
-                    [
-                        "C224.2. †C224.2. ", 
-                        "Tabu: eating forbidden herbs.", 
-                        " India: Thompson-Balys."
-                    ], 
-                    [
-                        "C224.3. †C224.3. ", 
-                        "Tabu: eating breadfruit.", 
-                        "\r\nMono: Wheeler 33."
-                    ], 
-                    [
-                        "C224.4. †C224.4. ", 
-                        "Tabu: horses‘ eating foreign provender.", 
-                        " Greek: *Grote II 130."
-                    ]
-                ]
-            }, 
-            "248": {
-                "content": [
-                    "C248. †C248. ", 
-                    "Tabu: eating food kept for animals.", 
-                    " India: Thompson-Balys."
-                ], 
-                "child": []
-            }, 
-            "236": {
-                "content": [
-                    "C236. †C236. ", 
-                    "Tabu: eating after a guest.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
             "220": {
                 "content": [
                     "C220. ", 
@@ -4181,31 +3719,85 @@
                         " Marquesas: Handy 114."
                     ]
                 ]
-            }, 
-            "263": {
-                "content": [
-                    "C263. †C263. ", 
-                    "Tabu: drinking from certain river between two darknesses.", 
-                    " Irish myth: Cross."
-                ], 
-                "child": []
-            }, 
-            "261": {
-                "content": [
-                    "C261. †C261. ", 
-                    "Tabu: drinking from certain fountain.", 
-                    " Hartland Science 225;\r\nIrish myth: Cross; Eskimo (Greenland): Rink 417, 465; Africa (Loango):\r\nPechuël-Loesche 109."
-                ], 
-                "child": []
-            }, 
-            "260": {
-                "content": [
-                    "C260. ", 
-                    null, 
-                    null
-                ], 
-                "child": []
             }
+        }, 
+        "288": {
+            "content": [
+                "C288. †C288. ", 
+                "Tabu: refusing to eat food demanded and supplied.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "281": {
+            "content": [
+                "C281. †C281. ", 
+                "Tabu: drinking without presence of dead heads.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "280": {
+            "content": [
+                "C280. †C280. ", 
+                "Miscellaneous eating and drinking tabus.", 
+                null
+            ], 
+            "child": []
+        }, 
+        "283": {
+            "content": [
+                "C283. †C283. ", 
+                "Tabu: eating without giving thanks.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "282": {
+            "content": [
+                "C282. †C282. ", 
+                "Tabu: refusing a feast.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": [
+                [
+                    "C282.1. †C282.1. ", 
+                    "Tabu: leaving a feast before it is ended.", 
+                    " Irish myth: Cross."
+                ]
+            ]
+        }, 
+        "285": {
+            "content": [
+                "C285. †C285. ", 
+                "Tabu: eating in company.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "284": {
+            "content": [
+                "C284. †C284. ", 
+                "Tabu: eating alone.", 
+                "\r\nIrish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "287": {
+            "content": [
+                "C287. †C287. ", 
+                "Tabu: consuming feast without discovering a new wonder.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
+        }, 
+        "286": {
+            "content": [
+                "C286. †C286. ", 
+                "Tabu: partaking of certain feast.", 
+                " Irish myth: Cross."
+            ], 
+            "child": []
         }
     }, 
     "C_550_599_Class tabu.": {

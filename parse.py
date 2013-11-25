@@ -1,6 +1,6 @@
 #! /usr/bin/pytho
 # -*- coding:utf-8 -*-
-__date__='2013/11/14';
+__date__='2013/11/26';
 
 import sys, codecs, re, lxml.html, os, json;
 
