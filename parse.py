@@ -131,12 +131,10 @@ def sort_classifier(range_list):
                     range_map_in_map[compare_item_1].setdefault(compare_item_2, {});
                     deletion_key_stack.append(compare_item_2);
                     #new_range_map_in_map.setdefault()
-    try:
-        for item in deletion_key_stack:
+    
+    for item in deletion_key_stack:
+        if item in range_map_in_map:
             del range_map_in_map[item];
-    except:
-        pass;
-
     return range_map_in_map;
 
 def compare_range(compare_item_1, compare_item_2):
@@ -160,57 +158,9 @@ def parse(html_file_path):
     html=open(html_file_path, 'rb').read();
     root=lxml.html.fromstring(html);
 
-    """
-    motif_map_stack=[];
-    first_layer_map={};
-    second_layer_map={};
-    third_layer_map={};
-    fourth_layer_map={};
-    second_layer_name=u'';
-    third_layer_name=u'';
-    """
     leaf_tuple_stack=[];
     p_node_list=root.findall('p') 
     for p_node in p_node_list:
-        """
-        if p_node.attrib==middle_node_attribute:
-            child_node_list=list(p_node);
-            if child_node_list==[]:
-                pass;
-            #======================================== 
-            #新しい２層目のノードの獲得，新たに３層目ノードの獲得開始
-            elif child_node_list[0].tag=='span':
-                #古い３層目のマップを２層目のマップに保存
-                second_layer_map[second_layer_name]=third_layer_map;
-                #新しい２層目の名前を獲得 
-                second_layer_name=child_node_list[0].text;
-                #３層目のマップを初期化
-                third_layer_map={};
-            #======================================== 
-            #非常にイレギュラーであるが，３層目がこうやって表現されることがある
-            #<b><span> </b>
-            elif child_node_list[0].tag=='b':
-                if list(child_node_list[0])==[]:
-                    pass;
-                    #コメントアウトの部分，間違って２層目を取得してる．．
-                    '''
-                    #古い四層目を３層目に保存
-                    third_layer_map[((child_node_list[0])[0].text)]=third_layer_map;
-                    #新しい４層目キー名を取得
-                    third_layer_name=((child_node_list[0])[0].text);
-                    #TODO ファイル構造的にかなりまずいキー名なのでなんとかすること
-                    #４層目のマップを初期化
-                    third_layer_map={};
-                    '''
-                elif list(child_node_list[0])[0].tag=='span':
-                    #古い四層目を３層目に保存
-                    third_layer_map[((child_node_list[0])[0].text)]=fourth_layer_map;
-                    #新しい４層目キー名を取得
-                    third_layer_name=((child_node_list[0])[0].text);
-                    #TODO ファイル構造的にかなりまずいキー名なのでなんとかすること
-                    #４層目のマップを初期化
-                    third_layer_map={};
-                    """
         #======================================== 
         #葉にあたる部分の要素獲得
         if not p_node.text==None:
@@ -274,7 +224,6 @@ def insertion_leaf_2_tree(range_map_in_map, leaf_tuple_stack):
             range_end=int(tree_node_number[2]);
             #モチーフ番号が当てはまる階層を探して，当てはまる範囲に登録する
             if leaf_parent_number >= range_start and leaf_parent_number <=range_end:
-                #この時，{(u'N', u'100', u'299', u'The ways of luck and fate.'): {(u'N', u'100', u'169', u'NATURE OF LUCK AND FATE'): {}}は反応できない
                 tuple_in_flag=False;
                 for already_element in copied_range_map_in_map[tree_node_number]:
                     #この階層がキーである可能性があるので
@@ -300,7 +249,7 @@ def draw_tree(range_map_in_map):
     print u'ROOT';
     for top_item in range_map_in_map:
         #first_layer_stack.append(u'{}_{}_{}'.format(top_item[1]. top_item[2], top_item[3]));
-        print u'|-- {}_{}_{}'.format(top_item[1], top_item[2], top_item[3])
+        print (u'|-- {}_{}_{}'.format(top_item[1], top_item[2], top_item[3])).encode('utf-8')
 
 def re_construct_map(original_map):
     """

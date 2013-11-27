@@ -4,19 +4,25 @@
 入力されたモチーフノードに到達するまでの中間ノードを調べる．粒度を変えてモチーフ予測の精度を行うことが可能
 ARGS: 調べたいモチーフ番号([A-Z]\d+ の形式で入力すること　例：F913)
 """
-__date__='2013/11/26'
+__date__='2013/11/27'
 
 import re, codecs, os, glob, json, sys;
 
 def unify_json_files(dir_path):
     all_thompson_tree={};
     for root, dirs, file in os.walk(dir_path):
-        for f in glob.glob(os.path.join(root, '*')):
-            filename=os.path.basename(f);
-            prefix=(filename.split(u'.')[0]).upper();
-            with codecs.open(f, 'r', 'utf-8') as f:
-                thompson_tree=json.load(f);
-                all_thompson_tree.setdefault(prefix, thompson_tree);
+        for counter, f in enumerate(glob.glob(os.path.join(root, '*'))):
+            if f=='./parsed_json/unified_json':
+                pass;
+            else:
+                filename=os.path.basename(f);
+                prefix=(filename.split(u'.')[0]).upper();
+                with codecs.open(f, 'r', 'utf-8') as f:
+                    thompson_tree=json.load(f);
+                    all_thompson_tree.setdefault(prefix, thompson_tree);
+                #開発用に制限を付けているので，後ではずすこと
+                #if counter==3:
+                #    break;
     with codecs.open(dir_path+'/unified_json', 'w', 'utf-8') as f:
         json.dump(all_thompson_tree, f, indent=4, ensure_ascii=False);
     return all_thompson_tree;
@@ -28,6 +34,8 @@ def load_all_thompson_tree(dir_path):
 
 def find_sub_tree(input_motif_no, all_thompson_tree):
     result_stack=[];
+    #.以下の分類は切り捨てておく（考慮していたらきりがないので）
+    input_motif_no=re.sub(ur'(\d)(\.\d)+', r'\1', input_motif_no);
     prefix=input_motif_no[0];    
     query_number=int(input_motif_no[1:]);
     subtree_map=all_thompson_tree[prefix];
@@ -37,32 +45,35 @@ def find_sub_tree(input_motif_no, all_thompson_tree):
         if query_number>=start_range_1level and query_number<=end_range_1level:
             #print subtree_map[keyname_1level];
             if subtree_map[keyname_1level].has_key(str(query_number)):
-                result_stack.append(keyname_1level);
+                #result_stack.append(keyname_1level);
                 #発見した時点で即終了にする
-                return result_stack;
+                #return result_stack;
+                return keyname_1level;
             #さらに下の階層を掘り下げ
-            for keyname_2level in subtree_map[keyname_1level]:
-                #TODO ２階層目に登録の時点でミスが起きている．
-                #もし，キーが下の形をしていたら，まださらに階層があるということ
-                if re.search(ur'\w_\d+_\d+_\w+', keyname_2level):
-                    start_range_2level=int(keyname_2level.split(u'_')[1]); 
-                    end_range_2level=int(keyname_2level.split(u'_')[2]);
-                    if query_number>=start_range_2level and query_number<=end_range_2level:
-                        #result_stack.append(keyname_2level);
-                        #第一階層さえわかれば良い
-                        #ほかの階層情報が知りたければ，下の行を書き換えること
-                        result_stack.append(keyname_1level);
-                        return result_stack; 
-
+            else:
+                for keyname_2level in subtree_map[keyname_1level]:
+                    #TODO ２階層目に登録の時点でミスが起きている．
+                    #もし，キーが下の形をしていたら，まださらに階層があるということ
+                    if re.search(ur'\w_\d+_\d+_\w+', keyname_2level):
+                        start_range_2level=int(keyname_2level.split(u'_')[1]); 
+                        end_range_2level=int(keyname_2level.split(u'_')[2]);
+                        if query_number>=start_range_2level and query_number<=end_range_2level:
+                            #result_stack.append(keyname_2level);
+                            #第一階層さえわかれば良い
+                            #ほかの階層情報が知りたければ，下の行を書き換えること
+                            result_stack.append(keyname_1level);
+                            #return result_stack; 
+                            return keyname_1level;
 def main(input_motif_no, all_thompson_tree):
     #This line is on when you need to reconstruct unify_json
-    #all_thompson_tree=unify_json_files(dir_path);
     result_stack=find_sub_tree(input_motif_no, all_thompson_tree) 
     return result_stack;
 if __name__=='__main__':
-    input_motif_no='J400';
+    input_motif_no='A2725';
     #input_motif_no=sys.argv[1].decode('utf-8');
     dir_path='./parsed_json/'
-    all_thompson_tree=load_all_thompson_tree(dir_path);
+    all_thompson_tree={};
+    #all_thompson_tree=load_all_thompson_tree(dir_path);
+    all_thompson_tree=unify_json_files(dir_path);
     result_stack=main(input_motif_no , all_thompson_tree);
     print 'The non-terminal nodes to reach {} is {}'.format(input_motif_no, result_stack);

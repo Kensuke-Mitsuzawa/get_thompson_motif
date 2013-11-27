@@ -1,0 +1,115 @@
+Statics of big document
+------------------------------
+filename:A_level_1
+num. of tokens:30486
+------------------------------
+Statics of big document
+------------------------------
+filename:C_level_1
+num. of tokens:6943
+------------------------------
+Statics of big document
+------------------------------
+filename:B_level_1
+num. of tokens:11759
+------------------------------
+Statics of big document
+------------------------------
+filename:E_level_1
+num. of tokens:9335
+------------------------------
+Statics of big document
+------------------------------
+filename:D_level_1
+num. of tokens:46768
+------------------------------
+Statics of big document
+------------------------------
+filename:G_level_1
+num. of tokens:10848
+------------------------------
+Statics of big document
+------------------------------
+filename:F_level_1
+num. of tokens:31879
+------------------------------
+Statics of big document
+------------------------------
+filename:H_level_1
+num. of tokens:15008
+------------------------------
+Statics of big document
+------------------------------
+filename:K_level_1
+num. of tokens:27563
+------------------------------
+Statics of big document
+------------------------------
+filename:J_level_1
+num. of tokens:26070
+------------------------------
+Statics of big document
+------------------------------
+filename:M_level_1
+num. of tokens:5846
+------------------------------
+Statics of big document
+------------------------------
+filename:L_level_1
+num. of tokens:1757
+------------------------------
+Statics of big document
+------------------------------
+filename:N_level_1
+num. of tokens:4204
+------------------------------
+Statics of big document
+------------------------------
+filename:Q_level_1
+num. of tokens:9384
+------------------------------
+Statics of big document
+------------------------------
+filename:P_level_1
+num. of tokens:4735
+------------------------------
+Statics of big document
+------------------------------
+filename:S_level_1
+num. of tokens:3049
+------------------------------
+Statics of big document
+------------------------------
+filename:R_level_1
+num. of tokens:2763
+------------------------------
+Statics of big document
+------------------------------
+filename:U_level_1
+num. of tokens:1181
+------------------------------
+Statics of big document
+------------------------------
+filename:T_level_1
+num. of tokens:9416
+------------------------------
+Statics of big document
+------------------------------
+filename:W_level_1
+num. of tokens:2912
+------------------------------
+Statics of big document
+------------------------------
+filename:V_level_1
+num. of tokens:6274
+------------------------------
+Statics of big document
+------------------------------
+filename:X_level_1
+num. of tokens:1277
+------------------------------
+Statics of big document
+------------------------------
+filename:Z_level_1
+num. of tokens:2543
+------------------------------

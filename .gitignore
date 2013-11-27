@@ -1,5 +1,7 @@
 *.swp
 htmls/
+big_document/*
+
 =======
 *.py[cod]
 
