@@ -1,6 +1,8 @@
 *.swp
 htmls/
 big_document/*
+log/
+classifier/
 
 =======
 *.py[cod]
