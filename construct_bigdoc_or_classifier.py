@@ -254,26 +254,19 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
     feature_map_character={};
     num_of_training_instance=0;
     #============================================================ 
+    #オランダ語コーパスとトンプソン木をフラッグによって，訓練に使うかどうかを分岐
     if dutch==True:
         dir_path='../dutch_folktale_corpus/given_script/translated_big_document/leaf_layer/' 
         #------------------------------------------------------------
         #文書を全部よみこんで，training_mapの下に登録する．前処理みたいなもん
         for filepath in make_filelist(dir_path):
-            #ここを書き換えてアルファベットを読める様に
             if level==1:
-                #MTが終わるまで実験はおあずけ
-                print filepath
                 alphabet_label_list=(os.path.basename(filepath)).split('_')[:-1];
-                print alphabet_label_list
             elif level==2:
                 alphabet_label=(os.path.basename(filepath))[0];
             tokens_in_label=word_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
             if stop==True:
                 tokens_in_label=[t for t in tokens_in_label if t not in stopwords and t not in symbols];
-            #無理にここで素性抽出しなくてもいいような気がする 
-            if tfidf==False:
-                #事前にall素性として追加しておく
-                feature_map_character=make_feature_set(feature_map_character, None, [tokens_in_label], 'all', stop);
             if level==1:
                 for alphabet_label in alphabet_label_list:
                     if alphabet_label in training_map:
@@ -285,15 +278,19 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                     training_map[alphabet_label].append(tokens_in_label);
                 else:
                     training_map[alphabet_label]=[tokens_in_label];
-
-        
-        sys.exit()
         #------------------------------------------------------------ 
         #training_mapへの登録が全部おわってから，素性抽出を行う 
         if tfidf==False:
             #A~Zのラベル間でcapな単語を求めだす
             #全ラベル間でcapな単語を作成して，{token}:'capなラベルをアンダースコア接続で表現'
+            #TODO この関数にミスがあると思う．複数のラベルが取得できていない
             feature_map_character=make_soft_char_feature(training_map, feature_map_character, stop);
+            doc_token=[];
+            for label in training_map:
+                doc=training_map[label];
+                doc_token+=doc; 
+            feature_map_character=make_feature_set(feature_map_character, None, doc_token, 'all', stop);
+        #------------------------------------------------------------ 
         elif tfidf==True:
             docs=[];
             for label in training_map:
@@ -323,42 +320,37 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             print u'Training instances for {} from thompson tree:{}'.format(key_1st,len(tokens_set_stack));
             num_of_training_instance+=len(tokens_set_stack);
             #------------------------------------------------------------ 
-            #素性をunigram素性にする
-            if tf_idf==False:
-                #文字情報の素性関数を作成する
-                feature_map_character=make_feature_set(feature_map_character,
-                                                       key_1st, tokens_set_stack, 'hard', stop);
-                feature_map_character=make_feature_set(feature_map_character,
-                                                       key_1st, tokens_set_stack, 'all', stop);
-                """
-                if key_1st in training_map:
-                    training_map[key_1st]+=tokens_set_stack;
-                else:
-                    training_map[key_1st]=tokens_set_stack;
-                """ 
-            #------------------------------------------------------------ 
-            #素性をTFIDFで作成する
-            #TODO ここに書くと，ほかのツリーの単語の重みは確認できないのでは？
-            if tfidf==True:
-                docs=[];
-                for label in training_map:
-                    doc=training_map[label];
-                    docs+=doc;
-                tfidf_score_map=tf_idf.tf_idf_test(docs);
-                for token_key in tfidf_score_map:
-                    if token_key not in feature_map_character: 
-                        feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
-                                                                                tfidf_score_map[token_key])];
-                    else:
-                        feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
-                                                                                tfidf_score_map[token_key]));
-            #------------------------------------------------------------ 
             #作成した文書ごとのtokenをtrainingファイルを管理するmapに追加
             #TFIDFがTrueだろうが，Falseだろうが関係なく，ここは実行される
             if key_1st in training_map:
                 training_map[key_1st]+=tokens_set_stack;
             else:
                 training_map[key_1st]=tokens_set_stack;
+        #------------------------------------------------------------ 
+        #素性をunigram素性にする
+        if tfidf==False:
+            for label in training_map:
+                tokens_set_stack=training_map[label];
+                #文字情報の素性関数を作成する
+                feature_map_character=make_feature_set(feature_map_character,
+                                                       label, tokens_set_stack, 'hard', stop);
+                feature_map_character=make_feature_set(feature_map_character,
+                                                       label, tokens_set_stack, 'all', stop);
+        #------------------------------------------------------------ 
+        #training_mapに登録がすべて終わってから素性抽出
+        elif tfidf==True:
+            docs=[];
+            for label in training_map:
+                doc=training_map[label];
+                docs+=doc;
+            tfidf_score_map=tf_idf.tf_idf_test(docs);
+            for token_key in tfidf_score_map:
+                if token_key not in feature_map_character: 
+                    feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
+                                                                            tfidf_score_map[token_key])];
+                else:
+                    feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
+                                                                            tfidf_score_map[token_key]));
     #============================================================  
     #作成した素性辞書をjsonに出力(TFIDF)が空の時は空の辞書が出力される
     with codecs.open('classifier/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
@@ -461,8 +453,7 @@ def split_for_train_test(out_lines_stack):
     #ここでtrainとtestに分けられるはず
     all_instances=len(out_lines_stack);
     random.shuffle(out_lines_stack);
-    num_instance_for_train=int(0.9*all_instances);
-    print num_instance_for_train
+    num_instance_for_train=int(0.95*all_instances);
     instances_for_train=[];
     for iter_index, instance in enumerate(out_lines_stack):
         instances_for_train.append(instance);
@@ -489,10 +480,13 @@ def scalling_data(train_pathname):
     return scaled_file;
 
 def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno):
+    #============================================================ 
     for correct_label_key in training_map:
         ratio_map={'C':0, 'N':0};
         out_lines_stack=[];
         instances_in_correct_label=training_map[correct_label_key];
+        #------------------------------------------------------------  
+        #正例の処理をする
         for one_instance in instances_in_correct_label:
             ratio_map['C']+=1;
             one_instance_stack=[];
@@ -505,6 +499,8 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
             one_instance_stack.sort();
             one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
             out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+        #------------------------------------------------------------  
+        #負例の処理を行う．重みかアンダーサンプリングかのオプションを設定している
         if put_weight_constraint==True and under_sampling==False:
             for incorrect_label_key in training_map:
                 if not correct_label_key==incorrect_label_key:
@@ -529,7 +525,8 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
             else:
                 weight_parm='-w-1 {} -w1 {} -s 2 -q'.format(int(ratio_c*100), int(ratio_n*100));
             weight_parm_svm='-w-1 {} -w1 {}'.format(int(ratio_c*100), int(ratio_n*100));
-            #outfile.close();
+        
+        #------------------------------------------------------------  
         elif put_weight_constraint==False and under_sampling==True:
             #各ラベルのインスタンス比率を求める
             num_of_incorrect_training_instance=0;
@@ -557,8 +554,12 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                                
                     if instance_index==instance_ratio_map[label]: continue;
             weight_parm='-s 2 -q';
+        
+        #------------------------------------------------------------  
         elif put_weight_constraint==True and under_sampling==True:
             sys.exit('Both put_weight_constraint and under_sampling is True');
+        
+        #------------------------------------------------------------  
         elif put_weight_constraint==False and under_sampling==False:
             for incorrect_label_key in training_map:
                 if not correct_label_key==incorrect_label_key:
@@ -578,6 +579,9 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                     one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
                     out_lines_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
             weight_parm='';
+        
+        #------------------------------------------------------------  
+        #ファイルに書き出しの処理をおこなう
         #インドメインでのtrainとtestに分離
         instances_for_train, instances_for_test=split_for_train_test(out_lines_stack);
         with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno, 'w', 'utf-8') as f:
