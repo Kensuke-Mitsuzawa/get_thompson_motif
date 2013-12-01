@@ -25,7 +25,7 @@ symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 #option parameter
 put_weight_constraint=True;
 under_sampling=False;
-
+level=1;
 def make_filelist(dir_path):
     file_list=[];
     for root, dirs, files in os.walk(dir_path):
@@ -248,6 +248,7 @@ def make_numerical_feature(feature_map_character):
     return feature_map_numeric;
 
 def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno):
+    exno=str(exno);
     training_map={};
     feature_map_character={};
     num_of_training_instance=0;
@@ -256,9 +257,13 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         for filepath in make_filelist(dir_path):
             #ここを書き換えてアルファベットを読める様に
             #A_B_C_Dみたいなイメージだと，_splitで[A, B, C, D...]みたいになるはずだから
-            #if level==1:
-            #    alphabet_label_list=(os.path.basename(filepath)).split('_');
-            alphabet_label=(os.path.basename(filepath))[0];
+            if level==1:
+                #MTが終わるまで実験はおあずけ
+                print filepath
+                alphabet_label_list=(os.path.basename(filepath)).split('_')[:-1];
+                print alphabet_label_list
+            elif level==2:
+                alphabet_label=(os.path.basename(filepath))[0];
             tokens_in_label=word_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
             if stop==True:
                 tokens_in_label=[t for t in tokens_in_label if t not in stopwords and t not in symbols];
@@ -266,10 +271,20 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 #事前にall素性として追加しておく
                 feature_map_character=make_feature_set(feature_map_character, None, [tokens_in_label], 'all', stop);
             #複数のアルファベットラベルを読めるようにする
-            if alphabet_label in training_map:
-                training_map[alphabet_label].append(tokens_in_label);
-            else:
-                training_map[alphabet_label]=[tokens_in_label];
+            if level==1:
+                for alphabet_label in alphabet_label_list:
+                    if alphabet_label in training_map:
+                        training_map[alphabet_label].append(tokens_in_label);
+                    else:
+                        training_map[alphabet_label]=[tokens_in_label];
+            elif level==2:
+                if alphabet_label in training_map:
+                    training_map[alphabet_label].append(tokens_in_label);
+                else:
+                    training_map[alphabet_label]=[tokens_in_label];
+
+        
+        sys.exit()
         if tfidf==False:
             #A~Zのラベル間でunionな単語を求めだす
             #全ラベル間でunionな単語を作成して，{token}:'unionなラベルをアンダースコア接続で表現'
@@ -315,8 +330,8 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             docs=[];
             for label in training_map:
                 doc=training_map[label];
-                docs+=doc;    
-            tfidf_score_map=tf_idf.tf_idf_test(doc);
+                docs+=doc;
+            tfidf_score_map=tf_idf.tf_idf_test(docs);
             for token_key in tfidf_score_map:
                 if token_key not in feature_map_character: 
                     feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
@@ -324,6 +339,8 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 else:
                     feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
                                                                                 tfidf_score_map[token_key]));
+    with codecs.open('classifier/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
+        json.dump(tfidf_score_map, f, indent=4, ensure_ascii=False);
     with codecs.open('classifier/feature_map_character_1st.json.'+exno, 'w', 'utf-8') as f:
         json.dump(feature_map_character, f, indent=4, ensure_ascii=False);
     #ここで文字情報の素性関数を数字情報の素性関数に変換する
@@ -453,7 +470,7 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                         one_instance_stack=list(set(one_instance_stack));
                         one_instance_stack.sort();
                         one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-                        out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+                        out_lines_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
                         
             ratio_c=float(ratio_map['C']) / (ratio_map['C']+ratio_map['N']);
             ratio_n=float(ratio_map['N']) / (ratio_map['C']+ratio_map['N']);
@@ -484,15 +501,10 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                                                                              feature_map_character,
                                                                              feature_map_numeric, tfidf,
                                                                              one_instance_stack)
-                            """ 
-                            for character_feature in feature_map_character[token]:
-                                feature_number=feature_map_numeric[character_feature];  
-                                one_instance_stack.append(feature_number);
-                                """
                     one_instance_stack=list(set(one_instance_stack));
                     one_instance_stack.sort();
                     one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-                    out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+                    out_lines_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
                                
                     if instance_index==instance_ratio_map[label]: continue;
             weight_parm='-s 2 -q';
@@ -515,7 +527,7 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                     one_instance_stack=list(set(one_instance_stack));
                     one_instance_stack.sort();
                     one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-                    out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+                    out_lines_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
             weight_parm='';
 
         with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.data.'+exno, 'w', 'utf-8') as f:
