@@ -33,8 +33,11 @@ def tf_idf_test(docs):
         tokens += doc  
     A = nltk.TextCollection(documents)  
     token_types = set(tokens)  
-    for token_type in token_types:  
-        tf_idf_score[token_type]=A.tf_idf(token_type, tokens)
+    for token_type in token_types:
+        if not A.tf_idf(token_type, tokens)==0: 
+            tf_idf_score[token_type]=math.log(A.tf_idf(token_type, tokens));
+        else:
+            tf_idf_score[token_type]=0;
     return tf_idf_score;
 
 def main(document_set):
