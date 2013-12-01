@@ -10,7 +10,7 @@ import pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
 from liblinearutil import *;
 from svmutil import *;
-import return_range;
+import return_range, tf_idf;
 import numpy;
 from nltk.corpus import stopwords;
 from nltk import word_tokenize; 
@@ -24,6 +24,8 @@ stopwords = stopwords.words('english');
 symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 #option parameter
 put_weight_constraint=True;
+under_sampling=False;
+
 def make_filelist(dir_path):
     file_list=[];
     for root, dirs, files in os.walk(dir_path):
@@ -245,27 +247,49 @@ def make_numerical_feature(feature_map_character):
             feature_num_max+=1;
     return feature_map_numeric;
 
-def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson):
+def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno):
     training_map={};
     feature_map_character={};
     num_of_training_instance=0;
     if dutch==True:
-        #TODO ここ，きちんと文書単位に変更する．bigdocumentの状態はよくない
-        dir_path='../dutch_folktale_corpus/given_script/translated_big_document/second_layer/' 
+        dir_path='../dutch_folktale_corpus/given_script/translated_big_document/leaf_layer/' 
         for filepath in make_filelist(dir_path):
+            #ここを書き換えてアルファベットを読める様に
+            #A_B_C_Dみたいなイメージだと，_splitで[A, B, C, D...]みたいになるはずだから
+            #if level==1:
+            #    alphabet_label_list=(os.path.basename(filepath)).split('_');
             alphabet_label=(os.path.basename(filepath))[0];
             tokens_in_label=word_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
             if stop==True:
                 tokens_in_label=[t for t in tokens_in_label if t not in stopwords and t not in symbols];
-            #事前にall素性として追加しておく
-            feature_map_character=make_feature_set(feature_map_character, None, [tokens_in_label], 'all', stop);
+            if tfidf==False:
+                #事前にall素性として追加しておく
+                feature_map_character=make_feature_set(feature_map_character, None, [tokens_in_label], 'all', stop);
+            #複数のアルファベットラベルを読めるようにする
             if alphabet_label in training_map:
                 training_map[alphabet_label].append(tokens_in_label);
             else:
                 training_map[alphabet_label]=[tokens_in_label];
-        #A~Zのラベル間でunionな単語を求めだす
-        #全ラベル間でunionな単語を作成して，{token}:'unionなラベルをアンダースコア接続で表現'
-        feature_map_character=make_soft_char_feature(training_map, feature_map_character, stop);
+        if tfidf==False:
+            #A~Zのラベル間でunionな単語を求めだす
+            #全ラベル間でunionな単語を作成して，{token}:'unionなラベルをアンダースコア接続で表現'
+            feature_map_character=make_soft_char_feature(training_map, feature_map_character, stop);
+        #ここに記述すると，tfidfのスコアリングはラベル内の文書に対して
+        elif tfidf==True:
+            docs=[];
+            for label in training_map:
+                doc=training_map[label];
+                docs+=doc;
+            tfidf_score_map=tf_idf.tf_idf_test(docs);
+            #tfidf_score_map=tf_idf.main(doc);
+            for token_key in tfidf_score_map:
+                if token_key not in feature_map_character:
+                    feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key, 
+                                                                           tfidf_score_map[token_key])]
+                else:
+                    feature_map_character[token_key].append(u'all_{}_{}_tfidf'.\
+                                                            format(token_key,
+                                                                   tfidf_score_map[token_key]));
         for alphabet_label in training_map:
             print u'The num. of training instance for {} in dutch corpus is {}'.format(alphabet_label, len(training_map[alphabet_label]));
         print u'-'*30;
@@ -277,25 +301,41 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson)
             print u'-'*30;
             print u'Training instances for {} from thompson tree:{}'.format(key_1st,len(tokens_set_stack));
             num_of_training_instance+=len(tokens_set_stack);
-            #文字情報の素性関数を作成する
-            feature_map_character=make_feature_set(feature_map_character, key_1st, tokens_set_stack, 'hard', stop);
-            feature_map_character=make_feature_set(feature_map_character, key_1st, tokens_set_stack, 'all', stop);
+            if tf_idf==False:
+                #文字情報の素性関数を作成する
+                feature_map_character=make_feature_set(feature_map_character,
+                                                       key_1st, tokens_set_stack, 'hard', stop);
+                feature_map_character=make_feature_set(feature_map_character,
+                                                       key_1st, tokens_set_stack, 'all', stop);
             if key_1st in training_map:
                 training_map[key_1st]+=tokens_set_stack;
             else:
                 training_map[key_1st]=tokens_set_stack;
-    
-    with codecs.open('classifier/feature_map_character_1st.json', 'w', 'utf-8') as f:
+        if tfidf==True:
+            docs=[];
+            for label in training_map:
+                doc=training_map[label];
+                docs+=doc;    
+            tfidf_score_map=tf_idf.tf_idf_test(doc);
+            for token_key in tfidf_score_map:
+                if token_key not in feature_map_character: 
+                    feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
+                                                                                tfidf_score_map[token_key])];
+                else:
+                    feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
+                                                                                tfidf_score_map[token_key]));
+    with codecs.open('classifier/feature_map_character_1st.json.'+exno, 'w', 'utf-8') as f:
         json.dump(feature_map_character, f, indent=4, ensure_ascii=False);
     #ここで文字情報の素性関数を数字情報の素性関数に変換する
     feature_map_numeric=make_numerical_feature(feature_map_character);
-    with codecs.open('classifier/feature_map_numeric_1st.json', 'w', 'utf-8') as f:
+    
+    with codecs.open('classifier/feature_map_numeric_1st.json.'+exno, 'w', 'utf-8') as f:
         json.dump(feature_map_numeric, f, indent=4, ensure_ascii=False);
 
     feature_space=len(feature_map_numeric);
     print u'The number of feature is {}'.format(feature_space)
     #自分で作成したトレーニングモデルがちょっと信用できないので，libsvmも使ってみる
-    out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character);
+    out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno);
    
     """
     num_of_correct_training_instance=0;
@@ -364,50 +404,131 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson)
         with codecs.open('./classifier/1st_layer/'+filename, 'w', 'utf-8') as f:
             pickle.dump(estimator, f);
             """
-def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character):
-    ratio_map={'C':0, 'N':0};
+
+def make_format_from_training_map(token ,training_map, feature_map_character, feature_map_numeric, tfidf, one_instance_stack):
+    if tfidf==True:
+        if token in feature_map_character:
+            for character_feature in feature_map_character[token]:
+                vector_score=character_feature.split(u'_')[2];
+                feature_number=feature_map_numeric[character_feature];
+                one_instance_stack.append( (feature_number, vector_score) );
+    elif tfidf==False:
+        #liblinearのフォーマットに対応させるために(0始まりは認められないので)
+        for character_feature in feature_map_character[token]:
+            feature_number=feature_map_numeric[character_feature];  
+            one_instance_stack.append((feature_number, 1));
+    return one_instance_stack;
+
+def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno):
     for correct_label_key in training_map:
-        outfile=codecs.open('./classifier/libsvm_format/'+correct_label_key+'.data', 'w', 'utf-8');
+        ratio_map={'C':0, 'N':0};
+        out_lines_stack=[];
+        #outfile=codecs.open('./classifier/libsvm_format/'+correct_label_key+'.data', 'w', 'utf-8');
         instances_in_correct_label=training_map[correct_label_key];
         for one_instance in instances_in_correct_label:
             ratio_map['C']+=1;
             one_instance_stack=[];
             for token in one_instance:
-                #liblinearのフォーマットに対応させるために(0始まりは認められないので)
-                for character_feature in feature_map_character[token]:
-                    feature_number=feature_map_numeric[character_feature];  
-                    one_instance_stack.append(feature_number);
+                one_instance_stack=make_format_from_training_map(token, 
+                                                                 training_map,
+                                                                 feature_map_character,
+                                                                 feature_map_numeric, tfidf, one_instance_stack)
             one_instance_stack=list(set(one_instance_stack));
             one_instance_stack.sort();
-            one_instance_stack=[str(number)+u':1' for number in one_instance_stack];
-            outfile.write(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
-        for incorrect_label_key in training_map:
-            if not correct_label_key==incorrect_label_key:
-                instances_in_incorrect_label=training_map[incorrect_label_key];
-                for one_instance in instances_in_incorrect_label:
-                    ratio_map['N']+=1;
-                    one_instance_stack=[];
-                    for token in one_instance:
-                        for character_feature in feature_map_character[token]:
-                            feature_number=feature_map_numeric[character_feature];  
-                            one_instance_stack.append(feature_number);
-                    one_instance_stack=list(set(one_instance_stack))
+            one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
+            out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+            #outfile.write(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+        if put_weight_constraint==True and under_sampling==False:
+            for incorrect_label_key in training_map:
+                if not correct_label_key==incorrect_label_key:
+                    instances_in_incorrect_label=training_map[incorrect_label_key];
+                    for one_instance in instances_in_incorrect_label:
+                        ratio_map['N']+=1;
+                        one_instance_stack=[];
+                        for token in one_instance:
+                            one_instance_stack=make_format_from_training_map(token, 
+                                                                 training_map,
+                                                                 feature_map_character,
+                                                                 feature_map_numeric, tfidf, one_instance_stack)
+                        one_instance_stack=list(set(one_instance_stack));
+                        one_instance_stack.sort();
+                        one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
+                        out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+                        
+            ratio_c=float(ratio_map['C']) / (ratio_map['C']+ratio_map['N']);
+            ratio_n=float(ratio_map['N']) / (ratio_map['C']+ratio_map['N']);
+            if int(ratio_c*100)==0:
+                weight_parm='-w-1 {} -w1 {} -s 2 -q'.format(1, int(ratio_n*100));
+            else:
+                weight_parm='-w-1 {} -w1 {} -s 2 -q'.format(int(ratio_c*100), int(ratio_n*100));
+            weight_parm_svm='-w-1 {} -w1 {}'.format(int(ratio_c*100), int(ratio_n*100));
+            #outfile.close();
+        elif put_weight_constraint==False and under_sampling==True:
+            #TODO 負例のインスタンスを適当にシャッフルできればなおよし
+            #各ラベルのインスタンス比率を求める
+            num_of_incorrect_training_instance=0;
+            instance_ratio_map={};
+            for label in training_map:
+                if label!=correct_label_key:
+                    num_of_incorrect_training_instance+=len(training_map[label]);
+            for label in training_map:
+                if label!=correct_label_key:
+                    instance_ratio_map[label]=int((float(len(training_map[label]))/num_of_incorrect_training_instance)*ratio_map['C']);
+            for label in training_map:
+                if label!=correct_label_key:
+                    for instance_index, instances_in_incorrect_label in enumerate(training_map[label]):
+                        one_instance_stack=[];
+                        for token in one_instance:
+                            one_instance_stack=make_format_from_training_map(token, 
+                                                                             training_map,
+                                                                             feature_map_character,
+                                                                             feature_map_numeric, tfidf,
+                                                                             one_instance_stack)
+                            """ 
+                            for character_feature in feature_map_character[token]:
+                                feature_number=feature_map_numeric[character_feature];  
+                                one_instance_stack.append(feature_number);
+                                """
+                    one_instance_stack=list(set(one_instance_stack));
                     one_instance_stack.sort();
-                    one_instance_stack=[str(number)+u':1' for number in one_instance_stack];
-                    outfile.write(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
-        outfile.close();
-        train_y, train_x=svm_read_problem('./classifier/libsvm_format/'+correct_label_key+'.data'); 
-        ratio_c=float(ratio_map['C']) / (ratio_map['C']+ratio_map['N']);
-        ratio_n=float(ratio_map['N']) / (ratio_map['C']+ratio_map['N']);
-        weight_parm='-w-1 {} -w1 {} -s 2 -q'.format(int(ratio_c*100), int(ratio_n*100));
-        weight_parm_svm='-w-1 {} -w1 {}'.format(int(ratio_c*100), int(ratio_n*100));
+                    one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
+                    out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+                               
+                    if instance_index==instance_ratio_map[label]: continue;
+            weight_parm='-s 2 -q';
+        elif put_weight_constraint==True and under_sampling==True:
+            sys.exit('Both put_weight_constraint and under_sampling is True');
+        elif put_weight_constraint==False and under_sampling==False:
+            for incorrect_label_key in training_map:
+                if not correct_label_key==incorrect_label_key:
+                    instances_in_incorrect_label=training_map[incorrect_label_key];
+                    for one_instance in instances_in_incorrect_label:
+                        ratio_map['N']+=1;
+                        one_instance_stack=[];
+                        for token in one_instance:
+                            one_instance_stack=make_format_from_training_map(token, 
+                                                                             training_map,
+                                                                             feature_map_character,
+                                                                             feature_map_numeric, tfidf,
+                                                                             one_instance_stack)
+                           
+                    one_instance_stack=list(set(one_instance_stack));
+                    one_instance_stack.sort();
+                    one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
+                    out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+            weight_parm='';
+
+        with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.data.'+exno, 'w', 'utf-8') as f:
+            f.writelines(out_lines_stack);
+        
+        train_y, train_x=svm_read_problem('./classifier/libsvm_format/'+correct_label_key+'.data.'+exno); 
         print weight_parm
         model=train(train_y, train_x, weight_parm);
         #svm_model=svm_train(train_y, train_x, weight_parm_svm);
-        save_model('./classifier/liblinear/'+correct_label_key+'.liblin.model', model);
+        save_model('./classifier/liblinear/'+correct_label_key+'.liblin.model.'+exno, model);
         #svm_save_model('./classifier/libsvm/'+correct_label_key+'.svm.model', svm_model);
 
-def main(level, mode, all_thompson_tree, stop, dutch, thompson):
+def main(level, mode, all_thompson_tree, stop, dutch, thompson, tfidf, exno):
     level=int(level);
     level_big_document={};
     #result_stack=return_range.find_sub_tree(input_motif_no, all_thompson_tree) 
@@ -440,16 +561,36 @@ def main(level, mode, all_thompson_tree, stop, dutch, thompson):
         feature_max=1;
         num_of_training_instance=0;
         if level==1:
-            construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson)
+            construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description='');
-    parser.add_argument('-level', '--level', help='level which you want to construct big doc.', default=1)
-    parser.add_argument('-mode', '--mode', help='classification problem(class) or big-document(big)', required=True);
-    parser.add_argument('-stop', help='If added, stop words are eliminated from training file', action='store_true');
-    parser.add_argument('-dutch', help='If added, document from dutch folktale database is added to training corpus', action='store_true');
-    parser.add_argument('-thompson', help='If added, outline from thompson tree is added to training corpus', action='store_true');
+    parser.add_argument('-level', '--level',
+                        help='level which you want to construct big doc.', default=1)
+    parser.add_argument('-mode', '--mode',
+                        help='classification problem(class) or big-document(big)', required=True);
+    parser.add_argument('-stop',
+                        help='If added, stop words are eliminated from training file', action='store_true');
+    parser.add_argument('-dutch', 
+                        help='If added, document from dutch folktale database is added to training corpus', 
+                        action='store_true');
+    parser.add_argument('-thompson', 
+                        help='If added, outline from thompson tree is added to training corpus', 
+                        action='store_true');
+    parser.add_argument('-tfidf', 
+                        help='If added, tfidf is used for feature scoring instead of unigram feature', 
+                        action='store_true');
+    parser.add_argument('-exno', '--experiment_no',
+                        help='save in different file',
+                        default=0);
     args=parser.parse_args();
     dir_path='./parsed_json/'
     all_thompson_tree=return_range.load_all_thompson_tree(dir_path);
-    result_stack=main(args.level, args.mode, all_thompson_tree, args.stop, args.dutch, args.thompson);
+    result_stack=main(args.level, 
+                      args.mode, 
+                      all_thompson_tree, 
+                      args.stop, 
+                      args.dutch, 
+                      args.thompson, 
+                      args.tfidf,
+                      args.experiment_no);
