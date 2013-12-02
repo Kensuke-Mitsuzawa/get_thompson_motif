@@ -5,7 +5,7 @@
 """
 __date__='2013/12/02'
 libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
-
+#TODO 開発モードを入れる（トレーニング事例のインデックスをめちゃ少なくするとか）
 import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
 from liblinearutil import *;
@@ -280,6 +280,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                     training_map[alphabet_label]=[tokens_in_label];
         #------------------------------------------------------------ 
         #training_mapへの登録が全部おわってから，素性抽出を行う 
+        #easy domain adaptation用にここで工夫ができるはず
         if tfidf==False:
             #A~Zのラベル間でcapな単語を求めだす
             #全ラベル間でcapな単語を作成して，{token}:'capなラベルをアンダースコア接続で表現'
@@ -328,6 +329,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 training_map[key_1st]=tokens_set_stack;
         #------------------------------------------------------------ 
         #素性をunigram素性にする
+        #easy domain adaptation用にここで工夫ができるはず
         if tfidf==False:
             for label in training_map:
                 tokens_set_stack=training_map[label];
