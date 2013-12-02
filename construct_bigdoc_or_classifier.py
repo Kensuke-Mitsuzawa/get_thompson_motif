@@ -10,7 +10,7 @@ import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
 from liblinearutil import *;
 from svmutil import *;
-import return_range, tf_idf;
+import return_range, tf_idf, scale_grid;
 import numpy;
 from nltk.corpus import stopwords;
 from nltk import word_tokenize; 
@@ -26,6 +26,7 @@ symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 put_weight_constraint=True;
 under_sampling=False;
 level=1;
+dev_limit=1;
 def make_filelist(dir_path):
     file_list=[];
     for root, dirs, files in os.walk(dir_path):
@@ -247,7 +248,8 @@ def make_numerical_feature(feature_map_character):
             feature_num_max+=1;
     return feature_map_numeric;
 
-def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno):
+def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno, args):
+    dev_mode=args.dev;
     exno=str(exno);
     training_map={};
     tfidf_score_map={};
@@ -259,7 +261,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         dir_path='../dutch_folktale_corpus/given_script/translated_big_document/leaf_layer/' 
         #------------------------------------------------------------
         #文書を全部よみこんで，training_mapの下に登録する．前処理みたいなもん
-        for filepath in make_filelist(dir_path):
+        for fileindex, filepath in enumerate(make_filelist(dir_path)):
             if level==1:
                 alphabet_label_list=(os.path.basename(filepath)).split('_')[:-1];
             elif level==2:
@@ -278,6 +280,8 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                     training_map[alphabet_label].append(tokens_in_label);
                 else:
                     training_map[alphabet_label]=[tokens_in_label];
+            if dev_mode==True and fileindex==dev_limit:
+                break;
         #------------------------------------------------------------ 
         #training_mapへの登録が全部おわってから，素性抽出を行う 
         #easy domain adaptation用にここで工夫ができるはず
@@ -313,7 +317,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
     #============================================================ 
     #Thompsonのインデックスツリーを訓練データに加える
     if thompson==True: 
-        for key_1st in all_thompson_tree:
+        for key_index, key_1st in enumerate(all_thompson_tree):
             parent_node=key_1st;
             class_training_stack=construct_class_training_1st(parent_node, all_thompson_tree);
             tokens_set_stack=cleanup_class_stack(class_training_stack, stop);
@@ -327,6 +331,8 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 training_map[key_1st]+=tokens_set_stack;
             else:
                 training_map[key_1st]=tokens_set_stack;
+            if dev_mode==True and key_index==dev_limit:
+                break;
         #------------------------------------------------------------ 
         #素性をunigram素性にする
         #easy domain adaptation用にここで工夫ができるはず
@@ -457,29 +463,17 @@ def split_for_train_test(out_lines_stack):
     random.shuffle(out_lines_stack);
     num_instance_for_train=int(0.95*all_instances);
     instances_for_train=[];
-    for iter_index, instance in enumerate(out_lines_stack):
-        instances_for_train.append(instance);
-        out_lines_stack.pop(iter_index);
-        if iter_index==num_instance_for_train:
-            print  'breaked'
-            break;
-    print len(out_lines_stack)
-    instances_for_test=out_lines_stack;
+    instances_for_test=[];
+    instances_for_train=out_lines_stack[:num_instance_for_train];
+    instances_for_test=out_lines_stack[num_instance_for_train:]
     return instances_for_train, instances_for_test;
 
-def scalling_data(train_pathname):
-    svmscale_exe = "/home/kensuke-mi/opt/libsvm-3.17/svm-scale";
-
-    assert os.path.exists(train_pathname),"training file not found"
-    file_name = os.path.split(train_pathname)[1]
-    scaled_file = file_name + ".scale"
-    model_file = file_name + ".model"
-    range_file = file_name + ".range"
-
-    cmd = '{0} -s "{1}" "{2}" > "{3}"'.format(svmscale_exe, range_file, train_pathname, scaled_file)
-    print('Scaling training data...')
-    #subprocess.Popen(cmd, shell = True, stdout = subprocess.PIPE).communicate()
-    return scaled_file;
+def close_test(classifier_path, test_path):
+    y, x = svm_read_problem(test_path);
+    m = load_model(classifier_path);
+    p_label, p_acc, p_val = predict(y, x, m);
+    ACC, MSE, SCC = evaluations(y, p_label); 
+    print ACC, MSE, SCC;
 
 def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno):
     #============================================================ 
@@ -590,16 +584,22 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
             f.writelines(instances_for_train);
         with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno, 'w', 'utf-8') as f:
             f.writelines(instances_for_test);
-        #scalled_filepath=scalling_data('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno)
-        train_y, train_x=svm_read_problem('./classifier/libsvm_format/'+correct_label_key+'.data.'+exno); 
-        #train_y, train_x=svm_read_problem(scalled_filepath); 
+        return_value=scale_grid.main('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno,
+                        './classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno,
+                        False);
+        weight_parm+=u' -c {} -p {}'.format(return_value[0], return_value[1]);
+        train_y, train_x=svm_read_problem('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno); 
         print weight_parm
         model=train(train_y, train_x, weight_parm);
-        #svm_model=svm_train(train_y, train_x, weight_parm_svm);
         save_model('./classifier/liblinear/'+correct_label_key+'.liblin.model.'+exno, model);
+        close_test('./classifier/liblinear/'+correct_label_key+'.liblin.model.'+exno,
+                   './classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno);
+        os.remove('{}.traindata.{}.out'.format(correct_label_key, exno));
+        #train_y, train_x=svm_read_problem(scalled_filepath); 
+        #svm_model=svm_train(train_y, train_x, weight_parm_svm);
         #svm_save_model('./classifier/libsvm/'+correct_label_key+'.svm.model', svm_model);
 
-def main(level, mode, all_thompson_tree, stop, dutch, thompson, tfidf, exno):
+def main(level, mode, all_thompson_tree, stop, dutch, thompson, tfidf, exno, args):
     level=int(level);
     level_big_document={};
     #result_stack=return_range.find_sub_tree(input_motif_no, all_thompson_tree) 
@@ -632,7 +632,7 @@ def main(level, mode, all_thompson_tree, stop, dutch, thompson, tfidf, exno):
         feature_max=1;
         num_of_training_instance=0;
         if level==1:
-            construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno)
+            construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno, args)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description='');
@@ -654,6 +654,9 @@ if __name__=='__main__':
     parser.add_argument('-exno', '--experiment_no',
                         help='save in different file',
                         default=0);
+    parser.add_argument('-dev', '--dev',
+                        help='developping mode',
+                        action='store_true');
     args=parser.parse_args();
     dir_path='./parsed_json/'
     all_thompson_tree=return_range.load_all_thompson_tree(dir_path);
@@ -664,4 +667,5 @@ if __name__=='__main__':
                       args.dutch, 
                       args.thompson, 
                       args.tfidf,
-                      args.experiment_no);
+                      args.experiment_no,
+                      args);

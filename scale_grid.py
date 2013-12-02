@@ -35,7 +35,7 @@ def grid_search(target_file):
     #To check the C parameter for LIBLINEAR, use following command. "python grid.py -log2c -3,0,1 -log2g null -svmtrain ./train heart_scale"
     # from LIBLINEAR FAQ page: http://www.csie.ntu.edu.tw/~cjlin/liblinear/FAQ.html
     cmd = 'python {0} -log2c -3,0,1 -log2g null -svmtrain "{1}" "{2}"'.format(grid_py, liblinear_exe, target_file)
-    print cmd;
+    print 'command for grid search is following:\n{}'.format(cmd);
     print('Cross validation...')
     f = subprocess.Popen(cmd, shell = True, stdout=subprocess.PIPE).stdout
     line=''
@@ -46,7 +46,7 @@ def grid_search(target_file):
     #outline format is [local] 0.0 92.7184 (best c=0.125, rate=94.0543)
     processed_line=re.sub(ur'\[local\]\s\.+\(best\sc=(.+),\srate=(.+)\)', ur'\1 \2', last_line);
     c,rate=map(float, processed_line.split());
-    print('Best c={0}, rate={1}'.format(c,rate));
+    print('The result of grid search is Best c={0}, rate={1}'.format(c,rate));
     return c,rate;
 
 def main(train_pathname, devset_pathname, scale):
@@ -55,9 +55,8 @@ def main(train_pathname, devset_pathname, scale):
         c,rate=grid_search(scaled_filepath); 
         return c, rate, scaled_filepath, scaled_test_filepath;
     else:
-        scaled_filepath=train_pathname; 
-        c,rate=grid_search(scaled_filepath); 
-        return c, rate, scaled_filepath, None;
+        c,rate=grid_search(train_pathname); 
+        return c, rate, None, None;
 
 if __name__=='__main__':
     train_pathname=sys.argv[1];
