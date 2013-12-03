@@ -510,15 +510,26 @@ def make_format_from_training_map(token ,training_map, feature_map_character, fe
             one_instance_stack.append((feature_number, 1));
     return one_instance_stack;
 
-def split_for_train_test(out_lines_stack):
+def split_for_train_test(correct_instances_stack, incorrect_instances_stack, instace_lines_num_map):
     #ここでtrainとtestに分けられるはず
-    all_instances=len(out_lines_stack);
-    random.shuffle(out_lines_stack);
+    all_instances=len(correct_instances_stack)+len(incorrect_instances_stack);
+    random.shuffle(correct_instances_stack);
+    random.shuffle(incorrect_instances_stack);
+    #訓練用のインスタンス数
     num_instance_for_train=int(0.95*all_instances);
-    instances_for_train=[];
-    instances_for_test=[];
-    instances_for_train=out_lines_stack[:num_instance_for_train];
-    instances_for_test=out_lines_stack[num_instance_for_train:]
+    #テスト用のインスタンス数
+    num_instance_for_test=all_instances-num_instance_for_train;
+    #正例と負例の事例スタックから何行ずつとって来ればいいのか？を計算
+    #テスト用インスタンス数を２で割ったら，正例と負例から取って来るべき行数がわかるはず
+    num_of_instances_for_correct_incorrect=num_instance_for_test/2;
+    #スライス機能を使って，テスト用のインスタンスを獲得
+    instances_for_test=correct_instances_stack[:num_of_instances_for_correct_incorrect]\
+            +incorrect_instances_stack[:num_of_instances_for_correct_incorrect];
+    #スライス機能を使って，訓練用のインスタンスを獲得
+    instances_for_train=correct_instances_stack[num_of_instances_for_correct_incorrect:]\
+            +incorrect_instances_stack[num_of_instances_for_correct_incorrect:];
+    #instances_for_train=out_lines_stack[:num_instance_for_train];
+    #instances_for_test=out_lines_stack[num_instance_for_train:]
     return instances_for_train, instances_for_test;
 
 def close_test(classifier_path, test_path):
@@ -532,13 +543,15 @@ def close_test(classifier_path, test_path):
 def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno):
     #============================================================ 
     for correct_label_key in training_map:
-        ratio_map={'C':0, 'N':0};
+        instance_lines_num_map={'C':0, 'N':0};
+        lines_for_correct_instances_stack=[];
+        lines_for_incorrect_instances_stack=[];
         out_lines_stack=[];
         instances_in_correct_label=training_map[correct_label_key];
         #------------------------------------------------------------  
         #正例の処理をする
         for one_instance in instances_in_correct_label:
-            ratio_map['C']+=1;
+            instance_lines_num_map['C']+=1;
             one_instance_stack=[];
             for token in one_instance:
                 one_instance_stack=make_format_from_training_map(token, 
@@ -548,7 +561,7 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
             one_instance_stack=list(set(one_instance_stack));
             one_instance_stack.sort();
             one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-            out_lines_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+            lines_for_correct_instances_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
         #------------------------------------------------------------  
         #負例の処理を行う．重みかアンダーサンプリングかのオプションを設定している
         if put_weight_constraint==True and under_sampling==False:
@@ -556,7 +569,7 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                 if not correct_label_key==incorrect_label_key:
                     instances_in_incorrect_label=training_map[incorrect_label_key];
                     for one_instance in instances_in_incorrect_label:
-                        ratio_map['N']+=1;
+                        instance_lines_num_map['N']+=1;
                         one_instance_stack=[];
                         for token in one_instance:
                             one_instance_stack=make_format_from_training_map(token, 
@@ -566,10 +579,10 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                         one_instance_stack=list(set(one_instance_stack));
                         one_instance_stack.sort();
                         one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-                        out_lines_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
+                        lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
                         
-            ratio_c=float(ratio_map['C']) / (ratio_map['C']+ratio_map['N']);
-            ratio_n=float(ratio_map['N']) / (ratio_map['C']+ratio_map['N']);
+            ratio_c=float(instance_lines_num_map['C']) / (instance_lines_num_map['C']+instance_lines_num_map['N']);
+            ratio_n=float(instance_lines_num_map['N']) / (instance_lines_num_map['C']+instance_lines_num_map['N']);
             if int(ratio_c*100)==0:
                 weight_parm='-w-1 {} -w1 {} -s 2 -q'.format(1, int(ratio_n*100));
             else:
@@ -581,12 +594,16 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
             #各ラベルのインスタンス比率を求める
             num_of_incorrect_training_instance=0;
             instance_ratio_map={};
+            #負例の数を計算
             for label in training_map:
                 if label!=correct_label_key:
                     num_of_incorrect_training_instance+=len(training_map[label]);
+                    ratio_map['N']+=len(training_map[label]);
+            #負例のうちの特定のラベルが何行分出力すれば良いのか？を計算する
             for label in training_map:
                 if label!=correct_label_key:
-                    instance_ratio_map[label]=int((float(len(training_map[label]))/num_of_incorrect_training_instance)*ratio_map['C']);
+                    instance_ratio_map[label]=\
+                            int((float(len(training_map[label]))/num_of_incorrect_training_instance)*instance_lines_num_map['C']);
             for label in training_map:
                 if label!=correct_label_key:
                     for instance_index, instances_in_incorrect_label in enumerate(training_map[label]):
@@ -600,14 +617,14 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                     one_instance_stack=list(set(one_instance_stack));
                     one_instance_stack.sort();
                     one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-                    out_lines_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
-                               
+                    lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
+                    #比率にもとづいて計算された行数を追加し終わったら，次のラベルに移る 
                     if instance_index==instance_ratio_map[label]: continue;
             weight_parm='-s 2 -q';
         
         #------------------------------------------------------------  
         elif put_weight_constraint==True and under_sampling==True:
-            sys.exit('Both put_weight_constraint and under_sampling is True');
+            sys.exit('[Warning] Both put_weight_constraint and under_sampling is True');
         
         #------------------------------------------------------------  
         elif put_weight_constraint==False and under_sampling==False:
@@ -627,13 +644,15 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                     one_instance_stack=list(set(one_instance_stack));
                     one_instance_stack.sort();
                     one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-                    out_lines_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
+                    lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
             weight_parm='';
         
         #------------------------------------------------------------  
         #ファイルに書き出しの処理をおこなう
         #インドメインでのtrainとtestに分離
-        instances_for_train, instances_for_test=split_for_train_test(out_lines_stack);
+        instances_for_train, instances_for_test=split_for_train_test(lines_for_correct_instances_stack,
+                                                                     lines_for_incorrect_instances_stack,
+                                                                     instance_lines_num_map);
         with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno, 'w', 'utf-8') as f:
             f.writelines(instances_for_train);
         with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno, 'w', 'utf-8') as f:
