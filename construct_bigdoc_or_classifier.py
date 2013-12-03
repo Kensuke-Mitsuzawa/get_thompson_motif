@@ -2,9 +2,8 @@
 # -*- coding:utf-8 -*-
 """
 """
-__date__='2013/12/03'
+__date__='2013/12/04'
 libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
-#TODO 開発モードを入れる（トレーニング事例のインデックスをめちゃ少なくするとか）
 import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
 from liblinearutil import *;
@@ -13,7 +12,7 @@ import return_range, tf_idf, scale_grid;
 import numpy;
 from nltk.corpus import stopwords;
 from nltk import stem;
-from nltk import word_tokenize; 
+from nltk import tokenize; 
 from sklearn import svm;
 from sklearn.metrics import classification_report;
 from sklearn.cross_validation import train_test_split;
@@ -29,6 +28,8 @@ put_weight_constraint=True;
 under_sampling=False;
 level=1;
 dev_limit=1;
+#ratio_of_training_instance=0.7;
+
 def make_filelist(dir_path):
     file_list=[];
     for root, dirs, files in os.walk(dir_path):
@@ -127,7 +128,7 @@ def construct_class_training_1st(parent_node, all_thompson_tree):
 
 def cleanup_bigdocument_stack(filename, big_document_stack, stop):
     big_document_text=u' '.join(big_document_stack);
-    tokens=word_tokenize(big_document_text);
+    tokens=tokenize.wordpunct_tokenize(big_document_text);
     tokens_s=[t.lower() for t in tokens]
     if stop==True:
         tokens_s=[t for t in tokens if not t in stopwords and not t in symbols];
@@ -150,10 +151,10 @@ def cleanup_class_stack(class_training_stack, stop):
     for tuple_item in class_training_stack:
         label=tuple_item[0];
         cleaned_sentence=preprocess_particular_case(tuple_item[1]);
-        tokens=word_tokenize(cleaned_sentence);
-        tokens_s=[t.lower() for t in tokens]
+        tokens=tokenize.wordpunct_tokenize(cleaned_sentence);
+        tokens_s=[lemmatizer.lemmatize(t.lower()) for t in tokens]
         if stop==True:
-            tokens_set_stack.append([t for t in tokens if t not in stopwords and t not in symbols]);
+            tokens_set_stack.append([t for t in tokens_s if t not in stopwords and t not in symbols]);
         else:
             tokens_set_stack.append(tokens_s) 
     return tokens_set_stack;
@@ -268,7 +269,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 alphabet_label_list=(os.path.basename(filepath)).split('_')[:-1];
             elif level==2:
                 alphabet_label=(os.path.basename(filepath))[0];
-            tokens_in_label=word_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
+            tokens_in_label=tokenize.wordpunct_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
             lemmatized_tokens_in_label=[lemmatizer.lemmatize(t) for t in tokens_in_label];
             if stop==True:
                 lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
@@ -325,6 +326,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             parent_node=key_1st;
             class_training_stack=construct_class_training_1st(parent_node, all_thompson_tree);
             tokens_set_stack=cleanup_class_stack(class_training_stack, stop);
+            
             print u'-'*30;
             print u'Training instances for {} from thompson tree:{}'.format(key_1st,len(tokens_set_stack));
             num_of_training_instance+=len(tokens_set_stack);
@@ -398,13 +400,20 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                     elif text_line_flag==True:
                         doc.append(line);
             doc=u' '.join(doc); 
-            tokens=word_tokenize(doc);
-            lemmatized_tokens=[lemmatizer.lemmatize(t) for t in tokens];
+            tokens=tokenize.wordpunct_tokenize(doc);
+            lemmatized_tokens=[lemmatizer.lemmatize(t.lower()) for t in tokens];
+            if stop==True:
+                lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
             test_corpus_instances.append(lemmatized_tokens);
         training_plus_test_docs=training_instances+test_corpus_instances;
+        #素性数が変な気がする
+        all_token_num=0;
+        for doc in training_plus_test_docs:
+            all_token_num+=len(doc);
         #------------------------------------------------------------
         print 'TFIDF score calculating'
         tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
+
         for token_key in tfidf_score_map:
             if token_key not in feature_map_character: 
                 feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
@@ -420,13 +429,14 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         json.dump(feature_map_character, f, indent=4, ensure_ascii=False);
     #ここで文字情報の素性関数を数字情報の素性関数に変換する
     feature_map_numeric=make_numerical_feature(feature_map_character);
+    
     with codecs.open('classifier/feature_map_numeric_1st.json.'+exno, 'w', 'utf-8') as f:
         json.dump(feature_map_numeric, f, indent=4, ensure_ascii=False);
 
     feature_space=len(feature_map_numeric);
     print u'The number of feature is {}'.format(feature_space)
     #自分で作成したトレーニングモデルがちょっと信用できないので，libsvmも使ってみる
-    out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno);
+    out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno, args);
    
     """
     num_of_correct_training_instance=0;
@@ -510,26 +520,27 @@ def make_format_from_training_map(token ,training_map, feature_map_character, fe
             one_instance_stack.append((feature_number, 1));
     return one_instance_stack;
 
-def split_for_train_test(correct_instances_stack, incorrect_instances_stack, instace_lines_num_map):
+def split_for_train_test(correct_instances_stack, incorrect_instances_stack, instace_lines_num_map, ratio_of_training_instance):
     #ここでtrainとtestに分けられるはず
     all_instances=len(correct_instances_stack)+len(incorrect_instances_stack);
     random.shuffle(correct_instances_stack);
     random.shuffle(incorrect_instances_stack);
+    ratio_of_correct=float(instace_lines_num_map['C'])/(instace_lines_num_map['C']+instace_lines_num_map['N']);
+    ratio_of_incorrect=float(instace_lines_num_map['N'])/(instace_lines_num_map['C']+instace_lines_num_map['N']);
     #訓練用のインスタンス数
-    num_instance_for_train=int(0.95*all_instances);
+    #headerの変数で量を調整可能
+    num_instance_for_train=int(ratio_of_training_instance*all_instances);
     #テスト用のインスタンス数
     num_instance_for_test=all_instances-num_instance_for_train;
     #正例と負例の事例スタックから何行ずつとって来ればいいのか？を計算
-    #テスト用インスタンス数を２で割ったら，正例と負例から取って来るべき行数がわかるはず
-    num_of_instances_for_correct_incorrect=num_instance_for_test/2;
+    num_of_instances_of_correct_for_test=int(num_instance_for_test*ratio_of_correct);
+    num_of_instances_of_incorrect_for_test=int(num_instance_for_test*ratio_of_incorrect);
     #スライス機能を使って，テスト用のインスタンスを獲得
-    instances_for_test=correct_instances_stack[:num_of_instances_for_correct_incorrect]\
-            +incorrect_instances_stack[:num_of_instances_for_correct_incorrect];
+    instances_for_test=correct_instances_stack[:num_of_instances_of_correct_for_test]\
+            +incorrect_instances_stack[:num_of_instances_of_incorrect_for_test];
     #スライス機能を使って，訓練用のインスタンスを獲得
-    instances_for_train=correct_instances_stack[num_of_instances_for_correct_incorrect:]\
-            +incorrect_instances_stack[num_of_instances_for_correct_incorrect:];
-    #instances_for_train=out_lines_stack[:num_instance_for_train];
-    #instances_for_test=out_lines_stack[num_instance_for_train:]
+    instances_for_train=correct_instances_stack[num_of_instances_of_correct_for_test:]\
+            +incorrect_instances_stack[num_of_instances_of_incorrect_for_test:];
     return instances_for_train, instances_for_test;
 
 def close_test(classifier_path, test_path):
@@ -540,7 +551,7 @@ def close_test(classifier_path, test_path):
     ACC, MSE, SCC = evaluations(y, p_label); 
     print ACC, MSE, SCC;
 
-def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno):
+def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno, args):
     #============================================================ 
     for correct_label_key in training_map:
         instance_lines_num_map={'C':0, 'N':0};
@@ -650,9 +661,12 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
         #------------------------------------------------------------  
         #ファイルに書き出しの処理をおこなう
         #インドメインでのtrainとtestに分離
+        training_amount=float(args.training_amount);
+        print u'Training : Test ratio={} : {}'.format(training_amount, 1-training_amount);
         instances_for_train, instances_for_test=split_for_train_test(lines_for_correct_instances_stack,
                                                                      lines_for_incorrect_instances_stack,
-                                                                     instance_lines_num_map);
+                                                                     instance_lines_num_map,
+                                                                     training_amount);
         with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno, 'w', 'utf-8') as f:
             f.writelines(instances_for_train);
         with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno, 'w', 'utf-8') as f:
@@ -731,8 +745,13 @@ if __name__=='__main__':
     parser.add_argument('-dev', '--dev',
                         help='developping mode',
                         action='store_true');
+    parser.add_argument('-training_amount', '--training_amount',
+                        help='The ratio of training amount',
+                        default=0.95);
     args=parser.parse_args();
     dir_path='./parsed_json/'
+    if float(args.training_amount)>=1.0:
+        sys.exit('[Warning] -training_amount must be between 0-1(Not including 1)');
     all_thompson_tree=return_range.load_all_thompson_tree(dir_path);
     result_stack=main(args.level, 
                       args.mode, 
