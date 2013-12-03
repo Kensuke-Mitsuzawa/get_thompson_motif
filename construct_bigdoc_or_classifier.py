@@ -1,9 +1,8 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
 """
-ラベルからいわゆるbig documentを作成する．階層別に分けれる様にするのが理想
 """
-__date__='2013/12/02'
+__date__='2013/12/03'
 libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
 #TODO 開発モードを入れる（トレーニング事例のインデックスをめちゃ少なくするとか）
 import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
@@ -13,6 +12,7 @@ from svmutil import *;
 import return_range, tf_idf, scale_grid;
 import numpy;
 from nltk.corpus import stopwords;
+from nltk import stem;
 from nltk import word_tokenize; 
 from sklearn import svm;
 from sklearn.metrics import classification_report;
@@ -20,6 +20,8 @@ from sklearn.cross_validation import train_test_split;
 from sklearn.svm import LinearSVC;
 from sklearn.metrics import confusion_matrix;
 from scipy.sparse import lil_matrix
+
+lemmatizer = stem.WordNetLemmatizer();
 stopwords = stopwords.words('english');
 symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 #option parameter
@@ -267,19 +269,20 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             elif level==2:
                 alphabet_label=(os.path.basename(filepath))[0];
             tokens_in_label=word_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
+            lemmatized_tokens_in_label=[lemmatizer.lemmatize(t) for t in tokens_in_label];
             if stop==True:
-                tokens_in_label=[t for t in tokens_in_label if t not in stopwords and t not in symbols];
+                lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
             if level==1:
                 for alphabet_label in alphabet_label_list:
                     if alphabet_label in training_map:
-                        training_map[alphabet_label].append(tokens_in_label);
+                        training_map[alphabet_label].append(lemmatized_tokens_in_label);
                     else:
-                        training_map[alphabet_label]=[tokens_in_label];
+                        training_map[alphabet_label]=[lemmatized_tokens_in_label];
             elif level==2:
                 if alphabet_label in training_map:
-                    training_map[alphabet_label].append(tokens_in_label);
+                    training_map[alphabet_label].append(lemmatized_tokens_in_label);
                 else:
-                    training_map[alphabet_label]=[tokens_in_label];
+                    training_map[alphabet_label]=[lemmatized_tokens_in_label];
             if dev_mode==True and fileindex==dev_limit:
                 break;
         #------------------------------------------------------------ 
@@ -296,7 +299,8 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 doc_token+=doc; 
             feature_map_character=make_feature_set(feature_map_character, None, doc_token, 'all', stop);
         #------------------------------------------------------------ 
-        elif tfidf==True:
+            #tfidf用のコードがあった跡地
+            """
             docs=[];
             for label in training_map:
                 doc=training_map[label];
@@ -310,7 +314,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                     feature_map_character[token_key].append(u'all_{}_{}_tfidf'.\
                                                             format(token_key,
                                                                    tfidf_score_map[token_key]));
-        
+            """ 
         for alphabet_label in training_map:
             print u'The num. of training instance for {} in dutch corpus is {}'.format(alphabet_label, len(training_map[alphabet_label]));
         print u'-'*30;
@@ -345,8 +349,8 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 feature_map_character=make_feature_set(feature_map_character,
                                                        label, tokens_set_stack, 'all', stop);
         #------------------------------------------------------------ 
-        #training_mapに登録がすべて終わってから素性抽出
-        elif tfidf==True:
+            #tdidf用のコードがあった跡地
+            """
             docs=[];
             for label in training_map:
                 doc=training_map[label];
@@ -358,7 +362,56 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                                                                             tfidf_score_map[token_key])];
                 else:
                     feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
-                                                                            tfidf_score_map[token_key]));
+                                                                            -tfidf_score_map[token_key]));
+            """
+    #============================================================ 
+    #もしTFIDFを使うのであれば，test documentも合わせた空間で重みスコアを求めないといけない
+    if tfidf==True:
+        #------------------------------------------------------------
+        #TFIDFスコアはthompson resourceとdutch_folktale_corpusとtest documentのすべてを合わせた空間で求めないといけない
+        training_instances=[];
+        for label in training_map:
+            tokens_in_docs_in_label=training_map[label];
+            #マルチラベルのために，training_mapの中には重複して同じ文書が登録されていることがある．
+            #重複した文書が追加されないための措置．
+            #実際には，空の文書がいくつかあるので，training_instaces_dutchの要素数はファイル数よりは減るはず
+            for tokens_in_doc in tokens_in_docs_in_label:
+                if tokens_in_doc not in training_instances:
+                    training_instances.append(tokens_in_doc); 
+        #------------------------------------------------------------
+        #ペルシア語口承文芸コーパスからファイルを読み込む
+        test_corpus_instances=[];
+        persian_folktale_documet_path='../corpus_dir/translated_google/'
+        for doc_filepath in make_filelist(persian_folktale_documet_path):
+            doc=[];
+            with codecs.open(doc_filepath, 'r', 'utf-8') as lines:
+                for line in lines:
+                    if line==u'#motif\n':
+                        motif_line_flag=True; 
+                        continue;
+                    elif line==u'#text\n':
+                        motif_line_flag=False;
+                        text_line_flag=True;
+                        continue;
+                    elif motif_line_flag==True:
+                        pass;
+                    elif text_line_flag==True:
+                        doc.append(line);
+            doc=u' '.join(doc); 
+            tokens=word_tokenize(doc);
+            lemmatized_tokens=[lemmatizer.lemmatize(t) for t in tokens];
+            test_corpus_instances.append(lemmatized_tokens);
+        training_plus_test_docs=training_instances+test_corpus_instances;
+        #------------------------------------------------------------
+        print 'TFIDF score calculating'
+        tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
+        for token_key in tfidf_score_map:
+            if token_key not in feature_map_character: 
+                feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
+                                                                        tfidf_score_map[token_key])];
+            else:
+                feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
+                                                                        tfidf_score_map[token_key]));
     #============================================================  
     #作成した素性辞書をjsonに出力(TFIDF)が空の時は空の辞書が出力される
     with codecs.open('classifier/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
@@ -469,6 +522,7 @@ def split_for_train_test(out_lines_stack):
     return instances_for_train, instances_for_test;
 
 def close_test(classifier_path, test_path):
+    print 'close test result for {} with {}'.format(classifier_path, test_path);
     y, x = svm_read_problem(test_path);
     m = load_model(classifier_path);
     p_label, p_acc, p_val = predict(y, x, m);
@@ -595,6 +649,7 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
         close_test('./classifier/liblinear/'+correct_label_key+'.liblin.model.'+exno,
                    './classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno);
         os.remove('{}.traindata.{}.out'.format(correct_label_key, exno));
+        print u'-'*30;
         #train_y, train_x=svm_read_problem(scalled_filepath); 
         #svm_model=svm_train(train_y, train_x, weight_parm_svm);
         #svm_save_model('./classifier/libsvm/'+correct_label_key+'.svm.model', svm_model);
