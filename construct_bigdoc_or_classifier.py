@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 """
 """
-__date__='2013/12/04'
+__date__='2013/12/07'
 libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
 import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
@@ -162,27 +162,59 @@ def cleanup_class_stack(class_training_stack, stop):
 def make_feature_set(feature_map, label_name, tokens_set_stack, feature_mode, stop):
     """
     素性関数を作り出す（要はただのmap）
+    12/07 easy domain adaptation用に書き換え．(３種の素性：t:thompson, d:dutch, g:general)
+    feature_modeがdutchの時：頭文字にd,と頭文字にgの素性作成
+    feature_modeがthompsonの時：頭文字にt,と頭文字にgの素性作成
     """
-    if feature_mode=='hard':
-        for token_instance in tokens_set_stack:
-            for token in token_instance:
-                hard_cluster_feature=u'hard_{}_{}_unigram'.format(label_name, token);
-                character_feature=hard_cluster_feature;
-                if stop==True and token not in stopwords and token not in symbols:
-                    if token in feature_map and character_feature not in feature_map[token]:
-                        feature_map[token].append(character_feature);
-                    else:
-                        feature_map[token]=[character_feature];
-                elif stop==False:
-                    if token in feature_map and character_feature not in feature_map[token]:
-                        feature_map[token].append(character_feature);
-                    else:
-                        feature_map[token]=[character_feature];
+    if feature_mode=='thompson':
+        prefix=u't';
+    elif feature_mode=='dutch':
+        prefix=u'd';
+
+    for token_instance in tokens_set_stack:
+        for token in token_instance:
+            #ドメインごとの素性を登録
+            hard_cluster_feature=u'{}_{}_unigram'.format(prefix, token);
+            character_feature=hard_cluster_feature;
+            if stop==True and token not in stopwords and token not in symbols:
+                if token in feature_map and character_feature not in feature_map[token]:
+                    feature_map[token].append(character_feature);
+                elif token in feature_map and character_feature in feature_map[token]:
+                    pass; 
+                else:
+                    feature_map[token]=[character_feature];
+            elif stop==False:
+                if token in feature_map and character_feature not in feature_map[token]:
+                    feature_map[token].append(character_feature);
+                elif token in feature_map and character_feature in feature_map[token]:
+                    pass; 
+                else:
+                    feature_map[token]=[character_feature];
+            #general用の素性を登録
+            general_feature=u'{}_{}_unigram'.format('g', token);
+            character_feature=general_feature;
+            if stop==True and token not in stopwords and token not in symbols:
+                if token in feature_map and character_feature not in feature_map[token]:
+                    feature_map[token].append(character_feature);
+                elif token in feature_map and character_feature in feature_map[token]:
+                    pass; 
+                else:
+                    feature_map[token]=[character_feature];
+            elif stop==False:
+                if token in feature_map and character_feature not in feature_map[token]:
+                    feature_map[token].append(character_feature);
+                elif token in feature_map and character_feature in feature_map[token]:
+                    pass;
+                else:
+                    feature_map[token]=[character_feature];
+    #ここはsoftラベル用の素性を見ていた時のコード
+    """
     #allはすでにsoftの素性が存在しているときに付与
-    elif feature_mode=='all':
+    #elif feature_mode=='all':
+    elif feature_mode=='dutch':
         for token_instance in tokens_set_stack:
             for token in token_instance:
-                normal_cluster_feature=u'all_{}_unigram'.format(token);
+                normal_cluster_feature=u'{}_{}_unigram'.format(prefix, token);
                 character_feature=normal_cluster_feature; 
                 if stop==True and token not in stopwords and token not in symbols:
                     if token in feature_map and character_feature not in feature_map[token]:
@@ -194,6 +226,7 @@ def make_feature_set(feature_map, label_name, tokens_set_stack, feature_mode, st
                         feature_map[token].append(character_feature);
                     else:
                         feature_map[token]=[character_feature];
+    """
     return feature_map;
 def make_soft_char_feature(training_map, feature_map, stop):
     """
@@ -261,7 +294,13 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
     #============================================================ 
     #オランダ語コーパスとトンプソン木をフラッグによって，訓練に使うかどうかを分岐
     if dutch==True:
-        dir_path='../dutch_folktale_corpus/given_script/translated_big_document/leaf_layer/' 
+        dutch_training_map={};
+        #古い方のパス（自分で翻訳してた頃）
+        #dir_path='../dutch_folktale_corpus/given_script/translated_big_document/leaf_layer/' 
+        #新しい方のパス(translated by kevin's system)
+        dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/'
+        #description付きのバージョンなら
+        #dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/'
         #------------------------------------------------------------
         #文書を全部よみこんで，training_mapの下に登録する．前処理みたいなもん
         for fileindex, filepath in enumerate(make_filelist(dir_path)):
@@ -275,17 +314,21 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
             if level==1:
                 for alphabet_label in alphabet_label_list:
-                    if alphabet_label in training_map:
-                        training_map[alphabet_label].append(lemmatized_tokens_in_label);
+                    alphabet_label=alphabet_label.upper();
+                    if alphabet_label in dutch_training_map:
+                        dutch_training_map[alphabet_label].append(lemmatized_tokens_in_label);
                     else:
-                        training_map[alphabet_label]=[lemmatized_tokens_in_label];
+                        dutch_training_map[alphabet_label]=[lemmatized_tokens_in_label];
             elif level==2:
+                alphabet_label=alphabet_label.upper();
                 if alphabet_label in training_map:
-                    training_map[alphabet_label].append(lemmatized_tokens_in_label);
+                    dutch_training_map[alphabet_label].append(lemmatized_tokens_in_label);
                 else:
-                    training_map[alphabet_label]=[lemmatized_tokens_in_label];
+                    dutch_training_map[alphabet_label]=[lemmatized_tokens_in_label];
             if dev_mode==True and fileindex==dev_limit:
                 break;
+        #最後にtraining_mapの下に登録
+        training_map['dutch']=dutch_training_map;
         #------------------------------------------------------------ 
         #training_mapへの登録が全部おわってから，素性抽出を行う 
         #easy domain adaptation用にここで工夫ができるはず
@@ -293,12 +336,12 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             #A~Zのラベル間でcapな単語を求めだす
             #全ラベル間でcapな単語を作成して，{token}:'capなラベルをアンダースコア接続で表現'
             #TODO この関数にミスがあると思う．複数のラベルが取得できていない
-            feature_map_character=make_soft_char_feature(training_map, feature_map_character, stop);
+            #feature_map_character=make_soft_char_feature(dutch_training_map, feature_map_character, stop);
             doc_token=[];
-            for label in training_map:
-                doc=training_map[label];
+            for label in dutch_training_map:
+                doc=dutch_training_map[label];
                 doc_token+=doc; 
-            feature_map_character=make_feature_set(feature_map_character, None, doc_token, 'all', stop);
+            feature_map_character=make_feature_set(feature_map_character, None, doc_token, 'dutch', stop);
         #------------------------------------------------------------ 
             #tfidf用のコードがあった跡地
             """
@@ -316,12 +359,13 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                                                             format(token_key,
                                                                    tfidf_score_map[token_key]));
             """ 
-        for alphabet_label in training_map:
-            print u'The num. of training instance for {} in dutch corpus is {}'.format(alphabet_label, len(training_map[alphabet_label]));
+        for alphabet_label in dutch_training_map:
+            print u'The num. of training instance for {} in dutch corpus is {}'.format(alphabet_label, len(dutch_training_map[alphabet_label]));
         print u'-'*30;
     #============================================================ 
     #Thompsonのインデックスツリーを訓練データに加える
-    if thompson==True: 
+    if thompson==True:
+        thompson_training_map={};
         for key_index, key_1st in enumerate(all_thompson_tree):
             parent_node=key_1st;
             class_training_stack=construct_class_training_1st(parent_node, all_thompson_tree);
@@ -333,23 +377,20 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             #------------------------------------------------------------ 
             #作成した文書ごとのtokenをtrainingファイルを管理するmapに追加
             #TFIDFがTrueだろうが，Falseだろうが関係なく，ここは実行される
-            if key_1st in training_map:
-                training_map[key_1st]+=tokens_set_stack;
+            if key_1st in thompson_training_map:
+                thompson_training_map[key_1st]+=tokens_set_stack;
             else:
-                training_map[key_1st]=tokens_set_stack;
+                thompson_training_map[key_1st]=tokens_set_stack;
             if dev_mode==True and key_index==dev_limit:
                 break;
         #------------------------------------------------------------ 
         #素性をunigram素性にする
-        #easy domain adaptation用にここで工夫ができるはず
         if tfidf==False:
-            for label in training_map:
-                tokens_set_stack=training_map[label];
+            for label in thompson_training_map:
+                tokens_set_stack=thompson_training_map[label];
                 #文字情報の素性関数を作成する
                 feature_map_character=make_feature_set(feature_map_character,
-                                                       label, tokens_set_stack, 'hard', stop);
-                feature_map_character=make_feature_set(feature_map_character,
-                                                       label, tokens_set_stack, 'all', stop);
+                                                       label, tokens_set_stack, 'thompson', stop);
         #------------------------------------------------------------ 
             #tdidf用のコードがあった跡地
             """
@@ -366,6 +407,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                     feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
                                                                             -tfidf_score_map[token_key]));
             """
+        training_map['thompson']=thompson_training_map;
     #============================================================ 
     #もしTFIDFを使うのであれば，test documentも合わせた空間で重みスコアを求めないといけない
     if tfidf==True:
@@ -406,10 +448,12 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
             test_corpus_instances.append(lemmatized_tokens);
         training_plus_test_docs=training_instances+test_corpus_instances;
+        """
         #素性数が変な気がする
         all_token_num=0;
         for doc in training_plus_test_docs:
             all_token_num+=len(doc);
+        """
         #------------------------------------------------------------
         print 'TFIDF score calculating'
         tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
@@ -435,9 +479,10 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
 
     feature_space=len(feature_map_numeric);
     print u'The number of feature is {}'.format(feature_space)
+    sys.exit();
     #自分で作成したトレーニングモデルがちょっと信用できないので，libsvmも使ってみる
     out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno, args);
-   
+     
     """
     num_of_correct_training_instance=0;
     num_of_incorrect_training_instance=0;
