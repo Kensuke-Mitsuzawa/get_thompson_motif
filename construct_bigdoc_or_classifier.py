@@ -448,12 +448,6 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
             test_corpus_instances.append(lemmatized_tokens);
         training_plus_test_docs=training_instances+test_corpus_instances;
-        """
-        #素性数が変な気がする
-        all_token_num=0;
-        for doc in training_plus_test_docs:
-            all_token_num+=len(doc);
-        """
         #------------------------------------------------------------
         print 'TFIDF score calculating'
         tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
@@ -479,9 +473,8 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
 
     feature_space=len(feature_map_numeric);
     print u'The number of feature is {}'.format(feature_space)
-    sys.exit();
     #自分で作成したトレーニングモデルがちょっと信用できないので，libsvmも使ってみる
-    out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno, args);
+    out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, tfidf_score_map, exno, args);
      
     """
     num_of_correct_training_instance=0;
@@ -550,8 +543,62 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         with codecs.open('./classifier/1st_layer/'+filename, 'w', 'utf-8') as f:
             pickle.dump(estimator, f);
             """
+def convert_to_feature_space(training_map, feature_map_character, feature_map_numeric, tfidf_score_map, tfidf):
+    """
+    training_mapの中身を素性空間に変換する．
+    戻り値は数値表現になった素性空間．
+    データ構造はtraining_mapと同じ．（ただし，最後だけtokenでなく，素性番号：素性値のタプル）
+    """
+    training_map_feature_space={};
+    for subdata in training_map:
+        if subdata=='dutch':
+            prefix=u'd';
+        elif subdata=='thompson':
+            prefix=u't';
+        feature_space_label={};
+        #------------------------------------------------------------     
+        for label in training_map[subdata]:
+            #------------------------------------------------------------     
+            #token表現を文書ごとに素性空間にマップする．
+            for doc in training_map[subdata][label]:
+                feature_space_doc=[];
+                for token in doc:
+                    #feature_map_character[token]の中は配列になっているので，資源にあった資源のみを選ぶ
+                    for candidate in feature_map_character[token]:
+                        feature_pattern=re.compile(u'^{}'.format(prefix));
+                        if re.search(feature_pattern, candidate):
+                            domain_feature=candidate;
+                            domain_feature_numeric=feature_map_numeric[domain_feature];
+                            if tfidf==False:
+                                feature_space_doc.append((domain_feature_numeric, 1)); 
+                            #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                        if re.search(ur'^g', candidate):
+                            general_feature=candidate;
+                            general_feature_numeric=feature_map_numeric[general_feature];
+                            if tfidf==False:
+                                feature_space_doc.append((general_feature_numeric, 1));
+                            #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                if label not in feature_space_label:
+                    feature_space_label[label]=[feature_space_doc];
+                else:
+                    feature_space_label[label].append(feature_space_doc);
+            #------------------------------------------------------------     
+        training_map_feature_space[subdata]=feature_space_label;
+        #------------------------------------------------------------     
+    return training_map_feature_space;
+
+def unify_tarining_feature_space(training_map_feature_space):
+    unified_map={};
+    for subdata_key in training_map_feature_space:
+        for label in training_map_feature_space[subdata_key]:
+            if label not in unified_map:
+                unified_map[label]=training_map_feature_space[subdata_key][label];
+            else:
+                unified_map[label]+=training_map_feature_space[subdata_key][label];
+    return unified_map;
 
 def make_format_from_training_map(token ,training_map, feature_map_character, feature_map_numeric, tfidf, one_instance_stack):
+    #この関数は不要になったのでそのうち削除
     if tfidf==True:
         if token in feature_map_character:
             for character_feature in feature_map_character[token]:
@@ -596,7 +643,10 @@ def close_test(classifier_path, test_path):
     ACC, MSE, SCC = evaluations(y, p_label); 
     print ACC, MSE, SCC;
 
-def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, exno, args):
+def out_to_libsvm_format(training_map_original, feature_map_numeric, feature_map_character, tfidf, tfidf_score_map, exno, args):
+    training_map_feature_space=convert_to_feature_space(training_map_original, feature_map_character, feature_map_numeric, tfidf_score_map, tfidf);
+    unified_training_map=unify_tarining_feature_space(training_map_feature_space); 
+    training_map=unified_training_map; 
     #============================================================ 
     for correct_label_key in training_map:
         instance_lines_num_map={'C':0, 'N':0};
@@ -608,16 +658,11 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
         #正例の処理をする
         for one_instance in instances_in_correct_label:
             instance_lines_num_map['C']+=1;
-            one_instance_stack=[];
-            for token in one_instance:
-                one_instance_stack=make_format_from_training_map(token, 
-                                                                 training_map,
-                                                                 feature_map_character,
-                                                                 feature_map_numeric, tfidf, one_instance_stack)
+            one_instance_stack=one_instance;
             one_instance_stack=list(set(one_instance_stack));
             one_instance_stack.sort();
-            one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-            lines_for_correct_instances_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance_stack)));
+            one_instance=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
+            lines_for_correct_instances_stack.append(u'{} {}\n'.format('+1', u' '.join(one_instance)));
         #------------------------------------------------------------  
         #負例の処理を行う．重みかアンダーサンプリングかのオプションを設定している
         if put_weight_constraint==True and under_sampling==False:
@@ -625,18 +670,13 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                 if not correct_label_key==incorrect_label_key:
                     instances_in_incorrect_label=training_map[incorrect_label_key];
                     for one_instance in instances_in_incorrect_label:
+                        #仮にこの変数名にしておく
+                        one_instance_stack=one_instance; 
                         instance_lines_num_map['N']+=1;
-                        one_instance_stack=[];
-                        for token in one_instance:
-                            one_instance_stack=make_format_from_training_map(token, 
-                                                                 training_map,
-                                                                 feature_map_character,
-                                                                 feature_map_numeric, tfidf, one_instance_stack)
                         one_instance_stack=list(set(one_instance_stack));
                         one_instance_stack.sort();
                         one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
                         lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
-                        
             ratio_c=float(instance_lines_num_map['C']) / (instance_lines_num_map['C']+instance_lines_num_map['N']);
             ratio_n=float(instance_lines_num_map['N']) / (instance_lines_num_map['C']+instance_lines_num_map['N']);
             if int(ratio_c*100)==0:
@@ -654,7 +694,7 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
             for label in training_map:
                 if label!=correct_label_key:
                     num_of_incorrect_training_instance+=len(training_map[label]);
-                    ratio_map['N']+=len(training_map[label]);
+                    instance_lines_num_map['N']+=len(training_map[label]);
             #負例のうちの特定のラベルが何行分出力すれば良いのか？を計算する
             for label in training_map:
                 if label!=correct_label_key:
@@ -662,22 +702,16 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                             int((float(len(training_map[label]))/num_of_incorrect_training_instance)*instance_lines_num_map['C']);
             for label in training_map:
                 if label!=correct_label_key:
-                    for instance_index, instances_in_incorrect_label in enumerate(training_map[label]):
-                        one_instance_stack=[];
-                        for token in one_instance:
-                            one_instance_stack=make_format_from_training_map(token, 
-                                                                             training_map,
-                                                                             feature_map_character,
-                                                                             feature_map_numeric, tfidf,
-                                                                             one_instance_stack)
-                    one_instance_stack=list(set(one_instance_stack));
-                    one_instance_stack.sort();
-                    one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-                    lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
+                    for instance_index, one_instance in enumerate(training_map[label]):
+                        #あとで変数名を変えておくこと，これだと意味が違う
+                        one_instance_stack=one_instance;
+                        one_instance_stack=list(set(one_instance_stack));
+                        one_instance_stack.sort();
+                        one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
+                        lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
                     #比率にもとづいて計算された行数を追加し終わったら，次のラベルに移る 
                     if instance_index==instance_ratio_map[label]: continue;
             weight_parm='-s 2 -q';
-        
         #------------------------------------------------------------  
         elif put_weight_constraint==True and under_sampling==True:
             sys.exit('[Warning] Both put_weight_constraint and under_sampling is True');
@@ -688,21 +722,16 @@ def out_to_libsvm_format(training_map, feature_map_numeric, feature_map_characte
                 if not correct_label_key==incorrect_label_key:
                     instances_in_incorrect_label=training_map[incorrect_label_key];
                     for one_instance in instances_in_incorrect_label:
-                        ratio_map['N']+=1;
-                        one_instance_stack=[];
-                        for token in one_instance:
-                            one_instance_stack=make_format_from_training_map(token, 
-                                                                             training_map,
-                                                                             feature_map_character,
-                                                                             feature_map_numeric, tfidf,
-                                                                             one_instance_stack)
-                           
-                    one_instance_stack=list(set(one_instance_stack));
-                    one_instance_stack.sort();
-                    one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
-                    lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
+                        instance_lines_num_map['N']+=1;
+                        one_instance_stack=one_instance;
+                        one_instance_stack=list(set(one_instance_stack));
+                        one_instance_stack.sort();
+                        one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
+                        lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
             weight_parm='';
         
+        #ここでfeature_spaceに変換されたmapがあると良い．
+        #で，mixedしてから次の処理に渡す
         #------------------------------------------------------------  
         #ファイルに書き出しの処理をおこなう
         #インドメインでのtrainとtestに分離
