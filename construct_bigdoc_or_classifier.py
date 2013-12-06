@@ -413,15 +413,22 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
     if tfidf==True:
         #------------------------------------------------------------
         #TFIDFスコアはthompson resourceとdutch_folktale_corpusとtest documentのすべてを合わせた空間で求めないといけない
-        training_instances=[];
-        for label in training_map:
-            tokens_in_docs_in_label=training_map[label];
-            #マルチラベルのために，training_mapの中には重複して同じ文書が登録されていることがある．
-            #重複した文書が追加されないための措置．
-            #実際には，空の文書がいくつかあるので，training_instaces_dutchの要素数はファイル数よりは減るはず
-            for tokens_in_doc in tokens_in_docs_in_label:
-                if tokens_in_doc not in training_instances:
-                    training_instances.append(tokens_in_doc); 
+        all_training_instances=[];
+        #静的にハードコーディングはあまりしたくないんだけど．．仕方がない
+        wordset_map={'thompson':[], 'dutch':[], 'test':[]};
+        for subdata in training_map:
+            training_instances=[];
+            for label in training_map[subdata]: 
+                tokens_in_docs_in_label=training_map[subdata][label];
+                #マルチラベルのために，training_mapの中には重複して同じ文書が登録されていることがある．
+                #重複した文書が追加されないための措置．
+                #実際には，空の文書がいくつかあるので，training_instaces_dutchの要素数はファイル数よりは減るはず
+                for tokens_in_doc in tokens_in_docs_in_label:
+                    if tokens_in_doc not in training_instances:
+                        all_training_instances.append(tokens_in_doc);
+                        training_instances.append(tokens_in_doc);
+            #ちょっと変な書き方だけど，この方が早い
+            wordset_map[subdata]=[t for doc in training_instances for t in doc];
         #------------------------------------------------------------
         #ペルシア語口承文芸コーパスからファイルを読み込む
         test_corpus_instances=[];
@@ -447,11 +454,40 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             if stop==True:
                 lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
             test_corpus_instances.append(lemmatized_tokens);
-        training_plus_test_docs=training_instances+test_corpus_instances;
+            wordset_map['test'].append([t for t in lemmatized_tokens]);
+        #ちょっと変な書き方だけど，この方が実行速度はやい
+        wordset_map['test']=[t for doc in wordset_map['test'] for t in doc];
+        training_plus_test_docs=all_training_instances+test_corpus_instances;
         #------------------------------------------------------------
         print 'TFIDF score calculating'
         tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
-
+        #ここをeasy-domain用に改造
+        #関数化しようとも思ったが．．．やめておく
+        for token_key in tfidf_score_map:
+            if token_key in wordset_map['thompson']:
+                if token_key not in feature_map_character: 
+                    feature_map_character[token_key]=[u't_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]),
+                                                      u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])];
+                else:
+                    feature_map_character[token_key].append(u't_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
+                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
+            if token_key in wordset_map['dutch']:
+                if token_key not in feature_map_character: 
+                    feature_map_character[token_key]=[u'd_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]),
+                                                      u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])];
+                else:
+                    feature_map_character[token_key].append(u'd_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
+                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
+            #ここ，不安なんだけど．．テストのコーパスはターゲットドメインのはずだから，ターゲットを表すdでいいはず．．．
+            if token_key in wordset_map['test']:
+                if token_key not in feature_map_character: 
+                    feature_map_character[token_key]=[u'd_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]),
+                                                      u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])];
+                else:
+                    feature_map_character[token_key].append(u'd_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
+                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
+        #easy domain adaptationを使わないモード用にここを残しておく 
+        """
         for token_key in tfidf_score_map:
             if token_key not in feature_map_character: 
                 feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
@@ -459,6 +495,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             else:
                 feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
                                                                         tfidf_score_map[token_key]));
+            """
     #============================================================  
     #作成した素性辞書をjsonに出力(TFIDF)が空の時は空の辞書が出力される
     with codecs.open('classifier/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
@@ -473,6 +510,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
 
     feature_space=len(feature_map_numeric);
     print u'The number of feature is {}'.format(feature_space)
+    print feature_map_character;
     #自分で作成したトレーニングモデルがちょっと信用できないので，libsvmも使ってみる
     out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, tfidf_score_map, exno, args);
      
@@ -563,6 +601,7 @@ def convert_to_feature_space(training_map, feature_map_character, feature_map_nu
             for doc in training_map[subdata][label]:
                 feature_space_doc=[];
                 for token in doc:
+                    #TODO ここ，tfidf用にわけないとどうしようもない
                     #feature_map_character[token]の中は配列になっているので，資源にあった資源のみを選ぶ
                     for candidate in feature_map_character[token]:
                         feature_pattern=re.compile(u'^{}'.format(prefix));
@@ -572,12 +611,17 @@ def convert_to_feature_space(training_map, feature_map_character, feature_map_nu
                             if tfidf==False:
                                 feature_space_doc.append((domain_feature_numeric, 1)); 
                             #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                            elif tfidf==True:
+                                feature_space_doc.append((domain_feature_numeric, tfidf_score_map[token]));
                         if re.search(ur'^g', candidate):
                             general_feature=candidate;
                             general_feature_numeric=feature_map_numeric[general_feature];
                             if tfidf==False:
                                 feature_space_doc.append((general_feature_numeric, 1));
                             #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                            elif tfidf==True:
+                                feature_space_doc.append((general_feature_numeric, tfidf_score_map[token]));
+
                 if label not in feature_space_label:
                     feature_space_label[label]=[feature_space_doc];
                 else:
@@ -585,6 +629,7 @@ def convert_to_feature_space(training_map, feature_map_character, feature_map_nu
             #------------------------------------------------------------     
         training_map_feature_space[subdata]=feature_space_label;
         #------------------------------------------------------------     
+    sys.exit();
     return training_map_feature_space;
 
 def unify_tarining_feature_space(training_map_feature_space):
