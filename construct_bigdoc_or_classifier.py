@@ -781,6 +781,8 @@ def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
             weight_parm='';
         
+        #ここでfeature_spaceに変換されたmapがあると良い．
+        #で，mixedしてから次の処理に渡す
         #------------------------------------------------------------  
         #ファイルに書き出しの処理をおこなう
         #インドメインでのtrainとtestに分離
