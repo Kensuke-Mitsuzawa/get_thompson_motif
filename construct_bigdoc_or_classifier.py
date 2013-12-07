@@ -510,7 +510,6 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
 
     feature_space=len(feature_map_numeric);
     print u'The number of feature is {}'.format(feature_space)
-    print feature_map_character;
     #自分で作成したトレーニングモデルがちょっと信用できないので，libsvmも使ってみる
     out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, tfidf_score_map, exno, args);
      
@@ -601,26 +600,30 @@ def convert_to_feature_space(training_map, feature_map_character, feature_map_nu
             for doc in training_map[subdata][label]:
                 feature_space_doc=[];
                 for token in doc:
-                    #TODO ここ，tfidf用にわけないとどうしようもない
                     #feature_map_character[token]の中は配列になっているので，資源にあった資源のみを選ぶ
-                    for candidate in feature_map_character[token]:
-                        feature_pattern=re.compile(u'^{}'.format(prefix));
-                        if re.search(feature_pattern, candidate):
-                            domain_feature=candidate;
-                            domain_feature_numeric=feature_map_numeric[domain_feature];
-                            if tfidf==False:
-                                feature_space_doc.append((domain_feature_numeric, 1)); 
-                            #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
-                            elif tfidf==True:
-                                feature_space_doc.append((domain_feature_numeric, tfidf_score_map[token]));
-                        if re.search(ur'^g', candidate):
-                            general_feature=candidate;
-                            general_feature_numeric=feature_map_numeric[general_feature];
-                            if tfidf==False:
-                                feature_space_doc.append((general_feature_numeric, 1));
-                            #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
-                            elif tfidf==True:
-                                feature_space_doc.append((general_feature_numeric, tfidf_score_map[token]));
+                    if token in feature_map_character: 
+                        for candidate in feature_map_character[token]:
+                            feature_pattern=re.compile(u'^{}'.format(prefix));
+                            if re.search(feature_pattern, candidate):
+                                domain_feature=candidate;
+                                domain_feature_numeric=feature_map_numeric[domain_feature];
+                                if tfidf==False:
+                                    feature_space_doc.append((domain_feature_numeric,
+                                                              1)); 
+                                #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                                elif tfidf==True:
+                                    feature_space_doc.append((domain_feature_numeric,
+                                                              tfidf_score_map[token]));
+                            if re.search(ur'^g', candidate):
+                                general_feature=candidate;
+                                general_feature_numeric=feature_map_numeric[general_feature];
+                                if tfidf==False:
+                                    feature_space_doc.append((general_feature_numeric,
+                                                              1));
+                                #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                                elif tfidf==True:
+                                    feature_space_doc.append((general_feature_numeric,
+                                                              tfidf_score_map[token]));
 
                 if label not in feature_space_label:
                     feature_space_label[label]=[feature_space_doc];
@@ -629,7 +632,6 @@ def convert_to_feature_space(training_map, feature_map_character, feature_map_nu
             #------------------------------------------------------------     
         training_map_feature_space[subdata]=feature_space_label;
         #------------------------------------------------------------     
-    sys.exit();
     return training_map_feature_space;
 
 def unify_tarining_feature_space(training_map_feature_space):
@@ -688,8 +690,12 @@ def close_test(classifier_path, test_path):
     ACC, MSE, SCC = evaluations(y, p_label); 
     print ACC, MSE, SCC;
 
-def out_to_libsvm_format(training_map_original, feature_map_numeric, feature_map_character, tfidf, tfidf_score_map, exno, args):
-    training_map_feature_space=convert_to_feature_space(training_map_original, feature_map_character, feature_map_numeric, tfidf_score_map, tfidf);
+def out_to_libsvm_format(training_map_original, feature_map_numeric,
+                         feature_map_character, tfidf, tfidf_score_map, exno, args):
+    training_map_feature_space=convert_to_feature_space(training_map_original,
+                                                        feature_map_character,
+                                                        feature_map_numeric,
+                                                        tfidf_score_map, tfidf);
     unified_training_map=unify_tarining_feature_space(training_map_feature_space); 
     training_map=unified_training_map; 
     #============================================================ 
@@ -775,8 +781,6 @@ def out_to_libsvm_format(training_map_original, feature_map_numeric, feature_map
                         lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
             weight_parm='';
         
-        #ここでfeature_spaceに変換されたmapがあると良い．
-        #で，mixedしてから次の処理に渡す
         #------------------------------------------------------------  
         #ファイルに書き出しの処理をおこなう
         #インドメインでのtrainとtestに分離
