@@ -17,12 +17,14 @@ def copy_files(target_dir, filelist):
         shutil.copyfile(file_i, copy_to_path);
 
 def split_train_test():
-    training_ratio=0.9;
+    training_ratio=0.99;
     test_ratio=1-training_ratio;
     #------------------------------------------------------------
     dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/';
     save_dir_train='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated_train/';
     save_dir_test='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated_test/';
+    shutil.rmtree(save_dir_train);
+    shutil.rmtree(save_dir_test);
     try:
         os.makedirs(save_dir_train);
     except:

@@ -31,7 +31,7 @@ under_sampling=False;
 level=1;
 dev_limit=1;
 #for regularization type, see README of liblinear
-regularization=5;
+regularization=2;
 
 def make_filelist(dir_path):
     file_list=[];
@@ -368,7 +368,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             elif level==2:
                 alphabet_label=(os.path.basename(filepath))[0];
             tokens_in_label=tokenize.wordpunct_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
-            lemmatized_tokens_in_label=[lemmatizer.lemmatize(t) for t in tokens_in_label];
+            lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
             if stop==True:
                 lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
             if level==1:
@@ -403,21 +403,6 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             feature_map_character=make_feature_set(feature_map_character, None, doc_token, 'dutch', stop, args);
         #------------------------------------------------------------ 
             #tfidf用のコードがあった跡地
-            """
-            docs=[];
-            for label in training_map:
-                doc=training_map[label];
-                docs+=doc;
-            tfidf_score_map=tf_idf.tf_idf_test(docs);
-            for token_key in tfidf_score_map:
-                if token_key not in feature_map_character:
-                    feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key, 
-                                                                           tfidf_score_map[token_key])]
-                else:
-                    feature_map_character[token_key].append(u'all_{}_{}_tfidf'.\
-                                                            format(token_key,
-                                                                   tfidf_score_map[token_key]));
-            """ 
         for alphabet_label in dutch_training_map:
             print u'The num. of training instance for {} in dutch corpus is {}'.format(alphabet_label, len(dutch_training_map[alphabet_label]));
         print u'-'*30;
@@ -452,20 +437,6 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                                                        label, tokens_set_stack, 'thompson', stop, args);
         #------------------------------------------------------------ 
             #tdidf用のコードがあった跡地
-            """
-            docs=[];
-            for label in training_map:
-                doc=training_map[label];
-                docs+=doc;
-            tfidf_score_map=tf_idf.tf_idf_test(docs);
-            for token_key in tfidf_score_map:
-                if token_key not in feature_map_character: 
-                    feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
-                                                                            tfidf_score_map[token_key])];
-                else:
-                    feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
-                                                                            -tfidf_score_map[token_key]));
-            """
         training_map['thompson']=thompson_training_map;
     #============================================================ 
     #もしTFIDFを使うのであれば，test documentも合わせた空間で重みスコアを求めないといけない
@@ -520,7 +491,9 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         #------------------------------------------------------------
         print 'TFIDF score calculating'
         tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
-        feature_map_character=make_tfidf_feature_from_score(tfidf_score_map, wordset_map, feature_map_character, args);
+        feature_map_character=make_tfidf_feature_from_score(tfidf_score_map,
+                                                            wordset_map,
+                                                            feature_map_character, args);
     #============================================================  
     #作成した素性辞書をjsonに出力(TFIDF)が空の時は空の辞書が出力される
     with codecs.open('classifier/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
@@ -535,9 +508,34 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
 
     feature_space=len(feature_map_numeric);
     print u'The number of feature is {}'.format(feature_space)
-    #自分で作成したトレーニングモデルがちょっと信用できないので，libsvmも使ってみる
-    out_to_libsvm_format(training_map, feature_map_numeric, feature_map_character, tfidf, tfidf_score_map, exno, args);
-     
+    
+    if args.training=='liblinear':
+        #liblinearを使ったモデル作成
+        out_to_libsvm_format(training_map, 
+                            feature_map_numeric, 
+                            feature_map_character,
+                            tfidf,
+                            tfidf_score_map,
+                            exno, args);
+    elif args.training=='mulan':
+        dutch_dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated_train/'
+        #mulanを使ったモデル作成
+        #training_mapは使えないので新たにデータ構造の再構築をする（もったいないけど）
+        #thompson木は元々マルチラベルでもなんでもないので，使わない
+        training_data_list=create_multilabel_datastructure(dutch_dir_path, args); 
+        #TODO 新しくlabel spaceを定義したまだ未定義なのではやく処理する
+        #欲しいのは，ラベルアルファベットの配列 [A, B, C, D, E....]
+        out_to_mulan_format(training_data_list, 
+                            feature_map_numeric, 
+                            feature_map_character,
+                            tfidf,
+                            tfidf_score_map,
+                            exno, feature_space, 
+                            label_space, args);
+
+
+def training_with_scikit():
+    pass;
     """
     num_of_correct_training_instance=0;
     num_of_incorrect_training_instance=0;
@@ -605,62 +603,80 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         with codecs.open('./classifier/1st_layer/'+filename, 'w', 'utf-8') as f:
             pickle.dump(estimator, f);
             """
-def convert_to_feature_space(training_map, feature_map_character, feature_map_numeric, tfidf_score_map, tfidf, args):
-    """
-    training_mapの中身を素性空間に変換する．
-    戻り値は数値表現になった素性空間．
-    データ構造はtraining_mapと同じ．（ただし，最後だけtokenでなく，素性番号：素性値のタプル）
-    """
-    training_map_feature_space={};
-    for subdata in training_map:
-        if args.easy_domain==True:
-            if subdata=='dutch':
-                prefix=u'd';
-            elif subdata=='thompson':
-                prefix=u't';
-        elif args.easy_domain==False:
-            prefix=u'normal';
-        feature_space_label={};
-        #------------------------------------------------------------     
-        for label in training_map[subdata]:
-            #------------------------------------------------------------     
-            #token表現を文書ごとに素性空間にマップする．
-            for doc in training_map[subdata][label]:
-                feature_space_doc=[];
-                for token in doc:
-                    #feature_map_character[token]の中は配列になっているので，資源にあった資源のみを選ぶ
-                    if token in feature_map_character: 
-                        for candidate in feature_map_character[token]:
-                            feature_pattern=re.compile(u'^{}'.format(prefix));
-                            if re.search(feature_pattern, candidate):
-                                domain_feature=candidate;
-                                domain_feature_numeric=feature_map_numeric[domain_feature];
-                                if tfidf==False:
-                                    feature_space_doc.append((domain_feature_numeric,
-                                                              1)); 
-                                #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
-                                elif tfidf==True:
-                                    feature_space_doc.append((domain_feature_numeric,
-                                                              tfidf_score_map[token]));
-                            if re.search(ur'^g', candidate):
-                                general_feature=candidate;
-                                general_feature_numeric=feature_map_numeric[general_feature];
-                                if tfidf==False:
-                                    feature_space_doc.append((general_feature_numeric,
-                                                              1));
-                                #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
-                                elif tfidf==True:
-                                    feature_space_doc.append((general_feature_numeric,
-                                                              tfidf_score_map[token]));
 
-                if label not in feature_space_label:
-                    feature_space_label[label]=[feature_space_doc];
-                else:
-                    feature_space_label[label].append(feature_space_doc);
+def convert_to_feature_space(training_map,
+                            feature_map_character,
+                            feature_map_numeric,
+                             tfidf_score_map, tfidf, args):
+    if args.training=='liblinear':
+        """
+        training_mapの中身を素性空間に変換する．
+        戻り値は数値表現になった素性空間．
+        データ構造はtraining_mapと同じ．（ただし，最後だけtokenでなく，素性番号：素性値のタプル）
+        """
+        training_map_feature_space={};
+        for subdata in training_map:
+            if args.easy_domain==True:
+                if subdata=='dutch':
+                    prefix=u'd';
+                elif subdata=='thompson':
+                    prefix=u't';
+            elif args.easy_domain==False:
+                prefix=u'normal';
+            feature_space_label={};
             #------------------------------------------------------------     
-        training_map_feature_space[subdata]=feature_space_label;
-        #------------------------------------------------------------     
-    return training_map_feature_space;
+            for label in training_map[subdata]:
+                #------------------------------------------------------------     
+                #token表現を文書ごとに素性空間にマップする．
+                for doc in training_map[subdata][label]:
+                    feature_space_doc=[];
+                    for token in doc:
+                        #feature_map_character[token]の中は配列になっているので，資源にあった資源のみを選ぶ
+                        if token in feature_map_character: 
+                            for candidate in feature_map_character[token]:
+                                feature_pattern=re.compile(u'^{}'.format(prefix));
+                                if re.search(feature_pattern, candidate):
+                                    domain_feature=candidate;
+                                    domain_feature_numeric=feature_map_numeric[domain_feature];
+                                    if tfidf==False:
+                                        feature_space_doc.append((domain_feature_numeric,
+                                                                  1)); 
+                                    #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                                    elif tfidf==True:
+                                        feature_space_doc.append((domain_feature_numeric,
+                                                                  tfidf_score_map[token]));
+                                if re.search(ur'^g', candidate):
+                                    general_feature=candidate;
+                                    general_feature_numeric=feature_map_numeric[general_feature];
+                                    if tfidf==False:
+                                        feature_space_doc.append((general_feature_numeric,
+                                                                  1));
+                                    #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                                    elif tfidf==True:
+                                        feature_space_doc.append((general_feature_numeric,
+                                                                  tfidf_score_map[token]));
+                    #------------------------------------------------------------     
+                    if label not in feature_space_label:
+                        feature_space_label[label]=[feature_space_doc];
+                    else:
+                        feature_space_label[label].append(feature_space_doc);
+                #------------------------------------------------------------     
+            training_map_feature_space[subdata]=feature_space_label;
+            #------------------------------------------------------------     
+        return training_map_feature_space;
+    #============================================================ 
+    elif args.training=='mulan':
+        training_data_list_feature_space=[];
+        training_data_list=training_map;
+        for one_instance in training_data_list:
+            one_instance_stack=[];
+            for token in one_instance[1]:
+                if token in feature_map_character:
+                    for feature_candidate in feature_map_character[token]:
+                        feature_number=feature_map_numeric[feature_candidate];
+                        one_instance_stack.append(feature_number);
+            training_data_list_feature_space.append((one_instance[0], one_instance_stack));
+        return training_data_list_feature_space;
 
 def unify_tarining_feature_space(training_map_feature_space):
     unified_map={};
@@ -718,8 +734,56 @@ def close_test(classifier_path, test_path):
     ACC, MSE, SCC = evaluations(y, p_label); 
     print ACC, MSE, SCC;
 
+def create_multilabel_datastructure(dir_path, args):
+    training_data_list=[];
+    level=args.level;
+    for fileindex, filepath in enumerate(make_filelist(dir_path)):
+        if level==1:
+            alphabet_label_list=(os.path.basename(filepath)).split('_')[:-1];
+        elif level==2:
+            alphabet_label=(os.path.basename(filepath))[0];
+        tokens_in_label=tokenize.wordpunct_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
+        lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
+        if args.stop==True:
+            lemmatized_tokens_in_label=\
+                    [t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
+        if level==1:
+            #ラベル列，token列のタプルにして追加
+            training_data_list.append(([alphabet_label.upper() for alphabet_label in alphabet_label_list],
+                                      lemmatized_tokens_in_label));
+        #level2のことは後で考慮すればよい
+        """
+        elif level==2:
+            alphabet_label=alphabet_label.upper();
+            if alphabet_label in training_map:
+                dutch_training_map[alphabet_label].append(lemmatized_tokens_in_label);
+            else:
+                dutch_training_map[alphabet_label]=[lemmatized_tokens_in_label];
+        if dev_mode==True and fileindex==dev_limit:
+            break;
+            """
+    return training_data_list;
+def out_to_mulan_format(training_data_list, feature_map_numeric,
+                        feature_map_character, tfidf, tfidf_score_map,
+                        exno, feature_space, label_space, args):
+    training_data_list_feature_space=convert_to_feature_space(training_data_list,
+                                                            feature_map_character,
+                                                            feature_map_numeric,
+                                                            tfidf_score_map, tfidf, args);
+    mulan_header_relation=u'@relation {}\n\n';
+    #TODO headerに素性の名前を記入していかないといけない!
+    #------------------------------------------------------------
+    for one_instance in training_data_list_feature_space:
+        feature_space_for_one_instance=[0]*feature_space;
+        for feature_number_tuple in one_instance[1]:
+            #今はunigramの想定で書いてるけど，後でtfidf用も書き加えないといけない
+            #だから，変数名はtupleになっている（実際にはint型が入ってる）
+            feature_space_for_one_instance[feature_number_tuple]=1;
+        
+
 def out_to_libsvm_format(training_map_original, feature_map_numeric,
-                         feature_map_character, tfidf, tfidf_score_map, exno, args):
+                        feature_map_character, tfidf, tfidf_score_map,
+                        exno, args):
     training_map_feature_space=convert_to_feature_space(training_map_original,
                                                         feature_map_character,
                                                         feature_map_numeric,
@@ -903,6 +967,8 @@ if __name__=='__main__':
     parser.add_argument('-easy_domain', '--easy_domain',
                         help='use easy domain adaptation',
                         action='store_true');
+    parser.add_argument('-training', help='which training tool?',
+                        required=True);
     args=parser.parse_args();
     dir_path='./parsed_json/'
     #------------------------------------------------------------    
@@ -912,6 +978,9 @@ if __name__=='__main__':
     if args.easy_domain==True:
         if not (args.dutch==True and args.thompson==True):
             sys.exit('[Warning] You specified easy_domain mode. But there is only one domain');
+    #------------------------------------------------------------    
+    if not args.training=='liblinear' and not args.training=='mulan':
+        sys.exit('[Warning] choose correct training tool');
     #------------------------------------------------------------    
     all_thompson_tree=return_range.load_all_thompson_tree(dir_path);
     result_stack=main(args.level, 
