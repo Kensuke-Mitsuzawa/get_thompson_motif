@@ -30,7 +30,8 @@ put_weight_constraint=True;
 under_sampling=False;
 level=1;
 dev_limit=1;
-#ratio_of_training_instance=0.7;
+#for regularization type, see README of liblinear
+regularization=5;
 
 def make_filelist(dir_path):
     file_list=[];
@@ -354,7 +355,9 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         #古い方のパス（自分で翻訳してた頃）
         #dir_path='../dutch_folktale_corpus/given_script/translated_big_document/leaf_layer/' 
         #新しい方のパス(translated by kevin's system)
-        dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/'
+        #dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/'
+        #訓練用に分割したディレクトリ
+        dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated_train/'
         #description付きのバージョンなら
         #dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/'
         #------------------------------------------------------------
@@ -602,7 +605,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         with codecs.open('./classifier/1st_layer/'+filename, 'w', 'utf-8') as f:
             pickle.dump(estimator, f);
             """
-def convert_to_feature_space(training_map, feature_map_character, feature_map_numeric, tfidf_score_map, tfidf):
+def convert_to_feature_space(training_map, feature_map_character, feature_map_numeric, tfidf_score_map, tfidf, args):
     """
     training_mapの中身を素性空間に変換する．
     戻り値は数値表現になった素性空間．
@@ -610,10 +613,13 @@ def convert_to_feature_space(training_map, feature_map_character, feature_map_nu
     """
     training_map_feature_space={};
     for subdata in training_map:
-        if subdata=='dutch':
-            prefix=u'd';
-        elif subdata=='thompson':
-            prefix=u't';
+        if args.easy_domain==True:
+            if subdata=='dutch':
+                prefix=u'd';
+            elif subdata=='thompson':
+                prefix=u't';
+        elif args.easy_domain==False:
+            prefix=u'normal';
         feature_space_label={};
         #------------------------------------------------------------     
         for label in training_map[subdata]:
@@ -717,7 +723,7 @@ def out_to_libsvm_format(training_map_original, feature_map_numeric,
     training_map_feature_space=convert_to_feature_space(training_map_original,
                                                         feature_map_character,
                                                         feature_map_numeric,
-                                                        tfidf_score_map, tfidf);
+                                                        tfidf_score_map, tfidf, args);
     unified_training_map=unify_tarining_feature_space(training_map_feature_space); 
     training_map=unified_training_map; 
     #============================================================ 
@@ -753,11 +759,10 @@ def out_to_libsvm_format(training_map_original, feature_map_numeric,
             ratio_c=float(instance_lines_num_map['C']) / (instance_lines_num_map['C']+instance_lines_num_map['N']);
             ratio_n=float(instance_lines_num_map['N']) / (instance_lines_num_map['C']+instance_lines_num_map['N']);
             if int(ratio_c*100)==0:
-                weight_parm='-w-1 {} -w1 {} -s 2 -q'.format(1, int(ratio_n*100));
+                weight_parm='-w-1 {} -w1 {} -s {} -q'.format(1, int(ratio_n*100), regularization);
             else:
-                weight_parm='-w-1 {} -w1 {} -s 2 -q'.format(int(ratio_c*100), int(ratio_n*100));
+                weight_parm='-w-1 {} -w1 {} -s {} -q'.format(int(ratio_c*100), int(ratio_n*100), regularization);
             weight_parm_svm='-w-1 {} -w1 {}'.format(int(ratio_c*100), int(ratio_n*100));
-        
         #------------------------------------------------------------  
         elif put_weight_constraint==False and under_sampling==True:
             #各ラベルのインスタンス比率を求める
@@ -784,7 +789,7 @@ def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
                     #比率にもとづいて計算された行数を追加し終わったら，次のラベルに移る 
                     if instance_index==instance_ratio_map[label]: continue;
-            weight_parm='-s 2 -q';
+            weight_parm='-s {} -q'.format(regularization);
         #------------------------------------------------------------  
         elif put_weight_constraint==True and under_sampling==True:
             sys.exit('[Warning] Both put_weight_constraint and under_sampling is True');
@@ -801,7 +806,7 @@ def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         one_instance_stack.sort();
                         one_instance_stack=[str(tuple_item[0])+u':'+str(tuple_item[1]) for tuple_item in one_instance_stack];
                         lines_for_incorrect_instances_stack.append(u'{} {}\n'.format('-1', u' '.join(one_instance_stack)));
-            weight_parm='';
+            weight_parm='-s {}'.format(regularization);
         
         #ここでfeature_spaceに変換されたmapがあると良い．
         #で，mixedしてから次の処理に渡す
