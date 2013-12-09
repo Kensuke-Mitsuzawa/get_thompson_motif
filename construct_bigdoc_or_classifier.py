@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 """
 """
-__date__='2013/12/07'
+__date__='2013/12/09'
 libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
 import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
@@ -159,17 +159,23 @@ def cleanup_class_stack(class_training_stack, stop):
             tokens_set_stack.append(tokens_s) 
     return tokens_set_stack;
 
-def make_feature_set(feature_map, label_name, tokens_set_stack, feature_mode, stop):
+def make_feature_set(feature_map, label_name, tokens_set_stack, feature_mode, stop, args):
     """
     素性関数を作り出す（要はただのmap）
     12/07 easy domain adaptation用に書き換え．(３種の素性：t:thompson, d:dutch, g:general)
+    12/09 easy domain modeとそうでないmodeに切り分け
     feature_modeがdutchの時：頭文字にd,と頭文字にgの素性作成
     feature_modeがthompsonの時：頭文字にt,と頭文字にgの素性作成
     """
-    if feature_mode=='thompson':
-        prefix=u't';
-    elif feature_mode=='dutch':
-        prefix=u'd';
+    easy_domain=args.easy_domain;
+    if easy_domain==True:
+        #各ドメインの識別用頭文字を設定
+        if feature_mode=='thompson':
+            prefix=u't';
+        elif feature_mode=='dutch':
+            prefix=u'd';
+    elif easy_domain==False:
+        prefix='normal';
 
     for token_instance in tokens_set_stack:
         for token in token_instance:
@@ -190,23 +196,26 @@ def make_feature_set(feature_map, label_name, tokens_set_stack, feature_mode, st
                     pass; 
                 else:
                     feature_map[token]=[character_feature];
-            #general用の素性を登録
-            general_feature=u'{}_{}_unigram'.format('g', token);
-            character_feature=general_feature;
-            if stop==True and token not in stopwords and token not in symbols:
-                if token in feature_map and character_feature not in feature_map[token]:
-                    feature_map[token].append(character_feature);
-                elif token in feature_map and character_feature in feature_map[token]:
-                    pass; 
-                else:
-                    feature_map[token]=[character_feature];
-            elif stop==False:
-                if token in feature_map and character_feature not in feature_map[token]:
-                    feature_map[token].append(character_feature);
-                elif token in feature_map and character_feature in feature_map[token]:
-                    pass;
-                else:
-                    feature_map[token]=[character_feature];
+            
+            if easy_domain==True:
+                #general用の素性を登録
+                #generalを登録するのはeasy domainがTrueの時だけ
+                general_feature=u'{}_{}_unigram'.format('g', token);
+                character_feature=general_feature;
+                if stop==True and token not in stopwords and token not in symbols:
+                    if token in feature_map and character_feature not in feature_map[token]:
+                        feature_map[token].append(character_feature);
+                    elif token in feature_map and character_feature in feature_map[token]:
+                        pass; 
+                    else:
+                        feature_map[token]=[character_feature];
+                elif stop==False:
+                    if token in feature_map and character_feature not in feature_map[token]:
+                        feature_map[token].append(character_feature);
+                    elif token in feature_map and character_feature in feature_map[token]:
+                        pass;
+                    else:
+                        feature_map[token]=[character_feature];
     #ここはsoftラベル用の素性を見ていた時のコード
     """
     #allはすでにsoftの素性が存在しているときに付与
@@ -284,6 +293,50 @@ def make_numerical_feature(feature_map_character):
             feature_num_max+=1;
     return feature_map_numeric;
 
+def make_tfidf_feature_from_score(tfidf_score_map, wordset_map, feature_map_character, args):
+    """
+    TFIDF用の素性を作成する．
+    easy_domainを適用するときと，そうでないときで区別
+    """
+    if args.easy_domain==True:
+        for token_key in tfidf_score_map:
+            general_format=u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]);
+            if token_key in wordset_map['thompson']:
+                thompson_format=u't_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]); 
+                if token_key not in feature_map_character: 
+                    feature_map_character[token_key]=[thompson_format];
+                elif token_key in feature_map_character and general_format not in feature_map_character[token_key]:
+                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])); 
+                elif token_key in feature_map_character and thompson_format not in feature_map_character[token_key]:
+                    feature_map_character[token_key].append(thompson_format);
+            #この下のifを上と同じように書き換え
+            if token_key in wordset_map['dutch']:
+                dutch_format=u't_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]); 
+                if token_key not in feature_map_character: 
+                    feature_map_character[token_key]=[thompson_format];
+                elif token_key in feature_map_character and general_format not in feature_map_character[token_key]:
+                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])); 
+                elif token_key in feature_map_character and thompson_format not in feature_map_character[token_key]:
+                    feature_map_character[token_key].append(thompson_format);
+            #ここ，不安なんだけど．．テストのコーパスはターゲットドメインのはずだから，ターゲットを表すdでいいはず．．．
+            if token_key in wordset_map['test']:
+                test_format=u't_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]); 
+                if token_key not in feature_map_character: 
+                    feature_map_character[token_key]=[thompson_format];
+                elif token_key in feature_map_character and general_format not in feature_map_character[token_key]:
+                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])); 
+                elif token_key in feature_map_character and thompson_format not in feature_map_character[token_key]:
+                    feature_map_character[token_key].append(thompson_format);
+    elif args.easy_domain==False:
+        #easy domain adaptationを使わないモード用にここを残しておく 
+        for token_key in tfidf_score_map:
+            normal_format=u'normal_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]);
+            if token_key not in feature_map_character:
+                feature_map_character[token_key]=[normal_format];
+            elif token_key in feature_map_character:
+                feature_map_character[token_key].append(normal_format);
+    return feature_map_character;
+
 def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno, args):
     dev_mode=args.dev;
     exno=str(exno);
@@ -341,7 +394,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             for label in dutch_training_map:
                 doc=dutch_training_map[label];
                 doc_token+=doc; 
-            feature_map_character=make_feature_set(feature_map_character, None, doc_token, 'dutch', stop);
+            feature_map_character=make_feature_set(feature_map_character, None, doc_token, 'dutch', stop, args);
         #------------------------------------------------------------ 
             #tfidf用のコードがあった跡地
             """
@@ -390,7 +443,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 tokens_set_stack=thompson_training_map[label];
                 #文字情報の素性関数を作成する
                 feature_map_character=make_feature_set(feature_map_character,
-                                                       label, tokens_set_stack, 'thompson', stop);
+                                                       label, tokens_set_stack, 'thompson', stop, args);
         #------------------------------------------------------------ 
             #tdidf用のコードがあった跡地
             """
@@ -461,41 +514,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         #------------------------------------------------------------
         print 'TFIDF score calculating'
         tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
-        #ここをeasy-domain用に改造
-        #関数化しようとも思ったが．．．やめておく
-        for token_key in tfidf_score_map:
-            if token_key in wordset_map['thompson']:
-                if token_key not in feature_map_character: 
-                    feature_map_character[token_key]=[u't_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]),
-                                                      u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])];
-                else:
-                    feature_map_character[token_key].append(u't_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
-                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
-            if token_key in wordset_map['dutch']:
-                if token_key not in feature_map_character: 
-                    feature_map_character[token_key]=[u'd_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]),
-                                                      u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])];
-                else:
-                    feature_map_character[token_key].append(u'd_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
-                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
-            #ここ，不安なんだけど．．テストのコーパスはターゲットドメインのはずだから，ターゲットを表すdでいいはず．．．
-            if token_key in wordset_map['test']:
-                if token_key not in feature_map_character: 
-                    feature_map_character[token_key]=[u'd_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]),
-                                                      u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key])];
-                else:
-                    feature_map_character[token_key].append(u'd_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
-                    feature_map_character[token_key].append(u'g_{}_{}_tfidf'.format(token_key, tfidf_score_map[token_key]));
-        #easy domain adaptationを使わないモード用にここを残しておく 
-        """
-        for token_key in tfidf_score_map:
-            if token_key not in feature_map_character: 
-                feature_map_character[token_key]=[u'all_{}_{}_tfidf'.format(token_key,
-                                                                        tfidf_score_map[token_key])];
-            else:
-                feature_map_character[token_key].append(u'all_{}_{}_tfidf'.format(token_key,
-                                                                        tfidf_score_map[token_key]));
-            """
+        feature_map_character=make_tfidf_feature_from_score(tfidf_score_map, wordset_map, feature_map_character, args);
     #============================================================  
     #作成した素性辞書をjsonに出力(TFIDF)が空の時は空の辞書が出力される
     with codecs.open('classifier/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
@@ -873,6 +892,9 @@ if __name__=='__main__':
     parser.add_argument('-training_amount', '--training_amount',
                         help='The ratio of training amount',
                         default=0.95);
+    parser.add_argument('-easy_domain', '--easy_domain',
+                        help='use easy domain adaptation',
+                        action='store_true');
     args=parser.parse_args();
     dir_path='./parsed_json/'
     if float(args.training_amount)>=1.0:
