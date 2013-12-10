@@ -525,8 +525,6 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         #training_mapは使えないので新たにデータ構造の再構築をする（もったいないけど）
         #thompson木は元々マルチラベルでもなんでもないので，使わない
         training_data_list=create_multilabel_datastructure(dutch_dir_path, args); 
-        #TODO 新しくlabel spaceを定義したまだ未定義なのではやく処理する
-        #欲しいのは，ラベルアルファベットの配列 [A, B, C, D, E....]
         out_to_mulan_format(training_data_list, 
                             feature_map_numeric, 
                             feature_map_character,
@@ -672,10 +670,18 @@ def convert_to_feature_space(training_map,
         for one_instance in training_data_list:
             one_instance_stack=[];
             for token in one_instance[1]:
-                if token in feature_map_character:
-                    for feature_candidate in feature_map_character[token]:
-                        feature_number=feature_map_numeric[feature_candidate];
-                        one_instance_stack.append(feature_number);
+                if args.tfidf==False:
+                    if token in feature_map_character:
+                        for feature_candidate in feature_map_character[token]:
+                            feature_number=feature_map_numeric[feature_candidate];
+                            one_instance_stack.append((feature_number, 1));
+                elif args.tfidf==True:
+                    if token in tfidf_score_map:
+                        for feature_candidate in feature_map_character[token]:
+                            feature_number=feature_map_numeric[feature_candidate];
+                            tfidf_weight=tfidf_score_map[token];
+                            one_instance_stack.append((feature_number, tfidf_weight));
+
             training_data_list_feature_space.append((one_instance[0], one_instance_stack));
         return training_data_list_feature_space;
 
@@ -736,6 +742,11 @@ def close_test(classifier_path, test_path):
     print ACC, MSE, SCC;
 
 def create_multilabel_datastructure(dir_path, args):
+    """
+    mulan用に訓練用のデータを作成する．
+    @param args dir_path:訓練データがあるディレクトリパス args:argumentparserの引数
+    Return 二次元配列 [([ラベル列],[token列]),..] 
+    """
     training_data_list=[];
     level=args.level;
     for fileindex, filepath in enumerate(make_filelist(dir_path)):
@@ -768,20 +779,22 @@ def create_multilabel_datastructure(dir_path, args):
 def out_to_mulan_format(training_data_list, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
                         exno, feature_space, motif_vector, args):
+    """
+    mulan用にデータフォーマットを作成する．
+    """
     training_data_list_feature_space=convert_to_feature_space(training_data_list,
                                                             feature_map_character,
                                                             feature_map_numeric,
                                                             tfidf_score_map, tfidf, args);
     #------------------------------------------------------------
     #arffファイルのheader部分を作成
+    #xmlファイルも同時に作成
     file_contents_stack=[];
     xml_contents_stack=[];
-    file_contents_stack.append(u'@relation {hoge}\n\n');
+    file_contents_stack.append(u'@relation hoge\n\n');
     xml_contents_stack.append(u'<?xml version="1.0" encoding="utf-8"?>\n<labels xmlns="http://mulan.sourceforge.net/labels">\n')
-    for feature_name in feature_map_numeric:
-        #もしかしたら，ここがエラーの原因になるかもしれない
-        #というのも，utf-8文字もそのままファイルに書き出しているので，arffをmulanが読み込む時に例外出るかも
-        file_contents_stack.append(u'@attribute {} numeric\n'.format(feature_name));
+    for feature_tuple in sorted(feature_map_numeric.items(), key=lambda x:x[1]):
+        file_contents_stack.append(u'@attribute {} numeric\n'.format(feature_tuple[1]));
     for motif_name in motif_vector:
         file_contents_stack.append(u'@attribute {} {{0,1}}\n'.format(motif_name));
         xml_contents_stack.append(u'<label name="{}"></label>\n'.format(motif_name));
@@ -796,9 +809,7 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
         for motif in one_instance[0]:
             motif_vector_numeric[motif_vector.index(motif)-1]=1;
         for feature_number_tuple in one_instance[1]:
-            #今はunigramの想定で書いてるけど，後でtfidf用も書き加えないといけない
-            #だから，変数名はtupleになっている（実際にはint型が入ってる）
-            feature_space_for_one_instance[feature_number_tuple-1]=1;
+            feature_space_for_one_instance[feature_number_tuple[0]-1]=feature_number_tuple[1];
         feature_space_for_one_instance=[str(item) for item in feature_space_for_one_instance];
         motif_vector_str=[str(item) for item in motif_vector_numeric];
         file_contents_stack.append(u','.join(feature_space_for_one_instance)\
