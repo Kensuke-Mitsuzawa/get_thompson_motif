@@ -4,7 +4,7 @@
 TODO big_document用のコード部分とclassifier部分を切り分けて，別のモジュールにしてしまうこと
 いまは量が多すぎて，見難い
 """
-__date__='2013/12/10';
+__date__='2013/12/11';
 libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
 import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
@@ -359,7 +359,9 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         #新しい方のパス(translated by kevin's system)
         #dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/'
         #訓練用に分割したディレクトリ
-        dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated_train/'
+        dir_path='../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated_train/'
+        #クエリ翻訳の方式
+        #dir_path='../dutch_folktale_corpus/dutch_folktale_database_query_translated_google_translated_train/';
         #description付きのバージョンなら
         #dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/'
         #------------------------------------------------------------
