@@ -344,6 +344,8 @@ def make_numerical_feature(feature_map_character):
 def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno, args):
     dev_mode=args.dev;
     exno=str(exno);
+    motif_vector=[unichr(i) for i in xrange(65,65+26)];
+    motif_vector.remove(u'O'); motif_vector.remove(u'I');
     training_map={};
     tfidf_score_map={};
     feature_map_character={};
@@ -531,8 +533,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                             tfidf,
                             tfidf_score_map,
                             exno, feature_space, 
-                            label_space, args);
-
+                            motif_vector, args);
 
 def training_with_scikit():
     pass;
@@ -763,23 +764,51 @@ def create_multilabel_datastructure(dir_path, args):
             break;
             """
     return training_data_list;
+
 def out_to_mulan_format(training_data_list, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
-                        exno, feature_space, label_space, args):
+                        exno, feature_space, motif_vector, args):
     training_data_list_feature_space=convert_to_feature_space(training_data_list,
                                                             feature_map_character,
                                                             feature_map_numeric,
                                                             tfidf_score_map, tfidf, args);
-    mulan_header_relation=u'@relation {}\n\n';
-    #TODO headerに素性の名前を記入していかないといけない!
     #------------------------------------------------------------
+    #arffファイルのheader部分を作成
+    file_contents_stack=[];
+    file_contents_stack.append(u'@relation {hoge}\n\n');
+    for feature_name in feature_map_numeric:
+        #もしかしたら，ここがエラーの原因になるかもしれない
+        #というのも，utf-8文字もそのままファイルに書き出しているので，arffをmulanが読み込む時に例外出るかも
+        file_contents_stack.append(u'@attribute {} numeric\n'.format(feature_name));
+    for motif_name in motif_vector:
+        file_contents_stack.append(u'@attribute {} {{0,1}}\n'.format(motif_name));
+    file_contents_stack.append(u'\n\n');
+    #------------------------------------------------------------
+    #arffファイルのデータ部分を作成
+    file_contents_stack.append(u'@data\n');
     for one_instance in training_data_list_feature_space:
         feature_space_for_one_instance=[0]*feature_space;
+        motif_vector_numeric=[0]*len(motif_vector);
+        for motif in one_instance[0]:
+            motif_vector_numeric[motif_vector.index(motif)-1]=1;
+        print motif_vector_numeric;
         for feature_number_tuple in one_instance[1]:
             #今はunigramの想定で書いてるけど，後でtfidf用も書き加えないといけない
             #だから，変数名はtupleになっている（実際にはint型が入ってる）
-            feature_space_for_one_instance[feature_number_tuple]=1;
-        
+            feature_space_for_one_instance[feature_number_tuple-1]=1;
+        feature_space_for_one_instance=[str(item) for item in feature_space_for_one_instance];
+        motif_vector_str=[str(item) for item in motif_vector_numeric];
+        print motif_vector_str
+        file_contents_stack.append(u','.join(feature_space_for_one_instance)\
+                                   +u','+u','.join(motif_vector_str)\
+                                   +u'\n');
+    file_contents_stack.append(u'\n');
+    #------------------------------------------------------------
+    output_filepath=u'./classifier/mulan/';
+    output_filestem=u'exno{}.arff'.format(args.experiment_no);
+    with codecs.open(output_filepath+output_filestem, 'w', 'utf-8') as f:
+        f.writelines(file_contents_stack);
+    #TODO xmlファイルの作成
 
 def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
