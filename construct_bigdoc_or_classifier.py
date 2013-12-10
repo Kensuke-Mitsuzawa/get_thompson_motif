@@ -4,7 +4,7 @@
 TODO big_document用のコード部分とclassifier部分を切り分けて，別のモジュールにしてしまうこと
 いまは量が多すぎて，見難い
 """
-__date__='2013/12/09'
+__date__='2013/12/10';
 libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
 import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
@@ -775,13 +775,17 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
     #------------------------------------------------------------
     #arffファイルのheader部分を作成
     file_contents_stack=[];
+    xml_contents_stack=[];
     file_contents_stack.append(u'@relation {hoge}\n\n');
+    xml_contents_stack.append(u'<?xml version="1.0" encoding="utf-8"?>\n<labels xmlns="http://mulan.sourceforge.net/labels">\n')
     for feature_name in feature_map_numeric:
         #もしかしたら，ここがエラーの原因になるかもしれない
         #というのも，utf-8文字もそのままファイルに書き出しているので，arffをmulanが読み込む時に例外出るかも
         file_contents_stack.append(u'@attribute {} numeric\n'.format(feature_name));
     for motif_name in motif_vector:
         file_contents_stack.append(u'@attribute {} {{0,1}}\n'.format(motif_name));
+        xml_contents_stack.append(u'<label name="{}"></label>\n'.format(motif_name));
+    xml_contents_stack.append(u'</labels>');
     file_contents_stack.append(u'\n\n');
     #------------------------------------------------------------
     #arffファイルのデータ部分を作成
@@ -791,14 +795,12 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
         motif_vector_numeric=[0]*len(motif_vector);
         for motif in one_instance[0]:
             motif_vector_numeric[motif_vector.index(motif)-1]=1;
-        print motif_vector_numeric;
         for feature_number_tuple in one_instance[1]:
             #今はunigramの想定で書いてるけど，後でtfidf用も書き加えないといけない
             #だから，変数名はtupleになっている（実際にはint型が入ってる）
             feature_space_for_one_instance[feature_number_tuple-1]=1;
         feature_space_for_one_instance=[str(item) for item in feature_space_for_one_instance];
         motif_vector_str=[str(item) for item in motif_vector_numeric];
-        print motif_vector_str
         file_contents_stack.append(u','.join(feature_space_for_one_instance)\
                                    +u','+u','.join(motif_vector_str)\
                                    +u'\n');
@@ -808,7 +810,12 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
     output_filestem=u'exno{}.arff'.format(args.experiment_no);
     with codecs.open(output_filepath+output_filestem, 'w', 'utf-8') as f:
         f.writelines(file_contents_stack);
-    #TODO xmlファイルの作成
+    #------------------------------------------------------------
+    output_filestem=u'exno{}.xml'.format(args.experiment_no);
+    with codecs.open(output_filepath+output_filestem, 'w', 'utf-8') as f:
+        f.writelines(xml_contents_stack);
+    #============================================================ 
+     
 
 def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
