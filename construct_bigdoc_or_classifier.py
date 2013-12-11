@@ -341,7 +341,7 @@ def make_numerical_feature(feature_map_character):
             feature_num_max+=1;
     return feature_map_numeric;
 
-def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno, args):
+def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, args):
     dev_mode=args.dev;
     exno=str(exno);
     motif_vector=[unichr(i) for i in xrange(65,65+26)];
@@ -406,7 +406,6 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 doc_token+=doc; 
             feature_map_character=make_feature_set(feature_map_character, None, doc_token, 'dutch', stop, args);
         #------------------------------------------------------------ 
-            #tfidf用のコードがあった跡地
         for alphabet_label in dutch_training_map:
             print u'The num. of training instance for {} in dutch corpus is {}'.format(alphabet_label, len(dutch_training_map[alphabet_label]));
         print u'-'*30;
@@ -530,9 +529,8 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         out_to_mulan_format(training_data_list, 
                             feature_map_numeric, 
                             feature_map_character,
-                            tfidf,
-                            tfidf_score_map,
-                            exno, feature_space, 
+                            tfidf, tfidf_score_map,
+                            feature_space, 
                             motif_vector, args);
 
 def training_with_scikit():
@@ -667,6 +665,9 @@ def convert_to_feature_space(training_map,
         return training_map_feature_space;
     #============================================================ 
     elif args.training=='mulan':
+        """
+        RETURN list [tuple (list [unicode モチーフラベル], list [unicode token])] 
+        """
         training_data_list_feature_space=[];
         training_data_list=training_map;
         for one_instance in training_data_list:
@@ -746,8 +747,8 @@ def close_test(classifier_path, test_path):
 def create_multilabel_datastructure(dir_path, args):
     """
     mulan用に訓練用のデータを作成する．
-    @param args dir_path:訓練データがあるディレクトリパス args:argumentparserの引数
-    Return 二次元配列 [([ラベル列],[token列]),..] 
+    PARAM dir_path:訓練データがあるディレクトリパス args:argumentparserの引数
+    RETURN 二次元配列  list [tuple (list [unicode ラベル列], list [unicode token])] 
     """
     training_data_list=[];
     level=args.level;
@@ -780,10 +781,12 @@ def create_multilabel_datastructure(dir_path, args):
 
 def out_to_mulan_format(training_data_list, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
-                        exno, feature_space, motif_vector, args):
+                        feature_space, motif_vector, args):
     """
     mulan用にデータフォーマットを作成する．
+    RETURN void
     """
+    exno=args.experiment_no;
     training_data_list_feature_space=convert_to_feature_space(training_data_list,
                                                             feature_map_character,
                                                             feature_map_numeric,
@@ -820,11 +823,11 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
     file_contents_stack.append(u'\n');
     #------------------------------------------------------------
     output_filepath=u'./classifier/mulan/';
-    output_filestem=u'exno{}.arff'.format(args.experiment_no);
+    output_filestem=u'exno{}.arff'.format(exno);
     with codecs.open(output_filepath+output_filestem, 'w', 'utf-8') as f:
         f.writelines(file_contents_stack);
     #------------------------------------------------------------
-    output_filestem=u'exno{}.xml'.format(args.experiment_no);
+    output_filestem=u'exno{}.xml'.format(exno);
     with codecs.open(output_filepath+output_filestem, 'w', 'utf-8') as f:
         f.writelines(xml_contents_stack);
     #============================================================ 
@@ -985,7 +988,7 @@ def main(level, mode, all_thompson_tree, stop, dutch, thompson, tfidf, exno, arg
         feature_max=1;
         num_of_training_instance=0;
         if level==1:
-            construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, exno, args)
+            construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, args)
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description='');
