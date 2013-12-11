@@ -10,7 +10,7 @@ import subprocess, random, pickle, argparse, re, codecs, os, glob, json, sys;
 sys.path.append(libsvm_wrapper_path);
 from liblinearutil import *;
 from svmutil import *;
-import return_range, tf_idf, scale_grid;
+import return_range, tf_idf, scale_grid, mulan_module;
 import numpy;
 from nltk.corpus import stopwords;
 from nltk import stem;
@@ -343,7 +343,7 @@ def make_numerical_feature(feature_map_character):
 
 def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, args):
     dev_mode=args.dev;
-    exno=str(exno);
+    exno=str(args.experiment_no);
     motif_vector=[unichr(i) for i in xrange(65,65+26)];
     motif_vector.remove(u'O'); motif_vector.remove(u'I');
     training_map={};
@@ -521,12 +521,12 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                             tfidf_score_map,
                             exno, args);
     elif args.training=='mulan':
-        dutch_dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated_train/'
+        dutch_dir_path='../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated_train/'
         #mulanを使ったモデル作成
         #training_mapは使えないので新たにデータ構造の再構築をする（もったいないけど）
         #thompson木は元々マルチラベルでもなんでもないので，使わない
         training_data_list=create_multilabel_datastructure(dutch_dir_path, args); 
-        out_to_mulan_format(training_data_list, 
+        mulan_module.out_to_mulan_format(training_data_list, 
                             feature_map_numeric, 
                             feature_map_character,
                             tfidf, tfidf_score_map,
@@ -779,59 +779,7 @@ def create_multilabel_datastructure(dir_path, args):
             """
     return training_data_list;
 
-def out_to_mulan_format(training_data_list, feature_map_numeric,
-                        feature_map_character, tfidf, tfidf_score_map,
-                        feature_space, motif_vector, args):
-    """
-    mulan用にデータフォーマットを作成する．
-    RETURN void
-    """
-    exno=args.experiment_no;
-    training_data_list_feature_space=convert_to_feature_space(training_data_list,
-                                                            feature_map_character,
-                                                            feature_map_numeric,
-                                                            tfidf_score_map, tfidf, args);
-    #------------------------------------------------------------
-    #arffファイルのheader部分を作成
-    #xmlファイルも同時に作成
-    file_contents_stack=[];
-    xml_contents_stack=[];
-    file_contents_stack.append(u'@relation hoge\n\n');
-    xml_contents_stack.append(u'<?xml version="1.0" encoding="utf-8"?>\n<labels xmlns="http://mulan.sourceforge.net/labels">\n')
-    for feature_tuple in sorted(feature_map_numeric.items(), key=lambda x:x[1]):
-        file_contents_stack.append(u'@attribute {} numeric\n'.format(feature_tuple[1]));
-    for motif_name in motif_vector:
-        file_contents_stack.append(u'@attribute {} {{0,1}}\n'.format(motif_name));
-        xml_contents_stack.append(u'<label name="{}"></label>\n'.format(motif_name));
-    xml_contents_stack.append(u'</labels>');
-    file_contents_stack.append(u'\n\n');
-    #------------------------------------------------------------
-    #arffファイルのデータ部分を作成
-    file_contents_stack.append(u'@data\n');
-    for one_instance in training_data_list_feature_space:
-        feature_space_for_one_instance=[0]*feature_space;
-        motif_vector_numeric=[0]*len(motif_vector);
-        for motif in one_instance[0]:
-            motif_vector_numeric[motif_vector.index(motif)-1]=1;
-        for feature_number_tuple in one_instance[1]:
-            feature_space_for_one_instance[feature_number_tuple[0]-1]=feature_number_tuple[1];
-        feature_space_for_one_instance=[str(item) for item in feature_space_for_one_instance];
-        motif_vector_str=[str(item) for item in motif_vector_numeric];
-        file_contents_stack.append(u','.join(feature_space_for_one_instance)\
-                                   +u','+u','.join(motif_vector_str)\
-                                   +u'\n');
-    file_contents_stack.append(u'\n');
-    #------------------------------------------------------------
-    output_filepath=u'./classifier/mulan/';
-    output_filestem=u'exno{}.arff'.format(exno);
-    with codecs.open(output_filepath+output_filestem, 'w', 'utf-8') as f:
-        f.writelines(file_contents_stack);
-    #------------------------------------------------------------
-    output_filestem=u'exno{}.xml'.format(exno);
-    with codecs.open(output_filepath+output_filestem, 'w', 'utf-8') as f:
-        f.writelines(xml_contents_stack);
-    #============================================================ 
-     
+   
 
 def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
@@ -1019,7 +967,7 @@ if __name__=='__main__':
     parser.add_argument('-easy_domain', '--easy_domain',
                         help='use easy domain adaptation',
                         action='store_true');
-    parser.add_argument('-training', help='which training tool?',
+    parser.add_argument('-training', help='which training tool? liblinear or mulan?',
                         required=True);
     args=parser.parse_args();
     dir_path='./parsed_json/'
