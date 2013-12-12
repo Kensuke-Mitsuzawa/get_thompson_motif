@@ -1,6 +1,6 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
-import subprocess, codecs;
+import subprocess, codecs, sys;
 from construct_bigdoc_or_classifier import convert_to_feature_space;
 
 def out_to_mulan_format(training_data_list, feature_map_numeric,
@@ -57,7 +57,7 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
             break;
     file_contents_stack.append(u'\n');
     #------------------------------------------------------------
-    output_filepath=u'./classifier/mulan/';
+    output_filepath=u'../classifier/mulan/';
     output_filestem=u'exno{}.arff'.format(exno);
     with codecs.open(output_filepath+output_filestem, 'w', 'utf-8') as f:
         f.writelines(file_contents_stack);
@@ -69,16 +69,12 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
     call_mulan(args);
 
 def call_mulan(args):
-    import subprocess;
-    model_type='RAkEL';
-    arff_train='./classifier/mulan/exno{}.arff'.format(args.experiment_no);
-    xml_train='./classifier/mulan/exno{}.xml'.format(args.experiment_no);
-    model_savepath='./classifier/mulan/exno{}.model'.format(args.experiment_no);
-    args='java -jar ./mulan_interface/train_meta_classifier_mothod.jar -arff {} -xml {} \
-            -reduce True -model_savepath {} -model_type {}'.format(arff_train,
-                                                                   xml_train,
-                                                                   model_savepath,
-                                                                   model_type);
+    model_type=args.mulan_model;
+    xml_train='../classifier/mulan/exno{}.xml'.format(args.experiment_no);
+    arff_train='../classifier/mulan/exno{}.arff'.format(args.experiment_no);
+    model_savepath='../classifier/mulan/exno{}.model'.format(args.experiment_no);
+    args=('java -jar ./mulan_interface/train_meta_classifier_method.jar -arff {} -xml {} -reduce True -model_savepath {} -model_type {}'.format(arff_train,xml_train,model_savepath,model_type)).split();
+    
     print 'Input command is following:{}'.format(u' '.join(args));                                  
     subproc_args = {'stdin': subprocess.PIPE,
                     'stdout': subprocess.PIPE,
@@ -90,9 +86,11 @@ def call_mulan(args):
         print "Failed to execute command: %s" % args[0];
         sys.exit(1);
     
-    (stdouterr, stdin) = (p.stdout, p.stdin)
-    while True:
-        line=stdouterr.readline();
+    output=p.stdout;
+    print u'-'*30;
+    for line in output:
         print line;
-        if not line:
-            break;
+
+if __name__=='__main__':
+    args="";
+    call_mulan(args);

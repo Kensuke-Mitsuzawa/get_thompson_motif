@@ -1,4 +1,5 @@
 *.swp
+.DS_Store
 htmls/
 big_document/*
 log/
