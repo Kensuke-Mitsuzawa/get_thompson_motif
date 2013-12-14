@@ -48,6 +48,7 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
             motif_vector_numeric[motif_vector.index(motif)]=1;
             debug_l.append(motif_vector_numeric);
         for feature_number_tuple in one_instance[1]:
+            #素性番号は１始まりに設定しているので，インデックス調整のために-1する必要がある
             feature_space_for_one_instance[feature_number_tuple[0]-1]=feature_number_tuple[1];
         feature_space_for_one_instance=[str(item) for item in feature_space_for_one_instance];
         motif_vector_str=[str(item) for item in motif_vector_numeric];
