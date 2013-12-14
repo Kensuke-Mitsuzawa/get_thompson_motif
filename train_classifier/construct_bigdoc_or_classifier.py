@@ -1,7 +1,7 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
 
-__date__='2013/12/12';
+__date__='2013/12/14';
 import argparse, re, codecs, os, glob, json, sys;
 sys.path.append('../');
 import return_range, tf_idf, mulan_module, liblinear_module, BM25_module;
@@ -631,7 +631,7 @@ if __name__=='__main__':
         sys.exit('[Warning] choose correct training tool');
     #------------------------------------------------------------    
     if args.training=='mulan' and args.mulan_model==u'':
-        sys.exit('[Warning] mulan mode is not choosen');
+        sys.exit('[Warning] mulan model is not choosen');
     #------------------------------------------------------------    
     all_thompson_tree=return_range.load_all_thompson_tree(dir_path);
     result_stack=main(args.level, 

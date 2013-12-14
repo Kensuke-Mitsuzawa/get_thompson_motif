@@ -20,12 +20,12 @@ def split_train_test():
     training_ratio=0.99;
     test_ratio=1-training_ratio;
     #------------------------------------------------------------
-    #dir_path='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated/';
-    dir_path='../dutch_folktale_corpus/dutch_folktale_database_query_translated_google/';
-    #save_dir_train='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated_train/';
-    save_dir_train='../dutch_folktale_corpus/dutch_folktale_database_query_translated_google_translated_train/';
-    #save_dir_test='../dutch_folktale_corpus/dutch_folktale_database_google_translated/translated_test/';
-    save_dir_test='../dutch_folktale_corpus/dutch_folktale_database_query_translated_google_translated_test/';
+    dir_path='../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated/';
+    #dir_path='../dutch_folktale_corpus/dutch_folktale_database_query_translated_google/';
+    save_dir_train='../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated_train/';
+    #save_dir_train='../dutch_folktale_corpus/dutch_folktale_database_query_translated_google_translated_train/';
+    save_dir_test='../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated_test/';
+    #save_dir_test='../dutch_folktale_corpus/dutch_folktale_database_query_translated_google_translated_test/';
     try:
         shutil.rmtree(save_dir_train);
         shutil.rmtree(save_dir_test);

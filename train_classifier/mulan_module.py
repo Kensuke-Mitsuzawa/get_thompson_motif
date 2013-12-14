@@ -39,12 +39,14 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
         training_amount_limit=int(num_training_instances*args.training_amount);
     #------------------------------------------------------------
     #arffファイルのデータ部分を作成
+    debug_l=[];
     file_contents_stack.append(u'@data\n');
     for instance_index, one_instance in enumerate(training_data_list_feature_space):
         feature_space_for_one_instance=[0]*feature_space;
-        motif_vector_numeric=[0]*len(motif_vector);
+        motif_vector_numeric=[0]*len(motif_vector);       
         for motif in one_instance[0]:
-            motif_vector_numeric[motif_vector.index(motif)-1]=1;
+            motif_vector_numeric[motif_vector.index(motif)]=1;
+            debug_l.append(motif_vector_numeric);
         for feature_number_tuple in one_instance[1]:
             feature_space_for_one_instance[feature_number_tuple[0]-1]=feature_number_tuple[1];
         feature_space_for_one_instance=[str(item) for item in feature_space_for_one_instance];
