@@ -1,10 +1,10 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
+__date__='2013/12/17';
 
-__date__='2013/12/14';
 import argparse, re, codecs, os, glob, json, sys;
 sys.path.append('../');
-import return_range, tf_idf, mulan_module, liblinear_module, BM25_module;
+import return_range, tf_idf, mulan_module, liblinear_module, bigdoc_module;
 from nltk.corpus import stopwords;
 from nltk import stem;
 from nltk import tokenize; 
@@ -577,7 +577,7 @@ def main(level, mode, all_thompson_tree, stop, dutch, thompson, tfidf, exno, arg
     #result_stack=return_range.find_sub_tree(input_motif_no, all_thompson_tree) 
     #print 'The non-terminal nodes to reach {} is {}'.format(input_motif_no, result_stack);
     if mode=='big':
-        BM25_module.big_doc_main(all_thompson_tree, args);   
+        bigdoc_module.big_doc_main(all_thompson_tree, args);   
     elif mode=='class':
         if level==1:
             construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, args)
@@ -597,7 +597,7 @@ if __name__=='__main__':
     parser.add_argument('-thompson', 
                         help='If added, outline from thompson tree is added to training corpus', 
                         action='store_true');
-    parser.add_argument('-tfidf', 
+    parser.add_argument('-tfidf',
                         help='If added, tfidf is used for feature scoring instead of unigram feature', 
                         action='store_true');
     parser.add_argument('-exno', '--experiment_no',
@@ -612,8 +612,7 @@ if __name__=='__main__':
     parser.add_argument('-easy_domain', '--easy_domain',
                         help='use easy domain adaptation',
                         action='store_true');
-    parser.add_argument('-training', help='which training tool? liblinear or mulan?',
-                        required=True);
+    parser.add_argument('-training', help='which training tool? liblinear or mulan?');
     parser.add_argument('-mulan_model', help='which model in mulan library.\
                         RAkEL, RAkELd, MLCSSP, HOMER, HMC, ClusteringBased, Ensemble',
                         default=u'');
@@ -627,12 +626,15 @@ if __name__=='__main__':
         if not (args.dutch==True and args.thompson==True):
             sys.exit('[Warning] You specified easy_domain mode. But there is only one domain');
     #------------------------------------------------------------    
-    if not args.training=='liblinear' and not args.training=='mulan':
-        sys.exit('[Warning] choose correct training tool');
+    #if not args.training=='liblinear' and not args.training=='mulan':
+    #    sys.exit('[Warning] choose correct training tool');
     #------------------------------------------------------------    
     if args.training=='mulan' and args.mulan_model==u'':
         sys.exit('[Warning] mulan model is not choosen');
     #------------------------------------------------------------    
+    if args.mode=='class' and (not args.training=='mulan' or not args.training=='liblinear'):
+        sys.exit('[Warning] training tool is not choosen(mulan or liblinear)')        
+    #------------------------------------------------------------ 
     all_thompson_tree=return_range.load_all_thompson_tree(dir_path);
     result_stack=main(args.level, 
                       args.mode, 

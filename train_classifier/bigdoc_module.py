@@ -4,13 +4,20 @@ Created on Thu Dec 12 12:27:31 2013
 
 @author: kensuke-mi
 """
-import codecs, json, re;
+import codecs, json, re, os, glob;
 from nltk import tokenize;
 from nltk.corpus import stopwords;
 from nltk import stem;
 lemmatizer = stem.WordNetLemmatizer();
 stopwords = stopwords.words('english');
 symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
+
+def make_filelist(dir_path):
+    file_list=[];
+    for root, dirs, files in os.walk(dir_path):
+        for f in glob.glob(os.path.join(root, '*')):
+            file_list.append(f);
+    return file_list;
 
 def extract_leaf_content_for_construct_1st_level(target_subtree_map, big_document_stack):
     if not target_subtree_map['child']==[]:
@@ -77,19 +84,54 @@ def construct_1st_level(parent_node, all_thompson_tree):
                 big_document_stack=extract_leaf_content_for_construct_1st_level(target_subtree_map, big_document_stack)
     return big_document_stack;
     
-
-
-def big_doc_main(all_thompson_tree, args):
-    level=args.level;
-    stop=args.stop;
-    if level==1:
+def create_label1_bigdoc(args, all_thompson_tree):
+    #一層目のbigdocumentを生成して書き出し 書き出し先は./big_document/
+    if args.thompson==True:
         for key_1st in all_thompson_tree:
             parent_node=key_1st;
             big_document_stack=construct_1st_level(parent_node, all_thompson_tree);
             filename=u'{}_level_{}'.format(parent_node, 1);
-            tokens_s=cleanup_bigdocument_stack(filename, big_document_stack, stop);
+            tokens_s=cleanup_bigdocument_stack(filename, big_document_stack, args.stop);
             with codecs.open('./big_document/'+filename, 'w', 'utf-8') as f:
-                json.dump(tokens_s, f, indent=4, ensure_ascii=False);
+                #json.dump(tokens_s, f, indent=4, ensure_ascii=False);
+                #jsonは廃止　通常文書にする
+                f.write(u' '.join(tokens_s));
+
+    if args.dutch==True:
+        #オランダ語コーパスの疑似文書作成
+        big_document_tree={};
+        #------------------------------------------------------------ 
+        motif_vector=[unichr(i) for i in xrange(65,65+26)];
+        motif_vector.remove(u'O'); motif_vector.remove(u'I');
+        for m in motif_vector: big_document_tree.setdefault(m, []);
+        #------------------------------------------------------------             
+        dir_path='../../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated_train/';                
+        for filepath in make_filelist(dir_path):
+            tokens_in_label=tokenize.wordpunct_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
+            lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
+            if args.stop==True:
+                lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
+            tmp_sub=re.sub(ur'([A-Z]_)+\d.+', ur'\1', filepath.upper());                
+            for label in (os.path.basename(tmp_sub)).split(u'_'):
+                if label in big_document_tree:
+                    #big_document_tree[label].append(lemmatized_tokens_in_label);
+                    big_document_tree[label]+=lemmatized_tokens_in_label;
+                else:
+                    big_document_tree[label]=lemmatized_tokens_in_label;
+        #------------------------------------------------------------
+        #通常文書として書き出し
+        print 'writing tokens in dutch folktale database';
+        for label in big_document_tree:
+            with codecs.open('./big_document/'+label+'_level_1', 'a', 'utf-8') as f:
+                doc_in_label=big_document_tree[label];
+                f.write(u' '.join(doc_in_label));
+    
+def big_doc_main(all_thompson_tree, args):
+    level=args.level;
+    stop=args.stop;
+    if level==1:
+        create_label1_bigdoc(args, all_thompson_tree);
+
     elif level==2:
         for key_1st in all_thompson_tree:
             for key_2nd in all_thompson_tree[key_1st]:
