@@ -79,7 +79,7 @@ def call_mulan(args):
     arff_train='../classifier/mulan/exno{}.arff'.format(args.experiment_no);
     model_savepath='../classifier/mulan/exno{}.model'.format(args.experiment_no);
     dimention_reduce_method=args.reduce_method; 
-    args=('java -jar ./mulan_interface/train_classifier_method.jar -reduce_method {} -arff {} -xml {} -reduce True -reduce_method {} -model_savepath {} -model_type {}'.format(arff_train,xml_train,reduce_method,model_savepath,model_type)).split();
+    args=('java -jar ./mulan_interface/train_classifier_method.jar -arff {} -xml {} -reduce True -reduce_method {} -model_savepath {} -model_type {}'.format(arff_train,xml_train,reduce_method,model_savepath,model_type)).split();
     
     print 'Input command is following:{}'.format(u' '.join(args));                                  
     subproc_args = {'stdin': subprocess.PIPE,
