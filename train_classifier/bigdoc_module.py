@@ -119,7 +119,7 @@ def create_label1_bigdoc(args, all_thompson_tree):
             lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
             if args.stop==True:
                 lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
-            tmp_sub=re.sub(ur'([A-Z]_)+\d.+', ur'\1', os.path.basename(filepath.upper()));
+            tmp_sub=re.sub(ur'([A-Z]_+)\d.+', ur'\1', os.path.basename(filepath.upper()));
             for label in (tmp_sub).split(u'_')[:-1]:
                 if label in big_document_tree:
                     big_document_tree[label]+=lemmatized_tokens_in_label;
