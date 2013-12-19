@@ -549,8 +549,9 @@ def create_multilabel_datastructure_single(training_data_list, thompson_training
     RETURN 二次元配列  list [tuple (list [unicode ラベル列], list [unicode token])] 
     """
     for label in thompson_training_map:
-        tokens_in_label=[t for doc in thompson_training_map[label] for t in doc];
-        training_data_list.append( (label, tokens_in_label) );
+        for one_instance in thompson_training_map[label]:
+            #tokens_in_label=[t for doc in thompson_training_map[label] for t in doc];
+            training_data_list.append( (label, one_instance) );
     return training_data_list;
 
 def create_multilabel_datastructure(dir_path, args):
