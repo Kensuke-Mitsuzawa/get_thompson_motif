@@ -1,7 +1,7 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
-import subprocess, codecs, sys;
-from construct_bigdoc_or_classifier import convert_to_feature_space;
+import subprocess, codecs, sys, argparse, shutil;
+import construct_bigdoc_or_classifier; 
 __date__='2013/12/19';
 
 def out_to_mulan_format(training_data_list, feature_map_numeric,
@@ -12,10 +12,10 @@ def out_to_mulan_format(training_data_list, feature_map_numeric,
     RETURN void
     """
     exno=args.experiment_no;
-    training_data_list_feature_space=convert_to_feature_space(training_data_list,
-                                                            feature_map_character,
-                                                            feature_map_numeric,
-                                                            tfidf_score_map, tfidf, args);
+    training_data_list_feature_space=construct_bigdoc_or_classifier.convert_to_feature_space(training_data_list,
+                                                                                             feature_map_character,
+                                                                                             feature_map_numeric,
+                                                                                             tfidf_score_map, tfidf, args);
     #------------------------------------------------------------
     #arffファイルのheader部分を作成
     #xmlファイルも同時に作成
@@ -77,7 +77,18 @@ def call_mulan(args):
     reduce_method=args.reduce_method;
     xml_train='../classifier/mulan/exno{}.xml'.format(args.experiment_no);
     arff_train='../classifier/mulan/exno{}.arff'.format(args.experiment_no);
-    model_savepath='../classifier/mulan/exno{}.model'.format(args.experiment_no);
+    if not args.save_exno==u'':
+        model_savepath='../classifier/mulan/exno{}.model'.format(args.save_exno);
+        shutil.copy(arff_train, '../classifier/mulan/exno{}.arff'.format(args.save_exno));    
+        shutil.copy(xml_train, '../classifier/mulan/exno{}.xml'.format(args.save_exno));    
+        shutil.copy('../classifier/feature_map_character_1st.json.{}'.format(args.experiment_no),
+                    '../classifier/feature_map_character_1st.json.{}'.format(args.save_exno));
+        shutil.copy('../classifier/feature_map_numeric_1st.json.{}'.format(args.experiment_no),
+                    '../classifier/feature_map_numeric_1st.json.{}'.format(args.save_exno));
+        shutil.copy('../classifier/tfidf_word_weight.json.{}'.format(args.experiment_no),
+                    '../classifier/tfidf_word_weight.json.{}'.format(args.save_exno));
+    else:
+        model_savepath='../classifier/mulan/exno{}.model'.format(args.experiment_no);
     dimention_reduce_method=args.reduce_method; 
     args=('java -jar ./mulan_interface/train_classifier_method.jar -arff {} -xml {} -reduce True -reduce_method {} -model_savepath {} -model_type {}'.format(arff_train,xml_train,reduce_method,model_savepath,model_type)).split();
     
@@ -98,5 +109,17 @@ def call_mulan(args):
         print line;
 
 if __name__=='__main__':
-    args="";
+    parser=argparse.ArgumentParser(description='');
+    #以下のオプションは，「使う素性は同じなんだけど，モデルだけを変えたい，という時に使う」
+    parser.add_argument('-experiment_no', help='If you have training file already, specify its exno',
+                        required=True); 
+    parser.add_argument('-save_exno', help='experiment number to save trained model',
+                        required=True);
+    parser.add_argument('-mulan_model', help='which model in mulan library.\
+                        RAkEL, RAkELd, MLCSSP, HOMER, HMC, ClusteringBased, Ensemble etc.',
+                        default=u'');
+    parser.add_argument('-reduce_method', help='which method use to reduce feature dimention?\
+                        labelpower, copy, binary',
+                        default='binary');
+    args=parser.parse_args();
     call_mulan(args);

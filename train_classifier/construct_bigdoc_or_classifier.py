@@ -634,6 +634,7 @@ if __name__=='__main__':
     parser.add_argument('-reduce_method', help='which method use to reduce feature dimention?\
                         labelpower, copy, binary',
                         default='binary');
+    parser.add_argument('-save_exno', help='not in use', default=u'');
     args=parser.parse_args();
     dir_path='../parsed_json/'
     #------------------------------------------------------------    

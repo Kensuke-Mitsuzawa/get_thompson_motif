@@ -1,7 +1,7 @@
 *.swp
 .DS_Store
 htmls/
-train_classifier/big_document/
+./train_classifier/big_document/
 log/
 classifier/
 
