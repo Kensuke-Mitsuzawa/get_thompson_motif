@@ -8,10 +8,10 @@ Created on Thu Dec 12 12:16:52 2013
 """
 import sys, codecs;
 #change below by an environment
-#libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
-libsvm_wrapper_path='/Users/kensuke-mi/opt/libsvm-3.17/python/';
-liblinear_wrapper_path='/Users/kensuke-mi/opt/liblinear-1.94/python/';
-sys.path.append(liblinear_wrapper_path);
+libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
+#libsvm_wrapper_path='/Users/kensuke-mi/opt/libsvm-3.17/python/';
+#liblinear_wrapper_path='/Users/kensuke-mi/opt/liblinear-1.94/python/';
+#sys.path.append(liblinear_wrapper_path);
 sys.path.append(libsvm_wrapper_path);
 from liblinearutil import *;
 from svmutil import *;

@@ -1,6 +1,6 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
-__date__='2013/12/17';
+__date__='2013/12/19';
 
 import argparse, re, codecs, os, glob, json, sys;
 sys.path.append('../');
@@ -446,6 +446,10 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         #training_mapは使えないので新たにデータ構造の再構築をする（もったいないけど）
         #thompson木は元々マルチラベルでもなんでもないので，使わない
         training_data_list=create_multilabel_datastructure(dutch_dir_path, args); 
+        if args.thompson==True:
+            training_data_list=create_multilabel_datastructure_single(training_data_list,
+                                                   thompson_training_map,
+                                                   args);
         mulan_module.out_to_mulan_format(training_data_list, 
                             feature_map_numeric, 
                             feature_map_character,
@@ -538,6 +542,17 @@ def convert_to_feature_space(training_map,
             training_data_list_feature_space.append((one_instance[0], one_instance_stack));
         return training_data_list_feature_space;
 
+def create_multilabel_datastructure_single(training_data_list, thompson_training_map, args):
+    """
+    mulan用に訓練用のデータを作成する．
+    PARAM dir_path:訓練データがあるディレクトリパス args:argumentparserの引数
+    RETURN 二次元配列  list [tuple (list [unicode ラベル列], list [unicode token])] 
+    """
+    for label in thompson_training_map:
+        tokens_in_label=[t for doc in thompson_training_map[label] for t in doc];
+        training_data_list.append( (label, tokens_in_label) );
+    return training_data_list;
+
 def create_multilabel_datastructure(dir_path, args):
     """
     mulan用に訓練用のデータを作成する．
@@ -614,8 +629,11 @@ if __name__=='__main__':
                         action='store_true');
     parser.add_argument('-training', help='which training tool? liblinear or mulan?');
     parser.add_argument('-mulan_model', help='which model in mulan library.\
-                        RAkEL, RAkELd, MLCSSP, HOMER, HMC, ClusteringBased, Ensemble',
+                        RAkEL, RAkELd, MLCSSP, HOMER, HMC, ClusteringBased, Ensemble etc.',
                         default=u'');
+    parser.add_argument('-reduce_method', help='which method use to reduce feature dimention?\
+                        labelpower, copy, binary',
+                        default='binary');
     args=parser.parse_args();
     dir_path='../parsed_json/'
     #------------------------------------------------------------    
@@ -632,8 +650,13 @@ if __name__=='__main__':
     if args.training=='mulan' and args.mulan_model==u'':
         sys.exit('[Warning] mulan model is not choosen');
     #------------------------------------------------------------    
-    if args.mode=='class' and (not args.training=='mulan' or not args.training=='liblinear'):
-        sys.exit('[Warning] training tool is not choosen(mulan or liblinear)')        
+    if args.mode=='class':
+        if args.training==u'mulan': 
+            pass;
+        elif args.training==u'liblinear':
+            pass;
+        else:
+            sys.exit('[Warning] training tool is not choosen(mulan or liblinear)')        
     #------------------------------------------------------------ 
     all_thompson_tree=return_range.load_all_thompson_tree(dir_path);
     result_stack=main(args.level, 

@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 import subprocess, codecs, sys;
 from construct_bigdoc_or_classifier import convert_to_feature_space;
-__date__='2013/12/16';
+__date__='2013/12/19';
 
 def out_to_mulan_format(training_data_list, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
@@ -77,7 +77,8 @@ def call_mulan(args):
     xml_train='../classifier/mulan/exno{}.xml'.format(args.experiment_no);
     arff_train='../classifier/mulan/exno{}.arff'.format(args.experiment_no);
     model_savepath='../classifier/mulan/exno{}.model'.format(args.experiment_no);
-    args=('java -jar ./mulan_interface/train_classifier_method.jar -arff {} -xml {} -reduce True -model_savepath {} -model_type {}'.format(arff_train,xml_train,model_savepath,model_type)).split();
+    dimention_reduce_method=args.reduce_method; 
+    args=('java -jar ./mulan_interface/train_classifier_method.jar -reduce_method {} -arff {} -xml {} -reduce True -model_savepath {} -model_type {}'.format(arff_train,xml_train,model_savepath,model_type)).split();
     
     print 'Input command is following:{}'.format(u' '.join(args));                                  
     subproc_args = {'stdin': subprocess.PIPE,

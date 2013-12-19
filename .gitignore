@@ -1,9 +1,10 @@
 *.swp
 .DS_Store
 htmls/
-big_document/*
+train_classifier/train_classifier/
 log/
 classifier/
+
 
 =======
 *.py[cod]

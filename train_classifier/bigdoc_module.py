@@ -4,6 +4,7 @@ Created on Thu Dec 12 12:27:31 2013
 
 @author: kensuke-mi
 """
+__date__='2013/12/19'
 import codecs, json, re, os, glob;
 from nltk import tokenize;
 from nltk.corpus import stopwords;
@@ -84,7 +85,14 @@ def construct_1st_level(parent_node, all_thompson_tree):
                 big_document_stack=extract_leaf_content_for_construct_1st_level(target_subtree_map, big_document_stack)
     return big_document_stack;
     
+def cleanup_directory(dirpath):
+    for f in make_filelist(dirpath):
+        os.remove(f);
+
 def create_label1_bigdoc(args, all_thompson_tree):
+    dirpath='./big_document/';
+    cleanup_directory(dirpath);
+    
     #一層目のbigdocumentを生成して書き出し 書き出し先は./big_document/
     if args.thompson==True:
         for key_1st in all_thompson_tree:
@@ -111,10 +119,9 @@ def create_label1_bigdoc(args, all_thompson_tree):
             lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
             if args.stop==True:
                 lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
-            tmp_sub=re.sub(ur'([A-Z]_)+\d.+', ur'\1', filepath.upper());                
-            for label in (os.path.basename(tmp_sub)).split(u'_'):
+            tmp_sub=re.sub(ur'([A-Z]_)+\d.+', ur'\1', os.path.basename(filepath.upper()));
+            for label in (tmp_sub).split(u'_')[:-1]:
                 if label in big_document_tree:
-                    #big_document_tree[label].append(lemmatized_tokens_in_label);
                     big_document_tree[label]+=lemmatized_tokens_in_label;
                 else:
                     big_document_tree[label]=lemmatized_tokens_in_label;
