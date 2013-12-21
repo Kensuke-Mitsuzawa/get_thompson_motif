@@ -3,6 +3,7 @@
 import subprocess, codecs, sys, argparse, shutil;
 import construct_bigdoc_or_classifier; 
 __date__='2013/12/19';
+memory_option=u'-Xmx30000m'
 
 def out_to_mulan_format(training_data_list, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
@@ -90,7 +91,7 @@ def call_mulan(args):
     else:
         model_savepath='../classifier/mulan/exno{}.model'.format(args.experiment_no);
     dimention_reduce_method=args.reduce_method; 
-    args=('java -jar ./mulan_interface/train_classifier_method.jar -arff {} -xml {} -reduce True -reduce_method {} -model_savepath {} -model_type {}'.format(arff_train,xml_train,reduce_method,model_savepath,model_type)).split();
+    args=('java {} -jar ./mulan_interface/train_classifier_method.jar -arff {} -xml {} -reduce True -reduce_method {} -model_savepath {} -model_type {}'.format(memory_option,arff_train,xml_train,reduce_method,model_savepath,model_type)).split();
     
     print 'Input command is following:{}'.format(u' '.join(args));                                  
     subproc_args = {'stdin': subprocess.PIPE,

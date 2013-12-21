@@ -7,11 +7,18 @@ import re, subprocess, os, sys;
 sys.path.append('/home/kensuke-mi/opt/liblinear-1.94/python/');
 import liblinear, liblinearutil;
 
+#for pine environment
 svmscale_exe='/home/kensuke-mi/opt/libsvm-3.17/svm-scale';
 liblinear_exe='/home/kensuke-mi/opt/liblinear-1.94/train';
 grid_py='/home/kensuke-mi/opt/libsvm-3.17/tools/grid.py';
+"""
+#for local environment
+svmscale_exe='~/opt/libsvm-3.17/svm-scale';
+liblinear_exe='~/opt/liblinear-1.94/train';
+grid_py='~/opt/libsvm-3.17/tools/grid.py';
+"""
 
-def scalling_value(train_pathname, devset_pathname):
+def scalling_value(train_pathname, test_pathname):
     assert os.path.exists(train_pathname),"training file not found"
     file_name=os.path.basename(train_pathname);
     scaled_file = file_name + ".scale"
@@ -34,12 +41,13 @@ def scalling_value(train_pathname, devset_pathname):
 def grid_search(target_file):
     #To check the C parameter for LIBLINEAR, use following command. "python grid.py -log2c -3,0,1 -log2g null -svmtrain ./train heart_scale"
     # from LIBLINEAR FAQ page: http://www.csie.ntu.edu.tw/~cjlin/liblinear/FAQ.html
-    cmd = 'python {0} -log2c -3,0,1 -log2g null -svmtrain "{1}" "{2}"'.format(grid_py, liblinear_exe, target_file)
+    cmd = 'python {0} -log2c -3,0,1 -log2g null -svmtrain {1} {2}'.format(grid_py, liblinear_exe, target_file)
     print 'command for grid search is following:\n{}'.format(cmd);
     print('Cross validation...')
     f = subprocess.Popen(cmd, shell = True, stdout=subprocess.PIPE).stdout
     line=''
     while True:
+        print line;
         last_line=line
         line=f.readline()  
         if not line: break

@@ -1,6 +1,6 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
-__date__='2013/12/19';
+__date__='2013/12/21';
 
 import argparse, re, codecs, os, glob, json, sys;
 sys.path.append('../');
@@ -13,12 +13,10 @@ lemmatizer = stem.WordNetLemmatizer();
 stopwords = stopwords.words('english');
 symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 #option parameter
-put_weight_constraint=True;
-under_sampling=False;
 level=1;
 dev_limit=1;
-#for regularization type, see README of liblinear
-regularization=2;
+#Idea number of TFIDF
+tfidf_idea=2;
 
 def make_filelist(dir_path):
     file_list=[];
@@ -262,6 +260,122 @@ def make_numerical_feature(feature_map_character):
             feature_num_max+=1;
     return feature_map_numeric;
 
+def create_tfidf_feat_idea1(training_map, feature_map_character, args):
+    stop=args.stop;
+    #------------------------------------------------------------
+    #TFIDFスコアはthompson resourceとdutch_folktale_corpusとtest documentのすべてを合わせた空間で求める
+    #TODO L2正則化できるようにすること
+    #TODO ゴミみたいな重みの語はすててもよいのでは？
+    all_training_instances=[];
+    #静的にハードコーディングはあまりしたくないんだけど．．仕方がない
+    wordset_map={'thompson':[], 'dutch':[], 'test':[]};
+    for subdata in training_map:
+        training_instances=[];
+        for label in training_map[subdata]: 
+            tokens_in_docs_in_label=training_map[subdata][label];
+            #マルチラベルのために，training_mapの中には重複して同じ文書が登録されていることがある．
+            #重複した文書が追加されないための措置．
+            #実際には，空の文書がいくつかあるので，training_instaces_dutchの要素数はファイル数よりは減るはず
+            for tokens_in_doc in tokens_in_docs_in_label:
+                if tokens_in_doc not in training_instances:
+                    all_training_instances.append(tokens_in_doc);
+                    training_instances.append(tokens_in_doc);
+        #ちょっと変な書き方だけど，この方が早い
+        wordset_map[subdata]=[t for doc in training_instances for t in doc];
+    #------------------------------------------------------------
+    #ペルシア語口承文芸コーパスからファイルを読み込む
+    test_corpus_instances=[];
+    persian_folktale_documet_path='../../corpus_dir/translated_google/'
+    for doc_filepath in make_filelist(persian_folktale_documet_path):
+        doc=[];
+        with codecs.open(doc_filepath, 'r', 'utf-8') as lines:
+            for line in lines:
+                if line==u'#motif\n':
+                    motif_line_flag=True; 
+                    continue;
+                elif line==u'#text\n':
+                    motif_line_flag=False;
+                    text_line_flag=True;
+                    continue;
+                elif motif_line_flag==True:
+                    pass;
+                elif text_line_flag==True:
+                    doc.append(line);
+        doc=u' '.join(doc); 
+        tokens=tokenize.wordpunct_tokenize(doc);
+        lemmatized_tokens=[lemmatizer.lemmatize(t.lower()) for t in tokens];
+        if stop==True:
+            lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
+        test_corpus_instances.append(lemmatized_tokens);
+        wordset_map['test'].append([t for t in lemmatized_tokens]);
+    #ちょっと変な書き方だけど，この方が実行速度はやい
+    wordset_map['test']=[t for doc in wordset_map['test'] for t in doc];
+    training_plus_test_docs=all_training_instances+test_corpus_instances;
+    #------------------------------------------------------------
+    print 'TFIDF(Idea-1) score calculating'
+    tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
+    feature_map_character=make_tfidf_feature_from_score(tfidf_score_map,
+                                                        wordset_map,
+                                                        feature_map_character, args);
+    return feature_map_character, tfidf_score_map;
+    
+def create_tfidf_feat_idea2(training_map, feature_map_character, args):
+    #ラベルごとの重要語を取り出す
+    #TFIDFスコアを文書集合から算出した後，ラベル文書ごとに閾値（足切り値）を求め，閾値以下の語は素性を作らない
+    #これで，「あるラベルに特徴的な語」を示す素性が作れた．と思う
+    import math;
+    bigdocs_stack=[];
+    bigdocs_stack_nolabel=[];
+    #------------------------------------------------------------
+    #２つの資源から混合の文書集合を作成
+    for label in training_map['thompson']:
+        instances_in_label_thompson=training_map['thompson'][label];
+        bigdoc_of_label_thompson=[t for doc in instances_in_label_thompson for t in doc];        
+        if label in training_map['dutch']:        
+            instances_in_label_dutch=training_map['dutch'][label];        
+            bigdoc_of_label_dutch=[t for doc in instances_in_label_dutch for t in doc];        
+            bigdoc_of_label_thompson+=bigdoc_of_label_dutch;
+        bigdocs_stack.append((label, bigdoc_of_label_thompson));
+        bigdocs_stack_nolabel.append(bigdoc_of_label_thompson);
+    #------------------------------------------------------------
+    print 'TFIDF(Idea-2) score calculating'
+    tfidf_score_map=tf_idf.tf_idf_test(bigdocs_stack_nolabel);     
+    #------------------------------------------------------------
+    #L2正則化をかける        
+    weight_sum=0;    
+    for key in tfidf_score_map:
+        weight=tfidf_score_map[key];
+        weight_sum+=(weight)**2;
+    L2_norm=math.sqrt(weight_sum);
+    L2_normalized_map={};    
+    for key in tfidf_score_map:
+        normalized_score=tfidf_score_map[key]/L2_norm;
+        L2_normalized_map[key]=normalized_score;        
+    
+    for one_doc_tuple in bigdocs_stack:
+        label=one_doc_tuple[0];
+        tokens=one_doc_tuple[1];
+        weightsum_of_label=0;
+        for t in tokens:
+            if t in L2_normalized_map:
+                word_weight=L2_normalized_map[t];
+                weightsum_of_label+=word_weight;
+        #閾値を，重み平均に設定する(中央値でも良い気がする)
+        threshold_point=weightsum_of_label/len(L2_normalized_map);        
+        for t in tokens:            
+            if t in L2_normalized_map:
+                #対数化しているので，符号が逆になる
+                if L2_normalized_map[t] > threshold_point:  
+                    pass;
+                else:
+                    weight_format=u'{}_{}_{}'.format(label, t, word_weight);
+                    if t not in feature_map_character:
+                        feature_map_character[t]=[weight_format];
+                    elif weight_format not in feature_map_character[t]:
+                        feature_map_character[t].append(weight_format);
+                            
+    return feature_map_character, L2_normalized_map;
+
 def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, args):
     dev_mode=args.dev;
     exno=str(args.experiment_no);
@@ -292,7 +406,9 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                 alphabet_label_list=(os.path.basename(filepath)).split('_')[:-1];
             elif level==2:
                 alphabet_label=(os.path.basename(filepath))[0];
-            tokens_in_label=tokenize.wordpunct_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
+            file_obj=codecs.open(filepath, 'r', 'utf-8');
+            tokens_in_label=tokenize.wordpunct_tokenize(file_obj.read());
+            file_obj.close(); 
             lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
             if stop==True:
                 lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
@@ -364,69 +480,20 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
     #============================================================ 
     #もしTFIDFを使うのであれば，test documentも合わせた空間で重みスコアを求めないといけない
     if tfidf==True:
-        #------------------------------------------------------------
-        #TFIDFスコアはthompson resourceとdutch_folktale_corpusとtest documentのすべてを合わせた空間で求めないといけない
-        all_training_instances=[];
-        #静的にハードコーディングはあまりしたくないんだけど．．仕方がない
-        wordset_map={'thompson':[], 'dutch':[], 'test':[]};
-        for subdata in training_map:
-            training_instances=[];
-            for label in training_map[subdata]: 
-                tokens_in_docs_in_label=training_map[subdata][label];
-                #マルチラベルのために，training_mapの中には重複して同じ文書が登録されていることがある．
-                #重複した文書が追加されないための措置．
-                #実際には，空の文書がいくつかあるので，training_instaces_dutchの要素数はファイル数よりは減るはず
-                for tokens_in_doc in tokens_in_docs_in_label:
-                    if tokens_in_doc not in training_instances:
-                        all_training_instances.append(tokens_in_doc);
-                        training_instances.append(tokens_in_doc);
-            #ちょっと変な書き方だけど，この方が早い
-            wordset_map[subdata]=[t for doc in training_instances for t in doc];
-        #------------------------------------------------------------
-        #ペルシア語口承文芸コーパスからファイルを読み込む
-        test_corpus_instances=[];
-        persian_folktale_documet_path='../../corpus_dir/translated_google/'
-        for doc_filepath in make_filelist(persian_folktale_documet_path):
-            doc=[];
-            with codecs.open(doc_filepath, 'r', 'utf-8') as lines:
-                for line in lines:
-                    if line==u'#motif\n':
-                        motif_line_flag=True; 
-                        continue;
-                    elif line==u'#text\n':
-                        motif_line_flag=False;
-                        text_line_flag=True;
-                        continue;
-                    elif motif_line_flag==True:
-                        pass;
-                    elif text_line_flag==True:
-                        doc.append(line);
-            doc=u' '.join(doc); 
-            tokens=tokenize.wordpunct_tokenize(doc);
-            lemmatized_tokens=[lemmatizer.lemmatize(t.lower()) for t in tokens];
-            if stop==True:
-                lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
-            test_corpus_instances.append(lemmatized_tokens);
-            wordset_map['test'].append([t for t in lemmatized_tokens]);
-        #ちょっと変な書き方だけど，この方が実行速度はやい
-        wordset_map['test']=[t for doc in wordset_map['test'] for t in doc];
-        training_plus_test_docs=all_training_instances+test_corpus_instances;
-        #------------------------------------------------------------
-        print 'TFIDF score calculating'
-        tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
-        feature_map_character=make_tfidf_feature_from_score(tfidf_score_map,
-                                                            wordset_map,
-                                                            feature_map_character, args);
+        if tfidf_idea==1:
+            feature_map_character, tfidf_score_map=create_tfidf_feat_idea1(training_map, feature_map_character, args);
+        elif tfidf_idea==2:
+            feature_map_character, tfidf_score_map=create_tfidf_feat_idea2(training_map, feature_map_character, args);
     #============================================================  
     #作成した素性辞書をjsonに出力(TFIDF)が空の時は空の辞書が出力される
-    with codecs.open('../classifier/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
+    with codecs.open('../classifier/tfidf_weight/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
         json.dump(tfidf_score_map, f, indent=4, ensure_ascii=False);
-    with codecs.open('../classifier/feature_map_character_1st.json.'+exno, 'w', 'utf-8') as f:
+    with codecs.open('../classifier/feature_map_character/feature_map_character_1st.json.'+exno, 'w', 'utf-8') as f:
         json.dump(feature_map_character, f, indent=4, ensure_ascii=False);
     #ここで文字情報の素性関数を数字情報の素性関数に変換する
     feature_map_numeric=make_numerical_feature(feature_map_character);
     
-    with codecs.open('../classifier/feature_map_numeric_1st.json.'+exno, 'w', 'utf-8') as f:
+    with codecs.open('../classifier/feature_map_numeric/feature_map_numeric_1st.json.'+exno, 'w', 'utf-8') as f:
         json.dump(feature_map_numeric, f, indent=4, ensure_ascii=False);
 
     feature_space=len(feature_map_numeric);
@@ -498,6 +565,19 @@ def convert_to_feature_space(training_map,
                                     elif tfidf==True:
                                         feature_space_doc.append((domain_feature_numeric,
                                                                   tfidf_score_map[token]));
+
+                                if re.search(ur'^[A-Z]_', candidate):
+                                    domain_feature=candidate;
+                                    domain_feature_numeric=feature_map_numeric[domain_feature];
+                                    if tfidf==False:
+                                        feature_space_doc.append((domain_feature_numeric,
+                                                                  1)); 
+                                    #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                                    elif tfidf==True:
+                                        if token in tfidf_score_map:
+                                            feature_space_doc.append((domain_feature_numeric,
+                                                                      tfidf_score_map[token]));
+
                                 if re.search(ur'^g', candidate):
                                     general_feature=candidate;
                                     general_feature_numeric=feature_map_numeric[general_feature];
@@ -509,13 +589,15 @@ def convert_to_feature_space(training_map,
                                         feature_space_doc.append((general_feature_numeric,
                                                                   tfidf_score_map[token]));
                     #------------------------------------------------------------     
-                    if label not in feature_space_label:
-                        feature_space_label[label]=[feature_space_doc];
-                    else:
-                        feature_space_label[label].append(feature_space_doc);
-                #------------------------------------------------------------     
-            training_map_feature_space[subdata]=feature_space_label;
-            #------------------------------------------------------------     
+                    if not feature_space_doc==[]:
+                        if label not in feature_space_label:
+                            feature_space_label[label]=[feature_space_doc];
+                        else:
+                            feature_space_label[label].append(feature_space_doc);
+                #------------------------------------------------------------
+            if not feature_space_label=={}:
+                training_map_feature_space[subdata]=feature_space_label;
+            #------------------------------------------------------------    
         return training_map_feature_space;
     #============================================================ 
     elif args.training=='mulan':
@@ -567,7 +649,9 @@ def create_multilabel_datastructure(dir_path, args):
             alphabet_label_list=(os.path.basename(filepath)).split('_')[:-1];
         elif level==2:
             alphabet_label=(os.path.basename(filepath))[0];
-        tokens_in_label=tokenize.wordpunct_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
+        file_obj=codecs.open(filepath, 'r', 'utf-8');
+        tokens_in_label=tokenize.wordpunct_tokenize(file_obj.read());
+        file_obj.close();
         lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
         if args.stop==True:
             lemmatized_tokens_in_label=\
@@ -645,9 +729,6 @@ if __name__=='__main__':
     if args.easy_domain==True:
         if not (args.dutch==True and args.thompson==True):
             sys.exit('[Warning] You specified easy_domain mode. But there is only one domain');
-    #------------------------------------------------------------    
-    #if not args.training=='liblinear' and not args.training=='mulan':
-    #    sys.exit('[Warning] choose correct training tool');
     #------------------------------------------------------------    
     if args.training=='mulan' and args.mulan_model==u'':
         sys.exit('[Warning] mulan model is not choosen');

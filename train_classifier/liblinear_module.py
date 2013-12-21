@@ -5,8 +5,9 @@
 Created on Thu Dec 12 12:16:52 2013
 
 @author: kensuke-mi
+__date__="2013/12/21"
 """
-import sys, codecs;
+import sys, codecs, random;
 #change below by an environment
 libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
 #libsvm_wrapper_path='/Users/kensuke-mi/opt/libsvm-3.17/python/';
@@ -16,6 +17,13 @@ sys.path.append(libsvm_wrapper_path);
 from liblinearutil import *;
 from svmutil import *;
 import scale_grid;
+import construct_bigdoc_or_classifier
+#option parameter
+put_weight_constraint=True;
+under_sampling=False;
+sclale_flag=False;
+#for regularization type, see README of liblinear
+regularization=2;
 
 def close_test(classifier_path, test_path):
     print 'close test result for {} with {}'.format(classifier_path, test_path);
@@ -61,10 +69,11 @@ def split_for_train_test(correct_instances_stack, incorrect_instances_stack, ins
 def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
                         exno, args):
-    training_map_feature_space=convert_to_feature_space(training_map_original,
+    training_map_feature_space=construct_bigdoc_or_classifier.convert_to_feature_space\
+                                                        (training_map_original,
                                                         feature_map_character,
                                                         feature_map_numeric,
-                                                        tfidf_score_map, tfidf, args);
+                                                        tfidf_score_map, tfidf, args);                  
     unified_training_map=unify_tarining_feature_space(training_map_feature_space); 
     training_map=unified_training_map; 
     #============================================================ 
@@ -159,21 +168,47 @@ def out_to_libsvm_format(training_map_original, feature_map_numeric,
                                                                      lines_for_incorrect_instances_stack,
                                                                      instance_lines_num_map,
                                                                      training_amount);
-        with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno, 'w', 'utf-8') as f:
+        with codecs.open('../classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno, 'w', 'utf-8') as f:
             f.writelines(instances_for_train);
-        with codecs.open('./classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno, 'w', 'utf-8') as f:
+        with codecs.open('../classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno, 'w', 'utf-8') as f:
             f.writelines(instances_for_test);
-        return_value=scale_grid.main('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno,
-                        './classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno,
-                        False);
+        return_value=scale_grid.main('../classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno,
+                        '../classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno,
+                        sclale_flag);
         weight_parm+=u' -c {} -p {}'.format(return_value[0], return_value[1]);
-        train_y, train_x=svm_read_problem('./classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno); 
+        train_y, train_x=svm_read_problem('../classifier/libsvm_format/'+correct_label_key+'.traindata.'+exno); 
         print weight_parm
         model=train(train_y, train_x, weight_parm);
-        save_model('./classifier/liblinear/'+correct_label_key+'.liblin.model.'+exno, model);
-        close_test('./classifier/liblinear/'+correct_label_key+'.liblin.model.'+exno,
-                   './classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno);
-        os.remove('{}.traindata.{}.out'.format(correct_label_key, exno));
+        save_model('../classifier/liblinear/'+correct_label_key+'.liblin.model.'+exno, model);
+        close_test('../classifier/liblinear/'+correct_label_key+'.liblin.model.'+exno,
+                   '../classifier/libsvm_format/'+correct_label_key+'.devdata.'+exno);
+        #------------------------------------------------------------ 
+        try:
+            os.remove('{}.traindata.{}.out'.format(correct_label_key, exno));
+        except OSError:
+            print '{}.traindata.{}.out does not exist'.format(correct_label_key, exno)
+        #------------------------------------------------------------ 
+        try:
+            os.remove('{}.traindata.{}.scale'.format(correct_label_key, exno));
+        except OSError:
+            print '{}.traindata.{}.scale does not exist'.format(correct_label_key, exno)
+        #------------------------------------------------------------ 
+        try:
+            os.remove('{}.traindata.{}.range'.format(correct_label_key, exno));
+        except OSError:
+            print '{}.traindata.{}.range does not exist'.format(correct_label_key, exno)
+        #------------------------------------------------------------ 
+        try:
+            os.remove('{}.traindata.{}.scale.out'.format(correct_label_key, exno));
+        except OSError:
+            print '{}.traindata.{}.scale.out does not exist'.format(correct_label_key, exno)
+        #------------------------------------------------------------ 
+        try:
+            os.remove('{}.devdata.{}.scale'.format(correct_label_key, exno));
+        except OSError:
+            print '{}.devdata.{}.scale does not exist'.format(correct_label_key, exno)
+      
+
         print u'-'*30;
         #train_y, train_x=svm_read_problem(scalled_filepath); 
         #svm_model=svm_train(train_y, train_x, weight_parm_svm);

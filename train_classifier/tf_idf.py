@@ -4,6 +4,7 @@ __author__='Kensuke Mitsuzawa';
 __data__='2013/12/01';
 import nltk, json, codecs, sys, re, os, glob, math;
 from collections import Counter;
+take_log=True;
 
 def IDF(term_i, total_document, file_num_having_query):
     numerator=total_document;
@@ -17,7 +18,6 @@ def TF(term_i, document_j, token_frequency_dict):
     return float(numerator)/denominator;
 
 def tf_idf_test(docs):  
-    #docs=[[token.encode('ascii') for token in doc] for doc in docs];
     documents=[];
     for one_doc in docs:
         doc=[]; 
@@ -35,7 +35,10 @@ def tf_idf_test(docs):
     token_types = set(tokens)  
     for token_type in token_types:
         if not A.tf_idf(token_type, tokens)==0: 
-            tf_idf_score[token_type]=math.log(A.tf_idf(token_type, tokens));
+            if take_log==True:
+                tf_idf_score[token_type]=math.log(A.tf_idf(token_type, tokens));
+            else:
+                tf_idf_score[token_type]=A.tf_idf(token_type, tokens);
         else:
             tf_idf_score[token_type]=0;
     return tf_idf_score;
