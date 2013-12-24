@@ -261,11 +261,12 @@ def make_numerical_feature(feature_map_character):
     return feature_map_numeric;
 
 def create_tfidf_feat_idea1(training_map, feature_map_character, args):
+    import math;
     stop=args.stop;
+    L2_flag=True;
+    persian_flag=False;
     #------------------------------------------------------------
     #TFIDFスコアはthompson resourceとdutch_folktale_corpusとtest documentのすべてを合わせた空間で求める
-    #TODO L2正則化できるようにすること
-    #TODO ゴミみたいな重みの語はすててもよいのでは？
     all_training_instances=[];
     #静的にハードコーディングはあまりしたくないんだけど．．仕方がない
     wordset_map={'thompson':[], 'dutch':[], 'test':[]};
@@ -283,40 +284,73 @@ def create_tfidf_feat_idea1(training_map, feature_map_character, args):
         #ちょっと変な書き方だけど，この方が早い
         wordset_map[subdata]=[t for doc in training_instances for t in doc];
     #------------------------------------------------------------
-    #ペルシア語口承文芸コーパスからファイルを読み込む
-    test_corpus_instances=[];
-    persian_folktale_documet_path='../../corpus_dir/translated_google/'
-    for doc_filepath in make_filelist(persian_folktale_documet_path):
-        doc=[];
-        with codecs.open(doc_filepath, 'r', 'utf-8') as lines:
-            for line in lines:
-                if line==u'#motif\n':
-                    motif_line_flag=True; 
-                    continue;
-                elif line==u'#text\n':
-                    motif_line_flag=False;
-                    text_line_flag=True;
-                    continue;
-                elif motif_line_flag==True:
-                    pass;
-                elif text_line_flag==True:
-                    doc.append(line);
-        doc=u' '.join(doc); 
-        tokens=tokenize.wordpunct_tokenize(doc);
-        lemmatized_tokens=[lemmatizer.lemmatize(t.lower()) for t in tokens];
-        if stop==True:
-            lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
-        test_corpus_instances.append(lemmatized_tokens);
-        wordset_map['test'].append([t for t in lemmatized_tokens]);
-    #ちょっと変な書き方だけど，この方が実行速度はやい
-    wordset_map['test']=[t for doc in wordset_map['test'] for t in doc];
-    training_plus_test_docs=all_training_instances+test_corpus_instances;
+    if persian_flag==True:
+        #ペルシア語口承文芸コーパスからファイルを読み込む
+        test_corpus_instances=[];
+        persian_folktale_documet_path='../../corpus_dir/translated_google/'
+        for doc_filepath in make_filelist(persian_folktale_documet_path):
+            doc=[];
+            with codecs.open(doc_filepath, 'r', 'utf-8') as lines:
+                for line in lines:
+                    if line==u'#motif\n':
+                        motif_line_flag=True; 
+                        continue;
+                    elif line==u'#text\n':
+                        motif_line_flag=False;
+                        text_line_flag=True;
+                        continue;
+                    elif motif_line_flag==True:
+                        pass;
+                    elif text_line_flag==True:
+                        doc.append(line);
+            doc=u' '.join(doc); 
+            tokens=tokenize.wordpunct_tokenize(doc);
+            lemmatized_tokens=[lemmatizer.lemmatize(t.lower()) for t in tokens];
+            if stop==True:
+                lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
+            test_corpus_instances.append(lemmatized_tokens);
+            wordset_map['test'].append([t for t in lemmatized_tokens]);
+        #ちょっと変な書き方だけど，この方が実行速度はやい
+        wordset_map['test']=[t for doc in wordset_map['test'] for t in doc];
+        all_training_instances=all_training_instances+test_corpus_instances;
     #------------------------------------------------------------
     print 'TFIDF(Idea-1) score calculating'
-    tfidf_score_map=tf_idf.tf_idf_test(training_plus_test_docs);
+    print 'L2 flag:{} Persian flag:{}'.format(L2_flag, persian_flag);
+    tfidf_score_map=tf_idf.tf_idf_test(all_training_instances);
+    #------------------------------------------------------------
+    if L2_flag==True:
+        #L2正則化をかける        
+        weight_sum=0;    
+        for key in tfidf_score_map:
+            weight=tfidf_score_map[key];
+            weight_sum+=(weight)**2;
+        L2_norm=math.sqrt(weight_sum);
+        L2_normalized_map={};    
+        L2_weightsum=0;
+        for key in tfidf_score_map:
+            normalized_score=tfidf_score_map[key]/L2_norm;
+            L2_normalized_map[key]=normalized_score;        
+            #L2で正規化した重みの和を求める
+            L2_weightsum+=normalized_score;
+        #足切りスコアの算出
+        L2_average=L2_weightsum/len(L2_normalized_map);
+        for doc in all_training_instances:
+            for t in doc:
+                if t in L2_normalized_map:
+                    #足切り
+                    if L2_normalized_map[t] > L2_average:
+                        pass;
+                    else:
+                        weight_format=u'{}_{}_{}'.format('normal', t, L2_normalized_map[t]);
+                        if t not in feature_map_character:
+                            feature_map_character[t]=[weight_format];
+                        elif weight_format not in feature_map_character[t]:
+                            feature_map_character[t].append(weight_format);
+    """ 
     feature_map_character=make_tfidf_feature_from_score(tfidf_score_map,
                                                         wordset_map,
                                                         feature_map_character, args);
+    """
     return feature_map_character, tfidf_score_map;
     
 def create_tfidf_feat_idea2(training_map, feature_map_character, args):
@@ -356,19 +390,24 @@ def create_tfidf_feat_idea2(training_map, feature_map_character, args):
         label=one_doc_tuple[0];
         tokens=one_doc_tuple[1];
         weightsum_of_label=0;
+        denominator=0;
         for t in tokens:
             if t in L2_normalized_map:
                 word_weight=L2_normalized_map[t];
                 weightsum_of_label+=word_weight;
+                denominator+=1;
         #閾値を，重み平均に設定する(中央値でも良い気がする)
-        threshold_point=weightsum_of_label/len(L2_normalized_map);        
+        #12/23 この行は間違いだと思う．だって，ラベルあたりの重み合計を，L2_normalized_mapで割ったらダメじゃん
+        #いま知りたいのは，ラベルごとの重み平均．なので，正しい分母は「ラベル内に存在している異なり単語数」
+        #threshold_point=weightsum_of_label/len(L2_normalized_map); 
+        threshold_point=weightsum_of_label/len(L2_normalized_map); 
         for t in tokens:            
             if t in L2_normalized_map:
                 #対数化しているので，符号が逆になる
                 if L2_normalized_map[t] > threshold_point:  
                     pass;
                 else:
-                    weight_format=u'{}_{}_{}'.format(label, t, word_weight);
+                    weight_format=u'{}_{}_{}'.format(label, t, L2_normalized_map[t]);
                     if t not in feature_map_character:
                         feature_map_character[t]=[weight_format];
                     elif weight_format not in feature_map_character[t]:
