@@ -1,6 +1,6 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
-__date__='2013/12/21';
+__date__='2013/12/24';
 
 import argparse, re, codecs, os, glob, json, sys;
 sys.path.append('../');
@@ -14,7 +14,7 @@ stopwords = stopwords.words('english');
 symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 #option parameter
 level=1;
-dev_limit=1;
+dev_limit=3;
 #Idea number of TFIDF
 tfidf_idea=2;
 
@@ -358,8 +358,11 @@ def create_tfidf_feat_idea2(training_map, feature_map_character, args):
     #TFIDFスコアを文書集合から算出した後，ラベル文書ごとに閾値（足切り値）を求め，閾値以下の語は素性を作らない
     #これで，「あるラベルに特徴的な語」を示す素性が作れた．と思う
     import math;
+    easy_domain_flag=False;
+    constant=False;
     bigdocs_stack=[];
     bigdocs_stack_nolabel=[];
+    print 'easy domain? flag:{}'.format(easy_domain_flag);
     #------------------------------------------------------------
     #２つの資源から混合の文書集合を作成
     for label in training_map['thompson']:
@@ -407,12 +410,26 @@ def create_tfidf_feat_idea2(training_map, feature_map_character, args):
                 if L2_normalized_map[t] > threshold_point:  
                     pass;
                 else:
-                    weight_format=u'{}_{}_{}'.format(label, t, L2_normalized_map[t]);
+                    #定数倍した時と，そうでない時に差があるのか？を検証するため
+                    if constant==True:
+                        weight_format=u'{}_{}_{}'.format(label, t, L2_normalized_map[t]);
+                    else:
+                        weight_format=u'normal_{}_{}'.format(t, L2_normalized_map[t]);
                     if t not in feature_map_character:
                         feature_map_character[t]=[weight_format];
                     elif weight_format not in feature_map_character[t]:
                         feature_map_character[t].append(weight_format);
-                            
+                    #------------------------------------------------------------ 
+                    #12/24 easy domainと同じにしてみたらどうなるのだろう？というアイディアを試す
+                    #ラベル素性の他に，normal素性を入れてみる 
+                    if easy_domain_flag==True:
+                        weight_format=u'{}_{}_{}'.format('g', t, L2_normalized_map[t]);
+                        if t not in feature_map_character:
+                            feature_map_character[t]=[weight_format];
+                        elif weight_format not in feature_map_character[t]:
+                            feature_map_character[t].append(weight_format);
+
+
     return feature_map_character, L2_normalized_map;
 
 def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, args):
@@ -567,6 +584,10 @@ def convert_to_feature_space(training_map,
                             feature_map_character,
                             feature_map_numeric,
                              tfidf_score_map, tfidf, args):
+    exno=args.experiment_no;
+    #文字表現の素性を保存する
+    character_feature_outfile=codecs.open('../classifier/character_expression/character_expression.'+str(exno), 'w', 'utf-8');
+    character_feature_outfile.write('Gold label\tcharacter feature\n')
     if args.training=='liblinear':
         """
         training_mapの中身を素性空間に変換する．
@@ -593,6 +614,9 @@ def convert_to_feature_space(training_map,
                         #feature_map_character[token]の中は配列になっているので，資源にあった資源のみを選ぶ
                         if token in feature_map_character: 
                             for candidate in feature_map_character[token]:
+                                #文字表現の素性フォーマットを作成する
+                                character_expression_format=u'{}\t{}\n'.format(label, candidate);
+                                
                                 feature_pattern=re.compile(u'^{}'.format(prefix));
                                 if re.search(feature_pattern, candidate):
                                     domain_feature=candidate;
@@ -600,33 +624,44 @@ def convert_to_feature_space(training_map,
                                     if tfidf==False:
                                         feature_space_doc.append((domain_feature_numeric,
                                                                   1)); 
+                                        character_feature_outfile.write(character_expression_format);
                                     #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
                                     elif tfidf==True:
                                         feature_space_doc.append((domain_feature_numeric,
                                                                   tfidf_score_map[token]));
-
-                                if re.search(ur'^[A-Z]_', candidate):
+                                        character_feature_outfile.write(character_expression_format);
+                                #12/24 ラベル素性用に
+                                #hoge
+                                #12/24　いまの状態は間違っている気がする
+                                #正しくは，Aのラベル以下では，Aの素性のみを発火させるのが正しい
+                                label_domain_name=u'{}_{}'.format(label, token);
+                                if label_domain_name in candidate:
+                                #if re.search(ur'^[A-Z]_', candidate):
                                     domain_feature=candidate;
                                     domain_feature_numeric=feature_map_numeric[domain_feature];
                                     if tfidf==False:
                                         feature_space_doc.append((domain_feature_numeric,
                                                                   1)); 
+                                        character_feature_outfile.write(character_expression_format);
                                     #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
                                     elif tfidf==True:
                                         if token in tfidf_score_map:
                                             feature_space_doc.append((domain_feature_numeric,
                                                                       tfidf_score_map[token]));
-
+                                            character_feature_outfile.write(character_expression_format);
+                                #easy domainの一般素性
                                 if re.search(ur'^g', candidate):
                                     general_feature=candidate;
                                     general_feature_numeric=feature_map_numeric[general_feature];
                                     if tfidf==False:
                                         feature_space_doc.append((general_feature_numeric,
                                                                   1));
+                                        character_feature_outfile.write(character_expression_format);
                                     #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
                                     elif tfidf==True:
                                         feature_space_doc.append((general_feature_numeric,
                                                                   tfidf_score_map[token]));
+                                        character_feature_outfile.write(character_expression_format);
                     #------------------------------------------------------------     
                     if not feature_space_doc==[]:
                         if label not in feature_space_label:
@@ -636,7 +671,7 @@ def convert_to_feature_space(training_map,
                 #------------------------------------------------------------
             if not feature_space_label=={}:
                 training_map_feature_space[subdata]=feature_space_label;
-            #------------------------------------------------------------    
+            #------------------------------------------------------------ 
         return training_map_feature_space;
     #============================================================ 
     elif args.training=='mulan':
