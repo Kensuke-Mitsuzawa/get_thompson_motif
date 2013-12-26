@@ -8,16 +8,21 @@ Created on Thu Dec 12 12:16:52 2013
 __date__="2013/12/21"
 """
 import sys, codecs, random;
-#change below by an environment
-libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
-#libsvm_wrapper_path='/Users/kensuke-mi/opt/libsvm-3.17/python/';
-#liblinear_wrapper_path='/Users/kensuke-mi/opt/liblinear-1.94/python/';
-#sys.path.append(liblinear_wrapper_path);
+import feature_function;
+env='local';
+
+if env=='pine':
+    #change below by an environment
+    libsvm_wrapper_path='/home/kensuke-mi/opt/libsvm-3.17/python/';
+elif env=='local':
+    libsvm_wrapper_path='/Users/kensuke-mi/opt/libsvm-3.17/python/';
+    liblinear_wrapper_path='/Users/kensuke-mi/opt/liblinear-1.94/python/';
+    sys.path.append(liblinear_wrapper_path);
 sys.path.append(libsvm_wrapper_path);
 from liblinearutil import *;
 from svmutil import *;
 import scale_grid;
-import construct_bigdoc_or_classifier
+
 #option parameter
 put_weight_constraint=True;
 under_sampling=False;
@@ -68,12 +73,12 @@ def split_for_train_test(correct_instances_stack, incorrect_instances_stack, ins
 
 def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
-                        exno, args):
-    training_map_feature_space=construct_bigdoc_or_classifier.convert_to_feature_space\
+                        exno, tfidf_idea, args):
+    training_map_feature_space=feature_function.convert_to_feature_space\
                                                         (training_map_original,
                                                         feature_map_character,
                                                         feature_map_numeric,
-                                                        tfidf_score_map, tfidf, args);                  
+                                                        tfidf_score_map, tfidf, tfidf_idea, args);                  
     unified_training_map=unify_tarining_feature_space(training_map_feature_space); 
     training_map=unified_training_map; 
     #============================================================ 

@@ -1,10 +1,11 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
-__date__='2013/12/24';
+#__date__='2013/12/25';
 
 import argparse, re, codecs, os, glob, json, sys;
 sys.path.append('../');
-import return_range, tf_idf, mulan_module, liblinear_module, bigdoc_module;
+import return_range, mulan_module, liblinear_module, bigdoc_module;
+import feature_create;
 from nltk.corpus import stopwords;
 from nltk import stem;
 from nltk import tokenize; 
@@ -14,9 +15,9 @@ stopwords = stopwords.words('english');
 symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 #option parameter
 level=1;
-dev_limit=3;
+dev_limit=2;
 #Idea number of TFIDF
-tfidf_idea=2;
+tfidf_idea=4;
 
 def make_filelist(dir_path):
     file_list=[];
@@ -260,178 +261,6 @@ def make_numerical_feature(feature_map_character):
             feature_num_max+=1;
     return feature_map_numeric;
 
-def create_tfidf_feat_idea1(training_map, feature_map_character, args):
-    import math;
-    stop=args.stop;
-    L2_flag=True;
-    persian_flag=False;
-    #------------------------------------------------------------
-    #TFIDFスコアはthompson resourceとdutch_folktale_corpusとtest documentのすべてを合わせた空間で求める
-    all_training_instances=[];
-    #静的にハードコーディングはあまりしたくないんだけど．．仕方がない
-    wordset_map={'thompson':[], 'dutch':[], 'test':[]};
-    for subdata in training_map:
-        training_instances=[];
-        for label in training_map[subdata]: 
-            tokens_in_docs_in_label=training_map[subdata][label];
-            #マルチラベルのために，training_mapの中には重複して同じ文書が登録されていることがある．
-            #重複した文書が追加されないための措置．
-            #実際には，空の文書がいくつかあるので，training_instaces_dutchの要素数はファイル数よりは減るはず
-            for tokens_in_doc in tokens_in_docs_in_label:
-                if tokens_in_doc not in training_instances:
-                    all_training_instances.append(tokens_in_doc);
-                    training_instances.append(tokens_in_doc);
-        #ちょっと変な書き方だけど，この方が早い
-        wordset_map[subdata]=[t for doc in training_instances for t in doc];
-    #------------------------------------------------------------
-    if persian_flag==True:
-        #ペルシア語口承文芸コーパスからファイルを読み込む
-        test_corpus_instances=[];
-        persian_folktale_documet_path='../../corpus_dir/translated_google/'
-        for doc_filepath in make_filelist(persian_folktale_documet_path):
-            doc=[];
-            with codecs.open(doc_filepath, 'r', 'utf-8') as lines:
-                for line in lines:
-                    if line==u'#motif\n':
-                        motif_line_flag=True; 
-                        continue;
-                    elif line==u'#text\n':
-                        motif_line_flag=False;
-                        text_line_flag=True;
-                        continue;
-                    elif motif_line_flag==True:
-                        pass;
-                    elif text_line_flag==True:
-                        doc.append(line);
-            doc=u' '.join(doc); 
-            tokens=tokenize.wordpunct_tokenize(doc);
-            lemmatized_tokens=[lemmatizer.lemmatize(t.lower()) for t in tokens];
-            if stop==True:
-                lemmatized_tokens=[t for t in lemmatized_tokens if t not in stopwords and t not in symbols];
-            test_corpus_instances.append(lemmatized_tokens);
-            wordset_map['test'].append([t for t in lemmatized_tokens]);
-        #ちょっと変な書き方だけど，この方が実行速度はやい
-        wordset_map['test']=[t for doc in wordset_map['test'] for t in doc];
-        all_training_instances=all_training_instances+test_corpus_instances;
-    #------------------------------------------------------------
-    print 'TFIDF(Idea-1) score calculating'
-    print 'L2 flag:{} Persian flag:{}'.format(L2_flag, persian_flag);
-    tfidf_score_map=tf_idf.tf_idf_test(all_training_instances);
-    #------------------------------------------------------------
-    if L2_flag==True:
-        #L2正則化をかける        
-        weight_sum=0;    
-        for key in tfidf_score_map:
-            weight=tfidf_score_map[key];
-            weight_sum+=(weight)**2;
-        L2_norm=math.sqrt(weight_sum);
-        L2_normalized_map={};    
-        L2_weightsum=0;
-        for key in tfidf_score_map:
-            normalized_score=tfidf_score_map[key]/L2_norm;
-            L2_normalized_map[key]=normalized_score;        
-            #L2で正規化した重みの和を求める
-            L2_weightsum+=normalized_score;
-        #足切りスコアの算出
-        L2_average=L2_weightsum/len(L2_normalized_map);
-        for doc in all_training_instances:
-            for t in doc:
-                if t in L2_normalized_map:
-                    #足切り
-                    if L2_normalized_map[t] > L2_average:
-                        pass;
-                    else:
-                        weight_format=u'{}_{}_{}'.format('normal', t, L2_normalized_map[t]);
-                        if t not in feature_map_character:
-                            feature_map_character[t]=[weight_format];
-                        elif weight_format not in feature_map_character[t]:
-                            feature_map_character[t].append(weight_format);
-    """ 
-    feature_map_character=make_tfidf_feature_from_score(tfidf_score_map,
-                                                        wordset_map,
-                                                        feature_map_character, args);
-    """
-    return feature_map_character, tfidf_score_map;
-    
-def create_tfidf_feat_idea2(training_map, feature_map_character, args):
-    #ラベルごとの重要語を取り出す
-    #TFIDFスコアを文書集合から算出した後，ラベル文書ごとに閾値（足切り値）を求め，閾値以下の語は素性を作らない
-    #これで，「あるラベルに特徴的な語」を示す素性が作れた．と思う
-    import math;
-    easy_domain_flag=False;
-    constant=False;
-    bigdocs_stack=[];
-    bigdocs_stack_nolabel=[];
-    print 'easy domain? flag:{}'.format(easy_domain_flag);
-    #------------------------------------------------------------
-    #２つの資源から混合の文書集合を作成
-    for label in training_map['thompson']:
-        instances_in_label_thompson=training_map['thompson'][label];
-        bigdoc_of_label_thompson=[t for doc in instances_in_label_thompson for t in doc];        
-        if label in training_map['dutch']:        
-            instances_in_label_dutch=training_map['dutch'][label];        
-            bigdoc_of_label_dutch=[t for doc in instances_in_label_dutch for t in doc];        
-            bigdoc_of_label_thompson+=bigdoc_of_label_dutch;
-        bigdocs_stack.append((label, bigdoc_of_label_thompson));
-        bigdocs_stack_nolabel.append(bigdoc_of_label_thompson);
-    #------------------------------------------------------------
-    print 'TFIDF(Idea-2) score calculating'
-    tfidf_score_map=tf_idf.tf_idf_test(bigdocs_stack_nolabel);     
-    #------------------------------------------------------------
-    #L2正則化をかける        
-    weight_sum=0;    
-    for key in tfidf_score_map:
-        weight=tfidf_score_map[key];
-        weight_sum+=(weight)**2;
-    L2_norm=math.sqrt(weight_sum);
-    L2_normalized_map={};    
-    for key in tfidf_score_map:
-        normalized_score=tfidf_score_map[key]/L2_norm;
-        L2_normalized_map[key]=normalized_score;        
-    
-    for one_doc_tuple in bigdocs_stack:
-        label=one_doc_tuple[0];
-        tokens=one_doc_tuple[1];
-        weightsum_of_label=0;
-        denominator=0;
-        for t in tokens:
-            if t in L2_normalized_map:
-                word_weight=L2_normalized_map[t];
-                weightsum_of_label+=word_weight;
-                denominator+=1;
-        #閾値を，重み平均に設定する(中央値でも良い気がする)
-        #12/23 この行は間違いだと思う．だって，ラベルあたりの重み合計を，L2_normalized_mapで割ったらダメじゃん
-        #いま知りたいのは，ラベルごとの重み平均．なので，正しい分母は「ラベル内に存在している異なり単語数」
-        #threshold_point=weightsum_of_label/len(L2_normalized_map); 
-        threshold_point=weightsum_of_label/len(L2_normalized_map); 
-        for t in tokens:            
-            if t in L2_normalized_map:
-                #対数化しているので，符号が逆になる
-                if L2_normalized_map[t] > threshold_point:  
-                    pass;
-                else:
-                    #定数倍した時と，そうでない時に差があるのか？を検証するため
-                    if constant==True:
-                        weight_format=u'{}_{}_{}'.format(label, t, L2_normalized_map[t]);
-                    else:
-                        weight_format=u'normal_{}_{}'.format(t, L2_normalized_map[t]);
-                    if t not in feature_map_character:
-                        feature_map_character[t]=[weight_format];
-                    elif weight_format not in feature_map_character[t]:
-                        feature_map_character[t].append(weight_format);
-                    #------------------------------------------------------------ 
-                    #12/24 easy domainと同じにしてみたらどうなるのだろう？というアイディアを試す
-                    #ラベル素性の他に，normal素性を入れてみる 
-                    if easy_domain_flag==True:
-                        weight_format=u'{}_{}_{}'.format('g', t, L2_normalized_map[t]);
-                        if t not in feature_map_character:
-                            feature_map_character[t]=[weight_format];
-                        elif weight_format not in feature_map_character[t]:
-                            feature_map_character[t].append(weight_format);
-
-
-    return feature_map_character, L2_normalized_map;
-
 def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, args):
     dev_mode=args.dev;
     exno=str(args.experiment_no);
@@ -534,12 +363,17 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
         #------------------------------------------------------------ 
         training_map['thompson']=thompson_training_map;
     #============================================================ 
+    print 'TDIDF idea number {}'.format(tfidf_idea);
     #もしTFIDFを使うのであれば，test documentも合わせた空間で重みスコアを求めないといけない
     if tfidf==True:
         if tfidf_idea==1:
-            feature_map_character, tfidf_score_map=create_tfidf_feat_idea1(training_map, feature_map_character, args);
-        elif tfidf_idea==2:
-            feature_map_character, tfidf_score_map=create_tfidf_feat_idea2(training_map, feature_map_character, args);
+            feature_map_character, tfidf_score_map=feature_create.create_tfidf_feat_idea1(training_map, 
+                                                                                          feature_map_character,
+                                                                                          args);
+        elif tfidf_idea in [2,3,4,5]:                                                       
+            feature_map_character, tfidf_score_map=feature_create.create_tfidf_feat_idea2_4(training_map,
+                                                                                            feature_map_character,
+                                                                                            tfidf_idea, args);
     #============================================================  
     #作成した素性辞書をjsonに出力(TFIDF)が空の時は空の辞書が出力される
     with codecs.open('../classifier/tfidf_weight/tfidf_word_weight.json.'+exno, 'w', 'utf-8') as f:
@@ -562,7 +396,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                             feature_map_character,
                             tfidf,
                             tfidf_score_map,
-                            exno, args);
+                            exno, tfidf_idea, args);
     elif args.training=='mulan':
         dutch_dir_path='../../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated_train/'
         #mulanを使ったモデル作成
@@ -578,125 +412,7 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                             feature_map_character,
                             tfidf, tfidf_score_map,
                             feature_space, 
-                            motif_vector, args);
-
-def convert_to_feature_space(training_map,
-                            feature_map_character,
-                            feature_map_numeric,
-                             tfidf_score_map, tfidf, args):
-    exno=args.experiment_no;
-    #文字表現の素性を保存する
-    character_feature_outfile=codecs.open('../classifier/character_expression/character_expression.'+str(exno), 'w', 'utf-8');
-    character_feature_outfile.write('Gold label\tcharacter feature\n')
-    if args.training=='liblinear':
-        """
-        training_mapの中身を素性空間に変換する．
-        戻り値は数値表現になった素性空間．
-        データ構造はtraining_mapと同じ．（ただし，最後だけtokenでなく，素性番号：素性値のタプル）
-        """
-        training_map_feature_space={};
-        for subdata in training_map:
-            if args.easy_domain==True:
-                if subdata=='dutch':
-                    prefix=u'd';
-                elif subdata=='thompson':
-                    prefix=u't';
-            elif args.easy_domain==False:
-                prefix=u'normal';
-            feature_space_label={};
-            #------------------------------------------------------------     
-            for label in training_map[subdata]:
-                #------------------------------------------------------------     
-                #token表現を文書ごとに素性空間にマップする．
-                for doc in training_map[subdata][label]:
-                    feature_space_doc=[];
-                    for token in doc:
-                        #feature_map_character[token]の中は配列になっているので，資源にあった資源のみを選ぶ
-                        if token in feature_map_character: 
-                            for candidate in feature_map_character[token]:
-                                #文字表現の素性フォーマットを作成する
-                                character_expression_format=u'{}\t{}\n'.format(label, candidate);
-                                
-                                feature_pattern=re.compile(u'^{}'.format(prefix));
-                                if re.search(feature_pattern, candidate):
-                                    domain_feature=candidate;
-                                    domain_feature_numeric=feature_map_numeric[domain_feature];
-                                    if tfidf==False:
-                                        feature_space_doc.append((domain_feature_numeric,
-                                                                  1)); 
-                                        character_feature_outfile.write(character_expression_format);
-                                    #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
-                                    elif tfidf==True:
-                                        feature_space_doc.append((domain_feature_numeric,
-                                                                  tfidf_score_map[token]));
-                                        character_feature_outfile.write(character_expression_format);
-                                #12/24 ラベル素性用に
-                                #hoge
-                                #12/24　いまの状態は間違っている気がする
-                                #正しくは，Aのラベル以下では，Aの素性のみを発火させるのが正しい
-                                label_domain_name=u'{}_{}'.format(label, token);
-                                if label_domain_name in candidate:
-                                #if re.search(ur'^[A-Z]_', candidate):
-                                    domain_feature=candidate;
-                                    domain_feature_numeric=feature_map_numeric[domain_feature];
-                                    if tfidf==False:
-                                        feature_space_doc.append((domain_feature_numeric,
-                                                                  1)); 
-                                        character_feature_outfile.write(character_expression_format);
-                                    #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
-                                    elif tfidf==True:
-                                        if token in tfidf_score_map:
-                                            feature_space_doc.append((domain_feature_numeric,
-                                                                      tfidf_score_map[token]));
-                                            character_feature_outfile.write(character_expression_format);
-                                #easy domainの一般素性
-                                if re.search(ur'^g', candidate):
-                                    general_feature=candidate;
-                                    general_feature_numeric=feature_map_numeric[general_feature];
-                                    if tfidf==False:
-                                        feature_space_doc.append((general_feature_numeric,
-                                                                  1));
-                                        character_feature_outfile.write(character_expression_format);
-                                    #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
-                                    elif tfidf==True:
-                                        feature_space_doc.append((general_feature_numeric,
-                                                                  tfidf_score_map[token]));
-                                        character_feature_outfile.write(character_expression_format);
-                    #------------------------------------------------------------     
-                    if not feature_space_doc==[]:
-                        if label not in feature_space_label:
-                            feature_space_label[label]=[feature_space_doc];
-                        else:
-                            feature_space_label[label].append(feature_space_doc);
-                #------------------------------------------------------------
-            if not feature_space_label=={}:
-                training_map_feature_space[subdata]=feature_space_label;
-            #------------------------------------------------------------ 
-        return training_map_feature_space;
-    #============================================================ 
-    elif args.training=='mulan':
-        """
-        RETURN list [tuple (list [unicode モチーフラベル], list [unicode token])] 
-        """
-        training_data_list_feature_space=[];
-        training_data_list=training_map;
-        for one_instance in training_data_list:
-            one_instance_stack=[];
-            for token in one_instance[1]:
-                if args.tfidf==False:
-                    if token in feature_map_character:
-                        for feature_candidate in feature_map_character[token]:
-                            feature_number=feature_map_numeric[feature_candidate];
-                            one_instance_stack.append((feature_number, 1));
-                elif args.tfidf==True:
-                    if token in tfidf_score_map:
-                        for feature_candidate in feature_map_character[token]:
-                            feature_number=feature_map_numeric[feature_candidate];
-                            tfidf_weight=tfidf_score_map[token];
-                            one_instance_stack.append((feature_number, tfidf_weight));
-
-            training_data_list_feature_space.append((one_instance[0], one_instance_stack));
-        return training_data_list_feature_space;
+                            motif_vector, tfidf_idea, args);
 
 def create_multilabel_datastructure_single(training_data_list, thompson_training_map, args):
     """
@@ -785,6 +501,9 @@ if __name__=='__main__':
                         default=0.95);
     parser.add_argument('-easy_domain', '--easy_domain',
                         help='use easy domain adaptation',
+                        action='store_true');
+    parser.add_argument('-easy_domain2', '--easy_domain2',
+                        help='use easy domain idea2, which is domain adaptation of labels',
                         action='store_true');
     parser.add_argument('-training', help='which training tool? liblinear or mulan?');
     parser.add_argument('-mulan_model', help='which model in mulan library.\

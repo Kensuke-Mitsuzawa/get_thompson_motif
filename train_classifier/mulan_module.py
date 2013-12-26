@@ -1,22 +1,23 @@
 #! /usr/bin/python
 # -*- coding:utf-8 -*-
 import subprocess, codecs, sys, argparse, shutil;
-import construct_bigdoc_or_classifier; 
-__date__='2013/12/19';
-memory_option=u'-Xmx30000m'
+import feature_function; 
+__date__='2013/12/26';
+memory_option=u'-Xmx300m'
 
 def out_to_mulan_format(training_data_list, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
-                        feature_space, motif_vector, args):
+                        feature_space, motif_vector, tfidf_idea, args):
     """
     mulan用にデータフォーマットを作成する．
     RETURN void
     """
     exno=args.experiment_no;
-    training_data_list_feature_space=construct_bigdoc_or_classifier.convert_to_feature_space(training_data_list,
-                                                                                             feature_map_character,
-                                                                                             feature_map_numeric,
-                                                                                             tfidf_score_map, tfidf, args);
+    training_data_list_feature_space=feature_function.convert_to_feature_space(training_data_list,
+                                                                             feature_map_character,
+                                                                             feature_map_numeric,
+                                                                             tfidf_score_map, tfidf,
+                                                                             tfidf_idea, args);
     #------------------------------------------------------------
     #arffファイルのheader部分を作成
     #xmlファイルも同時に作成
