@@ -4,14 +4,21 @@ Created on Thu Dec 12 12:27:31 2013
 
 @author: kensuke-mi
 """
-__date__='2013/12/19'
-import codecs, json, re, os, glob;
+__date__='2013/01/03'
+import sys, codecs, json, re, os, glob;
 from nltk import tokenize;
 from nltk.corpus import stopwords;
 from nltk import stem;
 lemmatizer = stem.WordNetLemmatizer();
 stopwords = stopwords.words('english');
 symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
+
+hypernym_flag=True;
+hypernym_plus_surface_flag=True;
+root_hypernym=False;
+if hypernym_flag==True:
+    from nltk.corpus import wordnet;
+
 
 def make_filelist(dir_path):
     file_list=[];
@@ -89,10 +96,41 @@ def cleanup_directory(dirpath):
     for f in make_filelist(dirpath):
         os.remove(f);
 
+def get_str_only(hypernym_wordset):
+    """
+    hypernym_wordsetを入力として，文字型のオブジェクトをリストに格納して返す．
+    ARGS: list hypernym_wordset [nltk.corpus.reader.wordnet hypernym]
+    RETURN: list [unicode lemma_of_hypernyms]
+    """
+    return_list=[];
+    for hypernyms in hypernym_wordset:
+        for hypernym in hypernyms: 
+            for lemma in hypernym.lemma_names:
+                return_list.append(unicode(lemma, 'utf-8'));
+    return_list=list(set(return_list));
+    return return_list;
+
+def generate_hypernym_wordset(tokens_s,args):
+    """
+    wordnetを利用して，同義語集合と上位語集合を展開して，返す
+    ARGS: list tokens_s [unicode token]
+    RETURN: list [unicode lemma_of_hypernyms]
+    """
+    #同義語集合を展開
+    #list synset_wordset [list synset [nltk.corpus.reader.wordnet synonym]]
+    synset_wordset=[wordnet.synsets(t) for t in tokens_s];
+    #上位語集合にする
+    #list hypernym_wordset [nltk.corpus.reader.wordnet.Synset hypernym]
+    hypernym_wordset=[s.hypernyms() for s_set in synset_wordset for s in s_set]
+    return_list=get_str_only(hypernym_wordset); 
+   
+    print 'Statics of hypernymset';
+    print 'The number of tokens in hypernym_wordset:{}'.format(len(return_list));
+    return return_list
+
 def create_label1_bigdoc(args, all_thompson_tree):
     dirpath='./big_document/';
     cleanup_directory(dirpath);
-    
     #一層目のbigdocumentを生成して書き出し 書き出し先は./big_document/
     if args.thompson==True:
         for key_1st in all_thompson_tree:
@@ -100,6 +138,18 @@ def create_label1_bigdoc(args, all_thompson_tree):
             big_document_stack=construct_1st_level(parent_node, all_thompson_tree);
             filename=u'{}_level_{}'.format(parent_node, 1);
             tokens_s=cleanup_bigdocument_stack(filename, big_document_stack, args.stop);
+            if hypernym_flag==True:
+                #上位概念語の単語集合
+                print 'hypernym words from thompson words'
+                hypernym_wordset=generate_hypernym_wordset(tokens_s,args);
+            
+            if hypernym_plus_surface_flag==True:
+                #上位概念語集合＋表層語の単語集合
+                print 'hypernym words plus surface words from thompson words';
+                tokens_s=tokens_s+hypernym_wordset;
+            else:
+                tokens_s=hypernym_wordset;
+
             with codecs.open('./big_document/'+filename, 'w', 'utf-8') as f:
                 #json.dump(tokens_s, f, indent=4, ensure_ascii=False);
                 #jsonは廃止　通常文書にする
@@ -115,16 +165,33 @@ def create_label1_bigdoc(args, all_thompson_tree):
         #------------------------------------------------------------             
         dir_path='../../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated_train/';                
         for filepath in make_filelist(dir_path):
-            tokens_in_label=tokenize.wordpunct_tokenize(codecs.open(filepath, 'r', 'utf-8').read());
+            file_obj=codecs.open(filepath, 'r', 'utf-8');
+            tokens_in_label=tokenize.wordpunct_tokenize(file_obj.read());
             lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
             if args.stop==True:
                 lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
+                
             tmp_sub=re.sub(ur'([A-Z]_+)\d.+', ur'\1', os.path.basename(filepath.upper()));
             for label in (tmp_sub).split(u'_')[:-1]:
                 if label in big_document_tree:
                     big_document_tree[label]+=lemmatized_tokens_in_label;
                 else:
                     big_document_tree[label]=lemmatized_tokens_in_label;
+            file_obj.close(); 
+        #------------------------------------------------------------
+        for label in big_document_tree:
+            tokens_s=big_document_tree[label];
+            if hypernym_flag==True:
+                #上位概念語の単語集合
+                print 'hypernym words from dutch corpus'
+                hypernym_wordset=generate_hypernym_wordset(tokens_s,args);
+            
+            if hypernym_plus_surface_flag==True:
+                #上位概念語集合＋表層語の単語集合
+                print 'hypernym words plus surface words from dutch corpus';
+                tokens_s=tokens_s+hypernym_wordset;
+            else:
+                tokens_s=hypernym_wordset;
         #------------------------------------------------------------
         #通常文書として書き出し
         print 'writing tokens in dutch folktale database';

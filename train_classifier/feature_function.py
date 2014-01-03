@@ -23,8 +23,39 @@ def convert_to_feature_space(training_map,feature_map_character,feature_map_nume
     elif args.training=='liblinear':
         training_data_feature_space=convert_to_feature_space_liblinear(training_map,feature_map_character,feature_map_numeric,tfidf_score_map,tfidf, easy_domain_flag, args);
 
-    return training_data_feature_space;         
-                             
+    return training_data_feature_space;
+
+def convert_to_feature_space_arow(training_subdata, feature_map_character,feature_map_numeric,tfidf_score_map,tfidf, easy_domain_flag, args):
+    """
+    ARGS training_subdata dictionary {unicode keyname:list [unicode token] }
+    RETURN training_subdata_featurespace dictionary {unicode keyname:list [tuple (int feature_number, float feature_value)]}
+    """
+    training_subdata_featurespace={};
+    for motiflabel in training_subdata:
+        instances_in_label_featurespace=[];        
+        #--------------------------------------------------------------- 
+        #ラベル内訓練事例を素性空間に変換する           
+        for one_instance in training_subdata[motiflabel]:
+            one_instance_feature_space=[];
+            #---------------------------------------------------------------
+            #１訓練事例内のtokenを素性空間に変換する
+            #つまりは素性辞書を引いているだけ
+            for t in one_instance:
+                if t in feature_map_character:
+                    for feature_candidate in feature_map_character[t]:
+                        feature_number=feature_map_numeric[feature_candidate];
+                        if args.tfidf==True:
+                            t_weight=tfidf_score_map[t];                            
+                            one_instance_feature_space.append( (feature_number, t_weight) );
+                        elif args.tfidf==False:
+                            one_instance_feature_space.append( (feature_number, 1) );
+            #---------------------------------------------------------------
+            if not one_instance_feature_space==[]:
+                instances_in_label_featurespace.append(one_instance_feature_space);
+        #---------------------------------------------------------------            
+        training_subdata_featurespace[motiflabel]=instances_in_label_featurespace;    
+    return training_subdata_featurespace;
+                       
 def convert_to_feature_space_liblinear(training_map,feature_map_character,feature_map_numeric,tfidf_score_map,tfidf, easy_domain_flag, args):
     exno=args.experiment_no;
     easy_domain2=easy_domain_flag;

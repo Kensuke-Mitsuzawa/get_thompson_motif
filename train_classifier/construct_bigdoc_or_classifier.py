@@ -15,7 +15,7 @@ stopwords = stopwords.words('english');
 symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 #option parameter
 level=1;
-dev_limit=2;
+dev_limit=3;
 #Idea number of TFIDF
 tfidf_idea=4;
 
@@ -261,6 +261,51 @@ def make_numerical_feature(feature_map_character):
             feature_num_max+=1;
     return feature_map_numeric;
 
+def generate_document_instances(file_obj,filepath,alphabet_label_list,dutch_training_map,args):
+    """
+    文書単位で訓練事例を作成する
+    """
+    tokens_in_label=tokenize.wordpunct_tokenize(file_obj.read());
+    file_obj.close(); 
+    lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
+    if args.stop==True:
+        lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
+    if level==1:
+        for alphabet_label in alphabet_label_list:
+            alphabet_label=alphabet_label.upper();
+            if alphabet_label in dutch_training_map:
+                dutch_training_map[alphabet_label].append(lemmatized_tokens_in_label);
+            else:
+                dutch_training_map[alphabet_label]=[lemmatized_tokens_in_label];
+    elif level==2:
+        alphabet_label=alphabet_label.upper();
+        if alphabet_label in dutch_training_map:
+            dutch_training_map[alphabet_label].append(lemmatized_tokens_in_label);
+        else:
+            dutch_training_map[alphabet_label]=[lemmatized_tokens_in_label];
+    return dutch_training_map;
+
+def generate_sentence_instances(file_obj,filepath,alphabet_label_list,dutch_training_map,args):
+    """
+    文単位で訓練事例を作成する
+    RETURN dutch_training_map: map {unicode key : list [ [ unicode token ] ] }
+    """
+    sentences_in_label=(file_obj.read()).split(u'\n');
+    #sentences_in_label=(file_obj.read()).split(u'\r\n')
+    file_obj.close();
+    
+    for sentence in sentences_in_label:
+        tokens_sentence=tokenize.wordpunct_tokenize(sentence);
+        if not tokens_sentence==[]:
+            for alphabet_label in alphabet_label_list:
+                alphabet_label=alphabet_label.upper();
+                if alphabet_label not in dutch_training_map:
+                    dutch_training_map[alphabet_label]=[tokens_sentence];
+                else:
+                    dutch_training_map[alphabet_label].append(tokens_sentence);
+
+    return dutch_training_map;
+        
 def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson, tfidf, args):
     dev_mode=args.dev;
     exno=str(args.experiment_no);
@@ -292,24 +337,13 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
             elif level==2:
                 alphabet_label=(os.path.basename(filepath))[0];
             file_obj=codecs.open(filepath, 'r', 'utf-8');
-            tokens_in_label=tokenize.wordpunct_tokenize(file_obj.read());
-            file_obj.close(); 
-            lemmatized_tokens_in_label=[lemmatizer.lemmatize(t.lower()) for t in tokens_in_label];
-            if stop==True:
-                lemmatized_tokens_in_label=[t for t in lemmatized_tokens_in_label if t not in stopwords and t not in symbols];
-            if level==1:
-                for alphabet_label in alphabet_label_list:
-                    alphabet_label=alphabet_label.upper();
-                    if alphabet_label in dutch_training_map:
-                        dutch_training_map[alphabet_label].append(lemmatized_tokens_in_label);
-                    else:
-                        dutch_training_map[alphabet_label]=[lemmatized_tokens_in_label];
-            elif level==2:
-                alphabet_label=alphabet_label.upper();
-                if alphabet_label in training_map:
-                    dutch_training_map[alphabet_label].append(lemmatized_tokens_in_label);
-                else:
-                    dutch_training_map[alphabet_label]=[lemmatized_tokens_in_label];
+
+            if args.ins_range=='document':
+                dutch_training_map=generate_document_instances(file_obj,filepath,alphabet_label_list,dutch_training_map,args);
+            elif args.ins_range=='sentence':
+                #arowを用いた半教師あり学習のために文ごとの事例作成を行う
+                dutch_training_map=generate_sentence_instances(file_obj,filepath,alphabet_label_list,dutch_training_map,args);
+
             if dev_mode==True and fileindex==dev_limit:
                 break;
         #最後にtraining_mapの下に登録
@@ -397,6 +431,15 @@ def construct_classifier_for_1st_layer(all_thompson_tree, stop, dutch, thompson,
                             tfidf,
                             tfidf_score_map,
                             exno, tfidf_idea, args);
+    elif args.training=='arow':
+        liblinear_module.out_to_libsvm_format_arow(training_map, 
+                            feature_map_numeric, 
+                            feature_map_character,
+                            tfidf,
+                            tfidf_score_map,
+                            exno, tfidf_idea, args);
+                            
+    
     elif args.training=='mulan':
         dutch_dir_path='../../dutch_folktale_corpus/dutch_folktale_database_translated_kevin_system/translated_train/'
         #mulanを使ったモデル作成
@@ -484,6 +527,9 @@ if __name__=='__main__':
     parser.add_argument('-dutch', 
                         help='If added, document from dutch folktale database is added to training corpus', 
                         action='store_true');
+    parser.add_argument('-ins_range',
+                        help='select a range of one instance. "document" or "sentence"',
+                        default='document');
     parser.add_argument('-thompson', 
                         help='If added, outline from thompson tree is added to training corpus', 
                         action='store_true');
@@ -505,7 +551,7 @@ if __name__=='__main__':
     parser.add_argument('-easy_domain2', '--easy_domain2',
                         help='use easy domain idea2, which is domain adaptation of labels',
                         action='store_true');
-    parser.add_argument('-training', help='which training tool? liblinear or mulan?');
+    parser.add_argument('-training', help='which training tool? liblinear or mulan or arow?');
     parser.add_argument('-mulan_model', help='which model in mulan library.\
                         RAkEL, RAkELd, MLCSSP, HOMER, HMC, ClusteringBased, Ensemble etc.',
                         default=u'');
@@ -530,6 +576,8 @@ if __name__=='__main__':
         if args.training==u'mulan': 
             pass;
         elif args.training==u'liblinear':
+            pass;
+        elif args.training==u'arow':
             pass;
         else:
             sys.exit('[Warning] training tool is not choosen(mulan or liblinear)')        
