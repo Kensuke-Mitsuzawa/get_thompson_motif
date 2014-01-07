@@ -17,7 +17,7 @@ symbols = ["'", '"', '`', '.', ',', '-', '!', '?', ':', ';', '(', ')'];
 level=1;
 dev_limit=3;
 #Idea number of TFIDF
-tfidf_idea=4;
+tfidf_idea=3;
 
 def make_filelist(dir_path):
     file_list=[];

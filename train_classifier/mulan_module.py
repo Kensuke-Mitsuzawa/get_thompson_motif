@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 import subprocess, codecs, sys, argparse, shutil;
 import feature_function; 
-__date__='2013/12/26';
-memory_option=u'-Xmx300m'
+__date__='2014/01/06';
+memory_option=u'-Xmx30g'
 
 def out_to_mulan_format(training_data_list, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,

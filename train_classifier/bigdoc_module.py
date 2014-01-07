@@ -4,7 +4,7 @@ Created on Thu Dec 12 12:27:31 2013
 
 @author: kensuke-mi
 """
-__date__='2013/01/03'
+__date__='2013/01/06'
 import sys, codecs, json, re, os, glob;
 from nltk import tokenize;
 from nltk.corpus import stopwords;
@@ -18,7 +18,6 @@ hypernym_plus_surface_flag=True;
 root_hypernym=False;
 if hypernym_flag==True:
     from nltk.corpus import wordnet;
-
 
 def make_filelist(dir_path):
     file_list=[];
@@ -142,13 +141,13 @@ def create_label1_bigdoc(args, all_thompson_tree):
                 #上位概念語の単語集合
                 print 'hypernym words from thompson words'
                 hypernym_wordset=generate_hypernym_wordset(tokens_s,args);
-            
-            if hypernym_plus_surface_flag==True:
-                #上位概念語集合＋表層語の単語集合
-                print 'hypernym words plus surface words from thompson words';
-                tokens_s=tokens_s+hypernym_wordset;
-            else:
-                tokens_s=hypernym_wordset;
+
+                if hypernym_plus_surface_flag==True:
+                    #上位概念語集合＋表層語の単語集合
+                    print 'hypernym words plus surface words from thompson words';
+                    tokens_s=tokens_s+hypernym_wordset;
+                else:
+                    tokens_s=hypernym_wordset;
 
             with codecs.open('./big_document/'+filename, 'w', 'utf-8') as f:
                 #json.dump(tokens_s, f, indent=4, ensure_ascii=False);
@@ -186,12 +185,12 @@ def create_label1_bigdoc(args, all_thompson_tree):
                 print 'hypernym words from dutch corpus'
                 hypernym_wordset=generate_hypernym_wordset(tokens_s,args);
             
-            if hypernym_plus_surface_flag==True:
-                #上位概念語集合＋表層語の単語集合
-                print 'hypernym words plus surface words from dutch corpus';
-                tokens_s=tokens_s+hypernym_wordset;
-            else:
-                tokens_s=hypernym_wordset;
+                if hypernym_plus_surface_flag==True:
+                    #上位概念語集合＋表層語の単語集合
+                    print 'hypernym words plus surface words from dutch corpus';
+                    tokens_s=tokens_s+hypernym_wordset;
+                else:
+                    tokens_s=hypernym_wordset;
         #------------------------------------------------------------
         #通常文書として書き出し
         print 'writing tokens in dutch folktale database';

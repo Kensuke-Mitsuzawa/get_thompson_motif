@@ -4,7 +4,7 @@ Created on Thu Dec 26 09:33:15 2013
 
 @author: kensuke-mi
 """
-import codecs, re;
+import sys, codecs, re;
 
 def convert_to_feature_space(training_map,feature_map_character,feature_map_numeric,tfidf_score_map,tfidf,tfidf_idea,args):
     if tfidf_idea==1:
@@ -21,7 +21,7 @@ def convert_to_feature_space(training_map,feature_map_character,feature_map_nume
     if args.training=='mulan':                     
         training_data_feature_space=convert_to_feature_space_mulan(training_map,feature_map_character,feature_map_numeric,tfidf_score_map,tfidf, easy_domain_flag, args);
     elif args.training=='liblinear':
-        training_data_feature_space=convert_to_feature_space_liblinear(training_map,feature_map_character,feature_map_numeric,tfidf_score_map,tfidf, easy_domain_flag, args);
+        training_data_feature_space=convert_to_feature_space_liblinear(training_map,feature_map_character,feature_map_numeric,tfidf_score_map,tfidf, tfidf_idea, easy_domain_flag, args);
 
     return training_data_feature_space;
 
@@ -56,7 +56,7 @@ def convert_to_feature_space_arow(training_subdata, feature_map_character,featur
         training_subdata_featurespace[motiflabel]=instances_in_label_featurespace;    
     return training_subdata_featurespace;
                        
-def convert_to_feature_space_liblinear(training_map,feature_map_character,feature_map_numeric,tfidf_score_map,tfidf, easy_domain_flag, args):
+def convert_to_feature_space_liblinear(training_map,feature_map_character,feature_map_numeric,tfidf_score_map,tfidf, tfidf_idea, easy_domain_flag, args):
     exno=args.experiment_no;
     easy_domain2=easy_domain_flag;
     #文字表現の素性を保存する
@@ -103,24 +103,7 @@ def convert_to_feature_space_liblinear(training_map,feature_map_character,featur
                                     feature_space_doc.append((domain_feature_numeric,
                                                               tfidf_score_map[token]));
                                     character_feature_outfile.write(character_expression_format);
-                            #hoge
-                            #12/24　いまの状態は間違っている気がする
-                            #正しくは，Aのラベル以下では，Aの素性のみを発火させるのが正しい
-                            label_domain_name=u'{}_{}'.format(label, token);
-                            if label_domain_name in candidate:
-                            #if re.search(ur'^[A-Z]_', candidate):
-                                domain_feature=candidate;
-                                domain_feature_numeric=feature_map_numeric[domain_feature];
-                                if tfidf==False:
-                                    feature_space_doc.append((domain_feature_numeric,
-                                                              1)); 
-                                    character_feature_outfile.write(character_expression_format);
-                                #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
-                                elif tfidf==True:
-                                    if token in tfidf_score_map:
-                                        feature_space_doc.append((domain_feature_numeric,
-                                                                  tfidf_score_map[token]));
-                                        character_feature_outfile.write(character_expression_format);
+                            
                             #easy domainの一般素性
                             if re.search(ur'^g', candidate):
                                 general_feature=candidate;
@@ -134,7 +117,37 @@ def convert_to_feature_space_liblinear(training_map,feature_map_character,featur
                                     feature_space_doc.append((general_feature_numeric,
                                                               tfidf_score_map[token]));
                                     character_feature_outfile.write(character_expression_format);
+
+                            if easy_domain2==True:
+                                label_domain_name=u'{}_{}'.format(label, token);
+                                if label_domain_name in candidate:
+                                #if re.search(ur'^[A-Z]_', candidate):
+                                    domain_feature=candidate;
+                                    domain_feature_numeric=feature_map_numeric[domain_feature];
+                                    if tfidf==False:
+                                        feature_space_doc.append((domain_feature_numeric,
+                                                                  1)); 
+                                        character_feature_outfile.write(character_expression_format);
+                                    #ここがtfidfが真の場合は，素性値をタプルにして追加すればよい
+                                    elif tfidf==True:
+                                        if token in tfidf_score_map:
+                                            feature_space_doc.append((domain_feature_numeric,
+                                                                      tfidf_score_map[token]));
+                                            character_feature_outfile.write(character_expression_format);
+                            
+                            if tfidf_idea==3:
+                                #idea3は素性ベクトルを定数倍させる
+                                if tfidf==True:
+                                    if token in tfidf_score_map:
+                                        feature_space_doc.append((candidate,
+                                                                  tfidf_score_map[token]));
+                                        character_feature_outfile.write(character_expression_format);
+                                else:
+                                    feature_space_doc.append((candidate,
+                                                              1));
+                                    character_feature_outfile.write(character_expression_format);
                 #------------------------------------------------------------     
+                #素性空間に射影した文書をlabelごとに管理するmapの下に入れる
                 if not feature_space_doc==[]:
                     if label not in feature_space_label:
                         feature_space_label[label]=[feature_space_doc];
@@ -145,6 +158,7 @@ def convert_to_feature_space_liblinear(training_map,feature_map_character,featur
             training_map_feature_space[subdata]=feature_space_label;
         #------------------------------------------------------------ 
     character_feature_outfile.close();
+    
     return training_map_feature_space;
 
 def convert_to_feature_space_mulan(training_map,feature_map_character,feature_map_numeric,tfidf_score_map, tfidf, easy_domain_flag,args):

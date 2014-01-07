@@ -22,6 +22,7 @@ def create_tfidf_feat_idea1(training_map, feature_map_character, args):
     import math;
     stop=args.stop;
     L2_flag=True;
+    #TFIDF空間にペルシア語コーパスの語も含めるか？
     persian_flag=False;
     #------------------------------------------------------------
     #TFIDFスコアはthompson resourceとdutch_folktale_corpusとtest documentのすべてを合わせた空間で求める
@@ -115,14 +116,14 @@ def create_tfidf_feat_idea2_4(training_map, feature_map_character, tfidf_idea, a
     easy_domain_flag=args.easy_domain2;
     if tfidf_idea==2:
         #素性ベクトルを定数倍しない
-        constant=True;
+        constant=False;
         #g_ ではじまる素性は作らない
         easy_domain_flag=False;
     elif tfidf_idea==3:
         #素性ベクトルを定数倍する
         constant=True;
         #g_ で始まる素性は作らない
-        easy_domain_flag=True;
+        easy_domain_flag=False;
     elif tfidf_idea==4:
         #素性ベクトルを定数倍する
         constant=True;
@@ -131,7 +132,7 @@ def create_tfidf_feat_idea2_4(training_map, feature_map_character, tfidf_idea, a
     elif tfidf_idea==5:
         #素性ベクトルを定数倍する
         constant=True;
-        #g_ で始まる素性は作る
+        #g_ で始まる素性は作らない
         easy_domain_flag=False;        
     
     feature_map_character, L2_normalized_map=create_tfidf_feat_idea_general(training_map, feature_map_character, constant, easy_domain_flag, args);

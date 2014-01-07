@@ -5,11 +5,13 @@
 Created on Thu Dec 12 12:16:52 2013
 
 @author: kensuke-mi
-__date__="2013/12/31"
+__date__="2014/01/07"
 """
+
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 import sys, codecs, random, re, subprocess;
 import feature_function;
-env='local';
+env='pine';
 
 if env=='pine':
     #change below by an environment
@@ -40,6 +42,11 @@ suffix_path_to_updated_f='.updated.';
 #The path to save arow trained model
 
 #The path to save liblinear trained model
+
+#Arowの閾値の設定
+#Threshold for semi-supervised training using Dutch folktale corpus. Instances above this threshold are used to re-train arow model
+threshold=0.4;
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 def close_test(classifier_path, test_path):
     print 'close test result for {} with {}'.format(classifier_path, test_path);
@@ -162,8 +169,8 @@ def tuning_arow(correct_label_key,exno,training_file,dev_file,mode):
         arow_args=['arow_learn', '-i', str(iter_times), '-r', str(hyp_tmp), '-s', training_file, tmp_modelpath];
 
         try:
+            #p_train=subprocess.Popen(arow_args, **subproc_args);
             p_train=subprocess.Popen(arow_args, **subproc_args);
-            #p_train=subprocess.Popen(arow_args);
         except OSError:
             print "Failed to execute command: %s" % args[0];
             sys.exit(1);
@@ -223,11 +230,11 @@ def get_instance_above_threshold(prob_stack,correct_label_key,dutch_testfile_pat
     ARGS: 省略
     RETURN additional_insrances_tuple: tuple (unicode label, list [unicode correct_instance_in_libsvmformat], list [unicode incorrect_instance_in_libsvmformat])
     """
-    #閾値の設定
-    threshold=0.8;
+
     line_number_stack_for_correctlabel=[];
     line_number_stack_for_incorrectlabel=[];
     for line_index, line in enumerate(prob_stack):
+        print line;
         if re.search(ur'(\+1|-1)\s.+', line):
             decision, prob=line.split();
             if float(prob) >= float(threshold):
@@ -267,7 +274,12 @@ def add_additional_instances(additional_instance_stack,args):
         #モデルは新たに訓練しないで，訓練済みのモデルをコピーしてしまって良いだろう
         if correct_instance_stack==[] and incorrect_instance_stack==[]:
             print 'There is no update instance for correct label {}. Skip this label'.format(correct_label);
-        #
+        else:
+            print '[semi-supervised instances] label:{}'.format(correct_label); 
+            print 'added instances for correct label:{}'.format(len(correct_instance_stack))
+            print 'added instances for incorrect label:{}'.format(len(incorrect_instance_stack))
+        
+        #トンプソンのモチーフラベルのみが保存されているパス
         already_path_to_training_f=prefix_path_to_training_f+correct_label+suffix_path_to_tarining_f+args.experiment_no;
         already_training_lines=codecs.open(already_path_to_training_f, 'r', 'utf-8').readlines();
         #オランダ語コーパスの閾値以上の確信度を持つ事例を追加する
@@ -297,6 +309,7 @@ def shape_format(training_map, mode,args):
     """
     exno=args.experiment_no;
     additional_instances_stack=[];
+
     for correct_label_key in training_map:
         instance_lines_num_map={'C':0, 'N':0};
         lines_for_correct_instances_stack=[];
@@ -507,13 +520,15 @@ def out_to_libsvm_format_arow(training_map_original, feature_map_numeric,
 def out_to_libsvm_format(training_map_original, feature_map_numeric,
                         feature_map_character, tfidf, tfidf_score_map,
                         exno, tfidf_idea, args):
+    
     training_map_feature_space=feature_function.convert_to_feature_space\
                                                         (training_map_original,
                                                         feature_map_character,
                                                         feature_map_numeric,
                                                         tfidf_score_map, tfidf, tfidf_idea, args);
-                                                        
+    
     unified_training_map=unify_tarining_feature_space(training_map_feature_space); 
+ 
     training_map=unified_training_map; 
     #============================================================ 
     shape_format(training_map, 'super', args);
